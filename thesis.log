@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  15 MAY 2017 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 MAY 2017 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,7 +891,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (104.0525pt too wide) in paragraph at lines 334--347
+Overfull \hbox (104.0525pt too wide) in paragraph at lines 338--351
  [] 
  []
 
@@ -904,7 +904,7 @@ alized.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/signal_level_Mee_pt1015_ratio_plot_MC_norma
 lized.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/signal_level_Mee_pt1015
-_ratio_plot_MC_normalized.pdf used on input line 358.
+_ratio_plot_MC_normalized.pdf used on input line 362.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/signal_level_Mee_pt1520_ratio_plot_MC_normalize
@@ -915,7 +915,7 @@ alized.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/signal_level_Mee_pt1520_ratio_plot_MC_norma
 lized.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/signal_level_Mee_pt1520
-_ratio_plot_MC_normalized.pdf used on input line 359.
+_ratio_plot_MC_normalized.pdf used on input line 363.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/signal_level_Mmumu_pt1015_ratio_plot_MC_normali
@@ -926,7 +926,7 @@ rmalized.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/signal_level_Mmumu_pt1015_ratio_plot_MC_nor
 malized.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/signal_level_Mmumu_pt10
-15_ratio_plot_MC_normalized.pdf used on input line 360.
+15_ratio_plot_MC_normalized.pdf used on input line 364.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/signal_level_Mmumu_pt1520_ratio_plot_MC_normali
@@ -937,12 +937,12 @@ rmalized.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/signal_level_Mmumu_pt1520_ratio_plot_MC_nor
 malized.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/signal_level_Mmumu_pt15
-20_ratio_plot_MC_normalized.pdf used on input line 361.
+20_ratio_plot_MC_normalized.pdf used on input line 365.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 
 LaTeX Warning: Citation `ATLAS-CONF-2014-018' on page 22 undefined on input lin
-e 370.
+e 374.
 
 [22] [23 <./figures/real_lepton_efficiency/signal_level_Mee_pt1015_ratio_plot_M
 C_normalized.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency
@@ -951,7 +951,7 @@ es> <./figures/real_lepton_efficiency/signal_level_Mmumu_pt1015_ratio_plot_MC_n
 ormalized.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency/si
 gnal_level_Mmumu_pt1520_ratio_plot_MC_normalized.pdf, page is rotated 90 degree
 s>]
-Overfull \hbox (61.18044pt too wide) in paragraph at lines 393--404
+Overfull \hbox (61.18044pt too wide) in paragraph at lines 397--408
  [] 
  []
 
@@ -963,7 +963,7 @@ Graphic file (type pdf)
 
 <use figures/real_lepton_efficiency/bkg_template_electron_pt_1015_eta0201.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_template_electron_p
-t_1015_eta0201.pdf used on input line 411.
+t_1015_eta0201.pdf used on input line 415.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/bkg_template_electron_pt_1520_eta0201.pdf, id=8
@@ -973,7 +973,7 @@ Graphic file (type pdf)
 
 <use figures/real_lepton_efficiency/bkg_template_electron_pt_1520_eta0201.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_template_electron_p
-t_1520_eta0201.pdf used on input line 412.
+t_1520_eta0201.pdf used on input line 416.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 [24] [25 <./figures/real_lepton_efficiency/bkg_template_electron_pt_1015_eta020
@@ -990,7 +990,7 @@ seline_mll80_100_pt10_15_eta0_80_tag_trigger_matched.pdf Graphic file (type pdf
 eline_mll80_100_pt10_15_eta0_80_tag_trigger_matched.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_subtraction_baselin
 e_template_range_baseline_mll80_100_pt10_15_eta0_80_tag_trigger_matched.pdf use
-d on input line 445.
+d on input line 449.
 (pdftex.def)             Requested size: 135.94055pt x 130.42738pt.
 
 <figures/real_lepton_efficiency/bkg_subtraction_baseline_template_range_baselin
@@ -1004,7 +1004,7 @@ df)
 eline_mll80_100_pt10_15_eta80_137_tag_trigger_matched.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_subtraction_baselin
 e_template_range_baseline_mll80_100_pt10_15_eta80_137_tag_trigger_matched.pdf u
-sed on input line 446.
+sed on input line 450.
 (pdftex.def)             Requested size: 135.94055pt x 130.42738pt.
 
 <figures/real_lepton_efficiency/bkg_subtraction_baseline_template_range_baselin
@@ -1018,7 +1018,7 @@ pdf)
 eline_mll80_100_pt10_15_eta151_200_tag_trigger_matched.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_subtraction_baselin
 e_template_range_baseline_mll80_100_pt10_15_eta151_200_tag_trigger_matched.pdf 
-used on input line 447.
+used on input line 451.
 (pdftex.def)             Requested size: 135.94055pt x 130.42738pt.
 
 <figures/real_lepton_efficiency/bkg_subtraction_baseline_template_range_baselin
@@ -1032,7 +1032,7 @@ seline_mll80_100_pt15_20_eta0_80_tag_trigger_matched.pdf Graphic file (type pdf
 eline_mll80_100_pt15_20_eta0_80_tag_trigger_matched.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_subtraction_baselin
 e_template_range_baseline_mll80_100_pt15_20_eta0_80_tag_trigger_matched.pdf use
-d on input line 448.
+d on input line 452.
 (pdftex.def)             Requested size: 135.94055pt x 130.42738pt.
 
 <figures/real_lepton_efficiency/bkg_subtraction_baseline_template_range_baselin
@@ -1046,7 +1046,7 @@ df)
 eline_mll80_100_pt15_20_eta80_137_tag_trigger_matched.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_subtraction_baselin
 e_template_range_baseline_mll80_100_pt15_20_eta80_137_tag_trigger_matched.pdf u
-sed on input line 449.
+sed on input line 453.
 (pdftex.def)             Requested size: 135.94055pt x 130.42738pt.
 
 <figures/real_lepton_efficiency/bkg_subtraction_baseline_template_range_baselin
@@ -1060,20 +1060,20 @@ pdf)
 eline_mll80_100_pt15_20_eta151_200_tag_trigger_matched.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/bkg_subtraction_baselin
 e_template_range_baseline_mll80_100_pt15_20_eta151_200_tag_trigger_matched.pdf 
-used on input line 450.
+used on input line 454.
 (pdftex.def)             Requested size: 135.94055pt x 130.42738pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--458
+Underfull \hbox (badness 10000) in paragraph at lines 449--462
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 445--458
+Underfull \hbox (badness 10000) in paragraph at lines 449--462
 [] []
  []
 
 
-LaTeX Warning: Float too large for page by 262.48384pt on input line 460.
+LaTeX Warning: Float too large for page by 262.48384pt on input line 464.
 
 [27] [28 <./figures/real_lepton_efficiency/bkg_subtraction_baseline_template_ra
 nge_baseline_mll80_100_pt10_15_eta0_80_tag_trigger_matched.pdf, page is rotated
@@ -1088,13 +1088,13 @@ _baseline_template_range_baseline_mll80_100_pt15_20_eta80_137_tag_trigger_match
 ed.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency/bkg_subtr
 action_baseline_template_range_baseline_mll80_100_pt15_20_eta151_200_tag_trigge
 r_matched.pdf, page is rotated 90 degrees>]
-Overfull \hbox (85.47209pt too wide) in paragraph at lines 494--507
+Overfull \hbox (85.47209pt too wide) in paragraph at lines 498--511
  [] 
  []
 
 
 LaTeX Warning: Citation `SS3L-Moriond2017' on page 29 undefined on input line 5
-24.
+28.
 
 [29]
 <figures/real_lepton_efficiency/cut_efficiency_electron.pdf, id=1212, 569.12625
@@ -1104,7 +1104,7 @@ type pdf)
 
 <use figures/real_lepton_efficiency/cut_efficiency_electron.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/cut_efficiency_electron
-.pdf used on input line 529.
+.pdf used on input line 533.
 (pdftex.def)             Requested size: 197.72885pt x 188.66257pt.
 
 <figures/real_lepton_efficiency/cut_efficiency_muon.pdf, id=1213, 569.12625pt x
@@ -1113,7 +1113,7 @@ File: figures/real_lepton_efficiency/cut_efficiency_muon.pdf Graphic file (type
  pdf)
  <use figures/real_lepton_efficiency/cut_efficiency_muon.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/cut_efficiency_muon.pdf
- used on input line 530.
+ used on input line 534.
 (pdftex.def)             Requested size: 197.72885pt x 188.66257pt.
 
 [30] [31 <./figures/real_lepton_efficiency/cut_efficiency_electron.pdf, page is
@@ -1127,7 +1127,7 @@ File: figures/real_lepton_efficiency/real_electron_efficiency_total_systematics
 <use figures/real_lepton_efficiency/real_electron_efficiency_total_systematics.
 pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_electron_efficienc
-y_total_systematics.pdf used on input line 567.
+y_total_systematics.pdf used on input line 571.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/real_muon_efficiency_total_systematics.pdf, id=
@@ -1137,7 +1137,7 @@ File: figures/real_lepton_efficiency/real_muon_efficiency_total_systematics.pdf
 
 <use figures/real_lepton_efficiency/real_muon_efficiency_total_systematics.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_muon_efficiency_to
-tal_systematics.pdf used on input line 568.
+tal_systematics.pdf used on input line 572.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 [32] [33 <./figures/real_lepton_efficiency/real_electron_efficiency_total_syste
 matics.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency/real_
@@ -1149,7 +1149,7 @@ Graphic file (type pdf)
 
 <use figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_pt.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/Compare_TandP_truth_mat
-ch_electron_pt.pdf used on input line 593.
+ch_electron_pt.pdf used on input line 597.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_eta.pdf, id=
@@ -1159,7 +1159,7 @@ File: figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_eta.pdf
 
 <use figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_eta.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/Compare_TandP_truth_mat
-ch_electron_eta.pdf used on input line 594.
+ch_electron_eta.pdf used on input line 598.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_dRjet.pdf, i
@@ -1170,7 +1170,7 @@ df Graphic file (type pdf)
 <use figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_dRjet.pd
 f>
 Package pdftex.def Info: figures/real_lepton_efficiency/Compare_TandP_truth_mat
-ch_electron_dRjet.pdf used on input line 595.
+ch_electron_dRjet.pdf used on input line 599.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/Compare_TandP_truth_match_muon_pt.pdf, id=1404,
@@ -1180,7 +1180,7 @@ hic file (type pdf)
 
 <use figures/real_lepton_efficiency/Compare_TandP_truth_match_muon_pt.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/Compare_TandP_truth_mat
-ch_muon_pt.pdf used on input line 596.
+ch_muon_pt.pdf used on input line 600.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/Compare_TandP_truth_match_muon_eta.pdf, id=1405
@@ -1190,7 +1190,7 @@ phic file (type pdf)
 
 <use figures/real_lepton_efficiency/Compare_TandP_truth_match_muon_eta.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/Compare_TandP_truth_mat
-ch_muon_eta.pdf used on input line 597.
+ch_muon_eta.pdf used on input line 601.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/Compare_TandP_truth_match_muon_dRjet.pdf, id=14
@@ -1200,20 +1200,20 @@ raphic file (type pdf)
 
 <use figures/real_lepton_efficiency/Compare_TandP_truth_match_muon_dRjet.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/Compare_TandP_truth_mat
-ch_muon_dRjet.pdf used on input line 598.
+ch_muon_dRjet.pdf used on input line 602.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--605
+Underfull \hbox (badness 10000) in paragraph at lines 597--609
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--605
+Underfull \hbox (badness 10000) in paragraph at lines 597--609
 [] []
  []
 
 
-LaTeX Warning: Float too large for page by 98.5358pt on input line 607.
+LaTeX Warning: Float too large for page by 98.5358pt on input line 611.
 
 [34] [35 <./figures/real_lepton_efficiency/Compare_TandP_truth_match_electron_p
 t.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency/Compare_Ta
@@ -1231,7 +1231,7 @@ File: figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_pt.pdf
 
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_pt.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_electron_pt.pdf used on input line 626.
+lot_electron_pt.pdf used on input line 630.
 (pdftex.def)             Requested size: 135.94055pt x 130.66713pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_eta.pdf, id
@@ -1242,7 +1242,7 @@ f Graphic file (type pdf)
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_eta.pdf
 >
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_electron_eta.pdf used on input line 627.
+lot_electron_eta.pdf used on input line 631.
 (pdftex.def)             Requested size: 135.94055pt x 130.66713pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_dRjet.pdf, 
@@ -1253,7 +1253,7 @@ pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_dRjet.p
 df>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_electron_dRjet.pdf used on input line 628.
+lot_electron_dRjet.pdf used on input line 632.
 (pdftex.def)             Requested size: 135.94055pt x 130.66713pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_pt.pdf, id=1676
@@ -1263,7 +1263,7 @@ phic file (type pdf)
 
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_pt.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_muon_pt.pdf used on input line 629.
+lot_muon_pt.pdf used on input line 633.
 (pdftex.def)             Requested size: 135.94055pt x 130.66713pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_eta.pdf, id=167
@@ -1273,7 +1273,7 @@ aphic file (type pdf)
 
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_eta.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_muon_eta.pdf used on input line 630.
+lot_muon_eta.pdf used on input line 634.
 (pdftex.def)             Requested size: 135.94055pt x 130.66713pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_dRjet.pdf, id=1
@@ -1283,20 +1283,20 @@ Graphic file (type pdf)
 
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_dRjet.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_muon_dRjet.pdf used on input line 631.
+lot_muon_dRjet.pdf used on input line 635.
 (pdftex.def)             Requested size: 135.94055pt x 130.66713pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--637
+Underfull \hbox (badness 10000) in paragraph at lines 630--641
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 626--637
+Underfull \hbox (badness 10000) in paragraph at lines 630--641
 [] []
  []
 
 
-LaTeX Warning: Float too large for page by 184.58029pt on input line 639.
+LaTeX Warning: Float too large for page by 184.58029pt on input line 643.
 
 [36] [37 <./figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_
 pt.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency/real_effi
@@ -1314,7 +1314,7 @@ file (type pdf)
 
 <use figures/real_lepton_efficiency/real_efficiency_vs_AvgMu_elec.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_vs_AvgM
-u_elec.pdf used on input line 659.
+u_elec.pdf used on input line 663.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/real_efficiency_vs_AvgMu_muon.pdf, id=1946, 569
@@ -1324,7 +1324,7 @@ file (type pdf)
 
 <use figures/real_lepton_efficiency/real_efficiency_vs_AvgMu_muon.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_vs_AvgM
-u_muon.pdf used on input line 660.
+u_muon.pdf used on input line 664.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_pt_ttbar_gt
@@ -1335,7 +1335,7 @@ ar_gtt.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_electron_pt_ttba
 r_gtt.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_electron_pt_ttbar_gtt.pdf used on input line 672.
+lot_electron_pt_ttbar_gtt.pdf used on input line 676.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
 <figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_pt_ttbar_gtt.pd
@@ -1346,7 +1346,7 @@ tt.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/real_efficiency_ratio_plot_muon_pt_ttbar_gt
 t.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/real_efficiency_ratio_p
-lot_muon_pt_ttbar_gtt.pdf used on input line 673.
+lot_muon_pt_ttbar_gtt.pdf used on input line 677.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
  [38] [39 <./figures/real_lepton_efficiency/real_efficiency_vs_AvgMu_elec.pdf, 
 page is rotated 90 degrees> <./figures/real_lepton_efficiency/real_efficiency_v
@@ -1362,7 +1362,7 @@ plot.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/trigger_uncertainty_electron_eta080_ratio_p
 lot.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_ele
-ctron_eta080_ratio_plot.pdf used on input line 796.
+ctron_eta080_ratio_plot.pdf used on input line 800.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/trigger_uncertainty_electron_eta80137_ratio_plo
@@ -1373,7 +1373,7 @@ o_plot.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/trigger_uncertainty_electron_eta80137_ratio
 _plot.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_ele
-ctron_eta80137_ratio_plot.pdf used on input line 797.
+ctron_eta80137_ratio_plot.pdf used on input line 801.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
 <figures/real_lepton_efficiency/trigger_uncertainty_electron_eta152201_ratio_pl
@@ -1384,10 +1384,10 @@ io_plot.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/trigger_uncertainty_electron_eta152201_rati
 o_plot.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_ele
-ctron_eta152201_ratio_plot.pdf used on input line 798.
+ctron_eta152201_ratio_plot.pdf used on input line 802.
 (pdftex.def)             Requested size: 135.94055pt x 129.7081pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--802
+Underfull \hbox (badness 10000) in paragraph at lines 800--806
 [][] []
  []
 
@@ -1400,7 +1400,7 @@ File: figures/real_lepton_efficiency/trigger_uncertainty_muon_eta060_ratio_plot
 <use figures/real_lepton_efficiency/trigger_uncertainty_muon_eta060_ratio_plot.
 pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_muo
-n_eta060_ratio_plot.pdf used on input line 807.
+n_eta060_ratio_plot.pdf used on input line 811.
 (pdftex.def)             Requested size: 197.72885pt x 188.66257pt.
 
 <figures/real_lepton_efficiency/trigger_uncertainty_muon_eta60120_ratio_plot.pd
@@ -1411,7 +1411,7 @@ ot.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/trigger_uncertainty_muon_eta60120_ratio_plo
 t.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_muo
-n_eta60120_ratio_plot.pdf used on input line 808.
+n_eta60120_ratio_plot.pdf used on input line 812.
 (pdftex.def)             Requested size: 197.72885pt x 188.66257pt.
 
 <figures/real_lepton_efficiency/trigger_uncertainty_muon_eta120180_ratio_plot.p
@@ -1422,7 +1422,7 @@ lot.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/trigger_uncertainty_muon_eta120180_ratio_pl
 ot.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_muo
-n_eta120180_ratio_plot.pdf used on input line 809.
+n_eta120180_ratio_plot.pdf used on input line 813.
 (pdftex.def)             Requested size: 197.72885pt x 188.66257pt.
 
 <figures/real_lepton_efficiency/trigger_uncertainty_muon_eta180250_ratio_plot.p
@@ -1433,7 +1433,7 @@ lot.pdf Graphic file (type pdf)
 <use figures/real_lepton_efficiency/trigger_uncertainty_muon_eta180250_ratio_pl
 ot.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/trigger_uncertainty_muo
-n_eta180250_ratio_plot.pdf used on input line 810.
+n_eta180250_ratio_plot.pdf used on input line 814.
 (pdftex.def)             Requested size: 197.72885pt x 188.66257pt.
  [44] [45 <./figures/real_lepton_efficiency/trigger_uncertainty_electron_eta080
 _ratio_plot.pdf, page is rotated 90 degrees> <./figures/real_lepton_efficiency/
@@ -1452,7 +1452,7 @@ File: figures/real_lepton_efficiency/baseline_kinematics.pdf Graphic file (type
  pdf)
  <use figures/real_lepton_efficiency/baseline_kinematics.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/baseline_kinematics.pdf
- used on input line 913.
+ used on input line 917.
 (pdftex.def)             Requested size: 395.464pt x 223.89899pt.
 
 <figures/real_lepton_efficiency/baseline_deltaR_and_NJets.pdf, id=2467, 569.126
@@ -1462,17 +1462,17 @@ File: figures/real_lepton_efficiency/baseline_deltaR_and_NJets.pdf Graphic file
 
 <use figures/real_lepton_efficiency/baseline_deltaR_and_NJets.pdf>
 Package pdftex.def Info: figures/real_lepton_efficiency/baseline_deltaR_and_NJe
-ts.pdf used on input line 923.
+ts.pdf used on input line 927.
 (pdftex.def)             Requested size: 395.464pt x 223.89899pt.
  [49]
 [50 <./figures/real_lepton_efficiency/baseline_kinematics.pdf, page is rotated 
 90 degrees>] [51 <./figures/real_lepton_efficiency/baseline_deltaR_and_NJets.pd
 f, page is rotated 90 degrees>] [52] [53]
 
-LaTeX Warning: Float too large for page by 57.50339pt on input line 1042.
+LaTeX Warning: Float too large for page by 57.50339pt on input line 1046.
 
 
-LaTeX Warning: Float too large for page by 30.30338pt on input line 1076.
+LaTeX Warning: Float too large for page by 30.30338pt on input line 1080.
 
 ) [54] [55] [56]
 Chapter 6.
@@ -1514,7 +1514,7 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (70 pages, 1460632 bytes).
+Output written on thesis.pdf (70 pages, 1460824 bytes).
 PDF statistics:
  2640 PDF objects out of 2984 (max. 8388607)
  1161 compressed objects within 12 object streams
