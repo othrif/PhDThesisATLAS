@@ -1,0 +1,66 @@
+%% outhesis_template.tex
+%% version 1.1
+%% Chris McRaven <mcraven@physics.ou.edu>
+%% With updates from Leah Morabito <morabito@nhn.ou.edu>
+%%
+%% 'outhesis.cls' is a class file for a master or phd thesis that
+%% conforms to the requirements of the graduate college at the
+%% University of Oklahoma. This file is a hacked version of 'book.cls,'
+%% that includes all of the formatting requirements set forth in
+%% the document 'DissertationInstPacket.pdf' available at
+%% http://gradweb.ou.edu/Current/Forms/doctoral/DissertationPagination.pdf
+%%
+%% This class file relies on a few packages to work.  You must have the
+%% following packages installed:
+%%  amsfonts, amsmath, amssymb, tikz, lineno, microtype, hyperref
+%%
+%% Most of these packages are included in distributions of latex.  If you
+%% get alot of errors when compiling, check that these packages are
+%% installed.
+%%
+%% By default, the class file will conform to the requirements, but three
+%% options are provided for assistance in proofing the document.
+%%
+%% linenumbers -- turns on linenumbers in the left margin
+%% summarypage -- places a page at the beginning of the document listing 
+%%                the number of tables, figures, and bibliography items.
+%% hyperlinks -- hyperlinks the citations and references for easier
+%%                navigation in the document in a reader which supports
+%%                hyperlinks.
+%%
+%% NOTE FOR MASTERS STUDENTS: Open the outhesis.cls file, find the word 
+%% "DISSERTATION" and replace with "THESIS" and then save.
+%%
+% \documentclass[linenumbers,summarypage,hyperlinks]{outhesis}
+\documentclass{outhesis}
+
+% For a bibliography style, you must have the appropriate .bst file
+% \bibliographystyle{apj}
+\bibliographystyle{prsty}
+
+% Provide the correct margins
+\usepackage[top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+% If you want a double-sided copy for yourself, uncomment the next line
+% \usepackage[twoside,top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+\usepackage{\ATLASLATEXPATH atlasmisc}
+\usepackage{\ATLASLATEXPATH atlasphysics}
+\usepackage{\ATLASLATEXPATH myadditions}
+
+
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+\setcounter{chapter}{4}
+\chapter{Data-driven techniques to estimate fake lepton backgrounds}\label{sec:fake}
+%-------------------------------------------------------------------------------
+\input{texfiles/chap.fake.tex}
+
+
+
+\end{document}
+
+

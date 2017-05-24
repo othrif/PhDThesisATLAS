@@ -47,9 +47,10 @@
 \newcommand*{\ATLASLATEXPATH}{latex/}
 \usepackage{\ATLASLATEXPATH atlasmisc}
 \usepackage{\ATLASLATEXPATH atlasphysics}
+\usepackage{\ATLASLATEXPATH myadditions}
 
 % custom
-\usepackage{multirow}
+%\usepackage{multirow}
 
 
 \begin{document}
@@ -81,11 +82,9 @@
 %% Put your abstract here.
 
 \begin{abstract}
-<<<<<<< HEAD
+
 Well now this is my abstract.
-=======
-Well now this is my abstract.....
->>>>>>> 9e2518ebd772ead834ba172922b84520c3644044
+
 \end{abstract}
 
 
@@ -97,9 +96,14 @@ Well now this is my abstract.....
 
 
 %-------------------------------------------------------------------------------
+\chapter*{Preface}\label{sec:pre}
+%-------------------------------------------------------------------------------
+\input{texfiles/chap.pre.tex}
+
+%-------------------------------------------------------------------------------
 \chapter*{Introduction}\label{sec:intro}
 %-------------------------------------------------------------------------------
-\input{texfiles/sec.intro.tex}
+\input{texfiles/chap.intro.tex}
 
 %-------------------------------------------------------------------------------
 \chapter{Theoretical Background}\label{sec:theory}
@@ -127,14 +131,19 @@ Well now this is my abstract.....
 \input{texfiles/chap.fake.tex}
 
 %-------------------------------------------------------------------------------
-\chapter{Search for new physics in events with two same sign leptons or three leptons}\label{sec:ss3l}
+\chapter{Search for new physics in events with two same sign leptons or three leptons and jets}\label{sec:ss3l}
 %-------------------------------------------------------------------------------
 \input{texfiles/chap.ss3l.tex}
 
 %-------------------------------------------------------------------------------
+\chapter{Statistical Analysis}\label{sec:stat}
+%-------------------------------------------------------------------------------
+\input{texfiles/chap.stat.tex}
+
+%-------------------------------------------------------------------------------
 \chapter*{Conclusion}\label{sec:concl}
 %-------------------------------------------------------------------------------
-\input{texfiles/sec.concl.tex}
+\input{texfiles/chap.concl.tex}
 
 
 
