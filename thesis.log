@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  23 MAY 2017 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  23 MAY 2017 19:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,9 +598,21 @@ atlasphysics: AUNIT@texlive is [2013]
 *** atlasunit: siunitx is not loaded
 *** atlasunit: atlaspackage TeX Live is not defined
 *** atlasunit: defining TeVc, TeVcc as siunitx is not loaded
-) (./latex/atlasxref.sty)) (./latex/myadditions.sty)
+) (./latex/atlasxref.sty)) (./latex/myadditions.sty
 (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen177
+)
+(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/bbold/bbold.sty
+Package: bbold 1994/04/06 Bbold symbol package
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
+))
+(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/tensor/tensor.sty
+Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
+\tnsr@Sps=\toks35
+\tnsr@Sbs=\toks36
+\tnsr@Spe=\toks37
+\tnsr@Sbe=\toks38
+\ncld@Mno=\toks39
 )
 (./thesis.aux)
 \openout1 = `thesis.aux'.
@@ -625,12 +637,12 @@ LaTeX Font Info:    ... okay on input line 56.
 \scratchbox=\box63
 \nofMPsegments=\count130
 \nofMParguments=\count131
-\everyMPshowfont=\toks35
+\everyMPshowfont=\toks40
 \MPscratchCnt=\count132
 \MPscratchDim=\dimen179
 \MPnumerator=\count133
 \makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks36
+\everyMPtoPDFconversion=\toks41
 ) (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -886,50 +898,81 @@ Package pdftex.def Info: figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf used on in
 put line 200.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
  [15] [16 <./figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Prefit/
-NJETS_em_CR0b_SS3L.pdf> <./figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>] [17 <./
-figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Postfit/NJETS_em_CR
-0b_SS3L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>] [18 <./figures/mc
-t/Prefit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf>
- <./figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>] [19 <./figures/mct/Postfit/el2
-_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf> <./figures
-/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>] [20] [21] [22]) [23]
+NJETS_em_CR0b_SS3L.pdf> <./figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>]
+
+LaTeX Warning: Text page 17 contains only floats.
+
+[17 <./figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Postfit/NJET
+S_em_CR0b_SS3L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>]
+
+LaTeX Warning: Text page 18 contains only floats.
+
+[18 <./figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Prefit/NJETS_
+em_CR1b_SS3L.pdf> <./figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>] [19 <./figure
+s/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Postfit/NJETS_em_CR1b_SS3
+L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>] [20]
+LaTeX Font Info:    Try loading font information for U+bbold on input line 330.
+
+
+(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/bbold/Ubbold.fd) [21]
+
+LaTeX Warning: Reference `eq:mxm_start' on page 22 undefined on input line 408.
+
+
+[22]
+
+LaTeX Warning: Reference `eq:mxm_start_kroe' on page 23 undefined on input line
+ 425.
+
+[23] [24]) [25]
 Chapter 6.
-(./texfiles/chap.ss3l.tex) [24
+(./texfiles/chap.ss3l.tex) [26
 
 ]
 Chapter 7.
-(./texfiles/chap.stat.tex) [25
+(./texfiles/chap.stat.tex) [27
 
 ] (./texfiles/chap.concl.tex)
 No file thesis.bbl.
-[26
+[28
 
-] (./thesis.aux) ) 
+] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17206 strings out of 493109
- 352854 string characters out of 6133666
- 454363 words of memory out of 5000000
- 20167 multiletter control sequences out of 15000+600000
- 16282 words of font info for 105 fonts, out of 8000000 for 9000
+ 17294 strings out of 493109
+ 354270 string characters out of 6133666
+ 454325 words of memory out of 5000000
+ 20233 multiletter control sequences out of 15000+600000
+ 17443 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,69p,1048b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmcsc10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmex10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on thesis.pdf (35 pages, 454600 bytes).
+</afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/bbold-type1/bbold10
+.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmcsc10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb>
+Output written on thesis.pdf (37 pages, 489587 bytes).
 PDF statistics:
- 699 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
+ 724 PDF objects out of 1000 (max. 8388607)
+ 352 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  14926 words of extra memory for PDF output out of 17280 (max. 10000000)
 

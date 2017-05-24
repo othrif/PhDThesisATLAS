@@ -14,10 +14,10 @@
 \contentsline {subsection}{\numberline {5.3.3}Correction factors}{13}
 \contentsline {subsection}{\numberline {5.3.4}Control regions}{14}
 \contentsline {section}{\numberline {5.4}Matrix Method}{16}
-\contentsline {subsection}{\numberline {5.4.1}Events with one object}{17}
-\contentsline {subsection}{\numberline {5.4.2}Dynamic matrix method}{20}
-\contentsline {subsection}{\numberline {5.4.3}Propagation of uncertainties}{22}
-\contentsline {section}{\numberline {5.5}Real lepton efficiency}{23}
-\contentsline {section}{\numberline {5.6}Fake lepton rate}{23}
-\contentsline {chapter}{\numberline {6}Search for new physics in events with two same sign leptons or three leptons and jets}{24}
-\contentsline {chapter}{\numberline {7}Statistical Analysis}{25}
+\contentsline {subsection}{\numberline {5.4.1}Events with one object}{19}
+\contentsline {subsection}{\numberline {5.4.2}Dynamic matrix method}{21}
+\contentsline {subsection}{\numberline {5.4.3}Propagation of uncertainties}{25}
+\contentsline {section}{\numberline {5.5}Real lepton efficiency}{25}
+\contentsline {section}{\numberline {5.6}Fake lepton rate}{25}
+\contentsline {chapter}{\numberline {6}Search for new physics in events with two same sign leptons or three leptons and jets}{26}
+\contentsline {chapter}{\numberline {7}Statistical Analysis}{27}
