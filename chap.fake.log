@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  23 MAY 2017 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  24 MAY 2017 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -854,35 +854,35 @@ LaTeX Font Info:    Try loading font information for U+bbold on input line 330.
 
 
 (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/bbold/Ubbold.fd) [14] [15]
-[16] [17]) [18] (./chap.fake.aux) ) 
+[16] [17] [18]) [19] (./chap.fake.aux) ) 
 Here is how much of TeX's memory you used:
- 17218 strings out of 493109
- 353112 string characters out of 6133666
- 454308 words of memory out of 5000000
- 20204 multiletter control sequences out of 15000+600000
- 16734 words of font info for 108 fonts, out of 8000000 for 9000
+ 17221 strings out of 493109
+ 353155 string characters out of 6133666
+ 454320 words of memory out of 5000000
+ 20205 multiletter control sequences out of 15000+600000
+ 16783 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,69p,1051b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts
-/type1/public/bbold-type1/bbold10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmcsc10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmex10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL2014/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></afs/cern.ch/sw/XML/TL2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on chap.fake.pdf (18 pages, 452400 bytes).
+</afs/cern.ch/sw/XML/TL2014/texmf-dist/
+fonts/type1/public/bbold-type1/bbold10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmbx12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></afs/cern.ch/sw/XML/TL2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></afs/cern.ch/sw/XML/TL2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></afs/cern.ch/sw/XML/TL2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/T
+L2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/
+TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/
+TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/
+TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/
+TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XM
+L/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on chap.fake.pdf (19 pages, 457270 bytes).
 PDF statistics:
- 657 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
+ 661 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  13902 words of extra memory for PDF output out of 14400 (max. 10000000)
 

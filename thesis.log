@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  23 MAY 2017 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.11)  25 MAY 2017 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesis.tex
 (./thesis.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9n> and hyphenation patterns for 79 languages loaded.
 (./outhesis.cls
 Document Class: outhesis 2010/08/23 v1.0 Standard LaTeX document class
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -16,24 +16,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip41
 
 For additional information on amsmath, use the `?' option.
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsmath/amstext.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen102
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen103
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count79
@@ -74,57 +74,57 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common
 .tex
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen111
 \pgfutil@tempdimb=\dimen112
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-common
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common
 -lists.tex))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.
 def
 \pgfutil@abb=\box28
- (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/ms/everyshi.sty
+ (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.te
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.te
 x
-Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
- (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/
-afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+ (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/
+afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/graphics/keyval.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -132,17 +132,17 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.
 tex
-Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.t
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.t
 ex
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltere
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltere
 d.code.tex
 \pgfkeys@tmptoks=\toks24
 ))
@@ -164,33 +164,33 @@ d.code.tex
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdfte
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdfte
 x.def
-File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-commo
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-commo
 n-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpa
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpa
 th.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count96
 \pgfsyssoftpath@bigbuffer@items=\count97
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotoc
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotoc
 ol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/latexconfig/color.cfg
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -204,16 +204,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.
 tex
-Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.te
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.te
 x
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.te
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.te
 x)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.
 tex
 \pgfmath@dimen=\dimen123
 \pgfmath@count=\count98
@@ -222,29 +222,29 @@ tex
 \pgfmath@stack@operand=\toks29
 \pgfmath@stack@operation=\toks30
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.co
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.co
 de.tex
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ba
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ba
 sic.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.tr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.tr
 igonometric.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ra
 ndom.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.co
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.co
 mparison.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ba
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ba
 se.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ro
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ro
 und.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.mi
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.mi
 sc.code.tex)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.in
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.in
 tegerarithmetics.code.tex)))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.t
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.t
 ex
 \c@pgfmathroundto@lastzeros=\count99
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints
 .code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen124
@@ -262,122 +262,122 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen136
 \pgf@zy=\dimen137
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathco
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathco
 nstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen138
 \pgf@path@lasty=\dimen139
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathus
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathus
 age.code.tex
-File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen140
 \pgf@shorten@start@additional=\dimen141
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes
 .code.tex
-File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box30
 \pgf@hbox=\box31
 \pgf@layerbox@main=\box32
 \pgf@picture@serial@count=\count100
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphi
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphi
 cstate.code.tex
-File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen142
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransf
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransf
 ormations.code.tex
-File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen143
 \pgf@pt@y=\dimen144
 \pgf@pt@temp=\dimen145
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.
 code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobject
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobject
 s.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathpr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathpr
 ocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows
 .code.tex
-File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen146
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.
 code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen147
 \pgf@sys@shading@range@num=\count101
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.
 code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreextern
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreextern
 al.code.tex
-File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box33
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers
 .code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransp
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransp
 arency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatter
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatter
 ns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.
 code.tex
-File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box34
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.co
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.co
 de.tex
-File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-vers
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-vers
 ion-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen148
 \pgf@nodesepend=\dimen149
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-vers
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-vers
 ion-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.t
-ex)) (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/utilities/pgffor.code.te
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.t
+ex)) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.te
 x
-Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
- (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+ (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen150
 \pgffor@skip=\dimen151
 \pgffor@stack=\toks31
 \pgffor@toks=\toks32
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.
 code.tex
-Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/pgflibraryplot
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplot
 handlers.code.tex
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count102
 \pgfplotmarksize=\dimen152
 )
@@ -396,7 +396,7 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count105
 \tikz@fig@count=\count106
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.
 code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count107
@@ -405,59 +405,61 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count110
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
 
-
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
 aryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
 aryshapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
 aryshapes.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
 aryshapes.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 ))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.callouts.code.tex
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
 aryshapes.callouts.code.tex))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
 
-
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibr
 aryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
 \pgfnodepartlowerbox=\box39
 \pgfnodeparttwobox=\box40
 \pgfnodepartthreebox=\box41
@@ -479,9 +481,9 @@ File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
 \pgfnodepartsixbox=\box57
 \pgfnodepartfivebox=\box58
 )))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libra
 ries/tikzlibrarydecorations.code.tex
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorat
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorat
 ions.code.tex
 \pgfdecoratedcompleteddistance=\dimen159
 \pgfdecoratedremainingdistance=\dimen160
@@ -493,7 +495,7 @@ ions.code.tex
 \pgfdecorationsegmentlength=\dimen165
 )
 \tikz@lib@dec@box=\box59
-) (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/base/bk12.clo
+) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count112
@@ -511,7 +513,7 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \absbox=\box60
 \ackbox=\box61
 \dedbox=\box62
-) (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/microtype/microtype.sty
+) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks33
 \MT@count=\count121
@@ -520,7 +522,7 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count122
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
@@ -528,25 +530,25 @@ LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip46
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/microtype/microtype.cfg
+ (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 \c@totalfigure=\count123
 \c@totaltable=\count124
 \c@totalbibitem=\count125
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/geometry/geometry.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count126
@@ -565,25 +567,25 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (./latex/atlasmisc.sty
 \figwidth=\skip47
 \dkwidth=\dimen176
-) (./latex/atlasphysics.sty
+) (./latex/atlasbsm.sty) (./latex/atlasphysics.sty
 Package: latex/atlasphysics 2016/10/10 v.02-00-01 ATLAS physics macros
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/tools/xspace.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/base/ifthen.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -599,14 +601,14 @@ atlasphysics: AUNIT@texlive is [2013]
 *** atlasunit: atlaspackage TeX Live is not defined
 *** atlasunit: defining TeVc, TeVcc as siunitx is not loaded
 ) (./latex/atlasxref.sty)) (./latex/myadditions.sty
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/multirow/multirow.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen177
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/bbold/bbold.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
-))
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/tensor/tensor.sty
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/tensor/tensor.sty
 Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
 \tnsr@Sps=\toks35
 \tnsr@Sbs=\toks36
@@ -614,36 +616,93 @@ Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
 \tnsr@Sbe=\toks38
 \ncld@Mno=\toks39
 )
-(./thesis.aux)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count129
+\rotFPtop=\skip48
+\rotFPbot=\skip49
+\rot@float@box=\box63
+\rot@mess@toks=\toks40
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/02 v3.3-136 Customizing captions (AR)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/02 v1.7-136 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen178
+\captionmargin@=\dimen179
+\captionwidth=\dimen180
+\caption@tempdima=\dimen181
+\caption@indent=\dimen182
+\caption@parindent=\dimen183
+\caption@hangindent=\dimen184
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \sbox \@tempboxa {\capfont #1: #2}\ifdim \wd \@tempboxa >\hsize {\begin {cent
+er}{\parbox {\capwidth }{\capfont #1: #2}}\end {center}}\par \else \global \@mi
+nipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil }\fi \vskip \belowcapti
+onskip .
+\c@ContinuedFloat=\count130
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count131
+\sf@farskip=\skip50
+\sf@captopadj=\dimen185
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count132
+\c@subfigure@save=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@subtable@save=\count136
+\c@lotdepth=\count137
+\sf@top=\skip53
+\sf@bottom=\skip54
+)) (./thesis.aux
+
+LaTeX Warning: Label `sec:intro' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
  ABD: EveryShipout initializing macros
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/context/base/supp-pdf.mkii
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen178
-\scratchbox=\box63
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen179
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks41
-) (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+\scratchcounter=\count138
+\scratchdimen=\dimen186
+\scratchbox=\box64
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen187
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks42
+) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -651,13 +710,13 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
 Package grfext Info: Graphics extension search list:
@@ -665,11 +724,11 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 56.
+LaTeX Info: Redefining \microtypecontext on input line 57.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -679,7 +738,7 @@ Package microtype Info: Using default expansion set `basictext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -717,65 +776,39 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 [1
 
 
 
-{/afs/cern.ch/sw/XML/TL2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/afs/cern.ch/sw/XML/TL2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
- (/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
+ (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
  [3]
 [3
 
 ] [4
 
-] (./thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
-
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
-
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-))
+] (./thesis.toc)
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
+ [5
 
-[5
-
-] (./thesis.lot)
-\tf@lot=\write5
-\openout5 = `thesis.lot'.
-
- [6
-
-] (./thesis.lof)
-\tf@lof=\write6
-\openout6 = `thesis.lof'.
-
- [7
-
-] [8
+] [6
 
 ] (./texfiles/chap.pre.tex [1
 
 
-])
-[2] (./texfiles/chap.intro.tex) [3
+]) [2]
+(./texfiles/chap.intro.tex) [3
 
 ]
 Chapter 1.
@@ -795,17 +828,33 @@ Chapter 4.
 
 ]
 Chapter 5.
-(./texfiles/chap.fake.tex [8
+(./texfiles/chap.fake.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
-] [9] [10] [11]
-<figures/mct/MC-tmpl.png, id=79, 785.93625pt x 345.08925pt>
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [8
+
+]
+[9] [10] [11] <figures/mct/MC-tmpl.png, id=69, 785.93625pt x 345.08925pt>
 File: figures/mct/MC-tmpl.png Graphic file (type png)
 
 <use figures/mct/MC-tmpl.png>
 Package pdftex.def Info: figures/mct/MC-tmpl.png used on input line 112.
 (pdftex.def)             Requested size: 288.3559pt x 126.61209pt.
  [12] [13 <./figures/mct/MC-tmpl.png>] [14]
-<figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=89, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=80, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf>
@@ -813,7 +862,7 @@ Package pdftex.def Info: figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf used on inp
 ut line 165.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf, id=90, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf, id=81, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf>
@@ -821,7 +870,7 @@ Package pdftex.def Info: figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf used on inpu
 t line 166.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=91, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=82, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>
@@ -829,14 +878,14 @@ Package pdftex.def Info: figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf used on inp
 ut line 167.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=92, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=83, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
 <use figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf used on in
 put line 176.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf, id=93, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf, id=84, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf>
@@ -844,14 +893,14 @@ Package pdftex.def Info: figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf used on inp
 ut line 177.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=94, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=85, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
 <use figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf used on in
 put line 178.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=95, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=86, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf>
@@ -859,7 +908,7 @@ Package pdftex.def Info: figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf used on inp
 ut line 187.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf, id=96, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf, id=87, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf>
@@ -867,7 +916,7 @@ Package pdftex.def Info: figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf used on inpu
 t line 188.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=97, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=88, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>
@@ -875,14 +924,14 @@ Package pdftex.def Info: figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf used on inp
 ut line 189.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=98, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=89, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
 <use figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf used on in
 put line 198.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf, id=99, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf, id=90, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf>
@@ -890,10 +939,9 @@ Package pdftex.def Info: figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf used on inp
 ut line 199.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=100, 569.12625pt x 713.66624pt
->
+<figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=91, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
- <use figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>
+<use figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf used on in
 put line 200.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
@@ -914,65 +962,586 @@ L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>] [20]
 LaTeX Font Info:    Try loading font information for U+bbold on input line 330.
 
 
-(/afs/cern.ch/sw/XML/TL2014/texmf-dist/tex/latex/bbold/Ubbold.fd) [21]
-
-LaTeX Warning: Reference `eq:mxm_start' on page 22 undefined on input line 408.
-
-
-[22]
-
-LaTeX Warning: Reference `eq:mxm_start_kroe' on page 23 undefined on input line
- 425.
-
-[23] [24]) [25]
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/bbold/Ubbold.fd) [21] [22]
+[23] [24] [25]) [26]
 Chapter 6.
-(./texfiles/chap.ss3l.tex) [26
+(./texfiles/chap.ss3l.tex (./texfiles/section_introduction.tex [27
 
-]
+] [28]
+
+LaTeX Warning: Reference `sec:signalregions' on page 29 undefined on input line
+ 69.
+
+
+LaTeX Warning: Reference `sec:promptbkg' on page 29 undefined on input line 72.
+
+
+
+LaTeX Warning: Reference `sec:chargeflip' on page 29 undefined on input line 73
+.
+
+
+LaTeX Warning: Reference `sec:fakes' on page 29 undefined on input line 74.
+
+
+LaTeX Warning: Reference `sec:validation' on page 29 undefined on input line 75
+.
+
+
+LaTeX Warning: Reference `sec:histfitter' on page 29 undefined on input line 77
+.
+
+
+LaTeX Warning: Reference `sec:results' on page 29 undefined on input line 80.
+
+
+LaTeX Warning: Reference `sec:limits' on page 29 undefined on input line 82.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 29 undefined on input line 83
+.
+
+) (./texfiles/section_signals.tex
+
+LaTeX Warning: Citation `Huang:2015fba' on page 29 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Ellis:2002iu' on page 29 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Ellis:2002wv' on page 29 undefined on input line 17.
+
+[29] [30] <figures/signals/gogo-ttttN1N1.pdf, id=668, 128.48pt x 105.39375pt>
+File: figures/signals/gogo-ttttN1N1.pdf Graphic file (type pdf)
+
+<use figures/signals/gogo-ttttN1N1.pdf>
+Package pdftex.def Info: figures/signals/gogo-ttttN1N1.pdf used on input line 2
+5.
+(pdftex.def)             Requested size: 98.86757pt x 81.10356pt.
+
+<figures/signals/gogo-ttWWbbN1N1.pdf, id=669, 132.495pt x 98.3675pt>
+File: figures/signals/gogo-ttWWbbN1N1.pdf Graphic file (type pdf)
+
+<use figures/signals/gogo-ttWWbbN1N1.pdf>
+Package pdftex.def Info: figures/signals/gogo-ttWWbbN1N1.pdf used on input line
+ 26.
+(pdftex.def)             Requested size: 98.86757pt x 73.40167pt.
+
+<figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf, id=670, 127.47626pt x 112.42pt>
+File: figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf Graphic file (type pdf)
+
+<use figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf>
+Package pdftex.def Info: figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf used on inp
+ut line 27.
+(pdftex.def)             Requested size: 98.86757pt x 87.19492pt.
+
+<figures/signals/gogo-qqqqllllN1N1-N2.pdf, id=671, 135.50626pt x 112.42pt>
+File: figures/signals/gogo-qqqqllllN1N1-N2.pdf Graphic file (type pdf)
+
+<use figures/signals/gogo-qqqqllllN1N1-N2.pdf>
+Package pdftex.def Info: figures/signals/gogo-qqqqllllN1N1-N2.pdf used on input
+ line 28.
+(pdftex.def)             Requested size: 98.86757pt x 82.02646pt.
+
+<figures/signals/sbsb-ttWWN1N1.pdf, id=672, 130.4875pt x 104.39pt>
+File: figures/signals/sbsb-ttWWN1N1.pdf Graphic file (type pdf)
+
+<use figures/signals/sbsb-ttWWN1N1.pdf>
+Package pdftex.def Info: figures/signals/sbsb-ttWWN1N1.pdf used on input line 3
+0.
+(pdftex.def)             Requested size: 98.86757pt x 79.0951pt.
+
+<figures/signals/stst-ttWWWWN1N1.pdf, id=673, 128.48pt x 106.3975pt>
+File: figures/signals/stst-ttWWWWN1N1.pdf Graphic file (type pdf)
+
+<use figures/signals/stst-ttWWWWN1N1.pdf>
+Package pdftex.def Info: figures/signals/stst-ttWWWWN1N1.pdf used on input line
+ 31.
+(pdftex.def)             Requested size: 98.86757pt x 81.87599pt.
+
+Overfull \hbox (31.53154pt too wide) in paragraph at lines 24--37
+ [][] 
+ []
+
+<figures/signals/run1excluded_gluinoGtt.pdf, id=674, 569.12625pt x 385.44pt>
+File: figures/signals/run1excluded_gluinoGtt.pdf Graphic file (type pdf)
+
+<use figures/signals/run1excluded_gluinoGtt.pdf>
+Package pdftex.def Info: figures/signals/run1excluded_gluinoGtt.pdf used on inp
+ut line 54.
+(pdftex.def)             Requested size: 226.56758pt x 153.44397pt.
+
+<figures/signals/exclusion_sbottom_topC1_both_grids.pdf, id=675, 569.12625pt x 
+539.01375pt>
+File: figures/signals/exclusion_sbottom_topC1_both_grids.pdf Graphic file (type
+ pdf)
+ <use figures/signals/exclusion_sbottom_topC1_both_grids.pdf>
+Package pdftex.def Info: figures/signals/exclusion_sbottom_topC1_both_grids.pdf
+ used on input line 55.
+(pdftex.def)             Requested size: 156.53874pt x 148.25801pt.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
+ input line 58.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
+ input line 58.
+
+
+<figures/signals/run1excluded_gluino2stepWZ.pdf, id=676, 569.12625pt x 385.44pt
+>
+File: figures/signals/run1excluded_gluino2stepWZ.pdf Graphic file (type pdf)
+ <use figures/signals/run1excluded_gluino2stepWZ.pdf>
+Package pdftex.def Info: figures/signals/run1excluded_gluino2stepWZ.pdf used on
+ input line 65.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/signals/run1excluded_gluino2stepSleptons.pdf, id=677, 569.12625pt x 38
+5.44pt>
+File: figures/signals/run1excluded_gluino2stepSleptons.pdf Graphic file (type p
+df)
+ <use figures/signals/run1excluded_gluino2stepSleptons.pdf>
+Package pdftex.def Info: figures/signals/run1excluded_gluino2stepSleptons.pdf u
+sed on input line 66.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
+ input line 69.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
+ input line 69.
+
+
+LaTeX Warning: Reference `fig:feynm_g2slep' on page 31 undefined on input line 
+76.
+
+[31 <./figures/signals/gogo-ttttN1N1.pdf> <./figures/signals/gogo-ttWWbbN1N1.pd
+f> <./figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf> <./figures/signals/gogo-qqqql
+lllN1N1-N2.pdf> <./figures/signals/sbsb-ttWWN1N1.pdf> <./figures/signals/stst-t
+tWWWWN1N1.pdf>] [32 <./figures/signals/run1excluded_gluinoGtt.pdf> <./figures/s
+ignals/exclusion_sbottom_topC1_both_grids.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:feynm_g2wz' on page 33 undefined on input line 10
+2.
+
+[33 <./figures/signals/run1excluded_gluino2stepWZ.pdf> <./figures/signals/run1e
+xcluded_gluino2stepSleptons.pdf>]
+
+LaTeX Warning: Reference `fig:feynm_sbot' on page 34 undefined on input line 11
+9.
+
+
+LaTeX Warning: Citation `ATLAS-CONF-2015-066' on page 34 undefined on input lin
+e 121.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 34 undefined on
+ input line 124.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 34 undefined on
+ input line 135.
+
+[34]
+
+LaTeX Warning: Reference `fig:feynm_gtt' on page 35 undefined on input line 143
+.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 35 undefined on
+ input line 147.
+
+
+LaTeX Warning: Citation `stop_3lss' on page 35 undefined on input line 160.
+
+
+LaTeX Warning: Reference `fig:feynm_stop' on page 35 undefined on input line 16
+2.
+
+[35]
+
+LaTeX Warning: Reference `fig:limitsSummer_rpc' on page 36 undefined on input l
+ine 172.
+
+
+LaTeX Warning: Citation `Aad:2013di' on page 36 undefined on input line 176.
+
+[36]
+
+LaTeX Warning: Citation `Baer:2013xua' on page 37 undefined on input line 188.
+
+
+LaTeX Warning: Citation `Baer:2013yha' on page 37 undefined on input line 188.
+
+
+LaTeX Warning: Citation `Baer:2016usl' on page 37 undefined on input line 188.
+
+[37]
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 38 undefined on input
+ line 234.
+
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 38 undefined on input
+ line 234.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 38 undefined on input line 260
+.
+
+
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 38 undefined on input line 2
+60.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 38 undefined on input l
+ine 261.
+
+
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 38 undefined on input line 2
+63.
+
+
+LaTeX Warning: Citation `Carrazza:2013axa' on page 38 undefined on input line 2
+64.
+
+
+LaTeX Warning: Citation `Lonnblad:2011xx' on page 38 undefined on input line 26
+5.
+
+[38]
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 39 undefined on input
+ line 268.
+
+
+LaTeX Warning: Citation `Borschensky:2014cia' on page 39 undefined on input lin
+e 270.
+
+
+LaTeX Warning: Citation `Beenakker:1996ed' on page 39 undefined on input line 2
+73.
+
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 39 undefined on input
+ line 275.
+
+[39]
+
+LaTeX Warning: Reference `app:samples' on page 40 undefined on input line 281.
+
+
+LaTeX Warning: Reference `tab:SigSamples' on page 40 undefined on input line 28
+1.
+
+
+LaTeX Warning: Reference `subsubsec:samples_mc' on page 40 undefined on input l
+ine 282.
+
+) (./texfiles/section_dataMC.tex
+
+LaTeX Warning: Citation `Aaboud:2016hhf' on page 40 undefined on input line 7.
+
+
+LaTeX Warning: Reference `sec:DD_bkg' on page 40 undefined on input line 13.
+
+
+LaTeX Warning: Citation `Aad:2010ah' on page 40 undefined on input line 14.
+
+
+LaTeX Warning: Citation `Agostinelli:2002hh' on page 40 undefined on input line
+ 15.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2010-013' on page 40 undefined on input l
+ine 16.
+
+
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 40 undefined on input line 1
+8.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2012-003' on page 40 undefined on input l
+ine 18.
+
+
+LaTeX Warning: Citation `Martin:2009iq' on page 40 undefined on input line 19.
+
+
+LaTeX Warning: Reference `tab:MC' on page 40 undefined on input line 21.
+
+
+LaTeX Warning: Citation `EvtGen' on page 40 undefined on input line 24.
+
+[40]
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 41 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `Ball:2012cx' on page 41 undefined on input line 60.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 41 undefined on input l
+ine 60.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_gl112' on page 41 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_gl112' on page 41 undefined on input li
+ne 60.
+
+
+LaTeX Warning: Citation `Corcella:2000bw' on page 41 undefined on input line 60
+.
+
+
+LaTeX Warning: Citation `Beenakker:1996ch' on page 41 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `Kulesza:2008jb' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `Kulesza:2009kq' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `Beenakker:2009ha' on page 41 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `Beenakker:2011fu' on page 41 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `Kramer:2012bx' on page 41 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Pumplin:2002vw' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `Gieseke:2012ft' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `YR4' on page 41 undefined on input line 60.
+
+
+LaTeX Warning: Citation `YR4' on page 41 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `gleisberg:2008ta' on page 41 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 41 undefined on input l
+ine 60.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 41 undefined on input l
+ine 60.
+
+
+LaTeX Warning: Citation `Lai:2010vv' on page 41 undefined on input line 60.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 60.
+
+
+
+LaTeX Warning: Citation `Dittmaier:2012vm' on page 41 undefined on input line 6
+0.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 41 undefined on input l
+ine 60.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_sd313' on page 41 undefined on input li
+ne 64.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_sd321' on page 41 undefined on input li
+ne 64.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_sd313' on page 41 undefined on input li
+ne 64.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_sd321' on page 41 undefined on input li
+ne 64.
+
+
+LaTeX Warning: Citation `Alwall:2008ve' on page 41 undefined on input line 70.
+
+
+LaTeX Warning: Citation `Alwall:2008ag' on page 41 undefined on input line 70.
+
+
+LaTeX Warning: Citation `Alves:2011wf' on page 41 undefined on input line 70.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_gl112' on page 41 undefined on input li
+ne 72.
+
+
+LaTeX Warning: Citation `Corcella:2000bw' on page 41 undefined on input line 73
+.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 75.
+
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 41 undefined on input l
+ine 75.
+
+
+LaTeX Warning: Citation `Lonnblad:2011xx' on page 41 undefined on input line 77
+.
+
+
+LaTeX Warning: Citation `Beenakker:1996ch' on page 41 undefined on input line 8
+1.
+
+
+LaTeX Warning: Citation `Kulesza:2008jb' on page 41 undefined on input line 81.
+
+
+
+LaTeX Warning: Citation `Kulesza:2009kq' on page 41 undefined on input line 81.
+
+
+
+LaTeX Warning: Citation `Beenakker:2009ha' on page 41 undefined on input line 8
+1.
+
+
+LaTeX Warning: Citation `Beenakker:2011fu' on page 41 undefined on input line 8
+1.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_sd313' on page 41 undefined on input li
+ne 82.
+
+
+LaTeX Warning: Reference `fig:feynm_rpv_sd321' on page 41 undefined on input li
+ne 82.
+
+
+LaTeX Warning: Citation `Beenakker:1996ed' on page 41 undefined on input line 8
+3.
+
+
+LaTeX Warning: Citation `Beenakker:1996ch' on page 41 undefined on input line 8
+3.
+
+
+LaTeX Warning: Citation `Kramer:2012bx' on page 41 undefined on input line 85.
+
+
+LaTeX Warning: Citation `Borschensky:2014cia' on page 41 undefined on input lin
+e 85.
+
+[41]
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 42 undefined on input l
+ine 94.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 42 undefined on input l
+ine 94.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 42 undefined on input line 98.
+
+
+
+LaTeX Warning: Citation `Frixione:2015zaa' on page 42 undefined on input line 9
+8.
+
+
+LaTeX Warning: Citation `YR4' on page 42 undefined on input line 99.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 42 undefined on input l
+ine 100.
+
+
+LaTeX Warning: Citation `YR4' on page 42 undefined on input line 100.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 42 undefined on input line 101
+.
+
+[42]) (./texfiles/section_sel.tex) (./texfiles/section_sr.tex)
+(./texfiles/section_bkg.tex) (./texfiles/section_syst.tex)
+(./texfiles/section_res.tex) (./texfiles/section_conclusion.tex)) [43] [44]
+[45] [46]
 Chapter 7.
-(./texfiles/chap.stat.tex) [27
+(./texfiles/chap.stat.tex) [47
 
 ] (./texfiles/chap.concl.tex)
 No file thesis.bbl.
-[28
+[48
 
 ] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17294 strings out of 493109
- 354270 string characters out of 6133666
- 454325 words of memory out of 5000000
- 20233 multiletter control sequences out of 15000+600000
- 17443 words of font info for 112 fonts, out of 8000000 for 9000
+ 18901 strings out of 493042
+ 383949 string characters out of 6133328
+ 492286 words of memory out of 5000000
+ 21851 multiletter control sequences out of 15000+600000
+ 17509 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,69p,1048b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/bbold-type1/bbold10
-.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmcsc10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmex10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb>
-Output written on thesis.pdf (37 pages, 489587 bytes).
+ 62i,16n,69p,1497b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+</afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/bbold-type1/bbold10
+.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx8.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmex10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi6.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy6.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb>
+Output written on thesis.pdf (55 pages, 819079 bytes).
 PDF statistics:
- 724 PDF objects out of 1000 (max. 8388607)
- 352 compressed objects within 4 object streams
+ 994 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 14926 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 18048 words of extra memory for PDF output out of 20736 (max. 10000000)
 

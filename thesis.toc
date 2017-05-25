@@ -1,6 +1,4 @@
-\contentsline {chapter}{List of Tables}{vi}
-\contentsline {chapter}{List of Figures}{vii}
-\contentsline {chapter}{Abstract}{viii}
+\contentsline {chapter}{Abstract}{vi}
 \contentsline {chapter}{\numberline {1}Theoretical Background}{4}
 \contentsline {chapter}{\numberline {2}The LHC and the ATLAS Experiment}{5}
 \contentsline {chapter}{\numberline {3}The Region of Interest Builder}{6}
@@ -16,8 +14,22 @@
 \contentsline {section}{\numberline {5.4}Matrix Method}{16}
 \contentsline {subsection}{\numberline {5.4.1}Events with one object}{19}
 \contentsline {subsection}{\numberline {5.4.2}Dynamic matrix method}{21}
-\contentsline {subsection}{\numberline {5.4.3}Propagation of uncertainties}{25}
-\contentsline {section}{\numberline {5.5}Real lepton efficiency}{25}
-\contentsline {section}{\numberline {5.6}Fake lepton rate}{25}
-\contentsline {chapter}{\numberline {6}Search for new physics in events with two same sign leptons or three leptons and jets}{26}
-\contentsline {chapter}{\numberline {7}Statistical Analysis}{27}
+\contentsline {subsection}{\numberline {5.4.3}Propagation of uncertainties}{26}
+\contentsline {chapter}{\numberline {6}Search for new physics in events with two same sign leptons or three leptons and jets}{27}
+\contentsline {section}{\numberline {6.1}Introduction}{27}
+\contentsline {section}{\numberline {6.2}Signal models}{30}
+\contentsline {subsection}{\numberline {6.2.1}Gluino pair production with slepton-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q\ell \mathaccentV {bar}016\ell \ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{32}
+\contentsline {subsection}{\numberline {6.2.2}Gluino pair production with gaugino-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q'WZ\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{33}
+\contentsline {subsection}{\numberline {6.2.3}Sbottom pair production with one-step decay $\ensuremath {\mathaccentV {tilde}07E{b}_{1}}\to t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{\pm }}$}{34}
+\contentsline {subsection}{\numberline {6.2.4}Gluino pair production with stop-mediated decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to t\mathaccentV {bar}016t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{35}
+\contentsline {subsection}{\numberline {6.2.5}\ensuremath {\mathaccentV {tilde}07E{t}_{1}^{}\mathaccentV {tilde}07E{t}_{1}^{*}}\ with ``three-same-sign leptons'' signature}{36}
+\contentsline {subsection}{\numberline {6.2.6}Non-Universal Higgs Models}{37}
+\contentsline {subsection}{\numberline {6.2.7}Signal cross-sections and simulations}{38}
+\contentsline {section}{\numberline {6.3}Data set and simulated event samples}{40}
+\contentsline {section}{\numberline {6.4}Event selection}{44}
+\contentsline {section}{\numberline {6.5}Signal regions}{44}
+\contentsline {section}{\numberline {6.6}Background estimation}{44}
+\contentsline {section}{\numberline {6.7}Systematic uncertainties}{44}
+\contentsline {section}{\numberline {6.8}Results and interpretation}{44}
+\contentsline {section}{\numberline {6.9}Conclusion}{44}
+\contentsline {chapter}{\numberline {7}Statistical Analysis}{47}
