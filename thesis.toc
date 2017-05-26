@@ -1,35 +1,83 @@
-\contentsline {chapter}{Abstract}{vi}
+\contentsline {chapter}{Abstract}{vii}
 \contentsline {chapter}{\numberline {1}Theoretical Background}{4}
 \contentsline {chapter}{\numberline {2}The LHC and the ATLAS Experiment}{5}
 \contentsline {chapter}{\numberline {3}The Region of Interest Builder}{6}
-\contentsline {chapter}{\numberline {4}Object Reconstruction}{7}
-\contentsline {chapter}{\numberline {5}Data-driven techniques to estimate fake lepton backgrounds}{8}
-\contentsline {section}{\numberline {5.1}The problem of fakes}{8}
-\contentsline {section}{\numberline {5.2}Common processes for faking leptons}{9}
-\contentsline {section}{\numberline {5.3}Monte Carlo Template Method}{11}
-\contentsline {subsection}{\numberline {5.3.1}Motivation}{11}
-\contentsline {subsection}{\numberline {5.3.2}Description of the method}{12}
-\contentsline {subsection}{\numberline {5.3.3}Correction factors}{13}
-\contentsline {subsection}{\numberline {5.3.4}Control regions}{14}
-\contentsline {section}{\numberline {5.4}Matrix Method}{16}
-\contentsline {subsection}{\numberline {5.4.1}Events with one object}{19}
-\contentsline {subsection}{\numberline {5.4.2}Dynamic matrix method}{21}
-\contentsline {subsection}{\numberline {5.4.3}Propagation of uncertainties}{26}
-\contentsline {chapter}{\numberline {6}Search for new physics in events with two same sign leptons or three leptons and jets}{27}
-\contentsline {section}{\numberline {6.1}Introduction}{27}
-\contentsline {section}{\numberline {6.2}Signal models}{30}
-\contentsline {subsection}{\numberline {6.2.1}Gluino pair production with slepton-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q\ell \mathaccentV {bar}016\ell \ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{32}
-\contentsline {subsection}{\numberline {6.2.2}Gluino pair production with gaugino-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q'WZ\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{33}
-\contentsline {subsection}{\numberline {6.2.3}Sbottom pair production with one-step decay $\ensuremath {\mathaccentV {tilde}07E{b}_{1}}\to t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{\pm }}$}{34}
-\contentsline {subsection}{\numberline {6.2.4}Gluino pair production with stop-mediated decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to t\mathaccentV {bar}016t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{35}
-\contentsline {subsection}{\numberline {6.2.5}\ensuremath {\mathaccentV {tilde}07E{t}_{1}^{}\mathaccentV {tilde}07E{t}_{1}^{*}}\ with ``three-same-sign leptons'' signature}{36}
-\contentsline {subsection}{\numberline {6.2.6}Non-Universal Higgs Models}{37}
-\contentsline {subsection}{\numberline {6.2.7}Signal cross-sections and simulations}{38}
-\contentsline {section}{\numberline {6.3}Data set and simulated event samples}{40}
-\contentsline {section}{\numberline {6.4}Event selection}{44}
-\contentsline {section}{\numberline {6.5}Signal regions}{44}
-\contentsline {section}{\numberline {6.6}Background estimation}{44}
-\contentsline {section}{\numberline {6.7}Systematic uncertainties}{44}
-\contentsline {section}{\numberline {6.8}Results and interpretation}{44}
-\contentsline {section}{\numberline {6.9}Conclusion}{44}
-\contentsline {chapter}{\numberline {7}Statistical Analysis}{47}
+\contentsline {section}{\numberline {3.1}Introduction}{6}
+\contentsline {section}{\numberline {3.2}Run 2 Challenges}{6}
+\contentsline {section}{\numberline {3.3}ATLAS Dataflow Design}{8}
+\contentsline {section}{\numberline {3.4}Region of Interest Builder}{10}
+\contentsline {section}{\numberline {3.5}Performance in Run 2}{11}
+\contentsline {section}{\numberline {3.6}Conclusion}{13}
+\contentsline {section}{\numberline {3.7}Introduction}{13}
+\contentsline {section}{\numberline {3.8}VMEbus based RoIB}{16}
+\contentsline {subsection}{\numberline {3.8.1}Hardware implementation}{16}
+\contentsline {subsection}{\numberline {3.8.2}System Performance and Evolution}{17}
+\contentsline {section}{\numberline {3.9}PC based RoIB}{18}
+\contentsline {subsection}{\numberline {3.9.1}The Common Readout Receiver Card}{19}
+\contentsline {subsection}{\numberline {3.9.2}Readout System Firmware \& Software}{20}
+\contentsline {subsection}{\numberline {3.9.3}RoIB Software}{21}
+\contentsline {section}{\numberline {3.10}Prototype Tests}{22}
+\contentsline {subsection}{\numberline {3.10.1}Standalone Tests}{23}
+\contentsline {subsection}{\numberline {3.10.2}Full System Tests}{23}
+\contentsline {section}{\numberline {3.11}Outlook}{24}
+\contentsline {chapter}{\numberline {4}Object Reconstruction}{26}
+\contentsline {chapter}{\numberline {5}Data-driven techniques to estimate fake lepton backgrounds}{27}
+\contentsline {section}{\numberline {5.1}The problem of fakes}{27}
+\contentsline {section}{\numberline {5.2}Common processes for faking leptons}{28}
+\contentsline {section}{\numberline {5.3}Monte Carlo Template Method}{30}
+\contentsline {subsection}{\numberline {5.3.1}Motivation}{30}
+\contentsline {subsection}{\numberline {5.3.2}Description of the method}{31}
+\contentsline {subsection}{\numberline {5.3.3}Correction factors}{32}
+\contentsline {subsection}{\numberline {5.3.4}Control regions}{33}
+\contentsline {section}{\numberline {5.4}Matrix Method}{35}
+\contentsline {subsection}{\numberline {5.4.1}Events with one object}{38}
+\contentsline {subsection}{\numberline {5.4.2}Dynamic matrix method}{40}
+\contentsline {subsection}{\numberline {5.4.3}Propagation of uncertainties}{45}
+\contentsline {chapter}{\numberline {6}Search for new physics in events with two same sign leptons or three leptons and jets}{46}
+\contentsline {section}{\numberline {6.1}Introduction}{46}
+\contentsline {section}{\numberline {6.2}Signal models}{49}
+\contentsline {subsection}{\numberline {6.2.1}Gluino pair production with slepton-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q\ell \mathaccentV {bar}016\ell \ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{51}
+\contentsline {subsection}{\numberline {6.2.2}Gluino pair production with gaugino-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q'WZ\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{53}
+\contentsline {subsection}{\numberline {6.2.3}Sbottom pair production with one-step decay $\ensuremath {\mathaccentV {tilde}07E{b}_{1}}\to t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{\pm }}$}{53}
+\contentsline {subsection}{\numberline {6.2.4}Gluino pair production with stop-mediated decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to t\mathaccentV {bar}016t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{54}
+\contentsline {subsection}{\numberline {6.2.5}\ensuremath {\mathaccentV {tilde}07E{t}_{1}^{}\mathaccentV {tilde}07E{t}_{1}^{*}}\ with ``three-same-sign leptons'' signature}{55}
+\contentsline {subsection}{\numberline {6.2.6}Non-Universal Higgs Models}{56}
+\contentsline {subsection}{\numberline {6.2.7}Signal cross-sections and simulations}{57}
+\contentsline {section}{\numberline {6.3}Data set and simulated event samples}{59}
+\contentsline {section}{\numberline {6.4}Event selection}{63}
+\contentsline {subsection}{\numberline {6.4.1}Pre-selection and event cleaning}{63}
+\contentsline {subsection}{\numberline {6.4.2}Trigger strategy}{65}
+\contentsline {subsection}{\numberline {6.4.3}Object definition}{66}
+\contentsline {subsection}{\numberline {6.4.4}Jets}{66}
+\contentsline {subsection}{\numberline {6.4.5}Electrons}{68}
+\contentsline {subsection}{\numberline {6.4.6}Muons}{69}
+\contentsline {subsection}{\numberline {6.4.7}Overlap removal}{70}
+\contentsline {subsection}{\numberline {6.4.8}Missing transverse energy}{70}
+\contentsline {section}{\numberline {6.5}Signal regions}{71}
+\contentsline {section}{\numberline {6.6}Background estimation}{81}
+\contentsline {subsection}{\numberline {6.6.1}Irreducible background estimation methods}{81}
+\contentsline {subsection}{\numberline {6.6.2}Associate $t\mathaccentV {bar}016t+W/Z$ production}{81}
+\contentsline {subsection}{\numberline {6.6.3}Diboson $WZ, ZZ, W^\pm W^\pm $ production}{83}
+\contentsline {subsection}{\numberline {6.6.4}Other rare processes}{85}
+\contentsline {subsection}{\numberline {6.6.5}$W^\pm W^\pm $ production via Double Parton Scattering}{86}
+\contentsline {subsection}{\numberline {6.6.6}Experimental uncertainties}{89}
+\contentsline {subsection}{\numberline {6.6.7}Expected yields in the signal regions}{92}
+\contentsline {subsection}{\numberline {6.6.8}Reducible background estimation methods}{93}
+\contentsline {subsection}{\numberline {6.6.9}Matrix Method}{93}
+\contentsline {subsection}{\numberline {6.6.10}Reducible background estimation methods}{93}
+\contentsline {subsection}{\numberline {6.6.11}Matrix Method}{93}
+\contentsline {subsection}{\numberline {6.6.12}Baseline-to-signal efficiency for fake muons}{94}
+\contentsline {subsection}{\numberline {6.6.13}Baseline-to-signal efficiency for fake electrons}{100}
+\contentsline {subsection}{\numberline {6.6.14}Baseline-to-signal efficiency for real leptons}{104}
+\contentsline {subsection}{\numberline {6.6.15}MC Template Method}{108}
+\contentsline {subsection}{\numberline {6.6.16}Background processes with charge-flipped electrons}{112}
+\contentsline {subsection}{\numberline {6.6.17}Methodology}{115}
+\contentsline {subsection}{\numberline {6.6.18}Measured rates}{118}
+\contentsline {subsection}{\numberline {6.6.19}Systematic uncertainties}{119}
+\contentsline {subsection}{\numberline {6.6.20}Expected yields in signal regions}{121}
+\contentsline {subsection}{\numberline {6.6.21}Expected yields in signal regions}{121}
+\contentsline {section}{\numberline {6.7}Systematic uncertainties}{123}
+\contentsline {section}{\numberline {6.8}Results and interpretation}{123}
+\contentsline {section}{\numberline {6.9}Conclusion}{128}
+\contentsline {section}{\numberline {6.10}Auxiliary}{129}
+\contentsline {chapter}{\numberline {7}Statistical Analysis}{170}

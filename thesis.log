@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.11)  25 MAY 2017 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.11)  25 MAY 2017 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,8 +624,20 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box63
 \rot@mess@toks=\toks40
 )
-(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box64
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen178
+\ttl@minus=\dimen179
+\ttl@toksa=\toks41
+\titlewidth=\dimen180
+\titlewidthlast=\dimen181
+\titlewidthfirst=\dimen182
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/02/02 v1.1-136 Sub-captions (AR)
 
 (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/02 v3.3-136 Customizing captions (AR)
@@ -633,13 +645,13 @@ Package: caption 2016/02/02 v3.3-136 Customizing captions (AR)
 (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/02 v1.7-136 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen178
-\captionmargin@=\dimen179
-\captionwidth=\dimen180
-\caption@tempdima=\dimen181
-\caption@indent=\dimen182
-\caption@parindent=\dimen183
-\caption@hangindent=\dimen184
+\captionmargin=\dimen183
+\captionmargin@=\dimen184
+\captionwidth=\dimen185
+\caption@tempdima=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
@@ -656,22 +668,65 @@ onskip .
 \c@ContinuedFloat=\count130
 Package caption Info: rotating package is loaded.
 )
-\c@KVtest=\count131
-\sf@farskip=\skip50
-\sf@captopadj=\dimen185
-\sf@capskip=\skip51
-\sf@nearskip=\skip52
-\c@subfigure=\count132
-\c@subfigure@save=\count133
-\c@lofdepth=\count134
-\c@subtable=\count135
-\c@subtable@save=\count136
-\c@lotdepth=\count137
-\sf@top=\skip53
-\sf@bottom=\skip54
+\c@subfigure=\count131
+\c@subtable=\count132
 )) (./thesis.aux
 
+LaTeX Warning: Label `fig:tdaq_diagram' multiply defined.
+
+
 LaTeX Warning: Label `sec:intro' multiply defined.
+
+
+LaTeX Warning: Label `sec:roib' multiply defined.
+
+
+LaTeX Warning: Label `sec:intro' multiply defined.
+
+
+LaTeX Warning: Label `sec:DD_bkg' multiply defined.
+
+
+LaTeX Warning: Label `sec:DD_bkg' multiply defined.
+
+
+LaTeX Warning: Label `f:prefit_CR0b' multiply defined.
+
+
+LaTeX Warning: Label `f:postfit_CR0b' multiply defined.
+
+
+LaTeX Warning: Label `f:prefit_CR1b' multiply defined.
+
+
+LaTeX Warning: Label `f:postfit_CR1b' multiply defined.
+
+
+LaTeX Warning: Label `t:fake_factors_powheg' multiply defined.
+
+
+LaTeX Warning: Label `t:fake_factors_sherpa' multiply defined.
+
+
+LaTeX Warning: Label `fig:VR1b2j_MxM' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:VR1b2j_MxM' multiply defined.
+
+
+LaTeX Warning: Label `fig:VR1b2j_MCT' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:VR1b2j_MCT' multiply defined.
+
+
+LaTeX Warning: Label `fig:VR1b2j' multiply defined.
+
+
+LaTeX Warning: Label `fig:ETA_SS_BDTEL' multiply defined.
+
+
+LaTeX Warning: Label `sec:concl' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
@@ -691,17 +746,17 @@ LaTeX Font Info:    ... okay on input line 57.
  ABD: EveryShipout initializing macros
 (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
-\scratchdimen=\dimen186
-\scratchbox=\box64
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count141
-\MPscratchDim=\dimen187
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count133
+\scratchdimen=\dimen190
+\scratchbox=\box65
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen191
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks43
 ) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -777,7 +832,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: Incompatible package detected (regarding \@caption).
+(caption)             \@caption = \long macro:#1[#2]#3->\stepcounter {total#1}\
+total@old@caption {#1}[#2]{#3}.
+
+Package caption Warning: Forced redefinition of \caption since the
+(caption)                unsupported(!) package option `compatibility=false'
+(caption)                was given.
+See the caption package documentation for explanation.
+
 Package caption Info: End \AtBeginDocument code.
 [1
 
@@ -796,19 +859,35 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ] [4
 
-] (./thesis.toc)
+] (./thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 5.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 5.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [5
+
+])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [5
 
-] [6
+[6] [7
 
 ] (./texfiles/chap.pre.tex [1
 
 
-]) [2]
-(./texfiles/chap.intro.tex) [3
+]) [2] (./texfiles/chap.intro.tex) [3
 
 ]
 Chapter 1.
@@ -820,49 +899,249 @@ Chapter 2.
 
 ]
 Chapter 3.
-(./texfiles/chap.roib.tex) [6
+(./texfiles/chap.roib.tex
 
-]
+LaTeX Warning: Citation `1748-0221-3-08-S08003' on page 6 undefined on input li
+ne 6.
+
+<figures/roib/peakLumiByFill-1.pdf, id=56, 614.295pt x 794.97pt>
+File: figures/roib/peakLumiByFill-1.pdf Graphic file (type pdf)
+
+<use figures/roib/peakLumiByFill-1.pdf>
+Package pdftex.def Info: figures/roib/peakLumiByFill-1.pdf used on input line 3
+5.
+(pdftex.def)             Requested size: 197.72885pt x 255.88762pt.
+
+<figures/roib/mu_2015_2016_ICHEP.pdf, id=57, 614.295pt x 794.97pt>
+File: figures/roib/mu_2015_2016_ICHEP.pdf Graphic file (type pdf)
+
+<use figures/roib/mu_2015_2016_ICHEP.pdf>
+Package pdftex.def Info: figures/roib/mu_2015_2016_ICHEP.pdf used on input line
+ 38.
+(pdftex.def)             Requested size: 197.72885pt x 255.88762pt.
+
+
+LaTeX Warning: Citation `atlasTwiki' on page 6 undefined on input line 41.
+
+
+LaTeX Warning: Citation `atlasTwiki' on page 6 undefined on input line 41.
+
+
+LaTeX Warning: Citation `Aad:1602235' on page 6 undefined on input line 49.
+
+
+LaTeX Warning: Citation `PanduroVazquez2016939' on page 6 undefined on input li
+ne 51.
+
+
+LaTeX Warning: Citation `1742-6596-396-1-012033' on page 6 undefined on input l
+ine 54.
+
+[6
+
+] [7 <./figures/roib/peakLumiByFill-1.pdf> <./figures/roib/mu_2015_2016_ICHEP.p
+df>] [8]
+
+LaTeX Warning: Citation `1742-6596-396-1-012033' on page 9 undefined on input l
+ine 103.
+
+<figures/roib/tdaqFullNew2016.pdf, id=120, 765.86125pt x 568.1225pt>
+File: figures/roib/tdaqFullNew2016.pdf Graphic file (type pdf)
+
+<use figures/roib/tdaqFullNew2016.pdf>
+Package pdftex.def Info: figures/roib/tdaqFullNew2016.pdf used on input line 13
+9.
+(pdftex.def)             Requested size: 308.95409pt x 229.18678pt.
+
+
+LaTeX Warning: Citation `1748-0221-11-02-C02080' on page 9 undefined on input l
+ine 148.
+
+[9] [10 <./figures/roib/tdaqFullNew2016.pdf>]
+<figures/roib/roib_summary_size.pdf, id=132, 569.12625pt x 388.45125pt>
+File: figures/roib/roib_summary_size.pdf Graphic file (type pdf)
+
+<use figures/roib/roib_summary_size.pdf>
+Package pdftex.def Info: figures/roib/roib_summary_size.pdf used on input line 
+168.
+(pdftex.def)             Requested size: 205.96939pt x 140.58324pt.
+
+<figures/roib/GrAssym_run_304008_pileup_RoIBbuildtime.pdf, id=133, 569.12625pt 
+x 387.4475pt>
+File: figures/roib/GrAssym_run_304008_pileup_RoIBbuildtime.pdf Graphic file (ty
+pe pdf)
+ <use figures/roib/GrAssym_run_304008_pileup_RoIBbuildtime.pdf>
+Package pdftex.def Info: figures/roib/GrAssym_run_304008_pileup_RoIBbuildtime.p
+df used on input line 182.
+(pdftex.def)             Requested size: 187.8418pt x 127.8758pt.
+
+<figures/roib/hProf_run_304008_l1rate_RoIBMemOccup.pdf, id=134, 569.12625pt x 3
+87.4475pt>
+File: figures/roib/hProf_run_304008_l1rate_RoIBMemOccup.pdf Graphic file (type 
+pdf)
+ <use figures/roib/hProf_run_304008_l1rate_RoIBMemOccup.pdf>
+Package pdftex.def Info: figures/roib/hProf_run_304008_l1rate_RoIBMemOccup.pdf 
+used on input line 185.
+(pdftex.def)             Requested size: 187.8418pt x 127.8758pt.
+ [11 <./figures/roib/roib_summary_size.pdf, page is rotated 90 degrees>]
+<figures/roib/recEffByWeek-1.pdf, id=182, 614.295pt x 794.97pt>
+File: figures/roib/recEffByWeek-1.pdf Graphic file (type pdf)
+
+<use figures/roib/recEffByWeek-1.pdf>
+Package pdftex.def Info: figures/roib/recEffByWeek-1.pdf used on input line 216
+.
+(pdftex.def)             Requested size: 205.96939pt x 266.55011pt.
+
+
+LaTeX Warning: Citation `atlasTwiki' on page 12 undefined on input line 218.
+
+
+LaTeX Warning: Citation `atlasTwiki' on page 12 undefined on input line 218.
+
+
+<figures/roib/hProf_run_304008_pileup_AvgProcessingTime.pdf, id=183, 569.12625p
+t x 387.4475pt>
+File: figures/roib/hProf_run_304008_pileup_AvgProcessingTime.pdf Graphic file (
+type pdf)
+
+<use figures/roib/hProf_run_304008_pileup_AvgProcessingTime.pdf>
+Package pdftex.def Info: figures/roib/hProf_run_304008_pileup_AvgProcessingTime
+.pdf used on input line 227.
+(pdftex.def)             Requested size: 187.8418pt x 127.8758pt.
+
+<figures/roib/hProf_run_304008_pileup_EventSize.pdf, id=184, 569.12625pt x 387.
+4475pt>
+File: figures/roib/hProf_run_304008_pileup_EventSize.pdf Graphic file (type pdf
+)
+ <use figures/roib/hProf_run_304008_pileup_EventSize.pdf>
+Package pdftex.def Info: figures/roib/hProf_run_304008_pileup_EventSize.pdf use
+d on input line 230.
+(pdftex.def)             Requested size: 187.8418pt x 127.8758pt.
+ [12 <./figures/roib/GrAssym_run_304008_pileup_RoIBbuildtime.pdf, page is rotat
+ed 90 degrees> <./figures/roib/hProf_run_304008_l1rate_RoIBMemOccup.pdf, page i
+s rotated 90 degrees> <./figures/roib/recEffByWeek-1.pdf>]
+
+LaTeX Warning: Citation `atlas' on page 13 undefined on input line 250.
+
+
+LaTeX Warning: Citation `evolution' on page 13 undefined on input line 252.
+
+
+LaTeX Warning: Citation `l1' on page 13 undefined on input line 252.
+
+
+LaTeX Warning: Citation `hlt' on page 13 undefined on input line 254.
+
+
+LaTeX Warning: Citation `ros' on page 13 undefined on input line 255.
+
+[13 <./figures/roib/hProf_run_304008_pileup_AvgProcessingTime.pdf, page is rota
+ted 90 degrees> <./figures/roib/hProf_run_304008_pileup_EventSize.pdf, page is 
+rotated 90 degrees>]
+
+LaTeX Warning: Citation `vme_roib' on page 14 undefined on input line 258.
+
+
+LaTeX Warning: Citation `swroib_past' on page 14 undefined on input line 263.
+
+[14] <figures/roib/tdaqFullNew2015.png, id=382, 1003.75pt x 757.83125pt>
+File: figures/roib/tdaqFullNew2015.png Graphic file (type png)
+
+<use figures/roib/tdaqFullNew2015.png>
+Package pdftex.def Info: figures/roib/tdaqFullNew2015.png used on input line 27
+9.
+(pdftex.def)             Requested size: 370.7424pt x 279.9075pt.
+ [15 <./figures/roib/tdaqFullNew2015.png (PNG copy)>]
+<figures/roib/RoIB_context_v2.png, id=386, 845.40843pt x 597.73312pt>
+File: figures/roib/RoIB_context_v2.png Graphic file (type png)
+
+<use figures/roib/RoIB_context_v2.png>
+Package pdftex.def Info: figures/roib/RoIB_context_v2.png used on input line 30
+6.
+(pdftex.def)             Requested size: 267.75769pt x 189.30844pt.
+
+
+LaTeX Warning: Citation `tilar' on page 16 undefined on input line 317.
+
+[16 <./figures/roib/RoIB_context_v2.png>] [17]
+
+LaTeX Warning: Citation `alice' on page 18 undefined on input line 358.
+
+
+LaTeX Warning: Citation `crorc' on page 18 undefined on input line 359.
+
+[18] <figures/roib/crorc.png, id=399, 1259.70625pt x 592.2125pt>
+File: figures/roib/crorc.png Graphic file (type png)
+
+<use figures/roib/crorc.png>
+Package pdftex.def Info: figures/roib/crorc.png used on input line 372.
+(pdftex.def)             Requested size: 411.9388pt x 193.65958pt.
+
+
+LaTeX Warning: Citation `crorc' on page 19 undefined on input line 373.
+
+
+LaTeX Warning: Citation `crorc' on page 19 undefined on input line 373.
+
+<figures/roib/RobinNP_Firmware.pdf, id=400, 722.7pt x 542.025pt>
+File: figures/roib/RobinNP_Firmware.pdf Graphic file (type pdf)
+
+<use figures/roib/RobinNP_Firmware.pdf>
+Package pdftex.def Info: figures/roib/RobinNP_Firmware.pdf used on input line 3
+81.
+(pdftex.def)             Requested size: 292.47931pt x 190.57414pt.
+
+
+LaTeX Warning: Citation `ros' on page 19 undefined on input line 395.
+
+[19 <./figures/roib/crorc.png>] [20 <./figures/roib/RobinNP_Firmware.pdf>]
+<figures/roib/RobinNP_Software.pdf, id=434, 722.7pt x 542.025pt>
+File: figures/roib/RobinNP_Software.pdf Graphic file (type pdf)
+
+<use figures/roib/RobinNP_Software.pdf>
+Package pdftex.def Info: figures/roib/RobinNP_Software.pdf used on input line 4
+16.
+(pdftex.def)             Requested size: 288.3559pt x 159.50516pt.
+ [21 <./figures/roib/RobinNP_Software.pdf>] [22] <figures/roib/cern_robinnproib
+.pdf, id=624, 569.12625pt x 387.4475pt>
+File: figures/roib/cern_robinnproib.pdf Graphic file (type pdf)
+
+<use figures/roib/cern_robinnproib.pdf>
+Package pdftex.def Info: figures/roib/cern_robinnproib.pdf used on input line 4
+62.
+(pdftex.def)             Requested size: 288.3559pt x 196.31271pt.
+ [23]
+<figures/roib/12ch.png, id=629, 722.7pt x 198.0198pt>
+File: figures/roib/12ch.png Graphic file (type png)
+
+<use figures/roib/12ch.png>
+Package pdftex.def Info: figures/roib/12ch.png used on input line 484.
+(pdftex.def)             Requested size: 403.69826pt x 110.61235pt.
+ [24 <./figures/roib/cern_robinnproib.pdf, page is rotated 90 degrees>]) [25 <.
+/figures/roib/12ch.png>]
 Chapter 4.
-(./texfiles/chap.reco.tex) [7
+(./texfiles/chap.reco.tex) [26
 
 ]
 Chapter 5.
-(./texfiles/chap.fake.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+(./texfiles/chap.fake.tex [27
 
-(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-
-(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [8
-
-]
-[9] [10] [11] <figures/mct/MC-tmpl.png, id=69, 785.93625pt x 345.08925pt>
+] [28] [29] [30]
+<figures/mct/MC-tmpl.png, id=696, 785.93625pt x 345.08925pt>
 File: figures/mct/MC-tmpl.png Graphic file (type png)
 
 <use figures/mct/MC-tmpl.png>
 Package pdftex.def Info: figures/mct/MC-tmpl.png used on input line 112.
 (pdftex.def)             Requested size: 288.3559pt x 126.61209pt.
- [12] [13 <./figures/mct/MC-tmpl.png>] [14]
-<figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=80, 569.12625pt x 713.66624pt>
+ [31] [32 <./figures/mct/MC-tmpl.png>] [33]
+<figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=706, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
-
 <use figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf used on inp
 ut line 165.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf, id=81, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf, id=707, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf>
@@ -870,45 +1149,44 @@ Package pdftex.def Info: figures/mct/Prefit/NJETS_em_CR0b_SS3L.pdf used on inpu
 t line 166.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=82, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=708, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
-
 <use figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf used on inp
 ut line 167.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=83, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=709, 569.12625pt x 713.66624pt
+>
 File: figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
-<use figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf>
+ <use figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf used on in
 put line 176.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf, id=84, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf, id=710, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
-
 <use figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/NJETS_em_CR0b_SS3L.pdf used on inp
 ut line 177.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=85, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=711, 569.12625pt x 713.66624pt
+>
 File: figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
-<use figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>
+ <use figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf used on in
 put line 178.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=86, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=712, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
-
 <use figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf used on inp
 ut line 187.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf, id=87, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf, id=713, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
 
 <use figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf>
@@ -916,102 +1194,150 @@ Package pdftex.def Info: figures/mct/Prefit/NJETS_em_CR1b_SS3L.pdf used on inpu
 t line 188.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=88, 569.12625pt x 713.66624pt>
+<figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=714, 569.12625pt x 713.66624pt>
 File: figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
-
 <use figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf used on inp
 ut line 189.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=89, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=715, 569.12625pt x 713.66624pt
+>
 File: figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
-<use figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf>
+ <use figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf used on in
 put line 198.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf, id=90, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf, id=716, 569.12625pt x 713.66624pt>
 File: figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
-
 <use figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/NJETS_em_CR1b_SS3L.pdf used on inp
 ut line 199.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=91, 569.12625pt x 713.66624pt>
+<figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=717, 569.12625pt x 713.66624pt
+>
 File: figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
-<use figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>
+ <use figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>
 Package pdftex.def Info: figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf used on in
 put line 200.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
- [15] [16 <./figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Prefit/
+ [34] [35 <./figures/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Prefit/
 NJETS_em_CR0b_SS3L.pdf> <./figures/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>]
 
-LaTeX Warning: Text page 17 contains only floats.
+LaTeX Warning: Text page 36 contains only floats.
 
-[17 <./figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Postfit/NJET
+[36 <./figures/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/mct/Postfit/NJET
 S_em_CR0b_SS3L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>]
 
-LaTeX Warning: Text page 18 contains only floats.
+LaTeX Warning: Text page 37 contains only floats.
 
-[18 <./figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Prefit/NJETS_
-em_CR1b_SS3L.pdf> <./figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>] [19 <./figure
+[37 <./figures/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Prefit/NJETS_
+em_CR1b_SS3L.pdf> <./figures/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>] [38 <./figure
 s/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/mct/Postfit/NJETS_em_CR1b_SS3
-L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>] [20]
+L.pdf> <./figures/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>] [39]
 LaTeX Font Info:    Try loading font information for U+bbold on input line 330.
 
 
-(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/bbold/Ubbold.fd) [21] [22]
-[23] [24] [25]) [26]
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/bbold/Ubbold.fd) [40] [41]
+[42] [43] [44]) [45]
 Chapter 6.
-(./texfiles/chap.ss3l.tex (./texfiles/section_introduction.tex [27
+(./texfiles/chap.ss3l.tex (./texfiles/section_introduction.tex [46
 
-] [28]
+] [47]
 
-LaTeX Warning: Reference `sec:signalregions' on page 29 undefined on input line
+LaTeX Warning: Reference `sec:signalregions' on page 48 undefined on input line
  69.
 
 
-LaTeX Warning: Reference `sec:promptbkg' on page 29 undefined on input line 72.
+LaTeX Warning: Reference `sec:promptbkg' on page 48 undefined on input line 72.
 
 
 
-LaTeX Warning: Reference `sec:chargeflip' on page 29 undefined on input line 73
+LaTeX Warning: Reference `sec:chargeflip' on page 48 undefined on input line 73
 .
 
 
-LaTeX Warning: Reference `sec:fakes' on page 29 undefined on input line 74.
+LaTeX Warning: Reference `sec:fakes' on page 48 undefined on input line 74.
 
 
-LaTeX Warning: Reference `sec:validation' on page 29 undefined on input line 75
+LaTeX Warning: Reference `sec:validation' on page 48 undefined on input line 75
 .
 
 
-LaTeX Warning: Reference `sec:histfitter' on page 29 undefined on input line 77
+LaTeX Warning: Reference `sec:histfitter' on page 48 undefined on input line 77
 .
 
 
-LaTeX Warning: Reference `sec:results' on page 29 undefined on input line 80.
+LaTeX Warning: Reference `sec:results' on page 48 undefined on input line 80.
 
 
-LaTeX Warning: Reference `sec:limits' on page 29 undefined on input line 82.
+LaTeX Warning: Reference `sec:limits' on page 48 undefined on input line 82.
 
 
-LaTeX Warning: Reference `sec:conclusion' on page 29 undefined on input line 83
+LaTeX Warning: Reference `sec:conclusion' on page 48 undefined on input line 83
 .
 
 ) (./texfiles/section_signals.tex
 
-LaTeX Warning: Citation `Huang:2015fba' on page 29 undefined on input line 16.
+Package caption Warning: \label without proper \caption on input line 25.
+See the caption package documentation for explanation.
 
 
-LaTeX Warning: Citation `Ellis:2002iu' on page 29 undefined on input line 17.
+LaTeX Warning: Reference `fig:feynman_gtt' on page 48 undefined on input line 9
+.
 
 
-LaTeX Warning: Citation `Ellis:2002wv' on page 29 undefined on input line 17.
+Package caption Warning: \label without proper \caption on input line 26.
+See the caption package documentation for explanation.
 
-[29] [30] <figures/signals/gogo-ttttN1N1.pdf, id=668, 128.48pt x 105.39375pt>
+
+LaTeX Warning: Reference `fig:feynman_gttOffshell' on page 48 undefined on inpu
+t line 10.
+
+
+Package caption Warning: \label without proper \caption on input line 27.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2WZ' on page 48 undefined on input line
+ 11.
+
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 48 undefined on input line
+ 11.
+
+
+Package caption Warning: \label without proper \caption on input line 30.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_b1b1' on page 48 undefined on input line 
+13.
+
+
+Package caption Warning: \label without proper \caption on input line 31.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_t1t1' on page 48 undefined on input line 
+13.
+
+
+LaTeX Warning: Citation `Huang:2015fba' on page 48 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Ellis:2002iu' on page 48 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Ellis:2002wv' on page 48 undefined on input line 17.
+
+[48] [49] <figures/signals/gogo-ttttN1N1.pdf, id=1293, 128.48pt x 105.39375pt>
 File: figures/signals/gogo-ttttN1N1.pdf Graphic file (type pdf)
 
 <use figures/signals/gogo-ttttN1N1.pdf>
@@ -1019,7 +1345,7 @@ Package pdftex.def Info: figures/signals/gogo-ttttN1N1.pdf used on input line 2
 5.
 (pdftex.def)             Requested size: 98.86757pt x 81.10356pt.
 
-<figures/signals/gogo-ttWWbbN1N1.pdf, id=669, 132.495pt x 98.3675pt>
+<figures/signals/gogo-ttWWbbN1N1.pdf, id=1294, 132.495pt x 98.3675pt>
 File: figures/signals/gogo-ttWWbbN1N1.pdf Graphic file (type pdf)
 
 <use figures/signals/gogo-ttWWbbN1N1.pdf>
@@ -1027,7 +1353,7 @@ Package pdftex.def Info: figures/signals/gogo-ttWWbbN1N1.pdf used on input line
  26.
 (pdftex.def)             Requested size: 98.86757pt x 73.40167pt.
 
-<figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf, id=670, 127.47626pt x 112.42pt>
+<figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf, id=1295, 127.47626pt x 112.42pt>
 File: figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf Graphic file (type pdf)
 
 <use figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf>
@@ -1035,7 +1361,7 @@ Package pdftex.def Info: figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf used on inp
 ut line 27.
 (pdftex.def)             Requested size: 98.86757pt x 87.19492pt.
 
-<figures/signals/gogo-qqqqllllN1N1-N2.pdf, id=671, 135.50626pt x 112.42pt>
+<figures/signals/gogo-qqqqllllN1N1-N2.pdf, id=1296, 135.50626pt x 112.42pt>
 File: figures/signals/gogo-qqqqllllN1N1-N2.pdf Graphic file (type pdf)
 
 <use figures/signals/gogo-qqqqllllN1N1-N2.pdf>
@@ -1043,7 +1369,7 @@ Package pdftex.def Info: figures/signals/gogo-qqqqllllN1N1-N2.pdf used on input
  line 28.
 (pdftex.def)             Requested size: 98.86757pt x 82.02646pt.
 
-<figures/signals/sbsb-ttWWN1N1.pdf, id=672, 130.4875pt x 104.39pt>
+<figures/signals/sbsb-ttWWN1N1.pdf, id=1297, 130.4875pt x 104.39pt>
 File: figures/signals/sbsb-ttWWN1N1.pdf Graphic file (type pdf)
 
 <use figures/signals/sbsb-ttWWN1N1.pdf>
@@ -1051,7 +1377,7 @@ Package pdftex.def Info: figures/signals/sbsb-ttWWN1N1.pdf used on input line 3
 0.
 (pdftex.def)             Requested size: 98.86757pt x 79.0951pt.
 
-<figures/signals/stst-ttWWWWN1N1.pdf, id=673, 128.48pt x 106.3975pt>
+<figures/signals/stst-ttWWWWN1N1.pdf, id=1298, 128.48pt x 106.3975pt>
 File: figures/signals/stst-ttWWWWN1N1.pdf Graphic file (type pdf)
 
 <use figures/signals/stst-ttWWWWN1N1.pdf>
@@ -1063,7 +1389,43 @@ Overfull \hbox (31.53154pt too wide) in paragraph at lines 24--37
  [][] 
  []
 
-<figures/signals/run1excluded_gluinoGtt.pdf, id=674, 569.12625pt x 385.44pt>
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 50 undefined on input line
+ 37.
+
+
+Package caption Warning: \label without proper \caption on input line 31.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_t1t1' on page 50 undefined on input line 
+37.
+
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 50 undefined on input line
+ 37.
+
+
+Package caption Warning: \label without proper \caption on input line 31.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_t1t1' on page 50 undefined on input line 
+37.
+
+[50 <./figures/signals/gogo-ttttN1N1.pdf> <./figures/signals/gogo-ttWWbbN1N1.pd
+f> <./figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf> <./figures/signals/gogo-qqqql
+lllN1N1-N2.pdf> <./figures/signals/sbsb-ttWWN1N1.pdf> <./figures/signals/stst-t
+tWWWWN1N1.pdf>]
+<figures/signals/run1excluded_gluinoGtt.pdf, id=1412, 569.12625pt x 385.44pt>
 File: figures/signals/run1excluded_gluinoGtt.pdf Graphic file (type pdf)
 
 <use figures/signals/run1excluded_gluinoGtt.pdf>
@@ -1071,438 +1433,2165 @@ Package pdftex.def Info: figures/signals/run1excluded_gluinoGtt.pdf used on inp
 ut line 54.
 (pdftex.def)             Requested size: 226.56758pt x 153.44397pt.
 
-<figures/signals/exclusion_sbottom_topC1_both_grids.pdf, id=675, 569.12625pt x 
-539.01375pt>
+<figures/signals/exclusion_sbottom_topC1_both_grids.pdf, id=1413, 569.12625pt x
+ 539.01375pt>
 File: figures/signals/exclusion_sbottom_topC1_both_grids.pdf Graphic file (type
  pdf)
  <use figures/signals/exclusion_sbottom_topC1_both_grids.pdf>
 Package pdftex.def Info: figures/signals/exclusion_sbottom_topC1_both_grids.pdf
- used on input line 55.
+ used on input line 56.
 (pdftex.def)             Requested size: 156.53874pt x 148.25801pt.
 
 
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
- input line 58.
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 51 undefined on
+ input line 60.
 
 
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
- input line 58.
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 51 undefined on
+ input line 60.
 
 
-<figures/signals/run1excluded_gluino2stepWZ.pdf, id=676, 569.12625pt x 385.44pt
->
+<figures/signals/run1excluded_gluino2stepWZ.pdf, id=1414, 569.12625pt x 385.44p
+t>
 File: figures/signals/run1excluded_gluino2stepWZ.pdf Graphic file (type pdf)
  <use figures/signals/run1excluded_gluino2stepWZ.pdf>
 Package pdftex.def Info: figures/signals/run1excluded_gluino2stepWZ.pdf used on
- input line 65.
+ input line 67.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/signals/run1excluded_gluino2stepSleptons.pdf, id=677, 569.12625pt x 38
-5.44pt>
+<figures/signals/run1excluded_gluino2stepSleptons.pdf, id=1415, 569.12625pt x 3
+85.44pt>
 File: figures/signals/run1excluded_gluino2stepSleptons.pdf Graphic file (type p
 df)
  <use figures/signals/run1excluded_gluino2stepSleptons.pdf>
 Package pdftex.def Info: figures/signals/run1excluded_gluino2stepSleptons.pdf u
-sed on input line 66.
+sed on input line 68.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
 
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
- input line 69.
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 51 undefined on
+ input line 71.
 
 
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 31 undefined on
- input line 69.
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 51 undefined on
+ input line 71.
 
 
-LaTeX Warning: Reference `fig:feynm_g2slep' on page 31 undefined on input line 
-76.
+LaTeX Warning: Reference `fig:feynm_g2slep' on page 51 undefined on input line 
+78.
 
-[31 <./figures/signals/gogo-ttttN1N1.pdf> <./figures/signals/gogo-ttWWbbN1N1.pd
-f> <./figures/signals/gogo-qqqqWWZZN1N1-C1N2.pdf> <./figures/signals/gogo-qqqql
-lllN1N1-N2.pdf> <./figures/signals/sbsb-ttWWN1N1.pdf> <./figures/signals/stst-t
-tWWWWN1N1.pdf>] [32 <./figures/signals/run1excluded_gluinoGtt.pdf> <./figures/s
-ignals/exclusion_sbottom_topC1_both_grids.pdf, page is rotated 90 degrees>]
+[51 <./figures/signals/run1excluded_gluinoGtt.pdf> <./figures/signals/exclusion
+_sbottom_topC1_both_grids.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `fig:feynm_g2wz' on page 33 undefined on input line 10
-2.
+LaTeX Warning: Reference `fig:feynm_g2wz' on page 52 undefined on input line 10
+4.
 
-[33 <./figures/signals/run1excluded_gluino2stepWZ.pdf> <./figures/signals/run1e
+[52 <./figures/signals/run1excluded_gluino2stepWZ.pdf> <./figures/signals/run1e
 xcluded_gluino2stepSleptons.pdf>]
 
-LaTeX Warning: Reference `fig:feynm_sbot' on page 34 undefined on input line 11
-9.
-
-
-LaTeX Warning: Citation `ATLAS-CONF-2015-066' on page 34 undefined on input lin
-e 121.
-
-
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 34 undefined on
- input line 124.
-
-
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 34 undefined on
- input line 135.
-
-[34]
-
-LaTeX Warning: Reference `fig:feynm_gtt' on page 35 undefined on input line 143
-.
-
-
-LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 35 undefined on
- input line 147.
-
-
-LaTeX Warning: Citation `stop_3lss' on page 35 undefined on input line 160.
-
-
-LaTeX Warning: Reference `fig:feynm_stop' on page 35 undefined on input line 16
-2.
-
-[35]
-
-LaTeX Warning: Reference `fig:limitsSummer_rpc' on page 36 undefined on input l
-ine 172.
-
-
-LaTeX Warning: Citation `Aad:2013di' on page 36 undefined on input line 176.
-
-[36]
-
-LaTeX Warning: Citation `Baer:2013xua' on page 37 undefined on input line 188.
-
-
-LaTeX Warning: Citation `Baer:2013yha' on page 37 undefined on input line 188.
-
-
-LaTeX Warning: Citation `Baer:2016usl' on page 37 undefined on input line 188.
-
-[37]
-
-LaTeX Warning: Citation `twiki-SusyCrossSections' on page 38 undefined on input
- line 234.
-
-
-LaTeX Warning: Citation `twiki-SusyCrossSections' on page 38 undefined on input
- line 234.
-
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 38 undefined on input line 260
-.
-
-
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 38 undefined on input line 2
-60.
-
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 38 undefined on input l
-ine 261.
-
-
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 38 undefined on input line 2
-63.
-
-
-LaTeX Warning: Citation `Carrazza:2013axa' on page 38 undefined on input line 2
-64.
-
-
-LaTeX Warning: Citation `Lonnblad:2011xx' on page 38 undefined on input line 26
-5.
-
-[38]
-
-LaTeX Warning: Citation `twiki-SusyCrossSections' on page 39 undefined on input
- line 268.
-
-
-LaTeX Warning: Citation `Borschensky:2014cia' on page 39 undefined on input lin
-e 270.
-
-
-LaTeX Warning: Citation `Beenakker:1996ed' on page 39 undefined on input line 2
-73.
-
-
-LaTeX Warning: Citation `twiki-SusyCrossSections' on page 39 undefined on input
- line 275.
-
-[39]
-
-LaTeX Warning: Reference `app:samples' on page 40 undefined on input line 281.
-
-
-LaTeX Warning: Reference `tab:SigSamples' on page 40 undefined on input line 28
+LaTeX Warning: Reference `fig:feynm_sbot' on page 53 undefined on input line 12
 1.
 
 
-LaTeX Warning: Reference `subsubsec:samples_mc' on page 40 undefined on input l
-ine 282.
+LaTeX Warning: Citation `ATLAS-CONF-2015-066' on page 53 undefined on input lin
+e 123.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 53 undefined on
+ input line 126.
+
+[53]
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 54 undefined on
+ input line 137.
+
+
+LaTeX Warning: Reference `fig:feynm_gtt' on page 54 undefined on input line 145
+.
+
+
+LaTeX Warning: Citation `DraftSquarkGluinoSummaryPaper' on page 54 undefined on
+ input line 149.
+
+[54]
+
+LaTeX Warning: Citation `stop_3lss' on page 55 undefined on input line 162.
+
+
+LaTeX Warning: Reference `fig:feynm_stop' on page 55 undefined on input line 16
+4.
+
+
+LaTeX Warning: Reference `fig:limitsSummer_rpc' on page 55 undefined on input l
+ine 174.
+
+
+LaTeX Warning: Citation `Aad:2013di' on page 55 undefined on input line 178.
+
+[55]
+
+LaTeX Warning: Citation `Baer:2013xua' on page 56 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Baer:2013yha' on page 56 undefined on input line 190.
+
+
+LaTeX Warning: Citation `Baer:2016usl' on page 56 undefined on input line 190.
+
+[56]
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 57 undefined on input
+ line 236.
+
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 57 undefined on input
+ line 236.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 57 undefined on input line 262
+.
+
+
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 57 undefined on input line 2
+62.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 57 undefined on input l
+ine 263.
+
+
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 57 undefined on input line 2
+65.
+
+
+LaTeX Warning: Citation `Carrazza:2013axa' on page 57 undefined on input line 2
+66.
+
+
+LaTeX Warning: Citation `Lonnblad:2011xx' on page 57 undefined on input line 26
+7.
+
+[57]
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 58 undefined on input
+ line 270.
+
+
+LaTeX Warning: Citation `Borschensky:2014cia' on page 58 undefined on input lin
+e 272.
+
+
+LaTeX Warning: Citation `Beenakker:1996ed' on page 58 undefined on input line 2
+75.
+
+[58]
+
+LaTeX Warning: Citation `twiki-SusyCrossSections' on page 59 undefined on input
+ line 277.
+
+
+LaTeX Warning: Reference `app:samples' on page 59 undefined on input line 283.
+
+
+LaTeX Warning: Reference `tab:SigSamples' on page 59 undefined on input line 28
+3.
+
+
+LaTeX Warning: Reference `subsubsec:samples_mc' on page 59 undefined on input l
+ine 284.
 
 ) (./texfiles/section_dataMC.tex
 
-LaTeX Warning: Citation `Aaboud:2016hhf' on page 40 undefined on input line 7.
+LaTeX Warning: Citation `Aaboud:2016hhf' on page 59 undefined on input line 7.
+
+[59]
+
+LaTeX Warning: Citation `Aad:2010ah' on page 60 undefined on input line 14.
 
 
-LaTeX Warning: Reference `sec:DD_bkg' on page 40 undefined on input line 13.
-
-
-LaTeX Warning: Citation `Aad:2010ah' on page 40 undefined on input line 14.
-
-
-LaTeX Warning: Citation `Agostinelli:2002hh' on page 40 undefined on input line
+LaTeX Warning: Citation `Agostinelli:2002hh' on page 60 undefined on input line
  15.
 
 
-LaTeX Warning: Citation `ATL-PHYS-PUB-2010-013' on page 40 undefined on input l
+LaTeX Warning: Citation `ATL-PHYS-PUB-2010-013' on page 60 undefined on input l
 ine 16.
 
 
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 40 undefined on input line 1
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 60 undefined on input line 1
 8.
 
 
-LaTeX Warning: Citation `ATL-PHYS-PUB-2012-003' on page 40 undefined on input l
+LaTeX Warning: Citation `ATL-PHYS-PUB-2012-003' on page 60 undefined on input l
 ine 18.
 
 
-LaTeX Warning: Citation `Martin:2009iq' on page 40 undefined on input line 19.
+LaTeX Warning: Citation `Martin:2009iq' on page 60 undefined on input line 19.
 
 
-LaTeX Warning: Reference `tab:MC' on page 40 undefined on input line 21.
+LaTeX Warning: Citation `EvtGen' on page 60 undefined on input line 24.
 
 
-LaTeX Warning: Citation `EvtGen' on page 40 undefined on input line 24.
-
-[40]
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 60.
+LaTeX Warning: Citation `Alwall:2014hca' on page 60 undefined on input line 57.
 
 
 
-LaTeX Warning: Citation `Sjostrand:2007gs' on page 41 undefined on input line 6
-0.
+LaTeX Warning: Citation `Sjostrand:2007gs' on page 60 undefined on input line 5
+7.
 
 
-LaTeX Warning: Citation `Ball:2012cx' on page 41 undefined on input line 60.
+LaTeX Warning: Citation `Ball:2012cx' on page 60 undefined on input line 57.
 
 
-LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 41 undefined on input l
-ine 60.
+LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 60 undefined on input l
+ine 57.
 
 
-LaTeX Warning: Reference `fig:feynm_rpv_gl112' on page 41 undefined on input li
-ne 60.
+LaTeX Warning: Citation `YR4' on page 60 undefined on input line 57.
 
 
-LaTeX Warning: Reference `fig:feynm_rpv_gl112' on page 41 undefined on input li
-ne 60.
+LaTeX Warning: Citation `YR4' on page 60 undefined on input line 57.
 
 
-LaTeX Warning: Citation `Corcella:2000bw' on page 41 undefined on input line 60
+LaTeX Warning: Citation `Alwall:2014hca' on page 60 undefined on input line 57.
+
+
+
+LaTeX Warning: Citation `gleisberg:2008ta' on page 60 undefined on input line 5
+7.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 60 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 60 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Citation `Lai:2010vv' on page 60 undefined on input line 57.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 60 undefined on input line 57.
+
+
+
+LaTeX Warning: Citation `Dittmaier:2012vm' on page 60 undefined on input line 5
+7.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 60 undefined on input l
+ine 57.
+
+
+LaTeX Warning: Citation `Alwall:2008ve' on page 60 undefined on input line 66.
+
+
+LaTeX Warning: Citation `Alwall:2008ag' on page 60 undefined on input line 66.
+
+
+LaTeX Warning: Citation `Alves:2011wf' on page 60 undefined on input line 66.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 60 undefined on input line 71.
+
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 60 undefined on input l
+ine 71.
+
+
+LaTeX Warning: Citation `Lonnblad:2011xx' on page 60 undefined on input line 73
 .
 
 
-LaTeX Warning: Citation `Beenakker:1996ch' on page 41 undefined on input line 6
-0.
+LaTeX Warning: Citation `Beenakker:1996ch' on page 60 undefined on input line 7
+7.
 
 
-LaTeX Warning: Citation `Kulesza:2008jb' on page 41 undefined on input line 60.
+LaTeX Warning: Citation `Kulesza:2008jb' on page 60 undefined on input line 77.
 
 
 
-LaTeX Warning: Citation `Kulesza:2009kq' on page 41 undefined on input line 60.
+LaTeX Warning: Citation `Kulesza:2009kq' on page 60 undefined on input line 77.
 
 
 
-LaTeX Warning: Citation `Beenakker:2009ha' on page 41 undefined on input line 6
-0.
+LaTeX Warning: Citation `Beenakker:2009ha' on page 60 undefined on input line 7
+7.
 
 
-LaTeX Warning: Citation `Beenakker:2011fu' on page 41 undefined on input line 6
-0.
+LaTeX Warning: Citation `Beenakker:2011fu' on page 60 undefined on input line 7
+7.
 
 
-LaTeX Warning: Citation `Kramer:2012bx' on page 41 undefined on input line 60.
-
-
-LaTeX Warning: Citation `Pumplin:2002vw' on page 41 undefined on input line 60.
-
-
-
-LaTeX Warning: Citation `Gieseke:2012ft' on page 41 undefined on input line 60.
-
-
-
-LaTeX Warning: Citation `YR4' on page 41 undefined on input line 60.
-
-
-LaTeX Warning: Citation `YR4' on page 41 undefined on input line 60.
-
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 60.
-
-
-
-LaTeX Warning: Citation `gleisberg:2008ta' on page 41 undefined on input line 6
-0.
-
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 41 undefined on input l
-ine 60.
-
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 41 undefined on input l
-ine 60.
-
-
-LaTeX Warning: Citation `Lai:2010vv' on page 41 undefined on input line 60.
-
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 60.
-
-
-
-LaTeX Warning: Citation `Dittmaier:2012vm' on page 41 undefined on input line 6
-0.
-
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 41 undefined on input l
-ine 60.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_sd313' on page 41 undefined on input li
-ne 64.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_sd321' on page 41 undefined on input li
-ne 64.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_sd313' on page 41 undefined on input li
-ne 64.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_sd321' on page 41 undefined on input li
-ne 64.
-
-
-LaTeX Warning: Citation `Alwall:2008ve' on page 41 undefined on input line 70.
-
-
-LaTeX Warning: Citation `Alwall:2008ag' on page 41 undefined on input line 70.
-
-
-LaTeX Warning: Citation `Alves:2011wf' on page 41 undefined on input line 70.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_gl112' on page 41 undefined on input li
-ne 72.
-
-
-LaTeX Warning: Citation `Corcella:2000bw' on page 41 undefined on input line 73
-.
-
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 41 undefined on input line 75.
-
-
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2014-021' on page 41 undefined on input l
-ine 75.
-
-
-LaTeX Warning: Citation `Lonnblad:2011xx' on page 41 undefined on input line 77
-.
-
-
-LaTeX Warning: Citation `Beenakker:1996ch' on page 41 undefined on input line 8
-1.
-
-
-LaTeX Warning: Citation `Kulesza:2008jb' on page 41 undefined on input line 81.
-
-
-
-LaTeX Warning: Citation `Kulesza:2009kq' on page 41 undefined on input line 81.
-
-
-
-LaTeX Warning: Citation `Beenakker:2009ha' on page 41 undefined on input line 8
-1.
-
-
-LaTeX Warning: Citation `Beenakker:2011fu' on page 41 undefined on input line 8
-1.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_sd313' on page 41 undefined on input li
-ne 82.
-
-
-LaTeX Warning: Reference `fig:feynm_rpv_sd321' on page 41 undefined on input li
-ne 82.
-
-
-LaTeX Warning: Citation `Beenakker:1996ed' on page 41 undefined on input line 8
-3.
-
-
-LaTeX Warning: Citation `Beenakker:1996ch' on page 41 undefined on input line 8
-3.
-
-
-LaTeX Warning: Citation `Kramer:2012bx' on page 41 undefined on input line 85.
-
-
-LaTeX Warning: Citation `Borschensky:2014cia' on page 41 undefined on input lin
-e 85.
-
-[41]
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 42 undefined on input l
-ine 94.
-
-
-LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 42 undefined on input l
-ine 94.
-
-
-LaTeX Warning: Citation `Alwall:2014hca' on page 42 undefined on input line 98.
-
-
-
-LaTeX Warning: Citation `Frixione:2015zaa' on page 42 undefined on input line 9
+LaTeX Warning: Citation `Beenakker:1996ed' on page 60 undefined on input line 7
 8.
 
 
-LaTeX Warning: Citation `YR4' on page 42 undefined on input line 99.
+LaTeX Warning: Citation `Beenakker:1996ch' on page 60 undefined on input line 7
+8.
 
 
-LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 42 undefined on input l
-ine 100.
+LaTeX Warning: Citation `Kramer:2012bx' on page 60 undefined on input line 80.
 
 
-LaTeX Warning: Citation `YR4' on page 42 undefined on input line 100.
+LaTeX Warning: Citation `Borschensky:2014cia' on page 60 undefined on input lin
+e 80.
+
+[60] [61]
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 62 undefined on input l
+ine 89.
 
 
-LaTeX Warning: Citation `Alwall:2014hca' on page 42 undefined on input line 101
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 62 undefined on input l
+ine 89.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 62 undefined on input line 93.
+
+
+
+LaTeX Warning: Citation `Frixione:2015zaa' on page 62 undefined on input line 9
+3.
+
+
+LaTeX Warning: Citation `YR4' on page 62 undefined on input line 94.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 62 undefined on input l
+ine 95.
+
+
+LaTeX Warning: Citation `YR4' on page 62 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 62 undefined on input line 96.
+
+
+[62]) (./texfiles/section_sel.tex
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2015-026' on page 63 undefined on input l
+ine 17.
+
+[63] [64]
+
+LaTeX Warning: Reference `tab:lepdef' on page 65 undefined on input line 51.
+
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[65]
+
+LaTeX Warning: Citation `Cacciari:2008gp' on page 66 undefined on input line 13
+9.
+
+
+LaTeX Warning: Citation `PERF-2014-07' on page 66 undefined on input line 142.
+
+
+LaTeX Warning: Citation `Cacciari:2007fd' on page 66 undefined on input line 14
+6.
+
+
+LaTeX Warning: Citation `Aaboud:2017jcu' on page 66 undefined on input line 146
 .
 
-[42]) (./texfiles/section_sel.tex) (./texfiles/section_sr.tex)
-(./texfiles/section_bkg.tex) (./texfiles/section_syst.tex)
-(./texfiles/section_res.tex) (./texfiles/section_conclusion.tex)) [43] [44]
-[45] [46]
+
+LaTeX Warning: Citation `ATLAS-CONF-2014-018' on page 66 undefined on input lin
+e 149.
+
+
+LaTeX Warning: Citation `Aaboud:2017jcu' on page 66 undefined on input line 150
+.
+
+[66]
+
+LaTeX Warning: Citation `Aad:2015ydr' on page 67 undefined on input line 155.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2015-022' on page 67 undefined on input l
+ine 155.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2015-022' on page 67 undefined on input l
+ine 161.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-012' on page 67 undefined on input l
+ine 161.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2015-022' on page 67 undefined on input l
+ine 164.
+
+[67]
+
+LaTeX Warning: Citation `ATLAS-CONF-2016-024' on page 68 undefined on input lin
+e 177.
+
+
+LaTeX Warning: Citation `ATLAS-CONF-2016-024' on page 68 undefined on input lin
+e 188.
+
+[68]
+
+LaTeX Warning: Citation `Aad:2016jkr' on page 69 undefined on input line 202.
+
+[69]
+
+LaTeX Warning: Citation `Aaboud:2016yuq' on page 70 undefined on input line 228
+.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2015-027' on page 70 undefined on input l
+ine 231.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2015-023' on page 70 undefined on input l
+ine 231.
+
+) [70] (./texfiles/section_sr.tex
+
+LaTeX Warning: Citation `Cousins:2009' on page 71 undefined on input line 14.
+
+
+LaTeX Warning: Reference `subsec:fakes_mctemplate' on page 71 undefined on inpu
+t line 20.
+
+[71]
+Overfull \hbox (4.95674pt too wide) in paragraph at lines 29--36
+ [][] 
+ []
+
+
+Package caption Warning: \label without proper \caption on input line 25.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gtt' on page 72 undefined on input line 7
+3.
+
+
+Package caption Warning: \label without proper \caption on input line 25.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gtt' on page 72 undefined on input line 7
+3.
+
+
+Package caption Warning: \label without proper \caption on input line 26.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gttOffshell' on page 72 undefined on inpu
+t line 73.
+
+
+Package caption Warning: \label without proper \caption on input line 26.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gttOffshell' on page 72 undefined on inpu
+t line 73.
+
+
+Package caption Warning: \label without proper \caption on input line 27.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2WZ' on page 72 undefined on input line
+ 73.
+
+
+Package caption Warning: \label without proper \caption on input line 27.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2WZ' on page 72 undefined on input line
+ 73.
+
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 72 undefined on input line
+ 73.
+
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 72 undefined on input line
+ 73.
+
+
+Package caption Warning: \label without proper \caption on input line 30.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_b1b1' on page 72 undefined on input line 
+73.
+
+
+Package caption Warning: \label without proper \caption on input line 30.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_b1b1' on page 72 undefined on input line 
+73.
+
+
+Package caption Warning: \label without proper \caption on input line 31.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_t1t1' on page 72 undefined on input line 
+73.
+
+[72] <figures/sr/allSRs.pdf, id=1570, page=5, 569.12625pt x 547.04375pt>
+File: figures/sr/allSRs.pdf Graphic file (type pdf)
+
+<use figures/sr/allSRs.pdf, page 5>
+Package pdftex.def Info: figures/sr/allSRs.pdf, page5 used on input line 94.
+(pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
+
+<figures/sr/allSRs.pdf, id=1571, page=6, 569.12625pt x 546.04pt>
+File: figures/sr/allSRs.pdf Graphic file (type pdf)
+
+<use figures/sr/allSRs.pdf, page 6>
+Package pdftex.def Info: figures/sr/allSRs.pdf, page6 used on input line 98.
+(pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
+
+<figures/sr/2bs.pdf, id=1572, page=1, 569.12625pt x 547.04375pt>
+File: figures/sr/2bs.pdf Graphic file (type pdf)
+
+<use figures/sr/2bs.pdf, page 1>
+Package pdftex.def Info: figures/sr/2bs.pdf, page1 used on input line 102.
+(pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
+
+<figures/sr/2bs.pdf, id=1573, page=2, 569.12625pt x 547.04375pt>
+File: figures/sr/2bs.pdf Graphic file (type pdf)
+
+<use figures/sr/2bs.pdf, page 2>
+Package pdftex.def Info: figures/sr/2bs.pdf, page2 used on input line 106.
+(pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
+
+
+LaTeX Warning: Reference `tab:sr_defs' on page 73 undefined on input line 109.
+
+
+LaTeX Warning: Reference `tab:sr_defs' on page 73 undefined on input line 109.
+
+<figures/sr/allSRs.pdf, id=1574, page=1, 569.12625pt x 547.04375pt>
+File: figures/sr/allSRs.pdf Graphic file (type pdf)
+
+<use figures/sr/allSRs.pdf, page 1>
+Package pdftex.def Info: figures/sr/allSRs.pdf, page1 used on input line 118.
+(pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
+
+<figures/sr/allSRs.pdf, id=1575, page=2, 569.12625pt x 547.04375pt>
+File: figures/sr/allSRs.pdf Graphic file (type pdf)
+
+<use figures/sr/allSRs.pdf, page 2>
+Package pdftex.def Info: figures/sr/allSRs.pdf, page2 used on input line 122.
+(pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
+
+<figures/sr/allSRs.pdf, id=1576, page=3, 569.12625pt x 546.04pt>
+File: figures/sr/allSRs.pdf Graphic file (type pdf)
+
+<use figures/sr/allSRs.pdf, page 3>
+Package pdftex.def Info: figures/sr/allSRs.pdf, page3 used on input line 126.
+(pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
+
+<figures/sr/allSRs.pdf, id=1577, page=4, 569.12625pt x 546.04pt>
+File: figures/sr/allSRs.pdf Graphic file (type pdf)
+
+<use figures/sr/allSRs.pdf, page 4>
+Package pdftex.def Info: figures/sr/allSRs.pdf, page4 used on input line 130.
+(pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
+
+
+LaTeX Warning: Reference `tab:sr_defs' on page 73 undefined on input line 133.
+
+
+LaTeX Warning: Reference `tab:sr_defs' on page 73 undefined on input line 133.
+
+[73] [74 <./figures/sr/allSRs.pdf> <./figures/sr/allSRs.pdf> <./figures/sr/2bs.
+pdf> <./figures/sr/2bs.pdf>] [75 <./figures/sr/allSRs.pdf> <./figures/sr/allSRs
+.pdf> <./figures/sr/allSRs.pdf> <./figures/sr/allSRs.pdf>]
+<figures/sr/2bs.pdf, id=1598, page=3, 569.12625pt x 546.04pt>
+File: figures/sr/2bs.pdf Graphic file (type pdf)
+
+<use figures/sr/2bs.pdf, page 3>
+Package pdftex.def Info: figures/sr/2bs.pdf, page3 used on input line 144.
+(pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
+
+<figures/sr/ttn1_nbjets.pdf, id=1599, 569.12625pt x 385.44pt>
+File: figures/sr/ttn1_nbjets.pdf Graphic file (type pdf)
+
+<use figures/sr/ttn1_nbjets.pdf>
+Package pdftex.def Info: figures/sr/ttn1_nbjets.pdf used on input line 156.
+(pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
+
+<figures/sr/ttn1_nbjets_Dm.pdf, id=1600, 569.12625pt x 385.44pt>
+File: figures/sr/ttn1_nbjets_Dm.pdf Graphic file (type pdf)
+
+<use figures/sr/ttn1_nbjets_Dm.pdf>
+Package pdftex.def Info: figures/sr/ttn1_nbjets_Dm.pdf used on input line 160.
+(pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
+
+<figures/sr/Gttoff_nobound.pdf, id=1601, 569.12625pt x 388.45125pt>
+File: figures/sr/Gttoff_nobound.pdf Graphic file (type pdf)
+
+<use figures/sr/Gttoff_nobound.pdf>
+Package pdftex.def Info: figures/sr/Gttoff_nobound.pdf used on input line 171.
+(pdftex.def)             Requested size: 197.72885pt x 134.95825pt.
+
+<figures/sr/Gttoff_upbound.pdf, id=1602, 569.12625pt x 388.45125pt>
+File: figures/sr/Gttoff_upbound.pdf Graphic file (type pdf)
+
+<use figures/sr/Gttoff_upbound.pdf>
+Package pdftex.def Info: figures/sr/Gttoff_upbound.pdf used on input line 175.
+(pdftex.def)             Requested size: 197.72885pt x 134.95825pt.
+ [76 <./figures/sr/2bs.pdf>] [77 <./figures/sr/ttn1_nbjets.pdf, page is rotated
+ 90 degrees> <./figures/sr/ttn1_nbjets_Dm.pdf, page is rotated 90 degrees> <./f
+igures/sr/Gttoff_nobound.pdf, page is rotated 90 degrees> <./figures/sr/Gttoff_
+upbound.pdf, page is rotated 90 degrees>]
+[78]
+<figures/sr/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf, id=1790, 569
+.12625pt x 409.53pt>
+File: figures/sr/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf Graphic 
+file (type pdf)
+
+<use figures/sr/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/NBJET70_20_afterlepton_3LSS_0_physics__v47_
+343637.pdf used on input line 215.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+
+<figures/sr/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf, id=1791, 569.1262
+5pt x 409.53pt>
+File: figures/sr/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf Graphic file 
+(type pdf)
+
+<use figures/sr/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/Mll_afterlepton_3LSS1b_0_physics__v47_34363
+7.pdf used on input line 215.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+
+<figures/sr/MET_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1792, 569.12625pt x 40
+9.53pt>
+File: figures/sr/MET_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (type pd
+f)
+ <use figures/sr/MET_Mee_3LSS1b_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/MET_Mee_3LSS1b_0_physics__v47_343637.pdf us
+ed on input line 216.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+
+<figures/sr/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1793, 569.12625pt x 40
+9.53pt>
+File: figures/sr/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (type pd
+f)
+ <use figures/sr/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf us
+ed on input line 223.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+
+<figures/sr/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1794, 569.12625pt x
+ 409.53pt>
+File: figures/sr/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (type
+ pdf)
+ <use figures/sr/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf
+ used on input line 224.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+
+<figures/sr/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1795, 569.12625pt x
+ 409.53pt>
+File: figures/sr/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (type
+ pdf)
+ <use figures/sr/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf
+ used on input line 225.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+
+<figures/sr/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1796, 569.12625pt x
+ 409.53pt>
+File: figures/sr/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (type
+ pdf)
+ <use figures/sr/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf>
+Package pdftex.def Info: figures/sr/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf
+ used on input line 226.
+(pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
+)
+[79 <./figures/sr/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf, page i
+s rotated 90 degrees> <./figures/sr/Mll_afterlepton_3LSS1b_0_physics__v47_34363
+7.pdf, page is rotated 90 degrees> <./figures/sr/MET_Mee_3LSS1b_0_physics__v47_
+343637.pdf, page is rotated 90 degrees>] (./texfiles/section_bkg.tex
+
+LaTeX Warning: Reference `sec:valid' on page 80 undefined on input line 10.
+
+[80 <./figures/sr/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf, page is rotated 90 
+degrees> <./figures/sr/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf, page is rot
+ated 90 degrees> <./figures/sr/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf, pag
+e is rotated 90 degrees> <./figures/sr/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.
+pdf, page is rotated 90 degrees>] (./texfiles/subsection_prompt.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 81 undefined on input line 10.
+
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 81 undefined on input l
+ine 11.
+
+
+LaTeX Warning: Citation `twiki-xsections-ttx' on page 81 undefined on input lin
+e 13.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 81 undefined on input l
+ine 13.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 81 undefined on input line 13.
+
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 82 undefined on input l
+ine 21.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-005' on page 82 undefined on input l
+ine 24.
+
+
+LaTeX Warning: Reference `app:mc_modeling_uncertainties' on page 82 undefined o
+n input line 27.
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 82 undefined on input line 29.
+
+
+[82]
+
+LaTeX Warning: Float too large for page by 89.77321pt on input line 62.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+
+LaTeX Warning: Citation `Gleisberg:2008ta' on page 83 undefined on input line 7
+3.
+
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 83 undefined on input l
+ine 73.
+
+[83]
+
+LaTeX Warning: Reference `app:samples' on page 84 undefined on input line 87.
+
+
+LaTeX Warning: Reference `tab:BGSamples1' on page 84 undefined on input line 87
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+LaTeX Warning: Reference `app:mc_modeling_uncertainties' on page 84 undefined o
+n input line 101.
+
+[84]
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 85 undefined on input line 112
+.
+
+
+LaTeX Warning: Citation `Corcella:2000bw' on page 85 undefined on input line 11
+3.
+
+
+LaTeX Warning: Citation `Pumplin:2002vw' on page 85 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation `Lai:2010vv' on page 85 undefined on input line 114.
+
+
+LaTeX Warning: Citation `Dittmaier:2012vm' on page 85 undefined on input line 1
+15.
+
+
+LaTeX Warning: Citation `Alwall:2011uj' on page 85 undefined on input line 117.
+
+
+
+LaTeX Warning: Citation `Alwall:2014hca' on page 85 undefined on input line 117
+.
+
+[85]
+
+LaTeX Warning: Citation `ATL-PHYS-PUB-2016-002' on page 86 undefined on input l
+ine 120.
+
+
+LaTeX Warning: Citation `Lai:2010vv' on page 86 undefined on input line 126.
+
+[86]
+
+LaTeX Warning: Reference `app:dps' on page 87 undefined on input line 146.
+
+[87]
+
+LaTeX Warning: Reference `app:dps' on page 88 undefined on input line 169.
+
+
+LaTeX Warning: Reference `app:dps' on page 88 undefined on input line 169.
+
+[88]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 201
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 201.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 201.
+
+[89]
+Overfull \hbox (146.9488pt too wide) in paragraph at lines 204--206
+[]\OT1/cmr/bx/n/12 Flavor tag-ging (\OT1/cmtt/m/n/12 FT[]EFF[]\OMS/cmtt/m/n/12 
+f\OT1/cmtt/m/n/12 B,C,Light\OMS/cmtt/m/n/12 g[]\OT1/cmtt/m/n/12 systematics[][]
+1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 ,
+ \OT1/cmtt/m/n/12 FT[]EFF[]extrapolation[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12
+ up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 ,
+ []
+
+
+Overfull \hbox (113.27367pt too wide) in paragraph at lines 207--209
+[]\OT1/cmr/bx/n/12 Egamma res-o-lu-tion (\OT1/cmtt/m/n/12 EG[]RESOLUTION[]ALL[]
+[]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12
+ ) and scale (\OT1/cmtt/m/n/12 EG[]SCALE[]ALL[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m
+/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 ) 
+ []
+
+
+Overfull \hbox (77.43738pt too wide) in paragraph at lines 210--212
+[]\OT1/cmr/bx/n/12 Electron ef-fi-ciency (\OT1/cmtt/m/n/12 EL[]EFF[]\OMS/cmtt/m
+/n/12 f\OT1/cmtt/m/n/12 RECO,ID,Iso,CFT\OMS/cmtt/m/n/12 g[]\OT1/cmtt/m/n/12 TOT
+AL[]1NPCOR[]PLUS[]UNCOR[]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m
+/n/12 g\OT1/cmr/bx/n/12 ) 
+ []
+
+
+Overfull \hbox (117.2988pt too wide) in paragraph at lines 214--216
+[]\OT1/cmr/bx/n/12 Muon ef-fi-ciency (\OT1/cmtt/m/n/12 MUON[]EFF[]\OMS/cmtt/m/n
+/12 f\OT1/cmtt/m/n/12 STAT,SYS\OMS/cmtt/m/n/12 g[][]\OT1/cmtt/m/n/12 1\OMS/cmtt
+/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 , \OT1/cmtt
+/m/n/12 MUON[]EFF[]\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 STAT,SYS\OMS/cmtt/m/n/12 
+g[]\OT1/cmtt/m/n/12 LOWPT[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cm
+tt/m/n/12 g\OT1/cmr/bx/n/12 ,
+ []
+
+
+Overfull \hbox (28.32748pt too wide) in paragraph at lines 217--219
+[]\OT1/cmr/bx/n/12 Muon res-o-lu-tion un-cer-tainty (\OT1/cmtt/m/n/12 MUONS[]ID
+[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/
+12 , \OT1/cmtt/m/n/12 MUONS[]MS[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\
+OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 ) 
+ []
+
+[90]
+Overfull \hbox (115.06955pt too wide) in paragraph at lines 223--225
+[]\OT1/cmr/bx/n/12 Muon scale cor-rec-tions (\OT1/cmtt/m/n/12 MUON[]SAGITTA[]RH
+O[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n
+/12 , \OT1/cmtt/m/n/12 MUON[]SAGITTA[]RESBIAS[][]1\OMS/cmtt/m/n/12 f\OT1/cmtt/m
+/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 ) 
+ []
+
+
+Overfull \hbox (108.88614pt too wide) in paragraph at lines 232--234
+[]$\OML/cmm/m/it/12 E[]$ \OT1/cmr/bx/n/12 soft term un-cer-tain-ties (\OT1/cmtt
+/m/n/12 MET[]SoftTrk[]Reso\OMS/cmtt/m/n/12 f\OT1/cmtt/m/n/12 Pare,Perp\OMS/cmtt
+/m/n/12 g\OT1/cmr/bx/n/12 , \OT1/cmtt/m/n/12 MET[]SoftTrk[]Scale\OMS/cmtt/m/n/1
+2 f\OT1/cmtt/m/n/12 up,down\OMS/cmtt/m/n/12 g\OT1/cmr/bx/n/12 ) 
+ []
+
+[91]
+
+LaTeX Warning: Reference `subsubsec:samples_data' on page 92 undefined on input
+ line 241.
+
+
+Overfull \hbox (91.86226pt too wide) in paragraph at lines 243--245
+\OT1/cmr/m/n/12 (-20) Trigger un-cer-tain-ties pro-vided by CP groups and prop-
+a-gated via \OT1/cmtt/m/n/12 TrigGlobalEfficiencyCorrection
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+LaTeX Warning: Reference `sec:signalregions' on page 92 undefined on input line
+ 262.
+
+
+LaTeX Warning: Reference `sec:signalregions' on page 92 undefined on input line
+ 262.
+
+) [92] (./texfiles/subsection_mxm.tex [93]
+<figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf, id=2147, 569.12625pt x 385.
+44pt>
+File: figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf Graphic file (type pdf)
+
+ <use figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf>
+Package pdftex.def Info: figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf used
+ on input line 40.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf, id=2148, 569.12625pt x 385.44pt
+>
+File: figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf Graphic file (type pdf)
+ <use figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf>
+Package pdftex.def Info: figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf used on 
+input line 41.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+ [94 <./figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf, page is rotated 90 d
+egrees> <./figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf, page is rotated 90 de
+grees>]
+Overfull \hbox (125.94576pt too wide) in paragraph at lines 67--70
+$[]\OML/cmm/m/it/12 n[]; n[][]; []"[]$ 
+ []
+
+[95]
+
+LaTeX Warning: Reference `app:fake_rates' on page 96 undefined on input line 79
+.
+
+
+LaTeX Warning: Reference `app:fake_rates' on page 96 undefined on input line 88
+.
+
+<figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf, id=2242, 569.12625pt x 385.44pt>
+File: figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf Graphic file (type pdf)
+
+<use figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf used on input
+ line 93.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf, id=2243, 569.12625pt x 385.44pt
+>
+File: figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf Graphic file (type pdf)
+ <use figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf used on 
+input line 94.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+ [96]
+Overfull \hbox (1.09721pt too wide) in paragraph at lines 132--132
+[] 
+ []
+
+[97 <./figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf, page is rotated 90 degrees> <.
+/figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `app:fake_rates' on page 98 undefined on input line 14
+3.
+
+
+LaTeX Warning: Reference `app:fake_rates' on page 98 undefined on input line 21
+2.
+
+[98]
+<figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf, id=2340, 569.12625pt x 385.44p
+t>
+File: figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf Graphic file (type pdf)
+ <use figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf used on
+ input line 222.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf, id=2341, 569.12625pt x 3
+85.44pt>
+File: figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf Graphic file (type p
+df)
+ <use figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf>
+Package pdftex.def Info: figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf u
+sed on input line 238.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf, id=2342, 569.12625pt
+ x 385.44pt>
+File: figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf Graphic file (ty
+pe pdf)
+ <use figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf>
+Package pdftex.def Info: figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.p
+df used on input line 239.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+[99 <./figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf, page is rotated 90 degre
+es>] [100 <./figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf, page is rota
+ted 90 degrees> <./figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf, pa
+ge is rotated 90 degrees>] [101]
+<figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf, id=2482, 569.12625pt x 385.44pt>
+File: figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf Graphic file (type pdf)
+<use figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf used on i
+nput line 283.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf, id=2483, 569.12625pt x 385.
+44pt>
+File: figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf Graphic file (type pdf)
+
+ <use figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf used
+ on input line 284.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[102 <./figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf, page is rotated 90 degree
+s> <./figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf, page is rotated 90 deg
+rees>]
+
+LaTeX Warning: Reference `app:fake_rates' on page 103 undefined on input line 3
+35.
+
+[103]
+<figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf, id=2577, 569.12625pt x
+ 385.44pt>
+File: figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf Graphic file (type
+ pdf)
+ <use figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf
+ used on input line 351.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf, id=2578, 569.12625pt x 385
+.44pt>
+File: figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf Graphic file (type pdf
+)
+ <use figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf use
+d on input line 352.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+File: figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf Graphic file (type
+ pdf)
+
+<use figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf
+ used on input line 365.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+File: figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf Graphic file (type pdf
+)
+
+<use figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf>
+Package pdftex.def Info: figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf use
+d on input line 366.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+Overfull \hbox (26.72116pt too wide) in paragraph at lines 381--391
+\OT1/cmtt/m/n/12 e26[]lhtight[]nod0[]ivarloose \OT1/cmr/m/n/12 (-20) for elec-t
+rons, \OT1/cmtt/m/n/12 mu20[]iloose[]L1MU15 \OT1/cmr/m/n/12 (-20) or \OT1/cmtt/
+m/n/12 mu26[]ivarmedium
+ []
+
+[104 <./figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf, page is rotated
+ 90 degrees> <./figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf, page is rot
+ated 90 degrees>]
+<figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf, id=2668, 569.12625pt
+ x 547.04375pt>
+File: figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf Graphic file (ty
+pe pdf)
+ <use figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf>
+Package pdftex.def Info: figures/bkg/baseline_and_signal_mll_distribution_Mee.p
+df used on input line 395.
+(pdftex.def)             Requested size: 185.3712pt x 178.17943pt.
+
+<figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf, id=2669, 569.12625
+pt x 547.04375pt>
+File: figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf Graphic file (
+type pdf)
+
+<use figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf>
+Package pdftex.def Info: figures/bkg/baseline_and_signal_mll_distribution_Mmumu
+.pdf used on input line 398.
+(pdftex.def)             Requested size: 185.3712pt x 178.17943pt.
+
+
+LaTeX Warning: Citation `ATLAS-CONF-2014-032' on page 105 undefined on input li
+ne 406.
+
+
+LaTeX Warning: Reference `app:real_lepton_efficiency' on page 105 undefined on 
+input line 409.
+
+[105 <./figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf, page is rotat
+ed 90 degrees> <./figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf, p
+age is rotated 90 degrees>]
+<figures/bkg/real_electron_efficiency_total_systematics.pdf, id=2759, 569.12625
+pt x 547.04375pt>
+File: figures/bkg/real_electron_efficiency_total_systematics.pdf Graphic file (
+type pdf)
+
+<use figures/bkg/real_electron_efficiency_total_systematics.pdf>
+Package pdftex.def Info: figures/bkg/real_electron_efficiency_total_systematics
+.pdf used on input line 415.
+(pdftex.def)             Requested size: 201.85226pt x 194.02242pt.
+
+<figures/bkg/real_muon_efficiency_total_systematics.pdf, id=2760, 569.12625pt x
+ 547.04375pt>
+File: figures/bkg/real_muon_efficiency_total_systematics.pdf Graphic file (type
+ pdf)
+ <use figures/bkg/real_muon_efficiency_total_systematics.pdf>
+Package pdftex.def Info: figures/bkg/real_muon_efficiency_total_systematics.pdf
+ used on input line 419.
+(pdftex.def)             Requested size: 201.85226pt x 194.02242pt.
+
+[106] [107 <./figures/bkg/real_electron_efficiency_total_systematics.pdf, page 
+is rotated 90 degrees> <./figures/bkg/real_muon_efficiency_total_systematics.pd
+f, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `subsec:RLE_sources_of_systematic_uncertainties' on pa
+ge 108 undefined on input line 478.
+
+
+LaTeX Warning: Reference `subsec:RLE_sources_of_systematic_uncertainties' on pa
+ge 108 undefined on input line 478.
+
+
+LaTeX Warning: Reference `subsec:RLE_sources_of_systematic_uncertainties' on pa
+ge 108 undefined on input line 527.
+
+
+LaTeX Warning: Reference `subsec:RLE_sources_of_systematic_uncertainties' on pa
+ge 108 undefined on input line 527.
+
+) (./texfiles/subsection_mct.tex
+
+LaTeX Warning: Reference `sec:chargeflip' on page 108 undefined on input line 1
+.
+
+
+LaTeX Warning: Reference `subsec:fakes_matrix' on page 108 undefined on input l
+ine 1.
+
+[108] [109]
+<figures/bkg/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=2861, 569.12625pt x 713.66624pt
+>
+File: figures/bkg/Prefit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Prefit/el2_pt_ee_CR0b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Prefit/el2_pt_ee_CR0b_SS3L.pdf used on inp
+ut line 45.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Prefit/NJETS_em_CR0b_SS3L.pdf, id=2862, 569.12625pt x 713.66624pt>
+File: figures/bkg/Prefit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
+<use figures/bkg/Prefit/NJETS_em_CR0b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Prefit/NJETS_em_CR0b_SS3L.pdf used on inpu
+t line 46.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=2863, 569.12625pt x 713.66624pt
+>
+File: figures/bkg/Prefit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Prefit/mu2_pt_mm_CR0b_SS3L.pdf used on inp
+ut line 47.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=2864, 569.12625pt x 713.66624p
+t>
+File: figures/bkg/Postfit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Postfit/el2_pt_ee_CR0b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Postfit/el2_pt_ee_CR0b_SS3L.pdf used on in
+put line 56.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Postfit/NJETS_em_CR0b_SS3L.pdf, id=2865, 569.12625pt x 713.66624pt
+>
+File: figures/bkg/Postfit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Postfit/NJETS_em_CR0b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Postfit/NJETS_em_CR0b_SS3L.pdf used on inp
+ut line 57.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=2866, 569.12625pt x 713.66624p
+t>
+File: figures/bkg/Postfit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Postfit/mu2_pt_mm_CR0b_SS3L.pdf used on in
+put line 58.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=2867, 569.12625pt x 713.66624pt
+>
+File: figures/bkg/Prefit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Prefit/el2_pt_ee_CR1b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Prefit/el2_pt_ee_CR1b_SS3L.pdf used on inp
+ut line 67.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Prefit/NJETS_em_CR1b_SS3L.pdf, id=2868, 569.12625pt x 713.66624pt>
+File: figures/bkg/Prefit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
+<use figures/bkg/Prefit/NJETS_em_CR1b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Prefit/NJETS_em_CR1b_SS3L.pdf used on inpu
+t line 68.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=2869, 569.12625pt x 713.66624pt
+>
+File: figures/bkg/Prefit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Prefit/mu2_pt_mm_CR1b_SS3L.pdf used on inp
+ut line 69.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=2870, 569.12625pt x 713.66624p
+t>
+File: figures/bkg/Postfit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Postfit/el2_pt_ee_CR1b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Postfit/el2_pt_ee_CR1b_SS3L.pdf used on in
+put line 78.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Postfit/NJETS_em_CR1b_SS3L.pdf, id=2871, 569.12625pt x 713.66624pt
+>
+File: figures/bkg/Postfit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Postfit/NJETS_em_CR1b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Postfit/NJETS_em_CR1b_SS3L.pdf used on inp
+ut line 79.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+
+<figures/bkg/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=2872, 569.12625pt x 713.66624p
+t>
+File: figures/bkg/Postfit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
+ <use figures/bkg/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>
+Package pdftex.def Info: figures/bkg/Postfit/mu2_pt_mm_CR1b_SS3L.pdf used on in
+put line 80.
+(pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
+ [110]
+
+LaTeX Warning: Reference `app:mctemplate' on page 111 undefined on input line 1
+40.
+
+
+LaTeX Warning: Reference `t:samples_pythia' on page 111 undefined on input line
+ 143.
+
+
+LaTeX Warning: Reference `t:samples_sherpa1' on page 111 undefined on input lin
+e 145.
+
+
+LaTeX Warning: Reference `t:samples_sherpa2' on page 111 undefined on input lin
+e 145.
+
+[111 <./figures/bkg/Prefit/el2_pt_ee_CR0b_SS3L.pdf> <./figures/bkg/Prefit/NJETS
+_em_CR0b_SS3L.pdf> <./figures/bkg/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>]
+
+LaTeX Warning: Float too large for page by 102.78084pt on input line 188.
+
+) (./texfiles/subsection_chargeflip.tex [112 <./figures/bkg/Postfit/el2_pt_ee_C
+R0b_SS3L.pdf> <./figures/bkg/Postfit/NJETS_em_CR0b_SS3L.pdf> <./figures/bkg/Pos
+tfit/mu2_pt_mm_CR0b_SS3L.pdf>]
+
+LaTeX Warning: Citation `ATLAS-CONF-2016-037' on page 113 undefined on input li
+ne 15.
+
+[113 <./figures/bkg/Prefit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/bkg/Prefit/NJETS
+_em_CR1b_SS3L.pdf> <./figures/bkg/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>] [114 <./figu
+res/bkg/Postfit/el2_pt_ee_CR1b_SS3L.pdf> <./figures/bkg/Postfit/NJETS_em_CR1b_S
+S3L.pdf> <./figures/bkg/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>]
+
+LaTeX Warning: Reference `subsubsec:fakes_matrix_descr' on page 115 undefined o
+n input line 38.
+
+<figures/bkg/Data_vs_MC_Pass_EL.pdf, id=3407, 569.12625pt x 385.44pt>
+File: figures/bkg/Data_vs_MC_Pass_EL.pdf Graphic file (type pdf)
+
+<use figures/bkg/Data_vs_MC_Pass_EL.pdf>
+Package pdftex.def Info: figures/bkg/Data_vs_MC_Pass_EL.pdf used on input line 
+47.
+(pdftex.def)             Requested size: 185.3712pt x 125.54294pt.
+
+<figures/bkg/Data_vs_MC_Fail_EL.pdf, id=3408, 569.12625pt x 385.44pt>
+File: figures/bkg/Data_vs_MC_Fail_EL.pdf Graphic file (type pdf)
+
+<use figures/bkg/Data_vs_MC_Fail_EL.pdf>
+Package pdftex.def Info: figures/bkg/Data_vs_MC_Fail_EL.pdf used on input line 
+50.
+(pdftex.def)             Requested size: 185.3712pt x 125.54294pt.
+ [115]
+Overfull \hbox (3.42836pt too wide) in paragraph at lines 71--71
+[] 
+ []
+
+[116 <./figures/bkg/Data_vs_MC_Pass_EL.pdf, page is rotated 90 degrees> <./figu
+res/bkg/Data_vs_MC_Fail_EL.pdf, page is rotated 90 degrees>]
+Overfull \hbox (81.4319pt too wide) in paragraph at lines 86--86
+[] 
+ []
+
+
+LaTeX Warning: Citation `Abbott:2052581' on page 117 undefined on input line 96
+.
+
+
+LaTeX Warning: Citation `Abbott:2052581' on page 117 undefined on input line 10
+4.
+
+<figures/bkg/CFratesVSpt_data15.pdf, id=3502, 569.12625pt x 408.52625pt>
+File: figures/bkg/CFratesVSpt_data15.pdf Graphic file (type pdf)
+
+<use figures/bkg/CFratesVSpt_data15.pdf>
+Package pdftex.def Info: figures/bkg/CFratesVSpt_data15.pdf used on input line 
+112.
+(pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
+
+<figures/bkg/CFratesVSpt_MC15.pdf, id=3503, 569.12625pt x 408.52625pt>
+File: figures/bkg/CFratesVSpt_MC15.pdf Graphic file (type pdf)
+
+<use figures/bkg/CFratesVSpt_MC15.pdf>
+Package pdftex.def Info: figures/bkg/CFratesVSpt_MC15.pdf used on input line 11
+6.
+(pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
+
+<figures/bkg/CFratesLOOSEVSpt_data15.pdf, id=3504, 569.12625pt x 408.52625pt>
+File: figures/bkg/CFratesLOOSEVSpt_data15.pdf Graphic file (type pdf)
+
+<use figures/bkg/CFratesLOOSEVSpt_data15.pdf>
+Package pdftex.def Info: figures/bkg/CFratesLOOSEVSpt_data15.pdf used on input 
+line 120.
+(pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
+
+<figures/bkg/CFratesLOOSEVSpt_MC15.pdf, id=3505, 569.12625pt x 408.52625pt>
+File: figures/bkg/CFratesLOOSEVSpt_MC15.pdf Graphic file (type pdf)
+
+<use figures/bkg/CFratesLOOSEVSpt_MC15.pdf>
+Package pdftex.def Info: figures/bkg/CFratesLOOSEVSpt_MC15.pdf used on input li
+ne 124.
+(pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
+ [117]
+
+LaTeX Warning: Citation `ATLAS-CONF-2016-037' on page 118 undefined on input li
+ne 136.
+
+[118 <./figures/bkg/CFratesVSpt_data15.pdf, page is rotated 90 degrees> <./figu
+res/bkg/CFratesVSpt_MC15.pdf, page is rotated 90 degrees> <./figures/bkg/CFrate
+sLOOSEVSpt_data15.pdf, page is rotated 90 degrees> <./figures/bkg/CFratesLOOSEV
+Spt_MC15.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `app:chargeflip' on page 119 undefined on input line 1
+46.
+
+<figures/bkg/2D_histo_SYS_TOTAL.pdf, id=3684, 569.12625pt x 327.2225pt>
+File: figures/bkg/2D_histo_SYS_TOTAL.pdf Graphic file (type pdf)
+
+<use figures/bkg/2D_histo_SYS_TOTAL.pdf>
+Package pdftex.def Info: figures/bkg/2D_histo_SYS_TOTAL.pdf used on input line 
+154.
+(pdftex.def)             Requested size: 308.95409pt x 177.64119pt.
+
+<figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf, id=3685, 569.12625pt x 327.2225pt>
+File: figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf Graphic file (type pdf)
+
+<use figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf>
+Package pdftex.def Info: figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf used on input
+ line 157.
+(pdftex.def)             Requested size: 308.95409pt x 177.64119pt.
+ [119] [120 <./figures/bkg/2D_histo_SYS_TOTAL.pdf, page is rotated 90 degrees> 
+<./figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf>]
+
+LaTeX Warning: Reference `app:chargeflip' on page 121 undefined on input line 1
+79.
+
+
+LaTeX Warning: Reference `fig:ChargeFlip_Syst_1' on page 121 undefined on input
+ line 179.
+
+
+LaTeX Warning: Reference `fig:ChargeFlip_Syst_5' on page 121 undefined on input
+ line 179.
+
+
+LaTeX Warning: Reference `subsec:fakes_mctemplate' on page 121 undefined on inp
+ut line 190.
+
+
+LaTeX Warning: Reference `sec:signalregions' on page 121 undefined on input lin
+e 199.
+
+
+LaTeX Warning: Reference `subsec:fakes_mctemplate' on page 121 undefined on inp
+ut line 199.
+
+
+LaTeX Warning: Reference `sec:signalregions' on page 121 undefined on input lin
+e 199.
+
+
+LaTeX Warning: Reference `subsec:fakes_mctemplate' on page 121 undefined on inp
+ut line 199.
+
+
+LaTeX Warning: Float too large for page by 0.76997pt on input line 222.
+
+)
+
+LaTeX Warning: Reference `subsec:fakes_matrix' on page 121 undefined on input l
+ine 44.
+
+
+LaTeX Warning: Reference `subsec:fakes_mctemplate' on page 121 undefined on inp
+ut line 44.
+
+
+LaTeX Warning: Reference `subsec:fakes_abcd' on page 121 undefined on input lin
+e 46.
+
+[121]
+Overfull \hbox (60.27414pt too wide) in paragraph at lines 60--60
+[] 
+ []
+
+
+LaTeX Warning: Reference `sec:signalregions' on page 122 undefined on input lin
+e 75.
+
+
+LaTeX Warning: Reference `subsec:fakes_abcd' on page 122 undefined on input lin
+e 75.
+
+
+LaTeX Warning: Reference `sec:signalregions' on page 122 undefined on input lin
+e 75.
+
+
+LaTeX Warning: Reference `subsec:fakes_abcd' on page 122 undefined on input lin
+e 75.
+
+[122]
+<figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf, id=3984, 569.12625pt x 385.44pt>
+File: figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf Graphic file (type pdf)
+
+<use figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf>
+Package pdftex.def Info: figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf used on in
+put line 117.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf, id=3985, 569.12625pt x 385.44pt>
+File: figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf Graphic file (type pdf)
+
+<use figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf>
+Package pdftex.def Info: figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf used on inp
+ut line 118.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/PAPER_DILEP_2JMET50_meff.pdf, id=3986, 569.12625pt x 385.44pt>
+File: figures/bkg/PAPER_DILEP_2JMET50_meff.pdf Graphic file (type pdf)
+
+<use figures/bkg/PAPER_DILEP_2JMET50_meff.pdf>
+Package pdftex.def Info: figures/bkg/PAPER_DILEP_2JMET50_meff.pdf used on input
+ line 119.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf, id=3987, 569.12625pt x 385.44pt>
+File: figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf Graphic file (type pdf)
+
+<use figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf>
+Package pdftex.def Info: figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf used on inpu
+t line 120.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf, id=3988, 569.12625pt x 3
+85.44pt>
+File: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf Graphic file (type p
+df)
+ <use figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf>
+Package pdftex.def Info: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf u
+sed on input line 133.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf, id=3989, 569.12625pt x
+ 388.45125pt>
+File: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf Graphic file (type
+ pdf)
+ <use figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf>
+Package pdftex.def Info: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf
+ used on input line 134.
+(pdftex.def)             Requested size: 201.85226pt x 137.77371pt.
+
+<figures/bkg/ETA_SS_BDTEL.pdf, id=3990, 569.12625pt x 385.44pt>
+File: figures/bkg/ETA_SS_BDTEL.pdf Graphic file (type pdf)
+
+<use figures/bkg/ETA_SS_BDTEL.pdf>
+Package pdftex.def Info: figures/bkg/ETA_SS_BDTEL.pdf used on input line 148.
+(pdftex.def)             Requested size: 271.8811pt x 184.13866pt.
+) (./texfiles/section_syst.tex)
+(./texfiles/section_res.tex
+<figures/res/SRsummary.pdf, id=3991, 569.12625pt x 264.99pt>
+File: figures/res/SRsummary.pdf Graphic file (type pdf)
+
+<use figures/res/SRsummary.pdf>
+Package pdftex.def Info: figures/res/SRsummary.pdf used on input line 3.
+(pdftex.def)             Requested size: 403.69826pt x 187.97438pt.
+
+<figures/res/SystematicsSummary.pdf, id=3992, 569.12625pt x 224.84pt>
+File: figures/res/SystematicsSummary.pdf Graphic file (type pdf)
+
+<use figures/res/SystematicsSummary.pdf>
+Package pdftex.def Info: figures/res/SystematicsSummary.pdf used on input line 
+4.
+(pdftex.def)             Requested size: 444.89465pt x 175.76903pt.
+
+Overfull \hbox (32.95586pt too wide) in paragraph at lines 3--5
+ [] 
+ []
+
+
+Overfull \hbox (55.08621pt too wide) in paragraph at lines 26--49
+ [] 
+ []
+
+
+Overfull \hbox (118.03325pt too wide) in paragraph at lines 52--75
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 273.80807pt on input line 90.
+
+[123]
+
+LaTeX Warning: Citation `Baak:2014wma' on page 124 undefined on input line 98.
+
+
+LaTeX Warning: Citation `Cowan:2010js' on page 124 undefined on input line 98.
+
+
+LaTeX Warning: Citation `Read:2002hq' on page 124 undefined on input line 99.
+
+[124 <./figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf, page is rotated 90 degrees
+> <./figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf, page is rotated 90 degrees> <.
+/figures/bkg/PAPER_DILEP_2JMET50_meff.pdf, page is rotated 90 degrees> <./figur
+es/bkg/PAPER_TRILEP_2JMET50_meff.pdf, page is rotated 90 degrees>] [125 <./figu
+res/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf, page is rotated 90 degrees> <
+./figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf, page is rotated 90 de
+grees>] <figures/res/LIMITS/Gtt_SRbest.pdf, id=4262, 569.12625pt x 540.0175pt>
+File: figures/res/LIMITS/Gtt_SRbest.pdf Graphic file (type pdf)
+
+<use figures/res/LIMITS/Gtt_SRbest.pdf>
+Package pdftex.def Info: figures/res/LIMITS/Gtt_SRbest.pdf used on input line 1
+18.
+(pdftex.def)             Requested size: 156.53874pt x 148.5341pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]\OT1/cmr/m/n/10.95 (+20) (a) |Rpc2L2bS/H,
+ []
+
+<figures/res/LIMITS/2stepWZ_SRbest.pdf, id=4263, 569.12625pt x 539.01375pt>
+File: figures/res/LIMITS/2stepWZ_SRbest.pdf Graphic file (type pdf)
+
+<use figures/res/LIMITS/2stepWZ_SRbest.pdf>
+Package pdftex.def Info: figures/res/LIMITS/2stepWZ_SRbest.pdf used on input li
+ne 119.
+(pdftex.def)             Requested size: 156.53874pt x 148.25801pt.
+
+<figures/res/LIMITS/GSL_SRbest.pdf, id=4264, 569.12625pt x 539.01375pt>
+File: figures/res/LIMITS/GSL_SRbest.pdf Graphic file (type pdf)
+
+<use figures/res/LIMITS/GSL_SRbest.pdf>
+Package pdftex.def Info: figures/res/LIMITS/GSL_SRbest.pdf used on input line 1
+20.
+(pdftex.def)             Requested size: 156.53874pt x 148.25801pt.
+
+<figures/res/LIMITS/Btt_SRbest.pdf, id=4265, 569.12625pt x 539.01375pt>
+File: figures/res/LIMITS/Btt_SRbest.pdf Graphic file (type pdf)
+
+<use figures/res/LIMITS/Btt_SRbest.pdf>
+Package pdftex.def Info: figures/res/LIMITS/Btt_SRbest.pdf used on input line 1
+21.
+(pdftex.def)             Requested size: 156.53874pt x 148.25801pt.
+
+<figures/res/LIMITS/UL_TT2Step.pdf, id=4266, 569.12625pt x 519.9425pt>
+File: figures/res/LIMITS/UL_TT2Step.pdf Graphic file (type pdf)
+
+<use figures/res/LIMITS/UL_TT2Step.pdf>
+Package pdftex.def Info: figures/res/LIMITS/UL_TT2Step.pdf used on input line 1
+22.
+(pdftex.def)             Requested size: 156.53874pt x 143.01239pt.
+
+
+LaTeX Warning: Citation `paperSS3L' on page 126 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Aad:2016jxj' on page 126 undefined on input line 131.
+
+
+LaTeX Warning: Citation `paperSS3L' on page 126 undefined on input line 131.
+
+
+LaTeX Warning: Citation `Aad:2016jxj' on page 126 undefined on input line 131.
+
+
+LaTeX Warning: Float too large for page by 247.1745pt on input line 133.
+
+<figures/res/LIMITS/UL_NUHM2.pdf, id=4267, 569.12625pt x 552.0625pt>
+File: figures/res/LIMITS/UL_NUHM2.pdf Graphic file (type pdf)
+
+<use figures/res/LIMITS/UL_NUHM2.pdf>
+Package pdftex.def Info: figures/res/LIMITS/UL_NUHM2.pdf used on input line 137
+.
+(pdftex.def)             Requested size: 288.3559pt x 279.72018pt.
+
+
+LaTeX Warning: Citation `Ellis:2002iu' on page 126 undefined on input line 140.
+
+
+
+LaTeX Warning: Citation `Ellis:2002wv' on page 126 undefined on input line 140.
+
+
+
+LaTeX Warning: Citation `Ellis:2002iu' on page 126 undefined on input line 140.
+
+
+
+LaTeX Warning: Citation `Ellis:2002wv' on page 126 undefined on input line 140.
+
+
+[126 <./figures/bkg/ETA_SS_BDTEL.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation `paperSS3L' on page 127 undefined on input line 152.
+
+
+LaTeX Warning: Citation `Aad:2016jxj' on page 127 undefined on input line 152.
+
+
+Package caption Warning: \label without proper \caption on input line 26.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gttOffshell' on page 127 undefined on inp
+ut line 160.
+
+[127]) (./texfiles/section_conclusion.tex) [128]
+(./texfiles/section_auxiliary.tex
+<figures/aux/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf, id=4321, 569.12625pt x 3
+85.44pt>
+File: figures/aux/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf Graphic file (type p
+df)
+ <use figures/aux/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf>
+Package pdftex.def Info: figures/aux/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf u
+sed on input line 5.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+<figures/aux/PAPER_DILEP_1B2JMET50_njets25_template.pdf, id=4322, 569.12625pt x
+ 388.45125pt>
+File: figures/aux/PAPER_DILEP_1B2JMET50_njets25_template.pdf Graphic file (type
+ pdf)
+ <use figures/aux/PAPER_DILEP_1B2JMET50_njets25_template.pdf>
+Package pdftex.def Info: figures/aux/PAPER_DILEP_1B2JMET50_njets25_template.pdf
+ used on input line 6.
+(pdftex.def)             Requested size: 201.85226pt x 137.77371pt.
+
+<figures/aux/ETA_SS_BDTEL.pdf, id=4323, 569.12625pt x 385.44pt>
+File: figures/aux/ETA_SS_BDTEL.pdf Graphic file (type pdf)
+
+<use figures/aux/ETA_SS_BDTEL.pdf>
+Package pdftex.def Info: figures/aux/ETA_SS_BDTEL.pdf used on input line 20.
+(pdftex.def)             Requested size: 271.8811pt x 184.13866pt.
+
+<figures/aux/best_Rpc2L2b.pdf, id=4324, 569.12625pt x 539.01375pt>
+File: figures/aux/best_Rpc2L2b.pdf Graphic file (type pdf)
+
+<use figures/aux/best_Rpc2L2b.pdf>
+Package pdftex.def Info: figures/aux/best_Rpc2L2b.pdf used on input line 29.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/best_Rpc2L0b.pdf, id=4325, 569.12625pt x 539.01375pt>
+File: figures/aux/best_Rpc2L0b.pdf Graphic file (type pdf)
+
+<use figures/aux/best_Rpc2L0b.pdf>
+Package pdftex.def Info: figures/aux/best_Rpc2L0b.pdf used on input line 30.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/best_Rpc3L0b.pdf, id=4326, 569.12625pt x 539.01375pt>
+File: figures/aux/best_Rpc3L0b.pdf Graphic file (type pdf)
+
+<use figures/aux/best_Rpc3L0b.pdf>
+Package pdftex.def Info: figures/aux/best_Rpc3L0b.pdf used on input line 31.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/best_Rpc2L1b.pdf, id=4327, 569.12625pt x 539.01375pt>
+File: figures/aux/best_Rpc2L1b.pdf Graphic file (type pdf)
+
+<use figures/aux/best_Rpc2L1b.pdf>
+Package pdftex.def Info: figures/aux/best_Rpc2L1b.pdf used on input line 32.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+
+Package caption Warning: \label without proper \caption on input line 25.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gtt' on page 129 undefined on input line 
+36.
+
+
+Package caption Warning: \label without proper \caption on input line 27.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2WZ' on page 129 undefined on input lin
+e 36.
+
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 129 undefined on input lin
+e 36.
+
+
+Package caption Warning: \label without proper \caption on input line 30.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_b1b1' on page 129 undefined on input line
+ 36.
+
+
+Package caption Warning: \label without proper \caption on input line 25.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gtt' on page 129 undefined on input line 
+36.
+
+
+Package caption Warning: \label without proper \caption on input line 27.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2WZ' on page 129 undefined on input lin
+e 36.
+
+
+Package caption Warning: \label without proper \caption on input line 28.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gg2sl' on page 129 undefined on input lin
+e 36.
+
+
+Package caption Warning: \label without proper \caption on input line 30.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_b1b1' on page 129 undefined on input line
+ 36.
+
+<figures/aux/LIMITS/Gtt_above.pdf, id=4328, 569.12625pt x 540.0175pt>
+File: figures/aux/LIMITS/Gtt_above.pdf Graphic file (type pdf)
+
+<use figures/aux/LIMITS/Gtt_above.pdf>
+Package pdftex.def Info: figures/aux/LIMITS/Gtt_above.pdf used on input line 43
+.
+(pdftex.def)             Requested size: 205.96939pt x 195.43614pt.
+
+
+Package caption Warning: \label without proper \caption on input line 26.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gttOffshell' on page 129 undefined on inp
+ut line 48.
+
+
+Package caption Warning: \label without proper \caption on input line 26.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:feynman_gttOffshell' on page 129 undefined on inp
+ut line 48.
+
+<figures/aux/rareFancy.pdf, id=4329, 569.12625pt x 264.99pt>
+File: figures/aux/rareFancy.pdf Graphic file (type pdf)
+
+<use figures/aux/rareFancy.pdf>
+Package pdftex.def Info: figures/aux/rareFancy.pdf used on input line 54.
+(pdftex.def)             Requested size: 370.7424pt x 172.62962pt.
+ [129] [130] [131] [132] [133] [134] [135]
+[136] [137] [138] [139] [140] [141 <./figures/res/SRsummary.pdf, page is rotate
+d 90 degrees> <./figures/res/SystematicsSummary.pdf, page is rotated 90 degrees
+>] [142] [143 <./figures/res/LIMITS/Gtt_SRbest.pdf, page is rotated 90 degrees>
+ <./figures/res/LIMITS/2stepWZ_SRbest.pdf, page is rotated 90 degrees> <./figur
+es/res/LIMITS/GSL_SRbest.pdf, page is rotated 90 degrees> <./figures/res/LIMITS
+/Btt_SRbest.pdf, page is rotated 90 degrees> <./figures/res/LIMITS/UL_TT2Step.p
+df, page is rotated 90 degrees>] [144 <./figures/res/LIMITS/UL_NUHM2.pdf, page 
+is rotated 90 degrees>] [145 <./figures/aux/PAPER_DILEP_1B2JMET50_njets25_matri
+x.pdf, page is rotated 90 degrees> <./figures/aux/PAPER_DILEP_1B2JMET50_njets25
+_template.pdf, page is rotated 90 degrees>] [146 <./figures/aux/ETA_SS_BDTEL.pd
+f, page is rotated 90 degrees>] [147 <./figures/aux/best_Rpc2L2b.pdf, page is r
+otated 90 degrees> <./figures/aux/best_Rpc2L0b.pdf, page is rotated 90 degrees>
+ <./figures/aux/best_Rpc3L0b.pdf, page is rotated 90 degrees> <./figures/aux/be
+st_Rpc2L1b.pdf, page is rotated 90 degrees>] [148 <./figures/aux/LIMITS/Gtt_abo
+ve.pdf, page is rotated 90 degrees>] [149 <./figures/aux/rareFancy.pdf, page is
+ rotated 90 degrees>]
+<figures/aux/GreyNumbers/Gtt_SRbest.pdf, id=5108, 569.12625pt x 539.01375pt>
+File: figures/aux/GreyNumbers/Gtt_SRbest.pdf Graphic file (type pdf)
+
+<use figures/aux/GreyNumbers/Gtt_SRbest.pdf>
+Package pdftex.def Info: figures/aux/GreyNumbers/Gtt_SRbest.pdf used on input l
+ine 64.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/GreyNumbers/2stepWZ_SRbest.pdf, id=5109, 569.12625pt x 539.01375pt
+>
+File: figures/aux/GreyNumbers/2stepWZ_SRbest.pdf Graphic file (type pdf)
+ <use figures/aux/GreyNumbers/2stepWZ_SRbest.pdf>
+Package pdftex.def Info: figures/aux/GreyNumbers/2stepWZ_SRbest.pdf used on inp
+ut line 65.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/GreyNumbers/GSL_SRbest.pdf, id=5110, 569.12625pt x 539.01375pt>
+File: figures/aux/GreyNumbers/GSL_SRbest.pdf Graphic file (type pdf)
+
+<use figures/aux/GreyNumbers/GSL_SRbest.pdf>
+Package pdftex.def Info: figures/aux/GreyNumbers/GSL_SRbest.pdf used on input l
+ine 66.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/GreyNumbers/Btt_SRbest.pdf, id=5111, 569.12625pt x 539.01375pt>
+File: figures/aux/GreyNumbers/Btt_SRbest.pdf Graphic file (type pdf)
+
+<use figures/aux/GreyNumbers/Btt_SRbest.pdf>
+Package pdftex.def Info: figures/aux/GreyNumbers/Btt_SRbest.pdf used on input l
+ine 67.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+
+LaTeX Warning: Citation `paperSS3L' on page 150 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Aad:2016jxj' on page 150 undefined on input line 77.
+
+
+LaTeX Warning: Citation `paperSS3L' on page 150 undefined on input line 77.
+
+
+LaTeX Warning: Citation `Aad:2016jxj' on page 150 undefined on input line 77.
+
+
+LaTeX Warning: Float too large for page by 186.31874pt on input line 79.
+
+[150 <./figures/aux/GreyNumbers/Gtt_SRbest.pdf, page is rotated 90 degrees> <./
+figures/aux/GreyNumbers/2stepWZ_SRbest.pdf, page is rotated 90 degrees> <./figu
+res/aux/GreyNumbers/GSL_SRbest.pdf, page is rotated 90 degrees> <./figures/aux/
+GreyNumbers/Btt_SRbest.pdf, page is rotated 90 degrees>]
+<figures/aux/EffAcc/acceptance_2StepRpc2L0bH.pdf, id=5288, 569.12625pt x 539.01
+375pt>
+File: figures/aux/EffAcc/acceptance_2StepRpc2L0bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_2StepRpc2L0bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_2StepRpc2L0bH.pdf used o
+n input line 252.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_2StepRpc2L0bH.pdf, id=5289, 569.12625pt x 539.01
+375pt>
+File: figures/aux/EffAcc/efficiency_2StepRpc2L0bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_2StepRpc2L0bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_2StepRpc2L0bH.pdf used o
+n input line 253.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_2StepRpc2L0bS.pdf, id=5290, 569.12625pt x 539.01
+375pt>
+File: figures/aux/EffAcc/acceptance_2StepRpc2L0bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_2StepRpc2L0bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_2StepRpc2L0bS.pdf used o
+n input line 254.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_2StepRpc2L0bS.pdf, id=5291, 569.12625pt x 539.01
+375pt>
+File: figures/aux/EffAcc/efficiency_2StepRpc2L0bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_2StepRpc2L0bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_2StepRpc2L0bS.pdf used o
+n input line 255.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_GSLRpc3L0bH.pdf, id=5292, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/acceptance_GSLRpc3L0bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_GSLRpc3L0bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_GSLRpc3L0bH.pdf used on 
+input line 263.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_GSLRpc3L0bH.pdf, id=5293, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/efficiency_GSLRpc3L0bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_GSLRpc3L0bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_GSLRpc3L0bH.pdf used on 
+input line 264.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_GSLRpc3L0bS.pdf, id=5294, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/acceptance_GSLRpc3L0bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_GSLRpc3L0bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_GSLRpc3L0bS.pdf used on 
+input line 265.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_GSLRpc3L0bS.pdf, id=5295, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/efficiency_GSLRpc3L0bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_GSLRpc3L0bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_GSLRpc3L0bS.pdf used on 
+input line 266.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_GttRpc2L2bH.pdf, id=5296, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/acceptance_GttRpc2L2bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_GttRpc2L2bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_GttRpc2L2bH.pdf used on 
+input line 274.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_GttRpc2L2bH.pdf, id=5297, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/efficiency_GttRpc2L2bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_GttRpc2L2bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_GttRpc2L2bH.pdf used on 
+input line 275.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_GttRpc2L2bS.pdf, id=5298, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/acceptance_GttRpc2L2bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_GttRpc2L2bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_GttRpc2L2bS.pdf used on 
+input line 276.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_GttRpc2L2bS.pdf, id=5299, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/efficiency_GttRpc2L2bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_GttRpc2L2bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_GttRpc2L2bS.pdf used on 
+input line 277.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_GttRpc2Lsoft1b.pdf, id=5300, 569.12625pt x 539.0
+1375pt>
+File: figures/aux/EffAcc/acceptance_GttRpc2Lsoft1b.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_GttRpc2Lsoft1b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_GttRpc2Lsoft1b.pdf used 
+on input line 285.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_GttRpc2Lsoft1b.pdf, id=5301, 569.12625pt x 539.0
+1375pt>
+File: figures/aux/EffAcc/efficiency_GttRpc2Lsoft1b.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_GttRpc2Lsoft1b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_GttRpc2Lsoft1b.pdf used 
+on input line 286.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_GttRpc2Lsoft2b.pdf, id=5302, 569.12625pt x 539.0
+1375pt>
+File: figures/aux/EffAcc/acceptance_GttRpc2Lsoft2b.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_GttRpc2Lsoft2b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_GttRpc2Lsoft2b.pdf used 
+on input line 287.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_GttRpc2Lsoft2b.pdf, id=5303, 569.12625pt x 539.0
+1375pt>
+File: figures/aux/EffAcc/efficiency_GttRpc2Lsoft2b.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_GttRpc2Lsoft2b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_GttRpc2Lsoft2b.pdf used 
+on input line 288.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_ComprGttRpc2L2bH.pdf, id=5304, 569.12625pt x 539
+.01375pt>
+File: figures/aux/EffAcc/acceptance_ComprGttRpc2L2bH.pdf Graphic file (type pdf
+)
+ <use figures/aux/EffAcc/acceptance_ComprGttRpc2L2bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_ComprGttRpc2L2bH.pdf use
+d on input line 296.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_ComprGttRpc2L2bH.pdf, id=5305, 569.12625pt x 539
+.01375pt>
+File: figures/aux/EffAcc/efficiency_ComprGttRpc2L2bH.pdf Graphic file (type pdf
+)
+ <use figures/aux/EffAcc/efficiency_ComprGttRpc2L2bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_ComprGttRpc2L2bH.pdf use
+d on input line 297.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_ComprGttRpc2L2bS.pdf, id=5306, 569.12625pt x 539
+.01375pt>
+File: figures/aux/EffAcc/acceptance_ComprGttRpc2L2bS.pdf Graphic file (type pdf
+)
+ <use figures/aux/EffAcc/acceptance_ComprGttRpc2L2bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_ComprGttRpc2L2bS.pdf use
+d on input line 298.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_ComprGttRpc2L2bS.pdf, id=5307, 569.12625pt x 539
+.01375pt>
+File: figures/aux/EffAcc/efficiency_ComprGttRpc2L2bS.pdf Graphic file (type pdf
+)
+ <use figures/aux/EffAcc/efficiency_ComprGttRpc2L2bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_ComprGttRpc2L2bS.pdf use
+d on input line 299.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft1b.pdf, id=5308, 569.12625pt x 
+539.01375pt>
+File: figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft1b.pdf Graphic file (type 
+pdf)
+ <use figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft1b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft1b.pdf 
+used on input line 307.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft1b.pdf, id=5309, 569.12625pt x 
+539.01375pt>
+File: figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft1b.pdf Graphic file (type 
+pdf)
+ <use figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft1b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft1b.pdf 
+used on input line 308.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft2b.pdf, id=5310, 569.12625pt x 
+539.01375pt>
+File: figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft2b.pdf Graphic file (type 
+pdf)
+ <use figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft2b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft2b.pdf 
+used on input line 309.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft2b.pdf, id=5311, 569.12625pt x 
+539.01375pt>
+File: figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft2b.pdf Graphic file (type 
+pdf)
+ <use figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft2b.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_ComprGttRpc2Lsoft2b.pdf 
+used on input line 310.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_BttRpc2L1bH.pdf, id=5312, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/acceptance_BttRpc2L1bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_BttRpc2L1bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_BttRpc2L1bH.pdf used on 
+input line 318.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_BttRpc2L1bH.pdf, id=5313, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/efficiency_BttRpc2L1bH.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_BttRpc2L1bH.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_BttRpc2L1bH.pdf used on 
+input line 319.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/acceptance_BttRpc2L1bS.pdf, id=5314, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/acceptance_BttRpc2L1bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/acceptance_BttRpc2L1bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/acceptance_BttRpc2L1bS.pdf used on 
+input line 320.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+<figures/aux/EffAcc/efficiency_BttRpc2L1bS.pdf, id=5315, 569.12625pt x 539.0137
+5pt>
+File: figures/aux/EffAcc/efficiency_BttRpc2L1bS.pdf Graphic file (type pdf)
+ <use figures/aux/EffAcc/efficiency_BttRpc2L1bS.pdf>
+Package pdftex.def Info: figures/aux/EffAcc/efficiency_BttRpc2L1bS.pdf used on 
+input line 321.
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+)) [151
+
+
+] [152] [153]
+[154] [155] [156] [157] [158] [159] [160] [161] [162 <./figures/aux/EffAcc/acce
+ptance_2StepRpc2L0bH.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc/eff
+iciency_2StepRpc2L0bH.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc/ac
+ceptance_2StepRpc2L0bS.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc/e
+fficiency_2StepRpc2L0bS.pdf, page is rotated 90 degrees>] [163 <./figures/aux/E
+ffAcc/acceptance_GSLRpc3L0bH.pdf, page is rotated 90 degrees> <./figures/aux/Ef
+fAcc/efficiency_GSLRpc3L0bH.pdf, page is rotated 90 degrees> <./figures/aux/Eff
+Acc/acceptance_GSLRpc3L0bS.pdf, page is rotated 90 degrees> <./figures/aux/EffA
+cc/efficiency_GSLRpc3L0bS.pdf, page is rotated 90 degrees>] [164 <./figures/aux
+/EffAcc/acceptance_GttRpc2L2bH.pdf, page is rotated 90 degrees> <./figures/aux/
+EffAcc/efficiency_GttRpc2L2bH.pdf, page is rotated 90 degrees> <./figures/aux/E
+ffAcc/acceptance_GttRpc2L2bS.pdf, page is rotated 90 degrees> <./figures/aux/Ef
+fAcc/efficiency_GttRpc2L2bS.pdf, page is rotated 90 degrees>] [165 <./figures/a
+ux/EffAcc/acceptance_GttRpc2Lsoft1b.pdf, page is rotated 90 degrees> <./figures
+/aux/EffAcc/efficiency_GttRpc2Lsoft1b.pdf, page is rotated 90 degrees> <./figur
+es/aux/EffAcc/acceptance_GttRpc2Lsoft2b.pdf, page is rotated 90 degrees> <./fig
+ures/aux/EffAcc/efficiency_GttRpc2Lsoft2b.pdf, page is rotated 90 degrees>]
+[166 <./figures/aux/EffAcc/acceptance_ComprGttRpc2L2bH.pdf, page is rotated 90 
+degrees> <./figures/aux/EffAcc/efficiency_ComprGttRpc2L2bH.pdf, page is rotated
+ 90 degrees> <./figures/aux/EffAcc/acceptance_ComprGttRpc2L2bS.pdf, page is rot
+ated 90 degrees> <./figures/aux/EffAcc/efficiency_ComprGttRpc2L2bS.pdf, page is
+ rotated 90 degrees>] [167 <./figures/aux/EffAcc/acceptance_ComprGttRpc2Lsoft1b
+.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc/efficiency_ComprGttRpc2
+Lsoft1b.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc/acceptance_Compr
+GttRpc2Lsoft2b.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc/efficienc
+y_ComprGttRpc2Lsoft2b.pdf, page is rotated 90 degrees>] [168 <./figures/aux/Eff
+Acc/acceptance_BttRpc2L1bH.pdf, page is rotated 90 degrees> <./figures/aux/EffA
+cc/efficiency_BttRpc2L1bH.pdf, page is rotated 90 degrees> <./figures/aux/EffAc
+c/acceptance_BttRpc2L1bS.pdf, page is rotated 90 degrees> <./figures/aux/EffAcc
+/efficiency_BttRpc2L1bS.pdf, page is rotated 90 degrees>] [169]
 Chapter 7.
-(./texfiles/chap.stat.tex) [47
+(./texfiles/chap.stat.tex) [170
 
 ] (./texfiles/chap.concl.tex)
 No file thesis.bbl.
-[48
+[171
 
 ] (./thesis.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 
 LaTeX Warning: There were undefined references.
 
@@ -1511,13 +3600,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18901 strings out of 493042
- 383949 string characters out of 6133328
- 492286 words of memory out of 5000000
- 21851 multiletter control sequences out of 15000+600000
- 17509 words of font info for 114 fonts, out of 8000000 for 9000
+ 19970 strings out of 493042
+ 417276 string characters out of 6133328
+ 626916 words of memory out of 5000000
+ 22764 multiletter control sequences out of 15000+600000
+ 20334 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,69p,1497b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,17n,69p,1670b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 </afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/bbold-type1/bbold10
 .pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -1537,11 +3626,12 @@ c/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (55 pages, 819079 bytes).
+ublic/amsfonts/cm/cmti12.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (179 pages, 4833439 bytes).
 PDF statistics:
- 994 PDF objects out of 1000 (max. 8388607)
- 526 compressed objects within 6 object streams
+ 6660 PDF objects out of 7423 (max. 8388607)
+ 3073 compressed objects within 31 object streams
  0 named destinations out of 1000 (max. 500000)
- 18048 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20225 words of extra memory for PDF output out of 20736 (max. 10000000)
 

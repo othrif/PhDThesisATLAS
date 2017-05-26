@@ -24,7 +24,7 @@ In all MC samples, except those produced by the \SHERPA generator,
 the \textsc{EvtGen}~v1.2.0 program~\cite{EvtGen} was used 
 to model the properties of bottom and charm hadron decays. 
 
-\begin{table*}[ht]
+\begin{table*}[!ht]
 \begin{center}
 \scriptsize
 \resizebox{\textwidth}{!}
@@ -35,10 +35,7 @@ Physics process    & Event generator & Parton shower & Cross-section & PDF set &
                    &	      & 	      & normalization & 	& parameters  \\
 \hline
 \hline
-Signal            &                      			&                      			&                               	&               &      \\
-RPC   	   	& \AMCATNLO 2.2.3~\cite{Alwall:2014hca} 	& \PYTHIA 8.186~\cite{Sjostrand:2007gs}	& NLO+NLL  & NNPDF2.3LO~\cite{Ball:2012cx} & A14~\cite{ATL-PHYS-PUB-2014-021} \\
-RPV except Fig.~\ref{fig:feynm_rpv_gl112} & \AMCATNLO 2.2.3     & \PYTHIA 8.210       			& or			 		& NNPDF2.3LO	& A14 \\
-RPV Fig.~\ref{fig:feynm_rpv_gl112}   & \HERWIG 2.7.1~\cite{Corcella:2000bw}       & \HERWIG 2.7.1  	& NLO-Prospino2 ~\cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu,Kramer:2012bx}     				&CTEQ6L1~\cite{Pumplin:2002vw} & UEEE5~\cite{Gieseke:2012ft}  \\
+Signal   	   	& \AMCATNLO 2.2.3~\cite{Alwall:2014hca} 	& \PYTHIA 8.186~\cite{Sjostrand:2007gs}	& NLO+NLL  & NNPDF2.3LO~\cite{Ball:2012cx} & A14~\cite{ATL-PHYS-PUB-2014-021} \\
 \hline
 \hline
 $\ttbar +X$            &                      			&                      			&                               	&               &      \\
@@ -60,8 +57,7 @@ Triboson	   & \SHERPA 2.1.1         			& \SHERPA 2.1.1        			& NLO~\cite{ATL
 }
 \caption{Simulated signal and background event samples: the corresponding event generator, parton shower, cross-section normalization, PDF set and 
 set of tuned parameters are shown for each sample. Because of their very small contribution to the signal-region background estimate, 
-$\ttbar WW$, $\ttbar WZ$, $tZ$, $tWZ$, $t\ttbar$, $WH$, $ZH$ and triboson are summed and labelled ``rare'' in the following. 
-NLO-Prospino2 refers to RPV down squark models of Figures~\ref{fig:feynm_rpv_sd313} and \ref{fig:feynm_rpv_sd321}, as well as the NUHM2 model.}
+$\ttbar WW$, $\ttbar WZ$, $tZ$, $tWZ$, $t\ttbar$, $WH$, $ZH$ and triboson are summed and labelled ``rare'' in the following.}
 \label{tab:MC}
 \end{center}
 \end{table*}
@@ -69,8 +65,8 @@ NLO-Prospino2 refers to RPV down squark models of Figures~\ref{fig:feynm_rpv_sd3
 The SUSY signals from Figure~\ref{fig:feynman} are defined by an effective Lagrangian describing the interactions of a small number of new 
 particles~\cite{Alwall:2008ve,Alwall:2008ag,Alves:2011wf}. All SUSY particles not included 
 in the decay of the pair-produced squarks and gluinos are effectively decoupled. These simplified models assume one 
-production process and one decay channel with a 100\% branching fraction. Apart from Figure~\ref{fig:feynm_rpv_gl112}, where 
-events were generated with \HERWIG++~\cite{Corcella:2000bw}, all simplified models were generated from leading-order (LO) matrix elements 
+production process and one decay channel with a 100\% branching fraction. 
+All simplified models were generated from leading-order (LO) matrix elements 
 with up to two extra partons in the matrix element (only up to one for the $\gluino\to q\bar q(\ell\ell/\nu\nu)\ninoone$ model) 
 using \AMCATNLO 2.2.3~\cite{Alwall:2014hca} interfaced to \PYTHIA 8 with the A14 tune~\cite{ATL-PHYS-PUB-2014-021} for the 
 modelling of the parton shower, hadronization and underlying event.
@@ -78,8 +74,7 @@ Jet--parton matching was realized following the CKKW-L prescription~\cite{Lonnbl
 the pair-produced superpartner mass. All signal models were generated 
 with prompt decays of the SUSY particles. Signal cross-sections were calculated at next-to-leading order (NLO) in the strong coupling constant, 
 adding the resummation of soft-gluon emission at next-to-leading-logarithmic 
-accuracy (NLO+NLL)~\cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu}, except 
-for the RPV models of Figures~\ref{fig:feynm_rpv_sd313} and~\ref{fig:feynm_rpv_sd321} and the NUHM2 model where NLO 
+accuracy (NLO+NLL)~\cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu}, except for the NUHM2 model where NLO 
 cross-sections were used~\cite{Beenakker:1996ed,Beenakker:1996ch}. The nominal cross-sections and the uncertainties were taken from 
 envelopes of cross-section predictions using different PDF sets 
 and factorization and renormalization scales, as described in Refs.~\cite{Kramer:2012bx,Borschensky:2014cia}. 
