@@ -37,7 +37,7 @@
 \contentsline {section}{\numberline {6.1}Introduction}{46}
 \contentsline {section}{\numberline {6.2}Signal models}{49}
 \contentsline {subsection}{\numberline {6.2.1}Gluino pair production with slepton-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q\ell \mathaccentV {bar}016\ell \ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{51}
-\contentsline {subsection}{\numberline {6.2.2}Gluino pair production with gaugino-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q'WZ\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{53}
+\contentsline {subsection}{\numberline {6.2.2}Gluino pair production with gaugino-mediated two-step decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to q\mathaccentV {bar}016q'WZ\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{52}
 \contentsline {subsection}{\numberline {6.2.3}Sbottom pair production with one-step decay $\ensuremath {\mathaccentV {tilde}07E{b}_{1}}\to t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{\pm }}$}{53}
 \contentsline {subsection}{\numberline {6.2.4}Gluino pair production with stop-mediated decay $\ensuremath {\mathaccentV {tilde}07E{g}}\to t\mathaccentV {bar}016t\ensuremath {\mathaccentV {tilde}07E{\chi }_{1}^{0}}$}{54}
 \contentsline {subsection}{\numberline {6.2.5}\ensuremath {\mathaccentV {tilde}07E{t}_{1}^{}\mathaccentV {tilde}07E{t}_{1}^{*}}\ with ``three-same-sign leptons'' signature}{55}
@@ -51,33 +51,33 @@
 \contentsline {subsection}{\numberline {6.4.4}Jets}{66}
 \contentsline {subsection}{\numberline {6.4.5}Electrons}{68}
 \contentsline {subsection}{\numberline {6.4.6}Muons}{69}
-\contentsline {subsection}{\numberline {6.4.7}Overlap removal}{70}
+\contentsline {subsection}{\numberline {6.4.7}Overlap removal}{69}
 \contentsline {subsection}{\numberline {6.4.8}Missing transverse energy}{70}
-\contentsline {section}{\numberline {6.5}Signal regions}{71}
-\contentsline {section}{\numberline {6.6}Background estimation}{81}
+\contentsline {section}{\numberline {6.5}Signal regions}{70}
+\contentsline {section}{\numberline {6.6}Background estimation}{80}
 \contentsline {subsection}{\numberline {6.6.1}Irreducible background estimation methods}{81}
 \contentsline {subsection}{\numberline {6.6.2}Associate $t\mathaccentV {bar}016t+W/Z$ production}{81}
-\contentsline {subsection}{\numberline {6.6.3}Diboson $WZ, ZZ, W^\pm W^\pm $ production}{83}
+\contentsline {subsection}{\numberline {6.6.3}Diboson $WZ, ZZ, W^\pm W^\pm $ production}{82}
 \contentsline {subsection}{\numberline {6.6.4}Other rare processes}{85}
 \contentsline {subsection}{\numberline {6.6.5}$W^\pm W^\pm $ production via Double Parton Scattering}{86}
-\contentsline {subsection}{\numberline {6.6.6}Experimental uncertainties}{89}
+\contentsline {subsection}{\numberline {6.6.6}Experimental uncertainties}{88}
 \contentsline {subsection}{\numberline {6.6.7}Expected yields in the signal regions}{92}
-\contentsline {subsection}{\numberline {6.6.8}Reducible background estimation methods}{93}
-\contentsline {subsection}{\numberline {6.6.9}Matrix Method}{93}
-\contentsline {subsection}{\numberline {6.6.10}Reducible background estimation methods}{93}
+\contentsline {subsection}{\numberline {6.6.8}Reducible background estimation methods}{92}
+\contentsline {subsection}{\numberline {6.6.9}Matrix Method}{92}
+\contentsline {subsection}{\numberline {6.6.10}Reducible background estimation methods}{92}
 \contentsline {subsection}{\numberline {6.6.11}Matrix Method}{93}
-\contentsline {subsection}{\numberline {6.6.12}Baseline-to-signal efficiency for fake muons}{94}
-\contentsline {subsection}{\numberline {6.6.13}Baseline-to-signal efficiency for fake electrons}{100}
-\contentsline {subsection}{\numberline {6.6.14}Baseline-to-signal efficiency for real leptons}{104}
-\contentsline {subsection}{\numberline {6.6.15}MC Template Method}{108}
+\contentsline {subsection}{\numberline {6.6.12}Baseline-to-signal efficiency for fake muons}{93}
+\contentsline {subsection}{\numberline {6.6.13}Baseline-to-signal efficiency for fake electrons}{99}
+\contentsline {subsection}{\numberline {6.6.14}Baseline-to-signal efficiency for real leptons}{103}
+\contentsline {subsection}{\numberline {6.6.15}MC Template Method}{107}
 \contentsline {subsection}{\numberline {6.6.16}Background processes with charge-flipped electrons}{112}
 \contentsline {subsection}{\numberline {6.6.17}Methodology}{115}
-\contentsline {subsection}{\numberline {6.6.18}Measured rates}{118}
-\contentsline {subsection}{\numberline {6.6.19}Systematic uncertainties}{119}
+\contentsline {subsection}{\numberline {6.6.18}Measured rates}{117}
+\contentsline {subsection}{\numberline {6.6.19}Systematic uncertainties}{120}
 \contentsline {subsection}{\numberline {6.6.20}Expected yields in signal regions}{121}
 \contentsline {subsection}{\numberline {6.6.21}Expected yields in signal regions}{121}
 \contentsline {section}{\numberline {6.7}Systematic uncertainties}{123}
 \contentsline {section}{\numberline {6.8}Results and interpretation}{123}
 \contentsline {section}{\numberline {6.9}Conclusion}{128}
-\contentsline {section}{\numberline {6.10}Auxiliary}{129}
-\contentsline {chapter}{\numberline {7}Statistical Analysis}{170}
+\contentsline {section}{\numberline {6.10}Auxiliary}{128}
+\contentsline {chapter}{\numberline {7}Statistical Analysis}{169}
