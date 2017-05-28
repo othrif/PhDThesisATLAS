@@ -1,0 +1,46 @@
+\BOOKMARK [0][-]{chapter*.3}{Acknowledgements}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Preface}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 5
+\BOOKMARK [1][-]{section.2.1}{The Standard Model of Particle Physics}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.2}{Supersymmetry}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.3}{Phenomenology at the LHC}{chapter.2}% 8
+\BOOKMARK [0][-]{chapter.3}{Experimental Apparatus}{}% 9
+\BOOKMARK [1][-]{section.3.1}{The Large Hadron Collider}{chapter.3}% 10
+\BOOKMARK [1][-]{section.3.2}{A Toroidal LHC Apparatus \(ATLAS\)}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.3}{ATLAS Detector}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{ATLAS Trigger and Data Acquisition System}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.5}{Event Simulation}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.6}{Reconstruction and Identification Techniques}{chapter.3}% 15
+\BOOKMARK [0][-]{chapter.4}{The Region of Interest Builder}{}% 16
+\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.2}{VMEbus based RoIB}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.3}{PC based RoIB}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.4}{Prototype Tests}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.5}{Online Performance in Run-2}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 22
+\BOOKMARK [0][-]{chapter.5}{Analysis Strategy}{}% 23
+\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.2}{Phenomenology \(Benchmarking Models\)}{chapter.5}% 25
+\BOOKMARK [2][-]{subsection.5.2.1}{Signal cross-sections and simulations}{section.5.2}% 26
+\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 30
+\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 31
+\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 34
+\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 35
+\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 38
+\BOOKMARK [0][-]{chapter.8}{Systematic uncertainties}{}% 39
+\BOOKMARK [1][-]{section.8.1}{Theretical Uncertainties}{chapter.8}% 40
+\BOOKMARK [1][-]{section.8.2}{Experimental Uncertainties}{chapter.8}% 41
+\BOOKMARK [0][-]{chapter.9}{Statistical Treatment}{}% 42
+\BOOKMARK [0][-]{chapter.10}{Results and Interpretation}{}% 43
+\BOOKMARK [0][-]{chapter.11}{Conclusions}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 45
+\BOOKMARK [0][-]{appendix*.11}{References}{}% 46

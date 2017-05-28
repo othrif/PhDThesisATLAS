@@ -1,0 +1,108 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{SUSY-2014-06}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP10(2015)054}{JHEP
+  {\bfseries 10} (2015) 054}, \href{http://arxiv.org/abs/1507.05525}{{\ttfamily
+  arXiv:1507.05525 [hep-ex]}}.
+
+\bibitem{SUSY-2014-07}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3726-9}{Eur. Phys. J. C
+  {\bfseries 75} (2015) 510}, \href{http://arxiv.org/abs/1506.08616}{{\ttfamily
+  arXiv:1506.08616 [hep-ex]}}.
+
+\bibitem{ATLAS-CONF-2015-066}
+{ATLAS Collaboration},  Atlas-conf-2015-066,
+  \url{https://cds.cern.ch/record/2114833}.
+
+\bibitem{Huang:2015fba}
+P.~Huang, A.~Ismail, I.~Low,  and C.~E.~M. Wagner,
+  \href{http://dx.doi.org/10.1103/PhysRevD.92.075035}{Phys. Rev. D {\bfseries
+  92} (2015) 075035},
+\href{http://arxiv.org/abs/1507.01601}{{\ttfamily arXiv:1507.01601 [hep-ph]}}.
+%%CITATION = ARXIV:1507.01601;%%.
+
+\bibitem{Aad:2013di}
+{ATLAS Collaboration},
+\href{http://dx.doi.org/10.1103/PhysRevD.88.112006}{Phys. Rev. {\bfseries D88}
+  (2013)}.
+%%CITATION = PHRVA,D24,1681;%%.
+
+\bibitem{Baer:2013xua}
+H.~Baer, V.~Barger, P.~Huang, D.~Mickelson, A.~Mustafayev, W.~Sreethawong,  and
+  X.~Tata, \href{http://dx.doi.org/10.1007/JHEP12(2013)013,
+  10.1007/JHEP06(2015)053}{JHEP {\bfseries 12} (2013) 013},
+  \href{http://arxiv.org/abs/1310.4858}{{\ttfamily arXiv:1310.4858 [hep-ph]}},
+[Erratum: JHEP06,053(2015)].
+%%CITATION = ARXIV:1310.4858;%%.
+
+\bibitem{Baer:2013yha}
+H.~Baer, V.~Barger, P.~Huang, D.~Mickelson, A.~Mustafayev, W.~Sreethawong,  and
+  X.~Tata, \href{http://dx.doi.org/10.1103/PhysRevLett.110.151801}{Phys. Rev.
+  Lett. {\bfseries 110} (2013) 151801},
+\href{http://arxiv.org/abs/1302.5816}{{\ttfamily arXiv:1302.5816 [hep-ph]}}.
+%%CITATION = ARXIV:1302.5816;%%.
+
+\bibitem{Baer:2016usl}
+H.~Baer, V.~Barger, M.~Savoy,  and X.~Tata,
+  \href{http://dx.doi.org/10.1103/PhysRevD.94.035025}{Phys. Rev. {\bfseries
+  D94} (2016) 035025},
+\href{http://arxiv.org/abs/1604.07438}{{\ttfamily arXiv:1604.07438 [hep-ph]}}.
+%%CITATION = ARXIV:1604.07438;%%.
+
+\bibitem{twiki-SusyCrossSections}
+{LHC SUSY Cross Section Working Group},  2015,
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections}.
+
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli,  and M.~Zaro,
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{JHEP {\bfseries 07} (2014)
+  079},
+\href{http://arxiv.org/abs/1405.0301}{{\ttfamily arXiv:1405.0301 [hep-ph]}}.
+%%CITATION = ARXIV:1405.0301;%%.
+
+\bibitem{Sjostrand:2007gs}
+T.~Sj{\"o}strand, S.~Mrenna,  and P.~Skands,
+  \href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{Comput. Phys. Commun.
+  {\bfseries 178} (2008) 852--867},
+\href{http://arxiv.org/abs/0710.3820}{{\ttfamily arXiv:0710.3820 [hep-ph]}}.
+%%CITATION = ARXIV:0710.3820;%%.
+
+\bibitem{ATL-PHYS-PUB-2014-021}
+{ATLAS Collaboration},  Atl-phys-pub-2014-021,
+  \url{https://cds.cern.ch/record/1966419}.
+
+\bibitem{Carrazza:2013axa}
+S.~Carrazza, S.~Forte,  and J.~Rojo, {\em {Parton distributions and event
+  generators}}, pp.~,  89--96.
+\newblock 2013.
+\newblock
+\href{http://arxiv.org/abs/1311.5887}{{\ttfamily arXiv:1311.5887 [hep-ph]}}.
+\newblock
+%%CITATION = ARXIV:1311.5887;%%.
+
+\bibitem{Lonnblad:2011xx}
+L.~L{\"o}nnblad and S.~Prestel,
+  \href{http://dx.doi.org/10.1007/JHEP03(2012)019}{JHEP {\bfseries 03} (2012)
+  019},
+\href{http://arxiv.org/abs/1109.4829}{{\ttfamily arXiv:1109.4829 [hep-ph]}}.
+%%CITATION = ARXIV:1109.4829;%%.
+
+\bibitem{Borschensky:2014cia}
+C.~Borschensky {et~al.},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-014-3174-y}{Eur. Phys. J. C
+  {\bfseries 74} (2014) 3174},
+\href{http://arxiv.org/abs/1407.5066}{{\ttfamily arXiv:1407.5066 [hep-ph]}}.
+%%CITATION = ARXIV:1407.5066;%%.
+
+\bibitem{Beenakker:1996ed}
+W.~Beenakker, R.~H{\"o}pker,  and M.~Spira,
+  \href{http://arxiv.org/abs/hep-ph/9611232}{{\ttfamily arXiv:hep-ph/9611232}}.
+
+\bibitem{PERF-2007-01}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/3/08/S08003}{JINST {\bfseries 3}
+  (2008) S08003}.
+
+\end{thebibliography}\endgroup

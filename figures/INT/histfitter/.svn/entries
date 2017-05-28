@@ -1,0 +1,40 @@
+10
+
+dir
+273881
+svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/histfitter
+svn+ssh://svn.cern.ch/reps/atlasphys-susp
+
+
+
+2017-04-18T15:58:29.664849Z
+271963
+fcardill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+883ba7d9-fdd0-4202-9341-49aa55999ad8
+
+bkgonly
+dir
+
+projected_exclusion
+dir
+
+systematics
+dir
+
+upper_limit
+dir
+

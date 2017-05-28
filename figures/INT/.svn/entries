@@ -1,0 +1,103 @@
+10
+
+dir
+273881
+svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures
+svn+ssh://svn.cern.ch/reps/atlasphys-susp
+
+
+
+2017-05-26T09:11:34.383396Z
+273831
+jmaurer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+883ba7d9-fdd0-4202-9341-49aa55999ad8
+
+theoryuncertainties_scale
+dir
+
+histfitter
+dir
+
+binnedfits
+dir
+
+selection
+dir
+
+dps
+dir
+
+real_lepton_efficiency
+dir
+
+pairing
+dir
+
+objects
+dir
+
+fakes
+dir
+
+abcd
+dir
+
+validation
+dir
+
+mctemplate
+dir
+
+AccepEff
+dir
+
+theoryuncertainties_jets
+dir
+
+triggerData
+dir
+
+checks
+dir
+
+signals
+dir
+
+results
+dir
+
+limits
+dir
+
+chargeflip
+dir
+
+signalregions
+dir
+
+promptbkg
+dir
+
+signalRegion_rpv
+dir
+
+signalregions_optimization
+dir
+
+mctemplate2
+dir
+
