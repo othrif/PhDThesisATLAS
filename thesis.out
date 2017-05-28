@@ -23,24 +23,25 @@
 \BOOKMARK [0][-]{chapter.5}{Analysis Strategy}{}% 23
 \BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 24
 \BOOKMARK [1][-]{section.5.2}{Phenomenology \(Benchmarking Models\)}{chapter.5}% 25
-\BOOKMARK [2][-]{subsection.5.2.1}{Signal cross-sections and simulations}{section.5.2}% 26
-\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 30
-\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 34
-\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 35
-\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 37
-\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 38
-\BOOKMARK [0][-]{chapter.8}{Systematic uncertainties}{}% 39
-\BOOKMARK [1][-]{section.8.1}{Theretical Uncertainties}{chapter.8}% 40
-\BOOKMARK [1][-]{section.8.2}{Experimental Uncertainties}{chapter.8}% 41
-\BOOKMARK [0][-]{chapter.9}{Statistical Treatment}{}% 42
-\BOOKMARK [0][-]{chapter.10}{Results and Interpretation}{}% 43
-\BOOKMARK [0][-]{chapter.11}{Conclusions}{}% 44
-\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 45
-\BOOKMARK [0][-]{appendix*.11}{References}{}% 46
+\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.3.1}{Collision Data}{section.5.3}% 27
+\BOOKMARK [2][-]{subsection.5.3.2}{Simulated Event Samples}{section.5.3}% 28
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 31
+\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 35
+\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 36
+\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 38
+\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 39
+\BOOKMARK [0][-]{chapter.8}{Systematic uncertainties}{}% 40
+\BOOKMARK [1][-]{section.8.1}{Theretical Uncertainties}{chapter.8}% 41
+\BOOKMARK [1][-]{section.8.2}{Experimental Uncertainties}{chapter.8}% 42
+\BOOKMARK [0][-]{chapter.9}{Statistical Treatment}{}% 43
+\BOOKMARK [0][-]{chapter.10}{Results and Interpretation}{}% 44
+\BOOKMARK [0][-]{chapter.11}{Conclusions}{}% 45
+\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 46
+\BOOKMARK [0][-]{appendix*.12}{References}{}% 47

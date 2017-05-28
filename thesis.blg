@@ -13,32 +13,27 @@ You're missing a field name---line 402 of file thesis.bib
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 484 of file thesis.bib
+You're missing a field name---line 499 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 548 of file thesis.bib
+You're missing a field name---line 563 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 580 of file thesis.bib
+You're missing a field name---line 595 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 654 of file thesis.bib
+You're missing a field name---line 669 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 774 of file thesis.bib
- :       
- :       %primaryClass   = "hep-ph",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-You're missing a field name---line 1260 of file thesis.bib
+You're missing a field name---line 789 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
@@ -48,64 +43,97 @@ You're missing a field name---line 1275 of file thesis.bib
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1465 of file thesis.bib
+You're missing a field name---line 1290 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1610 of file thesis.bib
+Repeated entry---line 1319 of file thesis.bib
+ : @article{Lai:2010vv
+ :                    ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1480 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1642 of file thesis.bib
+You're missing a field name---line 1625 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1657 of file thesis.bib
  : @article{Borschensky:2014cia
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1881 of file thesis.bib
+Repeated entry---line 1896 of file thesis.bib
  : @article{Alwall:2014hca
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1909 of file thesis.bib
+Repeated entry---line 1924 of file thesis.bib
  : @inproceedings{Carrazza:2013axa
  :                                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1923 of file thesis.bib
+Repeated entry---line 1938 of file thesis.bib
  : @article{Lonnblad:2011xx
  :                         ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 1977 of file thesis.bib
+You're missing a field name---line 1992 of file thesis.bib
  : %@article{Aad:2013ucp, 
  :                        % replaced by \cite{luminosityMeasurement8TeV}
 I'm skipping whatever remains of this entry
-Repeated entry---line 2047 of file thesis.bib
+Repeated entry---line 2042 of file thesis.bib
+ : @article{Agostinelli:2002hh
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2062 of file thesis.bib
  : @article{Sjostrand:2007gs
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2399 of file thesis.bib
+Repeated entry---line 2079 of file thesis.bib
+ : @article{Sherstnev:2007nd
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2181 of file thesis.bib
+ : @article{Gleisberg:2008ta
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2414 of file thesis.bib
  : @article{Beenakker:1996ed
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2410 of file thesis.bib
+Repeated entry---line 2425 of file thesis.bib
  : @article{Alwall:2014hca
  :                        ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2454 of file thesis.bib
+Repeated entry---line 2446 of file thesis.bib
+ : @article{Dittmaier:2012vm
+ :                          ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2469 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2470 of file thesis.bib
+You're missing a field name---line 2485 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 2527 of file thesis.bib
+Repeated entry---line 2490 of file thesis.bib
+ : @article{Lai:2010vv
+ :                    ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2542 of file thesis.bib
  :       
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Database file #2: bibtex/bib/ATLAS.bib
+Repeated entry---line 8318 of file bibtex/bib/ATLAS.bib
+ : @article{Aad:2010ah
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--empty title in SUSY-2014-06
 Warning--empty title in SUSY-2014-07
 Warning--empty title in Huang:2015fba
@@ -114,8 +142,21 @@ Warning--empty pages in Aad:2013di
 Warning--empty title in Baer:2013xua
 Warning--empty title in Baer:2013yha
 Warning--empty title in Baer:2016usl
+Warning--empty title in Aaboud:2016hhf
+Warning--empty title in EvtGen
 Warning--empty title in Alwall:2014hca
 Warning--empty title in Sjostrand:2007gs
+Warning--empty title in Ball:2012cx
+Warning--empty title in YR4
+Warning--empty title in gleisberg:2008ta
+Warning--empty title in Lai:2010vv
+Warning--empty title in Dittmaier:2012vm
+Warning--empty title in Czakon:2011xx
+Warning--empty title in tt:perugia
+Warning--empty title in AZNLO:2014
+Warning--empty title in Aad:2010ah
+Warning--empty title in Agostinelli:2002hh
+Warning--empty title in Sherstnev:2007nd
 ptr=1, stack=
 in {\em {Proceedings, 43rd International Symposium on Multiparticle Dynamics (ISMD 13)}}
 ---the literal stack isn't empty for entry Carrazza:2013axa
@@ -124,45 +165,45 @@ Warning--empty title in Lonnblad:2011xx
 Warning--empty title in Borschensky:2014cia
 Warning--empty title in Beenakker:1996ed
 Warning--empty title in PERF-2007-01
-You've used 17 entries,
+You've used 32 entries,
             2330 wiz_defined-function locations,
-            715 strings with 7997 characters,
-and the built_in function-call counts, 4691 in all, are:
-= -- 394
-> -- 183
+            835 strings with 10620 characters,
+and the built_in function-call counts, 8654 in all, are:
+= -- 763
+> -- 275
 < -- 0
-+ -- 69
-- -- 52
-* -- 465
-:= -- 543
-add.period$ -- 29
-call.type$ -- 17
-change.case$ -- 5
++ -- 107
+- -- 75
+* -- 859
+:= -- 959
+add.period$ -- 56
+call.type$ -- 32
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 271
-empty$ -- 479
-format.name$ -- 52
-if$ -- 1191
+cite$ -- 59
+duplicate$ -- 500
+empty$ -- 907
+format.name$ -- 75
+if$ -- 2226
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 63
-newline$ -- 77
-num.names$ -- 17
-pop$ -- 108
+int.to.str$ -- 32
+missing$ -- 122
+newline$ -- 146
+num.names$ -- 32
+pop$ -- 191
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 177
+skip$ -- 337
 stack$ -- 0
-substring$ -- 134
-swap$ -- 114
+substring$ -- 300
+swap$ -- 211
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 14
-while$ -- 31
-width$ -- 19
-write$ -- 138
-(There were 23 error messages)
+warning$ -- 27
+while$ -- 61
+width$ -- 34
+write$ -- 258
+(There were 30 error messages)

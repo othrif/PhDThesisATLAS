@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  26 MAY 2017 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  28 MAY 2017 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,90 +1001,90 @@ Chapter 4.
 ]
 Chapter 5.
 (./texfiles/sec.strategy.overview.tex) (./texfiles/sec.strategy.pheno.tex
-<figures/strategy/gogo-ttttN1N1.pdf, id=301, 128.48pt x 105.39375pt>
+<figures/strategy/gogo-ttttN1N1.pdf, id=306, 128.48pt x 105.39375pt>
 File: figures/strategy/gogo-ttttN1N1.pdf Graphic file (type pdf)
 
 <use figures/strategy/gogo-ttttN1N1.pdf>
 Package pdftex.def Info: figures/strategy/gogo-ttttN1N1.pdf used on input line 
-19.
+21.
 (pdftex.def)             Requested size: 98.86757pt x 81.10356pt.
 
-<figures/strategy/gogo-ttWWbbN1N1.pdf, id=302, 132.495pt x 98.3675pt>
+<figures/strategy/gogo-ttWWbbN1N1.pdf, id=307, 132.495pt x 98.3675pt>
 File: figures/strategy/gogo-ttWWbbN1N1.pdf Graphic file (type pdf)
 
 <use figures/strategy/gogo-ttWWbbN1N1.pdf>
 Package pdftex.def Info: figures/strategy/gogo-ttWWbbN1N1.pdf used on input lin
-e 20.
+e 22.
 (pdftex.def)             Requested size: 98.86757pt x 73.40167pt.
 
-<figures/strategy/gogo-qqqqWWZZN1N1-C1N2.pdf, id=303, 127.47626pt x 112.42pt>
+<figures/strategy/gogo-qqqqWWZZN1N1-C1N2.pdf, id=308, 127.47626pt x 112.42pt>
 File: figures/strategy/gogo-qqqqWWZZN1N1-C1N2.pdf Graphic file (type pdf)
 
 <use figures/strategy/gogo-qqqqWWZZN1N1-C1N2.pdf>
 Package pdftex.def Info: figures/strategy/gogo-qqqqWWZZN1N1-C1N2.pdf used on in
-put line 21.
+put line 23.
 (pdftex.def)             Requested size: 98.86757pt x 87.19492pt.
 
-<figures/strategy/gogo-qqqqllllN1N1-N2.pdf, id=304, 135.50626pt x 112.42pt>
+<figures/strategy/gogo-qqqqllllN1N1-N2.pdf, id=309, 135.50626pt x 112.42pt>
 File: figures/strategy/gogo-qqqqllllN1N1-N2.pdf Graphic file (type pdf)
 
 <use figures/strategy/gogo-qqqqllllN1N1-N2.pdf>
 Package pdftex.def Info: figures/strategy/gogo-qqqqllllN1N1-N2.pdf used on inpu
-t line 22.
+t line 24.
 (pdftex.def)             Requested size: 98.86757pt x 82.02646pt.
 
-<figures/strategy/sbsb-ttWWN1N1.pdf, id=305, 130.4875pt x 104.39pt>
+<figures/strategy/sbsb-ttWWN1N1.pdf, id=310, 130.4875pt x 104.39pt>
 File: figures/strategy/sbsb-ttWWN1N1.pdf Graphic file (type pdf)
 
 <use figures/strategy/sbsb-ttWWN1N1.pdf>
 Package pdftex.def Info: figures/strategy/sbsb-ttWWN1N1.pdf used on input line 
-24.
+26.
 (pdftex.def)             Requested size: 98.86757pt x 79.0951pt.
 
-<figures/strategy/stst-ttWWWWN1N1.pdf, id=306, 128.48pt x 106.3975pt>
+<figures/strategy/stst-ttWWWWN1N1.pdf, id=311, 128.48pt x 106.3975pt>
 File: figures/strategy/stst-ttWWWWN1N1.pdf Graphic file (type pdf)
 
 <use figures/strategy/stst-ttWWWWN1N1.pdf>
 Package pdftex.def Info: figures/strategy/stst-ttWWWWN1N1.pdf used on input lin
-e 25.
+e 27.
 (pdftex.def)             Requested size: 98.86757pt x 81.87599pt.
 
-Overfull \hbox (31.53154pt too wide) in paragraph at lines 18--31
+Overfull \hbox (31.53154pt too wide) in paragraph at lines 20--33
  [][] 
  []
 
-<figures/strategy/run1excluded_gluinoGtt.pdf, id=311, 569.12625pt x 385.44pt>
+<figures/strategy/run1excluded_gluinoGtt.pdf, id=316, 569.12625pt x 385.44pt>
 File: figures/strategy/run1excluded_gluinoGtt.pdf Graphic file (type pdf)
 
 <use figures/strategy/run1excluded_gluinoGtt.pdf>
 Package pdftex.def Info: figures/strategy/run1excluded_gluinoGtt.pdf used on in
-put line 38.
+put line 40.
 (pdftex.def)             Requested size: 226.56758pt x 153.44397pt.
 
-<figures/strategy/exclusion_sbottom_topC1_both_grids.pdf, id=312, 569.12625pt x
+<figures/strategy/exclusion_sbottom_topC1_both_grids.pdf, id=317, 569.12625pt x
  539.01375pt>
 File: figures/strategy/exclusion_sbottom_topC1_both_grids.pdf Graphic file (typ
 e pdf)
  <use figures/strategy/exclusion_sbottom_topC1_both_grids.pdf>
 Package pdftex.def Info: figures/strategy/exclusion_sbottom_topC1_both_grids.pd
-f used on input line 39.
+f used on input line 41.
 (pdftex.def)             Requested size: 156.53874pt x 148.25801pt.
 
-<figures/strategy/run1excluded_gluino2stepWZ.pdf, id=317, 569.12625pt x 385.44p
+<figures/strategy/run1excluded_gluino2stepWZ.pdf, id=322, 569.12625pt x 385.44p
 t>
 File: figures/strategy/run1excluded_gluino2stepWZ.pdf Graphic file (type pdf)
  <use figures/strategy/run1excluded_gluino2stepWZ.pdf>
 Package pdftex.def Info: figures/strategy/run1excluded_gluino2stepWZ.pdf used o
-n input line 47.
+n input line 49.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/strategy/run1excluded_gluino2stepSleptons.pdf, id=318, 569.12625pt x 3
+<figures/strategy/run1excluded_gluino2stepSleptons.pdf, id=323, 569.12625pt x 3
 85.44pt>
 File: figures/strategy/run1excluded_gluino2stepSleptons.pdf Graphic file (type 
 pdf)
  <use figures/strategy/run1excluded_gluino2stepSleptons.pdf>
 Package pdftex.def Info: figures/strategy/run1excluded_gluino2stepSleptons.pdf 
-used on input line 48.
+used on input line 50.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
  [5
 
@@ -1095,37 +1095,37 @@ qqllllN1N1-N2.pdf> <./figures/strategy/sbsb-ttWWN1N1.pdf> <./figures/strategy/s
 tst-ttWWWWN1N1.pdf>] [7 <./figures/strategy/run1excluded_gluinoGtt.pdf> <./figu
 res/strategy/exclusion_sbottom_topC1_both_grids.pdf, page is rotated 90 degrees
 >] [8 <./figures/strategy/run1excluded_gluino2stepWZ.pdf> <./figures/strategy/r
-un1excluded_gluino2stepSleptons.pdf>] [9] [10] [11] [12] [13] [14])
-(./texfiles/sec.strategy.samples.tex) (./texfiles/sec.strategy.sel.tex)
-(./texfiles/sec.strategy.sr.tex) [15]
+un1excluded_gluino2stepSleptons.pdf>] [9] [10] [11] [12])
+(./texfiles/sec.strategy.samples.tex [13] [14] [15] [16])
+(./texfiles/sec.strategy.sel.tex) (./texfiles/sec.strategy.sr.tex) [17]
 Chapter 6.
 (./texfiles/sec.fake.prob.tex) (./texfiles/sec.fake.proc.tex)
-(./texfiles/sec.fake.mct.tex) (./texfiles/sec.fake.mxm.tex) [16
+(./texfiles/sec.fake.mct.tex) (./texfiles/sec.fake.mxm.tex) [18
 
 ]
 Chapter 7.
 (./texfiles/sec.bkg.overview.tex) (./texfiles/sec.bkg.irred.tex)
-(./texfiles/sec.bkg.red.tex) [17
+(./texfiles/sec.bkg.red.tex) [19
 
 ]
 Chapter 8.
-(./texfiles/sec.syst.theory.tex) (./texfiles/sec.syst.exp.tex) [18
+(./texfiles/sec.syst.theory.tex) (./texfiles/sec.syst.exp.tex) [20
 
 ]
 Chapter 9.
-(./texfiles/chap.stat.tex) [19
+(./texfiles/chap.stat.tex) [21
 
 ]
 Chapter 10.
-(./texfiles/chap.res.tex) [20
+(./texfiles/chap.res.tex) [22
 
 ]
 Chapter 11.
-(./texfiles/concl.tex) [21
+(./texfiles/concl.tex) [23
 
 ]
 Appendix A.
-(./texfiles/app.auxiliary.tex) (./thesis.bbl [22
+(./texfiles/app.auxiliary.tex) (./thesis.bbl [24
 
 
 ]
@@ -1133,16 +1133,16 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [23
+ [25
 
-]
+]) [26]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 007F132685D02308DC8FC014BAB98590;2988.
+(rerunfilecheck)             Checksum: 4B3879C998BCC9DAF35DB495A61CBDDB;3042.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1150,11 +1150,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
  ) 
 Here is how much of TeX's memory you used:
- 22483 strings out of 493109
- 436232 string characters out of 6133666
- 569401 words of memory out of 5000000
- 25228 multiletter control sequences out of 15000+600000
- 16297 words of font info for 95 fonts, out of 8000000 for 9000
+ 22531 strings out of 493109
+ 436898 string characters out of 6133666
+ 576282 words of memory out of 5000000
+ 25246 multiletter control sequences out of 15000+600000
+ 16860 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,69p,1569b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
 </afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
@@ -1172,13 +1172,14 @@ sfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (32 pages, 493299 bytes).
+amsfonts/cm/cmsy6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (35 pages, 525866 bytes).
 PDF statistics:
- 777 PDF objects out of 1000 (max. 8388607)
- 640 compressed objects within 7 object streams
- 104 named destinations out of 1000 (max. 500000)
- 17839 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 732 compressed objects within 8 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 18359 words of extra memory for PDF output out of 20736 (max. 10000000)
 

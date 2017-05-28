@@ -50,9 +50,16 @@ H.~Baer, V.~Barger, M.~Savoy,  and X.~Tata,
 \href{http://arxiv.org/abs/1604.07438}{{\ttfamily arXiv:1604.07438 [hep-ph]}}.
 %%CITATION = ARXIV:1604.07438;%%.
 
-\bibitem{twiki-SusyCrossSections}
-{LHC SUSY Cross Section Working Group},  2015,
-  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections}.
+\bibitem{Aaboud:2016hhf}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4466-1}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 653},
+\href{http://arxiv.org/abs/1608.03953}{{\ttfamily arXiv:1608.03953 [hep-ex]}}.
+%%CITATION = ARXIV:1608.03953;%%.
+
+\bibitem{EvtGen}
+{D. J. Lange}, \href{http://dx.doi.org/10.1016/S0168-9002(01)00089-4}{Nucl.
+  Instrum. Meth. A {\bfseries 462} (2001) 152}.
 
 \bibitem{Alwall:2014hca}
 J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
@@ -69,9 +76,93 @@ T.~Sj{\"o}strand, S.~Mrenna,  and P.~Skands,
 \href{http://arxiv.org/abs/0710.3820}{{\ttfamily arXiv:0710.3820 [hep-ph]}}.
 %%CITATION = ARXIV:0710.3820;%%.
 
+\bibitem{Ball:2012cx}
+R.~D. Ball {et~al.},
+  \href{http://dx.doi.org/10.1016/j.nuclphysb.2012.10.003}{Nucl. Phys. B
+  {\bfseries 867} (2013) 244--289},
+\href{http://arxiv.org/abs/1207.1303}{{\ttfamily arXiv:1207.1303 [hep-ph]}}.
+%%CITATION = ARXIV:1207.1303;%%.
+
 \bibitem{ATL-PHYS-PUB-2014-021}
 {ATLAS Collaboration},  Atl-phys-pub-2014-021,
   \url{https://cds.cern.ch/record/1966419}.
+
+\bibitem{YR4}
+{LHC Higgs Cross Section Working Group} Collaboration, D.~{de Florian}
+  {et~al.},
+\href{http://arxiv.org/abs/1610.07922}{{\ttfamily arXiv:1610.07922 [hep-ph]}}.
+%%CITATION = ARXIV:1610.07922;%%.
+
+\bibitem{gleisberg:2008ta}
+T.~Gleisberg {et~al.},
+  \href{http://dx.doi.org/10.1088/1126-6708/2009/02/007}{JHEP {\bfseries 02}
+  (2009) 007},
+\href{http://arxiv.org/abs/0811.4622}{{\ttfamily arXiv:0811.4622 [hep-ph]}}.
+%%CITATION = 0811.4622;%%.
+
+\bibitem{ATL-PHYS-PUB-2016-002}
+{ATLAS Collaboration},  Atl-phys-pub-2016-002,
+  \url{http://cds.cern.ch/record/2119986}.
+
+\bibitem{Lai:2010vv}
+H.-L. Lai {et~al.}, \href{http://dx.doi.org/10.1103/PhysRevD.82.074024}{Phys.
+  Rev. D {\bfseries 82} (2010) 074024},
+\href{http://arxiv.org/abs/1007.2241}{{\ttfamily arXiv:1007.2241 [hep-ph]}}.
+%%CITATION = ARXIV:1007.2241;%%.
+
+\bibitem{Dittmaier:2012vm}
+{LHC Higgs Cross Section Working Group} Collaboration, {LHC Higgs Cross Section
+  Working Group},
+\href{http://arxiv.org/abs/1201.3084}{{\ttfamily arXiv:1201.3084 [hep-ph]}}.
+%%CITATION = ARXIV:1201.3084;%%.
+
+\bibitem{Czakon:2011xx}
+M.~Czakon and A.~Mitov,
+  \href{http://dx.doi.org/10.1016/j.cpc.2014.06.021}{Comput. Phys. Commun.
+  {\bfseries 185} (2014) 2930},
+\href{http://arxiv.org/abs/1112.5675}{{\ttfamily arXiv:1112.5675 [hep-ph]}}.
+%%CITATION = ARXIV:1112.5675;%%.
+
+\bibitem{tt:perugia}
+P.~Skands, \href{http://dx.doi.org/10.1103/PhysRevD.82.074018}{Phys. Rev. D
+  {\bfseries 82} (2010) 074018},
+\href{http://arxiv.org/abs/1005.3457}{{\ttfamily arXiv:1005.3457 [hep-ph]}}.
+%%CITATION = ARXIV:1007.2241;%%.
+
+\bibitem{AZNLO:2014}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2014)145}{JHEP
+  {\bfseries 2014} (2014) 55},
+\href{http://arxiv.org/abs/1406.3660}{{\ttfamily arXiv:1406.3660 [hep-ex]}}.
+%%CITATION = ARXIV:1406.3660;%%.
+
+\bibitem{Aad:2010ah}
+{ATLAS} Collaboration, G.~Aad {et~al.},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-010-1429-9}{Eur.Phys.J.
+  {\bfseries C70} (2010) 823--874},
+\href{http://arxiv.org/abs/1005.4568}{{\ttfamily arXiv:1005.4568
+  [physics.ins-det]}}.
+%%CITATION = ARXIV:1005.4568;%%.
+
+\bibitem{Agostinelli:2002hh}
+{GEANT4} Collaboration, S.~Agostinelli {et~al.},
+\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nucl. Instrum. Meth. A
+  {\bfseries 506} (2003) 250--303}.
+%%CITATION = NUIMA,A506,250;%%.
+
+\bibitem{ATL-PHYS-PUB-2010-013}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2010-013},
+  \url{http://cds.cern.ch/record/1300517}.
+
+\bibitem{Sherstnev:2007nd}
+A.~Sherstnev and R.~Thorne,
+  \href{http://dx.doi.org/10.1140/epjc/s10052-008-0610-x}{Eur. Phys. J. C
+  {\bfseries 55} (2008) 553--575},
+\href{http://arxiv.org/abs/0711.2473}{{\ttfamily arXiv:0711.2473 [hep-ph]}}.
+%%CITATION = ARXIV:0711.2473;%%.
+
+\bibitem{twiki-SusyCrossSections}
+{LHC SUSY Cross Section Working Group},  2015,
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections}.
 
 \bibitem{Carrazza:2013axa}
 S.~Carrazza, S.~Forte,  and J.~Rojo, {\em {Parton distributions and event
