@@ -1,35 +1,22 @@
-\subsection{Reducible background estimation methods} 
-\label{sec:DD_bkg}
-
-
-Two data-driven methods are used to estimate the FNP lepton background, referred to as the ``matrix method'' and the ``MC template method''. 
-The estimates from these methods are combined to give the final estimate. These two methods are described below. 
-A detailed description of both methods was given in Chapter ??. 
-In this section, more details will be given on their application for this 
-analysis.
-
-
-
-\subsection{Matrix Method}
-
 The matrix method relates the number of events containing prompt or FNP leptons 
 to the number of observed events with tight or loose-not-tight leptons 
-using the probability for loose prompt or FNP leptons to satisfy the tight criteria, also referred to as the 
-fake rate. 
-The probability for loose prompt leptons to satisfy the tight selection 
-criteria ($\varepsilon$), also referred to as the real efficiency.
-The procedure employed to measure the fake rate and real efficiency is 
-described in the next sections. 
+using the probability for loose prompt or FNP leptons to satisfy the tight criteria.
+The formalism for this mehtod has been discussed in Section~\ref{sec:fake.mxm}.
+The next sections will concentrate on the measurement of the 
+two input variables needed for the matrix method:
+the probability for loose FNP leptons to satisfy the tight selection
+criteria ($\zeta$) and 
+the probability for loose prompt leptons to satisfy the tight selection 
+criteria ($\varepsilon$).
 
-\subsection{Baseline-to-signal efficiency for fake muons}
-\label{subsubsec:fakes_matrix_fake_rate_muons}
+\subsection*{Baseline-to-signal efficiency for fake muons}
 
-Baseline-to-signal efficiency for fake leptons (further called ``fake rate'') is measured 
-in a sample enriched in fake leptons from \ttbar\ processes, 
-as simulations indicate that this is the largest contribution to fake lepton background in the signal regions, even those with $b$-jet vetoes, 
-due to the requirements on jet multiplicity and \met. 
-For that we select events with exactly two same-sign muons (and no extra baseline lepton), at least one $b$-jet, and at least 3 jets, 
-acquired with the \textrm{mu18\_mu8noL1} (2015 data) or \textrm{mu22\_mu8noL1} (2016 data) trigger chains. 
+Baseline-to-signal efficiency for fake leptons (further called ``fake rate'', ($\zeta$)) is measured 
+in a sample enriched in fake leptons from \ttbar\ processes.
+The MC simulations indicate that this background has the largest contribution to FNP lepton background in the signal regions, 
+even those with $b$-jet vetoes, due to the requirements on jet multiplicity and \met. 
+The events used for the measurements require exactly two same-sign muons (and no extra baseline lepton), 
+at least one $b$-jet, and at least 3 jets that were acquired by di-muon triggers.
 One of the muons in the event (referred to as ``tag'') is required to satisfy signal requirements, verify $\pt>25 \GeV$, 
 and trigger the event recording. 
 The measurement may then performed on the other lepton (``probe''), likely to be the fake lepton of the pair. 
@@ -41,8 +28,7 @@ The measurement may then performed on the other lepton (``probe''), likely to be
 \includegraphics[width=0.49\textwidth]{IDEALTAG_PROBE_PT_MUON_SIGNAL}
 \caption
 {Signal probe muon \pt\ distribution in data and MC, after preselection (left) 
-or further tightening of the tag muon requirements (right), 
-as described in section~\ref{subsubsec:fakes_matrix_fake_rate_muons}. 
+or further tightening of the tag muon requirements (right).
 The yellow area indicates $t\bar t$ events in which the tag muon is fake and the probe real, 
 leading to a measurement bias. 
 }
@@ -51,11 +37,9 @@ leading to a measurement bias.
 %%
 
 Figure~\ref{Fig:fakes_preselection_muon} left shows the number of signal muon probes available after this preselection. 
-A similar level of disagreement between data and simulation as reported elsewhere in this document is observed, 
-with data exceeding the MC predictions; this is not a concern for the purpose of this section, of course. 
-One can notice that at this stage, measurements above 25 \GeV would be very affected by the important fraction of events 
+It is clear that at this stage, measurements above 25 \GeV~would be very affected by the important fraction of events 
 in which the tag muon is fake and the probe muon is real. 
-To overcome this issue, we considered three alternatives: 
+To overcome this issue, three alternatives: 
 \begin{itemize}
 \item tighten the \pt\ and isolation requirements of the tag muon beyond those defining our usual ``signal'' category, 
 to reduce its probability of being a fake muon
@@ -228,7 +212,7 @@ as function of \pt\ and split according to the number of $b$-tagged jets in the 
 \label{fig:fakes_MC_vsBjets_muon}
 \end{figure}
 
-\subsection{Baseline-to-signal efficiency for fake electrons}
+\subsection*{Baseline-to-signal efficiency for fake electrons}
 \label{subsubsec:fakes_matrix_fake_rate_electrons}
 
 
@@ -373,7 +357,7 @@ as function of \pt\ and split according to the number of $b$-tagged jets in the 
 \end{figure}
 
 
-\subsection{Baseline-to-signal efficiency for real leptons}
+\subsection*{Baseline-to-signal efficiency for real leptons}
 \label{subsubsec:fakes_matrix_real_efficiency}
 
 % mostly copy-pasted from 2015 supporting note

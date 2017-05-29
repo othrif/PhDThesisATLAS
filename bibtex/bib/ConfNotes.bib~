@@ -1,14 +1,5 @@
 % Created on 2016-10-10 16:22:55
 
-@Booklet{ATLAS-CONF-2017-021,
-    author         = "{ATLAS Collaboration}",
-    title          = "{Search for production of supersymmetric particles in final states with missing transverse momentum and multiple b-jets at $\sqrt{s} = 13\;\mbox{TeV}$ proton-proton collisions with the ATLAS detector}",
-    howpublished   = "{ATLAS-CONF-2017-021}",
-    url            = "https://cds.cern.ch/record/2258143",
-    year           = "2017",
-}
-
-
 @Booklet{ATLAS-CONF-2010-001,
     author         = "{ATLAS Collaboration}",
     title          = "{Jet kinematic distributions in proton--proton collisions at $\sqrt{s} = 900\;\mbox{GeV}$ with the ATLAS detector}",

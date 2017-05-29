@@ -102,6 +102,10 @@ Repeated entry---line 2181 of file thesis.bib
  : @article{Gleisberg:2008ta
  :                          ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 2265 of file thesis.bib
+ : @booklet{ATLAS-CONF-2014-032
+ :                             ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 2425 of file thesis.bib
  : @article{Alwall:2014hca
  :                        ,
@@ -131,10 +135,53 @@ You're missing a field name---line 2542 of file thesis.bib
  :       %primaryClass   = "hep-ph",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 2674 of file thesis.bib
+ : @techreport{ATLAS-CONF-2014-018
+ :                                ,
+I'm skipping whatever remains of this entry
 Database file #2: bibtex/bib/ATLAS.bib
+Repeated entry---line 8202 of file bibtex/bib/ATLAS.bib
+ : @article{PERF-2014-07
+ :                      ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 8318 of file bibtex/bib/ATLAS.bib
  : @article{Aad:2010ah
  :                    ,
+I'm skipping whatever remains of this entry
+Database file #3: bibtex/bib/PubNotes.bib
+Repeated entry---line 243 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2010-013
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 779 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2014-021
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1315 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-002
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1339 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-005
+ :                               ,
+I'm skipping whatever remains of this entry
+Database file #4: bibtex/bib/CMS.bib
+Database file #5: bibtex/bib/ConfNotes.bib
+Repeated entry---line 4500 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2014-018
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4612 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2014-032
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5388 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2015-066
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5812 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2016-037
+ :                             ,
 I'm skipping whatever remains of this entry
 Warning--empty title in SUSY-2014-06
 Warning--empty title in SUSY-2014-07
@@ -153,9 +200,9 @@ Warning--empty title in YR4
 Warning--empty title in gleisberg:2008ta
 Warning--empty title in Lai:2010vv
 Warning--empty title in Dittmaier:2012vm
+Warning--empty title in AZNLO:2014
 Warning--empty title in Czakon:2011xx
 Warning--empty title in tt:perugia
-Warning--empty title in AZNLO:2014
 Warning--empty title in Aad:2010ah
 Warning--empty title in Agostinelli:2002hh
 Warning--empty title in Sherstnev:2007nd
@@ -168,46 +215,53 @@ in {\em {Proceedings, 43rd International Symposium on Multiparticle Dynamics (IS
 while executing---line 1162 of file bibtex/bst/atlasBibStyleWoTitle.bst
 Warning--empty title in Lonnblad:2011xx
 Warning--empty title in Borschensky:2014cia
+Warning--empty title in Cacciari:2008gp
+Warning--empty title in PERF-2014-07
+Warning--empty title in Cacciari:2007fd
+Warning--empty title in Aad:2015ydr
+Warning--empty title in Aad:2016jkr
+Warning--empty title in Aaboud:2016yuq
+Warning--empty title in Cousins:2009
 Warning--empty title in PERF-2007-01
-You've used 35 entries,
+You've used 54 entries,
             2330 wiz_defined-function locations,
-            859 strings with 11228 characters,
-and the built_in function-call counts, 9453 in all, are:
-= -- 827
-> -- 301
+            975 strings with 15671 characters,
+and the built_in function-call counts, 13520 in all, are:
+= -- 1152
+> -- 471
 < -- 0
-+ -- 117
-- -- 82
-* -- 939
-:= -- 1045
-add.period$ -- 60
-call.type$ -- 35
-change.case$ -- 11
++ -- 185
+- -- 131
+* -- 1287
+:= -- 1560
+add.period$ -- 85
+call.type$ -- 54
+change.case$ -- 33
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 548
-empty$ -- 996
-format.name$ -- 82
-if$ -- 2436
+cite$ -- 90
+duplicate$ -- 769
+empty$ -- 1483
+format.name$ -- 131
+if$ -- 3457
 int.to.chr$ -- 0
-int.to.str$ -- 35
-missing$ -- 135
-newline$ -- 157
-num.names$ -- 35
-pop$ -- 211
+int.to.str$ -- 54
+missing$ -- 167
+newline$ -- 226
+num.names$ -- 54
+pop$ -- 332
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 371
+skip$ -- 479
 stack$ -- 0
-substring$ -- 318
-swap$ -- 232
+substring$ -- 408
+swap$ -- 283
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 29
-while$ -- 67
-width$ -- 37
-write$ -- 282
-(There were 31 error messages)
+warning$ -- 36
+while$ -- 95
+width$ -- 56
+write$ -- 441
+(There were 42 error messages)

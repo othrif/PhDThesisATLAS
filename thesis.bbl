@@ -116,6 +116,12 @@ H.-L. Lai {et~al.}, \href{http://dx.doi.org/10.1103/PhysRevD.82.074024}{Phys.
 \href{http://arxiv.org/abs/1201.3084}{{\ttfamily arXiv:1201.3084 [hep-ph]}}.
 %%CITATION = ARXIV:1201.3084;%%.
 
+\bibitem{AZNLO:2014}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2014)145}{JHEP
+  {\bfseries 2014} (2014) 55},
+\href{http://arxiv.org/abs/1406.3660}{{\ttfamily arXiv:1406.3660 [hep-ex]}}.
+%%CITATION = ARXIV:1406.3660;%%.
+
 \bibitem{Czakon:2011xx}
 M.~Czakon and A.~Mitov,
   \href{http://dx.doi.org/10.1016/j.cpc.2014.06.021}{Comput. Phys. Commun.
@@ -128,12 +134,6 @@ P.~Skands, \href{http://dx.doi.org/10.1103/PhysRevD.82.074018}{Phys. Rev. D
   {\bfseries 82} (2010) 074018},
 \href{http://arxiv.org/abs/1005.3457}{{\ttfamily arXiv:1005.3457 [hep-ph]}}.
 %%CITATION = ARXIV:1007.2241;%%.
-
-\bibitem{AZNLO:2014}
-{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP09(2014)145}{JHEP
-  {\bfseries 2014} (2014) 55},
-\href{http://arxiv.org/abs/1406.3660}{{\ttfamily arXiv:1406.3660 [hep-ex]}}.
-%%CITATION = ARXIV:1406.3660;%%.
 
 \bibitem{Aad:2010ah}
 {ATLAS} Collaboration, G.~Aad {et~al.},
@@ -209,6 +209,104 @@ C.~Borschensky {et~al.},
   {\bfseries 74} (2014) 3174},
 \href{http://arxiv.org/abs/1407.5066}{{\ttfamily arXiv:1407.5066 [hep-ph]}}.
 %%CITATION = ARXIV:1407.5066;%%.
+
+\bibitem{ATL-PHYS-PUB-2015-026}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-026}, 2015,
+  \url{https://cds.cern.ch/record/2037717}.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam,  and G.~Soyez,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{JHEP {\bfseries 0804}
+  (2008) 063},
+\href{http://arxiv.org/abs/0802.1189}{{\ttfamily arXiv:0802.1189 [hep-ph]}}.
+%%CITATION = ARXIV:0802.1189;%%.
+
+\bibitem{PERF-2014-07}
+{ATLAS Collaboration}, \href{http://arxiv.org/abs/1603.02934}{{\ttfamily
+  arXiv:1603.02934 [hep-ex]}}.
+
+\bibitem{Cacciari:2007fd}
+M.~Cacciari and G.~P. Salam,
+  \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{Phys. Lett. B
+  {\bfseries 659} (2008) 119--126},
+\href{http://arxiv.org/abs/0707.1378}{{\ttfamily arXiv:0707.1378 [hep-ph]}}.
+%%CITATION = ARXIV:0707.1378;%%.
+
+\bibitem{Aaboud:2017jcu}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+\href{http://arxiv.org/abs/1703.09665}{{\ttfamily arXiv:1703.09665 [hep-ex]}}.
+%%CITATION = ARXIV:1703.09665;%%.
+
+\bibitem{ATLAS-CONF-2014-018}
+{ATLAS Collaboration},  Atlas-conf-2014-018,
+  \url{https://cds.cern.ch/record/1700870}.
+
+\bibitem{Aad:2015ydr}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/11/04/P04008}{JINST {\bfseries 11}
+  (2016) P04008},
+\href{http://arxiv.org/abs/1512.01094}{{\ttfamily arXiv:1512.01094 [hep-ex]}}.
+%%CITATION = ARXIV:1512.01094;%%.
+
+\bibitem{ATL-PHYS-PUB-2015-022}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-022}, 2015,
+  \url{https://cds.cern.ch/record/2037697}.
+
+\bibitem{ATL-PHYS-PUB-2016-012}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2016-012}, 2016,
+  \url{https://cds.cern.ch/record/2160731}.
+
+\bibitem{ATLAS-CONF-2016-024}
+{ATLAS Collaboration},  {ATLAS-CONF-2016-024}, 2016,
+  \url{https://cds.cern.ch/record/2157687}.
+
+\bibitem{Aad:2016jkr}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4120-y}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 292},
+\href{http://arxiv.org/abs/1603.05598}{{\ttfamily arXiv:1603.05598 [hep-ex]}}.
+%%CITATION = ARXIV:1603.05598;%%.
+
+\bibitem{Aaboud:2016yuq}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4507-9}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 666},
+\href{http://arxiv.org/abs/1606.01813}{{\ttfamily arXiv:1606.01813 [hep-ex]}}.
+%%CITATION = ARXIV:1606.01813;%%.
+
+\bibitem{ATL-PHYS-PUB-2015-027}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-027}, 2015,
+  \url{https://cds.cern.ch/record/2037904}.
+
+\bibitem{ATL-PHYS-PUB-2015-023}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-023}, 2015,
+  \url{https://cds.cern.ch/record/2037700}.
+
+\bibitem{Cousins:2009}
+R.~D. Cousins, K.~E. Hymes,  and J.~Tucker, Nucl.Instrum.Meth.Phys.Res.
+  {\bfseries A612} (2010) 388--398,
+  \href{http://arxiv.org/abs/0905.3831}{{\ttfamily arXiv:0905.3831
+  [physics.data-an]}}.
+
+\bibitem{ATLAS-CONF-2017-021}
+{ATLAS Collaboration},  {ATLAS-CONF-2017-021}, 2017,
+  \url{https://cds.cern.ch/record/2258143}.
+
+\bibitem{ATLAS-CONF-2014-032}
+{ATLAS Collaboration},  Atlas-conf-2014-032,
+  \url{https://cds.cern.ch/record/1706245}.
+
+\bibitem{ATLAS-CONF-2016-037}
+{ATLAS Collaboration},  Atlas-conf-2016-037,
+  \url{http://cds.cern.ch/record/2205745}.
+
+\bibitem{Abbott:2052581}
+B.~Abbott, J.-F. Arguin, S.~Berlendis, F.~Cardillo, G.~D. Carrillo-Montoya,
+  A.~Di~Simone, O.~A. Ducu, D.~Gerbaudo, F.~Hubaut, G.~Herten, S.~J. Kahn,
+  A.~Lleres, J.~Maurer, E.~Monnier, T.~Nguyen~Manh, A.~Paramonov, J.~Poveda,
+  P.~Pralavorio, H.~Ren, O.~Rifki, Y.-t. Shen, P.~Skubic, A.~Taffard,
+  P.~Tornambe, H.~Trepanier,  and X.~Zhuang,  Atl-com-phys-2015-1150,
+  \url{https://cds.cern.ch/record/2052581}.
 
 \bibitem{PERF-2007-01}
 {ATLAS Collaboration},

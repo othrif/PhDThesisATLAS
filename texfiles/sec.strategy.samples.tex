@@ -39,33 +39,50 @@ to model the properties of bottom and charm hadron decays.
 \scriptsize
 \resizebox{\textwidth}{!}
 {
-\begin{tabular}{|l|l|c|c|c|c|}
+\begin{tabular}{|l|l|c|c|c|c|c|}
 \hline
-Physics process    & Event generator & Parton shower & Cross-section & PDF set & Set of tuned \\
-                   &	      & 	      & normalization & 	& parameters  \\
-\hline
-\hline
-Signal   	   	& \AMCATNLO 2.2.3~\cite{Alwall:2014hca} 	& \PYTHIA 8.186~\cite{Sjostrand:2007gs}	& NLO+NLL  & NNPDF2.3LO~\cite{Ball:2012cx} & A14~\cite{ATL-PHYS-PUB-2014-021} \\
+Physics process    & Event generator & Parton shower & Cross-section & Cross-section & PDF set & Set of tuned \\
+                   &          &               & order & value (fb)&         & parameters  \\
 \hline
 \hline
-$\ttbar +X$            &                      			&                      			&                               	&               &      \\
-$\ttbar W$, $\ttbar Z/\gamma^{*}$ & \AMCATNLO 2.2.2 		& \PYTHIA 8.186	  			& NLO~\cite{YR4}     			& NNPDF2.3LO	& A14    \\
-$\ttbar H$	   & \AMCATNLO 2.3.2        			& \PYTHIA 8.186  			& NLO~\cite{YR4}   			& NNPDF2.3LO	& A14  \\
-4$t$    	& \AMCATNLO 2.2.2       			& \PYTHIA 8.186        			& NLO~\cite{Alwall:2014hca}	  	& NNPDF2.3LO	& A14  \\
+Signal                  & \AMCATNLO 2.2.3~\cite{Alwall:2014hca}         & \PYTHIA 8.186~\cite{Sjostrand:2007gs} & NLO+NLL
+& See Table~\ref{tab:signal_xsections} & NNPDF2.3LO~\cite{Ball:2012cx} & A14~\cite{ATL-PHYS-PUB-2014-021} \\
 \hline
-Diboson            &                      			&                      			&                               	&               &      \\
-$ZZ$, $WZ$    	   & \SHERPA 2.2.1~\cite{gleisberg:2008ta}      & \SHERPA 2.2.1				& NLO~\cite{ATL-PHYS-PUB-2016-002}	&NNPDF2.3LO & \SHERPA default \\
-Other (inc. $W^{\pm}W^{\pm}$)   & \SHERPA 2.1.1 		& \SHERPA 2.1.1				& NLO~\cite{ATL-PHYS-PUB-2016-002}	&CT10~\cite{Lai:2010vv} & \SHERPA default \\
+$\ttbar +X$            &                                        &                                       & 
+             &               &    &   \\
+$\ttbar W$,$\ttbar Z/\gamma^{*}$ & \AMCATNLO 2.2.2            & \PYTHIA 8.186                         & NLO~\cite{YR4} & $600.8$, $123.7$                     & NNPDF2.3LO    & A14    \\
+$\ttbar H$	   & \AMCATNLO 2.3.2        			& \PYTHIA 8.186  			& NLO~\cite{YR4}  & 	$507.1$		& NNPDF2.3LO	& A14  \\
+4$t$    	& \AMCATNLO 2.2.2       			& \PYTHIA 8.186        			& NLO~\cite{Alwall:2014hca}	&  
+$9.2$	& NNPDF2.3LO	& A14  \\
 \hline
-Rare               &                      			&                      			&                               	&               &      \\
-$\ttbar WW$, $\ttbar WZ$     & \AMCATNLO 2.2.2       		& \PYTHIA 8.186      			& NLO~\cite{Alwall:2014hca}	  	& NNPDF2.3LO	 & A14  \\
-$tZ$, $tWZ$, $t\ttbar$    & \AMCATNLO 2.2.2        		& \PYTHIA 8.186       			& LO		                   	& NNPDF2.3LO     & A14  \\
-$WH$, $ZH$	   & \AMCATNLO 2.2.2        			& \PYTHIA 8.186      			& NLO~\cite{Dittmaier:2012vm}   	& NNPDF2.3LO     & A14  \\
-Triboson	   & \SHERPA 2.1.1         			& \SHERPA 2.1.1        			& NLO~\cite{ATL-PHYS-PUB-2016-002}       & CT10	     	& \SHERPA default \\
+Diboson            &                   &   			&                      			&                               	&               &      \\
+$ZZ$, $WZ$       & \SHERPA 2.2.1~\cite{gleisberg:2008ta}      & \SHERPA 2.2.1& NLO~\cite{ATL-PHYS-PUB-2016-002}& 
+$1.3\cdot 10^3$,$4.5\cdot 10^3$
+&NNPDF2.3LO & \SHERPA default \\
+inc. $W^{\pm}W^{\pm}$   & \SHERPA 2.1.1 		& \SHERPA 2.1.1				& NLO~\cite{ATL-PHYS-PUB-2016-002}  &	
+$86$
+&CT10~\cite{Lai:2010vv} & \SHERPA default \\
 \hline
-Irreducible            &                      			&                      			&                               	&               &      \\
-$\ttbar$    	   & \POWHEGBOX       		& \PYTHIA 6.428      			& NNLO+NNLL~\cite{Czakon:2011xx}	  	& CT10      	 & PERUGIA2012 (P2012) \cite{tt:perugia}\\
-$W$+Jets, $Z$+Jets      & \POWHEGBOX       		& \PYTHIA 8.186      			& NNLO~\cite{Czakon:2011xx}	  	& CT10      	 & AZNLO\cite{AZNLO:2014}\\
+Rare               &                  &    			&                      			&                               	&               &      \\
+$\ttbar WW$, $\ttbar WZ$     & \AMCATNLO 2.2.2       & \PYTHIA 8.186      & NLO~\cite{Alwall:2014hca}  & 
+$9.9$, $0.36$
+& NNPDF2.3LO & A14  \\
+$tZ$, $tWZ$, $t\ttbar$    & \AMCATNLO 2.2.2        & \PYTHIA 8.186       & LO                   & 
+$240$, $16$, $1.6$
+& NNPDF2.3LO     & A14  \\
+$WH$, $ZH$   & \AMCATNLO 2.2.2        & \PYTHIA 8.186      & NLO~\cite{Dittmaier:2012vm}   & 
+$1.4\cdot 10^3$, $868$  
+& NNPDF2.3LO     & A14  \\
+Triboson	   & \SHERPA 2.1.1         			& \SHERPA 2.1.1        			& NLO~\cite{ATL-PHYS-PUB-2016-002}
+& $14.9$
+& CT10	     	& \SHERPA default \\
+\hline
+Irreducible (Incl.)            &                      			&                      		&	&                               	&               &      \\
+$W$+Jets      & \POWHEGBOX       		& \PYTHIA 8.186      			& NNLO	 & 
+2.0 $\cdot 10^7$	& CT10      	 & AZNLO\cite{AZNLO:2014}\\
+$Z$+Jets      & \POWHEGBOX       		& \PYTHIA 8.186      			& NNLO	 & 1.9 $\cdot 10^7$	& CT10      	 & AZNLO\cite{AZNLO:2014}\\
+$\ttbar$    	   & \POWHEGBOX       		& \PYTHIA 6.428      			& NNLO+NNLL~\cite{Czakon:2011xx}	&  
+8.3 $\cdot 10^5$ 	& CT10      	 & PERUGIA2012 (P2012) \cite{tt:perugia}\\
 \hline
 \end{tabular}
 }
@@ -230,6 +247,6 @@ some of these cross-sections are shown for illustration in Table~\ref{tab:signal
 Cross-section uncertainties are also taken from Ref.~\cite{twiki-SusyCrossSections} as well, 
 and include contributions from varied normalization and factorization scales, as well as PDF uncertainties. 
 They typically vary between 15 and 25\%. 
-We do not consider any source of uncertainties on signal acceptance, 
-experience having shown that these are generally smaller than the uncertainties on the inclusive production cross-section. 
+Uncertainties on the signal acceptance are not considered since 
+ these are generally smaller than the uncertainties on the inclusive production cross-section. 
 

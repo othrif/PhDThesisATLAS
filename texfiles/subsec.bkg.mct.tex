@@ -1,0 +1,75 @@
+As discussed in Section~\ref{sec:fake.mct}, the MC template method is
+ a simulation-based method that provides an alternative estimate of the reducible backgrounds affecting the analysis.
+It relies on the correct modelling of FNP leptons and charge-flipped electron kinematics in $\ttbar$ 
+and $V$+jets.
+FNP leptons are classified in four categories, namely electrons and muons coming 
+from $b$ and light-quark jets. Normalisation factors for each of the five sources (including phton conversions) are computed to match the observed data 
+in dedicated control regions. The fifth category is events with prompt electrons that have a charge mis-measurement 
+(charge flip, EL HF, MU HF, EL LF, MU LF).
+Six non-overlapping control regions are defined by the presence of $b$-jets and by the flavors of the same sign lepton pair in the event:
+\begin{itemize}
+\item CR0b: events without $b$-jets in $ee$, $e\mu$, and $\mu\mu$ channels.
+\item CR1b: events with at least one $b$-jet in $ee$, $e\mu$, and $\mu\mu$ channels.
+\end{itemize}
+All the selected events contain two or more same-sign signal leptons and $\met >40$ \GeV~and 2 or more jets. 
+Events satisfying the signal regions requirements are excluded from the control regions. 
+The purpose of the \met requirement is to remove multi-jet events that have two or more FNP leptons and tend to have low \met. 
+The six distributions are chosen for variables that provide the best separation between processes with prompt leptons and processes with 
+fake leptons and charge flip and are shown 
+before and after the fit in Figures \ref{f:prefit_CR0b}-\ref{f:prefit_CR1b} and Figures \ref{f:postfit_CR0b}-\ref{f:postfit_CR1b}, 
+respectively. 
+The multipliers obtained after the minimization of the negative log likelihood were given 
+in Tables \ref{t:fake_factors_powheg} and \ref{t:fake_factors_sherpa}.
+The tables represent the correction factors obtained from the fit upon using two different parton showers, Pythia and Sherpa
+for the processes that lead to non-prompt leptons and charge flips.
+The goal of varying the parton shower is to access the dependence of the fake and charge flip estimates on the choice of the 
+parton shower. 
+
+The MC template method is validated by looking at the Data/MC agreement near the signal regions where we invert one of the cuts while keeping the last bin corresponding to the SR blinded. These distributions can be found in Appendix~\ref{app:mctemplate}.
+After applying the correction factors of Table \ref{t:fake_factors_powheg} to obtain the nominal fake estimates with the samples shown 
+in Table \ref{t:samples_pythia}, 
+an additional uncertainty on the rate of fake leptons from \ttbar and $V$+jets in the signal region is assigned by repeating the background
+ evaluation procedure using samples with Sherpa shown in Tables~\ref{t:samples_sherpa1}-\ref{t:samples_sherpa2} and with the correction 
+factors from Table \ref{t:fake_factors_sherpa}. 
+In practice, only \ttbar contributes to the SRs and the final yields with systamtic uncertainties from 
+fit uncertainty, theory uncertainties on ttbar, comparison of different showers (Pythia 6 and Sherpa) is shown in Table \ref{tab:fakes_mcglobal}.
+This table also shows a global correction factor derived by taking the ratio of the weighted \ttbar to raw MC \ttbar with
+a global uncertainty that includes all systematic uncertainties used to obtain the final estimate. 
+
+
+\begin{table}[!htb]
+\caption{Expected yields for background processes with fake leptons,
+in the signal regions with a global correction factor that represents the ratio of weighted \ttbar to raw MC \ttbar with
+a global uncertainty that includes: fit uncertainty, theory uncertainties on ttbar, comparison of different showers. 
+The fraction of the systematic uncertainty from the comparison between two showers (Pythia and Sherpa) is also shown.
+}
+\label{tab:fakes_mcglobal}
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c||c|c|c||}\hline
+Region &              MC Template method  & Global correction & Shower systematic \\
+\hline
+Rpc2L0bH & $1.00 \pm 0.96 \pm 0.81$ & $2.80 \pm 2.10$ & 74\% \\
+Rpc2L0bS & $1.68 \pm 1.02 \pm 1.26$ & $2.89 \pm 1.97$ & 65\% \\
+Rpc2L1bH & $2.07 \pm 0.63 \pm 1.56$ & $1.22 \pm 1.14$ & 34\% \\
+Rpc2L1bS & $2.33 \pm 1.17 \pm 2.10$ & $1.83 \pm 1.42$ & 81\% \\
+Rpc2L2bH & $<0.5$ & $0 \pm 0$ & 0\% \\
+Rpc2L2bS & $0.41 \pm 0.33 \pm 0.45$ & $1.47 \pm 1.12$ & 73\% \\
+Rpc2Lsoft1b & $2.48 \pm 1.32 \pm 1.86$ & $1.59 \pm 1.31$ & 68\% \\
+Rpc2Lsoft2b & $1.66 \pm 0.66 \pm 1.28$ & $1.72 \pm 1.29$ & 54\% \\
+Rpc3L0bH & $<0.5$ & $0 \pm 0$ & 0\% \\
+Rpc3L0bS & $0.21 \pm 0.15 \pm 0.16$ & $2.90 \pm 2.20$ & 71\% \\
+Rpc3L1bH & $0.42 \pm 0.29 \pm 0.32$ & $1.59 \pm 1.25$ & 59\% \\
+Rpc3L1bS & $3.55 \pm 1.80 \pm 2.76$ & $1.76 \pm 1.32$ & 67\% \\
+Rpc3LSS1b & $0.90 \pm 0.14 \pm 0.69$ & $2.34 \pm 1.44$ & 56\% \\
+Rpv2L0b & $1.02 \pm 0.96 \pm 0.76$  & $2.80 \pm 2.10$ & 66\% \\
+Rpv2L1bH & $0.60 \pm 0.35 \pm 0.48$ & $1.32 \pm 0.92$ & 45\% \\
+Rpv2L1bM & $1.20 \pm 0.69 \pm 0.95$ & $1.59 \pm 1.25$ & 58\% \\
+Rpv2L1bS & $4.46 \pm 1.67 \pm 3.45$ & $1.33 \pm 0.80$ & 67\% \\
+Rpv2L2bH & $<0.5$ & $0 \pm 0$ & 0\% \\
+Rpv2L2bS & $7.24 \pm 2.36 \pm 5.43$ & $2.45 \pm 1.83$ & 73\% \\
+\hline
+\hline
+\end{tabular}
+}
+\end{table}
