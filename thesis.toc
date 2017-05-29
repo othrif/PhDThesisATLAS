@@ -26,22 +26,22 @@
 \contentsline {section}{\numberline {5.3}Dataset and Simulated Event Samples}{13}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Collision Data}{13}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Simulated Event Samples}{14}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Event Selection}{17}{section.5.4}
-\contentsline {section}{\numberline {5.5}Signal Regions}{17}{section.5.5}
-\contentsline {chapter}{\numberline {6}Data-driven Background Estimation Techniques}{18}{chapter.6}
-\contentsline {section}{\numberline {6.1}The problem of fakes}{18}{section.6.1}
-\contentsline {section}{\numberline {6.2}Common processes for faking leptons}{18}{section.6.2}
-\contentsline {section}{\numberline {6.3}The Monte Carlo Template Method}{18}{section.6.3}
-\contentsline {section}{\numberline {6.4}Matrix Method}{18}{section.6.4}
-\contentsline {chapter}{\numberline {7}Background Estimation}{19}{chapter.7}
-\contentsline {section}{\numberline {7.1}Overview}{19}{section.7.1}
-\contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{19}{section.7.2}
-\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{19}{section.7.3}
-\contentsline {chapter}{\numberline {8}Systematic uncertainties}{20}{chapter.8}
-\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{20}{section.8.1}
-\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{20}{section.8.2}
-\contentsline {chapter}{\numberline {9}Statistical Treatment}{21}{chapter.9}
-\contentsline {chapter}{\numberline {10}Results and Interpretation}{22}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusions}{23}{chapter.11}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{24}{appendix.A}
-\contentsline {chapter}{References}{25}{appendix*.12}
+\contentsline {section}{\numberline {5.4}Event Selection}{21}{section.5.4}
+\contentsline {section}{\numberline {5.5}Signal Regions}{21}{section.5.5}
+\contentsline {chapter}{\numberline {6}Data-driven Background Estimation Techniques}{22}{chapter.6}
+\contentsline {section}{\numberline {6.1}The problem of fakes}{22}{section.6.1}
+\contentsline {section}{\numberline {6.2}Common processes for faking leptons}{22}{section.6.2}
+\contentsline {section}{\numberline {6.3}The Monte Carlo Template Method}{22}{section.6.3}
+\contentsline {section}{\numberline {6.4}Matrix Method}{22}{section.6.4}
+\contentsline {chapter}{\numberline {7}Background Estimation}{23}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overview}{23}{section.7.1}
+\contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{23}{section.7.2}
+\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{23}{section.7.3}
+\contentsline {chapter}{\numberline {8}Systematic uncertainties}{24}{chapter.8}
+\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{24}{section.8.1}
+\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{24}{section.8.2}
+\contentsline {chapter}{\numberline {9}Statistical Treatment}{25}{chapter.9}
+\contentsline {chapter}{\numberline {10}Results and Interpretation}{26}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusions}{27}{chapter.11}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{28}{appendix.A}
+\contentsline {chapter}{References}{29}{appendix*.13}

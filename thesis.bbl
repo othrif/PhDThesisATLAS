@@ -160,6 +160,29 @@ A.~Sherstnev and R.~Thorne,
 \href{http://arxiv.org/abs/0711.2473}{{\ttfamily arXiv:0711.2473 [hep-ph]}}.
 %%CITATION = ARXIV:0711.2473;%%.
 
+\bibitem{ATL-PHYS-PUB-2016-005}
+{ATLAS Collaboration},  Atl-phys-pub-2016-005,
+  \url{http://cds.cern.ch/record/2120826}.
+
+\bibitem{Corcella:2000bw}
+G.~Corcella {et~al.},
+  \href{http://dx.doi.org/10.1088/1126-6708/2001/01/010}{JHEP {\bfseries 01}
+  (2001) 010}, \href{http://arxiv.org/abs/hep-ph/0011363}{{\ttfamily
+  arXiv:hep-ph/0011363}}.
+
+\bibitem{Pumplin:2002vw}
+J.~Pumplin {et~al.},
+  \href{http://dx.doi.org/10.1088/1126-6708/2002/07/012}{JHEP {\bfseries 07}
+  (2002) 012}, \href{http://arxiv.org/abs/hep-ph/0201195}{{\ttfamily
+  arXiv:hep-ph/0201195}}.
+
+\bibitem{Alwall:2011uj}
+J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer,  and T.~Stelzer,
+  \href{http://dx.doi.org/10.1007/JHEP06(2011)128}{JHEP {\bfseries 06} (2011)
+  128},
+\href{http://arxiv.org/abs/1106.0522}{{\ttfamily arXiv:1106.0522 [hep-ph]}}.
+%%CITATION = ARXIV:1106.0522;%%.
+
 \bibitem{twiki-SusyCrossSections}
 {LHC SUSY Cross Section Working Group},  2015,
   \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections}.
@@ -186,10 +209,6 @@ C.~Borschensky {et~al.},
   {\bfseries 74} (2014) 3174},
 \href{http://arxiv.org/abs/1407.5066}{{\ttfamily arXiv:1407.5066 [hep-ph]}}.
 %%CITATION = ARXIV:1407.5066;%%.
-
-\bibitem{Beenakker:1996ed}
-W.~Beenakker, R.~H{\"o}pker,  and M.~Spira,
-  \href{http://arxiv.org/abs/hep-ph/9611232}{{\ttfamily arXiv:hep-ph/9611232}}.
 
 \bibitem{PERF-2007-01}
 {ATLAS Collaboration},
