@@ -47,16 +47,16 @@
 \contentsline {section}{\numberline {7.1}Overview}{58}{section.7.1}
 \contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{58}{section.7.2}
 \contentsline {section}{\numberline {7.3}Reducible Backgrounds}{58}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Matrix Method}{59}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}MC Template Method}{77}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Background processes with charge-flipped electrons}{79}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Expected yields in signal regions}{87}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Expected yields in signal regions}{87}{subsection.7.3.5}
-\contentsline {chapter}{\numberline {8}Systematic uncertainties}{95}{chapter.8}
-\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{95}{section.8.1}
-\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{95}{section.8.2}
-\contentsline {chapter}{\numberline {9}Statistical Treatment}{96}{chapter.9}
-\contentsline {chapter}{\numberline {10}Results and Interpretation}{97}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusions}{98}{chapter.11}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{99}{appendix.A}
-\contentsline {chapter}{References}{100}{appendix*.52}
+\contentsline {subsection}{\numberline {7.3.1}MC Template Method}{59}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{61}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Charge-flip background}{76}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Validation of estimates}{85}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Expected yields in signal regions}{85}{subsection.7.3.5}
+\contentsline {chapter}{\numberline {8}Systematic uncertainties}{91}{chapter.8}
+\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{91}{section.8.1}
+\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{91}{section.8.2}
+\contentsline {chapter}{\numberline {9}Statistical Treatment}{92}{chapter.9}
+\contentsline {chapter}{\numberline {10}Results and Interpretation}{93}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusions}{94}{chapter.11}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{95}{appendix.A}
+\contentsline {chapter}{References}{96}{appendix*.53}
