@@ -1,3 +1,0 @@
-The MC template method is validated by looking at the Data/MC agreement near 
-the signal regions where we invert one of the cuts while keeping the last bin corresponding to the SR blinded. 
-These distributions can be found in Figure~\ref{app:mctemplate}.

@@ -1,7 +1,7 @@
 10
 
 dir
-273881
+273944
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/signals
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -162,17 +162,17 @@ has-props
 
 15934
 
-gogo-qqlqd-RPV.pdf
+Btt_SR1b.pdf
 file
 
 
 
 
 2017-05-26T18:52:37.000000Z
-44b6c9c0df2038a1e60807f50a0fc6e5
-2017-01-10T12:10:26.503883Z
-265940
-montoya
+97b125369b7542f15210d0619f411a3b
+2017-01-11T04:42:04.114873Z
+266098
+oducu
 has-props
 
 
@@ -194,7 +194,7 @@ has-props
 
 
 
-106546
+16792
 
 GG_RPV331_SR1bGG.pdf
 file
@@ -230,17 +230,17 @@ has-props
 
 16347
 
-Btt_SR1b.pdf
+gogo-qqlqd-RPV.pdf
 file
 
 
 
 
 2017-05-26T18:52:37.000000Z
-97b125369b7542f15210d0619f411a3b
-2017-01-11T04:42:04.114873Z
-266098
-oducu
+44b6c9c0df2038a1e60807f50a0fc6e5
+2017-01-10T12:10:26.503883Z
+265940
+montoya
 has-props
 
 
@@ -262,7 +262,7 @@ has-props
 
 
 
-16792
+106546
 
 gogo-ttudd-RPV.pdf
 file
@@ -400,40 +400,6 @@ has-props
 
 34996
 
-exclusion2015SameSign_SR0b3j.pdf
-file
-
-
-
-
-2017-05-26T18:52:37.000000Z
-aa3ae8c357265edffc46538f5210f60b
-2016-05-04T19:42:06.607243Z
-254673
-jmaurer
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16997
-
 sdsd-ttbb-RPV.pdf
 file
 
@@ -467,6 +433,40 @@ has-props
 
 
 42300
+
+exclusion2015SameSign_SR0b3j.pdf
+file
+
+
+
+
+2017-05-26T18:52:37.000000Z
+aa3ae8c357265edffc46538f5210f60b
+2016-05-04T19:42:06.607243Z
+254673
+jmaurer
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16997
 
 gogo-ttbbdd-stst-RPV.pdf
 file
