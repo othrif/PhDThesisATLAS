@@ -50,13 +50,14 @@
 \contentsline {subsection}{\numberline {7.3.1}MC Template Method}{59}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Matrix Method}{61}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}Charge-flip background}{76}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Validation of estimates}{85}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Expected yields in signal regions}{85}{subsection.7.3.5}
-\contentsline {chapter}{\numberline {8}Systematic uncertainties}{91}{chapter.8}
-\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{91}{section.8.1}
-\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{91}{section.8.2}
-\contentsline {chapter}{\numberline {9}Statistical Treatment}{92}{chapter.9}
-\contentsline {chapter}{\numberline {10}Results and Interpretation}{93}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusions}{94}{chapter.11}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{95}{appendix.A}
-\contentsline {chapter}{References}{96}{appendix*.53}
+\contentsline {section}{\numberline {7.4}Validation of Backgrounds}{85}{section.7.4}
+\contentsline {section}{\numberline {7.5}Expection in the Signal Regions}{85}{section.7.5}
+\contentsline {chapter}{\numberline {8}Systematic uncertainties}{89}{chapter.8}
+\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{89}{section.8.1}
+\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{89}{section.8.2}
+\contentsline {chapter}{\numberline {9}Statistical Treatment}{90}{chapter.9}
+\contentsline {chapter}{\numberline {10}Results and Interpretation}{91}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusions}{92}{chapter.11}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{93}{appendix.A}
+\contentsline {chapter}{\numberline {B}Validation of background estimates}{94}{appendix.B}
+\contentsline {chapter}{References}{99}{appendix*.55}
