@@ -46,18 +46,19 @@
 \contentsline {chapter}{\numberline {7}Background Estimation}{58}{chapter.7}
 \contentsline {section}{\numberline {7.1}Overview}{58}{section.7.1}
 \contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{58}{section.7.2}
-\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{58}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}MC Template Method}{59}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{61}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Charge-flip background}{76}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Validation of Backgrounds}{85}{section.7.4}
-\contentsline {section}{\numberline {7.5}Expection in the Signal Regions}{85}{section.7.5}
-\contentsline {chapter}{\numberline {8}Systematic uncertainties}{89}{chapter.8}
-\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{89}{section.8.1}
-\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{89}{section.8.2}
-\contentsline {chapter}{\numberline {9}Statistical Treatment}{90}{chapter.9}
-\contentsline {chapter}{\numberline {10}Results and Interpretation}{91}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusions}{92}{chapter.11}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{93}{appendix.A}
-\contentsline {chapter}{\numberline {B}Validation of background estimates}{94}{appendix.B}
-\contentsline {chapter}{References}{99}{appendix*.55}
+\contentsline {subsection}{\numberline {7.2.1}Validation regions}{58}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Validation of irreducible background estimates}{63}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{63}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{63}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{72}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}MC Template Method}{85}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{87}{subsection.7.3.4}
+\contentsline {chapter}{\numberline {8}Systematic uncertainties}{101}{chapter.8}
+\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{101}{section.8.1}
+\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{105}{section.8.2}
+\contentsline {chapter}{\numberline {9}Statistical Treatment}{108}{chapter.9}
+\contentsline {chapter}{\numberline {10}Results and Interpretation}{109}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusions}{110}{chapter.11}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{111}{appendix.A}
+\contentsline {chapter}{\numberline {B}Validation of background estimates}{112}{appendix.B}
+\contentsline {chapter}{References}{117}{appendix*.67}

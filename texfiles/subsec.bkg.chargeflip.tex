@@ -134,8 +134,18 @@ The charge-flip rates measured in data and MC are shown on Figure~\ref{fig:ChFli
  In data, the nominal rates (Fig.~\ref{fig:Chflip_nominalData}) go up to $\sim$0.1\% in the barrel region ($|\eta| < 1.37$), 
  while it increases up to $\sim$0.2\% in the end-cap region ($|\eta > 1.37|$). 
  For baseline electrons failing signal requirements (Fig.~\ref{fig:Chflip_looseData}), 
- the rates are in general greater than the nominal ones in every bin, as expected. The charge-flip rates for these electrons go up to $\sim$0.5\% in the barrel region and up 1\% in the end-cap region. Compared to the rates used in the previous version of the analysis~\cite{ATLAS-CONF-2016-037}, the central values are much lower now. After suppressing the charge flip events with the charge flip
-tagger tool, the charge flip rates are strongly reduced for both signal and baseline-failing-signal electrons (up to a factor 20 in some bins). Below 30~\GeV\, the statistics is very low for the loose measurement; however, these results are used only to measure the electron fake rate and, as illustrated in Figure~\ref{Fig:fakes_preselection_electron}, in this \pt interval the charge flip background is negligible.
+ the rates are in general greater than the nominal ones in every bin, as expected. The charge-flip rates for these electrons go up to $\sim$0.5\% in the barrel region and up 1\% in the end-cap region. Compared to the rates used in the previous version of the analysis~\cite{ATLAS-CONF-2016-037}, the central values are much lower now. After suppressing the charge flip events with the charge-flip 
+electron BDT classifer described in Section~\ref{subsec:strategy.sel.obj}, 
+the charge flip rates are strongly reduced for both signal and baseline-failing-signal electrons (up to a factor 20 in some bins). Figure~\ref{fig:ETA_SS_BDTEL}
+illustrates the charge flip background reduction in a loose selection.
+\begin{figure}[htb!]
+\centering
+\begin{subfigure}[t]{0.66\textwidth}\includegraphics[width=\textwidth]{ETA_SS_BDTEL}\end{subfigure}
+\caption{Invariant mass of the signal $e^{\pm} e^{\pm}$ pair distribution with (full markers) and without (open markers) charge-flip electron BDT selection applied.
+}
+\label{fig:ETA_SS_BDTEL}
+\end{figure}
+Below 30~\GeV\, the statistics is very low for the loose measurement; however, these results are used only to measure the electron fake rate and, as illustrated in Figure~\ref{Fig:fakes_preselection_electron}, in this \pt interval the charge flip background is negligible.
 % while the statistical uncertainties decreased significantly given the increase of up to a factor three in data luminosity. 
 
 The charge-flip rates in MC (Figs.~\ref{fig:Chflip_nominalMC},~\ref{fig:Chflip_looseMC}) 

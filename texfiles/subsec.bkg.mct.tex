@@ -25,13 +25,14 @@ for the processes that lead to non-prompt leptons and charge flips.
 The goal of varying the parton shower is to access the dependence of the fake and charge flip estimates on the choice of the 
 parton shower. 
 
-The MC template method is validated by looking at the Data/MC agreement near the signal regions where we invert one of the cuts while keeping the last bin corresponding to the SR blinded. 
-These distributions can be found in Figure~\ref{app:mctemplate}.
-After applying the correction factors of Table \ref{t:fake_factors_powheg} to obtain the nominal fake estimates with the samples shown 
-in Table \ref{t:samples_pythia}, 
-an additional uncertainty on the rate of fake leptons from \ttbar and $V$+jets in the signal region is assigned by repeating the background
- evaluation procedure using samples with Sherpa shown in Tables~\ref{t:samples_sherpa1}-\ref{t:samples_sherpa2} and with the correction 
-factors from Table \ref{t:fake_factors_sherpa}. 
+The MC template method is validated by looking at the agreement 
+between observed data and prediction as shown in Figure~\ref{fig:bkg.val.met}
+and Figure~\ref{fig:bkg.val.met}.
+In the MC template method, the systematic uncertainty is obtained by
+changing the generator from \POWHEGBOX to \SHERPA and propagating uncertainties from the control region fit to the global
+normalization scale factors applied to the MC samples. 
+The uncertainties in these scale factors are in the range 75--80\%,
+depending on the SRs.
 In practice, only \ttbar contributes to the SRs and the final yields with systamtic uncertainties from 
 fit uncertainty, theory uncertainties on ttbar, comparison of different showers (Pythia 6 and Sherpa) is shown in Table \ref{tab:fakes_mcglobal}.
 This table also shows a global correction factor derived by taking the ratio of the weighted \ttbar to raw MC \ttbar with
