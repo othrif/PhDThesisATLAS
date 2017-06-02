@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  2 JUN 2017 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  2 JUN 2017 17:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,187 +1192,188 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [23] [24] [25] [26] [27])
-(./texfiles/sec.strategy.sr.tex [28]
-Overfull \hbox (4.95674pt too wide) in paragraph at lines 29--36
+(./texfiles/sec.strategy.sr.tex [28] [29]
+Overfull \hbox (4.95674pt too wide) in paragraph at lines 37--44
  [][] 
  []
 
-[29] <figures/strategy/allSRs.pdf, id=900, page=5, 569.12625pt x 547.04375pt>
+<figures/strategy/allSRs.pdf, id=907, page=5, 569.12625pt x 547.04375pt>
 File: figures/strategy/allSRs.pdf Graphic file (type pdf)
 
 <use figures/strategy/allSRs.pdf, page 5>
 Package pdftex.def Info: figures/strategy/allSRs.pdf, page5 used on input line 
-94.
+102.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
-<figures/strategy/allSRs.pdf, id=901, page=6, 569.12625pt x 546.04pt>
+<figures/strategy/allSRs.pdf, id=908, page=6, 569.12625pt x 546.04pt>
 File: figures/strategy/allSRs.pdf Graphic file (type pdf)
 
 <use figures/strategy/allSRs.pdf, page 6>
 Package pdftex.def Info: figures/strategy/allSRs.pdf, page6 used on input line 
-98.
+106.
 (pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
 
-<figures/strategy/2bs.pdf, id=902, page=1, 569.12625pt x 547.04375pt>
+<figures/strategy/2bs.pdf, id=909, page=1, 569.12625pt x 547.04375pt>
 File: figures/strategy/2bs.pdf Graphic file (type pdf)
 
 <use figures/strategy/2bs.pdf, page 1>
-Package pdftex.def Info: figures/strategy/2bs.pdf, page1 used on input line 102
+Package pdftex.def Info: figures/strategy/2bs.pdf, page1 used on input line 110
 .
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
-<figures/strategy/2bs.pdf, id=903, page=2, 569.12625pt x 547.04375pt>
+<figures/strategy/2bs.pdf, id=910, page=2, 569.12625pt x 547.04375pt>
 File: figures/strategy/2bs.pdf Graphic file (type pdf)
 
 <use figures/strategy/2bs.pdf, page 2>
-Package pdftex.def Info: figures/strategy/2bs.pdf, page2 used on input line 106
+Package pdftex.def Info: figures/strategy/2bs.pdf, page2 used on input line 114
 .
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
-<figures/strategy/allSRs.pdf, id=906, page=1, 569.12625pt x 547.04375pt>
+<figures/strategy/allSRs.pdf, id=913, page=1, 569.12625pt x 547.04375pt>
 File: figures/strategy/allSRs.pdf Graphic file (type pdf)
 
 <use figures/strategy/allSRs.pdf, page 1>
 Package pdftex.def Info: figures/strategy/allSRs.pdf, page1 used on input line 
-121.
+129.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
-<figures/strategy/allSRs.pdf, id=907, page=2, 569.12625pt x 547.04375pt>
+<figures/strategy/allSRs.pdf, id=914, page=2, 569.12625pt x 547.04375pt>
 File: figures/strategy/allSRs.pdf Graphic file (type pdf)
 
 <use figures/strategy/allSRs.pdf, page 2>
 Package pdftex.def Info: figures/strategy/allSRs.pdf, page2 used on input line 
-125.
+133.
 (pdftex.def)             Requested size: 197.72885pt x 190.0575pt.
 
-<figures/strategy/allSRs.pdf, id=908, page=3, 569.12625pt x 546.04pt>
+<figures/strategy/allSRs.pdf, id=915, page=3, 569.12625pt x 546.04pt>
 File: figures/strategy/allSRs.pdf Graphic file (type pdf)
 
 <use figures/strategy/allSRs.pdf, page 3>
 Package pdftex.def Info: figures/strategy/allSRs.pdf, page3 used on input line 
-129.
+137.
 (pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
 
-<figures/strategy/allSRs.pdf, id=909, page=4, 569.12625pt x 546.04pt>
+<figures/strategy/allSRs.pdf, id=916, page=4, 569.12625pt x 546.04pt>
 File: figures/strategy/allSRs.pdf Graphic file (type pdf)
 
 <use figures/strategy/allSRs.pdf, page 4>
 Package pdftex.def Info: figures/strategy/allSRs.pdf, page4 used on input line 
-133.
+141.
 (pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
  [30] [31 <./figures/strategy/allSRs.pdf> <./figures/strategy/allSRs.pdf> <./fi
 gures/strategy/2bs.pdf> <./figures/strategy/2bs.pdf>] [32 <./figures/strategy/a
 llSRs.pdf> <./figures/strategy/allSRs.pdf> <./figures/strategy/allSRs.pdf> <./f
-igures/strategy/allSRs.pdf>]
-<figures/strategy/2bs.pdf, id=941, page=3, 569.12625pt x 546.04pt>
+igures/strategy/allSRs.pdf>] [33]
+<figures/strategy/2bs.pdf, id=951, page=3, 569.12625pt x 546.04pt>
 File: figures/strategy/2bs.pdf Graphic file (type pdf)
 
 <use figures/strategy/2bs.pdf, page 3>
-Package pdftex.def Info: figures/strategy/2bs.pdf, page3 used on input line 149
+Package pdftex.def Info: figures/strategy/2bs.pdf, page3 used on input line 157
 .
 (pdftex.def)             Requested size: 197.72885pt x 189.70877pt.
 
-<figures/strategy/ttn1_nbjets.pdf, id=942, 569.12625pt x 385.44pt>
+<figures/strategy/ttn1_nbjets.pdf, id=952, 569.12625pt x 385.44pt>
 File: figures/strategy/ttn1_nbjets.pdf Graphic file (type pdf)
 
 <use figures/strategy/ttn1_nbjets.pdf>
 Package pdftex.def Info: figures/strategy/ttn1_nbjets.pdf used on input line 16
-1.
+9.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/strategy/ttn1_nbjets_Dm.pdf, id=943, 569.12625pt x 385.44pt>
+<figures/strategy/ttn1_nbjets_Dm.pdf, id=953, 569.12625pt x 385.44pt>
 File: figures/strategy/ttn1_nbjets_Dm.pdf Graphic file (type pdf)
 
 <use figures/strategy/ttn1_nbjets_Dm.pdf>
 Package pdftex.def Info: figures/strategy/ttn1_nbjets_Dm.pdf used on input line
- 165.
+ 173.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/strategy/Gttoff_nobound.pdf, id=944, 569.12625pt x 388.45125pt>
+<figures/strategy/Gttoff_nobound.pdf, id=954, 569.12625pt x 388.45125pt>
 File: figures/strategy/Gttoff_nobound.pdf Graphic file (type pdf)
 
 <use figures/strategy/Gttoff_nobound.pdf>
 Package pdftex.def Info: figures/strategy/Gttoff_nobound.pdf used on input line
- 176.
+ 184.
 (pdftex.def)             Requested size: 197.72885pt x 134.95825pt.
 
-<figures/strategy/Gttoff_upbound.pdf, id=945, 569.12625pt x 388.45125pt>
+<figures/strategy/Gttoff_upbound.pdf, id=955, 569.12625pt x 388.45125pt>
 File: figures/strategy/Gttoff_upbound.pdf Graphic file (type pdf)
 
 <use figures/strategy/Gttoff_upbound.pdf>
 Package pdftex.def Info: figures/strategy/Gttoff_upbound.pdf used on input line
- 180.
+ 188.
 (pdftex.def)             Requested size: 197.72885pt x 134.95825pt.
- [33] [34 <./figures/strategy/2bs.pdf>] [35 <./figures/strategy/ttn1_nbjets.pdf
-, page is rotated 90 degrees> <./figures/strategy/ttn1_nbjets_Dm.pdf, page is r
-otated 90 degrees> <./figures/strategy/Gttoff_nobound.pdf, page is rotated 90 d
-egrees> <./figures/strategy/Gttoff_upbound.pdf, page is rotated 90 degrees>]
-<figures/strategy/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf, id=114
-7, 569.12625pt x 409.53pt>
+ [34 <./figures/strategy/2bs.pdf>]
+[35 <./figures/strategy/ttn1_nbjets.pdf, page is rotated 90 degrees> <./figures
+/strategy/ttn1_nbjets_Dm.pdf, page is rotated 90 degrees> <./figures/strategy/G
+ttoff_nobound.pdf, page is rotated 90 degrees> <./figures/strategy/Gttoff_upbou
+nd.pdf, page is rotated 90 degrees>]
+<figures/strategy/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf, id=115
+4, 569.12625pt x 409.53pt>
 File: figures/strategy/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf Gr
 aphic file (type pdf)
 
 <use figures/strategy/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/NBJET70_20_afterlepton_3LSS_0_physics
-__v47_343637.pdf used on input line 199.
+__v47_343637.pdf used on input line 207.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 
-<figures/strategy/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf, id=1148, 56
+<figures/strategy/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf, id=1155, 56
 9.12625pt x 409.53pt>
 File: figures/strategy/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf Graphic
  file (type pdf)
 
 <use figures/strategy/Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/Mll_afterlepton_3LSS1b_0_physics__v47
-_343637.pdf used on input line 199.
+_343637.pdf used on input line 207.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 
-<figures/strategy/MET_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1149, 569.12625p
+<figures/strategy/MET_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1156, 569.12625p
 t x 409.53pt>
 File: figures/strategy/MET_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (t
 ype pdf)
  <use figures/strategy/MET_Mee_3LSS1b_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/MET_Mee_3LSS1b_0_physics__v47_343637.
-pdf used on input line 200.
+pdf used on input line 208.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 
-<figures/strategy/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1150, 569.12625p
+<figures/strategy/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1157, 569.12625p
 t x 409.53pt>
 File: figures/strategy/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file (t
 ype pdf)
  <use figures/strategy/NEL_Mee_3LSS1b_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/NEL_Mee_3LSS1b_0_physics__v47_343637.
-pdf used on input line 207.
+pdf used on input line 215.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 
-<figures/strategy/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1151, 569.126
+<figures/strategy/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1158, 569.126
 25pt x 409.53pt>
 File: figures/strategy/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file
  (type pdf)
 
 <use figures/strategy/PTLEP1_Mee_3LSS1b_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/PTLEP1_Mee_3LSS1b_0_physics__v47_3436
-37.pdf used on input line 208.
+37.pdf used on input line 216.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 
-<figures/strategy/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1152, 569.126
+<figures/strategy/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1159, 569.126
 25pt x 409.53pt>
 File: figures/strategy/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file
  (type pdf)
 
 <use figures/strategy/PTLEP2_Mee_3LSS1b_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/PTLEP2_Mee_3LSS1b_0_physics__v47_3436
-37.pdf used on input line 209.
+37.pdf used on input line 217.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 
-<figures/strategy/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1153, 569.126
+<figures/strategy/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf, id=1160, 569.126
 25pt x 409.53pt>
 File: figures/strategy/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf Graphic file
  (type pdf)
 
 <use figures/strategy/PTLEP3_Mee_3LSS1b_0_physics__v47_343637.pdf>
 Package pdftex.def Info: figures/strategy/PTLEP3_Mee_3LSS1b_0_physics__v47_3436
-37.pdf used on input line 210.
+37.pdf used on input line 218.
 (pdftex.def)             Requested size: 185.3712pt x 133.38936pt.
 ) [36]
 [37 <./figures/strategy/NBJET70_20_afterlepton_3LSS_0_physics__v47_343637.pdf, 
@@ -1389,7 +1390,7 @@ Chapter 6.
 
 ] (./texfiles/sec.fake.proc.tex [40])
 (./texfiles/sec.fake.mct.tex [41] [42]
-<figures/fake/mct/MC-tmpl.png, id=1488, 785.93625pt x 345.08925pt>
+<figures/fake/mct/MC-tmpl.png, id=1496, 785.93625pt x 345.08925pt>
 File: figures/fake/mct/MC-tmpl.png Graphic file (type png)
 
 <use figures/fake/mct/MC-tmpl.png>
@@ -1397,7 +1398,7 @@ Package pdftex.def Info: figures/fake/mct/MC-tmpl.png used on input line 55.
 (pdftex.def)             Requested size: 288.3559pt x 126.61209pt.
  [43] [44 <./figures/fake/mct/MC-tmpl.png>]
 [45]
-<figures/fake/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=1506, 569.12625pt x 713.66
+<figures/fake/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf, id=1514, 569.12625pt x 713.66
 624pt>
 File: figures/fake/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf>
@@ -1405,7 +1406,7 @@ Package pdftex.def Info: figures/fake/mct/Prefit/el2_pt_ee_CR0b_SS3L.pdf used o
 n input line 108.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Prefit/NJETS_em_CR0b_SS3L.pdf, id=1507, 569.12625pt x 713.666
+<figures/fake/mct/Prefit/NJETS_em_CR0b_SS3L.pdf, id=1515, 569.12625pt x 713.666
 24pt>
 File: figures/fake/mct/Prefit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Prefit/NJETS_em_CR0b_SS3L.pdf>
@@ -1413,7 +1414,7 @@ Package pdftex.def Info: figures/fake/mct/Prefit/NJETS_em_CR0b_SS3L.pdf used on
  input line 109.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=1508, 569.12625pt x 713.66
+<figures/fake/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf, id=1516, 569.12625pt x 713.66
 624pt>
 File: figures/fake/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf>
@@ -1421,7 +1422,7 @@ Package pdftex.def Info: figures/fake/mct/Prefit/mu2_pt_mm_CR0b_SS3L.pdf used o
 n input line 110.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=1509, 569.12625pt x 713.6
+<figures/fake/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf, id=1517, 569.12625pt x 713.6
 6624pt>
 File: figures/fake/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf>
@@ -1429,7 +1430,7 @@ Package pdftex.def Info: figures/fake/mct/Postfit/el2_pt_ee_CR0b_SS3L.pdf used
 on input line 119.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Postfit/NJETS_em_CR0b_SS3L.pdf, id=1510, 569.12625pt x 713.66
+<figures/fake/mct/Postfit/NJETS_em_CR0b_SS3L.pdf, id=1518, 569.12625pt x 713.66
 624pt>
 File: figures/fake/mct/Postfit/NJETS_em_CR0b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Postfit/NJETS_em_CR0b_SS3L.pdf>
@@ -1437,7 +1438,7 @@ Package pdftex.def Info: figures/fake/mct/Postfit/NJETS_em_CR0b_SS3L.pdf used o
 n input line 120.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=1511, 569.12625pt x 713.6
+<figures/fake/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf, id=1519, 569.12625pt x 713.6
 6624pt>
 File: figures/fake/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf>
@@ -1445,7 +1446,7 @@ Package pdftex.def Info: figures/fake/mct/Postfit/mu2_pt_mm_CR0b_SS3L.pdf used
 on input line 121.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=1512, 569.12625pt x 713.66
+<figures/fake/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf, id=1520, 569.12625pt x 713.66
 624pt>
 File: figures/fake/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf>
@@ -1453,7 +1454,7 @@ Package pdftex.def Info: figures/fake/mct/Prefit/el2_pt_ee_CR1b_SS3L.pdf used o
 n input line 130.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Prefit/NJETS_em_CR1b_SS3L.pdf, id=1513, 569.12625pt x 713.666
+<figures/fake/mct/Prefit/NJETS_em_CR1b_SS3L.pdf, id=1521, 569.12625pt x 713.666
 24pt>
 File: figures/fake/mct/Prefit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Prefit/NJETS_em_CR1b_SS3L.pdf>
@@ -1461,7 +1462,7 @@ Package pdftex.def Info: figures/fake/mct/Prefit/NJETS_em_CR1b_SS3L.pdf used on
  input line 131.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=1514, 569.12625pt x 713.66
+<figures/fake/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf, id=1522, 569.12625pt x 713.66
 624pt>
 File: figures/fake/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf>
@@ -1469,7 +1470,7 @@ Package pdftex.def Info: figures/fake/mct/Prefit/mu2_pt_mm_CR1b_SS3L.pdf used o
 n input line 132.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=1515, 569.12625pt x 713.6
+<figures/fake/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf, id=1523, 569.12625pt x 713.6
 6624pt>
 File: figures/fake/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf>
@@ -1477,7 +1478,7 @@ Package pdftex.def Info: figures/fake/mct/Postfit/el2_pt_ee_CR1b_SS3L.pdf used
 on input line 141.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Postfit/NJETS_em_CR1b_SS3L.pdf, id=1516, 569.12625pt x 713.66
+<figures/fake/mct/Postfit/NJETS_em_CR1b_SS3L.pdf, id=1524, 569.12625pt x 713.66
 624pt>
 File: figures/fake/mct/Postfit/NJETS_em_CR1b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Postfit/NJETS_em_CR1b_SS3L.pdf>
@@ -1485,7 +1486,7 @@ Package pdftex.def Info: figures/fake/mct/Postfit/NJETS_em_CR1b_SS3L.pdf used o
 n input line 142.
 (pdftex.def)             Requested size: 131.82343pt x 165.30496pt.
 
-<figures/fake/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=1517, 569.12625pt x 713.6
+<figures/fake/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf, id=1525, 569.12625pt x 713.6
 6624pt>
 File: figures/fake/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf Graphic file (type pdf)
  <use figures/fake/mct/Postfit/mu2_pt_mm_CR1b_SS3L.pdf>
@@ -1517,21 +1518,21 @@ Chapter 7.
 (./texfiles/sec.bkg.overview.tex) (./texfiles/sec.bkg.irred.tex [58
 
 ]
-<figures/bkg/met_SR42.pdf, id=2136, 569.12625pt x 450.68375pt>
+<figures/bkg/met_SR42.pdf, id=2145, 569.12625pt x 450.68375pt>
 File: figures/bkg/met_SR42.pdf Graphic file (type pdf)
 
 <use figures/bkg/met_SR42.pdf>
 Package pdftex.def Info: figures/bkg/met_SR42.pdf used on input line 19.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/meff_SR42.pdf, id=2137, 569.12625pt x 450.68375pt>
+<figures/bkg/meff_SR42.pdf, id=2146, 569.12625pt x 450.68375pt>
 File: figures/bkg/meff_SR42.pdf Graphic file (type pdf)
 
 <use figures/bkg/meff_SR42.pdf>
 Package pdftex.def Info: figures/bkg/meff_SR42.pdf used on input line 22.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/deltaR_lep1lep2_SR42.pdf, id=2138, 569.12625pt x 450.68375pt>
+<figures/bkg/deltaR_lep1lep2_SR42.pdf, id=2147, 569.12625pt x 450.68375pt>
 File: figures/bkg/deltaR_lep1lep2_SR42.pdf Graphic file (type pdf)
 
 <use figures/bkg/deltaR_lep1lep2_SR42.pdf>
@@ -1541,21 +1542,21 @@ e 25.
  [59 <./figures/bkg/met_SR42.pdf, page is rotated 90 degrees> <./figures/bkg/me
 ff_SR42.pdf, page is rotated 90 degrees> <./figures/bkg/deltaR_lep1lep2_SR42.pd
 f, page is rotated 90 degrees>]
-<figures/bkg/nJets25_SR32.pdf, id=2276, 569.12625pt x 450.68375pt>
+<figures/bkg/nJets25_SR32.pdf, id=2284, 569.12625pt x 450.68375pt>
 File: figures/bkg/nJets25_SR32.pdf Graphic file (type pdf)
 
 <use figures/bkg/nJets25_SR32.pdf>
 Package pdftex.def Info: figures/bkg/nJets25_SR32.pdf used on input line 42.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/meff_SR32.pdf, id=2277, 569.12625pt x 450.68375pt>
+<figures/bkg/meff_SR32.pdf, id=2285, 569.12625pt x 450.68375pt>
 File: figures/bkg/meff_SR32.pdf Graphic file (type pdf)
 
 <use figures/bkg/meff_SR32.pdf>
 Package pdftex.def Info: figures/bkg/meff_SR32.pdf used on input line 45.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/metOverpTallLep_signal_SR32.pdf, id=2278, 569.12625pt x 450.68375p
+<figures/bkg/metOverpTallLep_signal_SR32.pdf, id=2286, 569.12625pt x 450.68375p
 t>
 File: figures/bkg/metOverpTallLep_signal_SR32.pdf Graphic file (type pdf)
  <use figures/bkg/metOverpTallLep_signal_SR32.pdf>
@@ -1565,21 +1566,21 @@ put line 48.
  [60 <./figures/bkg/nJets25_SR32.pdf, page is rotated 90 degrees> <./figures/bk
 g/meff_SR32.pdf, page is rotated 90 degrees> <./figures/bkg/metOverpTallLep_sig
 nal_SR32.pdf, page is rotated 90 degrees>]
-<figures/bkg/nJets40_SR2.pdf, id=2418, 569.12625pt x 450.68375pt>
+<figures/bkg/nJets40_SR2.pdf, id=2426, 569.12625pt x 450.68375pt>
 File: figures/bkg/nJets40_SR2.pdf Graphic file (type pdf)
 
 <use figures/bkg/nJets40_SR2.pdf>
 Package pdftex.def Info: figures/bkg/nJets40_SR2.pdf used on input line 68.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/meff_SR2.pdf, id=2419, 569.12625pt x 450.68375pt>
+<figures/bkg/meff_SR2.pdf, id=2427, 569.12625pt x 450.68375pt>
 File: figures/bkg/meff_SR2.pdf Graphic file (type pdf)
 
 <use figures/bkg/meff_SR2.pdf>
 Package pdftex.def Info: figures/bkg/meff_SR2.pdf used on input line 71.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/pTallBJets_over_pTallJets_SR2.pdf, id=2420, 569.12625pt x 450.6837
+<figures/bkg/pTallBJets_over_pTallJets_SR2.pdf, id=2428, 569.12625pt x 450.6837
 5pt>
 File: figures/bkg/pTallBJets_over_pTallJets_SR2.pdf Graphic file (type pdf)
  <use figures/bkg/pTallBJets_over_pTallJets_SR2.pdf>
@@ -1587,21 +1588,21 @@ Package pdftex.def Info: figures/bkg/pTallBJets_over_pTallJets_SR2.pdf used on
 input line 74.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
  [61]
-<figures/bkg/mSFOS_SR12.pdf, id=2431, 569.12625pt x 450.68375pt>
+<figures/bkg/mSFOS_SR12.pdf, id=2439, 569.12625pt x 450.68375pt>
 File: figures/bkg/mSFOS_SR12.pdf Graphic file (type pdf)
 
 <use figures/bkg/mSFOS_SR12.pdf>
 Package pdftex.def Info: figures/bkg/mSFOS_SR12.pdf used on input line 88.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/meff_SR12.pdf, id=2432, 569.12625pt x 450.68375pt>
+<figures/bkg/meff_SR12.pdf, id=2440, 569.12625pt x 450.68375pt>
 File: figures/bkg/meff_SR12.pdf Graphic file (type pdf)
 
 <use figures/bkg/meff_SR12.pdf>
 Package pdftex.def Info: figures/bkg/meff_SR12.pdf used on input line 91.
 (pdftex.def)             Requested size: 131.82343pt x 104.3909pt.
 
-<figures/bkg/nBJets20_SR13.pdf, id=2433, 569.12625pt x 450.68375pt>
+<figures/bkg/nBJets20_SR13.pdf, id=2441, 569.12625pt x 450.68375pt>
 File: figures/bkg/nBJets20_SR13.pdf Graphic file (type pdf)
 
 <use figures/bkg/nBJets20_SR13.pdf>
@@ -1617,7 +1618,7 @@ ets_SR2.pdf, page is rotated 90 degrees> <./figures/bkg/mSFOS_SR12.pdf, page is
  rotated 90 degrees> <./figures/bkg/meff_SR12.pdf, page is rotated 90 degrees> 
 <./figures/bkg/nBJets20_SR13.pdf, page is rotated 90 degrees>])
 (./texfiles/sec.bkg.red.tex (./texfiles/subsec.bkg.chargeflip.tex [63] [64]
-<figures/bkg/Data_vs_MC_Pass_EL.pdf, id=2712, 569.12625pt x 385.44pt>
+<figures/bkg/Data_vs_MC_Pass_EL.pdf, id=2720, 569.12625pt x 385.44pt>
 File: figures/bkg/Data_vs_MC_Pass_EL.pdf Graphic file (type pdf)
 
 <use figures/bkg/Data_vs_MC_Pass_EL.pdf>
@@ -1625,7 +1626,7 @@ Package pdftex.def Info: figures/bkg/Data_vs_MC_Pass_EL.pdf used on input line
 49.
 (pdftex.def)             Requested size: 185.3712pt x 125.54294pt.
 
-<figures/bkg/Data_vs_MC_Fail_EL.pdf, id=2713, 569.12625pt x 385.44pt>
+<figures/bkg/Data_vs_MC_Fail_EL.pdf, id=2721, 569.12625pt x 385.44pt>
 File: figures/bkg/Data_vs_MC_Fail_EL.pdf Graphic file (type pdf)
 
 <use figures/bkg/Data_vs_MC_Fail_EL.pdf>
@@ -1634,7 +1635,7 @@ Package pdftex.def Info: figures/bkg/Data_vs_MC_Fail_EL.pdf used on input line
 (pdftex.def)             Requested size: 185.3712pt x 125.54294pt.
  [65] [66 <./figures/bkg/Data_vs_MC_Pass_EL.pdf, page is rotated 90 degrees> <.
 /figures/bkg/Data_vs_MC_Fail_EL.pdf, page is rotated 90 degrees>]
-<figures/bkg/CFratesVSpt_data15.pdf, id=2818, 569.12625pt x 408.52625pt>
+<figures/bkg/CFratesVSpt_data15.pdf, id=2826, 569.12625pt x 408.52625pt>
 File: figures/bkg/CFratesVSpt_data15.pdf Graphic file (type pdf)
 
 <use figures/bkg/CFratesVSpt_data15.pdf>
@@ -1642,7 +1643,7 @@ Package pdftex.def Info: figures/bkg/CFratesVSpt_data15.pdf used on input line
 113.
 (pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
 
-<figures/bkg/CFratesVSpt_MC15.pdf, id=2819, 569.12625pt x 408.52625pt>
+<figures/bkg/CFratesVSpt_MC15.pdf, id=2827, 569.12625pt x 408.52625pt>
 File: figures/bkg/CFratesVSpt_MC15.pdf Graphic file (type pdf)
 
 <use figures/bkg/CFratesVSpt_MC15.pdf>
@@ -1650,7 +1651,7 @@ Package pdftex.def Info: figures/bkg/CFratesVSpt_MC15.pdf used on input line 11
 7.
 (pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
 
-<figures/bkg/CFratesLOOSEVSpt_data15.pdf, id=2820, 569.12625pt x 408.52625pt>
+<figures/bkg/CFratesLOOSEVSpt_data15.pdf, id=2828, 569.12625pt x 408.52625pt>
 File: figures/bkg/CFratesLOOSEVSpt_data15.pdf Graphic file (type pdf)
 
 <use figures/bkg/CFratesLOOSEVSpt_data15.pdf>
@@ -1658,7 +1659,7 @@ Package pdftex.def Info: figures/bkg/CFratesLOOSEVSpt_data15.pdf used on input
 line 121.
 (pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
 
-<figures/bkg/CFratesLOOSEVSpt_MC15.pdf, id=2821, 569.12625pt x 408.52625pt>
+<figures/bkg/CFratesLOOSEVSpt_MC15.pdf, id=2829, 569.12625pt x 408.52625pt>
 File: figures/bkg/CFratesLOOSEVSpt_MC15.pdf Graphic file (type pdf)
 
 <use figures/bkg/CFratesLOOSEVSpt_MC15.pdf>
@@ -1666,7 +1667,7 @@ Package pdftex.def Info: figures/bkg/CFratesLOOSEVSpt_MC15.pdf used on input li
 ne 125.
 (pdftex.def)             Requested size: 185.3712pt x 133.06244pt.
 
-<figures/bkg/ETA_SS_BDTEL.pdf, id=2828, 569.12625pt x 385.44pt>
+<figures/bkg/ETA_SS_BDTEL.pdf, id=2836, 569.12625pt x 385.44pt>
 File: figures/bkg/ETA_SS_BDTEL.pdf Graphic file (type pdf)
 
 <use figures/bkg/ETA_SS_BDTEL.pdf>
@@ -1676,7 +1677,7 @@ Package pdftex.def Info: figures/bkg/ETA_SS_BDTEL.pdf used on input line 143.
 /figures/bkg/CFratesVSpt_MC15.pdf, page is rotated 90 degrees> <./figures/bkg/C
 FratesLOOSEVSpt_data15.pdf, page is rotated 90 degrees> <./figures/bkg/CFratesL
 OOSEVSpt_MC15.pdf, page is rotated 90 degrees>]
-<figures/bkg/Closure_HardestElectronPt.pdf, id=3018, 569.12625pt x 385.44pt>
+<figures/bkg/Closure_HardestElectronPt.pdf, id=3026, 569.12625pt x 385.44pt>
 File: figures/bkg/Closure_HardestElectronPt.pdf Graphic file (type pdf)
 
 <use figures/bkg/Closure_HardestElectronPt.pdf>
@@ -1684,7 +1685,7 @@ Package pdftex.def Info: figures/bkg/Closure_HardestElectronPt.pdf used on inpu
 t line 162.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/Closure_SoftestElectronPt.pdf, id=3019, 569.12625pt x 385.44pt>
+<figures/bkg/Closure_SoftestElectronPt.pdf, id=3027, 569.12625pt x 385.44pt>
 File: figures/bkg/Closure_SoftestElectronPt.pdf Graphic file (type pdf)
 
 <use figures/bkg/Closure_SoftestElectronPt.pdf>
@@ -1692,7 +1693,7 @@ Package pdftex.def Info: figures/bkg/Closure_SoftestElectronPt.pdf used on inpu
 t line 163.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/Closure_EMU_ElectronPt.pdf, id=3020, 569.12625pt x 385.44pt>
+<figures/bkg/Closure_EMU_ElectronPt.pdf, id=3028, 569.12625pt x 385.44pt>
 File: figures/bkg/Closure_EMU_ElectronPt.pdf Graphic file (type pdf)
 
 <use figures/bkg/Closure_EMU_ElectronPt.pdf>
@@ -1700,7 +1701,7 @@ Package pdftex.def Info: figures/bkg/Closure_EMU_ElectronPt.pdf used on input l
 ine 164.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/2D_histo_SYS_TOTAL.pdf, id=3021, 569.12625pt x 327.2225pt>
+<figures/bkg/2D_histo_SYS_TOTAL.pdf, id=3029, 569.12625pt x 327.2225pt>
 File: figures/bkg/2D_histo_SYS_TOTAL.pdf Graphic file (type pdf)
 
 <use figures/bkg/2D_histo_SYS_TOTAL.pdf>
@@ -1708,7 +1709,7 @@ Package pdftex.def Info: figures/bkg/2D_histo_SYS_TOTAL.pdf used on input line
 182.
 (pdftex.def)             Requested size: 205.96939pt x 118.42413pt.
 
-<figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf, id=3022, 569.12625pt x 327.2225pt>
+<figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf, id=3030, 569.12625pt x 327.2225pt>
 File: figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf Graphic file (type pdf)
 
 <use figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf>
@@ -1726,7 +1727,7 @@ s/bkg/Closure_HardestElectronPt.pdf, page is rotated 90 degrees> <./figures/bkg
 ure_EMU_ElectronPt.pdf, page is rotated 90 degrees>])
 (./texfiles/subsec.bkg.mxm.tex [71 <./figures/bkg/2D_histo_SYS_TOTAL.pdf, page 
 is rotated 90 degrees> <./figures/bkg/2D_histo_SYS_TOTAL_LOOSE.pdf>]
-<figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf, id=3502, 569.12625pt x 385.
+<figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf, id=3510, 569.12625pt x 385.
 44pt>
 File: figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf Graphic file (type pdf)
 
@@ -1735,7 +1736,7 @@ Package pdftex.def Info: figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf used
  on input line 28.
 (pdftex.def)             Requested size: 205.96939pt x 139.49345pt.
 
-<figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf, id=3503, 569.12625pt x 385.44pt
+<figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf, id=3511, 569.12625pt x 385.44pt
 >
 File: figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf Graphic file (type pdf)
  <use figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf>
@@ -1750,7 +1751,7 @@ Overfull \hbox (24.00002pt too wide) in paragraph at lines 27--36
 [72] [73 <./figures/bkg/INCLUSIVETAG_PROBE_PT_MUON_SIGNAL.pdf, page is rotated 
 90 degrees> <./figures/bkg/IDEALTAG_PROBE_PT_MUON_SIGNAL.pdf, page is rotated 9
 0 degrees>]
-<figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf, id=3602, 569.12625pt x 385.44pt>
+<figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf, id=3610, 569.12625pt x 385.44pt>
 File: figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf Graphic file (type pdf)
 
 <use figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf>
@@ -1758,7 +1759,7 @@ Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf used on input
  line 75.
 (pdftex.def)             Requested size: 205.96939pt x 139.49345pt.
 
-<figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf, id=3603, 569.12625pt x 385.44pt
+<figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf, id=3611, 569.12625pt x 385.44pt
 >
 File: figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf Graphic file (type pdf)
  <use figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf>
@@ -1778,7 +1779,7 @@ Overfull \hbox (1.09721pt too wide) in paragraph at lines 115--115
 [75 <./figures/bkg/TTBAR.Incl.FakeRate.Muon.pdf, page is rotated 90 degrees> <.
 /figures/bkg/TTBAR.Incl.FakeRateVsEta.Muon.pdf, page is rotated 90 degrees>]
 [76]
-<figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf, id=3717, 569.12625pt x 385.44p
+<figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf, id=3725, 569.12625pt x 385.44p
 t>
 File: figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf Graphic file (type pdf)
  <use figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf>
@@ -1786,7 +1787,7 @@ Package pdftex.def Info: figures/bkg/TTBAR.BjetImpact.FakeRate.Muon.pdf used on
  input line 200.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf, id=3718, 569.12625pt x 3
+<figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf, id=3726, 569.12625pt x 3
 85.44pt>
 File: figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf Graphic file (type p
 df)
@@ -1795,7 +1796,7 @@ Package pdftex.def Info: figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf u
 sed on input line 216.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf, id=3719, 569.12625pt
+<figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf, id=3727, 569.12625pt
  x 385.44pt>
 File: figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf Graphic file (ty
 pe pdf)
@@ -1808,14 +1809,14 @@ df used on input line 217.
 es>] [78 <./figures/bkg/IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL.pdf, page is rotat
 ed 90 degrees> <./figures/bkg/TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL.pdf, pag
 e is rotated 90 degrees>]
-<figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf, id=3862, 569.12625pt x 385.44pt>
+<figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf, id=3870, 569.12625pt x 385.44pt>
 File: figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf Graphic file (type pdf)
 <use figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf>
 Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf used on i
 nput line 259.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf, id=3863, 569.12625pt x 385.
+<figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf, id=3871, 569.12625pt x 385.
 44pt>
 File: figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf Graphic file (type pdf)
 
@@ -1831,7 +1832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--307
 [80 <./figures/bkg/TTBAR.Incl.FakeRate.Electron.pdf, page is rotated 90 degrees
 > <./figures/bkg/TTBAR.Incl.FakeRateVsEta.Electron.pdf, page is rotated 90 degr
 ees>]
-<figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf, id=3963, 569.12625pt x
+<figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf, id=3971, 569.12625pt x
  385.44pt>
 File: figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf Graphic file (type
  pdf)
@@ -1840,7 +1841,7 @@ Package pdftex.def Info: figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf
  used on input line 327.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf, id=3964, 569.12625pt x 385
+<figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf, id=3972, 569.12625pt x 385
 .44pt>
 File: figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf Graphic file (type pdf
 )
@@ -1863,7 +1864,7 @@ Package pdftex.def Info: figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf use
 d on input line 342.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
  [81]
-<figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf, id=3971, 569.12625pt
+<figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf, id=3979, 569.12625pt
  x 547.04375pt>
 File: figures/bkg/baseline_and_signal_mll_distribution_Mee.pdf Graphic file (ty
 pe pdf)
@@ -1872,7 +1873,7 @@ Package pdftex.def Info: figures/bkg/baseline_and_signal_mll_distribution_Mee.p
 df used on input line 371.
 (pdftex.def)             Requested size: 185.3712pt x 178.17943pt.
 
-<figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf, id=3972, 569.12625
+<figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf, id=3980, 569.12625
 pt x 547.04375pt>
 File: figures/bkg/baseline_and_signal_mll_distribution_Mmumu.pdf Graphic file (
 type pdf)
@@ -1884,7 +1885,7 @@ Package pdftex.def Info: figures/bkg/baseline_and_signal_mll_distribution_Mmumu
  [82 <./figures/bkg/TTBAR.Incl.FakeRate.PerSource.Electron.pdf, page is rotated
  90 degrees> <./figures/bkg/TTBAR.BjetImpact.FakeRate.Electron.pdf, page is rot
 ated 90 degrees>]
-<figures/bkg/real_electron_efficiency_total_systematics.pdf, id=4067, 569.12625
+<figures/bkg/real_electron_efficiency_total_systematics.pdf, id=4075, 569.12625
 pt x 547.04375pt>
 File: figures/bkg/real_electron_efficiency_total_systematics.pdf Graphic file (
 type pdf)
@@ -1894,7 +1895,7 @@ Package pdftex.def Info: figures/bkg/real_electron_efficiency_total_systematics
 .pdf used on input line 392.
 (pdftex.def)             Requested size: 201.85226pt x 194.02242pt.
 
-<figures/bkg/real_muon_efficiency_total_systematics.pdf, id=4068, 569.12625pt x
+<figures/bkg/real_muon_efficiency_total_systematics.pdf, id=4076, 569.12625pt x
  547.04375pt>
 File: figures/bkg/real_muon_efficiency_total_systematics.pdf Graphic file (type
  pdf)
@@ -1909,14 +1910,14 @@ ge is rotated 90 degrees>] [84 <./figures/bkg/real_electron_efficiency_total_sy
 stematics.pdf, page is rotated 90 degrees> <./figures/bkg/real_muon_efficiency_
 total_systematics.pdf, page is rotated 90 degrees>])
 (./texfiles/subsec.bkg.mct.tex [85] [86]) (./texfiles/subsec.bkg.val.tex
-[87] <figures/bkg/ALL_MET50.pdf, id=4285, 569.12625pt x 385.44pt>
+[87] <figures/bkg/ALL_MET50.pdf, id=4293, 569.12625pt x 385.44pt>
 File: figures/bkg/ALL_MET50.pdf Graphic file (type pdf)
 
 <use figures/bkg/ALL_MET50.pdf>
 Package pdftex.def Info: figures/bkg/ALL_MET50.pdf used on input line 30.
 (pdftex.def)             Requested size: 329.55229pt x 223.1966pt.
 
-<figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf, id=4286, 569.12625pt x 385.44pt>
+<figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf, id=4294, 569.12625pt x 385.44pt>
 File: figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf>
@@ -1924,7 +1925,7 @@ Package pdftex.def Info: figures/bkg/PAPER_DILEP_2JMET50_njets25.pdf used on in
 put line 43.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf, id=4287, 569.12625pt x 385.44pt>
+<figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf, id=4295, 569.12625pt x 385.44pt>
 File: figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf>
@@ -1932,7 +1933,7 @@ Package pdftex.def Info: figures/bkg/PAPER_DILEP_2JMET50_nbjets.pdf used on inp
 ut line 44.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/PAPER_DILEP_2JMET50_meff.pdf, id=4288, 569.12625pt x 385.44pt>
+<figures/bkg/PAPER_DILEP_2JMET50_meff.pdf, id=4296, 569.12625pt x 385.44pt>
 File: figures/bkg/PAPER_DILEP_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/bkg/PAPER_DILEP_2JMET50_meff.pdf>
@@ -1940,7 +1941,7 @@ Package pdftex.def Info: figures/bkg/PAPER_DILEP_2JMET50_meff.pdf used on input
  line 45.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf, id=4289, 569.12625pt x 385.44pt>
+<figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf, id=4297, 569.12625pt x 385.44pt>
 File: figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf>
@@ -1948,7 +1949,7 @@ Package pdftex.def Info: figures/bkg/PAPER_TRILEP_2JMET50_meff.pdf used on inpu
 t line 46.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf, id=4292, 569.12625pt x
+<figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf, id=4300, 569.12625pt x
  388.45125pt>
 File: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf Graphic file (type
  pdf)
@@ -1957,7 +1958,7 @@ Package pdftex.def Info: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_template.pdf
  used on input line 74.
 (pdftex.def)             Requested size: 201.85226pt x 137.77371pt.
 
-<figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf, id=4293, 569.12625pt x 3
+<figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf, id=4301, 569.12625pt x 3
 85.44pt>
 File: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf Graphic file (type p
 df)
@@ -1966,21 +1967,21 @@ Package pdftex.def Info: figures/bkg/PAPER_DILEP_1B2JMET50_njets25_matrix.pdf u
 sed on input line 75.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/LooseRpc2L0bH.pdf, id=4298, 569.12625pt x 385.44pt>
+<figures/bkg/LooseRpc2L0bH.pdf, id=4306, 569.12625pt x 385.44pt>
 File: figures/bkg/LooseRpc2L0bH.pdf Graphic file (type pdf)
 
 <use figures/bkg/LooseRpc2L0bH.pdf>
 Package pdftex.def Info: figures/bkg/LooseRpc2L0bH.pdf used on input line 89.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/LooseRpc2L1bH.pdf, id=4299, 569.12625pt x 385.44pt>
+<figures/bkg/LooseRpc2L1bH.pdf, id=4307, 569.12625pt x 385.44pt>
 File: figures/bkg/LooseRpc2L1bH.pdf Graphic file (type pdf)
 
 <use figures/bkg/LooseRpc2L1bH.pdf>
 Package pdftex.def Info: figures/bkg/LooseRpc2L1bH.pdf used on input line 90.
 (pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
 
-<figures/bkg/MET_comb_SR0b2mMET_SS3L.pdf, id=4300, 569.12625pt x 713.66624pt>
+<figures/bkg/MET_comb_SR0b2mMET_SS3L.pdf, id=4308, 569.12625pt x 713.66624pt>
 File: figures/bkg/MET_comb_SR0b2mMET_SS3L.pdf Graphic file (type pdf)
 
 <use figures/bkg/MET_comb_SR0b2mMET_SS3L.pdf>
@@ -1988,7 +1989,7 @@ Package pdftex.def Info: figures/bkg/MET_comb_SR0b2mMET_SS3L.pdf used on input
 line 91.
 (pdftex.def)             Requested size: 201.85226pt x 253.11916pt.
 
-<figures/bkg/MET_comb_SR1b2mMET_SS3L.pdf, id=4301, 569.12625pt x 713.66624pt>
+<figures/bkg/MET_comb_SR1b2mMET_SS3L.pdf, id=4309, 569.12625pt x 713.66624pt>
 File: figures/bkg/MET_comb_SR1b2mMET_SS3L.pdf Graphic file (type pdf)
 
 <use figures/bkg/MET_comb_SR1b2mMET_SS3L.pdf>
@@ -2015,11 +2016,7 @@ Chapter 8.
 (./texfiles/sec.syst.overview.tex) (./texfiles/sec.syst.theory.tex [101
 
 ]
-[102]
-
-LaTeX Warning: Text page 103 contains only floats.
-
-[103]) (./texfiles/sec.syst.exp.tex [104] [105] [106]) [107]
+[102] [103]) (./texfiles/sec.syst.exp.tex [104] [105] [106]) [107]
 Chapter 9.
 (./texfiles/chap.stat.tex) [108
 
@@ -2039,21 +2036,21 @@ Appendix A.
 ]
 Appendix B.
 (./texfiles/app.bkg.dist.tex
-<figures/app/EE_2JMET50_meff.pdf, id=4914, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_meff.pdf, id=4922, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_meff.pdf>
 Package pdftex.def Info: figures/app/EE_2JMET50_meff.pdf used on input line 5.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_met.pdf, id=4915, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_met.pdf, id=4923, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_met.pdf>
 Package pdftex.def Info: figures/app/EE_2JMET50_met.pdf used on input line 9.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_njets25.pdf, id=4916, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_njets25.pdf, id=4924, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_njets25.pdf>
@@ -2061,7 +2058,7 @@ Package pdftex.def Info: figures/app/EE_2JMET50_njets25.pdf used on input line
 13.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_nbjets.pdf, id=4917, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_nbjets.pdf, id=4925, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_nbjets.pdf>
@@ -2069,7 +2066,7 @@ Package pdftex.def Info: figures/app/EE_2JMET50_nbjets.pdf used on input line 1
 7.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_subSS_Pt.pdf, id=4918, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_subSS_Pt.pdf, id=4926, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_subSS_Pt.pdf>
@@ -2080,7 +2077,7 @@ Package pdftex.def Info: figures/app/EE_2JMET50_subSS_Pt.pdf used on input line
 
 LaTeX Warning: Float too large for page by 8.987pt on input line 31.
 
-<figures/app/EM_2JMET50_meff.pdf, id=4919, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_meff.pdf, id=4927, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_meff.pdf>
@@ -2088,14 +2085,14 @@ Package pdftex.def Info: figures/app/EM_2JMET50_meff.pdf used on input line 36.
 
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_met.pdf, id=4920, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_met.pdf, id=4928, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_met.pdf>
 Package pdftex.def Info: figures/app/EM_2JMET50_met.pdf used on input line 40.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_njets25.pdf, id=4921, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_njets25.pdf, id=4929, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_njets25.pdf>
@@ -2103,7 +2100,7 @@ Package pdftex.def Info: figures/app/EM_2JMET50_njets25.pdf used on input line
 44.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_nbjets.pdf, id=4922, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_nbjets.pdf, id=4930, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_nbjets.pdf>
@@ -2111,7 +2108,7 @@ Package pdftex.def Info: figures/app/EM_2JMET50_nbjets.pdf used on input line 4
 8.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_subSS_Pt.pdf, id=4923, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_subSS_Pt.pdf, id=4931, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_subSS_Pt.pdf>
@@ -2122,7 +2119,7 @@ Package pdftex.def Info: figures/app/EM_2JMET50_subSS_Pt.pdf used on input line
 
 LaTeX Warning: Float too large for page by 8.987pt on input line 62.
 
-<figures/app/MM_2JMET50_meff.pdf, id=4924, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_meff.pdf, id=4932, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_meff.pdf>
@@ -2130,14 +2127,14 @@ Package pdftex.def Info: figures/app/MM_2JMET50_meff.pdf used on input line 67.
 
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_met.pdf, id=4925, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_met.pdf, id=4933, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_met.pdf>
 Package pdftex.def Info: figures/app/MM_2JMET50_met.pdf used on input line 71.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_njets25.pdf, id=4926, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_njets25.pdf, id=4934, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_njets25.pdf>
@@ -2145,7 +2142,7 @@ Package pdftex.def Info: figures/app/MM_2JMET50_njets25.pdf used on input line
 75.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_nbjets.pdf, id=4927, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_nbjets.pdf, id=4935, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_nbjets.pdf>
@@ -2153,7 +2150,7 @@ Package pdftex.def Info: figures/app/MM_2JMET50_nbjets.pdf used on input line 7
 9.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_subSS_Pt.pdf, id=4928, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_subSS_Pt.pdf, id=4936, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_subSS_Pt.pdf>
@@ -2164,7 +2161,7 @@ Package pdftex.def Info: figures/app/MM_2JMET50_subSS_Pt.pdf used on input line
 
 LaTeX Warning: Float too large for page by 8.987pt on input line 93.
 
-<figures/app/TRILEP_2JMET50_meff.pdf, id=4929, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_meff.pdf, id=4937, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_meff.pdf>
@@ -2172,7 +2169,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_meff.pdf used on input line
  98.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_met.pdf, id=4930, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_met.pdf, id=4938, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_met.pdf>
@@ -2180,7 +2177,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_met.pdf used on input line
 102.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_njets25.pdf, id=4931, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_njets25.pdf, id=4939, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_njets25.pdf>
@@ -2188,7 +2185,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_njets25.pdf used on input l
 ine 106.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_nbjets.pdf, id=4932, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_nbjets.pdf, id=4940, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_nbjets.pdf>
@@ -2196,7 +2193,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_nbjets.pdf used on input li
 ne 110.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_subSS_Pt.pdf, id=4933, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_subSS_Pt.pdf, id=4941, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_subSS_Pt.pdf>
@@ -2248,10 +2245,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
  ) 
 Here is how much of TeX's memory you used:
- 28097 strings out of 493109
- 551898 string characters out of 6133666
- 805764 words of memory out of 5000000
- 30377 multiletter control sequences out of 15000+600000
+ 28100 strings out of 493109
+ 551934 string characters out of 6133666
+ 803623 words of memory out of 5000000
+ 30378 multiletter control sequences out of 15000+600000
  19975 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,75p,2056b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2265,21 +2262,23 @@ cmbx8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsfonts/cm
 ts/cm/cmmi10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmmi12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmmi6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (128 pages, 2478584 bytes).
+msfonts/cm/cmmi7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy6.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (128 pages, 2493743 bytes).
 PDF statistics:
- 6072 PDF objects out of 6186 (max. 8388607)
- 3309 compressed objects within 34 object streams
- 332 named destinations out of 1000 (max. 500000)
+ 6086 PDF objects out of 6186 (max. 8388607)
+ 3321 compressed objects within 34 object streams
+ 334 named destinations out of 1000 (max. 500000)
  20034 words of extra memory for PDF output out of 20736 (max. 10000000)
 
