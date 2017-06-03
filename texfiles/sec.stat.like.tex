@@ -1,0 +1,98 @@
+The likelihood for a set of parameters $\left(\mu,  \vect{\theta}\right)$
+given all the data that might have been observed  $\vect{X}$ is the probability 
+of observing the data given the parameters
+
+\begin{equation}
+\mathcal{L} \left( \mu, \vect{\theta} \rvert \vect{X} \right) = 
+\Pr\left(\vect{X} \rvert \mu, \vect{\theta} \right).
+\end{equation}
+
+The data $\vect{X}$ includes observation in the signal regions as well as 
+other auxilary experiments such as control regions used to constain 
+backgrounds. 
+In this analysis, hypothesis tests are performed on one signal region 
+at the time, single-binned, and without control regions. 
+As a result, the observed data $\vect{X}$ has one-dimensional component 
+with value $X$ representing the count of events in the signal region.
+The first parameter of interest represents the `strength' of 
+the signal process $\mu > 0$ that will increase the number of 
+expected events in the signal region given that the signal of the new physics 
+model tested is present. In practice, the signal strength $\mu$ is used to 
+scale the nominal expected cross section for the signal process, or the
+number of expected signal events $s$. 
+Thus, the predicted background will be of the form $\mu s + \sum_i b_i$ where 
+$b_i$ represents the standard model background processes expected to 
+contribute to the signal region. 
+The parameter $\vect{\theta}$ refers to 
+the nuisance parameters used to parametrize the systematic uncertainties
+(luminosity, JES, JER, etc.)
+\footnote{The parameters represented by $\vect{\theta}$ are called nuisance 
+parameters since the aim is not to set a limit on them.}.
+Thus, the likelihood is built as the product of a Poisson probability density 
+function describing the observed number of events in the signal 
+region and Gaussian distributions for each of the sources of systematic 
+uncertainties.
+The likelihood takes the simple form
+\begin{equation}
+\Pr\left(X \rvert \mu, \vect{\theta} \right) = 
+\mathcal{P} \left(X~\rvert~\mu s\left(\vect{\theta}\right)
++ \sum_j b_j\left(\vect{\theta}\right)\right)
+\times  
+\prod_{j}  \mathcal{G}_j \left(\theta_{j}\right)
+\end{equation}
+where $\mathcal{P} \left(X~\rvert \nu\right) = e^{-\nu}\nu^X/X!$ is 
+the Poisson probablity density function and  
+$\mathcal{G} \left(X~\rvert \nu\right)  = $
+
+
+%Poisson distributions are used instead for MC simulation statistical 
+%uncertainties. Correlations of a given nuisance parameter between the 
+%backgrounds and the signal are taken into account when relevant. 
+ in order to constrain their nuisance parameters.
+
+
+
+
+
+
+\begin{equation}
+q_{\mu} = 
+\begin{cases}
+  -2\ln\left(
+  \frac
+      {\mathcal{L} \left( \mu, \hat{\hat{\vect{\theta}}} \rvert \vect{X} \right)}
+      {\mathcal{L} \left( \hat{\mu}, \hat{\vect{\theta}} \rvert \vect{X} \right)}
+ \right), & \text{if}\ \mu > \hat{\mu} \\
+      0, & \text{otherwise}
+    \end{cases}
+\end{equation}
+
+
+\begin{equation}
+p_{\mu} = \int_{q_{\mu}^{\left(\text{obs}\right)}}^{\infty} f\left(q_{\mu} \rvert \mu\right) \diff q_{\mu}
+\end{equation}
+
+
+\begin{equation}
+  CL_\mathrm{s+b}  = \Pr\left( q_{\mu} \geq q_{\mu}^{\left(\text{obs}\right)}
+  \rvert \mu
+  \right) < \alpha
+\end{equation}
+
+
+\begin{equation}
+  CL_\mathrm{s}  = \frac
+  {\Pr\left( q_{\mu} \geq q_{\mu}^{\left(\text{obs}\right)}\rvert \mu \right)}
+  {\Pr\left( q_{\mu} \geq q_{\mu}^{\left(\text{obs}\right)}\rvert \mu = 0 \right)}
+< \alpha
+\end{equation}
+
+
+\begin{equation}
+  q_{\mu} = 
+  \begin{cases}
+    \frac{\left(\mu - \hat{\mu}\right)^2}{\sigma^2} + \mathcal{O}\left(\frac{1}{\sqrt{N}}\right)
+    , & \text{if}\ \mu > \hat{\mu} \\
+    0, & \text{otherwise}
+  \end{cases}
+\end{equation}
