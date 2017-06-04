@@ -36,21 +36,27 @@ The likelihood takes the simple form
 \begin{equation}
 \Pr\left(X \rvert \mu, \vect{\theta} \right) = 
 \mathcal{P} \left(X~\rvert~\mu s\left(\vect{\theta}\right)
-+ \sum_j b_j\left(\vect{\theta}\right)\right)
++ \sum_i b_i\left(\vect{\theta}\right)
++ \sum_j \theta_{j}^{\left(0\right)}
+\right)
 \times  
-\prod_{j}  \mathcal{G}_j \left(\theta_{j}\right)
+\prod_{j}  \mathcal{G} \left(\theta_{j}\right)
 \end{equation}
-where $\mathcal{P} \left(X~\rvert \nu\right) = e^{-\nu}\nu^X/X!$ is 
-the Poisson probablity density function and  
-$\mathcal{G} \left(X~\rvert \nu\right)  = $
-
-
-%Poisson distributions are used instead for MC simulation statistical 
-%uncertainties. Correlations of a given nuisance parameter between the 
-%backgrounds and the signal are taken into account when relevant. 
- in order to constrain their nuisance parameters.
-
-
+where $\mathcal{P} \left(X~\rvert \nu\right) = e^{-\nu}\nu^X/X!$ 
+and $\mathcal{G} \left(\theta\right)  = \frac{1}{\sqrt{2\pi\sigma_{\theta}^2}}
+e^{-\frac{\left(\theta-\theta^0\right)^2}{2\sigma_\theta^2}}$
+ are the Poisson and Gaussian probablity density functions. 
+Both signal and backgrounds depend on the nuisance parameter
+$\vect{\theta}$ which controls all independent sources of uncertainty 
+and will be \textit{profiled} (or constrained) in the $CL_s$ procedure
+described next.
+To give an example, the luminosity uncertainty will have a mean 
+as the luminosity central value $ \theta_{\text{lumi}}^{\left(0\right)}$ and the 
+width as an experimentally determined 
+uncertainty $\sigma_{\theta_{\text{lumi}}}$. When evaluating the effect of the 
+luminosity uncertainty on the likelihood function, all terms involving the 
+nuisance parameter $\theta_{\text{lumi}}$ will be scaled in the same way 
+since luminosity is correlated across all terms.
 
 
 

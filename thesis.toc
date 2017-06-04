@@ -58,9 +58,9 @@
 \contentsline {section}{\numberline {8.2}Experimental Uncertainties}{104}{section.8.2}
 \contentsline {chapter}{\numberline {9}Statistical Treatment}{108}{chapter.9}
 \contentsline {section}{\numberline {9.1}Likelihood Function}{109}{section.9.1}
-\contentsline {section}{\numberline {9.2}Limit Setting Procedure}{110}{section.9.2}
-\contentsline {section}{\numberline {9.3}Model Exclusion}{110}{section.9.3}
-\contentsline {chapter}{\numberline {10}Results and Interpretation}{111}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusions}{112}{chapter.11}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{113}{appendix.A}
-\contentsline {chapter}{\numberline {B}Validation of background estimates}{114}{appendix.B}
+\contentsline {section}{\numberline {9.2}Limit Setting Procedure}{111}{section.9.2}
+\contentsline {section}{\numberline {9.3}Model Exclusion}{111}{section.9.3}
+\contentsline {chapter}{\numberline {10}Results and Interpretation}{112}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusions}{113}{chapter.11}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{114}{appendix.A}
+\contentsline {chapter}{\numberline {B}Validation of background estimates}{115}{appendix.B}

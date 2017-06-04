@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  3 JUN 2017 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  3 JUN 2017 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2398,38 +2398,38 @@ LaTeX Warning: Citation `Baak:2014wma' on page 108 undefined on input line 33.
 
 ) (./texfiles/sec.stat.like.tex [108
 
-] [109]) (./texfiles/sec.stat.limit.tex)
-(./texfiles/sec.stat.model.tex) [110]
+] [109] [110])
+(./texfiles/sec.stat.limit.tex) (./texfiles/sec.stat.model.tex) [111]
 Chapter 10.
-(./texfiles/chap.res.tex) [111
+(./texfiles/chap.res.tex) [112
 
 ]
 Chapter 11.
-(./texfiles/concl.tex) [112
+(./texfiles/concl.tex) [113
 
 ]
 Appendix A.
-(./texfiles/app.auxiliary.tex) [113
+(./texfiles/app.auxiliary.tex) [114
 
 
 ]
 Appendix B.
 (./texfiles/app.bkg.dist.tex
-<figures/app/EE_2JMET50_meff.pdf, id=4807, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_meff.pdf, id=4811, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_meff.pdf>
 Package pdftex.def Info: figures/app/EE_2JMET50_meff.pdf used on input line 5.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_met.pdf, id=4808, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_met.pdf, id=4812, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_met.pdf>
 Package pdftex.def Info: figures/app/EE_2JMET50_met.pdf used on input line 9.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_njets25.pdf, id=4809, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_njets25.pdf, id=4813, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_njets25.pdf>
@@ -2437,7 +2437,7 @@ Package pdftex.def Info: figures/app/EE_2JMET50_njets25.pdf used on input line
 13.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_nbjets.pdf, id=4810, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_nbjets.pdf, id=4814, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_nbjets.pdf>
@@ -2445,7 +2445,7 @@ Package pdftex.def Info: figures/app/EE_2JMET50_nbjets.pdf used on input line 1
 7.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EE_2JMET50_subSS_Pt.pdf, id=4811, 569.12625pt x 385.44pt>
+<figures/app/EE_2JMET50_subSS_Pt.pdf, id=4815, 569.12625pt x 385.44pt>
 File: figures/app/EE_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/EE_2JMET50_subSS_Pt.pdf>
@@ -2456,7 +2456,7 @@ Package pdftex.def Info: figures/app/EE_2JMET50_subSS_Pt.pdf used on input line
 
 LaTeX Warning: Float too large for page by 8.987pt on input line 31.
 
-<figures/app/EM_2JMET50_meff.pdf, id=4812, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_meff.pdf, id=4816, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_meff.pdf>
@@ -2464,14 +2464,14 @@ Package pdftex.def Info: figures/app/EM_2JMET50_meff.pdf used on input line 36.
 
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_met.pdf, id=4813, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_met.pdf, id=4817, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_met.pdf>
 Package pdftex.def Info: figures/app/EM_2JMET50_met.pdf used on input line 40.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_njets25.pdf, id=4814, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_njets25.pdf, id=4818, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_njets25.pdf>
@@ -2479,7 +2479,7 @@ Package pdftex.def Info: figures/app/EM_2JMET50_njets25.pdf used on input line
 44.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_nbjets.pdf, id=4815, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_nbjets.pdf, id=4819, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_nbjets.pdf>
@@ -2487,7 +2487,7 @@ Package pdftex.def Info: figures/app/EM_2JMET50_nbjets.pdf used on input line 4
 8.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/EM_2JMET50_subSS_Pt.pdf, id=4816, 569.12625pt x 385.44pt>
+<figures/app/EM_2JMET50_subSS_Pt.pdf, id=4820, 569.12625pt x 385.44pt>
 File: figures/app/EM_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/EM_2JMET50_subSS_Pt.pdf>
@@ -2498,7 +2498,7 @@ Package pdftex.def Info: figures/app/EM_2JMET50_subSS_Pt.pdf used on input line
 
 LaTeX Warning: Float too large for page by 8.987pt on input line 62.
 
-<figures/app/MM_2JMET50_meff.pdf, id=4817, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_meff.pdf, id=4821, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_meff.pdf>
@@ -2506,14 +2506,14 @@ Package pdftex.def Info: figures/app/MM_2JMET50_meff.pdf used on input line 67.
 
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_met.pdf, id=4818, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_met.pdf, id=4822, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_met.pdf>
 Package pdftex.def Info: figures/app/MM_2JMET50_met.pdf used on input line 71.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_njets25.pdf, id=4819, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_njets25.pdf, id=4823, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_njets25.pdf>
@@ -2521,7 +2521,7 @@ Package pdftex.def Info: figures/app/MM_2JMET50_njets25.pdf used on input line
 75.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_nbjets.pdf, id=4820, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_nbjets.pdf, id=4824, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_nbjets.pdf>
@@ -2529,7 +2529,7 @@ Package pdftex.def Info: figures/app/MM_2JMET50_nbjets.pdf used on input line 7
 9.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/MM_2JMET50_subSS_Pt.pdf, id=4821, 569.12625pt x 385.44pt>
+<figures/app/MM_2JMET50_subSS_Pt.pdf, id=4825, 569.12625pt x 385.44pt>
 File: figures/app/MM_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/MM_2JMET50_subSS_Pt.pdf>
@@ -2540,7 +2540,7 @@ Package pdftex.def Info: figures/app/MM_2JMET50_subSS_Pt.pdf used on input line
 
 LaTeX Warning: Float too large for page by 8.987pt on input line 93.
 
-<figures/app/TRILEP_2JMET50_meff.pdf, id=4822, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_meff.pdf, id=4826, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_meff.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_meff.pdf>
@@ -2548,7 +2548,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_meff.pdf used on input line
  98.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_met.pdf, id=4823, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_met.pdf, id=4827, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_met.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_met.pdf>
@@ -2556,7 +2556,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_met.pdf used on input line
 102.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_njets25.pdf, id=4824, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_njets25.pdf, id=4828, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_njets25.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_njets25.pdf>
@@ -2564,7 +2564,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_njets25.pdf used on input l
 ine 106.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_nbjets.pdf, id=4825, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_nbjets.pdf, id=4829, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_nbjets.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_nbjets.pdf>
@@ -2572,7 +2572,7 @@ Package pdftex.def Info: figures/app/TRILEP_2JMET50_nbjets.pdf used on input li
 ne 110.
 (pdftex.def)             Requested size: 197.72885pt x 133.91206pt.
 
-<figures/app/TRILEP_2JMET50_subSS_Pt.pdf, id=4826, 569.12625pt x 385.44pt>
+<figures/app/TRILEP_2JMET50_subSS_Pt.pdf, id=4830, 569.12625pt x 385.44pt>
 File: figures/app/TRILEP_2JMET50_subSS_Pt.pdf Graphic file (type pdf)
 
 <use figures/app/TRILEP_2JMET50_subSS_Pt.pdf>
@@ -2585,21 +2585,21 @@ LaTeX Warning: Float too large for page by 32.18709pt on input line 124.
 
 )
 No file thesis.bbl.
-[114
+[115
 
-] [115 <./figures/app/EE_2JMET50_meff.pdf, page is rotated 90 degrees> <./figur
+] [116 <./figures/app/EE_2JMET50_meff.pdf, page is rotated 90 degrees> <./figur
 es/app/EE_2JMET50_met.pdf, page is rotated 90 degrees> <./figures/app/EE_2JMET5
 0_njets25.pdf, page is rotated 90 degrees> <./figures/app/EE_2JMET50_nbjets.pdf
 , page is rotated 90 degrees> <./figures/app/EE_2JMET50_subSS_Pt.pdf, page is r
-otated 90 degrees>] [116 <./figures/app/EM_2JMET50_meff.pdf, page is rotated 90
+otated 90 degrees>] [117 <./figures/app/EM_2JMET50_meff.pdf, page is rotated 90
  degrees> <./figures/app/EM_2JMET50_met.pdf, page is rotated 90 degrees> <./fig
 ures/app/EM_2JMET50_njets25.pdf, page is rotated 90 degrees> <./figures/app/EM_
 2JMET50_nbjets.pdf, page is rotated 90 degrees> <./figures/app/EM_2JMET50_subSS
-_Pt.pdf, page is rotated 90 degrees>] [117 <./figures/app/MM_2JMET50_meff.pdf, 
+_Pt.pdf, page is rotated 90 degrees>] [118 <./figures/app/MM_2JMET50_meff.pdf, 
 page is rotated 90 degrees> <./figures/app/MM_2JMET50_met.pdf, page is rotated 
 90 degrees> <./figures/app/MM_2JMET50_njets25.pdf, page is rotated 90 degrees> 
 <./figures/app/MM_2JMET50_nbjets.pdf, page is rotated 90 degrees> <./figures/ap
-p/MM_2JMET50_subSS_Pt.pdf, page is rotated 90 degrees>] [118 <./figures/app/TRI
+p/MM_2JMET50_subSS_Pt.pdf, page is rotated 90 degrees>] [119 <./figures/app/TRI
 LEP_2JMET50_meff.pdf, page is rotated 90 degrees> <./figures/app/TRILEP_2JMET50
 _met.pdf, page is rotated 90 degrees> <./figures/app/TRILEP_2JMET50_njets25.pdf
 , page is rotated 90 degrees> <./figures/app/TRILEP_2JMET50_nbjets.pdf, page is
@@ -2627,10 +2627,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
  ) 
 Here is how much of TeX's memory you used:
- 28219 strings out of 493109
- 553496 string characters out of 6133666
- 803345 words of memory out of 5000000
- 30513 multiletter control sequences out of 15000+600000
+ 28221 strings out of 493109
+ 553533 string characters out of 6133666
+ 803371 words of memory out of 5000000
+ 30514 multiletter control sequences out of 15000+600000
  24670 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,18n,75p,2053b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2659,10 +2659,10 @@ s/type1/public/amsfonts/cm/cmsy7.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (127 pages, 2499124 bytes).
+Output written on thesis.pdf (128 pages, 2503651 bytes).
 PDF statistics:
- 5861 PDF objects out of 6186 (max. 8388607)
- 3101 compressed objects within 32 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 5865 PDF objects out of 6186 (max. 8388607)
+ 3104 compressed objects within 32 object streams
+ 292 named destinations out of 1000 (max. 500000)
  21586 words of extra memory for PDF output out of 24883 (max. 10000000)
 
