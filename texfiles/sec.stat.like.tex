@@ -34,13 +34,13 @@ region and Gaussian distributions for each of the sources of systematic
 uncertainties.
 The likelihood takes the simple form
 \begin{equation}
-\Pr\left(X \rvert \mu, \vect{\theta} \right) = 
+\Pr\left(X,  \vect{\theta^0} \rvert \mu, \vect{\theta} \right) = 
 \mathcal{P} \left(X~\rvert~\mu s\left(\vect{\theta}\right)
 + \sum_i b_i\left(\vect{\theta}\right)
-+ \sum_j \theta_{j}^{\left(0\right)}
+%+ \sum_j \theta_{j}^{\left(0\right)}
 \right)
 \times  
-\prod_{j}  \mathcal{G} \left(\theta_{j}\right)
+\prod_{j}  \mathcal{G} \left(\theta^0 \rvert \theta_{j}\right)
 \end{equation}
 where $\mathcal{P} \left(X~\rvert \nu\right) = e^{-\nu}\nu^X/X!$ 
 and $\mathcal{G} \left(\theta\right)  = \frac{1}{\sqrt{2\pi\sigma_{\theta}^2}}
