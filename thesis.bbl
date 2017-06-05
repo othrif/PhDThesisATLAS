@@ -302,11 +302,11 @@ R.~D. Cousins, K.~E. Hymes,  and J.~Tucker, Nucl.Instrum.Meth.Phys.Res.
 
 \bibitem{Cowan:2010js}
 G.~Cowan, K.~Cranmer, E.~Gross,  and O.~Vitells,
-  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0}{Eur. Phys. J. C
-  {\bfseries 71} (2011) 1554}, \href{http://arxiv.org/abs/1007.1727}{{\ttfamily
-  arXiv:1007.1727 [physics.data-an]}},
-[\href{https://doi.org/10.1140/epjc/s10052-013-2501-z}{Erratum: Eur. Phys. J. C
-  \textbf{73} (2013) 2501}].
+  \href{http://dx.doi.org/10.1140/epjc/s10052-011-1554-0,
+  10.1140/epjc/s10052-013-2501-z}{Eur. Phys. J. {\bfseries C71} (2011) 1554},
+  \href{http://arxiv.org/abs/1007.1727}{{\ttfamily arXiv:1007.1727
+  [physics.data-an]}},
+[Erratum: Eur. Phys. J.C73,2501(2013)].
 %%CITATION = ARXIV:1007.1727;%%.
 
 \bibitem{Read:2002}
@@ -318,5 +318,76 @@ M.~Baak {et~al.}, \href{http://dx.doi.org/10.1140/epjc/s10052-015-3327-7}{Eur.
   Phys. J. C {\bfseries 75} (2015) 153},
 \href{http://arxiv.org/abs/1410.1280}{{\ttfamily arXiv:1410.1280 [hep-ex]}}.
 %%CITATION = ARXIV:1410.1280;%%.
+
+\bibitem{minuit}
+
+F.~James.
+%%CITATION = CERN-D-506;%%.
+
+\bibitem{Moneta:2010pm}
+L.~Moneta, K.~Belasco, K.~S. Cranmer, S.~Kreiss, A.~Lazzaro, D.~Piparo,
+  G.~Schott, W.~Verkerke,  and M.~Wolf, PoS {\bfseries ACAT2010} (2010) 057,
+\href{http://arxiv.org/abs/1009.1003}{{\ttfamily arXiv:1009.1003
+  [physics.data-an]}}.
+%%CITATION = ARXIV:1009.1003;%%.
+
+\bibitem{Antcheva:2009zz}
+I.~Antcheva {et~al.},
+  \href{http://dx.doi.org/10.1016/j.cpc.2009.08.005}{Comput. Phys. Commun.
+  {\bfseries 180} (2009) 2499--2512},
+\href{http://arxiv.org/abs/1508.07749}{{\ttfamily arXiv:1508.07749
+  [physics.data-an]}}.
+%%CITATION = ARXIV:1508.07749;%%.
+
+\bibitem{Neyman289}
+J.~Neyman and E.~S. Pearson,
+  \href{http://dx.doi.org/10.1098/rsta.1933.0009}{Philosophical Transactions of
+  the Royal Society of London A: Mathematical, Physical and Engineering
+  Sciences {\bfseries 231} (1933) 289--337},
+  \href{http://arxiv.org/abs/http://rsta.royalsocietypublishing.org/content/231/694-706/289.full.pdf}{{\ttfamily
+  http://rsta.royalsocietypublishing.org/content/231/694-706/289.full.pdf}},
+  \url{http://rsta.royalsocietypublishing.org/content/231/694-706/289}.
+
+\bibitem{Wilks:1938dza}
+S.~S. Wilks,
+\href{http://dx.doi.org/10.1214/aoms/1177732360}{Annals Math. Statist.
+  {\bfseries 9} (1938) 60--62}.
+%%CITATION = AASTA,9,60;%%.
+
+\bibitem{Wald:ams1943}
+A.~Wald, Transactions of the American Mathematical Society {\bfseries 54}
+  (1943) 426--482, \url{http://www.jstor.org/stable/1990256}.
+
+\bibitem{paperSS3L}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4095-8}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 259},
+\href{http://arxiv.org/abs/1602.09058}{{\ttfamily arXiv:1602.09058 [hep-ex]}}.
+%%CITATION = ARXIV:1602.09058;%%.
+
+\bibitem{Aad:2016jxj}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1016/j.physletb.2016.04.005}{Phys. Lett.
+  {\bfseries B757} (2016) 334--355},
+\href{http://arxiv.org/abs/1602.06194}{{\ttfamily arXiv:1602.06194 [hep-ex]}}.
+%%CITATION = ARXIV:1602.06194;%%.
+
+\bibitem{Read:2002hq}
+A.~L. Read,
+\href{http://dx.doi.org/10.1088/0954-3899/28/10/313}{J. Phys. G {\bfseries 28}
+  (2002) 2693--2704}.
+%%CITATION = JPAGA,G28,2693;%%.
+
+\bibitem{Ellis:2002iu}
+J.~Ellis, T.~Falk, K.~A. Olive,  and Y.~Santoso,
+  \href{http://dx.doi.org/10.1016/S0550-3213(02)01144-6}{Nucl. Phys. B
+  {\bfseries 652} (2003) 259--347},
+  \href{http://arxiv.org/abs/hep-ph/0210205}{{\ttfamily arXiv:hep-ph/0210205}}.
+
+\bibitem{Ellis:2002wv}
+J.~Ellis, K.~A. Olive,  and Y.~Santoso,
+  \href{http://dx.doi.org/10.1016/S0370-2693(02)02071-3}{Phys. Lett. B
+  {\bfseries 539} (2002) 107--118},
+  \href{http://arxiv.org/abs/hep-ph/0204192}{{\ttfamily arXiv:hep-ph/0204192}}.
 
 \end{thebibliography}\endgroup

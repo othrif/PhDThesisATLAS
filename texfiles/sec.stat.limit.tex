@@ -1,8 +1,11 @@
-The procedure for setting exclusion limits using the likelihood function (Eq. ??)
+\subsection*{Profile likelihood ratio test}
+
+The procedure for setting exclusion limits using the likelihood function 
+(Eq.\ref{eq:stat.like.Pr})
 relies on a profile-likelihood-ratio test~\cite{Cowan:2010js}.
 The null hypothesis considered is that of background only with $\mu=0$ and the alternate hypothesis 
 is the presence of a signal with strength $\mu>0$.
-According to the Neyman-Pearson Lemma CITE??, 
+According to the Neyman-Pearson Lemma \cite{Neyman289}, 
 the most powerful test when performing a hypothesis test between two simple hypotheses, $\mu=0$ and $\mu>0$,
 is the profile-likelihood-ratio test, which rejects $\mu=0$ in favor of $\mu>0$.
 %Important advantage of profile LR is that its distribution becomes independent of nuisance parameters in large sample limit.
@@ -26,7 +29,7 @@ Qualitatively, small values of $q_{\mu}$ correspond to a better compatibility be
 tested hypothesis with a signal strenght $\mu$, while large values indicate a very improbable signal hypothesis.
 The condition on the sign of $ \mu - \hat{\mu}$ is necessary in order not to interpret an upward fluctuation of data 
 ($X > \mu s + b$) as incompatibe with the tested hypothesis. 
-The form of $q_{\mu}$ is motivated by Wald and Wilk's CITE?? approximation formulas in the large sample limit
+The form of $q_{\mu}$ is motivated by Wald and Wilk's \cite{Wilks:1938dza,Wald:ams1943} approximation formulas in the large sample limit
 where the distributions of $q_{\mu}$ also become independent of nuisance parameters as it will be discussed next.
 The test statistic for discovery will try to reject the background only hypothesis ($\mu=0$). Thus Eq.\ref{eq:stat.limit.qmu} becomes
 \begin{equation}
@@ -41,6 +44,7 @@ q_{0}  \left( \vect{X} \right)=
     \end{cases}
 \end{equation}
 
+\subsection*{The $p$-value}
 
 At this stage, a test statistic $q_{\mu}$ has been constructed to distinguish between the hypothesis 
 that the data contains signal and background $\mu>0$ and that of background only $\mu=0$.
@@ -80,7 +84,7 @@ p_{0} = \Pr\left(q_{0} \geq q_{0}^{\left(\text{obs}\right)} \rvert 0 \right) = \
 and can be interpretted as the probability of the observation to be consistent with the background only hypothesis:
 the smaller the $p_{0}$ value is, the less compatible data is with the background only hypothesis. 
 
-
+\subsection*{The $CL_\mathrm{s}$ Prescription}
 The next step is to define a confidence interval ($CI$) that includes the parameter $\mu$ at a specified confidence level ($CL$). 
 In other words, instead of estimating the parameter $\mu$ by a single value, an interval $CI$ likely to include the parameter is given.
 The $CL$ provides a quantitative statement on how likely the interval $CI$ is to contain the parameter $\mu$. 
@@ -128,3 +132,46 @@ the distributions of both hypotheses are similar, due to the lack of sensitivity
 and the $CL_\mathrm{s+b}$ value is increased more leading to a weaker upper limit. 
 Similar to the case of $CL_\mathrm{s+b}$, the upper limit on $S_{up}^{95}$ is taken as the largest value of the parameter
 $S$ not excluded.
+
+\subsection*{Approximate sampling distributions}
+
+The remaining task is to determine the sampling distributions
+$f\left(q_{0} \rvert 0\right)$ and $f\left(q_{\mu} \rvert \mu\right)$
+needed to compute the $p$-values
+used in the case of discovery and setting upper limits, respectively.
+These distributions do not have an analytic form but can be obtained from 
+pseudo-experiments or asymptotic approximations.
+The pseudo-experiments are more accurate than the asymptotic 
+approximations since a large number of 
+datasets are generated which are drawn from a distribution that is consistent 
+with those observed.
+However, for a complex likelihood function where the procedure of generating 
+pseudo-datasets needs to be repeated many times for each parameter point
+of each model being considered, the pseudo-data set method is computing 
+intensive and not practical. For this reason, the current analysis 
+uses asymptotic formulae to approximate $q_{\mu}$ and shown to be valid in the 
+large sample size limit \cite{Cowan:2010js}. The approximation is based on an important result 
+by Wilks \cite{Wilks:1938dza} and Wald \cite{Wald:ams1943} who showed that for a single parameter of interest,
+\begin{equation}
+  q_{\mu} =
+  \begin{cases}
+    \frac{\left(\mu - \hat{\mu}\right)^2}{\sigma^2} + \mathcal{O}\left(\frac{1}{\sqrt{N}}\right)
+    , & \text{if}\ \mu > \hat{\mu} \\
+    0, & \text{otherwise}.
+  \end{cases}
+\label{eq:stat.model.asymp}
+\end{equation}
+where $\mu$ is a Gaussian distribution with a mean $\bar{\mu}$ and 
+standard deviation $\sigma$, and a sample size $N$. In the case where 
+$\mu = \hat{\mu}$, the test statistic $q_{\mu}$ follows a $Chi^2$ distribution
+for one degree of freedom. 
+The variance $\sigma^2$ is obtained from an artificial data set called the 
+``Asimov data set'' that verifies $X_A = \bar{\mu} s + b$. 
+From Eq.\ref{eq:stat.model.asymp}, the variance is then 
+$\sigma^2 = \left( \mu - \bar{\mu} \right)^2/q_{\mu,A}$, where $q_{\mu,A}$ 
+is evaluated from the exact expression of $q_{\mu}$ using the Asimov data set.
+
+The results obtaine drom the asymptotic approximations have been compared to 
+exclusion limits obtained with a limitted number of pseudo-experiments.
+A reasonalbe agreement has been observed which validated the use of 
+the asymptotic formalism to obtain the exclusion limits on the different models.
