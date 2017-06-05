@@ -36,7 +36,8 @@
 
 %% Put your dedication here. 
 \begin{dedication}
-  To my loving parents and sister.
+%  To my loving parents and sister.
+To ...
 \end{dedication}
 
 
@@ -45,15 +46,15 @@
 \maketitle
 %-------------------------------------------------------------------------------
 
-\chapter*{Acknowledgements}
-\addcontentsline{toc}{chapter}{Acknowledgements}%
+\chapter*{Acknowledgments}
+\addcontentsline{toc}{chapter}{Acknowledgments}%
 I would like to acknowledge...
 
 %-------------------------------------------------------------------------------
 
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}%
-Well now this is my abstract.
+My abstract ...
 
 %-------------------------------------------------------------------------------
 
@@ -161,16 +162,11 @@ Well now this is my abstract.
 \input{texfiles/sec.bkg.irred.tex}
 \section{Reducible Backgrounds}\label{sec:bkg.red}
 \input{texfiles/sec.bkg.red.tex}
-%-------------------------------------------------------------------------------
-
-%-------------------------------------------------------------------------------
-\chapter{Systematic uncertainties}\label{chap:syst}
-\graphicspath{{figures/syst/}}
-%-------------------------------------------------------------------------------
+\section{Systematic uncertainties}\label{chap:syst}
 \input{texfiles/sec.syst.overview.tex}
-\section{Theretical Uncertainties}\label{sec:syst.theory}
+\subsection{Theoretical Uncertainties}\label{sec:syst.theory}
 \input{texfiles/sec.syst.theory.tex}
-\section{Experimental Uncertainties}\label{sec:syst.exp}
+\subsection{Experimental Uncertainties}\label{sec:syst.exp}
 \input{texfiles/sec.syst.exp.tex}
 %-------------------------------------------------------------------------------
 
@@ -183,6 +179,8 @@ Well now this is my abstract.
 \input{texfiles/sec.stat.like.tex}
 \section{Limit Setting Procedure}
 \input{texfiles/sec.stat.limit.tex}
+\section{Statistical Implementation}
+\input{texfiles/sec.stat.impl.tex}
 %-------------------------------------------------------------------------------
 
 %-------------------------------------------------------------------------------

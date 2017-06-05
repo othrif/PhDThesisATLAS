@@ -1,4 +1,4 @@
-\contentsline {chapter}{Acknowledgements}{vi}{chapter*.3}
+\contentsline {chapter}{Acknowledgments}{vi}{chapter*.3}
 \contentsline {chapter}{Abstract}{vii}{chapter*.4}
 \contentsline {chapter}{Preface}{viii}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
@@ -61,14 +61,14 @@
 \contentsline {subsection}{\numberline {7.3.2}Matrix Method}{87}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}MC Template Method}{101}{subsection.7.3.3}
 \contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{103}{subsection.7.3.4}
-\contentsline {chapter}{\numberline {8}Systematic uncertainties}{117}{chapter.8}
-\contentsline {section}{\numberline {8.1}Theretical Uncertainties}{117}{section.8.1}
-\contentsline {section}{\numberline {8.2}Experimental Uncertainties}{120}{section.8.2}
-\contentsline {chapter}{\numberline {9}Statistical Treatment}{124}{chapter.9}
-\contentsline {section}{\numberline {9.1}Likelihood Function}{125}{section.9.1}
-\contentsline {section}{\numberline {9.2}Limit Setting Procedure}{127}{section.9.2}
-\contentsline {chapter}{\numberline {10}Results and Interpretation}{134}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusions}{162}{chapter.11}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{163}{appendix.A}
-\contentsline {chapter}{\numberline {B}Validation of background estimates}{164}{appendix.B}
-\contentsline {chapter}{References}{165}{appendix*.107}
+\contentsline {section}{\numberline {7.4}Systematic uncertainties}{107}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{107}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{110}{subsection.7.4.2}
+\contentsline {chapter}{\numberline {8}Statistical Treatment}{123}{chapter.8}
+\contentsline {section}{\numberline {8.1}Likelihood Function}{124}{section.8.1}
+\contentsline {section}{\numberline {8.2}Limit Setting Procedure}{126}{section.8.2}
+\contentsline {chapter}{\numberline {9}Results and Interpretation}{133}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusions}{161}{chapter.10}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{162}{appendix.A}
+\contentsline {chapter}{\numberline {B}Validation of background estimates}{163}{appendix.B}
+\contentsline {chapter}{References}{164}{appendix*.107}

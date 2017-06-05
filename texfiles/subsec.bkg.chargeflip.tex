@@ -3,9 +3,9 @@ is an experimental background strongly associated to analyses relying on same-si
 In those events, the electric charge of one of the two leptons forming an opposite-sign (OS) pair, 
 coming from an abundant SM process ($pp\to Z$, \ttbar, $W^+W^-$\ldots), 
 is mis-identified leading to a much rarer same-sign (SS) pair event.
-In most cases, the source of such a misidentification 
+In most cases, the source of such a mis-identification 
 is the creation of additional close-by tracks $e^\pm\to e^\pm\gamma\to e^\pm e^\pm e^\mp$ 
-via bremmstrahlung of the original electron when interacting with the material of the inner tracker. 
+via Brehmstrahlung of the original electron when interacting with the material of the inner tracker. 
 If one of the secondary electron tracks is subsequently preferred to the original track in the reconstruction of the electron candidate, 
 the charge assigned to the electron might be incorrect, leading to a charge-flip event. 
 Errors on the track charge assignment itself may occur as well, but they are much rarer. 
@@ -28,12 +28,12 @@ and the absence of dependency to the simulation and related uncertainties.
 Obviously, it requires a precise measurement of the rates, which is described in this section. 
 An inconvenience of this approach is that the reconstructed momentum for charge-flipped electrons  
 tends to be negatively biased (too low by a few GeV), 
-since such important bremmstrahlung topologies represent only 
+since such important Brehmstrahlung topologies represent only 
 a very small fraction of the cases used to tune electron energy calibration. 
 Simply re-weighting electrons from opposite-sign lepton pairs therefore does not predict correctly 
-the charge-flip background shape for variables very sensitive to the electron momentum, for example the $m_{ee}$ lineshape. 
+the charge-flip background shape for variables very sensitive to the electron momentum, for example the $m_{ee}$ line-shape. 
 However, the kinematic range and variables used in the analysis are not
-senstitive to this effect and can safely be neglected.
+sensitive to this effect and can safely be neglected.
 
 For the nominal (tight) estimate of the charge-flip background contributions, only events with exactly two OS signal electrons are considered. 
 Corrections in the fake lepton estimate however require estimating as well charge-flip contributions for selections involving 
@@ -60,7 +60,7 @@ Charge-flip rates are measured in data relying on a clean $Z\to ee$ sample ($75<
 in which the rates can be determined from the relative proportions of OS and SS electron pairs. 
 Figure~\ref{fig:chargeflip_mee} illustrates this event selection. 
 The rates are measured as function of $\eta$ and \pt, to follow their dependency to the distribution of material in the detector, 
-the bremmstrahlung emission rate, and the track curvature. 
+the Brehmstrahlung emission rate, and the track curvature. 
 Because of this binned measurements, and that the two electrons in a given pair generally have different kinematic properties, 
 it has been found that the most efficient and less biased use of the available statistics 
 is obtained by simultaneously extracting the rates in all bins via the maximization of the likelihood function describing the 
@@ -93,7 +93,7 @@ However, the expression of the likelihood has to be adapted due to the induced a
 \end{aligned}%}
 \end{equation}
 where this time $(\eta_1,p_{\mathrm{T},1})$ corresponds to the signal electron. 
-Using the same $\eta$ and \pt binnings for both measurements, 
+Using the same $\eta$ and \pt binning for both measurements, 
 the number of free variables in the maximization of~(\ref{eqn:chargeflip_likelihood_loose}) 
 -- as well as the number of terms in the product forming $L$ -- 
 is twice larger than for the nominal case~(\ref{eqn:chargeflip_likelihood}). 
@@ -135,7 +135,7 @@ The charge-flip rates measured in data and MC are shown on Figure~\ref{fig:ChFli
  while it increases up to $\sim$0.2\% in the end-cap region ($|\eta > 1.37|$). 
  For baseline electrons failing signal requirements (Fig.~\ref{fig:Chflip_looseData}), 
  the rates are in general greater than the nominal ones in every bin, as expected. The charge-flip rates for these electrons go up to $\sim$0.5\% in the barrel region and up 1\% in the end-cap region. Compared to the rates used in the previous version of the analysis~\cite{ATLAS-CONF-2016-037}, the central values are much lower now. After suppressing the charge flip events with the charge-flip 
-electron BDT classifer described in Section~\ref{subsec:strategy.sel.obj}, 
+electron BDT classifier described in Section~\ref{subsec:strategy.sel.obj}, 
 the charge flip rates are strongly reduced for both signal and baseline-failing-signal electrons (up to a factor 20 in some bins). Figure~\ref{fig:ETA_SS_BDTEL}
 illustrates the charge flip background reduction in a loose selection.
 \begin{figure}[htb!]

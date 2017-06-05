@@ -1,0 +1,16 @@
+Compile:
+./compile.sh
+pdflatex thesis.tex
+
+
+GIT:
+git add .
+git commit -m "change"
+git push -u origin master
+git pull origin master
+git ls-files --deleted -z | xargs -0 git rm # in case you removed files
+
+
+Spell check:
+for i in $(ls texfiles/*.tex); do aspell -c -t ${i} -d en; done
+

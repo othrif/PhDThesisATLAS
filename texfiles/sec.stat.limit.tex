@@ -26,9 +26,9 @@ For a given observation $\vect{X}$, the parameters $\hat{\mu}$ and $\vect{\theta
 If the value of $\mu$ is also fixed, the set of values $\hat{\hat{\vect{\theta}}}$ corresponds to the set of values that 
 maximize the likelihood for that particular value of $\mu$. The variable $q_{\mu}$ is always positive ($q_{\mu}\geq0$).
 Qualitatively, small values of $q_{\mu}$ correspond to a better compatibility between the observed data and the 
-tested hypothesis with a signal strenght $\mu$, while large values indicate a very improbable signal hypothesis.
+tested hypothesis with a signal strength $\mu$, while large values indicate a very improbable signal hypothesis.
 The condition on the sign of $ \mu - \hat{\mu}$ is necessary in order not to interpret an upward fluctuation of data 
-($X > \mu s + b$) as incompatibe with the tested hypothesis. 
+($X > \mu s + b$) as incompatible with the tested hypothesis. 
 The form of $q_{\mu}$ is motivated by Wald and Wilk's \cite{Wilks:1938dza,Wald:ams1943} approximation formulas in the large sample limit
 where the distributions of $q_{\mu}$ also become independent of nuisance parameters as it will be discussed next.
 The test statistic for discovery will try to reject the background only hypothesis ($\mu=0$). Thus Eq.\ref{eq:stat.limit.qmu} becomes
@@ -68,7 +68,7 @@ a $p$-value.
 The $p$-value of the signal hypothesis ($\mu>0$) is then defined as the probability, under assumption of the signal hypothesis, 
 to find a value of $q_{\mu}$ with equal or lesser compatibility with the signal model considered relative to what is 
 found with $q_{\mu}^{\left(\text{obs}\right)}$. In other words,  higher values of $q_{\mu}$ indicate an increasing disagreement
-between data and the signal model. The mathematical expression of the $p$-value with $\mu>0$ is taken as the probablity 
+between data and the signal model. The mathematical expression of the $p$-value with $\mu>0$ is taken as the probability 
 to find $q_{\mu}$ greater than or equal $q_{\mu}^{\left(\text{obs}\right)}$, under the signal hypothesis\footnote{Note that 
  the background-only distribution $f\left(q_{0} \rvert 0\right)$ in the example given in 
 Figure~\ref{fig:stat.limit.qmunormal} is shifted to the right.} is given by
@@ -81,7 +81,7 @@ Similarly, the $p$-value of the background-only hypothesis with $\mu=0$ takes th
 \begin{equation}
 p_{0} = \Pr\left(q_{0} \geq q_{0}^{\left(\text{obs}\right)} \rvert 0 \right) = \int^{q_{0}^{\left(\text{obs}\right)}}_{-\infty} f\left(q_{0} \rvert 0\right) \diff q_{0}
 \end{equation}
-and can be interpretted as the probability of the observation to be consistent with the background only hypothesis:
+and can be interpreted as the probability of the observation to be consistent with the background only hypothesis:
 the smaller the $p_{0}$ value is, the less compatible data is with the background only hypothesis. 
 
 \subsection*{The $CL_\mathrm{s}$ Prescription}
@@ -126,7 +126,7 @@ To remedy this problem, a different procedure is used where a model is regarded 
 < \alpha.
 \end{equation}
 In this form, the $p$-value is penalized by dividing by $1-p_{0}$. 
-If the distribution of $q_{\mu}$ under signal or background-only hypotheses are widely seperated, then 
+If the distribution of $q_{\mu}$ under signal or background-only hypotheses are widely separated, then 
 the quantity $1-p_{0}$ is close to unity which recovers the $CL_\mathrm{s+b}$ value. However, if
 the distributions of both hypotheses are similar, due to the lack of sensitivity, $1-p_{0}$ becomes smaller
 and the $CL_\mathrm{s+b}$ value is increased more leading to a weaker upper limit. 
@@ -171,7 +171,7 @@ From Eq.\ref{eq:stat.model.asymp}, the variance is then
 $\sigma^2 = \left( \mu - \bar{\mu} \right)^2/q_{\mu,A}$, where $q_{\mu,A}$ 
 is evaluated from the exact expression of $q_{\mu}$ using the Asimov data set.
 
-The results obtaine drom the asymptotic approximations have been compared to 
-exclusion limits obtained with a limitted number of pseudo-experiments.
-A reasonalbe agreement has been observed which validated the use of 
+The results obtained from the asymptotic approximations have been compared to 
+exclusion limits obtained with a limited number of pseudo-experiments.
+A reasonable agreement has been observed which validated the use of 
 the asymptotic formalism to obtain the exclusion limits on the different models.

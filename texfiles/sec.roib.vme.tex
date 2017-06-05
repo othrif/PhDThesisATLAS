@@ -25,7 +25,7 @@ to another receiver card in a PC running the HLT supervisor (HLTSV) application.
 
 The fragments received by the RoIB are identified by a 32 bit identifier, the extended L1 ID (L1ID). 
 The RoIB input cards use the L1ID and the number of outputs enabled to assign keys to the various fragments and send them to the output channel in the builder card that was 
-assigned that key value. The input data is transferred over a custom J3 backplane. The backplane operates at 20 MHz and transfers 16 data bits per 
+assigned that key value. The input data is transferred over a custom J3 back-plane. The back-plane operates at 20 MHz and transfers 16 data bits per 
 clock cycle simultaneously for up to 12 inputs. The total maximum data throughput is therefore 480 MB/s, 40 MB/s per input.  
 The maximum size of any single fragment is limited to 512 bytes imposed by resources available in the FPGA firmware. The current RoIB input 
 links are listed in Table \ref{tab:roib_links}.

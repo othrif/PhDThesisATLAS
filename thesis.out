@@ -1,4 +1,4 @@
-\BOOKMARK [0][-]{chapter*.3}{Acknowledgements}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Acknowledgments}{}% 1
 \BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 2
 \BOOKMARK [0][-]{chapter*.5}{Preface}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
@@ -61,14 +61,14 @@
 \BOOKMARK [2][-]{subsection.7.3.2}{Matrix Method}{section.7.3}% 61
 \BOOKMARK [2][-]{subsection.7.3.3}{MC Template Method}{section.7.3}% 62
 \BOOKMARK [2][-]{subsection.7.3.4}{Reducible Background Validation}{section.7.3}% 63
-\BOOKMARK [0][-]{chapter.8}{Systematic uncertainties}{}% 64
-\BOOKMARK [1][-]{section.8.1}{Theretical Uncertainties}{chapter.8}% 65
-\BOOKMARK [1][-]{section.8.2}{Experimental Uncertainties}{chapter.8}% 66
-\BOOKMARK [0][-]{chapter.9}{Statistical Treatment}{}% 67
-\BOOKMARK [1][-]{section.9.1}{Likelihood Function}{chapter.9}% 68
-\BOOKMARK [1][-]{section.9.2}{Limit Setting Procedure}{chapter.9}% 69
-\BOOKMARK [0][-]{chapter.10}{Results and Interpretation}{}% 70
-\BOOKMARK [0][-]{chapter.11}{Conclusions}{}% 71
+\BOOKMARK [1][-]{section.7.4}{Systematic uncertainties}{chapter.7}% 64
+\BOOKMARK [2][-]{subsection.7.4.1}{Theoretical Uncertainties}{section.7.4}% 65
+\BOOKMARK [2][-]{subsection.7.4.2}{Experimental Uncertainties}{section.7.4}% 66
+\BOOKMARK [0][-]{chapter.8}{Statistical Treatment}{}% 67
+\BOOKMARK [1][-]{section.8.1}{Likelihood Function}{chapter.8}% 68
+\BOOKMARK [1][-]{section.8.2}{Limit Setting Procedure}{chapter.8}% 69
+\BOOKMARK [0][-]{chapter.9}{Results and Interpretation}{}% 70
+\BOOKMARK [0][-]{chapter.10}{Conclusions}{}% 71
 \BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 72
 \BOOKMARK [0][-]{appendix.B}{Validation of background estimates}{}% 73
 \BOOKMARK [0][-]{appendix*.107}{References}{}% 74

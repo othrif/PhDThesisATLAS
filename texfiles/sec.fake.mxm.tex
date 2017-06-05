@@ -3,7 +3,7 @@ lepton selection criteria but have non-zero impact parameter, and are often not
 well-isolated. These selection requirements are key ingredients to control the FNP leptons. 
 The number of events with at least one FNP lepton is estimated using two classes of leptons: 
 a real-enriched class of ``tight'' leptons corresponding to signal leptons and a fake-enriched class of ``loose'' leptons 
-corresponding to candidate leptons with relaxed identification criteria\footnote{Signal leptons are leptons satisfying the signal lepton definition, while the candidate leptons are leptons satisfying some pre-selection cuts and usually passing the overlap removal requirements as discssed in the analysis 
+corresponding to candidate leptons with relaxed identification criteria\footnote{Signal leptons are leptons satisfying the signal lepton definition, while the candidate leptons are leptons satisfying some pre-selection cuts and usually passing the overlap removal requirements as discussed in the analysis 
 Section~\ref{subsec:strategy.sel.obj}.}. 
 In the next sections, a description of the simplest form of the matrix method will be given with events containing one object. 
 Then a generalized treatment that can handle events with an arbitrary number of leptons in the final states will be discussed.
@@ -24,11 +24,11 @@ probabilities $\varepsilon/\zeta$.
 
 The predictive power of the matrix method comes from the fact that 
 the real and FNP leptons have different composition in the two collections 
-of tight and loose objets leading to $\varepsilon \neq \zeta$. In fact, 
+of tight and loose objects leading to $\varepsilon \neq \zeta$. In fact, 
 the tight lepton collection will be dominated by real objects while the 
 loose region will be dominated by fake objects. As a result, 
 the inequality $\varepsilon >> \zeta$ will always hold true which 
-guarantees that the martrix in Eq. \ref{eqn:matrix_method} is invertible 
+guarantees that the matrix in Eq. \ref{eqn:matrix_method} is invertible 
 and gives positive estimates. 
 
 The next step is to invert the relation in Eq. \ref{eqn:matrix_method} to 
@@ -108,9 +108,9 @@ A general formula will be derived starting from the two objects case
 then specific examples will be given to illustrate the application of the 
 method.
 
-If two objects are present in the event, the probabilites $\varepsilon/\zeta$
+If two objects are present in the event, the probabilities $\varepsilon/\zeta$
 will depend on the kinematic properties of these objects. Typically 
-the probabilies will vary as a function of \pt and $|\eta|$. For this reason,
+the probables will vary as a function of \pt and $|\eta|$. For this reason,
 the probabilities will be different and will have an index to 
 identify the object under study: 
  $\varepsilon_i/\zeta_i$ where $i=1,2...$. 
@@ -211,7 +211,7 @@ signal leptons. As a result, $\xi$ takes the form:
 \]
 
 To further illustrate, Eq. \ref{eq:fake.FNP_compact} can be written 
-explicitely in the notation of Eq. \ref{eq:mxm_start} as:
+explicitly in the notation of Eq. \ref{eq:mxm_start} as:
 
 \[
 N_\text{FNP}^\text{signal} = 
@@ -255,9 +255,9 @@ indices $\nu_i$.
 %As the machinery has been demonstrated for the two objects case, it is imperative to illustrate it in a case where events may contain two or three leptons. For simplicity, the case containing more 
 %than three leptons is not considered but can easily be implemented. 
 
-The application of the matrix method to multilepton final states comes with two specificities. Firstly, contributions of events with charge-flip electrons would bias a straightforward matrix method estimate (in particular for a final state formed by two leptons with same electric charge). This happens because the candidate-to-signal efficiency for such electrons is typically lower than for real electrons having a correctly-assigned charge. One therefore needs to subtract from $n_\text{pass}$ and $n_\text{fail}$ the estimated contributions from charge-flip. This can be performed by including as well events with pairs of opposite-sign candidate leptons in the matrix method estimate, but assigning them an extra weight corresponding to the charge-flip weight. Thanks (again) to the linearity of the matrix method with respect to $n_\text{pass}$ and $n_\text{fail}$, this weight-based procedure is completely equivalent (but more practical) to the aforementioned subtraction. 
+The application of the matrix method to multilepton final states comes with two important remarks. Firstly, contributions of events with charge-flip electrons would bias a straightforward matrix method estimate (in particular for a final state formed by two leptons with same electric charge). This happens because the candidate-to-signal efficiency for such electrons is typically lower than for real electrons having a correctly-assigned charge. One therefore needs to subtract from $n_\text{pass}$ and $n_\text{fail}$ the estimated contributions from charge-flip. This can be performed by including as well events with pairs of opposite-sign candidate leptons in the matrix method estimate, but assigning them an extra weight corresponding to the charge-flip weight. Thanks (again) to the linearity of the matrix method with respect to $n_\text{pass}$ and $n_\text{fail}$, this weight-based procedure is completely equivalent (but more practical) to the aforementioned subtraction. 
 
-Secondly, the analytic expression of the matrix method event weight depends on the lepton multiplicity of the final state. This concerns events with three or more candidate leptons: one such event takes part both in the evaluation of the FNP lepton background for a selection with two signal leptons or a selection with three signal leptons, but with different weights\footnote{This can appear for inclusive selections: for example an event with two signal leptons may or not contain additional candidate leptons, in a transparent way}. Therefore, for a given event used as input to the matrix method, one should consider all possible leptons combinations, each with its own weight and its own set of kinematic variables. For example, a $e^+e^-\mu^+$ event is comptabilized in the background estimate both as an $e^+\mu^+$ event (with a weight w1) and as an $e^+e^-\mu^+$ event (with a weight $w_2\neq w1$).  
+Secondly, the analytic expression of the matrix method event weight depends on the lepton multiplicity of the final state. This concerns events with three or more candidate leptons: one such event takes part both in the evaluation of the FNP lepton background for a selection with two signal leptons or a selection with three signal leptons, but with different weights\footnote{This can appear for inclusive selections: for example an event with two signal leptons may or not contain additional candidate leptons, in a transparent way}. Therefore, for a given event used as input to the matrix method, one should consider all possible leptons combinations, each with its own weight and its own set of kinematic variables. For example, a $e^+e^-\mu^+$ event is used in the background estimate both as an $e^+\mu^+$ event (with a weight w1) and as an $e^+e^-\mu^+$ event (with a weight $w_2\neq w1$).  
 
 \subsection{Propagation of uncertainties}
 
