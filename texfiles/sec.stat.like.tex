@@ -50,55 +50,21 @@ Both signal and backgrounds depend on the nuisance parameter
 $\vect{\theta}$ which controls all independent sources of uncertainty 
 and will be \textit{profiled} (or constrained) in the $CL_s$ procedure
 described next.
+Correlations of a given nuisance parameter between the different sources of backgrounds 
+and the signal are taken into account when relevant. 
 To give an example, the luminosity uncertainty will have a mean 
 as the luminosity central value $ \theta_{\text{lumi}}^{\left(0\right)}$ and the 
 width as an experimentally determined 
 uncertainty $\sigma_{\theta_{\text{lumi}}}$. When evaluating the effect of the 
 luminosity uncertainty on the likelihood function, all terms involving the 
 nuisance parameter $\theta_{\text{lumi}}$ will be scaled in the same way 
-since luminosity is correlated across all terms.
+since luminosity is correlated across all backgrounds and signal.
 
-
-
-
-\begin{equation}
-q_{\mu} = 
-\begin{cases}
-  -2\ln\left(
-  \frac
-      {\mathcal{L} \left( \mu, \hat{\hat{\vect{\theta}}} \rvert \vect{X} \right)}
-      {\mathcal{L} \left( \hat{\mu}, \hat{\vect{\theta}} \rvert \vect{X} \right)}
- \right), & \text{if}\ \mu > \hat{\mu} \\
-      0, & \text{otherwise}
-    \end{cases}
-\end{equation}
-
-
-\begin{equation}
-p_{\mu} = \int_{q_{\mu}^{\left(\text{obs}\right)}}^{\infty} f\left(q_{\mu} \rvert \mu\right) \diff q_{\mu}
-\end{equation}
-
-
-\begin{equation}
-  CL_\mathrm{s+b}  = \Pr\left( q_{\mu} \geq q_{\mu}^{\left(\text{obs}\right)}
-  \rvert \mu
-  \right) < \alpha
-\end{equation}
-
-
-\begin{equation}
-  CL_\mathrm{s}  = \frac
-  {\Pr\left( q_{\mu} \geq q_{\mu}^{\left(\text{obs}\right)}\rvert \mu \right)}
-  {\Pr\left( q_{\mu} \geq q_{\mu}^{\left(\text{obs}\right)}\rvert \mu = 0 \right)}
-< \alpha
-\end{equation}
-
-
-\begin{equation}
-  q_{\mu} = 
-  \begin{cases}
-    \frac{\left(\mu - \hat{\mu}\right)^2}{\sigma^2} + \mathcal{O}\left(\frac{1}{\sqrt{N}}\right)
-    , & \text{if}\ \mu > \hat{\mu} \\
-    0, & \text{otherwise}
-  \end{cases}
-\end{equation}
+The likelihood function described in this section is used in a fit to data by 
+the maximum likelihood method that aims at finding the value of the 
+signal strenght $\mu$ 
+that makes the likelihood a maximum. The procedure relies on an iterative 
+minimization algorithm implemented in \textsc{Minuit} ??] and accessed by \textit{RooFit} ??].
+The final uncertainties on the nuisance parameters in $\vect{\theta}$, constrained 
+by the fit, are obtained from the covariance matrix of these parameters.
+%As noted, the hypothesis tests are performed for each of the signal regions, independently. 
