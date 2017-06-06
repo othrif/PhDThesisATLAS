@@ -195,3 +195,67 @@ of all identified candidate objects (electrons, photons~\cite{Aaboud:2016yuq}, m
 The soft term is constructed from all tracks associated with the primary vertex but not with any physics object. 
 In this way, the $\met$ is adjusted for the best calibration of the jets and the other identified physics objects listed above, 
 while maintaining approximate pile-up independence in the soft term~\cite{ATL-PHYS-PUB-2015-027, ATL-PHYS-PUB-2015-023}.
+
+\subsection{Data-MC comparisons}
+\label{subsec:sec.strategy.selection_DataMC}
+
+
+In order to validate the various choices made regarding the object definitions and event selection, 
+check their sensible behavior and their reasonable modelling in the simulations, 
+we looked at the distributions of several kinematic variables obtained with the full available data set.
+Figures~\ref{fig:dataMC_2lep}-\ref{fig:dataMC_metmeff} show such selected distributions in data compared to MC. 
+The background distributions are taken directly from MC with no data-driven estimation of the charge flip or non-prompt lepton backgrounds.
+
+Figure~\ref{fig:dataMC_2lep} shows the dilepton invariant mass distributions for both opposite-sign (OS) and same-sign (SS) dilepton events, 
+computed with the two leading $p_T$ leptons. 
+A very good agreement with MC is observed in the OS channels, with a clear $Z$-boson mass peak in the $ee$ and $\mu\mu$ channels. 
+In the SS channels, the $Z$-boson mass peak is also observed in the $ee$ channel due to electron charge mis-identification, with MC overestimating data.% by 20-30\%. 
+An accumulation of events at the $Z$-boson mass is also observed in the SS $e\mu$ and $\mu\mu$ channels due to three-lepton events 
+from either $Z$+jets with a fake lepton or from $WZ$ production.  
+
+The transverse momentum distributions of the signal leptons used in the analysis are shown in Figure~\ref{fig:dataMC_lep1}, with a reasonable data-MC agreement except at low 
+lepton $\pt$ where some discrepancies and accumulation of events involving fake leptons ($Z$+jets, $W$+jets, $\ttbar$) are observed. 
+%Jet and $b$-jet distributions are shown in Figures~\ref{fig:dataMC_jet}-\ref{fig:dataMC_bjet} 
+Figure~\ref{fig:dataMC_metmeff} shows the $\met$ and $m_{\rm eff}$ distributions.
+
+The background estimation, in Chapter ~\ref{chap:fake} and Chapter~\ref{chap:bkg}, will be dedicated to improving the estimates of the background prediction using data-driven methods.
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_ee_Incl_OS_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_ee_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_em_Incl_OS_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_em_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_mm_Incl_OS_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_mm_Incl_SS3L_log.pdf}}
+\caption{Dilepton invariant mass distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. No low-mass Drell-Yan sample is included. Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2lep}
+\end{figure}
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_ee_Incl_OS_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_ee_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_em_Incl_OS_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_em_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_mm_Incl_OS_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_mm_Incl_SS3L_log.pdf}}
+\caption{Signal lepton transverse momentum distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. The background contribution is taken directly from MC with no data-driven estimation of the background with fake and non-prompt leptons or charge mis-identification. 
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_lep1}
+\end{figure}
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=0.4\textwidth]{DATAMC/MET_ee_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Meff_ee_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/MET_em_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Meff_em_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/MET_mm_Incl_SS3L_log.pdf}}
+{\includegraphics[width=0.4\textwidth]{DATAMC/Meff_mm_Incl_SS3L_log.pdf}}
+\caption{Distributions of the $\met$ (left) and effective mass (right) for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. The background contribution is taken directly from MC with no data-driven estimation of the background with fake and non-prompt leptons or charge mis-identification. Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_metmeff}
+\end{figure}

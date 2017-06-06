@@ -26,17 +26,17 @@
 \BOOKMARK [2][-]{subsection.4.4.1}{Standalone Tests}{section.4.4}% 26
 \BOOKMARK [2][-]{subsection.4.4.2}{Full System Tests}{section.4.4}% 27
 \BOOKMARK [1][-]{section.4.5}{Online Performance in Run-2}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{Analysis Strategy}{}% 30
-\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 31
-\BOOKMARK [1][-]{section.5.2}{Phenomenology \(Benchmarking Models\)}{chapter.5}% 32
-\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 33
-\BOOKMARK [2][-]{subsection.5.3.1}{Collision Data}{section.5.3}% 34
-\BOOKMARK [2][-]{subsection.5.3.2}{Simulated Event Samples}{section.5.3}% 35
-\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 36
-\BOOKMARK [2][-]{subsection.5.4.1}{Pre-selection and event cleaning}{section.5.4}% 37
-\BOOKMARK [2][-]{subsection.5.4.2}{Trigger strategy}{section.5.4}% 38
-\BOOKMARK [2][-]{subsection.5.4.3}{Object definition}{section.5.4}% 39
+\BOOKMARK [0][-]{chapter.5}{Analysis Strategy}{}% 29
+\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.2}{Phenomenology \(Benchmarking Models\)}{chapter.5}% 31
+\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 32
+\BOOKMARK [2][-]{subsection.5.3.1}{Collision Data}{section.5.3}% 33
+\BOOKMARK [2][-]{subsection.5.3.2}{Simulated Event Samples}{section.5.3}% 34
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.4.1}{Pre-selection and event cleaning}{section.5.4}% 36
+\BOOKMARK [2][-]{subsection.5.4.2}{Trigger strategy}{section.5.4}% 37
+\BOOKMARK [2][-]{subsection.5.4.3}{Object definition}{section.5.4}% 38
+\BOOKMARK [2][-]{subsection.5.4.4}{Data-MC comparisons}{section.5.4}% 39
 \BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 40
 \BOOKMARK [1][-]{section.5.6}{Analysis Acceptance and Efficiency}{chapter.5}% 41
 \BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 42
@@ -86,4 +86,4 @@
 \BOOKMARK [1][-]{section.A.4}{Acceptance and Efficiency}{appendix.A}% 86
 \BOOKMARK [0][-]{appendix.B}{Validation of background estimates}{}% 87
 \BOOKMARK [0][-]{appendix.C}{HistFitter Tables}{}% 88
-\BOOKMARK [0][-]{appendix*.112}{References}{}% 89
+\BOOKMARK [0][-]{appendix*.115}{References}{}% 89

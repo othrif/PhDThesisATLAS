@@ -10,23 +10,23 @@ software suite with appropriately scaled test hardware to represent the remainin
 
 The goal was to test input/output bandwidth limitations of the RobinNP and the rate of event building. Initial performance testing used 
 a standalone RobinNP application and an external source that emulates the L1 trigger data 
-in the form of 32-bit word fragments with 12 channels. In this test, the host PC was running the assembly routine with a single threaded application.  Figure \ref{fig:fig:roib_summary} shows the input rate without 
+in the form of 32-bit word fragments with 12 channels. In this test, the host PC was running the assembly routine with a single threaded application.  Figure \ref{fig:roib_proto} shows the input rate without 
 event building as a function of fragment size. For 400 byte fragments the input rate to the RobinNP is 215 kHz. 
 The same figure 
 shows the event building rate which is 150 kHz. This performance shows that the event building 
 at the required rate of 100 kHz with 12 channels is achievable in a standalone application.  
 
 
-%% \begin{figure}[tbp] % figures (and tables) should go top or bottom of
-%%   % the page where they are first cited or in
-%%   % subsequent pages
-%%   \centering
-%%   \includegraphics[width=.7\textwidth]{fig:roib_summary.pdf}
-%%   \caption{Rate as a function of the fragment size (in bytes) with external source that emulates the L1 trigger input. 
-%%     The rates shown are for the input rate to the RobinNP without event building (EB) (triangle), rate with EB (circle), and 
-%%     for comparison, the current VMEbus RoIB rate is also shown (square).  }
-%%   \label{fig:fig:roib_summary}
-%% \end{figure}
+ \begin{figure}[tbp] % figures (and tables) should go top or bottom of
+   % the page where they are first cited or in
+   % subsequent pages
+   \centering
+   \includegraphics[width=.7\textwidth]{cern_robinnproib.pdf}
+   \caption{Rate as a function of the fragment size (in bytes) with external source that emulates the L1 trigger input. 
+     The rates shown are for the input rate to the RobinNP without event building (EB) (triangle), rate with EB (circle), and 
+     for comparison, the current VMEbus RoIB rate is also shown (square).  }
+   \label{fig:roib_proto}
+ \end{figure}
 
 
 \subsection{Full System Tests}\label{sec:perf_tdaq}
@@ -44,7 +44,51 @@ to seed requests for the event data to be processed.
                     % subsequent pages
 \centering
 \includegraphics[width=.98\textwidth]{12ch.png}
-\caption{Screenshot of a monitoring tool which shows the HLTSV processing rate using the ATLAS TDAQ software .}
+\caption{Screenshot of a monitoring tool which shows the HLTSV processing rate using the ATLAS TDAQ software.}
 \label{fig:partition}
 \end{figure}
 
+As shown in Figure \ref{fig:roib_summary}, the performance of the PC-RoIB with realistic running ATLAS conditions is improved over the VME-RoIB particularly at high RoI sizes and maintains a rate of over 100 kHz with 12 channels. 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.5\textwidth]{roib_summary_size} 
+\caption{The event building rate as a function of the RoI record size in Bytes. The rates are shown for a standalone application that implements 
+  a minimal interface for event building, the integrated RoIB software into an HLTSV process running within the full ATLAS TDAQ software suite, and for comparison the VME-RoIB performance.}
+\label{fig:roib_summary}
+\end{figure} 
+
+The design specification of the ATLAS L1 trigger is to send data at 100 kHz.
+While the tests above showed that the PC RoIB meets the desired rate 
+requirement in the case that an external source is sending data as fast 
+as possible (much more than 100 kHz), it is important to test that the 
+PC RoIB will sustain the 100 kHz rate if the external source sends data 
+at exactly 100 kHz. Figure~\ref{fig:roib.proto.rate_finala} demonstrates 
+that in the event that the incoming data to the PC RoIB is fixed at 
+100 kHz, the event building in the PC RoIB still operates at this rate.
+The other important variable that can affect the rate is the number of 
+channels. In particular, the ATLAS detector might decide to disable 
+some of the channels which should not affect the rate of operation of the 
+PC RoIB. Figure~\ref{fig:roib.perf.chan} shows that the PC RoIB will 
+operate at even higher rates if the number of channels is reduced.
+
+\begin{figure}[p!]
+  \centering
+  \begin{subfigure}{0.48\textwidth}
+    \includegraphics[width=\textwidth]{rate_final}
+    \subcaption{}
+    \label{fig:roib.proto.rate_finala}
+  \end{subfigure}
+  \begin{subfigure}{0.48\textwidth}
+    \includegraphics[width=\textwidth]{channel_tests}
+    \subcaption{}
+    \label{fig:roib.perf.chan}
+  \end{subfigure}
+  \caption{The event building rate as a function of (a) the fragment size
+(b) the number of channels. The rates are shown for a standalone application that implements 
+  a minimal interface for event building, the integrated RoIB software into an HLTSV process running within the full ATLAS TDAQ software suite.}
+  \label{fig:roib.perf.other}
+\end{figure}
+
+With these tests, the author validated the operation of the new PC RoIB
+which deemed it ready to be deployed in the ATLAS system.

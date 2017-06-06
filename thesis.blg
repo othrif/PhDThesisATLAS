@@ -215,7 +215,6 @@ Warning--empty title in alice
 Warning--empty pages in alice
 Warning--empty title in crorc
 Warning--empty pages in crorc
-Warning--empty title in 1748-0221-11-02-C02080
 Warning--empty title in SUSY-2014-06
 Warning--empty title in SUSY-2014-07
 Warning--empty title in Huang:2015fba
@@ -270,45 +269,45 @@ Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 80 entries,
+You've used 79 entries,
             2330 wiz_defined-function locations,
-            1157 strings with 20348 characters,
-and the built_in function-call counts, 19876 in all, are:
-= -- 1713
-> -- 628
+            1150 strings with 20008 characters,
+and the built_in function-call counts, 19479 in all, are:
+= -- 1685
+> -- 596
 < -- 0
-+ -- 250
-- -- 170
-* -- 1841
-:= -- 2245
-add.period$ -- 122
-call.type$ -- 80
++ -- 239
+- -- 160
+* -- 1806
+:= -- 2192
+add.period$ -- 121
+call.type$ -- 79
 change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 150
-duplicate$ -- 1143
-empty$ -- 2200
-format.name$ -- 170
-if$ -- 5118
+cite$ -- 148
+duplicate$ -- 1122
+empty$ -- 2173
+format.name$ -- 160
+if$ -- 5022
 int.to.chr$ -- 0
-int.to.str$ -- 80
-missing$ -- 282
-newline$ -- 325
-num.names$ -- 80
-pop$ -- 480
+int.to.str$ -- 79
+missing$ -- 277
+newline$ -- 322
+num.names$ -- 79
+pop$ -- 474
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 713
+skip$ -- 694
 stack$ -- 0
-substring$ -- 704
-swap$ -- 419
+substring$ -- 692
+swap$ -- 407
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 70
-while$ -- 145
-width$ -- 82
-write$ -- 629
+warning$ -- 69
+while$ -- 143
+width$ -- 81
+write$ -- 622
 (There were 45 error messages)
