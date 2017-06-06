@@ -1,5 +1,44 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{evolution1}
+N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
+
+\bibitem{evolution2}
+A.~Negri, J. Phys. Conf. Ser. {\bfseries 396} (2012) 012033,
+  \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
+
+\bibitem{l1}
+{ATLAS Collaboration}, ATLAS-TDR-12, 1998.
+
+\bibitem{hlt}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/616089}{CERN/LHCC/2003-022}, CERN Geneva
+  2003.
+
+\bibitem{ros}
+A.~Borga {et~al.}, PoS(TIPP2014)205, 2014.
+
+\bibitem{vme_roib}
+R.~Blair {et~al.}, 2008 JINST 3 P04001.
+
+\bibitem{swroib_past}
+R.~Blair {et~al.}, ATL-DQ-TR-0020, 2012.
+
+\bibitem{tilar}
+{CERN}, \url{http://www.cerntech.hu/products/15-tilar-express.html}, October
+  15, 2015.
+
+\bibitem{alice}
+H.~Engel and U.~Kebschull, 2013 JINST 8 C12016.
+
+\bibitem{crorc}
+A.~Borga {et~al.}, 2015 JINST 10 C02022.
+
+\bibitem{1748-0221-11-02-C02080}
+B.~Abbott, R.~Blair, G.~Crone, B.~Green, J.~Love, J.~Proudfoot, O.~Rifki,
+  W.~Vazquez, W.~Vandelli,  and J.~Zhang, Journal of Instrumentation {\bfseries
+  11} (2016) C02080, \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02080}.
+
 \bibitem{SUSY-2014-06}
 {ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP10(2015)054}{JHEP
   {\bfseries 10} (2015) 054}, \href{http://arxiv.org/abs/1507.05525}{{\ttfamily
@@ -313,12 +352,6 @@ G.~Cowan, K.~Cranmer, E.~Gross,  and O.~Vitells,
 A.~L. Read, Journal of Physics G: Nuclear and Particle Physics {\bfseries 28}
   (2002) 2693, \url{http://stacks.iop.org/0954-3899/28/i=10/a=313}.
 
-\bibitem{Baak:2014wma}
-M.~Baak {et~al.}, \href{http://dx.doi.org/10.1140/epjc/s10052-015-3327-7}{Eur.
-  Phys. J. C {\bfseries 75} (2015) 153},
-\href{http://arxiv.org/abs/1410.1280}{{\ttfamily arXiv:1410.1280 [hep-ex]}}.
-%%CITATION = ARXIV:1410.1280;%%.
-
 \bibitem{minuit}
 
 F.~James.
@@ -358,19 +391,26 @@ S.~S. Wilks,
 A.~Wald, Transactions of the American Mathematical Society {\bfseries 54}
   (1943) 426--482, \url{http://www.jstor.org/stable/1990256}.
 
-\bibitem{paperSS3L}
-{ATLAS} Collaboration, {ATLAS Collaboration},
-  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4095-8}{Eur. Phys. J. C
-  {\bfseries 76} (2016) 259},
-\href{http://arxiv.org/abs/1602.09058}{{\ttfamily arXiv:1602.09058 [hep-ex]}}.
-%%CITATION = ARXIV:1602.09058;%%.
+\bibitem{asimov}
+I.~Asimov, {\em Franchise}.
+\newblock Creative Education, 1~ed., May, 1989.
 
-\bibitem{Aad:2016jxj}
-{ATLAS} Collaboration, {ATLAS Collaboration},
-  \href{http://dx.doi.org/10.1016/j.physletb.2016.04.005}{Phys. Lett.
-  {\bfseries B757} (2016) 334--355},
-\href{http://arxiv.org/abs/1602.06194}{{\ttfamily arXiv:1602.06194 [hep-ex]}}.
-%%CITATION = ARXIV:1602.06194;%%.
+\bibitem{Baak:2014wma}
+M.~Baak {et~al.}, \href{http://dx.doi.org/10.1140/epjc/s10052-015-3327-7}{Eur.
+  Phys. J. C {\bfseries 75} (2015) 153},
+\href{http://arxiv.org/abs/1410.1280}{{\ttfamily arXiv:1410.1280 [hep-ex]}}.
+%%CITATION = ARXIV:1410.1280;%%.
+
+\bibitem{Cranmer:1456844}
+K.~Cranmer, G.~Lewis, L.~Moneta, A.~Shibata,  and W.~Verkerke,
+  Cern-open-2012-016, \url{http://cds.cern.ch/record/1456844}.
+
+\bibitem{Verkerke:2003ir}
+W.~Verkerke and D.~P. Kirkby, eConf {\bfseries C0303241} (2003) MOLT007,
+  \href{http://arxiv.org/abs/physics/0306116}{{\ttfamily arXiv:physics/0306116
+  [physics]}},
+[,186(2003)].
+%%CITATION = PHYSICS/0306116;%%.
 
 \bibitem{Read:2002hq}
 A.~L. Read,
@@ -389,5 +429,19 @@ J.~Ellis, K.~A. Olive,  and Y.~Santoso,
   \href{http://dx.doi.org/10.1016/S0370-2693(02)02071-3}{Phys. Lett. B
   {\bfseries 539} (2002) 107--118},
   \href{http://arxiv.org/abs/hep-ph/0204192}{{\ttfamily arXiv:hep-ph/0204192}}.
+
+\bibitem{paperSS3L}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4095-8}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 259},
+\href{http://arxiv.org/abs/1602.09058}{{\ttfamily arXiv:1602.09058 [hep-ex]}}.
+%%CITATION = ARXIV:1602.09058;%%.
+
+\bibitem{Aad:2016jxj}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1016/j.physletb.2016.04.005}{Phys. Lett.
+  {\bfseries B757} (2016) 334--355},
+\href{http://arxiv.org/abs/1602.06194}{{\ttfamily arXiv:1602.06194 [hep-ex]}}.
+%%CITATION = ARXIV:1602.06194;%%.
 
 \end{thebibliography}\endgroup

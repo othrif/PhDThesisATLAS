@@ -20,7 +20,7 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{System Performance and Evolution}{section.4.2}% 20
 \BOOKMARK [1][-]{section.4.3}{PC based RoIB}{chapter.4}% 21
 \BOOKMARK [2][-]{subsection.4.3.1}{The Common Readout Receiver Card}{section.4.3}% 22
-\BOOKMARK [2][-]{subsection.4.3.2}{Readout System Firmware \046 Software}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.2}{Readout System Firmware and Software}{section.4.3}% 23
 \BOOKMARK [2][-]{subsection.4.3.3}{RoIB Software}{section.4.3}% 24
 \BOOKMARK [1][-]{section.4.4}{Prototype Tests}{chapter.4}% 25
 \BOOKMARK [2][-]{subsection.4.4.1}{Standalone Tests}{section.4.4}% 26
@@ -38,37 +38,52 @@
 \BOOKMARK [2][-]{subsection.5.4.2}{Trigger strategy}{section.5.4}% 38
 \BOOKMARK [2][-]{subsection.5.4.3}{Object definition}{section.5.4}% 39
 \BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 41
-\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 44
-\BOOKMARK [2][-]{subsection.6.3.1}{Motivation}{section.6.3}% 45
-\BOOKMARK [2][-]{subsection.6.3.2}{Description of the method}{section.6.3}% 46
-\BOOKMARK [2][-]{subsection.6.3.3}{Correction factors}{section.6.3}% 47
-\BOOKMARK [2][-]{subsection.6.3.4}{Control regions}{section.6.3}% 48
-\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 49
-\BOOKMARK [2][-]{subsection.6.4.1}{Events with one object}{section.6.4}% 50
-\BOOKMARK [2][-]{subsection.6.4.2}{Dynamic matrix method}{section.6.4}% 51
-\BOOKMARK [2][-]{subsection.6.4.3}{Propagation of uncertainties}{section.6.4}% 52
-\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 53
-\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 55
-\BOOKMARK [2][-]{subsection.7.2.1}{Expected yields in the signal regions}{section.7.2}% 56
-\BOOKMARK [2][-]{subsection.7.2.2}{Validation regions}{section.7.2}% 57
-\BOOKMARK [2][-]{subsection.7.2.3}{Validation of irreducible background estimates}{section.7.2}% 58
-\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 59
-\BOOKMARK [2][-]{subsection.7.3.1}{Charge-flip Background}{section.7.3}% 60
-\BOOKMARK [2][-]{subsection.7.3.2}{Matrix Method}{section.7.3}% 61
-\BOOKMARK [2][-]{subsection.7.3.3}{MC Template Method}{section.7.3}% 62
-\BOOKMARK [2][-]{subsection.7.3.4}{Reducible Background Validation}{section.7.3}% 63
-\BOOKMARK [1][-]{section.7.4}{Systematic uncertainties}{chapter.7}% 64
-\BOOKMARK [2][-]{subsection.7.4.1}{Theoretical Uncertainties}{section.7.4}% 65
-\BOOKMARK [2][-]{subsection.7.4.2}{Experimental Uncertainties}{section.7.4}% 66
-\BOOKMARK [0][-]{chapter.8}{Statistical Treatment}{}% 67
-\BOOKMARK [1][-]{section.8.1}{Likelihood Function}{chapter.8}% 68
-\BOOKMARK [1][-]{section.8.2}{Limit Setting Procedure}{chapter.8}% 69
-\BOOKMARK [0][-]{chapter.9}{Results and Interpretation}{}% 70
-\BOOKMARK [0][-]{chapter.10}{Conclusions}{}% 71
-\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 72
-\BOOKMARK [0][-]{appendix.B}{Validation of background estimates}{}% 73
-\BOOKMARK [0][-]{appendix*.107}{References}{}% 74
+\BOOKMARK [1][-]{section.5.6}{Analysis Acceptance and Efficiency}{chapter.5}% 41
+\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 42
+\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 45
+\BOOKMARK [2][-]{subsection.6.3.1}{Motivation}{section.6.3}% 46
+\BOOKMARK [2][-]{subsection.6.3.2}{Description of the method}{section.6.3}% 47
+\BOOKMARK [2][-]{subsection.6.3.3}{Correction factors}{section.6.3}% 48
+\BOOKMARK [2][-]{subsection.6.3.4}{Control regions}{section.6.3}% 49
+\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 50
+\BOOKMARK [2][-]{subsection.6.4.1}{Events with one object}{section.6.4}% 51
+\BOOKMARK [2][-]{subsection.6.4.2}{Dynamic matrix method}{section.6.4}% 52
+\BOOKMARK [2][-]{subsection.6.4.3}{Propagation of uncertainties}{section.6.4}% 53
+\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 54
+\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 56
+\BOOKMARK [2][-]{subsection.7.2.1}{Expected yields in the signal regions}{section.7.2}% 57
+\BOOKMARK [2][-]{subsection.7.2.2}{Validation regions}{section.7.2}% 58
+\BOOKMARK [2][-]{subsection.7.2.3}{Validation of irreducible background estimates}{section.7.2}% 59
+\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.3.1}{Charge-flip Background}{section.7.3}% 61
+\BOOKMARK [2][-]{subsection.7.3.2}{Matrix Method}{section.7.3}% 62
+\BOOKMARK [2][-]{subsection.7.3.3}{MC Template Method}{section.7.3}% 63
+\BOOKMARK [2][-]{subsection.7.3.4}{Reducible Background Validation}{section.7.3}% 64
+\BOOKMARK [1][-]{section.7.4}{Systematic uncertainties}{chapter.7}% 65
+\BOOKMARK [2][-]{subsection.7.4.1}{Theoretical Uncertainties}{section.7.4}% 66
+\BOOKMARK [2][-]{subsection.7.4.2}{Experimental Uncertainties}{section.7.4}% 67
+\BOOKMARK [0][-]{chapter.8}{Statistical Treatment}{}% 68
+\BOOKMARK [1][-]{section.8.1}{Likelihood Function}{chapter.8}% 69
+\BOOKMARK [1][-]{section.8.2}{Limit Setting Procedure}{chapter.8}% 70
+\BOOKMARK [2][-]{subsection.8.2.1}{Profile Likelihood Ratio}{section.8.2}% 71
+\BOOKMARK [2][-]{subsection.8.2.2}{The p-value}{section.8.2}% 72
+\BOOKMARK [2][-]{subsection.8.2.3}{The CLs Prescription}{section.8.2}% 73
+\BOOKMARK [2][-]{subsection.8.2.4}{Approximate Sampling Distributions}{section.8.2}% 74
+\BOOKMARK [1][-]{section.8.3}{Statistical Implementation}{chapter.8}% 75
+\BOOKMARK [0][-]{chapter.9}{Results and Interpretation}{}% 76
+\BOOKMARK [1][-]{section.9.1}{Predictions and Observations}{chapter.9}% 77
+\BOOKMARK [1][-]{section.9.2}{Statistical Interpretation}{chapter.9}% 78
+\BOOKMARK [2][-]{subsection.9.2.1}{Model independent discovery and upper limits}{section.9.2}% 79
+\BOOKMARK [2][-]{subsection.9.2.2}{Model dependent exclusion limits}{section.9.2}% 80
+\BOOKMARK [0][-]{chapter.10}{Conclusions}{}% 81
+\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 82
+\BOOKMARK [1][-]{section.A.1}{Signal region with best exclusion}{appendix.A}% 83
+\BOOKMARK [1][-]{section.A.2}{Upper limit on cross section}{appendix.A}% 84
+\BOOKMARK [1][-]{section.A.3}{Signal region cutflow}{appendix.A}% 85
+\BOOKMARK [1][-]{section.A.4}{Acceptance and Efficiency}{appendix.A}% 86
+\BOOKMARK [0][-]{appendix.B}{Validation of background estimates}{}% 87
+\BOOKMARK [0][-]{appendix.C}{HistFitter Tables}{}% 88
+\BOOKMARK [0][-]{appendix*.112}{References}{}% 89

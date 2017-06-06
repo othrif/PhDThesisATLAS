@@ -1,4 +1,4 @@
-\subsection*{Profile likelihood ratio test}
+\subsection{Profile Likelihood Ratio}
 
 The procedure for setting exclusion limits using the likelihood function 
 (Eq.\ref{eq:stat.like.Pr})
@@ -44,7 +44,7 @@ q_{0}  \left( \vect{X} \right)=
     \end{cases}
 \end{equation}
 
-\subsection*{The $p$-value}
+\subsection{The $p$-value}
 
 At this stage, a test statistic $q_{\mu}$ has been constructed to distinguish between the hypothesis 
 that the data contains signal and background $\mu>0$ and that of background only $\mu=0$.
@@ -83,8 +83,26 @@ p_{0} = \Pr\left(q_{0} \geq q_{0}^{\left(\text{obs}\right)} \rvert 0 \right) = \
 \end{equation}
 and can be interpreted as the probability of the observation to be consistent with the background only hypothesis:
 the smaller the $p_{0}$ value is, the less compatible data is with the background only hypothesis. 
+In order to claim a discovery in particle physics, 
+the background-only hypothesis must be rejected using the $p_0$-value. 
+However, there is an ambiguity related to how small the $p_0$-value needs to 
+be, before declairing a discovery. 
+The problem can also be formulated in terms of significance.
+Assuming a Gaussian distributed variable, how many $Z$ standard deviations 
+$\sigma$ above the mean are required to cover an upper-tail probability equal 
+to $p$ expressed as 
+\begin{equation}
+Z = \Phi^{-1}\left(1-p\right)
+\end{equation}
+ where $\Phi$ is the Gaussian cumulative distribution.
+The particle physics community considers a discovery if $Z=5$, commonly 
+used ``five sigma excess'' statement, which corresponds to 
+$p_0 = 2.87\times 10^{-7}$ or one in 3.5 million probability for the background
+ to be as extreme as the observation. In order to announce evidence for a 
+new particle, a significance of $Z=3$ or $p_0 = 1.35\times 10^{-3}$ is required.
 
-\subsection*{The $CL_\mathrm{s}$ Prescription}
+
+\subsection{The $CL_\mathrm{s}$ Prescription}
 The next step is to define a confidence interval ($CI$) that includes the parameter $\mu$ at a specified confidence level ($CL$). 
 In other words, instead of estimating the parameter $\mu$ by a single value, an interval $CI$ likely to include the parameter is given.
 The $CL$ provides a quantitative statement on how likely the interval $CI$ is to contain the parameter $\mu$. 
@@ -133,7 +151,7 @@ and the $CL_\mathrm{s+b}$ value is increased more leading to a weaker upper limi
 Similar to the case of $CL_\mathrm{s+b}$, the upper limit on $S_{up}^{95}$ is taken as the largest value of the parameter
 $S$ not excluded.
 
-\subsection*{Approximate sampling distributions}
+\subsection{Approximate Sampling Distributions}
 
 The remaining task is to determine the sampling distributions
 $f\left(q_{0} \rvert 0\right)$ and $f\left(q_{\mu} \rvert \mu\right)$
@@ -163,10 +181,14 @@ by Wilks \cite{Wilks:1938dza} and Wald \cite{Wald:ams1943} who showed that for a
 \end{equation}
 where $\mu$ is a Gaussian distribution with a mean $\bar{\mu}$ and 
 standard deviation $\sigma$, and a sample size $N$. In the case where 
-$\mu = \hat{\mu}$, the test statistic $q_{\mu}$ follows a $Chi^2$ distribution
-for one degree of freedom. 
+$\mu = \hat{\mu}$, the test statistic $q_{\mu}$ follows a $\chi^2$ distribution
+with one degree of freedom. 
 The variance $\sigma^2$ is obtained from an artificial data set called the 
-``Asimov data set'' that verifies $X_A = \bar{\mu} s + b$. 
+``Asimov data set''
+\footnote{Inspired from the short story \textit{Franchise}\cite{asimov} by Isaac Asimov that entails replacing a single voter that represents the entire electorate 
+population in an election. Similarly, an ensemble of pseudo-experiments 
+can be replaced by a single representative data set.}
+ that verifies $X_A = \bar{\mu} s + b$. 
 From Eq.\ref{eq:stat.model.asymp}, the variance is then 
 $\sigma^2 = \left( \mu - \bar{\mu} \right)^2/q_{\mu,A}$, where $q_{\mu,A}$ 
 is evaluated from the exact expression of $q_{\mu}$ using the Asimov data set.

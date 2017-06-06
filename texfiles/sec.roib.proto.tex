@@ -10,23 +10,23 @@ software suite with appropriately scaled test hardware to represent the remainin
 
 The goal was to test input/output bandwidth limitations of the RobinNP and the rate of event building. Initial performance testing used 
 a standalone RobinNP application and an external source that emulates the L1 trigger data 
-in the form of 32-bit word fragments with 12 channels. In this test, the host PC was running the assembly routine with a single threaded application.  Figure \ref{fig:cern_robinnproib} shows the input rate without 
+in the form of 32-bit word fragments with 12 channels. In this test, the host PC was running the assembly routine with a single threaded application.  Figure \ref{fig:fig:roib_summary} shows the input rate without 
 event building as a function of fragment size. For 400 byte fragments the input rate to the RobinNP is 215 kHz. 
 The same figure 
 shows the event building rate which is 150 kHz. This performance shows that the event building 
 at the required rate of 100 kHz with 12 channels is achievable in a standalone application.  
 
 
-\begin{figure}[tbp] % figures (and tables) should go top or bottom of
-                    % the page where they are first cited or in
-                    % subsequent pages
-\centering
-\includegraphics[width=.7\textwidth]{cern_robinnproib.pdf}
-\caption{Rate as a function of the fragment size (in bytes) with external source that emulates the L1 trigger input. 
-The rates shown are for the input rate to the RobinNP without event building (EB) (triangle), rate with EB (circle), and 
-for comparison, the current VMEbus RoIB rate is also shown (square).  }
-\label{fig:cern_robinnproib}
-\end{figure}
+%% \begin{figure}[tbp] % figures (and tables) should go top or bottom of
+%%   % the page where they are first cited or in
+%%   % subsequent pages
+%%   \centering
+%%   \includegraphics[width=.7\textwidth]{fig:roib_summary.pdf}
+%%   \caption{Rate as a function of the fragment size (in bytes) with external source that emulates the L1 trigger input. 
+%%     The rates shown are for the input rate to the RobinNP without event building (EB) (triangle), rate with EB (circle), and 
+%%     for comparison, the current VMEbus RoIB rate is also shown (square).  }
+%%   \label{fig:fig:roib_summary}
+%% \end{figure}
 
 
 \subsection{Full System Tests}\label{sec:perf_tdaq}

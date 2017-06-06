@@ -1,0 +1,25 @@
+The statistical interpretations of the observations 
+are performed with the \texttt{HistFitter} framework~\cite{Baak:2014wma}, commonly in use within the SUSY ATLAS working group. 
+It consists of a user-friendly abstraction layer to the \texttt{HistFactory} and \texttt{RooFit} frameworks~\cite{Cranmer:1456844,Verkerke:2003ir}, 
+to which it delegates the tasks of building a probabilistic representation of the analysis, and performing hypothesis tests. 
+\texttt{HistFitter} also provides several related utilities, 
+such as the creation of summary tables of yields and uncertainties, or the creation of exclusion plots such as those presented in Chapter~\ref{chap:res}.
+
+The likelihood function implemented in \texttt{HistFitter} is built as the 
+product of a Poisson probability density function describing the observed 
+number of events in the signal region 
+and, to constrain the nuisance parameters associated with the systematic 
+uncertainties, 
+Gaussian distributions whose widths correspond to the sizes of these 
+uncertainties; 
+Poisson distributions are used instead for MC simulation statistical 
+uncertainties.
+Correlations of a given nuisance parameter between the backgrounds and the 
+signal are taken into account when relevant. 
+The hypothesis tests are performed for each of the signal regions 
+independently. 
+In order to determine which signal region is used to set an exclusion limit 
+on a particular model, the expected $CL_s$ value is computed for each signal 
+region at a given point in the signal parameter space. The signal 
+region with the smallest expected  $CL_s$ value (more disagreement with data 
+under the signal hypothesis) is used to set an exclusion limit on the model.

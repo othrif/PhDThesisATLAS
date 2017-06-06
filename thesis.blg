@@ -143,6 +143,11 @@ Repeated entry---line 2681 of file thesis.bib
  : @techreport{ATLAS-CONF-2014-018
  :                                ,
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2882 of file thesis.bib
+ : 
+ : %"proceedings of
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Database file #2: bibtex/bib/ATLAS.bib
 Repeated entry---line 8148 of file bibtex/bib/ATLAS.bib
  : @article{Aad:2016jxj
@@ -191,17 +196,26 @@ Repeated entry---line 5812 of file bibtex/bib/ConfNotes.bib
  : @booklet{ATLAS-CONF-2016-037
  :                             ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "atlas"
-Warning--I didn't find a database entry for "evolution"
-Warning--I didn't find a database entry for "l1"
-Warning--I didn't find a database entry for "hlt"
-Warning--I didn't find a database entry for "ros"
-Warning--I didn't find a database entry for "vme_roib"
-Warning--I didn't find a database entry for "swroib_past"
-Warning--I didn't find a database entry for "tilar"
-Warning--I didn't find a database entry for "alice"
-Warning--I didn't find a database entry for "crorc"
-Warning--I didn't find a database entry for "1748-0221-11-02-C02080"
+Warning--empty title in evolution1
+Warning--empty pages in evolution1
+Warning--empty title in evolution2
+Warning--empty title in l1
+Warning--empty pages in l1
+Warning--empty title in hlt
+Warning--empty pages in hlt
+Warning--empty title in ros
+Warning--empty pages in ros
+Warning--empty title in vme_roib
+Warning--empty pages in vme_roib
+Warning--empty title in swroib_past
+Warning--empty pages in swroib_past
+Warning--empty title in tilar
+Warning--empty pages in tilar
+Warning--empty title in alice
+Warning--empty pages in alice
+Warning--empty title in crorc
+Warning--empty pages in crorc
+Warning--empty title in 1748-0221-11-02-C02080
 Warning--empty title in SUSY-2014-06
 Warning--empty title in SUSY-2014-07
 Warning--empty title in Huang:2015fba
@@ -243,57 +257,58 @@ Warning--empty title in Aaboud:2016yuq
 Warning--empty title in Cousins:2009
 Warning--empty title in Cowan:2010js
 Warning--empty title in Read:2002
-Warning--empty title in Baak:2014wma
 Warning--empty title in minuit
 Warning--empty title in Moneta:2010pm
 Warning--empty title in Antcheva:2009zz
 Warning--empty title in Neyman289
 Warning--empty title in Wilks:1938dza
 Warning--empty title in Wald:ams1943
-Warning--empty title in paperSS3L
-Warning--empty title in Aad:2016jxj
+Warning--empty title in Baak:2014wma
+Warning--empty title in Verkerke:2003ir
 Warning--empty title in Read:2002hq
 Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
-You've used 66 entries,
+Warning--empty title in paperSS3L
+Warning--empty title in Aad:2016jxj
+You've used 80 entries,
             2330 wiz_defined-function locations,
-            1100 strings with 18361 characters,
-and the built_in function-call counts, 17117 in all, are:
-= -- 1511
-> -- 507
+            1157 strings with 20348 characters,
+and the built_in function-call counts, 19876 in all, are:
+= -- 1713
+> -- 628
 < -- 0
-+ -- 203
-- -- 137
-* -- 1644
-:= -- 1910
-add.period$ -- 106
-call.type$ -- 66
-change.case$ -- 31
++ -- 250
+- -- 170
+* -- 1841
+:= -- 2245
+add.period$ -- 122
+call.type$ -- 80
+change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 972
-empty$ -- 1873
-format.name$ -- 137
-if$ -- 4414
+cite$ -- 150
+duplicate$ -- 1143
+empty$ -- 2200
+format.name$ -- 170
+if$ -- 5118
 int.to.chr$ -- 0
-int.to.str$ -- 66
-missing$ -- 229
-newline$ -- 280
-num.names$ -- 66
-pop$ -- 392
+int.to.str$ -- 80
+missing$ -- 282
+newline$ -- 325
+num.names$ -- 80
+pop$ -- 480
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 632
+skip$ -- 713
 stack$ -- 0
-substring$ -- 666
-swap$ -- 380
+substring$ -- 704
+swap$ -- 419
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 49
-while$ -- 128
-width$ -- 68
-write$ -- 534
-(There were 44 error messages)
+warning$ -- 70
+while$ -- 145
+width$ -- 82
+write$ -- 629
+(There were 45 error messages)
