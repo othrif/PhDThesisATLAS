@@ -76,14 +76,14 @@
 \contentsline {chapter}{\numberline {9}Results and Interpretation}{145}{chapter.9}
 \contentsline {section}{\numberline {9.1}Predictions and Observations}{145}{section.9.1}
 \contentsline {section}{\numberline {9.2}Statistical Interpretation}{148}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{150}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{150}{subsection.9.2.2}
-\contentsline {chapter}{\numberline {10}Conclusions}{159}{chapter.10}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{160}{appendix.A}
-\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{160}{section.A.1}
-\contentsline {section}{\numberline {A.2}Upper limit on cross section}{162}{section.A.2}
-\contentsline {section}{\numberline {A.3}Signal region cutflow}{164}{section.A.3}
-\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{164}{section.A.4}
-\contentsline {chapter}{\numberline {B}Validation of background estimates}{182}{appendix.B}
-\contentsline {chapter}{\numberline {C}HistFitter Tables}{183}{appendix.C}
+\contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{151}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{151}{subsection.9.2.2}
+\contentsline {chapter}{\numberline {10}Conclusions}{160}{chapter.10}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{161}{appendix.A}
+\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{161}{section.A.1}
+\contentsline {section}{\numberline {A.2}Upper limit on cross section}{163}{section.A.2}
+\contentsline {section}{\numberline {A.3}Signal region cutflow}{165}{section.A.3}
+\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{165}{section.A.4}
+\contentsline {chapter}{\numberline {B}Validation of background estimates}{183}{appendix.B}
+\contentsline {chapter}{\numberline {C}HistFitter Tables}{184}{appendix.C}
 \contentsline {chapter}{References}{185}{appendix*.115}
