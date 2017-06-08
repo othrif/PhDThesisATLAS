@@ -2,88 +2,88 @@
 \contentsline {chapter}{Abstract}{viii}{chapter*.4}
 \contentsline {chapter}{Preface}{ix}{chapter*.5}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Theoretical Background}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Supersymmetry}{2}{section.2.2}
-\contentsline {section}{\numberline {2.3}Phenomenology at the LHC}{2}{section.2.3}
-\contentsline {chapter}{\numberline {3}Experimental Apparatus}{3}{chapter.3}
-\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{3}{section.3.1}
-\contentsline {section}{\numberline {3.2}A Toroidal LHC Apparatus (ATLAS)}{3}{section.3.2}
-\contentsline {section}{\numberline {3.3}ATLAS Detector}{3}{section.3.3}
-\contentsline {section}{\numberline {3.4}ATLAS Trigger and Data Acquisition System}{3}{section.3.4}
-\contentsline {section}{\numberline {3.5}Event Simulation}{3}{section.3.5}
-\contentsline {section}{\numberline {3.6}Reconstruction and Identification Techniques}{3}{section.3.6}
-\contentsline {chapter}{\numberline {4}The Region of Interest Builder}{4}{chapter.4}
-\contentsline {section}{\numberline {4.1}Overview}{4}{section.4.1}
-\contentsline {section}{\numberline {4.2}VMEbus based RoIB}{5}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Hardware implementation}{5}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}System Performance and Evolution}{8}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}PC based RoIB}{9}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}The Common Readout Receiver Card}{9}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Readout System Firmware and Software}{10}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}RoIB Software}{12}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Prototype Tests}{13}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Standalone Tests}{13}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Full System Tests}{14}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Online Performance in Run-2}{17}{section.4.5}
-\contentsline {chapter}{\numberline {5}Analysis Strategy}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Overview}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Phenomenology (Benchmarking Models)}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Dataset and Simulated Event Samples}{29}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Collision Data}{29}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Simulated Event Samples}{30}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Event Selection}{37}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Pre-selection and event cleaning}{37}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Trigger strategy}{39}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Object definition}{40}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Data-MC comparisons}{44}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Signal Regions}{45}{section.5.5}
-\contentsline {section}{\numberline {5.6}Analysis Acceptance and Efficiency}{50}{section.5.6}
-\contentsline {chapter}{\numberline {6}Data-driven Background Estimation Techniques}{63}{chapter.6}
-\contentsline {section}{\numberline {6.1}The problem of fakes}{63}{section.6.1}
-\contentsline {section}{\numberline {6.2}Common processes for faking leptons}{64}{section.6.2}
-\contentsline {section}{\numberline {6.3}The Monte Carlo Template Method}{66}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Motivation}{66}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Description of the method}{67}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Correction factors}{68}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Control regions}{69}{subsection.6.3.4}
-\contentsline {section}{\numberline {6.4}Matrix Method}{71}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Events with one object}{74}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Dynamic matrix method}{76}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Propagation of uncertainties}{81}{subsection.6.4.3}
-\contentsline {chapter}{\numberline {7}Background Estimation}{82}{chapter.7}
-\contentsline {section}{\numberline {7.1}Overview}{82}{section.7.1}
-\contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{82}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Expected yields in the signal regions}{82}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Validation regions}{83}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Validation of irreducible background estimates}{88}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{89}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{90}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{98}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}MC Template Method}{112}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{114}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Systematic uncertainties}{118}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{118}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{121}{subsection.7.4.2}
-\contentsline {chapter}{\numberline {8}Statistical Treatment}{134}{chapter.8}
-\contentsline {section}{\numberline {8.1}Likelihood Function}{135}{section.8.1}
-\contentsline {section}{\numberline {8.2}Limit Setting Procedure}{137}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Profile Likelihood Ratio}{137}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}The $p$-value}{138}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}The $CL_\mathrm {s}$ Prescription}{140}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Approximate Sampling Distributions}{142}{subsection.8.2.4}
-\contentsline {section}{\numberline {8.3}Statistical Implementation}{143}{section.8.3}
-\contentsline {chapter}{\numberline {9}Results and Interpretation}{145}{chapter.9}
-\contentsline {section}{\numberline {9.1}Predictions and Observations}{145}{section.9.1}
-\contentsline {section}{\numberline {9.2}Statistical Interpretation}{148}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{151}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{151}{subsection.9.2.2}
-\contentsline {chapter}{\numberline {10}Conclusions}{160}{chapter.10}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{161}{appendix.A}
-\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{161}{section.A.1}
-\contentsline {section}{\numberline {A.2}Upper limit on cross section}{163}{section.A.2}
-\contentsline {section}{\numberline {A.3}Signal region cutflow}{165}{section.A.3}
-\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{165}{section.A.4}
-\contentsline {chapter}{\numberline {B}Validation of background estimates}{183}{appendix.B}
-\contentsline {chapter}{\numberline {C}HistFitter Tables}{184}{appendix.C}
-\contentsline {chapter}{References}{185}{appendix*.115}
+\contentsline {chapter}{\numberline {2}Theoretical Background}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Supersymmetry}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Phenomenology at the LHC}{3}{section.2.3}
+\contentsline {chapter}{\numberline {3}Experimental Apparatus}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}The Large Hadron Collider}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}A Toroidal LHC Apparatus (ATLAS)}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}ATLAS Detector}{4}{section.3.3}
+\contentsline {section}{\numberline {3.4}ATLAS Trigger and Data Acquisition System}{4}{section.3.4}
+\contentsline {section}{\numberline {3.5}Event Simulation}{4}{section.3.5}
+\contentsline {section}{\numberline {3.6}Reconstruction and Identification Techniques}{4}{section.3.6}
+\contentsline {chapter}{\numberline {4}The Region of Interest Builder}{5}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview}{5}{section.4.1}
+\contentsline {section}{\numberline {4.2}VMEbus based RoIB}{6}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Hardware implementation}{6}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}System Performance and Evolution}{9}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}PC based RoIB}{10}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}The Common Readout Receiver Card}{10}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Readout System Firmware and Software}{11}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}RoIB Software}{13}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Prototype Tests}{14}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Standalone Tests}{14}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Full System Tests}{15}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Online Performance in Run-2}{18}{section.4.5}
+\contentsline {chapter}{\numberline {5}Analysis Strategy}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Overview}{20}{section.5.1}
+\contentsline {section}{\numberline {5.2}Phenomenology (Benchmarking Models)}{22}{section.5.2}
+\contentsline {section}{\numberline {5.3}Dataset and Simulated Event Samples}{30}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Collision Data}{30}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Simulated Event Samples}{31}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Event Selection}{38}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Pre-selection and event cleaning}{38}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Trigger strategy}{40}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Object definition}{41}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Data-MC comparisons}{45}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Signal Regions}{46}{section.5.5}
+\contentsline {section}{\numberline {5.6}Analysis Acceptance and Efficiency}{51}{section.5.6}
+\contentsline {chapter}{\numberline {6}Data-driven Background Estimation Techniques}{64}{chapter.6}
+\contentsline {section}{\numberline {6.1}The problem of fakes}{64}{section.6.1}
+\contentsline {section}{\numberline {6.2}Common processes for faking leptons}{65}{section.6.2}
+\contentsline {section}{\numberline {6.3}The Monte Carlo Template Method}{67}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Motivation}{67}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Description of the method}{68}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Correction factors}{69}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Control regions}{70}{subsection.6.3.4}
+\contentsline {section}{\numberline {6.4}Matrix Method}{72}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Events with one object}{75}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Dynamic matrix method}{77}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Propagation of uncertainties}{82}{subsection.6.4.3}
+\contentsline {chapter}{\numberline {7}Background Estimation}{83}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overview}{83}{section.7.1}
+\contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{83}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Expected yields in the signal regions}{83}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Validation regions}{84}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Validation of irreducible background estimates}{89}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{90}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{91}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{99}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}MC Template Method}{113}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{115}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Systematic uncertainties}{119}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{119}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{122}{subsection.7.4.2}
+\contentsline {chapter}{\numberline {8}Statistical Treatment}{135}{chapter.8}
+\contentsline {section}{\numberline {8.1}Likelihood Function}{136}{section.8.1}
+\contentsline {section}{\numberline {8.2}Limit Setting Procedure}{138}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Profile Likelihood Ratio}{138}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}The $p$-value}{139}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}The $CL_\mathrm {s}$ Prescription}{141}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Approximate Sampling Distributions}{143}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Statistical Implementation}{144}{section.8.3}
+\contentsline {chapter}{\numberline {9}Results and Interpretation}{146}{chapter.9}
+\contentsline {section}{\numberline {9.1}Predictions and Observations}{146}{section.9.1}
+\contentsline {section}{\numberline {9.2}Statistical Interpretation}{149}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{152}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{152}{subsection.9.2.2}
+\contentsline {chapter}{\numberline {10}Conclusions}{161}{chapter.10}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{162}{appendix.A}
+\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{162}{section.A.1}
+\contentsline {section}{\numberline {A.2}Upper limit on cross section}{164}{section.A.2}
+\contentsline {section}{\numberline {A.3}Signal region cutflow}{166}{section.A.3}
+\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{166}{section.A.4}
+\contentsline {chapter}{\numberline {B}Validation of background estimates}{184}{appendix.B}
+\contentsline {chapter}{\numberline {C}HistFitter Tables}{185}{appendix.C}
+\contentsline {chapter}{References}{186}{appendix*.115}
