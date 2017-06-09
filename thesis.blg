@@ -196,6 +196,13 @@ Repeated entry---line 5812 of file bibtex/bib/ConfNotes.bib
  : @booklet{ATLAS-CONF-2016-037
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--empty title in Hu:2001bc
+Warning--empty title in 2009AIPC
+Warning--empty title in Bertone:2004pz
+Warning--empty title in Perlmutter:1998np
+Warning--empty title in Adam:2015rua
+Warning--empty title in Ade:2015xua
+Warning--empty title in Scranton:2003in
 Warning--empty title in evolution1
 Warning--empty pages in evolution1
 Warning--empty title in evolution2
@@ -269,45 +276,45 @@ Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 79 entries,
+You've used 86 entries,
             2330 wiz_defined-function locations,
-            1150 strings with 20008 characters,
-and the built_in function-call counts, 19479 in all, are:
-= -- 1685
-> -- 596
+            1221 strings with 21475 characters,
+and the built_in function-call counts, 21433 in all, are:
+= -- 1862
+> -- 655
 < -- 0
-+ -- 239
-- -- 160
-* -- 1806
-:= -- 2192
-add.period$ -- 121
-call.type$ -- 79
++ -- 261
+- -- 175
+* -- 2030
+:= -- 2405
+add.period$ -- 134
+call.type$ -- 86
 change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 148
-duplicate$ -- 1122
-empty$ -- 2173
-format.name$ -- 160
-if$ -- 5022
+cite$ -- 162
+duplicate$ -- 1221
+empty$ -- 2376
+format.name$ -- 175
+if$ -- 5520
 int.to.chr$ -- 0
-int.to.str$ -- 79
-missing$ -- 277
-newline$ -- 322
-num.names$ -- 79
-pop$ -- 474
+int.to.str$ -- 86
+missing$ -- 306
+newline$ -- 355
+num.names$ -- 86
+pop$ -- 507
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 694
+skip$ -- 761
 stack$ -- 0
-substring$ -- 692
-swap$ -- 407
+substring$ -- 786
+swap$ -- 446
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 69
-while$ -- 143
-width$ -- 81
-write$ -- 622
+warning$ -- 76
+while$ -- 158
+width$ -- 88
+write$ -- 679
 (There were 45 error messages)

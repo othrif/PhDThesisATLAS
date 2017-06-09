@@ -1,5 +1,56 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{Hu:2001bc}
+W.~Hu and S.~Dodelson,
+  \href{http://dx.doi.org/10.1146/annurev.astro.40.060401.093926}{Ann. Rev.
+  Astron. Astrophys. {\bfseries 40} (2002) 171--216},
+\href{http://arxiv.org/abs/astro-ph/0110414}{{\ttfamily arXiv:astro-ph/0110414
+  [astro-ph]}}.
+%%CITATION = ASTRO-PH/0110414;%%.
+
+\bibitem{2009AIPC}
+A.~{Challinor} and H.~{Peiris},
+  \href{http://arxiv.org/abs/0903.5158}{{\ttfamily arXiv:0903.5158
+  [astro-ph.CO]}}.
+
+\bibitem{Bertone:2004pz}
+G.~Bertone, D.~Hooper,  and J.~Silk,
+  \href{http://dx.doi.org/10.1016/j.physrep.2004.08.031}{Phys. Rept. {\bfseries
+  405} (2005) 279--390},
+\href{http://arxiv.org/abs/hep-ph/0404175}{{\ttfamily arXiv:hep-ph/0404175
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0404175;%%.
+
+\bibitem{Perlmutter:1998np}
+{Supernova Cosmology Project} Collaboration, S.~Perlmutter {et~al.},
+  \href{http://dx.doi.org/10.1086/307221}{Astrophys. J. {\bfseries 517} (1999)
+  565--586},
+\href{http://arxiv.org/abs/astro-ph/9812133}{{\ttfamily arXiv:astro-ph/9812133
+  [astro-ph]}}.
+%%CITATION = ASTRO-PH/9812133;%%.
+
+\bibitem{Adam:2015rua}
+{Planck} Collaboration, R.~Adam {et~al.},
+  \href{http://dx.doi.org/10.1051/0004-6361/201527101}{Astron. Astrophys.
+  {\bfseries 594} (2016) A1},
+\href{http://arxiv.org/abs/1502.01582}{{\ttfamily arXiv:1502.01582
+  [astro-ph.CO]}}.
+%%CITATION = ARXIV:1502.01582;%%.
+
+\bibitem{Ade:2015xua}
+{Planck} Collaboration, P.~A.~R. Ade {et~al.},
+  \href{http://dx.doi.org/10.1051/0004-6361/201525830}{Astron. Astrophys.
+  {\bfseries 594} (2016) A13},
+\href{http://arxiv.org/abs/1502.01589}{{\ttfamily arXiv:1502.01589
+  [astro-ph.CO]}}.
+%%CITATION = ARXIV:1502.01589;%%.
+
+\bibitem{Scranton:2003in}
+{SDSS} Collaboration, R.~Scranton {et~al.},
+\href{http://arxiv.org/abs/astro-ph/0307335}{{\ttfamily arXiv:astro-ph/0307335
+  [astro-ph]}}.
+%%CITATION = ASTRO-PH/0307335;%%.
+
 \bibitem{evolution1}
 N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
 
