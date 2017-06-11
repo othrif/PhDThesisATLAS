@@ -148,6 +148,11 @@ I was expecting a `,' or a `}'---line 2882 of file thesis.bib
  : %"proceedings of
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+You're missing a field name---line 3126 of file thesis.bib
+ :      
+ :      % note          = "Copies shelved as reports in LEP, PS and SPS libraries",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Database file #2: bibtex/bib/ATLAS.bib
 Repeated entry---line 8148 of file bibtex/bib/ATLAS.bib
  : @article{Aad:2016jxj
@@ -203,6 +208,11 @@ Warning--empty title in Perlmutter:1998np
 Warning--empty title in Adam:2015rua
 Warning--empty title in Ade:2015xua
 Warning--empty title in Scranton:2003in
+Warning--empty title in tevatron
+Warning--empty author and editor in hera
+Warning--there's a number but no series in hera
+Warning--empty publisher in hera
+Warning--empty author and editor in lep
 Warning--empty title in evolution1
 Warning--empty pages in evolution1
 Warning--empty title in evolution2
@@ -276,45 +286,45 @@ Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 86 entries,
+You've used 89 entries,
             2330 wiz_defined-function locations,
-            1221 strings with 21475 characters,
-and the built_in function-call counts, 21433 in all, are:
-= -- 1862
-> -- 655
+            1242 strings with 21917 characters,
+and the built_in function-call counts, 22193 in all, are:
+= -- 1948
+> -- 665
 < -- 0
-+ -- 261
-- -- 175
-* -- 2030
-:= -- 2405
-add.period$ -- 134
-call.type$ -- 86
++ -- 266
+- -- 177
+* -- 2090
+:= -- 2481
+add.period$ -- 143
+call.type$ -- 89
 change.case$ -- 36
 chr.to.int$ -- 0
-cite$ -- 162
-duplicate$ -- 1221
-empty$ -- 2376
-format.name$ -- 175
-if$ -- 5520
+cite$ -- 170
+duplicate$ -- 1270
+empty$ -- 2471
+format.name$ -- 177
+if$ -- 5727
 int.to.chr$ -- 0
-int.to.str$ -- 86
-missing$ -- 306
-newline$ -- 355
-num.names$ -- 86
-pop$ -- 507
+int.to.str$ -- 89
+missing$ -- 313
+newline$ -- 370
+num.names$ -- 87
+pop$ -- 530
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 761
+skip$ -- 781
 stack$ -- 0
-substring$ -- 786
-swap$ -- 446
+substring$ -- 814
+swap$ -- 457
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 76
-while$ -- 158
-width$ -- 88
-write$ -- 679
-(There were 45 error messages)
+warning$ -- 81
+while$ -- 161
+width$ -- 91
+write$ -- 708
+(There were 46 error messages)

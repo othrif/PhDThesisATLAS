@@ -51,6 +51,25 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
   [astro-ph]}}.
 %%CITATION = ASTRO-PH/0307335;%%.
 
+\bibitem{tevatron}
+S.~D. Holmes and V.~D. Shiltsev,
+  \href{http://dx.doi.org/10.1146/annurev-nucl-102212-170615}{Ann. Rev. Nucl.
+  Part. Sci. {\bfseries 63} (2013) 435--465},
+\href{http://arxiv.org/abs/1302.2587}{{\ttfamily arXiv:1302.2587
+  [physics.acc-ph]}}.
+%%CITATION = ARXIV:1302.2587;%%.
+
+\bibitem{hera}
+{\em {HERA - A Proposal for a Large Electron Proton Colliding Beam Facility at
+  DESY}}.
+\newblock No.~DESY-HERA-81-10. 1981.
+\newblock \url{http://cds.cern.ch/record/1480597}.
+
+\bibitem{lep}
+{\em {LEP design report}}.
+\newblock CERN, Geneva, 1984.
+\newblock \url{https://cds.cern.ch/record/102083}.
+
 \bibitem{evolution1}
 N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
 
