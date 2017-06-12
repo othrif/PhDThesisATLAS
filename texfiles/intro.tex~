@@ -1,20 +1,32 @@
-\subsection*{Historical Background}
+% why study elementary particles
+% the sucess of the standard model
+% the need for bsm: supersymmetry
+% the tool to do it: LHC and ATLAS 
+% the challenge
+
+% How did we get here?
 
 Of what is the universe made? A question that has intrigued the human curiosity since the dawn of time. 
-Today, we are confident that we do not know the answer to this question.
-However, a lot of progress has been made that aims at reducing the diversity of the physicsal phenomena 
-observed around us to a limitted number of constituents following fundamental principles.
-Over two thousands years ago, the ancient Greeks  postulated that all is made of Earth, Air, Fire and Water.
-This view represents a compact yet incorrect description of the world.
+Today, we are confident that we do not know the answer to this question but a lot of progress has been made
+The overeaching aim was to reduce the diversity of the physicsal phenomena to a compact set of constituents
+and a unified set of principles.
+% Unification and symmetry
+%Yet, attempts to answer it has gone through many iterations in order to find a compact set of principles
+%that offers a syntheis of the phenomena we observe in the world around us. 
+%would describe the world we observe.
+%where it was deemed solved at times 
+%and unreachable at others. 
+Over two thousands years ago, the ancient Greeks  postulated that all is made of Earth, Air, Fire and Water. 
+The idea behind this picture is to give a description of the world we observe based on a compact set of principles 
+Obvisoulsy, the ancients got it wrong.
 Fastfoward to the end of the 19th century, Mendeleev and others made the astonishing remark that by organizing the 
-relative atomic masses of chemical elements, elements with similar chemical properties followed a pattern.
+relative atomic masses of chemical elements in an ascending order, elements with similar chemical properties followed a pattern.
 The periodic table of elements was born. 
-The predictive power of the periodic table led to the anticipation of new elements that were later discovered.
+The predictive power of the periodic table led to the anticipation of new elements and their properties that were later discovered.
 However, the table lacked compactness and necessitated a more fundamental underlying structure that could 
-connect the different elements together. At the turn of the century, several important discoveries established 
-the existence of the atom and its constituents. 
-The atom was formed by electrons bound via the electromagnetic force to a nucleus, where all the mass resides.
-The nucleus itself is formed from 
+connect the different elements. At the turn of the century, several important discoveries established 
+the existence of the atom and its constituents. The mass of the atom lies in its nucleus with electrons bound to it via the 
+electromagnetic force. The nucleus itself is formed from 
 protons and neutrons that are ``glued'' togehter by the strong nuclear force (or strong force).
 These elements formed the underlying substructure that explained qualitatively the systematic organization of the periodic table.
 Moreover, quantum ideas were applied to the atom offering a quantitative description of the origin of structure in atoms and molecules, 
@@ -23,30 +35,28 @@ The decades that followed refined our understanding of the composition of matter
 By studying the collisions of protons and neutrons in the 50's and 60's, we came to uncover a plethora of new particles from the same 
 family as the proton and neutron which interacted via the strong force, called \textit{hadrons}.
 These particles could not be all elementary
-\footnote{Elementary particles refer to  particles that cannot be decomposed into further constituents.}.
-By invoquing the same argument that atoms were composite based on Mendeleev's table,
-a new layer of structure was unfolded to reveal the existence of \textit{quarks} as basic constituens of all hadrons 
-which interacted via the strong force.
-Another observation of the continuous energy spectra in the radioactive $\beta$ decay of nuclei 
-led to the discover of neutrinos to remedy  the energy conservation law in the decay. 
-Neutrinos are very light neutral particles that interact via the weak nuclear force 
-repsonsible for radioactivity and nuclear fusion, the process that powers the stars.
-Electrons and neutrinos had other relatives and collectivelly referred to as \textit{leptons}.
-Similarly, several other quarks were discovered.
-The quarks and leptons are referred to as fermions and
+\footnote{Elementary particles refer to  particles that cannot be decomposed into further constituents.}
+, a classic replay of the argument that atoms were composite based on Mendeleev's table.
+A new layer of structure was unfolded to reveal the existence of \textit{quarks}, elementary 
+particles that interact via the strong force and make up all hadrons. 
+Another puzzle of the 20th century was the continuous energy spectra in the radioactive $\beta$ decay of nuclei which pointed to the 
+existence of neutrinos to remedy the energy conservation law in the decay. This process proceeds via the weak nuclear force 
+repsonsible for the radioactivity and nuclear fusion, the process that powers the stars.
+It turns out that electrons and neutrinos had other relatives referred to as \textit{leptons}.
+Similarly, several other quarks were discovered.%, with the latest top quark discovered in 1995. 
+The quarks and leptons are collectively referred as fermions and
 share a half integer spin, an intrinsic property of elementary particles.
 The strong, weak, and electromagnetic interactions are mediated by 
-gluons, $W$ and $Z$ bosons, and photons, respectivelly. These particles 
-share the property of having an integer spin and are called bosons. 
-Apart from gravity, all aspects of daily life can 
+gluons, $W$ and $Z$ bosons, and photons. These are 
+elementary particles with an integer spin, 
+collectively called bosons. Apart from gravity, all aspects of daily life can 
 be described in terms of these interactions.
 %The gravitational force is so weak that it only acts at the macroscopic scale.
-In 2012, the latest discovery was that of a new boson, the Higgs boson, 
+The lastest discovery happened in 2012 of a new boson, the Higgs boson, 
 that allows the quarks and leptons and the $W$ and $Z$ bosons to 
 acquire mass.
 
 %A success story
-\subsection*{The Standard Model}
 The physics of elementary particles became the most ambitious and organized attempt to answer the question of what the universe is 
 made out of. 
 Through a mixture of both theorertical insight and experimental input, we now 
@@ -64,7 +74,6 @@ Over the past 30 years, the SM has been vigorously tested across the strong, wea
 It came out triumphant every time. Yet, we know it is not the complete story. 
 
 % the dark side
-\subsection*{Limitations}
 In 1933, an observation of the Coma Cluster by Zwicky suggested that the galaxies in the cluster were moving too fast to be explained 
 by the luminous matter present. The same observation was repeated when looking at the rotation speeds of individual galaxies which 
 suggested a dark component of mass, Dark Matter. 
