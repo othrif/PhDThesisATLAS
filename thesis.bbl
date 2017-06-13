@@ -1,5 +1,36 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{PhysRevLett.74.2626}
+{CDF Collaboration} Collaboration, F.~Abe {et~al.},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.74.2626}{Phys. Rev. Lett.
+  {\bfseries 74} (1995) 2626--2631},
+  \url{https://link.aps.org/doi/10.1103/PhysRevLett.74.2626}.
+
+\bibitem{Abachi:1995iq}
+{D0} Collaboration, S.~Abachi {et~al.},
+  \href{http://dx.doi.org/10.1103/PhysRevLett.74.2632}{Phys. Rev. Lett.
+  {\bfseries 74} (1995) 2632--2637},
+\href{http://arxiv.org/abs/hep-ex/9503003}{{\ttfamily arXiv:hep-ex/9503003
+  [hep-ex]}}.
+%%CITATION = HEP-EX/9503003;%%.
+
+\bibitem{Aad:2012tfa}
+{ATLAS} Collaboration, G.~Aad {et~al.},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett.
+  {\bfseries B716} (2012) 1--29},
+\href{http://arxiv.org/abs/1207.7214}{{\ttfamily arXiv:1207.7214 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{Chatrchyan:2012xdj}
+{CMS} Collaboration, S.~Chatrchyan {et~al.},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys. Lett.
+  {\bfseries B716} (2012) 30--61},
+\href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{1933AcHPh}
+F.~{Zwicky}, Helvetica Physica Acta {\bfseries 6} (1933) 110--127.
+
 \bibitem{Hu:2001bc}
 W.~Hu and S.~Dodelson,
   \href{http://dx.doi.org/10.1146/annurev.astro.40.060401.093926}{Ann. Rev.
