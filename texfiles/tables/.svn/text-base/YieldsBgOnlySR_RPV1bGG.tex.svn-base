@@ -1,0 +1,61 @@
+
+
+\begin{table}
+\begin{center}
+\setlength{\tabcolsep}{0.0pc}
+{\small
+%%
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\noalign{\smallskip}\hline\noalign{\smallskip}
+{\bfseries Yields channel}           & SR\_RPV1bGG              \\[-0.05cm]
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+Observed events          & $1$                    \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+Fitted bkg events         & $1.54 \pm 0.45$              \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+        Fitted ttZ events         & $0.25 \pm 0.09$              \\
+%%
+        Fitted ttW events         & $0.40 \pm 0.13$              \\
+%%
+        Fitted Diboson events         & $0.10 \pm 0.05$              \\
+%%
+        Fitted Rare events         & $0.79 \pm 0.39$              \\
+%%
+        Fitted Fakes events         & $0.00 \pm 0.00$              \\
+%%
+        Fitted MisCharge events         & $0.00 \pm 0.00$              \\
+%%     
+ \noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+MC exp. SM events              & $1.54 \pm 0.49$              \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+        MC exp. ttZ events         & $0.25 \pm 0.09$              \\
+%%
+        MC exp. ttW events         & $0.40 \pm 0.13$              \\
+%%
+        MC exp. Diboson events         & $0.10 \pm 0.05$              \\
+%%
+        MC exp. Rare events         & $0.79 \pm 0.41$              \\
+%%
+        MC exp. Fakes events         & $0.00 \pm 0.00$              \\
+%%
+        MC exp. MisCharge events         & $0.00 \pm 0.00$              \\
+%%     \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular*}
+%%%
+}
+\end{center}
+\caption{Fit results in signal region SR-RPV1bGG for an integrated luminosity of 36.47~fb$^{-1}$.
+The results are obtained using a discovery fit. Nominal MC expectations (normalised to MC crosssections) are given for comparison. 
+The errors shown are the statistical plus systematic uncertainties, except for the error on the background estimate in the signal region, which is the systematic uncertainty only.
+Uncertainties on the fitted yields are symmetric by construction, where the negative error is truncated when reaching to zero event yield.
+}
+\label{table.results.systematics.in.logL.fit..Yields.SR-RPV1bGG}
+\end{table}
+\clearpage
+%

@@ -1,0 +1,77 @@
+
+
+\begin{table}
+\begin{center}
+\setlength{\tabcolsep}{0.0pc}
+{\small
+%%
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\noalign{\smallskip}\hline\noalign{\smallskip}
+{\bfseries Yields channel}           & VRWZ4j              \\[-0.05cm]
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+Observed events          & $257$                    \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+Fitted bkg events         & $297.58 \pm 17.66$              \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+        Fitted ttZ events         & $17.82 \pm 3.45$              \\
+%%
+        Fitted ttW events         & $1.30 \pm 0.32$              \\
+%%
+        Fitted Rare events         & $7.32 \pm 2.10$              \\
+%%
+        Fitted WW events         & $0.01 \pm 0.00$              \\
+%%
+        Fitted WZ events         & $198.75 \pm 29.78$              \\
+%%
+        Fitted ZZ events         & $21.62 \pm 3.28$              \\
+%%
+        Fitted FourTop events         & $0.04 \pm 0.02$              \\
+%%
+        Fitted ttH events         & $1.84 \pm 0.55$              \\
+%%
+        Fitted Fakes events         & $48.87 \pm 28.23$              \\
+%%
+        Fitted MisCharge events         & $0.00 \pm 0.00$              \\
+%%     
+ \noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+MC exp. SM events              & $297.58 \pm 86.86$              \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+        MC exp. ttZ events         & $17.82 \pm 3.51$              \\
+%%
+        MC exp. ttW events         & $1.30 \pm 0.32$              \\
+%%
+        MC exp. Rare events         & $7.32 \pm 2.14$              \\
+%%
+        MC exp. WW events         & $0.01 \pm 0.00$              \\
+%%
+        MC exp. WZ events         & $198.75 \pm 72.59$              \\
+%%
+        MC exp. ZZ events         & $21.62 \pm 7.96$              \\
+%%
+        MC exp. FourTop events         & $0.04 \pm 0.02$              \\
+%%
+        MC exp. ttH events         & $1.84 \pm 0.56$              \\
+%%
+        MC exp. Fakes events         & $48.87 \pm 30.15$              \\
+%%
+        MC exp. MisCharge events         & $0.00 \pm 0.00$              \\
+%%     \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular*}
+%%%
+}
+\end{center}
+\caption{Fit results in signal region VRWZ4j for an integrated luminosity of 36.1~fb$^{-1}$.
+The results are obtained using a discovery fit. Nominal MC expectations (normalised to MC crosssections) are given for comparison.
+The errors shown are the statistical plus systematic uncertainties, except for the error on the background estimate in the signal region, which is the systematic uncertainty only.
+Uncertainties on the fitted yields are symmetric by construction, where the negative error is truncated when reaching to zero event yield.
+}
+\label{table.results.systematics.in.logL.fit..Yields.VRWZ4j}
+\end{table}
+\clearpage
+%
