@@ -32,7 +32,7 @@ at the required rate of 100 kHz with 12 channels is achievable in a standalone a
 \subsection{Full System Tests}\label{sec:perf_tdaq}
 
 Since the HLTSV is performing tasks other than the event building, there is overhead associated with additional operations 
-that reduces the performance. For this reason, we use the full ATLAS TDAQ software in a test environment that emulates the major components of the ATLAS data acquisition system shown in Figure \ref{fig:atlas_tdaq}. The setup includes an emulated input from L1 trigger sources, 
+that reduces the performance. For this reason, we use the full ATLAS TDAQ software in a test environment that emulates the major components of the ATLAS data acquisition system shown in Figure \ref{fig:tdaq_diagram}. The setup includes an emulated input from L1 trigger sources, 
 the HLTSV and other PCs to simulate the HLT computing farm, and the ROS that buffers the full event data. 
  In this test setup, an external source sends data that emulates L1 RoIs via 12 links connected to the 
 RobinNP hosted by the HLTSV. When the HLTSV requests a built RoI event, the software RoIB plug-in provides the RoI event which will be used 
@@ -52,7 +52,7 @@ As shown in Figure \ref{fig:roib_summary}, the performance of the PC-RoIB with r
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.5\textwidth]{roib_summary_size} 
+\includegraphics[width=0.7\textwidth]{roib_summary_size} 
 \caption{The event building rate as a function of the RoI record size in Bytes. The rates are shown for a standalone application that implements 
   a minimal interface for event building, the integrated RoIB software into an HLTSV process running within the full ATLAS TDAQ software suite, and for comparison the VME-RoIB performance.}
 \label{fig:roib_summary}

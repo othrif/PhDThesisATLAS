@@ -82,24 +82,25 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
   [astro-ph]}}.
 %%CITATION = ASTRO-PH/0307335;%%.
 
-\bibitem{tevatron}
-S.~D. Holmes and V.~D. Shiltsev,
-  \href{http://dx.doi.org/10.1146/annurev-nucl-102212-170615}{Ann. Rev. Nucl.
-  Part. Sci. {\bfseries 63} (2013) 435--465},
-\href{http://arxiv.org/abs/1302.2587}{{\ttfamily arXiv:1302.2587
-  [physics.acc-ph]}}.
-%%CITATION = ARXIV:1302.2587;%%.
+\bibitem{atlasTwiki}
+{\em Luminosity Public Results in Run 2},
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+\newblock Accessed: 2016-08-01.
 
-\bibitem{hera}
-{\em {HERA - A Proposal for a Large Electron Proton Colliding Beam Facility at
-  DESY}}.
-\newblock No.~DESY-HERA-81-10. 1981.
-\newblock \url{http://cds.cern.ch/record/1480597}.
+\bibitem{Aad:1602235}
+A.~Collaboration, {\em {Technical Design Report for the Phase-I Upgrade of the
+  ATLAS TDAQ System}}, Tech. Rep. CERN-LHCC-2013-018, Sep, 2013.
+\newblock \url{https://cds.cern.ch/record/1602235}.
 
-\bibitem{lep}
-{\em {LEP design report}}.
-\newblock CERN, Geneva, 1984.
-\newblock \url{https://cds.cern.ch/record/102083}.
+\bibitem{PanduroVazquez2016939}
+W.~P. Vazquez {et~al.},
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.nuclphysbps.2015.09.146}{Nuclear
+  and Particle Physics Proceedings {\bfseries 273 - 275} (2016) 939 -- 944},
+  \url{http://www.sciencedirect.com/science/article/pii/S2405601415006355}.
+
+\bibitem{1742-6596-396-1-012033}
+A.~Negri {et~al.}, Journal of Physics: Conference Series {\bfseries 396} (2012)
+  012033, \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
 
 \bibitem{evolution1}
 N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
