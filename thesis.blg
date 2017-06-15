@@ -213,6 +213,7 @@ Warning--empty title in Perlmutter:1998np
 Warning--empty title in Adam:2015rua
 Warning--empty title in Ade:2015xua
 Warning--empty title in Scranton:2003in
+Warning--empty title in DeMelis:2197559
 Warning--empty title in evolution1
 Warning--empty pages in evolution1
 Warning--empty title in evolution2
@@ -231,6 +232,7 @@ Warning--empty title in Agostinelli:2002hh
 Warning--empty title in Cacciari:2008gp
 Warning--empty title in PERF-2014-07
 Warning--empty title in Aad:2016upyew
+Warning--empty title in Aad:2015ydr
 Warning--empty title in vme_roib
 Warning--empty pages in vme_roib
 Warning--empty title in swroib_past
@@ -271,7 +273,6 @@ while executing---line 1162 of file bibtex/bst/atlasBibStyleWoTitle.bst
 Warning--empty title in Lonnblad:2011xx
 Warning--empty title in Borschensky:2014cia
 Warning--empty title in Cacciari:2007fd
-Warning--empty title in Aad:2015ydr
 Warning--empty title in Aad:2016jkr
 Warning--empty title in Aaboud:2016yuq
 Warning--empty title in Cousins:2009
@@ -290,36 +291,36 @@ Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 97 entries,
+You've used 98 entries,
             2330 wiz_defined-function locations,
-            1298 strings with 23486 characters,
-and the built_in function-call counts, 24447 in all, are:
-= -- 2151
-> -- 724
+            1305 strings with 23648 characters,
+and the built_in function-call counts, 24560 in all, are:
+= -- 2160
+> -- 728
 < -- 1
-+ -- 289
-- -- 192
-* -- 2299
-:= -- 2732
-add.period$ -- 151
-call.type$ -- 97
++ -- 291
+- -- 193
+* -- 2306
+:= -- 2749
+add.period$ -- 152
+call.type$ -- 98
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 182
-duplicate$ -- 1383
-empty$ -- 2704
-format.name$ -- 192
-if$ -- 6303
+cite$ -- 184
+duplicate$ -- 1390
+empty$ -- 2717
+format.name$ -- 193
+if$ -- 6329
 int.to.chr$ -- 0
-int.to.str$ -- 97
-missing$ -- 343
-newline$ -- 398
-num.names$ -- 96
-pop$ -- 566
+int.to.str$ -- 98
+missing$ -- 345
+newline$ -- 401
+num.names$ -- 97
+pop$ -- 570
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 879
+skip$ -- 880
 stack$ -- 0
 substring$ -- 973
 swap$ -- 514
@@ -327,8 +328,8 @@ text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 85
-while$ -- 182
-width$ -- 99
-write$ -- 769
+warning$ -- 86
+while$ -- 183
+width$ -- 100
+write$ -- 776
 (There were 46 error messages)

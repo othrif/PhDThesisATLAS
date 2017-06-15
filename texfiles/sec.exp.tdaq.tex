@@ -29,7 +29,7 @@ in the RPC and TGC trigger chambers, located in the barrel and end-cap regions
 of the muon spectrometer. The multiplicity of the various muon \pt thresholds
 is input to the trigger decision.
 
-The central trigger processer (CTP) combines results from the L1Muon and L1Calo
+The central trigger processor (CTP) combines results from the L1Muon and L1Calo
 triggers to issue an overall L1 accept or reject decision.
 To facilitate this task, the CTP programs up to 256 configurations that 
 consist of various combinations of $E_{\rm{T}}$ and \pt requirements, 
@@ -49,7 +49,7 @@ The L1 trigger has a 2.5 $\mu$s latency where the data fragments are
 hold in pipeline buffers located within detector-specific front-end 
 electronics. 
 Once the CTP issues an accept, the data is pushed to detector-specific 
-Readout Drivers (RODs), then transfered to the Readout System (ROS). 
+Readout Drivers (RODs), then transferred to the Readout System (ROS). 
 The rest of the chain is described next. 
 
 \begin{figure}[t!]
@@ -65,7 +65,7 @@ Rates are shown only for unprescaled triggers. All trigger rates show a linear d
 
 \subsection{Dataflow Challenges in Run-2}
 The function of the DAQ system is to efficiently buffer, transport, and record the events that were selected by the trigger system. 
-Its peformance is affected by the instanteneous luminosity that leads to busy events with multiple proton-proton interactions occuring in each 
+Its performance is affected by the instantaneous luminosity that leads to busy events with multiple proton-proton interactions occurring in each 
 bunch crossing, referred to as pileup. The high pileup results in a higher data volume collected by the detector that needs to be 
 processed at the required rate to avoid exerting back-pressure on the L1 system. 
 In Run 2, the LHC has exceeded the designed instantaneous luminosity of $10^{34}$ cm$^{-2}$ s$^{-1}$ leading to pileup of~ $<\mu>=30$ or more as shown 
@@ -89,7 +89,7 @@ Moreover, there were new detectors that were added in Run 2
 (Insertable B-layer (IBL), L1 topological trigger, Fast Tracker (FTK))\cite{Aad:1602235} leading to 
 an increase of 20\% in the number of readout channels. 
 To cope with these changes, the ATLAS TDAQ system was upgraded during Run-2
-simplifying its architecture and increasing its flexbility.
+simplifying its architecture and increasing its flexibility.
 To be able to deliver more rate to the High Level Trigger (HLT), the upgrade also targeted the Readout System (ROS)\cite{PanduroVazquez2016939}. 
 For the same reason the two level of the HLT system were collapsed into a single level which made the system more flexible 
  allowing for incremental data retrieval and analysis. 
@@ -153,12 +153,12 @@ In summary, the elements of the Run-2 ATLAS dataflow are:
 
 \begin{itemize}
 \item The Readout Sytem (ROS) buffers front-end data from the detectors and provides a standard interface to the DAQ system.
-\item The Region of Interest Builder (RoIB) receives teh L1 trigger information from the RoIs and combines the information for the HLT supervsior.
+\item The Region of Interest Builder (RoIB) receives the L1 trigger information from the RoIs and combines the information for the HLT supervisor.
 \item The HLT Supervisor (HLTSV) can handle the input from the RoIB and manage the HLT farm of about 2000 machines at over 100 kHz.
 \item The Data Collection Manager (DCM) handles all Input/Output on the HLT nodes, including RoI requests from the HLT and full event building.
-\item The HLT processing units (HLTPU) run the actualy HLT algorithms which 
+\item The HLT processing units (HLTPU) run the actually HLT algorithms which 
 are forked from a single mother process to maximize memory sharing.
-\item The Data loggers or SubFarm Output (SFO) are responsible for savind the 
+\item The Data loggers or SubFarm Output (SFO) are responsible for saving the 
 accepted events to disk, and sending the files to CERN permanent storage infrastructure.
 \end{itemize}
 

@@ -1,8 +1,127 @@
-The identification and reconstruction step relies on the properties that particles display when they interact with the different components of the detector.
+
+The identification and reconstruction step relies on the properties that particles display when they interact with the different components of the detector
+described in Section~\ref{sec:exp.atlas}.
 Once the particle is identified, it is desirable to determine its momentum, its origin, and its polarization among other properties.
-The important part for the analysis is how well these objects are reconstructed which can be determined by from measuring the reconstruction and 
-identification efficiencies as a function of kinematic particles, usally \pt and $\eta$.
-In the next sections we briefly describe how the main physics objects used in this analysis are identified and their efficiencies.
+The important part for the analysis is how well these objects are reconstructed which can be determined by measuring the reconstruction and 
+identification efficiencies as a function of kinematic particles, 
+usually \pt and $\eta$.
+In the next sections we briefly describe how the main physics objects used in 
+this analysis are identified and their efficiencies.
+
+\subsection{Basic Principle}
+
+In this section we describe the higher-level reconstruction of particles
+as they interact with the different components of the detector.
+The schematic of Figure~\ref{fig:exp.atlas.reco.det} 
+summarizes the signatures of the different particles in the ATLAS 
+detector.
+
+
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=0.95\textwidth]{reco_det.jpg}
+\caption{ The different signatures of particles traversing 
+the detector are shown in the transverse plane of the ATLAS detector.}% cite??.}
+\label{fig:exp.atlas.reco.det}
+\end{figure} 
+
+
+The most important reconstructed particles for the analysis presented 
+in this dissertation are charged leptons. 
+Charged leptons come from  electroweak processes and  
+provide  clear signals which can be accurately reconstructed.
+In the remainder of this dissertation, leptons will refer to 
+only electrons or muons.
+
+Muons are the simplest to identify since they traverse
+the entire ATLAS detector: all other 
+interacting particles are stopped before reaching the muon spectrometer.
+They are reconstructed as tracks in the inner detector matched to tracks in the
+muon spectrometer, 
+and leave little energy in the electromagnetic and hadronic calorimeters.  
+Muons are produced from decays of $W$ and $Z$ bosons with a relatively 
+large momentum, above 15 \GeV, and are produced in isolation from surrounding
+detector activity, qualities that we will use in this analysis.
+The latter is called ``isolation'' which requires 
+the energy of the reconstructed tracks and clusters near the reconstructed 
+muon not exceed a certain value. 
+This requirement is effective at suppressing muons produced
+from background processes such as meson decay in flight and heavy-flavor decay
+detailed in Chapter~\ref{chap:fake}.
+
+Electrons are identified by a track in the inner detector that 
+initiates  an electromagnetic
+shower in the electromagnetic calorimeter. Most of the time,  
+all of the energy of the electron is absorbed before reaching the hadronic 
+calorimeter.
+The electron is identified  by matching reconstructed EM clusters to tracks
+reconstructed in the inner detector. 
+This signature suffers from 
+Large backgrounds from other types of charged particles can mimic this 
+signature. For these reason, ATLAS uses several tools to effectively 
+distinguish between the desired electrons and background.
+Similar to muons, isolation is one of these tools.
+
+Photons also produce an electromagnetic shower upon entering the calorimeter, 
+except that they leave no track in the inner detector since they are neutral.
+In practice, photons might undergo a conversion to an $e^+e^-$ pair 
+in the detector material before entering the calorimeter which will 
+result in a track in the inner detector. Photons of the former case 
+are called un-converted, while the latter are called converted photons.
+ATLAS has dedicated algorithms to identify photon conversions from 
+pairs of reconstructed tracks.% cite??.
+
+Tau leptons are charged particles that decay to the other leptons 
+(40\% of the time) or to hadrons (60 \% of the time) before entering the detector.
+If they decay to electrons or muons and neutrinos, they are indistinguishable from 
+electrons or muons coming from $W$ or $Z$ bosons.
+The experimental signatures of hadronically decaying taus are
+multiple hadronic showers matched to tracks in the inner detector.
+The latter suffers from large backgrounds 
+from other types of particles that cannot be suppressed 
+as efficiently as background from the leptonic tau decay.
+
+
+Neutrinos only interact via the weak force
+and are thus not directly detected by ATLAS.
+As shown in Figure~\ref{fig:exp.atlas.reco.det}, 
+they pass through all the sub-detectors.
+However, their presence is inferred from an overall 
+transverse momentum imbalance of the measured momenta in the event.
+Thus, the transverse momentum of the neutrinos can be inferred.
+This type of signature is similar to potential new particles 
+that will not interact with our detector.
+Nevertheless, neutrinos are very well understood
+and any potential contribution from them can be accurately 
+predicted.
+
+The reconstruction of Jets is an essential part of the analysis presented in this dissertation. 
+Colored quark and gluons from the primary interaction  undergo a process referred to as hadronization,
+where they convert to sprays of colorless hadrons. The collection of this spray of particles is 
+referred to as a jet. 
+The reconstruction of a jet is based on regrouping of reconstructed clusters and tracks into larger collections using
+various clustering algorithms as it will be described next.
+By measuring the energy and direction of a jet, we can infer information 
+about the initial quarks or gluons that participated in the physics processes under study.
+It can also be used to determine the energy of the initial parton in the hard interaction, 
+a challenging aspect of jet reconstruction.
+The energy of the jet must be calibrated by determining the 
+Jet Energy Scale (JES) and the Jet Energy Resolution (JER).% cite??. 
+The uncertainties associated with the JES and JER are one of the largest 
+experimental uncertainties in this analysis.
+
+The jet reconstruction algorithms cannot determine the type of parton that initiated a
+given jet, except for $b$-quarks.
+Since $b$-quark hadron decay with suppressed weak interactions, they are 
+relatively long-lived travelling few millimeters before they decay.
+Given the fine tracking resolution of ATLAS, 
+a millimeter displacement from the interaction point is large enough to be resolved.
+It is thus possible to identify jets containing $b$-hadrons  in a process called ``b-tagging''.
+This type of jets, called $b$-jets, are used in this analysis.
+
+More technical details about the reconstruction procedure and the efficiencies 
+of the reconstructed objects will be given next.
 
 \subsection{Electrons}
 Electrons are reconstructed and identified for $\pt > 5$ \GeV~in $|\eta| < 4.9$ range of the detector \cite{ATLAS-CONF-2016-024}.
@@ -20,13 +139,13 @@ To do so, three identification (ID) criteria, loose, medium, and tight, are defi
 track and track-to-cluster matching variables.
 The tighter the ID criteria, the higher the rejection of background electrons but the lower the identification efficiency.
 Figure ~\ref{fig:exp.reco.eff.el} shows the  efficiencies in data and MC for three operating points that are based on a likelihood approach, Loose, Medium and Tight. 
-The data effciencies are obtained by applying data/MC efficiency ratios that were measured in  $J/\psi\to\ee$ and $Z\to\ee$ events to MC simulation. 
+The data efficiencies are obtained by applying data/MC efficiency ratios that were measured in  $J/\psi\to\ee$ and $Z\to\ee$ events to MC simulation. 
 The lower efficiency in data than in MC arises from the fact that the MC does not properly represent the 2016 TRT conditions, 
-in addition to the known mismodelling of calorimeter shower shapes in the GEANT4 detector simulation.
+in addition to the known mis-modelling of calorimeter shower shapes in the GEANT4 detector simulation.
 The reconstruction efficiency of electrons is around 95\% for low \pt and goes up to 99.9\% for electron $\pt > 45$ \GeV.
 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}[t]{0.45\textwidth}
 \includegraphics[width=0.95\textwidth]{efficiency_pt_el}
@@ -56,9 +175,9 @@ The total statistical and systematic uncertainty is displayed.
 
 
 To study and compute the corrections needed to account for the detector geometry and material distribution
-two sets of MC samples are used. For the first set an ideal geometry (no misalignments) with the best
+two sets of MC samples are used. For the first set an ideal geometry (no mis-alignments) with the best
 knowledge of the dead material is implemented. For the second scenario, the dead material between the
-tracker and calorimeters is increased and the misalignments are included. The latter is used to assign the
+tracker and calorimeters is increased and the mis-alignments are included. The latter is used to assign the
 systematic uncertainties.
 
 
@@ -101,10 +220,10 @@ the specific needs of different physics analyses:
 Figure~\ref{fig:exp.reco.muon} shows the reconstruction efficiency of the muon for different selections measured in  $Z\to\mu\mu$ and $J/\psi\to\mu\mu$ events.
 
 The reconstruction efficiency is measured to be close to 99\% over most of the phase space relevant for the analysis. 
-The isolation efficiency is between 93\% and 100\% based on the selction and muon momentum. The simulation reproduce both efficiency very well.
+The isolation efficiency is between 93\% and 100\% based on the selection and muon momentum. The simulation reproduce both efficiency very well.
 The  momentum resolution is measured to be as low as 1.7\% and the momentum scale uncertainty is less than  0.05\%.
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}[t]{0.54\textwidth}
 \includegraphics[width=0.95\textwidth]{EffwMedium_pt_muons.eps}
@@ -144,17 +263,17 @@ The parameter $p$ governs the relative power of of energy with respect to the ge
 
 The energies of the jets are calibrated to  account the necessary losses associated with sampling calorimeter,
 the presence of dead material,  energy loss in non-instrumented regions, etc. This is performed using the local cluster weighting
-(LCW) scheme \cite{Aad:2016upyew}, which uses calibrated toplogical clusters as input the anti-$k_{t}$ jet algorithm,
+(LCW) scheme \cite{Aad:2016upyew}, which uses calibrated topological clusters as input the anti-$k_{t}$ jet algorithm,
 and taking into account jet energy scale (JES) and jet energy resolution (JER) calibrations.
 Both JES and JER can have an important contribution to the systematic uncertainties of this analysis.
 The fractional JES uncertainty in Figure~\ref{fig:exp.JES_pt_sys} shows that jets with \pt below 50\GeV~can have a larger uncertainty.
 The choice was made to only require jets above 50 \GeV in the analysis for this reason.
-The fractional JER is around 17\% for jets with pT of 30 \GeV decreasing down to 5\% for more energetic jets.
+The fractional JER is around 17\% for jets with \pt of 30 \GeV decreasing down to 5\% for more energetic jets.
 An additional variable is used to suppress jets from pileup, called the jet vertex tagger (JVT).
 JVT is a multivariate combination of the fraction of the total momentum of tracks in the jet which is associated with the primary vertex
 and  track-based variables to suppress pileup jets \cite{ATL-PHYS-PUB-2015-034}. 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.65\textwidth]{JES_pt_sys}
 \caption{Fractional jet energy scale systematic uncertainty components as a function of \pt for anti-kt jets at $\eta$ = 0.0 with distance parameter of R = 0.4 after calibration.
@@ -205,11 +324,11 @@ For instance, MV2c00 denotes the MV2 algorithm where no c-jet contribution was p
 in the background sample.
 The performance of the optimized  MV2c00, MV2c10 and MV2c20 b-tagging algorithms is shown in Figure~\ref{fig:exp.btag.eff}
 for the c-jet rejection as a function of the b-jet efficiency.
-The MV2c20 is the best performing alogirthm leading to an optimal rejection of c-jets at a given b-tagging 
-effiency. As a result, it is the algorithm used in this analysis.
+The MV2c20 is the best performing algorithm leading to an optimal rejection of c-jets at a given b-tagging 
+efficiency. As a result, it is the algorithm used in this analysis.
 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}[t]{0.48\textwidth}
 \includegraphics[width=0.95\textwidth]{btag_bdt}
@@ -232,10 +351,10 @@ effiency. As a result, it is the algorithm used in this analysis.
 
 
 \subsection{Missing transverse momentum}
-The missing transverse momentum is an important quantity in searching for new physics scenarios which expect a stable and non-eletromagnetically interacting 
+The missing transverse momentum is an important quantity in searching for new physics scenarios which expect a stable and non-electromagnetically interacting 
 particle. Such particle does not interact with the detector and can only be identified through an imbalance of the momentum distribution between the particles 
 of the event. 
-Since the momentum of the colliding prootons is almost along the beam, longitudinal, the transverse component of the momenta of the scattered objects should add 
+Since the momentum of the colliding protons is almost along the beam, longitudinal, the transverse component of the momenta of the scattered objects should add 
 up to zero.
 Based on the conservation of momentum, the sum of all visible four momenta projected in the transverse plane should be close to zero if no particles are missed.
 However, this quantity will be large if a particle, potentially from new physics models, escaped detection. 
@@ -260,7 +379,7 @@ For illustration, results obtained with  $Z\to\mu\mu$ events are shown in Figure
 Generally, the \met has a resolution in the order of 10 to 20 \GeV.
 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}[t]{0.48\textwidth}
 \includegraphics[width=0.95\textwidth]{met_dist}

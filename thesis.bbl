@@ -82,6 +82,9 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
   [astro-ph]}}.
 %%CITATION = ASTRO-PH/0307335;%%.
 
+\bibitem{DeMelis:2197559}
+C.~De~Melis, \url{https://cds.cern.ch/record/2197559}, General Photo.
+
 \bibitem{evolution1}
 N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
 
@@ -168,6 +171,17 @@ M.~Cacciari, G.~P. Salam,  and G.~Soyez,
 \bibitem{ATL-PHYS-PUB-2015-034}
 {ATLAS Collaboration},  {ATL-PHYS-PUB-2015-034}, 2015,
   \url{https://cds.cern.ch/record/2042098}.
+
+\bibitem{Aad:2015ydr}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1088/1748-0221/11/04/P04008}{JINST {\bfseries 11}
+  (2016) P04008},
+\href{http://arxiv.org/abs/1512.01094}{{\ttfamily arXiv:1512.01094 [hep-ex]}}.
+%%CITATION = ARXIV:1512.01094;%%.
+
+\bibitem{ATL-PHYS-PUB-2015-022}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-022}, 2015,
+  \url{https://cds.cern.ch/record/2037697}.
 
 \bibitem{vme_roib}
 R.~Blair {et~al.}, 2008 JINST 3 P04001.
@@ -389,17 +403,6 @@ M.~Cacciari and G.~P. Salam,
 \bibitem{ATLAS-CONF-2014-018}
 {ATLAS Collaboration},  Atlas-conf-2014-018,
   \url{https://cds.cern.ch/record/1700870}.
-
-\bibitem{Aad:2015ydr}
-{ATLAS} Collaboration, {ATLAS Collaboration},
-  \href{http://dx.doi.org/10.1088/1748-0221/11/04/P04008}{JINST {\bfseries 11}
-  (2016) P04008},
-\href{http://arxiv.org/abs/1512.01094}{{\ttfamily arXiv:1512.01094 [hep-ex]}}.
-%%CITATION = ARXIV:1512.01094;%%.
-
-\bibitem{ATL-PHYS-PUB-2015-022}
-{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-022}, 2015,
-  \url{https://cds.cern.ch/record/2037697}.
 
 \bibitem{ATL-PHYS-PUB-2016-012}
 {ATLAS Collaboration},  {ATL-PHYS-PUB-2016-012}, 2016,
