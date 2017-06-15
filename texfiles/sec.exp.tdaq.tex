@@ -14,6 +14,53 @@ hardware based L1 system to guide the retrieval of information from the Readout 
 \end{figure} 
 
 \subsection{Hardware Trigger (L1)}
+The L1 trigger has access to raw data from the calorimeters and the 
+muon system. The L1 calorimeter trigger (L1Calo) uses reduced-granularity
+information from 7200 trigger towers of the calorimeters. These trigger 
+towers are divided in a $\Delta\eta\times\Delta\phi$ space by 
+$0.1 \times 0.1$ over most of the calorimeter, and larger in the forward 
+region. A decision is made based on the multiplicities and $E_{\rm{T}}$ 
+thresholds of the objects 
+identified by the L1Calo algorithms: EM clusters, 
+$\tau$-leptons, jets, missing transverse energy, scalar sum $E_{\rm{T}}$, 
+and total transverse energy of the L1 jets.
+The L1 muon trigger (L1muon) uses measurements of the trajectories of muons 
+in the RPC and TGC trigger chambers, located in the barrel and end-cap regions 
+of the muon spectrometer. The multiplicity of the various muon \pt thresholds
+is input to the trigger decision.
+
+The central trigger processer (CTP) combines results from the L1Muon and L1Calo
+triggers to issue an overall L1 accept or reject decision.
+To facilitate this task, the CTP programs up to 256 configurations that 
+consist of various combinations of $E_{\rm{T}}$ and \pt requirements, 
+or thresholds.
+The CTP has the capability of implementing different isolation criteria 
+to the different objects such as the L1 EM clusters. 
+A trigger menu is implemented as a collection of L1 items, each containing a 
+logical combination of one or more configured L1 thresholds. 
+For example, the item L1\_EM30i refers to an event requiring at least one 
+isolated EM object with $E_{\rm{T}} > 30 $\GeV. If the rates of a particular 
+object is high , such as EM objects with low momentum, a prescale factor $\alpha$ is applied to the L1 item in the menu, where only 1 in $\alpha$
+events is passed to the HLT. The L1 prescales are generally adjusted to 
+maintain the optimal use of the allocated bandwidth for an L1 item during 
+data-taking since the luminosity drops over the course of a run.
+
+The L1 trigger has a 2.5 $\mu$s latency where the data fragments are 
+hold in pipeline buffers located within detector-specific front-end 
+electronics. 
+Once the CTP issues an accept, the data is pushed to detector-specific 
+Readout Drivers (RODs), then transfered to the Readout System (ROS). 
+The rest of the chain is described next. 
+
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.95\textwidth]{L1_EM_Full2016}
+\caption{Output rates of Level-1 EM triggers as a function of the uncalibrated instantaneous luminosity measured online during the 2016 proton-proton data taking at a center-of-mass energy of 13 TeV.
+Rates are shown only for unprescaled triggers. All trigger rates show a linear dependency with instantaneous luminosity.}
+\label{fig:}
+\end{figure} 
+
+
 
 
 \subsection{Dataflow Challenges in Run-2}
@@ -114,3 +161,6 @@ are forked from a single mother process to maximize memory sharing.
 \item The Data loggers or SubFarm Output (SFO) are responsible for savind the 
 accepted events to disk, and sending the files to CERN permanent storage infrastructure.
 \end{itemize}
+
+
+

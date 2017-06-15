@@ -1,7 +1,7 @@
 10
 
 dir
-273944
+274453
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/signalregions
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -502,14 +502,14 @@ has-props
 
 60021
 
-Optimiz_SR1b_10fb_150_600_JET25_6.pdf
+Optimiz_SR2b_10fb_150_600_JET25_5.pdf
 file
 
 
 
 
 2017-05-26T18:52:41.000000Z
-b2df437159656dc645b84b8eb451499a
+ee6bf16e30e07c50bced3795975903e8
 2016-05-11T07:52:07.571451Z
 255095
 jpoveda
@@ -534,41 +534,7 @@ has-props
 
 
 
-18577
-
-Optimiz_SR2b_10fb_100_550_JET25_6.pdf
-file
-
-
-
-
-2017-05-26T18:52:41.000000Z
-7c07e4c714686ac9186b826added49ee
-2016-05-11T07:52:07.571451Z
-255095
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18182
+18312
 
 h_sign_gg331_SR3.pdf
 file
@@ -604,14 +570,14 @@ has-props
 
 15477
 
-Optimiz_SR2b_10fb_150_600_JET25_5.pdf
+Optimiz_SR2b_10fb_100_550_JET25_6.pdf
 file
 
 
 
 
 2017-05-26T18:52:41.000000Z
-ee6bf16e30e07c50bced3795975903e8
+7c07e4c714686ac9186b826added49ee
 2016-05-11T07:52:07.571451Z
 255095
 jpoveda
@@ -636,19 +602,19 @@ has-props
 
 
 
-18312
+18182
 
-h_sign_gg331_SR4.pdf
+Optimiz_SR1b_10fb_150_600_JET25_6.pdf
 file
 
 
 
 
 2017-05-26T18:52:41.000000Z
-3370ee880ed03bd4d1fd678332fe9780
-2017-01-18T13:58:42.525169Z
-266534
-sberlend
+b2df437159656dc645b84b8eb451499a
+2016-05-11T07:52:07.571451Z
+255095
+jpoveda
 has-props
 
 
@@ -670,7 +636,7 @@ has-props
 
 
 
-15484
+18577
 
 Optimiz_SR1b_10fb_200_650_JET25_6.pdf
 file
@@ -705,6 +671,40 @@ has-props
 
 
 18532
+
+h_sign_gg331_SR4.pdf
+file
+
+
+
+
+2017-05-26T18:52:41.000000Z
+3370ee880ed03bd4d1fd678332fe9780
+2017-01-18T13:58:42.525169Z
+266534
+sberlend
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15484
 
 Optimiz_SR0b5j_10fb_125_650_JET50_5.pdf
 file
@@ -842,40 +842,6 @@ has-props
 
 18901
 
-outSR10.pdf
-file
-
-
-
-
-2017-05-26T18:52:41.000000Z
-682f7d3b51777b61f8c29287828a73aa
-2016-06-03T06:30:54.306070Z
-257113
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-57381
-
 Gttoff_nobound.pdf
 file
 
@@ -909,6 +875,40 @@ has-props
 
 
 16460
+
+outSR10.pdf
+file
+
+
+
+
+2017-05-26T18:52:41.000000Z
+682f7d3b51777b61f8c29287828a73aa
+2016-06-03T06:30:54.306070Z
+257113
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+57381
 
 Optimiz_SR0b3j_10fb_200_0_JET40_4.pdf
 file
@@ -1012,40 +1012,6 @@ has-props
 
 19744
 
-plot_significance_GG_ttN1_UDD_all.pdf
-file
-
-
-
-
-2017-05-26T18:52:41.000000Z
-6ce678cc88e052dc27a6f3d96658c728
-2017-01-10T13:58:25.229988Z
-265959
-montoya
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17855
-
 Mll_afterlepton_3LSS1b_0_physics__v47_343637.pdf
 file
 
@@ -1079,6 +1045,40 @@ has-props
 
 
 18981
+
+plot_significance_GG_ttN1_UDD_all.pdf
+file
+
+
+
+
+2017-05-26T18:52:41.000000Z
+6ce678cc88e052dc27a6f3d96658c728
+2017-01-10T13:58:25.229988Z
+265959
+montoya
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17855
 
 Optimiz_SR2b_36fb_0_2000_6j40_000_full.pdf
 file

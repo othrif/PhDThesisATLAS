@@ -1,7 +1,7 @@
 10
 
 dir
-273944
+274453
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/selection/dataMC
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -502,40 +502,6 @@ has-props
 
 23544
 
-PTBJET1_afterlepton_SSee_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:37.000000Z
-6ae2da32922684aea7146c735b9a8f0a
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20717
-
 MEFF_afterlepton_OSee_0_physics__v52v52.pdf
 file
 
@@ -569,6 +535,40 @@ has-props
 
 
 23348
+
+PTBJET1_afterlepton_SSee_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:37.000000Z
+6ae2da32922684aea7146c735b9a8f0a
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20717
 
 NLEP_afterlepton_OSmm_0_physics__v52v52.pdf
 file
@@ -774,40 +774,6 @@ has-props
 
 24231
 
-MEFF_afterlepton_OSem_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:37.000000Z
-981deb2de85b8f9f6ee5b7f8c316299f
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23501
-
 PTBJET1_afterlepton_SSem_0_physics__v52v52.pdf
 file
 
@@ -841,6 +807,40 @@ has-props
 
 
 20539
+
+MEFF_afterlepton_OSem_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:37.000000Z
+981deb2de85b8f9f6ee5b7f8c316299f
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23501
 
 PTJET5_afterlepton_SSem_0_physics__v52v52.pdf
 file
@@ -1012,40 +1012,6 @@ has-props
 
 24210
 
-MEFF_afterlepton_OSmm_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-d992cef338feaa3a82d276ece156cd58
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23281
-
 PTBJET1_afterlepton_SSmm_0_physics__v52v52.pdf
 file
 
@@ -1079,6 +1045,40 @@ has-props
 
 
 20676
+
+MEFF_afterlepton_OSmm_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+d992cef338feaa3a82d276ece156cd58
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23281
 
 PTJET5_afterlepton_SSmm_0_physics__v52v52.pdf
 file
@@ -2236,40 +2236,6 @@ has-props
 
 26749
 
-NBJET70_20_afterlepton_OSmm_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-f44374cf81fa23157c68fde240c231e6
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18861
-
 MEFF_afterlepton_SSee_0_physics__v47v48.pdf
 file
 
@@ -2304,16 +2270,16 @@ has-props
 
 22490
 
-NLEP_afterlepton_SSmm_0_physics__v47v48.pdf
+NBJET70_20_afterlepton_OSmm_0_physics__v52v52.pdf
 file
 
 
 
 
 2017-05-26T18:51:38.000000Z
-a3ae0ca3ea3b5da78fad96f7903e5076
-2017-01-16T18:46:04.337524Z
-266472
+f44374cf81fa23157c68fde240c231e6
+2017-03-23T10:55:32.385911Z
+270638
 jpoveda
 has-props
 
@@ -2336,7 +2302,7 @@ has-props
 
 
 
-17766
+18861
 
 PTBJET3_afterlepton_OSmm_0_physics__v52v52.pdf
 file
@@ -2372,6 +2338,40 @@ has-props
 
 21649
 
+NLEP_afterlepton_SSmm_0_physics__v47v48.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+a3ae0ca3ea3b5da78fad96f7903e5076
+2017-01-16T18:46:04.337524Z
+266472
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17766
+
 PTLEP1_afterlepton_OSmm_0_physics__v47v48.pdf
 file
 
@@ -2406,40 +2406,6 @@ has-props
 
 22342
 
-Mll_afterlepton_SSee_0_physics__v47v48.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-f50bc20967e1445128d8e848c191b710
-2017-01-16T18:46:04.337524Z
-266472
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-33565
-
 MET_afterlepton_SSem_0_physics__v52v52.pdf
 file
 
@@ -2473,6 +2439,40 @@ has-props
 
 
 27180
+
+Mll_afterlepton_SSee_0_physics__v47v48.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+f50bc20967e1445128d8e848c191b710
+2017-01-16T18:46:04.337524Z
+266472
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+33565
 
 MEFF_afterlepton_SSem_0_physics__v47v48.pdf
 file
@@ -2576,40 +2576,6 @@ has-props
 
 20380
 
-Mll_afterlepton_SSem_0_physics__v47v48.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-73d12fd0fc61a4ab7d8a60dea4cbc53c
-2017-01-16T18:46:04.337524Z
-266472
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23585
-
 MET_afterlepton_SSmm_0_physics__v52v52.pdf
 file
 
@@ -2644,14 +2610,14 @@ has-props
 
 26949
 
-MEFF_afterlepton_SSmm_0_physics__v47v48.pdf
+Mll_afterlepton_SSem_0_physics__v47v48.pdf
 file
 
 
 
 
 2017-05-26T18:51:38.000000Z
-283f23dc348d227e16b6fa3563fc1f77
+73d12fd0fc61a4ab7d8a60dea4cbc53c
 2017-01-16T18:46:04.337524Z
 266472
 jpoveda
@@ -2676,7 +2642,7 @@ has-props
 
 
 
-23405
+23585
 
 PTBJET2_afterlepton_OSee_0_physics__v52v52.pdf
 file
@@ -2711,6 +2677,40 @@ has-props
 
 
 19441
+
+MEFF_afterlepton_SSmm_0_physics__v47v48.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+283f23dc348d227e16b6fa3563fc1f77
+2017-01-16T18:46:04.337524Z
+266472
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23405
 
 PTJET2_afterlepton_SSee_0_physics__v52v52.pdf
 file
@@ -2882,40 +2882,6 @@ has-props
 
 19384
 
-MT_afterlepton_SSee_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-fcb0debc0bdbd36e7752818ea91ecd97
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20335
-
 PTJET2_afterlepton_SSem_0_physics__v52v52.pdf
 file
 
@@ -2949,6 +2915,40 @@ has-props
 
 
 26423
+
+MT_afterlepton_SSee_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+fcb0debc0bdbd36e7752818ea91ecd97
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20335
 
 PTLEP2_afterlepton_OSmm_0_physics__v52v52.pdf
 file
@@ -3052,40 +3052,6 @@ has-props
 
 19440
 
-MT_afterlepton_SSem_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-aaf7ed7a678a8131781d87ae32fbe0ca
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20120
-
 PTJET2_afterlepton_SSmm_0_physics__v52v52.pdf
 file
 
@@ -3119,6 +3085,40 @@ has-props
 
 
 26508
+
+MT_afterlepton_SSem_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+aaf7ed7a678a8131781d87ae32fbe0ca
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+20120
 
 NLEP_afterlepton_SSee_0_physics__v52v52.pdf
 file
@@ -3358,40 +3358,6 @@ has-props
 
 23923
 
-MEFF_afterlepton_SSee_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-877c7b28ccdc432d82bb508febd1bc8d
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24257
-
 PTBJET1_afterlepton_OSem_0_physics__v52v52.pdf
 file
 
@@ -3425,6 +3391,40 @@ has-props
 
 
 20339
+
+MEFF_afterlepton_SSee_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+877c7b28ccdc432d82bb508febd1bc8d
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24257
 
 NLEP_afterlepton_SSmm_0_physics__v52v52.pdf
 file
@@ -3630,40 +3630,6 @@ has-props
 
 24774
 
-MEFF_afterlepton_SSem_0_physics__v52v52.pdf
-file
-
-
-
-
-2017-05-26T18:51:38.000000Z
-6ea743389f342663fca146940ac80a76
-2017-03-23T10:55:32.385911Z
-270638
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23950
-
 PTBJET1_afterlepton_OSmm_0_physics__v52v52.pdf
 file
 
@@ -3697,6 +3663,40 @@ has-props
 
 
 20185
+
+MEFF_afterlepton_SSem_0_physics__v52v52.pdf
+file
+
+
+
+
+2017-05-26T18:51:38.000000Z
+6ea743389f342663fca146940ac80a76
+2017-03-23T10:55:32.385911Z
+270638
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23950
 
 PTJET5_afterlepton_OSmm_0_physics__v52v52.pdf
 file
@@ -4208,40 +4208,6 @@ has-props
 
 22411
 
-NVTX_afterlepton_SSmm_0_physics__v47v48.pdf
-file
-
-
-
-
-2017-05-26T18:51:39.000000Z
-b7dabd862c6ec4d0f4c32e841cb77123
-2017-01-16T18:46:04.337524Z
-266472
-jpoveda
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25941
-
 PTBJET70_1_afterlepton_SSee_0_physics__v47v48.pdf
 file
 
@@ -4275,6 +4241,40 @@ has-props
 
 
 19234
+
+NVTX_afterlepton_SSmm_0_physics__v47v48.pdf
+file
+
+
+
+
+2017-05-26T18:51:39.000000Z
+b7dabd862c6ec4d0f4c32e841cb77123
+2017-01-16T18:46:04.337524Z
+266472
+jpoveda
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25941
 
 PTJETrat_SSee_0_physics__v52v52.pdf
 file

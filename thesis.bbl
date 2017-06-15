@@ -82,6 +82,24 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
   [astro-ph]}}.
 %%CITATION = ASTRO-PH/0307335;%%.
 
+\bibitem{evolution1}
+N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
+
+\bibitem{evolution2}
+A.~Negri, J. Phys. Conf. Ser. {\bfseries 396} (2012) 012033,
+  \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
+
+\bibitem{l1}
+{ATLAS Collaboration}, ATLAS-TDR-12, 1998.
+
+\bibitem{hlt}
+{ATLAS Collaboration},
+  \href{https://cds.cern.ch/record/616089}{CERN/LHCC/2003-022}, CERN Geneva
+  2003.
+
+\bibitem{ros}
+A.~Borga {et~al.}, PoS(TIPP2014)205, 2014.
+
 \bibitem{atlasTwiki}
 {\em Luminosity Public Results in Run 2},
   \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
@@ -102,23 +120,54 @@ W.~P. Vazquez {et~al.},
 A.~Negri {et~al.}, Journal of Physics: Conference Series {\bfseries 396} (2012)
   012033, \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
 
-\bibitem{evolution1}
-N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
+\bibitem{Alwall:2014hca}
+J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
+  H.~S. Shao, T.~Stelzer, P.~Torrielli,  and M.~Zaro,
+  \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{JHEP {\bfseries 07} (2014)
+  079},
+\href{http://arxiv.org/abs/1405.0301}{{\ttfamily arXiv:1405.0301 [hep-ph]}}.
+%%CITATION = ARXIV:1405.0301;%%.
 
-\bibitem{evolution2}
-A.~Negri, J. Phys. Conf. Ser. {\bfseries 396} (2012) 012033,
-  \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
+\bibitem{Sjostrand:2007gs}
+T.~Sj{\"o}strand, S.~Mrenna,  and P.~Skands,
+  \href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{Comput. Phys. Commun.
+  {\bfseries 178} (2008) 852--867},
+\href{http://arxiv.org/abs/0710.3820}{{\ttfamily arXiv:0710.3820 [hep-ph]}}.
+%%CITATION = ARXIV:0710.3820;%%.
 
-\bibitem{l1}
-{ATLAS Collaboration}, ATLAS-TDR-12, 1998.
+\bibitem{Agostinelli:2002hh}
+{GEANT4} Collaboration, S.~Agostinelli {et~al.},
+\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nucl. Instrum. Meth. A
+  {\bfseries 506} (2003) 250--303}.
+%%CITATION = NUIMA,A506,250;%%.
 
-\bibitem{hlt}
-{ATLAS Collaboration},
-  \href{https://cds.cern.ch/record/616089}{CERN/LHCC/2003-022}, CERN Geneva
-  2003.
+\bibitem{ATL-PHYS-PUB-2010-013}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2010-013},
+  \url{http://cds.cern.ch/record/1300517}.
 
-\bibitem{ros}
-A.~Borga {et~al.}, PoS(TIPP2014)205, 2014.
+\bibitem{ATLAS-CONF-2016-024}
+{ATLAS Collaboration},  {ATLAS-CONF-2016-024}, 2016,
+  \url{https://cds.cern.ch/record/2157687}.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam,  and G.~Soyez,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{JHEP {\bfseries 0804}
+  (2008) 063},
+\href{http://arxiv.org/abs/0802.1189}{{\ttfamily arXiv:0802.1189 [hep-ph]}}.
+%%CITATION = ARXIV:0802.1189;%%.
+
+\bibitem{PERF-2014-07}
+{ATLAS Collaboration}, \href{http://arxiv.org/abs/1603.02934}{{\ttfamily
+  arXiv:1603.02934 [hep-ex]}}.
+
+\bibitem{Aad:2016upyew}
+{ATLAS} Collaboration, G.~Aad {et~al.},
+\href{http://arxiv.org/abs/1603.02934}{{\ttfamily arXiv:1603.02934 [hep-ex]}}.
+%%CITATION = ARXIV:1603.02934;%%.
+
+\bibitem{ATL-PHYS-PUB-2015-034}
+{ATLAS Collaboration},  {ATL-PHYS-PUB-2015-034}, 2015,
+  \url{https://cds.cern.ch/record/2042098}.
 
 \bibitem{vme_roib}
 R.~Blair {et~al.}, 2008 JINST 3 P04001.
@@ -197,21 +246,6 @@ H.~Baer, V.~Barger, M.~Savoy,  and X.~Tata,
 {D. J. Lange}, \href{http://dx.doi.org/10.1016/S0168-9002(01)00089-4}{Nucl.
   Instrum. Meth. A {\bfseries 462} (2001) 152}.
 
-\bibitem{Alwall:2014hca}
-J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
-  H.~S. Shao, T.~Stelzer, P.~Torrielli,  and M.~Zaro,
-  \href{http://dx.doi.org/10.1007/JHEP07(2014)079}{JHEP {\bfseries 07} (2014)
-  079},
-\href{http://arxiv.org/abs/1405.0301}{{\ttfamily arXiv:1405.0301 [hep-ph]}}.
-%%CITATION = ARXIV:1405.0301;%%.
-
-\bibitem{Sjostrand:2007gs}
-T.~Sj{\"o}strand, S.~Mrenna,  and P.~Skands,
-  \href{http://dx.doi.org/10.1016/j.cpc.2008.01.036}{Comput. Phys. Commun.
-  {\bfseries 178} (2008) 852--867},
-\href{http://arxiv.org/abs/0710.3820}{{\ttfamily arXiv:0710.3820 [hep-ph]}}.
-%%CITATION = ARXIV:0710.3820;%%.
-
 \bibitem{Ball:2012cx}
 R.~D. Ball {et~al.},
   \href{http://dx.doi.org/10.1016/j.nuclphysb.2012.10.003}{Nucl. Phys. B
@@ -279,16 +313,6 @@ P.~Skands, \href{http://dx.doi.org/10.1103/PhysRevD.82.074018}{Phys. Rev. D
   [physics.ins-det]}}.
 %%CITATION = ARXIV:1005.4568;%%.
 
-\bibitem{Agostinelli:2002hh}
-{GEANT4} Collaboration, S.~Agostinelli {et~al.},
-\href{http://dx.doi.org/10.1016/S0168-9002(03)01368-8}{Nucl. Instrum. Meth. A
-  {\bfseries 506} (2003) 250--303}.
-%%CITATION = NUIMA,A506,250;%%.
-
-\bibitem{ATL-PHYS-PUB-2010-013}
-{ATLAS Collaboration},  {ATL-PHYS-PUB-2010-013},
-  \url{http://cds.cern.ch/record/1300517}.
-
 \bibitem{Sherstnev:2007nd}
 A.~Sherstnev and R.~Thorne,
   \href{http://dx.doi.org/10.1140/epjc/s10052-008-0610-x}{Eur. Phys. J. C
@@ -350,17 +374,6 @@ C.~Borschensky {et~al.},
 {ATLAS Collaboration},  {ATL-PHYS-PUB-2015-026}, 2015,
   \url{https://cds.cern.ch/record/2037717}.
 
-\bibitem{Cacciari:2008gp}
-M.~Cacciari, G.~P. Salam,  and G.~Soyez,
-  \href{http://dx.doi.org/10.1088/1126-6708/2008/04/063}{JHEP {\bfseries 0804}
-  (2008) 063},
-\href{http://arxiv.org/abs/0802.1189}{{\ttfamily arXiv:0802.1189 [hep-ph]}}.
-%%CITATION = ARXIV:0802.1189;%%.
-
-\bibitem{PERF-2014-07}
-{ATLAS Collaboration}, \href{http://arxiv.org/abs/1603.02934}{{\ttfamily
-  arXiv:1603.02934 [hep-ex]}}.
-
 \bibitem{Cacciari:2007fd}
 M.~Cacciari and G.~P. Salam,
   \href{http://dx.doi.org/10.1016/j.physletb.2007.09.077}{Phys. Lett. B
@@ -391,10 +404,6 @@ M.~Cacciari and G.~P. Salam,
 \bibitem{ATL-PHYS-PUB-2016-012}
 {ATLAS Collaboration},  {ATL-PHYS-PUB-2016-012}, 2016,
   \url{https://cds.cern.ch/record/2160731}.
-
-\bibitem{ATLAS-CONF-2016-024}
-{ATLAS Collaboration},  {ATLAS-CONF-2016-024}, 2016,
-  \url{https://cds.cern.ch/record/2157687}.
 
 \bibitem{Aad:2016jkr}
 {ATLAS} Collaboration, {ATLAS Collaboration},

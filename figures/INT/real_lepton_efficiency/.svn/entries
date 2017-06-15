@@ -1,7 +1,7 @@
 10
 
 dir
-273944
+274453
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/real_lepton_efficiency
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -604,14 +604,14 @@ has-props
 
 23355
 
-signal_level_Mee_pt1520_ratio_plot_MC_normalized.pdf
+Compare_TandP_truth_match_muon_dRjet.pdf
 file
 
 
 
 
 2017-05-26T18:51:42.000000Z
-91db357bad0cbf6f0c436539ac5cc3fd
+36a7f9aaa115590860bd654745117444
 2017-03-14T15:03:59.832951Z
 269855
 yushen
@@ -636,41 +636,7 @@ has-props
 
 
 
-23550
-
-real_efficiency_ratio_plot_muon_pt.pdf
-file
-
-
-
-
-2017-05-26T18:51:42.000000Z
-2b006cb10cb589ff2d4aa7cb2e7db05e
-2017-03-14T15:03:59.832951Z
-269855
-yushen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20395
+22594
 
 bkg_subtraction_baseline_template_range_baseline_mll80_100_pt10_15_eta151_200_tag_trigger_matched.pdf
 file
@@ -706,14 +672,14 @@ has-props
 
 43829
 
-Compare_TandP_truth_match_muon_dRjet.pdf
+real_efficiency_ratio_plot_muon_pt.pdf
 file
 
 
 
 
 2017-05-26T18:51:42.000000Z
-36a7f9aaa115590860bd654745117444
+2b006cb10cb589ff2d4aa7cb2e7db05e
 2017-03-14T15:03:59.832951Z
 269855
 yushen
@@ -738,7 +704,41 @@ has-props
 
 
 
-22594
+20395
+
+signal_level_Mee_pt1520_ratio_plot_MC_normalized.pdf
+file
+
+
+
+
+2017-05-26T18:51:42.000000Z
+91db357bad0cbf6f0c436539ac5cc3fd
+2017-03-14T15:03:59.832951Z
+269855
+yushen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23550
 
 real_efficiency.pdf
 file
@@ -808,40 +808,6 @@ has-props
 
 16436
 
-trigger_uncertainty_electron_eta80137_ratio_plot.pdf
-file
-
-
-
-
-2017-05-26T18:51:42.000000Z
-2becd62831ec855fe2bceb1a6161161d
-2017-03-14T15:04:53.133370Z
-269856
-yushen
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23588
-
 trigger_uncertainty_electron_eta0201_ratio_plot.pdf
 file
 
@@ -875,6 +841,40 @@ has-props
 
 
 23337
+
+trigger_uncertainty_electron_eta80137_ratio_plot.pdf
+file
+
+
+
+
+2017-05-26T18:51:42.000000Z
+2becd62831ec855fe2bceb1a6161161d
+2017-03-14T15:04:53.133370Z
+269856
+yushen
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23588
 
 real_efficiency_vs_AvgMu_muon.pdf
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-273944
+274453
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/histfitter/bkgonly
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -230,40 +230,6 @@ jmaurer
 
 2556
 
-YieldsBgOnlyVRWW.tex
-file
-
-
-
-
-2017-05-26T18:51:40.000000Z
-9ddd4c27f86704d7e3570190a11b8411
-2016-07-25T11:27:10.954920Z
-261478
-jmaurer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2832
-
 YieldsBgOnlySR3L2.tex
 file
 
@@ -297,6 +263,40 @@ jmaurer
 
 
 2556
+
+YieldsBgOnlyVRWW.tex
+file
+
+
+
+
+2017-05-26T18:51:40.000000Z
+9ddd4c27f86704d7e3570190a11b8411
+2016-07-25T11:27:10.954920Z
+261478
+jmaurer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2832
 
 YieldsBgOnlySR_RPV1bDD.tex
 file
@@ -366,40 +366,6 @@ jmaurer
 
 2558
 
-YieldsBgOnlyVRWZ.tex
-file
-
-
-
-
-2017-05-26T18:51:40.000000Z
-28cacc6acbbb4e1990cee9031f67449f
-2016-07-25T11:27:10.954920Z
-261478
-jmaurer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2845
-
 YieldsBgOnlySR_RPV3bDD.tex
 file
 
@@ -433,6 +399,40 @@ jmaurer
 
 
 2562
+
+YieldsBgOnlyVRWZ.tex
+file
+
+
+
+
+2017-05-26T18:51:40.000000Z
+28cacc6acbbb4e1990cee9031f67449f
+2016-07-25T11:27:10.954920Z
+261478
+jmaurer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2845
 
 YieldsBgOnlySR3b.tex
 file
@@ -468,40 +468,6 @@ jmaurer
 
 2569
 
-YieldsBgOnlySR_RPV1bGG.tex
-file
-
-
-
-
-2017-05-26T18:51:40.000000Z
-9942c2baa75430f868171c27379c357f
-2016-07-25T11:27:10.954920Z
-261478
-jmaurer
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2590
-
 ShortMergedYieldsBgOnlyTable1.tex
 file
 
@@ -535,6 +501,40 @@ jmaurer
 
 
 947
+
+YieldsBgOnlySR_RPV1bGG.tex
+file
+
+
+
+
+2017-05-26T18:51:40.000000Z
+9942c2baa75430f868171c27379c357f
+2016-07-25T11:27:10.954920Z
+261478
+jmaurer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2590
 
 SystBgOnlySR3L1.tex
 file

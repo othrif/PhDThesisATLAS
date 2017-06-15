@@ -14,3 +14,33 @@ git ls-files --deleted -z | xargs -0 git rm # in case you removed files
 Spell check:
 for i in $(ls texfiles/*.tex); do aspell -c -t ${i} -d en; done
 
+
+
+Shortcuts:
+
+
+
+\begin{figure}[htb!]
+\centering
+\begin{subfigure}[t]{0.48\textwidth}
+\includegraphics[width=0.95\textwidth]{}
+\subcaption{}
+\label{fig:}
+\end{subfigure}
+\begin{subfigure}[t]{0.48\textwidth}
+\includegraphics[width=0.95\textwidth]{}
+\subcaption{}
+\label{fig:}
+\end{subfigure}
+\vspace{-0.25cm}
+\caption{}
+\label{fig:}
+\end{figure} 
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=0.95\textwidth]{}
+\caption{}
+\label{fig:}
+\end{figure} 
+

@@ -1,7 +1,7 @@
 10
 
 dir
-273944
+274453
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/AccepEff
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -25,40 +25,6 @@ ptornamb
 
 
 883ba7d9-fdd0-4202-9341-49aa55999ad8
-
-accep_effic_RPVLQDRpv2L0b.pdf
-file
-
-
-
-
-2017-05-26T18:52:35.000000Z
-fb7cdb7b4229141c4f437d38dcee1ba0
-2017-04-05T10:00:39.181813Z
-271072
-ptornamb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16882
 
 accep_effic_GttRpc2Lsoft1b.pdf
 file
@@ -94,14 +60,14 @@ has-props
 
 18623
 
-accep_effic_ComprGttRpc2Lsoft1b.pdf
+accep_effic_RPVLQDRpv2L0b.pdf
 file
 
 
 
 
 2017-05-26T18:52:35.000000Z
-38852e11b48499db75a9ee60b4654a54
+fb7cdb7b4229141c4f437d38dcee1ba0
 2017-04-05T10:00:39.181813Z
 271072
 ptornamb
@@ -126,7 +92,7 @@ has-props
 
 
 
-15961
+16882
 
 accep_effic_GttRpc2Lsoft2b.pdf
 file
@@ -161,6 +127,40 @@ has-props
 
 
 18643
+
+accep_effic_ComprGttRpc2Lsoft1b.pdf
+file
+
+
+
+
+2017-05-26T18:52:35.000000Z
+38852e11b48499db75a9ee60b4654a54
+2017-04-05T10:00:39.181813Z
+271072
+ptornamb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15961
 
 accep_effic_ComprGttRpc2Lsoft2b.pdf
 file
@@ -400,40 +400,6 @@ has-props
 
 15410
 
-accep_effic_RPVGG331Rpv2L1bH.pdf
-file
-
-
-
-
-2017-05-26T18:52:35.000000Z
-b03a466bdb3b514fae0bf3d348f39025
-2017-04-05T10:00:39.181813Z
-271072
-ptornamb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15416
-
 accep_effic_GttRpc2L2bH.pdf
 file
 
@@ -468,14 +434,14 @@ has-props
 
 18727
 
-accep_effic_ComprGttRpc2L2bH.pdf
+accep_effic_RPVGG331Rpv2L1bH.pdf
 file
 
 
 
 
 2017-05-26T18:52:35.000000Z
-2cbb5e2b21da2e68cec556a92063a26d
+b03a466bdb3b514fae0bf3d348f39025
 2017-04-05T10:00:39.181813Z
 271072
 ptornamb
@@ -500,7 +466,7 @@ has-props
 
 
 
-15725
+15416
 
 accep_effic_GSLRpc3L0bS.pdf
 file
@@ -535,6 +501,40 @@ has-props
 
 
 18228
+
+accep_effic_ComprGttRpc2L2bH.pdf
+file
+
+
+
+
+2017-05-26T18:52:35.000000Z
+2cbb5e2b21da2e68cec556a92063a26d
+2017-04-05T10:00:39.181813Z
+271072
+ptornamb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15725
 
 accep_effic_RPVDD321Rpv2L1bS.pdf
 file
