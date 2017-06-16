@@ -23,24 +23,18 @@ The elements described are enough to write down the langrangian of the SM.
 The $ SU\left(3\right) $ gauge symmetry coupled to the quarks describes Quantum chromodynamics (QCD), the theory of strong interactions.
 The eight $ SU\left(3\right) $ gauge fields are associated to the different colored states of the gluon.
 The QCD Lagrangian is given by
-
 \begin{equation}
-\mathcal{L} QCD = \frac{1}{4} G
+\mathcal{L}_{QCD} = -\frac{1}{4} G\indices{_{A\mu\nu}}G\indices{_{A}^{\mu\nu}} + \sum_{i=\text{flavors}} \overline{q}_i \left(i\slashed{D} - m_i\right) q_i,
 \end{equation}
-
-where $G$ are the gauge fields of QCD given by 
-
+where $G$'s are the gauge fields of QCD given by 
 \begin{equation}
-,
+G\indices{_{A\mu\nu}} = \partial_{\mu} G\indices{_{A\nu}} - \partial_{\nu} G\indices{_{A\mu}} - g_S f_{ABC} G\indices{_{B\mu}} G\indices{_{C\nu}},
 \end{equation}
-
 and the covariant derivative, $D\mu$,  defined as
-
 \begin{equation}
-,
+D_\mu = \partial_{\mu} + i g_S \frac{\lambda_A}{2}G\indices{_{A\mu}},
 \end{equation}
-
-where $gS$ is the strong coupling constant, and $\lambda A$ are the eight GellMass matrices.
+where $g_S$ is the strong coupling constant, and $\lambda_A$ are the eight Gell-Mass matrices.
 The indices of the quarks, $i=1,2,3$, run over the colors: red, blue, green, and their anticolors.
 While the indices of the gluons, $A,B,C = 1, \cdots, 8$, correspond to the combinations of colors and anticolors.
 Color must be conserved in all QCD interactions, similar to the  electric charge.
@@ -55,7 +49,7 @@ The four gauge fields of $ SU\left(2\right) $ and $ U\left(1\right) $
 must be added without mass to preserve gauge invariance.
 However, the gauge bosons of the weak force have a large mass according to observation,
 and thus in direct contradiction with the prediction.
-This problem was not relevant in the case of QCD since the gluons are massless. 
+%This problem was not relevant in the case of QCD since the gluons are massless. 
 In addition, the weak interaction violates parity where it couples differently 
 to the left and right-handed quark and lepton helicity states.
 The solution is to treat the two helicity states of the leptons as different fields
@@ -65,12 +59,78 @@ Again to maintain gauge invariance, the fermion fields should be massless in
 direct contradiction with observation.
 
 Both of the problems described can be resolved by introducing 
-sponteneous symmetry breaking. The idea is to introduce new scalar fields with 
+sponteneous symmetry breaking. The principle is to introduce new scalar fields with 
 zero spin that couple to the electroweak  $ SU\left(2\right) \times U\left(1\right) $
 gauge fields while preserving the gauge invariance of the Lagrangian.
+The form of the potential describing this new interaction is chosen in such a way that 
+zero values of the fields do not correspond to the lowest energy state.
+As a consequence, the ground state of the field will ``break'' the  
+$ SU\left(2\right) \times U\left(1\right) $ symmetry 
+even though the Lagrangian preserves it.
+The scalar fields will take a non-zero value, called the vaccuum expectation value 
+(vev), to allow the fermions and weak gauge bosons to appear as massive particles.
+A consequence of this mechanism is that one additional scalar field obtains mass
+and thus predicts a neutral massive spin zero particle, the Higgs boson. 
+
+The complete Lagrangian of the electroweak theory, including the mechanism 
+of electroweak symmetry breaking, can then be expressed as
+\begin{equation}
+%\mathcal{L}_{EW} = \mathcal{L}_\text{gauge} + \mathcal{L}_\text{matter} +   \mathcal{L}_\text{Yukawa} + \mathcal{L}_\text{Higgs} .
+\mathcal{L}_{EW} = \mathcal{L}_\text{gauge} + \mathcal{L}_\text{matter} + \mathcal{L}_\text{Higgs} +   \mathcal{L}_\text{Yukawa}  .
+\end{equation}
+The kinetic portion of the Lagrangian introduces the gauge isotriplet, $W\indices{_{\mu}^{i=1,2,3}}$, for 
+ $ SU\left(2\right) $ and the gauge single, $B_\mu$, of $ U\left(1\right) $, in
+\begin{equation}
+\mathcal{L}_\text{gauge} =  -\frac{1}{4} \vect{W}\indices{_{\mu\nu}}\vect{W}\indices{^{\mu\nu}} - B\indices{_{\mu\nu}}B\indices{^{\mu\nu}},
+\end{equation}
+where 
+\begin{equation}
+\vect{W}^{\mu\nu} = \partial^{\mu}\vect{W}^{\nu} - \partial^{\nu} \vect{W}^{\mu} - g \vect{W}^{\mu} \times \vect{W}^{\nu},
+\end{equation}
+\begin{equation}
+B\indices{^{\mu\nu}} = \partial^{\mu} B^{\nu} - \partial^{\nu} B^{\mu}
+\end{equation}
+and $g$ is the $ SU\left(2\right) $ gauge coupling constant. A linear superposition of the 
+fields  $W\indices{_{\mu}^{i=1,2,3}}$ and $B_\mu$ lead to the SM $W^{\pm}$, $Z$, and photon.
+The matter Lagragian is
+\begin{equation}
+\mathcal{L}_\text{matter} = i\overline{\psi}\slashed{D}\psi
+\end{equation}
+where the covariant derivative is defined as
+\begin{equation}
+D_{\mu} = \partial_\mu + i g \vect{W}_\mu \cdot \vect{T} + \frac{1}{2}i g' B_{\mu}Y.
+\end{equation}
+where $g'$ is  $ U\left(1\right) $ gauge coupling constant, $\vect{T}$ is the weak isospin, and $Y$ is the weak hypercharge.
+The Higgs potential introduces a doublet of complex scalar fields, $\Phi$, expressed as
+\begin{equation}
+ \mathcal{L}_\text{Higgs} = \left(D\Phi\right)^{\dagger} \left(D\Phi\right) + \mu^2 \Phi^{\dagger} \Phi - \lambda  \left(\Phi^{\dagger} \Phi \right)^2
+\end{equation}
+\begin{equation}
+\Phi = \left( \begin{matrix} \phi^+ \\ \phi^0\end{matrix} \right)
+\end{equation}
+The shape of the Higgs potential is determined by the parameters $\mu$ and $\lambda$. 
+If $\mu^2 < 0$, the Higgs field will acquire a set of identical minima with a vev of 
+$v=-\frac{\mu^2}{2\lambda} \equiv \frac{v^2}{2}$. The physical mass of the Higgs particle in the SM is
+\begin{equation}
+m_h = \sqrt{-2\mu^2},
+\end{equation}
+observed by ATLAS and CMS in 2012 with a mass of $m_h = 125.09 \pm 0.24$ \GeV cite??.
+The Yukawa interactions are introduced to the Lagrangian manually to describe the interaction between the fermions and the Higgs field, 
+expressed as 
+\begin{equation}
+ \mathcal{L}_\text{Yukawa} = \sum_\text{generations} \left[-\lambda_e \overline{L} \cdot \phi e_R - \lambda_d \overline{Q} \cdot \phi d_R 
+ - \lambda_u \epsilon^{ab} \overline{Q}_a \phi_b^{\dagger} u_R + h.c. \right]
+\end{equation}
+where $\lambda$ is the Yukawa coupling of the particular fermion, $L$ and $e_R$ are the lepton fields, 
+$Q$, $u_R$, and $d_R$ are the quark fields, $\epsilon^{ab} $ is the completely antisymmetric  $ SU\left(2\right) $ tensor with $\epsilon^{ab} = 1$
+
+
+\subsection{Limitations of the Standard Model}
+
 
 
  
+
 
 
 
