@@ -10,7 +10,7 @@
 \usepackage{titlesec}
 
 \usepackage[T1]{fontenc}
-%\usepackage[english,frenchb]{babel}
+\usepackage[english,frenchb]{babel}
 
 \usepackage{graphicx}
 \usepackage{subcaption}

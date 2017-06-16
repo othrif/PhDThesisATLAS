@@ -4,99 +4,101 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
 \BOOKMARK [0][-]{chapter.2}{Theoretical Background}{}% 5
 \BOOKMARK [1][-]{section.2.1}{The Standard Model of Particle Physics}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Supersymmetry}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.3}{Phenomenology at the LHC}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{Experimental Apparatus}{}% 9
-\BOOKMARK [1][-]{section.3.1}{The Large Hadron Collider}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{A Toroidal LHC Apparatus \(ATLAS\)}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.2.1}{Co-ordinate System}{section.3.2}% 12
-\BOOKMARK [2][-]{subsection.3.2.2}{Inner detector}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.3}{Calorimeters}{section.3.2}% 14
-\BOOKMARK [2][-]{subsection.3.2.4}{Muon System}{section.3.2}% 15
-\BOOKMARK [2][-]{subsection.3.2.5}{ATLAS Operation}{section.3.2}% 16
-\BOOKMARK [1][-]{section.3.3}{ATLAS Trigger and Data Acquisition System}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.3.1}{Hardware Trigger \(L1\)}{section.3.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.2}{Dataflow Challenges in Run-2}{section.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.3}{ATLAS Dataflow Design}{section.3.3}% 20
-\BOOKMARK [1][-]{section.3.4}{Event Simulation}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.5}{Reconstruction and Identification Techniques}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.5.1}{Basic Principle}{section.3.5}% 23
-\BOOKMARK [2][-]{subsection.3.5.2}{Electrons}{section.3.5}% 24
-\BOOKMARK [2][-]{subsection.3.5.3}{Muons}{section.3.5}% 25
-\BOOKMARK [2][-]{subsection.3.5.4}{Jets}{section.3.5}% 26
-\BOOKMARK [2][-]{subsection.3.5.5}{Heavy flavor}{section.3.5}% 27
-\BOOKMARK [2][-]{subsection.3.5.6}{Missing transverse momentum}{section.3.5}% 28
-\BOOKMARK [0][-]{chapter.4}{The Region of Interest Builder}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{VMEbus based RoIB}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.2.1}{Hardware implementation}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.2}{System Performance and Evolution}{section.4.2}% 33
-\BOOKMARK [1][-]{section.4.3}{PC based RoIB}{chapter.4}% 34
-\BOOKMARK [2][-]{subsection.4.3.1}{The Common Readout Receiver Card}{section.4.3}% 35
-\BOOKMARK [2][-]{subsection.4.3.2}{Readout System Firmware and Software}{section.4.3}% 36
-\BOOKMARK [2][-]{subsection.4.3.3}{RoIB Software}{section.4.3}% 37
-\BOOKMARK [1][-]{section.4.4}{Prototype Tests}{chapter.4}% 38
-\BOOKMARK [2][-]{subsection.4.4.1}{Standalone Tests}{section.4.4}% 39
-\BOOKMARK [2][-]{subsection.4.4.2}{Full System Tests}{section.4.4}% 40
-\BOOKMARK [1][-]{section.4.5}{Online Performance in Run-2}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{Analysis Strategy}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Phenomenology \(Benchmarking Models\)}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 45
-\BOOKMARK [2][-]{subsection.5.3.1}{Collision Data}{section.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.3.2}{Simulated Event Samples}{section.5.3}% 47
-\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 48
-\BOOKMARK [2][-]{subsection.5.4.1}{Pre-selection and event cleaning}{section.5.4}% 49
-\BOOKMARK [2][-]{subsection.5.4.2}{Trigger strategy}{section.5.4}% 50
-\BOOKMARK [2][-]{subsection.5.4.3}{Object definition}{section.5.4}% 51
-\BOOKMARK [2][-]{subsection.5.4.4}{Data-MC comparisons}{section.5.4}% 52
-\BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.6}{Analysis Acceptance and Efficiency}{chapter.5}% 54
-\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 55
-\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 56
-\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 57
-\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 58
-\BOOKMARK [2][-]{subsection.6.3.1}{Motivation}{section.6.3}% 59
-\BOOKMARK [2][-]{subsection.6.3.2}{Description of the method}{section.6.3}% 60
-\BOOKMARK [2][-]{subsection.6.3.3}{Correction factors}{section.6.3}% 61
-\BOOKMARK [2][-]{subsection.6.3.4}{Control regions}{section.6.3}% 62
-\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 63
-\BOOKMARK [2][-]{subsection.6.4.1}{Events with one object}{section.6.4}% 64
-\BOOKMARK [2][-]{subsection.6.4.2}{Dynamic matrix method}{section.6.4}% 65
-\BOOKMARK [2][-]{subsection.6.4.3}{Propagation of uncertainties}{section.6.4}% 66
-\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 67
-\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 68
-\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 69
-\BOOKMARK [2][-]{subsection.7.2.1}{Expected yields in the signal regions}{section.7.2}% 70
-\BOOKMARK [2][-]{subsection.7.2.2}{Validation regions}{section.7.2}% 71
-\BOOKMARK [2][-]{subsection.7.2.3}{Validation of irreducible background estimates}{section.7.2}% 72
-\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 73
-\BOOKMARK [2][-]{subsection.7.3.1}{Charge-flip Background}{section.7.3}% 74
-\BOOKMARK [2][-]{subsection.7.3.2}{Matrix Method}{section.7.3}% 75
-\BOOKMARK [2][-]{subsection.7.3.3}{MC Template Method}{section.7.3}% 76
-\BOOKMARK [2][-]{subsection.7.3.4}{Reducible Background Validation}{section.7.3}% 77
-\BOOKMARK [1][-]{section.7.4}{Systematic uncertainties}{chapter.7}% 78
-\BOOKMARK [2][-]{subsection.7.4.1}{Theoretical Uncertainties}{section.7.4}% 79
-\BOOKMARK [2][-]{subsection.7.4.2}{Experimental Uncertainties}{section.7.4}% 80
-\BOOKMARK [0][-]{chapter.8}{Statistical Treatment}{}% 81
-\BOOKMARK [1][-]{section.8.1}{Likelihood Function}{chapter.8}% 82
-\BOOKMARK [1][-]{section.8.2}{Limit Setting Procedure}{chapter.8}% 83
-\BOOKMARK [2][-]{subsection.8.2.1}{Profile Likelihood Ratio}{section.8.2}% 84
-\BOOKMARK [2][-]{subsection.8.2.2}{The p-value}{section.8.2}% 85
-\BOOKMARK [2][-]{subsection.8.2.3}{The CLs Prescription}{section.8.2}% 86
-\BOOKMARK [2][-]{subsection.8.2.4}{Approximate Sampling Distributions}{section.8.2}% 87
-\BOOKMARK [1][-]{section.8.3}{Statistical Implementation}{chapter.8}% 88
-\BOOKMARK [0][-]{chapter.9}{Results and Interpretation}{}% 89
-\BOOKMARK [1][-]{section.9.1}{Predictions and Observations}{chapter.9}% 90
-\BOOKMARK [1][-]{section.9.2}{Statistical Interpretation}{chapter.9}% 91
-\BOOKMARK [2][-]{subsection.9.2.1}{Model independent discovery and upper limits}{section.9.2}% 92
-\BOOKMARK [2][-]{subsection.9.2.2}{Model dependent exclusion limits}{section.9.2}% 93
-\BOOKMARK [0][-]{chapter.10}{Conclusions}{}% 94
-\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 95
-\BOOKMARK [1][-]{section.A.1}{Signal region with best exclusion}{appendix.A}% 96
-\BOOKMARK [1][-]{section.A.2}{Upper limit on cross section}{appendix.A}% 97
-\BOOKMARK [1][-]{section.A.3}{Signal region cutflow}{appendix.A}% 98
-\BOOKMARK [1][-]{section.A.4}{Acceptance and Efficiency}{appendix.A}% 99
-\BOOKMARK [0][-]{appendix.B}{Validation of background estimates}{}% 100
-\BOOKMARK [0][-]{appendix.C}{HistFitter Tables}{}% 101
-\BOOKMARK [0][-]{appendix*.135}{Bibliographie}{}% 102
+\BOOKMARK [2][-]{subsection.2.1.1}{Quantum Chromodynamics}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{The Electroweak Theory}{section.2.1}% 8
+\BOOKMARK [1][-]{section.2.2}{Supersymmetry}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Phenomenology at the LHC}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{Experimental Apparatus}{}% 11
+\BOOKMARK [1][-]{section.3.1}{The Large Hadron Collider}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.2}{A Toroidal LHC Apparatus \(ATLAS\)}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.2.1}{Co-ordinate System}{section.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.2.2}{Inner detector}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.3}{Calorimeters}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.4}{Muon System}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.5}{ATLAS Operation}{section.3.2}% 18
+\BOOKMARK [1][-]{section.3.3}{ATLAS Trigger and Data Acquisition System}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.1}{Hardware Trigger \(L1\)}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.2}{Dataflow Challenges in Run-2}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.3}{ATLAS Dataflow Design}{section.3.3}% 22
+\BOOKMARK [1][-]{section.3.4}{Event Simulation}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.5}{Reconstruction and Identification Techniques}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.5.1}{Basic Principle}{section.3.5}% 25
+\BOOKMARK [2][-]{subsection.3.5.2}{Electrons}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.3}{Muons}{section.3.5}% 27
+\BOOKMARK [2][-]{subsection.3.5.4}{Jets}{section.3.5}% 28
+\BOOKMARK [2][-]{subsection.3.5.5}{Heavy flavor}{section.3.5}% 29
+\BOOKMARK [2][-]{subsection.3.5.6}{Missing transverse momentum}{section.3.5}% 30
+\BOOKMARK [0][-]{chapter.4}{The Region of Interest Builder}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Overview}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{VMEbus based RoIB}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.2.1}{Hardware implementation}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.2}{System Performance and Evolution}{section.4.2}% 35
+\BOOKMARK [1][-]{section.4.3}{PC based RoIB}{chapter.4}% 36
+\BOOKMARK [2][-]{subsection.4.3.1}{The Common Readout Receiver Card}{section.4.3}% 37
+\BOOKMARK [2][-]{subsection.4.3.2}{Readout System Firmware and Software}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.3}{RoIB Software}{section.4.3}% 39
+\BOOKMARK [1][-]{section.4.4}{Prototype Tests}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.4.1}{Standalone Tests}{section.4.4}% 41
+\BOOKMARK [2][-]{subsection.4.4.2}{Full System Tests}{section.4.4}% 42
+\BOOKMARK [1][-]{section.4.5}{Online Performance in Run-2}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{Analysis Strategy}{}% 44
+\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.2}{Phenomenology \(Benchmarking Models\)}{chapter.5}% 46
+\BOOKMARK [1][-]{section.5.3}{Dataset and Simulated Event Samples}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.3.1}{Collision Data}{section.5.3}% 48
+\BOOKMARK [2][-]{subsection.5.3.2}{Simulated Event Samples}{section.5.3}% 49
+\BOOKMARK [1][-]{section.5.4}{Event Selection}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.4.1}{Pre-selection and event cleaning}{section.5.4}% 51
+\BOOKMARK [2][-]{subsection.5.4.2}{Trigger strategy}{section.5.4}% 52
+\BOOKMARK [2][-]{subsection.5.4.3}{Object definition}{section.5.4}% 53
+\BOOKMARK [2][-]{subsection.5.4.4}{Data-MC comparisons}{section.5.4}% 54
+\BOOKMARK [1][-]{section.5.5}{Signal Regions}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.6}{Analysis Acceptance and Efficiency}{chapter.5}% 56
+\BOOKMARK [0][-]{chapter.6}{Data-driven Background Estimation Techniques}{}% 57
+\BOOKMARK [1][-]{section.6.1}{The problem of fakes}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.2}{Common processes for faking leptons}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.3}{The Monte Carlo Template Method}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.3.1}{Motivation}{section.6.3}% 61
+\BOOKMARK [2][-]{subsection.6.3.2}{Description of the method}{section.6.3}% 62
+\BOOKMARK [2][-]{subsection.6.3.3}{Correction factors}{section.6.3}% 63
+\BOOKMARK [2][-]{subsection.6.3.4}{Control regions}{section.6.3}% 64
+\BOOKMARK [1][-]{section.6.4}{Matrix Method}{chapter.6}% 65
+\BOOKMARK [2][-]{subsection.6.4.1}{Events with one object}{section.6.4}% 66
+\BOOKMARK [2][-]{subsection.6.4.2}{Dynamic matrix method}{section.6.4}% 67
+\BOOKMARK [2][-]{subsection.6.4.3}{Propagation of uncertainties}{section.6.4}% 68
+\BOOKMARK [0][-]{chapter.7}{Background Estimation}{}% 69
+\BOOKMARK [1][-]{section.7.1}{Overview}{chapter.7}% 70
+\BOOKMARK [1][-]{section.7.2}{Irreducible Backgrounds}{chapter.7}% 71
+\BOOKMARK [2][-]{subsection.7.2.1}{Expected yields in the signal regions}{section.7.2}% 72
+\BOOKMARK [2][-]{subsection.7.2.2}{Validation regions}{section.7.2}% 73
+\BOOKMARK [2][-]{subsection.7.2.3}{Validation of irreducible background estimates}{section.7.2}% 74
+\BOOKMARK [1][-]{section.7.3}{Reducible Backgrounds}{chapter.7}% 75
+\BOOKMARK [2][-]{subsection.7.3.1}{Charge-flip Background}{section.7.3}% 76
+\BOOKMARK [2][-]{subsection.7.3.2}{Matrix Method}{section.7.3}% 77
+\BOOKMARK [2][-]{subsection.7.3.3}{MC Template Method}{section.7.3}% 78
+\BOOKMARK [2][-]{subsection.7.3.4}{Reducible Background Validation}{section.7.3}% 79
+\BOOKMARK [1][-]{section.7.4}{Systematic uncertainties}{chapter.7}% 80
+\BOOKMARK [2][-]{subsection.7.4.1}{Theoretical Uncertainties}{section.7.4}% 81
+\BOOKMARK [2][-]{subsection.7.4.2}{Experimental Uncertainties}{section.7.4}% 82
+\BOOKMARK [0][-]{chapter.8}{Statistical Treatment}{}% 83
+\BOOKMARK [1][-]{section.8.1}{Likelihood Function}{chapter.8}% 84
+\BOOKMARK [1][-]{section.8.2}{Limit Setting Procedure}{chapter.8}% 85
+\BOOKMARK [2][-]{subsection.8.2.1}{Profile Likelihood Ratio}{section.8.2}% 86
+\BOOKMARK [2][-]{subsection.8.2.2}{The p-value}{section.8.2}% 87
+\BOOKMARK [2][-]{subsection.8.2.3}{The CLs Prescription}{section.8.2}% 88
+\BOOKMARK [2][-]{subsection.8.2.4}{Approximate Sampling Distributions}{section.8.2}% 89
+\BOOKMARK [1][-]{section.8.3}{Statistical Implementation}{chapter.8}% 90
+\BOOKMARK [0][-]{chapter.9}{Results and Interpretation}{}% 91
+\BOOKMARK [1][-]{section.9.1}{Predictions and Observations}{chapter.9}% 92
+\BOOKMARK [1][-]{section.9.2}{Statistical Interpretation}{chapter.9}% 93
+\BOOKMARK [2][-]{subsection.9.2.1}{Model independent discovery and upper limits}{section.9.2}% 94
+\BOOKMARK [2][-]{subsection.9.2.2}{Model dependent exclusion limits}{section.9.2}% 95
+\BOOKMARK [0][-]{chapter.10}{Conclusions}{}% 96
+\BOOKMARK [0][-]{appendix.A}{Auxiliary material}{}% 97
+\BOOKMARK [1][-]{section.A.1}{Signal region with best exclusion}{appendix.A}% 98
+\BOOKMARK [1][-]{section.A.2}{Upper limit on cross section}{appendix.A}% 99
+\BOOKMARK [1][-]{section.A.3}{Signal region cutflow}{appendix.A}% 100
+\BOOKMARK [1][-]{section.A.4}{Acceptance and Efficiency}{appendix.A}% 101
+\BOOKMARK [0][-]{appendix.B}{Validation of background estimates}{}% 102
+\BOOKMARK [0][-]{appendix.C}{HistFitter Tables}{}% 103
+\BOOKMARK [0][-]{appendix*.135}{References}{}% 104
