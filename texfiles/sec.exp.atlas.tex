@@ -25,7 +25,7 @@ The remainder of this chapter will describe in more details these detectors.
 
 \begin{figure}[t!]
 \centering
-\includegraphics[width=0.95\textwidth]{all_atlas}
+\includegraphics[width=0.95\textwidth]{all_atlas.jpeg}
 \caption{Overview of all the subsystems of the ATLAS detector.}% cite??
 \label{fig:exp.atlas.atlas}
 \end{figure} 
@@ -58,8 +58,25 @@ It is common to describe the separation between two physical objects in the dete
 
 \begin{figure}[htb!]
 \centering
-\includegraphics[width=0.25\textwidth]{pseudorapidity.png}
-\caption{Conversion between the polar angle $\theta$ and pseudorapidity $\eta$.}
+\begin{tikzpicture}[scale=1.5]
+    % Draw axes
+    \draw [<->,thick] (0,3) node (yaxis) [above] {$\eta=0$}
+        |- (3,0) node (xaxis) [right] {}; %$\eta = \infty$
+    % Draw two intersecting lines
+    \draw (0,0) coordinate (a_1) -- (2.65,1.41) coordinate (a_2);
+    \draw (0,0) coordinate (b_1) -- (2.96,0.49) coordinate (b_2);
+    \draw (0,0) coordinate (c_1) -- (1.39,2.66) coordinate (c_2);
+    \draw (0,0) coordinate (d_1) -- (2.998,0.11) coordinate (d_2);
+    \draw (3.5,0.375) node[above]      
+      {$\eta = 2.5$};
+    \draw (3.2,1.375) node[above]      
+      {$\eta = 1.4$};
+    \draw (1.5,2.7) node[above]      
+      {$\eta = 0.5$};
+    \draw (3.5,-0.1) node[above]      
+      {$\eta = 4.0$};
+\end{tikzpicture}
+\caption{Illustration of some pseudorapidity values relevant for ATLAS.}
 \label{fig:exp.atlas.pseudo}
 \end{figure} 
 

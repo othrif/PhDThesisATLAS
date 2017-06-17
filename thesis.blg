@@ -213,6 +213,10 @@ Warning--empty title in Perlmutter:1998np
 Warning--empty title in Adam:2015rua
 Warning--empty title in Ade:2015xua
 Warning--empty title in Scranton:2003in
+Warning--empty title in atlas_higgs
+Warning--empty title in cms_higgs
+Warning--empty title in Arnison:1984qu
+Warning--empty title in Bagnaia:1983zx
 Warning--empty title in DeMelis:2197559
 Warning--empty title in evolution1
 Warning--empty pages in evolution1
@@ -291,45 +295,45 @@ Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 98 entries,
+You've used 102 entries,
             2330 wiz_defined-function locations,
-            1305 strings with 23648 characters,
-and the built_in function-call counts, 24560 in all, are:
-= -- 2160
-> -- 728
+            1328 strings with 24155 characters,
+and the built_in function-call counts, 25804 in all, are:
+= -- 2277
+> -- 760
 < -- 1
-+ -- 291
-- -- 193
-* -- 2306
-:= -- 2749
-add.period$ -- 152
-call.type$ -- 98
++ -- 303
+- -- 201
+* -- 2436
+:= -- 2884
+add.period$ -- 160
+call.type$ -- 102
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 184
-duplicate$ -- 1390
-empty$ -- 2717
-format.name$ -- 193
-if$ -- 6329
+cite$ -- 192
+duplicate$ -- 1454
+empty$ -- 2846
+format.name$ -- 201
+if$ -- 6654
 int.to.chr$ -- 0
-int.to.str$ -- 98
-missing$ -- 345
-newline$ -- 401
-num.names$ -- 97
-pop$ -- 570
+int.to.str$ -- 102
+missing$ -- 365
+newline$ -- 421
+num.names$ -- 101
+pop$ -- 589
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 880
+skip$ -- 926
 stack$ -- 0
-substring$ -- 973
-swap$ -- 514
+substring$ -- 1042
+swap$ -- 542
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 86
-while$ -- 183
-width$ -- 100
-write$ -- 776
+warning$ -- 90
+while$ -- 194
+width$ -- 105
+write$ -- 810
 (There were 46 error messages)

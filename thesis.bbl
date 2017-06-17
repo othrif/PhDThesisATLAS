@@ -1,4 +1,4 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
 \bibitem{PhysRevLett.74.2626}
 {CDF Collaboration} Collaboration, F.~Abe {et~al.},
@@ -81,6 +81,32 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
 \href{http://arxiv.org/abs/astro-ph/0307335}{{\ttfamily arXiv:astro-ph/0307335
   [astro-ph]}}.
 %%CITATION = ASTRO-PH/0307335;%%.
+
+\bibitem{atlas_higgs}
+{ATLAS} Collaboration, G.~Aad {et~al.},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett.
+  {\bfseries B716} (2012) 1--29},
+\href{http://arxiv.org/abs/1207.7214}{{\ttfamily arXiv:1207.7214 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7214;%%.
+
+\bibitem{cms_higgs}
+{CMS} Collaboration, S.~Chatrchyan {et~al.},
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.08.021}{Phys. Lett.
+  {\bfseries B716} (2012) 30--61},
+\href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
+%%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{Arnison:1984qu}
+{UA1} Collaboration, G.~Arnison {et~al.},
+\href{http://dx.doi.org/10.1016/0370-2693(84)90046-7}{Phys. Lett. {\bfseries
+  139B} (1984) 115}.
+%%CITATION = PHLTA,139B,115;%%.
+
+\bibitem{Bagnaia:1983zx}
+{UA2} Collaboration, P.~Bagnaia {et~al.},
+\href{http://dx.doi.org/10.1016/0370-2693(83)90744-X}{Phys. Lett. {\bfseries
+  B129} (1983) 130--140}.
+%%CITATION = PHLTA,B129,130;%%.
 
 \bibitem{DeMelis:2197559}
 C.~De~Melis, \url{https://cds.cern.ch/record/2197559}, General Photo.
