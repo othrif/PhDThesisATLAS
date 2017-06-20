@@ -155,10 +155,10 @@ You're missing a field name---line 3126 of file thesis.bib
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 3455 of file thesis.bib
  :   
- :   title     = {Weak Scale Supersymmetry},
+ :   booktitle     = {Weak Scale Supersymmetry From Superfields to Scattering
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3461 of file thesis.bib
+Repeated entry---line 3462 of file thesis.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
@@ -222,8 +222,10 @@ Warning--empty title in Perlmutter:1998np
 Warning--empty title in Adam:2015rua
 Warning--empty title in Ade:2015xua
 Warning--empty title in Scranton:2003in
+Warning--empty title in BRANDELIK1979243
 Warning--empty title in atlas_higgs
 Warning--empty title in cms_higgs
+Warning--empty title in Ade:2013zuv
 Warning--empty title in Canetti:2012zc
 Warning--empty title in PhysRevD.73.072003
 Warning--empty title in Hagiwara:2011af
@@ -319,45 +321,45 @@ Warning--empty title in Ellis:2002iu
 Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 115 entries,
+You've used 117 entries,
             2330 wiz_defined-function locations,
-            1443 strings with 27143 characters,
-and the built_in function-call counts, 29767 in all, are:
-= -- 2637
-> -- 895
+            1461 strings with 27557 characters,
+and the built_in function-call counts, 30373 in all, are:
+= -- 2692
+> -- 911
 < -- 1
-+ -- 353
-- -- 238
-* -- 2816
-:= -- 3310
-add.period$ -- 183
-call.type$ -- 115
++ -- 359
+- -- 242
+* -- 2878
+:= -- 3374
+add.period$ -- 186
+call.type$ -- 117
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 220
-duplicate$ -- 1683
-empty$ -- 3233
-format.name$ -- 238
-if$ -- 7680
+cite$ -- 224
+duplicate$ -- 1716
+empty$ -- 3295
+format.name$ -- 242
+if$ -- 7838
 int.to.chr$ -- 0
-int.to.str$ -- 115
-missing$ -- 424
-newline$ -- 480
-num.names$ -- 114
-pop$ -- 671
+int.to.str$ -- 117
+missing$ -- 434
+newline$ -- 488
+num.names$ -- 116
+pop$ -- 681
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1098
+skip$ -- 1124
 stack$ -- 0
-substring$ -- 1214
-swap$ -- 650
+substring$ -- 1248
+swap$ -- 666
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 105
-while$ -- 222
-width$ -- 118
-write$ -- 908
+warning$ -- 107
+while$ -- 227
+width$ -- 120
+write$ -- 924
 (There were 48 error messages)

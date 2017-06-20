@@ -1,7 +1,8 @@
 
 The identification and reconstruction step relies on the properties that particles display when they interact with the different components of the detector
 described in Section~\ref{sec:exp.atlas}.
-Once the particle is identified, it is desirable to determine its momentum, its origin, and its polarization among other properties.
+Once the particle is identified, it is desirable to determine its momentum and
+ its origin among other properties.
 The important part for the analysis is how well these objects are reconstructed which can be determined by measuring the reconstruction and 
 identification efficiencies as a function of kinematic particles, 
 usually \pt and $\eta$.
@@ -96,7 +97,7 @@ Nevertheless, neutrinos are very well understood
 and any potential contribution from them can be accurately 
 predicted.
 
-The reconstruction of Jets is an essential part of the analysis presented in this dissertation. 
+The reconstruction of jets is an essential part of the analysis presented in this dissertation. 
 Colored quark and gluons from the primary interaction  undergo a process referred to as hadronization,
 where they convert to sprays of colorless hadrons. The collection of this spray of particles is 
 referred to as a jet. 
@@ -114,7 +115,7 @@ experimental uncertainties in this analysis.
 The jet reconstruction algorithms cannot determine the type of parton that initiated a
 given jet, except for $b$-quarks.
 Since $b$-quark hadron decay with suppressed weak interactions, they are 
-relatively long-lived travelling few millimeters before they decay.
+relatively long-lived travelling a few millimeters before they decay.
 Given the fine tracking resolution of ATLAS, 
 a millimeter displacement from the interaction point is large enough to be resolved.
 It is thus possible to identify jets containing $b$-hadrons  in a process called ``b-tagging''.
@@ -124,10 +125,10 @@ More technical details about the reconstruction procedure and the efficiencies
 of the reconstructed objects will be given next.
 
 \subsection{Electrons}
-Electrons are reconstructed and identified for $\pt > 5$ \GeV~in $|\eta| < 4.9$ range of the detector \cite{ATLAS-CONF-2016-024}.
-The electrons  are identified by a cluster in the electromagnetic calorimeter of more than 2.5 \GeV matched to a track in the inner detector.
-The electron trajectory is determined using information from the inner detector, like for the trajectory
-of any other charged particle. This involves the measurement of the track associated parameters : the
+Electrons are reconstructed and identified for $\pt > 5$ \GeV~ and
+ $|\eta| < 4.9$ \cite{ATLAS-CONF-2016-024}.
+The electrons  are identified by a cluster in the electromagnetic calorimeter of more than 2.5 \GeV~matched to a track in the inner detector.
+The electron trajectory is determined using information from the inner detector. This involves the measurement of the track associated parameters : the
 position in the transverse ($d_0$) and longitudinal ($z_0$) planes of the perigee, the particle direction ($\phi$,$\theta$)
 and the parameter which provides the inverse track momentum multiplied by the charge ($q/p$). The track
 parameters and the associated uncertainties are obtained from the track fitting procedure performed with
@@ -135,7 +136,7 @@ the ATLAS Global $\chi^2$ Track Fitter.
 
 The goal is to improve the efficiency of identifying electrons while rejecting background electrons arising from hadronic jets mistaken for electrons, 
 electrons from photon conversion, Dalitz decays and from semileptonic heavy-flavour hadron decays.
-To do so, three identification (ID) criteria, loose, medium, and tight, are defined via likelihoods based on calorimetric cluster shower shapes, 
+To do so, three identification (ID) criteria, loose, medium, and tight are defined via likelihoods based on calorimetric cluster shower shapes, 
 track and track-to-cluster matching variables.
 The tighter the ID criteria, the higher the rejection of background electrons but the lower the identification efficiency.
 Figure ~\ref{fig:exp.reco.eff.el} shows the  efficiencies in data and MC for three operating points that are based on a likelihood approach, Loose, Medium and Tight. 
@@ -205,7 +206,7 @@ The ATLAS detector has been designed to provide clean and efficient
 muon identification and precise muon momentum measurements over 
 a wide range of energy and solid angle. 
 The muon  reconstruction starts in the inner 
-detector where tracks are identified up to $|\eta|<2.5$ in a solenoidal field of 2 Tesla .
+detector where tracks are identified up to $|\eta|<2.5$ in a solenoidal field of 2 Tesla.
 The muon spectrometer  measures  muons up to $|\eta|<2.7$  
 providing momentum measurements with a design relative resolution of better than 3\% over a wide 
 \pt range and to 10\% at TeV.
@@ -220,7 +221,7 @@ the specific needs of different physics analyses:
 Figure~\ref{fig:exp.reco.muon} shows the reconstruction efficiency of the muon for different selections measured in  $Z\to\mu\mu$ and $J/\psi\to\mu\mu$ events.
 
 The reconstruction efficiency is measured to be close to 99\% over most of the phase space relevant for the analysis. 
-The isolation efficiency is between 93\% and 100\% based on the selection and muon momentum. The simulation reproduce both efficiency very well.
+The isolation efficiency is between 93\% and 100\% based on the selection and muon momentum. The simulation reproduce both efficiencies very well.
 The  momentum resolution is measured to be as low as 1.7\% and the momentum scale uncertainty is less than  0.05\%.
 
 \begin{figure}[htb!]
@@ -236,7 +237,7 @@ The  momentum resolution is measured to be as low as 1.7\% and the momentum scal
 \label{fig:}
 \end{subfigure}
 \vspace{-0.25cm}
-\caption{(a) Reconstruction efficiency for the medium muon selection as a function of (a) \pt (b) $\eta $of the muon.
+\caption{(a) Reconstruction efficiency for the medium muon selection as a function of (a) \pt (b) $\eta$ of the muon.
  The error bars on the efficiencies indicate the statistical uncertainty. The panel at the bottom shows the ratio of the measured to predicted efficiencies, with statistical and systematic uncertainties.
 %(b) Muon reconstruction efficiency as a function of $\eta$ measured in $Z\to\mu\mu$ events for muons with $\pt>10$ \GeV~shown for the Medium muon selection. In addition, the plot also shows the efficiency of the Loose selection (squares) in the region $|\eta|<0.1$ where the Loose and Medium selections differ significantly. The error bars on the efficiencies indicate the statistical uncertainty. Panels at the bottom show the ratio of the measured to predicted efficiencies, with statistical and systematic uncertainties. 
 }
@@ -249,7 +250,16 @@ Jets are reconstructed using the anti-$k_{t}$ jet algorithm~\cite{Cacciari:2008g
 with the distance parameter $R$ set to $0.4$ and 
 a three dimensional input of topological energy clusters in the 
 calorimeter~\cite{PERF-2014-07}. 
-The advantage of using the anti-kt algorithm is that it is infrared and collinear safe.
+The advantage of using the anti-kt algorithm is that it is infrared
+ and collinear safe.
+\footnote{These two problems arise when defining a seed used 
+as a starting point of an iterative process of re-clustering energy 
+depositions in the calorimeter cells.
+If only particles above some momentum threshold are used as seeds then the 
+procedure is collinear unsafe. On the other hand, if the addition of an 
+infinitely soft particle leads to a new stable energy cone being found then 
+the procedure is infrared unsafe.
+}.
 It is also resilient to soft-QCD emissions, a process that is common in the hadron colliders.
 The jets are constructed by defining two distances:
 \begin{itemize}
@@ -267,8 +277,8 @@ the presence of dead material,  energy loss in non-instrumented regions, etc. Th
 and taking into account jet energy scale (JES) and jet energy resolution (JER) calibrations.
 Both JES and JER can have an important contribution to the systematic uncertainties of this analysis.
 The fractional JES uncertainty in Figure~\ref{fig:exp.JES_pt_sys} shows that jets with \pt below 50\GeV~can have a larger uncertainty.
-The choice was made to only require jets above 50 \GeV in the analysis for this reason.
-The fractional JER is around 17\% for jets with \pt of 30 \GeV decreasing down to 5\% for more energetic jets.
+The choice was made to only require jets above 50 \GeV~in the analysis for this reason.
+The fractional JER is around 17\% for jets with \pt of 30 \GeV~decreasing down to 5\% for more energetic jets.
 An additional variable is used to suppress jets from pileup, called the jet vertex tagger (JVT).
 JVT is a multivariate combination of the fraction of the total momentum of tracks in the jet which is associated with the primary vertex
 and  track-based variables to suppress pileup jets \cite{ATL-PHYS-PUB-2015-034}. 
@@ -319,8 +329,10 @@ and reconstructed secondary vertices~\cite{Aad:2015ydr,ATL-PHYS-PUB-2015-022}
 to provide the best separation among the different jet flavour hypotheses.
 An example of the output of the multivariate discriminant is shown in Figure~\ref{fig:exp.btag.bdt} 
 where typically a cut must be applied on the score to identify an operating working point. 
-The notation MV2cxx denotes the faction xx of  c-jet contribution present in the training.
-For instance, MV2c00 denotes the MV2 algorithm where no c-jet contribution was present in the training and MV2c10 (MV2c20) denote the MV2 outputs where a 7\% (15\%) c-jet fractions was present 
+%The notation MV2cxx denotes the faction $xx$ of c-jet contribution present in the training.
+Three MV2 algorithms were released that correspond to MV2c00, MV2c10, and 
+MV2c20.
+MV2c00 denotes the MV2 algorithm where no c-jet contribution was present in the training and MV2c10 (MV2c20) denote the MV2 outputs where a 7\% (15\%) c-jet fractions was present 
 in the background sample.
 The performance of the optimized  MV2c00, MV2c10 and MV2c20 b-tagging algorithms is shown in Figure~\ref{fig:exp.btag.eff}
 for the c-jet rejection as a function of the b-jet efficiency.

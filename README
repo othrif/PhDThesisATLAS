@@ -14,6 +14,8 @@ git ls-files --deleted -z | xargs -0 git rm # in case you removed files
 Spell check:
 for i in $(ls texfiles/*.tex); do aspell -c -t ${i} -d en; done
 
+Correct 'TeV ' with 'TeV~':
+for i in $(ls .); do sed -i -- 's/TeV /TeV~/g' $i; done
 
 
 Shortcuts:

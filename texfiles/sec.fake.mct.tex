@@ -3,10 +3,10 @@
 The processes leading to FNP leptons depend on the selection applied in the analysis. For instance, a selection with same-sign leptons 
 will have contributions from top quark pair production (\ttbar) or the associated production of a vector boson and jets 
 ($W$+jets or $Z$+jets).%, or opposite sign $W$ pair production ($W^+W^-$). 
-These processes cannot give two leptons of the same electric charge unless there is a charge mis-measurement (mainly affecting electrons) 
+ These processes cannot give two leptons of the same electric charge unless there is a charge mis-measurement (mainly affecting electrons) 
 or that a FNP lepton was produced. It is possible to generate the processes that can contribute to a FNP lepton, such as \ttbar or 
 $V$+jets, with Monte Carlo event generators processed through Geant4 detector simulation of the ATLAS detector.  
-This approach will yield an estimate however it might not be reliable. For instance, the detector simulation itself might not 
+This approach will yield an estimate, however it might not be reliable. For instance, the detector simulation itself might not 
 reproduce the true behavior of the interaction of the physics objects with the detector, particularly when looking at rare processes 
 such as the production of FNP leptons. The second limitation is in the generation of enough MC events to probe the region of the 
 phase space targeted by the analysis which affects the statistical uncertainties in the estimates.
@@ -39,7 +39,8 @@ and the normalization for each source is extracted in a combined fit to data con
 The number of normalization factors depend on the number of identified origins of the FNP lepton in the signal regions
 and the control regions are designed to constrain these factors in regions enriched with FNP leptons from the same origin.
 
-To illustrate the approach, we describe the application of the method in SS/3L analysis later described in this thesis.
+To illustrate the approach, we describe the application of the method in 
+the SS/3L analysis later described in this thesis.
 The processes of interest that may lead to a FNP lepton or a charge flip are $\ttbar$ and $V$+jets. 
 FNP leptons are classified using an algorithm that navigates the generator particle record to determine where the FNP lepton 
 is originating from. 
@@ -47,8 +48,9 @@ The lepton is classified as either an electron or a muon that is prompt from dec
 non-prompt from a heavy flavor $b$ decay (HF), or fake from mis-identification of a light flavor jet or a photon (LF). 
 In the case of an electron, we further classify the prompt electrons to prompt electrons with the correct charge or with a 
 charge mis-measurement, commonly named charge flip.
-In total, five categories referred to as MC templates are construed following the classification illustrated 
-in figure~\ref{Fig:fakes_classification}.
+In total, five categories referred to as MC templates are constructed 
+following the classification illustrated 
+in Figure~\ref{Fig:fakes_classification}.
 
 \begin{figure}[t!]
 \centering
@@ -75,7 +77,7 @@ is constrained by a fit to data in control regions dominated by LF jet $\to$ e t
 Similarly, three other corrections are defined as LF jet $\to\mu$ (Fr(LF$\to\mu$)),  HF jet $\to$ e (Fr(HF$\to$e)),  
 HF jet $\to\mu$ (Fr(HF$\to\mu$)). An additional correction is applied to correct the charge flip rate predicted by simulation.
 For example, a Z$\to e^+e^-$ event is reconstructed as $e^+e^+$ or $e^-e^-$. The simulation takes into account the charge flip 
-rate but it might be off. The charge flip (Cf(e)) correction derived from a data fit is expected to recover this mis-modeling.
+rate but the fraction of time it occurs may be wrong. The charge flip (Cf(e)) correction, derived from a data fit, is expected to recover this mis-modeling.
 The charge flip rate only concern electrons as the muon charge flip rate is negligible.
 
 A likelihood fit is defined as the product of the Poisson probabilities describing the observed events in the binned 
@@ -90,8 +92,8 @@ used to perform the fit of the FNP leptons and electron charge flip templates.
 For instance, each template needs to be constrained in a selection that is representative of the processes leading to 
 FNP leptons and charge flip electrons present in the kinematic region targeted by the search for BSM physics. 
 
-In the SS/3L analysis discussed in this thesis the control regions are defined with at least two same-sign 
-leptons, $\met>40$~GeV, two or more jets. This pre-selection ensures that the FNP leptons are not from fakes originating from 
+In the SS/3L analysis discussed in this dissertation, the control regions are defined with at least two same-sign 
+leptons, $\met>40$~GeV, and two or more jets. This pre-selection ensures that the FNP leptons are not from fakes originating from 
 QCD like event topologies. 
 They are further split in regions 
 with or without $b$-jets to constrain the HF and LF leptons respectively. In addition, they are also split with different 
@@ -110,7 +112,7 @@ before and after the fit in Figures \ref{f:prefit_CR0b}-\ref{f:prefit_CR1b} and 
    \includegraphics[width=.32\textwidth]{mct/Prefit/mu2_pt_mm_CR0b_SS3L}
  \caption{
  Pre-fit distributions for  $ee$ channel (left),  for  $e\mu$ channel (middle), and  for  $\mu\mu$ channel (right) from CR0b that were used in the fit to extract the FNP lepton and charge flip multipliers.
-The generator used in these plots is Powheg. The hashed band represents the sum of systematic uncertainties on the predictions.
+The generator used in these plots is  \POWHEGBOX+Pythia. The hashed band represents the sum of systematic uncertainties on the predictions.
  \label{f:prefit_CR0b}
  }
  \end{figure}
@@ -121,7 +123,7 @@ The generator used in these plots is Powheg. The hashed band represents the sum 
   \includegraphics[width=.32\textwidth]{mct/Postfit/mu2_pt_mm_CR0b_SS3L}
 \caption{
 Post-fit distributions for  $ee$ channel (left),  for  $e\mu$ channel (middle), and  for  $\mu\mu$ channel (right) from CR0b that were used in the fit to extract the FNP lepton and charge flip multipliers.
-The generator used in these plots is Powheg. The hashed band represents the sum of systematic uncertainties on the predictions.
+The generator used in these plots is  \POWHEGBOX+Pythia . The hashed band represents the sum of systematic uncertainties on the predictions.
 \label{f:postfit_CR0b}
 }
 \end{figure}
@@ -132,7 +134,7 @@ The generator used in these plots is Powheg. The hashed band represents the sum 
    \includegraphics[width=.32\textwidth]{mct/Prefit/mu2_pt_mm_CR1b_SS3L}
  \caption{
  Pre-fit distributions for  $ee$ channel (left), for  $e\mu$ channel (middle), and  for  $\mu\mu$ channel (right) from CR1b that were used in the fit to extract the FNP lepton and charge flip multipliers.
-The generator used in these plots is Powheg. The hashed band represents the sum of systematic uncertainties on the predictions.
+The generator used in these plots is  \POWHEGBOX+Pythia. The hashed band represents the sum of systematic uncertainties on the predictions.
  \label{f:prefit_CR1b}
  }
  \end{figure}
@@ -143,24 +145,24 @@ The generator used in these plots is Powheg. The hashed band represents the sum 
   \includegraphics[width=.32\textwidth]{mct/Postfit/mu2_pt_mm_CR1b_SS3L}
 \caption{
 Post-fit distributions for  $ee$ channel (left), for  $e\mu$ channel (middle), and  for  $\mu\mu$ channel (right) from CR1b that were used in the fit to extract the FNP lepton and charge flip multipliers.
-The generator used in these plots is Powheg. The hashed band represents the sum of systematic uncertainties on the predictions.
+The generator used in these plots is  \POWHEGBOX+Pythia. The hashed band represents the sum of systematic uncertainties on the predictions.
 \label{f:postfit_CR1b}
 }
 \end{figure}
 
 The minimization of the negative log likelihood using the \textsc{Minuit} package leads 
 to the multipliers shown in Tables \ref{t:fake_factors_powheg} and \ref{t:fake_factors_sherpa}.
-The tables represent the multipliers obtained from the fit upon using two different parton showers, \POWHEGBOX and \SHERPA 
+The tables represent the multipliers obtained from the fit upon using two different parton showers, \POWHEGBOX+Pythia and \SHERPA 
 for the processes that lead to FNP leptons and charge flips.
 The systematic uncertainty is obtained by varying the 
-generator from \POWHEGBOX to \SHERPA and evaluating the impact on the expected background from FNP and charge flip leptons. 
-It is found to be the dominant contribution to the systematic uncertainty of the method (up to 80\%).
+generator from \POWHEGBOX+Pythia to \SHERPA and evaluating the impact on the expected background from FNP and charge flip leptons. 
+This is found to be the dominant contribution to the systematic uncertainty of the method (up to 80\%).
 The uncertainties in the multipliers themselves correspond to how much the parameter needs to be varied for 
 a one standard deviation change in the likelihood function. This uncertainty takes into account the limited number of simulated events and is included as a 
 systematic uncertainty on the expected number of background events. 
 
 \begin{table}[!htb]
-  \caption{The FNP and charge flip multipliers obtained after minimizing the likelihood function using Pythia.
+  \caption{The FNP and charge flip multipliers obtained after minimizing the likelihood function using \POWHEGBOX+Pythia.
     The uncertainty in the multipliers takes into account the limited statistics of simulated events.
     \label{t:fake_factors_powheg}}
   \centering
@@ -180,7 +182,7 @@ systematic uncertainty on the expected number of background events.
 \end{table}
 
 \begin{table}[!htb]
-  \caption{The FNP and charge flip multipliers obtained after minimizing the likelihood function using Sherpa.
+  \caption{The FNP and charge flip multipliers obtained after minimizing the likelihood function using \SHERPA.
     The uncertainty in the multipliers takes into account the limited statistics of simulated events.
     \label{t:fake_factors_sherpa}}
   \centering

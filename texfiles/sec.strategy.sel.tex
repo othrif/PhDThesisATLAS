@@ -60,14 +60,14 @@ the dilepton triggers used for:
 \begin{itemize}
 \item 2015 data:
 logical \texttt{or} of a trigger with two electrons of 12 \GeV, 
-with an electron of 17 \GeV and a muon of 14 \GeV,
-with two muons of 18 \GeV and 8 \GeV. 
+with an electron of 17 \GeV~and a muon of 14 \GeV,
+with two muons of 18 \GeV~and 8 \GeV. 
 \item 2016 data:
 logical \texttt{or} of a trigger with two electrons of 17 \GeV, 
-with an electron of 17 \GeV and a muon of 14 \GeV,
-with two muons of 22 \GeV and 8 \GeV. 
+with an electron of 17 \GeV~and a muon of 14 \GeV,
+with two muons of 22 \GeV~and 8 \GeV. 
 \end{itemize}
-The $\met$ trigger was also raised from 70\GeV to a 100 \GeV and 110 \GeV.
+The $\met$ trigger was also raised from 70\GeV~to a 100 \GeV~and 110 \GeV.
 The trigger-level requirements on $\met$ and the leading and subleading lepton \pt are looser than those applied offline 
 to ensure that trigger efficiencies are constant in the relevant phase space.
 
@@ -81,13 +81,13 @@ we require a matching between the online and offline leptons with $\pt>20 \GeV$.
 with the exception of the di-muon trigger for which muons with $\pt>10 \GeV$ 
 are also considered.
 In addition, for the di-muon trigger in the 2016 configuration, 
-the \pt\ requirement of the leading matched muon is raised to 23 \GeV 
+the \pt\ requirement of the leading matched muon is raised to 23 \GeV~
 to remain on the trigger efficiency plateau. 
 
 \par{\bfseries Trigger scale factors\\}
 The simulated events are corrected for any potential differences in 
 the trigger efficiency between data and MC simulation.
-Assuming uncorrelation between the \met\ and dilepton triggers, 
+Assuming no correlation between the \met\ and dilepton triggers, 
 trigger scale factors are applied to MC events which were not selected 
 by the \met\ trigger.
 These scale factors are computed for each event, considering the combination of fired triggers, the number and flavours of the leptons, 
@@ -103,7 +103,7 @@ jets, electrons, muons and $\met$ (the taus are not considered).
 
 
 
-The jets are kept only if they have $p_\mathrm{T}>20$~GeV and lie 
+The jets are kept only if they have $p_\mathrm{T}>20$~GeV~and lie 
 within $|\eta|<2.8$. 
 To mitigate the effects of pileup, the pile-up contribution is subtracted 
 from the expected average energy contribution according to the jet area~\cite{Cacciari:2007fd,Aaboud:2017jcu}.
@@ -204,7 +204,8 @@ The background distributions are taken directly from MC with no data-driven esti
 Figure~\ref{fig:dataMC_2lep} shows the dilepton invariant mass distributions for both opposite-sign (OS) and same-sign (SS) dilepton events, 
 computed with the two leading $p_T$ leptons. 
 A very good agreement with MC is observed in the OS channels, with a clear $Z$-boson mass peak in the $ee$ and $\mu\mu$ channels. 
-In the SS channels, the $Z$-boson mass peak is also observed in the $ee$ channel due to electron charge mis-identification, with MC overestimating data.% by 20-30\%. 
+In the SS channels, the $Z$-boson mass peak is also observed in the $ee$ channel due to electron charge mis-identification, with MC overestimating data. 
+% by 20-30\%. 
 An accumulation of events at the $Z$-boson mass is also observed in the SS $e\mu$ and $\mu\mu$ channels due to three-lepton events 
 from either $Z$+jets with a fake lepton or from $WZ$ production.  
 
@@ -223,7 +224,9 @@ The background estimation, in Chapter ~\ref{chap:fake} and Chapter~\ref{chap:bkg
 {\includegraphics[width=0.4\textwidth]{DATAMC/Mll_em_Incl_SS3L_log.pdf}}
 {\includegraphics[width=0.4\textwidth]{DATAMC/Mll_mm_Incl_OS_log.pdf}}
 {\includegraphics[width=0.4\textwidth]{DATAMC/Mll_mm_Incl_SS3L_log.pdf}}
-\caption{Dilepton invariant mass distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. No low-mass Drell-Yan sample is included. Only luminosity and MC statistical uncertainties are included.
+\caption{Dilepton invariant mass distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
 }
 \label{fig:dataMC_2lep}
 \end{figure}
@@ -236,7 +239,7 @@ The background estimation, in Chapter ~\ref{chap:fake} and Chapter~\ref{chap:bkg
 {\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_em_Incl_SS3L_log.pdf}}
 {\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_mm_Incl_OS_log.pdf}}
 {\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_mm_Incl_SS3L_log.pdf}}
-\caption{Signal lepton transverse momentum distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. The background contribution is taken directly from MC with no data-driven estimation of the background with fake and non-prompt leptons or charge mis-identification. 
+\caption{Signal lepton transverse momentum distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels.  The prediction is taken from MC only.
 Only luminosity and MC statistical uncertainties are included.
 }
 \label{fig:dataMC_lep1}
@@ -250,7 +253,9 @@ Only luminosity and MC statistical uncertainties are included.
 {\includegraphics[width=0.4\textwidth]{DATAMC/Meff_em_Incl_SS3L_log.pdf}}
 {\includegraphics[width=0.4\textwidth]{DATAMC/MET_mm_Incl_SS3L_log.pdf}}
 {\includegraphics[width=0.4\textwidth]{DATAMC/Meff_mm_Incl_SS3L_log.pdf}}
-\caption{Distributions of the $\met$ (left) and effective mass (right) for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. The background contribution is taken directly from MC with no data-driven estimation of the background with fake and non-prompt leptons or charge mis-identification. Only luminosity and MC statistical uncertainties are included.
+\caption{Distributions of the $\met$ (left) and effective mass (right) for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. 
+ The prediction is taken from MC only.
+ Only luminosity and MC statistical uncertainties are included.
 }
 \label{fig:dataMC_metmeff}
 \end{figure}

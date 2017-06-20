@@ -16,8 +16,9 @@ within the ATLAS Trigger and Data Acquisition (TDAQ) system. The approach of imp
 and the conclusion at that time was that a software based approach is possible but requires a card with a higher readout rate \cite{swroib_past}. 
 Since data readout cards operating at high rates became available and the capabilities of computers have improved with the increase 
 in CPU clock speed and number of cores, it became possible to implement the RoIB functionality using a PC based approach. 
-The PC based RoIB must duplicate the functionality of the VMEbus based RoIB which means that the PC based solution must receive and assemble the
-individual L1 fragments, and pass them as a single L1 result to the HLT. Modern computers have multicore CPU architectures 
+The PC based RoIB must duplicate the functionality of the VMEbus based RoIB,
+ which means that the PC based solution must receive and assemble the
+individual L1 fragments and pass them as a single L1 result to the HLT. Modern computers have multicore CPU architectures 
 with the possibility of running multi-threaded application, a feature which is being fully exploited in the RoIB software to achieve 
 the desired performance of 100 kHz over 12 input links for fragment sizes of 400 bytes.  
 This chapter describes the work of the author in evolving the RoIB from the VMEbus based system to the PC based system and gives details on the hardware, 

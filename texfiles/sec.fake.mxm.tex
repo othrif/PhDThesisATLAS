@@ -69,7 +69,8 @@ By defining
   n_\text{fail} = \sum_\text{all events} \mathbb{1}_\text{fail},~ 
   \mathbb{1}_\text{fail} = 1 -  \mathbb{1}_\text{pass},
 \]
-where $\mathbb{1}_{\text{pass} \left(\text{fail}\right)} = 1$ if the object pass (fail) the tight selection requirement and $\mathbb{1}_{\text{pass}\left(\text{fail}\right)} = 0$ otherwise. Eq. \ref{eqn:fake.nFNPpass} can be written as
+where $\mathbb{1}_{\text{pass} \left(\text{fail}\right)} = 1$ if the object passes 
+(fails) the tight selection requirement and $\mathbb{1}_{\text{pass}\left(\text{fail}\right)} = 0$ otherwise. Eq. \ref{eqn:fake.nFNPpass} can be written as
 
 
 \[
@@ -104,13 +105,13 @@ in a formalism that can handle an arbitrary number of leptons
 in the event. The method should be applied event-by-event, effectively 
 resulting into a weight being assigned to each event. The predicted yield of 
 events with FNP leptons is simply the sum of weights.
-A general formula will be derived starting from the two objects case 
+A general formula will be derived starting from the two objects case, 
 then specific examples will be given to illustrate the application of the 
 method.
 
 If two objects are present in the event, the probabilities $\varepsilon/\zeta$
 will depend on the kinematic properties of these objects. Typically 
-the probables will vary as a function of \pt and $|\eta|$. For this reason,
+the probability will vary as a function of \pt and $|\eta|$. For this reason,
 the probabilities will be different and will have an index to 
 identify the object under study: 
  $\varepsilon_i/\zeta_i$ where $i=1,2...$. 
@@ -176,7 +177,7 @@ by the 2 $\times$ 2 matrix $\phi_i\tensor{\vphantom{\phi}}{_{\beta_i}^{\alpha_i}
 \end{align}
 
 Following the same procedure as in the one object case, the matrix inversion 
-of the 4$\times$4 $\lambda$ matrix is simplified to a matrix inversion of 
+of the 4$\times$4 $\Lambda$ matrix is simplified to a matrix inversion of 
 the 2$\times$2 $\phi$ matrices. The quantity of interest is the FNP lepton 
 background that passes the tight selection criteria as in 
 Eq. \ref{eqn:fake.nFNPpass} which can be compactly written in the 
@@ -255,9 +256,9 @@ indices $\nu_i$.
 %As the machinery has been demonstrated for the two objects case, it is imperative to illustrate it in a case where events may contain two or three leptons. For simplicity, the case containing more 
 %than three leptons is not considered but can easily be implemented. 
 
-The application of the matrix method to multilepton final states comes with two important remarks. Firstly, contributions of events with charge-flip electrons would bias a straightforward matrix method estimate (in particular for a final state formed by two leptons with same electric charge). This happens because the candidate-to-signal efficiency for such electrons is typically lower than for real electrons having a correctly-assigned charge. One therefore needs to subtract from $n_\text{pass}$ and $n_\text{fail}$ the estimated contributions from charge-flip. This can be performed by including as well events with pairs of opposite-sign candidate leptons in the matrix method estimate, but assigning them an extra weight corresponding to the charge-flip weight. Thanks (again) to the linearity of the matrix method with respect to $n_\text{pass}$ and $n_\text{fail}$, this weight-based procedure is completely equivalent (but more practical) to the aforementioned subtraction. 
+The application of the matrix method to multilepton final states comes with two important remarks. Firstly, contributions of events with charge-flip electrons would bias a straightforward matrix method estimate (in particular for a final state formed by two leptons with the same electric charge). This happens because the candidate-to-signal efficiency for such electrons is typically lower than for real electrons having a correctly-assigned charge. One therefore needs to subtract from $n_\text{pass}$ and $n_\text{fail}$ the estimated contributions from charge-flip. This can be performed by including events with pairs of opposite-sign candidate leptons in the matrix method estimate, but assigning them an extra weight corresponding to the charge-flip weight. Thanks (again) to the linearity of the matrix method with respect to $n_\text{pass}$ and $n_\text{fail}$, this weight-based procedure is completely equivalent (but more practical) to the aforementioned subtraction. 
 
-Secondly, the analytic expression of the matrix method event weight depends on the lepton multiplicity of the final state. This concerns events with three or more candidate leptons: one such event takes part both in the evaluation of the FNP lepton background for a selection with two signal leptons or a selection with three signal leptons, but with different weights\footnote{This can appear for inclusive selections: for example an event with two signal leptons may or not contain additional candidate leptons, in a transparent way}. Therefore, for a given event used as input to the matrix method, one should consider all possible leptons combinations, each with its own weight and its own set of kinematic variables. For example, a $e^+e^-\mu^+$ event is used in the background estimate both as an $e^+\mu^+$ event (with a weight w1) and as an $e^+e^-\mu^+$ event (with a weight $w_2\neq w1$).  
+Secondly, the analytic expression of the matrix method event weight depends on the lepton multiplicity of the final state. This concerns events with three or more candidate leptons: one such event takes part both in the evaluation of the FNP lepton background for a selection with two signal leptons or a selection with three signal leptons, but with different weights\footnote{This can appear for inclusive selections: for example an event with two signal leptons may or not contain additional candidate leptons, in a transparent way}. Therefore, for a given event used as input to the matrix method, one should consider all possible leptons combinations, each with its own weight and its own set of kinematic variables. For example, a $e^+e^-\mu^+$ event is used in the background estimate both as an $e^+\mu^+$ event (with a weight $w_1$) and as an $e^+e^-\mu^+$ event (with a weight $w_2\neq w_1$).  
 
 \subsection{Propagation of uncertainties}
 

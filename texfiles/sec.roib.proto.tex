@@ -1,6 +1,6 @@
 In order to understand the requirements for the underlying server PC, a validation system based on Intel(R) Xeon(R) CPU E5-1650 v2 
-@ 3.5 GHz with six cores is being used to perform tests of the PC based RoIB. 
-The goal is to perform software based fragment assembly at a rate of 100 kHz over 12 channels for a typical 
+@ 3.5 GHz with six cores was used to perform tests of the PC based RoIB. 
+The goal was to perform software based fragment assembly at a rate of 100 kHz over 12 channels for a typical 
 fragment size of 400 bytes. The current system offers flexibility in terms of the fragment size allowed which was not the case in the 
 VMEbus based RoIB. The initial tests were performed with a standalone application that implements a minimal interface for event building. 
 Once the system was validated, the relevant code modules were integrated into an HLTSV process running within the full ATLAS TDAQ 
@@ -22,7 +22,7 @@ at the required rate of 100 kHz with 12 channels is achievable in a standalone a
    % subsequent pages
    \centering
    \includegraphics[width=.7\textwidth]{cern_robinnproib.pdf}
-   \caption{Rate as a function of the fragment size (in bytes) with external source that emulates the L1 trigger input. 
+   \caption{Rate as a function of the fragment size (in bytes) with an external source that emulates the L1 trigger input. 
      The rates shown are for the input rate to the RobinNP without event building (EB) (triangle), rate with EB (circle), and 
      for comparison, the current VMEbus RoIB rate is also shown (square).  }
    \label{fig:roib_proto}
@@ -32,7 +32,7 @@ at the required rate of 100 kHz with 12 channels is achievable in a standalone a
 \subsection{Full System Tests}\label{sec:perf_tdaq}
 
 Since the HLTSV is performing tasks other than the event building, there is overhead associated with additional operations 
-that reduces the performance. For this reason, we use the full ATLAS TDAQ software in a test environment that emulates the major components of the ATLAS data acquisition system shown in Figure \ref{fig:tdaq_diagram}. The setup includes an emulated input from L1 trigger sources, 
+that reduces the performance. For this reason, we use the full ATLAS TDAQ software in a test environment that emulates the major components of the ATLAS data acquisition system, shown in Figure \ref{fig:tdaq_diagram}. The setup includes an emulated input from L1 trigger sources, 
 the HLTSV and other PCs to simulate the HLT computing farm, and the ROS that buffers the full event data. 
  In this test setup, an external source sends data that emulates L1 RoIs via 12 links connected to the 
 RobinNP hosted by the HLTSV. When the HLTSV requests a built RoI event, the software RoIB plug-in provides the RoI event which will be used 
@@ -53,7 +53,7 @@ As shown in Figure \ref{fig:roib_summary}, the performance of the PC-RoIB with r
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.7\textwidth]{roib_summary_size} 
-\caption{The event building rate as a function of the RoI record size in Bytes. The rates are shown for a standalone application that implements 
+\caption{The event building rate as a function of the RoI record size in bytes. The rates are shown for a standalone application that implements 
   a minimal interface for event building, the integrated RoIB software into an HLTSV process running within the full ATLAS TDAQ software suite, and for comparison the VME-RoIB performance.}
 \label{fig:roib_summary}
 \end{figure} 

@@ -57,7 +57,7 @@ with $n_1, n_2$ the number of events with 1 or 2 signal muons,
 and $\varepsilon$ the efficiency for prompt muons.
 
 This method is limited to measurements in inclusive or wide bins. 
-It also can't be used at too low \pt, due to contributions from processes with two fake muons (e.g. from $B\bar B$ meson production). 
+It also cannot be used at too low \pt, due to contributions from processes with two fake muons (e.g. from $B\bar B$ meson production). 
 \end{itemize}
 Comparisons made with $t\bar t$ MC indicated that when using a very tight isolation requirement on the tag muon 
 ($\operatorname{max}(E_\mathrm{T}^\text{topo, cone 40},p_\mathrm{T}^\text{cone 40})<0.02\times\pt$), 
@@ -78,7 +78,7 @@ As expected, the number of pairs with a fake tag muons is down to a minor level,
 \caption
 {
 Muon fake rates in $t\bar t$ MC with an inclusive selection, 
-as function of \pt\ (left, green markers) or $|\eta|$ in different momentum ranges (right). 
+as a function of \pt\ (left, green markers) or $|\eta|$ in different momentum ranges (right). 
 }
 \label{Fig:fakes_MC_inclusive_rates_muon}
 \end{figure}
@@ -157,9 +157,10 @@ $0.07 \pm 0.02 \pm 0.00$ & $0.12 \pm 0.05 \pm 0.01$ & $0.16 \pm 0.09 \pm 0.04$ &
 
 Some of the validation and signal regions require events with 2 or more $b$-tagged jets, 
 which reduces the fraction of non-prompt muons coming from $B$ meson decays. 
-Figure~\ref{fig:fakes_MC_vsBjets_muon} illustrates how this impacts on the fake rates. 
+Figure~\ref{fig:fakes_MC_vsBjets_muon} illustrates how this impacts 
+the fake rates. 
 Given the good agreement between data and simulation for the measured values, 
-A correction is applied to the measured rates for events with $\ge 2$ $b$-jets, 
+a correction is applied to the measured rates for events with $\ge 2$ $b$-jets, 
 taken directly from simulated $t\bar t$ events. 
 This correction factor varies between 1 and 2 with \pt, 
 and the whole size of the correction is assigned as an additional systematic uncertainty (see Table~\ref{tab:fake_rates_muon_systematics}). 
@@ -191,7 +192,7 @@ which likely correlates to a harder jet at the origin of the non-prompt muon, he
 Table~\ref{tab:fake_rates_muon_systematics} summarizes the additional systematic uncertainties applied to the muon fake rates. 
 They vary from $30\%$ at low \pt, to up to 85\% for $\pt>40~\GeV$; in that range, the uncertainties are made $H_\mathrm{T}$-dependent. 
 
-As already shown, Fig.~\ref{fig:fakes_MC_vsBjets_muon} shows the variation of the fake rate in $t\bar t$ MC as function of the number of $b$-tagged jets in the event. 
+As already shown, Fig.~\ref{fig:fakes_MC_vsBjets_muon} shows the variation of the fake rate in $t\bar t$ MC as a function of the number of $b$-tagged jets in the event. 
 Unsurprisingly, the rates are very similar for $0b$ and $\ge 1b$ final states, 
 justifying the use of the fake rates measured in this section (i.e. in a $\ge 1b$ region) to predict fake muon background in all signal regions. 
 
@@ -216,7 +217,7 @@ as function of \pt\ and split according to the number of $b$-tagged jets in the 
 \includegraphics[width=0.49\textwidth]{IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL}
 \includegraphics[width=0.49\textwidth]{TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL}
 \caption
-{Signal probe electron \pt\ distribution in data and MC, for $e^\pm\mu^\pm$ pairs (left, with probe electrons satisfying CFT cut and a reinforced tag muon selection) 
+{Signal probe electron \pt\ distribution in data and MC, for $e^\pm\mu^\pm$ pairs (left, with probe electrons satisfying  a reinforced tag muon selection) 
 or $\ell^\pm e^\mp e^\mp$ pairs (right, with reinforced tag electron selection), 
 as described in section~\ref{subsubsec:fakes_matrix_fake_rate_electrons}. 
 The yellow area indicates $t\bar t$ events in which the tag lepton is fake and the probe electron real, 
@@ -246,7 +247,7 @@ Events are acquired with the combination of single-muon (as in previous section)
 
 
 Figure~\ref{Fig:fakes_preselection_electron} shows the number of signal probe electrons selected in the $e\mu$ and $\ell ee$ channels. 
-There are quite less events selected in the trilepton channel. 
+There are significantly fewer events selected in the trilepton channel. 
 Figure~\ref{Fig:fakes_MC_inclusive_rates_electron} shows the electron fake rate as a function of \pt\ or $\eta$ in $t\bar t$ MC. 
 The variations of the rates as function of the pseudorapidity are not very large, 
 therefore measurements are only performed as a function of \pt. 
@@ -267,12 +268,13 @@ as function of \pt\ (left, yellow/green markers = with/without CFT cut applied) 
 \end{figure}
 %%
 
-Based on the estimated levels of bias, and achievable statistical precision, of the different methods, 
+Based on the estimated levels of bias, and achievable statistical precision of the different methods, 
 the electron fake rate is measured with the tag-and-probe $e\mu$ selection up to 30~\GeV, 
 and by combining ``unbiased'' evaluations in both $e\mu$ and $\ell ee$ channels beyond. 
 The measured rates are presented in Table~\ref{table:fake_rates_electron}, 
 together with the associated statistical and background-subtraction uncertainties. 
-The rates are of the order of $10\%$ up to 30 \GeV, beyond which they increase to up to 25\%. 
+The rates are of the order of $10\%$ up to 30 \GeV, beyond which they increase 
+up to 25\%. 
 
 %%
 \begin{table}[t!]
@@ -316,7 +318,7 @@ The rates measured in data are larger than those predicted by the simulation,
 and would for example be consistent with a larger amount of electrons from photon conversions than predicted. 
 In that range, an uncertainty of $50\%$ is assigned to cover any arbitrary variation of the relative contributions of each source. 
 
-Finally, Figure~\ref{fig:fakes_MC_vsBjets_electron} shows the variation of the fake rate in $t\bar t$ MC as function of the number of $b$-tagged jets in the event. 
+Finally, Figure~\ref{fig:fakes_MC_perSource_electron} shows the variation of the fake rate in $t\bar t$ MC as function of the number of $b$-tagged jets in the event. 
 As expected, the rates are very similar for $0b$ and $\ge 1b$ final states, 
 justifying the use of the fake rates measured in this section (i.e. in a $\ge 1b$ region) to predict fake electron background in all signal regions. 
 %We do not assign extra uncertainties for final states with $\ge 2b$-jets for $\pt>20$ GeV: if, indeed, the relative contribution of HF decays is smaller than expected in that range, 
@@ -329,23 +331,10 @@ justifying the use of the fake rates measured in this section (i.e. in a $\ge 1b
 \caption
 {
 Electron fake rates in $t\bar t$ MC with an inclusive selection, 
-as function of \pt\ and split according to the source of the fake electron (left). 
+as a function of \pt\ and split according to the source of the fake electron (left). 
 The relative contributions of each source (for signal electrons) are indicated on the right-hand-side. 
 }
 \label{fig:fakes_MC_perSource_electron}
-\end{figure}
-
-
-\begin{figure}[t!]
-\centering
-\includegraphics[width=0.49\textwidth]{{TTBAR.Incl.FakeRate.PerSource.Electron}.pdf}
-\includegraphics[width=0.49\textwidth]{{TTBAR.BjetImpact.FakeRate.Electron}.pdf}
-\caption
-{
-Electron fake rates in $t\bar t$ MC with an inclusive selection, 
-as function of \pt\ and split according to the number of $b$-tagged jets in the event.  
-}
-\label{fig:fakes_MC_vsBjets_electron}
 \end{figure}
 
 
@@ -414,7 +403,7 @@ Three $m_{ee}$ windows and 9 variations of the background subtraction methods ar
 The largest contribution to the systematics arises from the $m_{ee}$ window variation.
 This is expected as the proportion of electrons affected by Brehmstrahlung depends on $m_{ee}$.
 The resulting relative systematics vary from 6\% $\sim$ 12\% in the $10<\pt<15~\GeV$ region, 3\% to 6\% in the $15<\pt<20~\GeV$ region, 1\% to 3\% in the $20<\pt<40~\GeV$ region, and less than 1\% for $\pt >$ 40 \GeV.
-The systematic uncertainties associated to the muon efficiencies measurement vary from 1\% to 1.3\% in the $10<\pt<15~\GeV$ region and less then 1\% for $\pt >$ 15 \GeV. 
+The systematic uncertainties associated to the muon efficiencies measurement vary from 1\% to 1.3\% in the $10<\pt<15~\GeV$ region and less than 1\% for $\pt >$ 15 \GeV. 
 \item[$\bullet$] Trigger: a systematic uncertainty accounting for a potential bias at trigger level is considered and it varies between 0 and 4\%, depending on the \pt range.
 \item[$\bullet$] Extrapolation to busy environments: efficiencies are typically lower in such environments due to the proximity of jets and leptons; 
 an uncertainty is assigned by comparing efficiencies in simulated $Z\to\ell\ell$ and $\gluino\to\ttbar\neut$ events, for $\Delta m(\gluino,\neut)>1~\TeV$ which represents an extreme case of final states with highly boosted top quarks. 
@@ -433,19 +422,19 @@ The resulting systematic uncertainties are summarized in Table~\ref{tab:RLE_syst
 & \multicolumn{3}{c}{Electrons} & \multicolumn{3}{c}{Muons}\\
 & $0<|\eta|<0.8$ & $0.8<|\eta|<1.37$ & $1.52<|\eta|<2.01$ & $0<|\eta|<0.6$ & $0.6<|\eta|<1.2$ & $1.2<|\eta|<1.8$ & $1.8<|\eta|<2.5$\\
 \hline
-10~\GeV $< p_{\text T} <$ 15~\GeV & 0.047 & 0.063 & 0.089 & 0.014 & 0.010 & 0.008 & 0.011\\
-15~\GeV $< p_{\text T} <$ 20~\GeV & 0.027 & 0.042 & 0.062 & 0.005 & 0.006 & 0.008 & 0.011\\
-20~\GeV $< p_{\text T} <$ 25~\GeV & 0.018 & 0.031 & 0.041 & 0.003 & 0.006 & 0.010 & 0.010\\
-25~\GeV $< p_{\text T} <$ 30~\GeV & 0.029 & 0.024 & 0.027 & 0.011 & 0.015 & 0.022 & 0.019\\
-30~\GeV $< p_{\text T} <$ 35~\GeV & 0.023 & 0.021 & 0.023 & 0.007 & 0.009 & 0.014 & 0.011\\
-35~\GeV $< p_{\text T} <$ 40~\GeV & 0.014 & 0.018 & 0.018 & 0.004 & 0.004 & 0.006 & 0.006\\
-40~\GeV $< p_{\text T} <$ 50~\GeV & 0.007 & 0.010 & 0.010 & 0.002 & 0.001 & 0.002 & 0.001\\
-50~\GeV $< p_{\text T} <$ 60~\GeV & 0.008 & 0.010 & 0.010 & 0.001 & 0.001 & 0.001 & 0.001\\
-60~\GeV $< p_{\text T} <$ 70~\GeV & 0.007 & 0.010 & 0.010 & 0.001 & 0.001 & 0.001 & 0.002\\
-70~\GeV $< p_{\text T} <$ 80~\GeV & 0.008 & 0.011 & 0.012 & 0.002 & 0.001 & 0.001 & 0.002\\
-80~\GeV $< p_{\text T} <$ 120~\GeV & 0.010 & 0.010 & 0.011 & 0.004 & 0.002 & 0.002 & 0.002\\
-120~\GeV $< p_{\text T} <$ 150~\GeV & 0.005 & 0.005 & 0.011 & 0.006 & 0.005 & 0.005 & 0.005\\
-150~\GeV $< p_{\text T} <$ 200~\GeV & 0.005 & 0.002 & 0.019 & 0.005 & 0.005 & 0.005 & 0.006\\
+10~\GeV~$< p_{\text T} <$ 15~\GeV~& 0.047 & 0.063 & 0.089 & 0.014 & 0.010 & 0.008 & 0.011\\
+15~\GeV~$< p_{\text T} <$ 20~\GeV~& 0.027 & 0.042 & 0.062 & 0.005 & 0.006 & 0.008 & 0.011\\
+20~\GeV~$< p_{\text T} <$ 25~\GeV~& 0.018 & 0.031 & 0.041 & 0.003 & 0.006 & 0.010 & 0.010\\
+25~\GeV~$< p_{\text T} <$ 30~\GeV~& 0.029 & 0.024 & 0.027 & 0.011 & 0.015 & 0.022 & 0.019\\
+30~\GeV~$< p_{\text T} <$ 35~\GeV~& 0.023 & 0.021 & 0.023 & 0.007 & 0.009 & 0.014 & 0.011\\
+35~\GeV~$< p_{\text T} <$ 40~\GeV~& 0.014 & 0.018 & 0.018 & 0.004 & 0.004 & 0.006 & 0.006\\
+40~\GeV~$< p_{\text T} <$ 50~\GeV~& 0.007 & 0.010 & 0.010 & 0.002 & 0.001 & 0.002 & 0.001\\
+50~\GeV~$< p_{\text T} <$ 60~\GeV~& 0.008 & 0.010 & 0.010 & 0.001 & 0.001 & 0.001 & 0.001\\
+60~\GeV~$< p_{\text T} <$ 70~\GeV~& 0.007 & 0.010 & 0.010 & 0.001 & 0.001 & 0.001 & 0.002\\
+70~\GeV~$< p_{\text T} <$ 80~\GeV~& 0.008 & 0.011 & 0.012 & 0.002 & 0.001 & 0.001 & 0.002\\
+80~\GeV~$< p_{\text T} <$ 120~\GeV~& 0.010 & 0.010 & 0.011 & 0.004 & 0.002 & 0.002 & 0.002\\
+120~\GeV~$< p_{\text T} <$ 150~\GeV~& 0.005 & 0.005 & 0.011 & 0.006 & 0.005 & 0.005 & 0.005\\
+150~\GeV~$< p_{\text T} <$ 200~\GeV~& 0.005 & 0.002 & 0.019 & 0.005 & 0.005 & 0.005 & 0.006\\
 \hline
 \hline
 \end{tabular}
@@ -467,14 +456,14 @@ Systematic uncertainties on the measured real lepton efficiency, separating sour
 \hline
 $\Delta R(e, jet)$ & [0, 0.1] & [0.1, 0.15] & [0.15, 0.2] & [0.2, 0.3] & [0.3, 0.35] & [0.35, 0.4] & [0.4, 0.6] & [0.6, 4]\\
 \hline
-10~\GeV $< p_{\text T} <$ 20~\GeV & - & - & - & - & - & - & 25.31\% & 6.5\%\\
-20~\GeV $< p_{\text T} <$ 30~\GeV & - & - & - & - & - & 73.37\% & 10.21\% & 0.37\%\\
-30~\GeV $< p_{\text T} <$ 40~\GeV & - & - & - & 97.71\% & 48.22\% & 15.54\% & 7.29\% & 0.58\%\\
-40~\GeV $< p_{\text T} <$ 50~\GeV & - & - & - & 52.81\% & 22.80\% & 16.73\% & 7.68\% & 1.10\%\\
-50~\GeV $< p_{\text T} <$ 60~\GeV & - & - & - & 29.96\% & 21.49\% & 20.23\% & 6.99\% & 2.78\%\\
-60~\GeV $< p_{\text T} <$ 80~\GeV & - & - & 55.89\% & 24.31\% & 17.40\% & 24.77\% & 6.20\% & 2.87\%\\
-80~\GeV $< p_{\text T} <$ 150~\GeV & - & 57.52\% & 30.24\% & 16.45\% & 12.73\% & 20.92\% & 4.44\% & 2.73\%\\
-150~\GeV $< p_{\text T} <$ 200~\GeV & 88.54\% & 40.16\% & 19.34\% & 8.45\% & 14.66\% & 16.57\% & 2.57\% & 1.90\%\\
+10~\GeV~$< p_{\text T} <$ 20~\GeV~& - & - & - & - & - & - & 25.31\% & 6.5\%\\
+20~\GeV~$< p_{\text T} <$ 30~\GeV~& - & - & - & - & - & 73.37\% & 10.21\% & 0.37\%\\
+30~\GeV~$< p_{\text T} <$ 40~\GeV~& - & - & - & 97.71\% & 48.22\% & 15.54\% & 7.29\% & 0.58\%\\
+40~\GeV~$< p_{\text T} <$ 50~\GeV~& - & - & - & 52.81\% & 22.80\% & 16.73\% & 7.68\% & 1.10\%\\
+50~\GeV~$< p_{\text T} <$ 60~\GeV~& - & - & - & 29.96\% & 21.49\% & 20.23\% & 6.99\% & 2.78\%\\
+60~\GeV~$< p_{\text T} <$ 80~\GeV~& - & - & 55.89\% & 24.31\% & 17.40\% & 24.77\% & 6.20\% & 2.87\%\\
+80~\GeV~$< p_{\text T} <$ 150~\GeV~& - & 57.52\% & 30.24\% & 16.45\% & 12.73\% & 20.92\% & 4.44\% & 2.73\%\\
+150~\GeV~$< p_{\text T} <$ 200~\GeV~& 88.54\% & 40.16\% & 19.34\% & 8.45\% & 14.66\% & 16.57\% & 2.57\% & 1.90\%\\
 \hline
 \hline
 %\end{tabular}
@@ -487,14 +476,14 @@ $\Delta R(e, jet)$ & [0, 0.1] & [0.1, 0.15] & [0.15, 0.2] & [0.2, 0.3] & [0.3, 0
 \hline
 $\Delta R(\mu, jet)$ & [0, 0.1] & [0.1, 0.15] & [0.15, 0.2] & [0.2, 0.3] & [0.3, 0.35] & [0.35, 0.4] & [0.4, 0.6] & [0.6, 4]\\
 \hline
-10~\GeV $< p_{\text T} <$ 20~\GeV & - & - & - & - & - & - & 33.59\% & 5.18\%\\
-20~\GeV $< p_{\text T} <$ 30~\GeV & - & - & - & - & - & 82.34\% & 22.27\% & 3.39\%\\
-30~\GeV $< p_{\text T} <$ 40~\GeV & - & - & -  & 98.54\% & 56.36\% & 31.89\% & 14.22\% & 2.24\%\\
-40~\GeV $< p_{\text T} <$ 50~\GeV & - & - & - & 53.10\% & 21.33\% & 13.90\% & 6.81\% & 1.45\%\\
-50~\GeV $< p_{\text T} <$ 60~\GeV & - & - & - & 24.98\% & 13.72\% & 9.62\% & 3.83\% & 0.79\%\\
-60~\GeV $< p_{\text T} <$ 80~\GeV & - & - & 44.41\% & 13.75\% & 6.14\% & 4.76\% & 2.04\% & 0.15\%\\
-80~\GeV $< p_{\text T} <$ 150~\GeV & - & 29.94\% & 7.14\% & 3.16\% & 1.30\% & 1.04\% & 0.07\% & 0.57\%\\
-150~\GeV $< p_{\text T} <$ 200~\GeV & 82.26\% & 4.14\% & 1.02\% & 0.17\% & 0.29\% & 0.62\% & 1.02\% & 1.13\%\\
+10~\GeV~$< p_{\text T} <$ 20~\GeV~& - & - & - & - & - & - & 33.59\% & 5.18\%\\
+20~\GeV~$< p_{\text T} <$ 30~\GeV~& - & - & - & - & - & 82.34\% & 22.27\% & 3.39\%\\
+30~\GeV~$< p_{\text T} <$ 40~\GeV~& - & - & -  & 98.54\% & 56.36\% & 31.89\% & 14.22\% & 2.24\%\\
+40~\GeV~$< p_{\text T} <$ 50~\GeV~& - & - & - & 53.10\% & 21.33\% & 13.90\% & 6.81\% & 1.45\%\\
+50~\GeV~$< p_{\text T} <$ 60~\GeV~& - & - & - & 24.98\% & 13.72\% & 9.62\% & 3.83\% & 0.79\%\\
+60~\GeV~$< p_{\text T} <$ 80~\GeV~& - & - & 44.41\% & 13.75\% & 6.14\% & 4.76\% & 2.04\% & 0.15\%\\
+80~\GeV~$< p_{\text T} <$ 150~\GeV~& - & 29.94\% & 7.14\% & 3.16\% & 1.30\% & 1.04\% & 0.07\% & 0.57\%\\
+150~\GeV~$< p_{\text T} <$ 200~\GeV~& 82.26\% & 4.14\% & 1.02\% & 0.17\% & 0.29\% & 0.62\% & 1.02\% & 1.13\%\\
 \hline
 \hline
 \end{tabular}

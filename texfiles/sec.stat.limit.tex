@@ -104,10 +104,14 @@ new particle, a significance of $Z=3$ or $p_0 = 1.35\times 10^{-3}$ is required.
 
 \subsection{The $CL_\mathrm{s}$ Prescription}
 The next step is to define a confidence interval ($CI$) that includes the parameter $\mu$ at a specified confidence level ($CL$). 
-In other words, instead of estimating the parameter $\mu$ by a single value, an interval $CI$ likely to include the parameter is given.
+In other words, instead of estimating the parameter $\mu$ by a single value, an interval $CI$ likely to include the parameter$\mu$ is given.
 The $CL$ provides a quantitative statement on how likely the interval $CI$ is to contain the parameter $\mu$. 
-If given the measurement of a parameter $\mu_{meas}$, we deduce that there is a 95\% $CI$ $[\mu_1,\mu_2]$ means 
-that in an ensemble of experiments 95\% of the obtained $CI$s will contain the true value of $\mu$.
+Given the measurement of a parameter $\mu_{meas}$, we deduce that there is
+a 95\% $CI$ $[\mu_1,\mu_2]$. The statment means
+that in an ensemble of experiments 95\% of the obtained $CI$s will contain 
+the true value of $\mu$\footnote{The statement \textbf{does not} mean that
+there is a 95\% probability that the interval $[\mu_1,\mu_2]$ contains the 
+true value of the parameter $\mu$.}.
 The upper limit is simply the case where the 95\% $CI$ is $[0,\mu_{up}]$:
 In an ensemble of experiments 95\% of the obtained $CI$s will contain the true value of $\mu$, including $\mu=0$. 
 The conclusion is that $\mu < \mu_{up}$ at the 95\% $CL$ or that $ \mu_{up}$ is an upper limit. 
@@ -144,7 +148,8 @@ To remedy this problem, a different procedure is used where a model is regarded 
 < \alpha.
 \end{equation}
 In this form, the $p$-value is penalized by dividing by $1-p_{0}$. 
-If the distribution of $q_{\mu}$ under signal or background-only hypotheses are widely separated, then 
+If the distribution of $q_{\mu}$ under a signal or abackground-only hypotheses 
+are widely separated, then 
 the quantity $1-p_{0}$ is close to unity which recovers the $CL_\mathrm{s+b}$ value. However, if
 the distributions of both hypotheses are similar, due to the lack of sensitivity, $1-p_{0}$ becomes smaller
 and the $CL_\mathrm{s+b}$ value is increased more leading to a weaker upper limit. 

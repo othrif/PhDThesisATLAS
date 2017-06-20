@@ -82,6 +82,12 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
   [astro-ph]}}.
 %%CITATION = ASTRO-PH/0307335;%%.
 
+\bibitem{BRANDELIK1979243}
+R.~Brandelik {et~al.},
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/0370-2693(79)90830-X}{Physics
+  Letters B {\bfseries 86} (1979) 243--249},
+  \url{http://www.sciencedirect.com/science/article/pii/037026937990830X}.
+
 \bibitem{atlas_higgs}
 {ATLAS} Collaboration, G.~Aad {et~al.},
   \href{http://dx.doi.org/10.1016/j.physletb.2012.08.020}{Phys. Lett.
@@ -95,6 +101,14 @@ G.~Bertone, D.~Hooper,  and J.~Silk,
   {\bfseries B716} (2012) 30--61},
 \href{http://arxiv.org/abs/1207.7235}{{\ttfamily arXiv:1207.7235 [hep-ex]}}.
 %%CITATION = ARXIV:1207.7235;%%.
+
+\bibitem{Ade:2013zuv}
+{Planck} Collaboration, P.~A.~R. Ade {et~al.},
+  \href{http://dx.doi.org/10.1051/0004-6361/201321591}{Astron. Astrophys.
+  {\bfseries 571} (2014) A16},
+\href{http://arxiv.org/abs/1303.5076}{{\ttfamily arXiv:1303.5076
+  [astro-ph.CO]}}.
+%%CITATION = ARXIV:1303.5076;%%.
 
 \bibitem{Canetti:2012zc}
 L.~Canetti, M.~Drewes,  and M.~Shaposhnikov,
@@ -209,11 +223,6 @@ A.~Negri, J. Phys. Conf. Ser. {\bfseries 396} (2012) 012033,
 \bibitem{ros}
 A.~Borga {et~al.}, PoS(TIPP2014)205, 2014.
 
-\bibitem{atlasTwiki}
-{\em Luminosity Public Results in Run 2},
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
-\newblock Accessed: 2016-08-01.
-
 \bibitem{Aad:1602235}
 A.~Collaboration, {\em {Technical Design Report for the Phase-I Upgrade of the
   ATLAS TDAQ System}}, Tech. Rep. CERN-LHCC-2013-018, Sep, 2013.
@@ -228,6 +237,11 @@ W.~P. Vazquez {et~al.},
 \bibitem{1742-6596-396-1-012033}
 A.~Negri {et~al.}, Journal of Physics: Conference Series {\bfseries 396} (2012)
   012033, \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
+
+\bibitem{atlasTwiki}
+{\em Luminosity Public Results in Run 2},
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+\newblock Accessed: 2016-08-01.
 
 \bibitem{Alwall:2014hca}
 J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,

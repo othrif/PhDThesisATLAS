@@ -1,4 +1,4 @@
-The ATLAS  detector's data acquisition system, illustrated in Figure \ref{fig:tdaq_diagram}, makes use of a multi-tiered trigger to reduce 
+The ATLAS  detector's data acquisition system, illustrated in Figure \ref{fig:tdaq_diagram}, makes use of a multi-tiered trigger to reduce the
 bandwidth from the LHC proton bunch crossing rate of 40 MHz
 to the 1 kHz written to disk \cite{evolution1,evolution2}. The first tier (Level-1 or L1) \cite{l1}, implemented in real time with custom electronics, 
 makes an early event selection to determine if any objects of interest are present and reduces the data flow to 
@@ -21,7 +21,7 @@ towers are divided in a $\Delta\eta\times\Delta\phi$ space by
 $0.1 \times 0.1$ over most of the calorimeter, and larger in the forward 
 region. A decision is made based on the multiplicities and $E_{\rm{T}}$ 
 thresholds of the objects 
-identified by the L1Calo algorithms: EM clusters, 
+identified by the L1Calo algorithms: electromagnetic (EM) clusters, 
 $\tau$-leptons, jets, missing transverse energy, scalar sum $E_{\rm{T}}$, 
 and total transverse energy of the L1 jets.
 The L1 muon trigger (L1muon) uses measurements of the trajectories of muons 
@@ -39,8 +39,9 @@ to the different objects such as the L1 EM clusters.
 A trigger menu is implemented as a collection of L1 items, each containing a 
 logical combination of one or more configured L1 thresholds. 
 For example, the item L1\_EM30i refers to an event requiring at least one 
-isolated EM object with $E_{\rm{T}} > 30 $\GeV. If the rates of a particular 
-object is high , such as EM objects with low momentum, a prescale factor $\alpha$ is applied to the L1 item in the menu, where only 1 in $\alpha$
+isolated EM object with a transverse energy of $E_{\rm{T}} > 30$ \GeV. 
+If the rates of a particular 
+object is high, such as EM objects with low momentum, a prescale factor $\alpha$ is applied to the L1 item in the menu, where only 1 in $\alpha$
 events is passed to the HLT. The L1 prescales are generally adjusted to 
 maintain the optimal use of the allocated bandwidth for an L1 item during 
 data-taking since the luminosity drops over the course of a run.
@@ -68,20 +69,20 @@ The function of the DAQ system is to efficiently buffer, transport, and record t
 Its performance is affected by the instantaneous luminosity that leads to busy events with multiple proton-proton interactions occurring in each 
 bunch crossing, referred to as pileup. The high pileup results in a higher data volume collected by the detector that needs to be 
 processed at the required rate to avoid exerting back-pressure on the L1 system. 
-In Run 2, the LHC has exceeded the designed instantaneous luminosity of $10^{34}$ cm$^{-2}$ s$^{-1}$ leading to pileup of~ $<\mu>=30$ or more as shown 
-in Figure \ref{fig:lumi_pileup_1}.
-\begin{figure}[t!]
-\centering
-\begin{subfigure}[t]{0.48\textwidth}
-\includegraphics[width=\textwidth]{peakLumiByFill}
-\end{subfigure}
-\begin{subfigure}[t]{0.48\textwidth}
-\includegraphics[width=\textwidth]{mu_2015_2016}
-\end{subfigure}
-%\vspace{-2cm}
-\caption{Run conditions during Run 2: ATLAS peak online luminosity per fill (left), ATLAS online pileup (right) \cite{atlasTwiki}.}
-\label{fig:lumi_pileup_1}
-\end{figure} 
+In Run 2, the LHC has exceeded the designed instantaneous luminosity of \\$10^{34}$ cm$^{-2}$ s$^{-1}$ leading to pileup of~ $<\mu>=30$ or more as shown 
+in Figures \ref{fig:exp.lhc.peakLumiByFill} and \ref{fig:exp.mu_2015_2016}.
+%% \begin{figure}[t!]
+%% \centering
+%% \begin{subfigure}[t]{0.48\textwidth}
+%% \includegraphics[width=\textwidth]{peakLumiByFill}
+%% \end{subfigure}
+%% \begin{subfigure}[t]{0.48\textwidth}
+%% \includegraphics[width=\textwidth]{mu_2015_2016}
+%% \end{subfigure}
+%% %\vspace{-2cm}
+%% \caption{Run conditions during Run 2: ATLAS peak online luminosity per fill (left), ATLAS online pileup (right) \cite{atlasTwiki}.}
+%% \label{fig:lumi_pileup_1}
+%% \end{figure} 
 The L1 accept 
 rate has also increased from 75 kHz in Run 1 to 100 kHz in Run 2 and the average output rate of the data logger system has 
 increased from 400-600 Hz in Run 1 to about 3 kHz with 1.5 kHz for physics data. 
@@ -97,7 +98,7 @@ The dataflow network system was re-designed to increase its capacity and simplif
 
 \subsection{ATLAS Dataflow Design}
 
-In Run 1, the farm was subdivided to several slices, with 
+In Run 1, the farm was subdivided into several slices, with 
 each slice managed by a dedicated supervisor. This layout has been 
 dropped in favor of global management by a single farm master 
 operating at 100 kHz referred to as the HLT supervisor (HLTSV). 

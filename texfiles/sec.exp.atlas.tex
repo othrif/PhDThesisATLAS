@@ -3,13 +3,14 @@ multi-purpose particle detector located at one of the
 LHC interaction points 100 meters underground. 
 It is the largest particle detector ever built with a weight of about 7000 tonnes, a length of 44 m, 
 and a diameter of 25 m as shown in Figure~\ref{fig:exp.atlas.atlas}.
-It is designed to probe Higgs physics, QCD, flavour physics, as well as a multitude of beyond Standard Model (BSM) physics scenarios including supersymmetry.
+It is designed to probe Higgs physics, QCD, flavour physics, as well as a multitude of beyond the Standard Model (BSM) physics scenarios including 
+supersymmetry.
 
-ATLAS covers a solid angle of almost $4\omega$ to capture as much information from the collisions 
+ATLAS covers a solid angle of almost $4\Omega$ to capture as much information from the collisions 
 as possible. 
 It is composed of multiple layers of detectors to ensure that all particles produced in the 
 collision are identified and measured with high accuracy.
-These subsystems are shown in Figure~~\ref{fig:exp.atlas.atlas}.
+These subsystems are shown in Figure~\ref{fig:exp.atlas.atlas}.
 The first detector resides in the part closest to the
 LHC pipe and is composed of silicon tracking sensors designed to reconstruct the paths
 of charged particles. 
@@ -37,7 +38,7 @@ The remainder of this chapter will describe in more details these detectors.
 
 The common coordinate system of ATLAS is right-handed Cartesian, 
 with its origin at the nominal interaction point. 
-The axes are oriented such that the $x$-axis is pointing towards the centre of the LHC ring, the $y$-axis is directed
+The axes are oriented such that the $x$-axis is pointing towards the center of the LHC ring, the $y$-axis is directed
 vertically upward, and the $z$-axis defines one of the beam directions.
 The $(x, y)$ plane defines the transverse plane, usually represented by polar coordinates $(r,\phi)$
 with $\phi=0$ on the $x$-axis.
@@ -46,7 +47,7 @@ The polar angle $\theta$ is replaced by the pseudorapidity
 \eta = - \ln\left(\tan\left(\frac{\theta}{2}\right)\right),
 \end{equation}
 shown in Figure~\ref{fig:exp.atlas.pseudo}.
-It is named after the rapidity since it yields the same quantity for massless particles
+It is named after the rapidity ($y$) since it yields the same quantity for massless particles
 \begin{equation}
 y = \frac{1}{2}\ln\left(\frac{E+p_Z}{E-p_Z}\right),
 \end{equation}
@@ -92,7 +93,8 @@ its purpose is to detect the path taken by charged particles as they bend throug
 magnetic field, and hence determine their momenta.
 Particles from the main $pp$ interaction pass through several layers of silicon detectors each providing a 2-dimensional coordinate. 
 To reduce correlations between individual points the layers are spread out evenly along the tracks.
-Figure~\ref{fig:exp.atlas.id.rad} shows a charged particle with 10 \GeV~\pt that
+Figure~\ref{fig:exp.atlas.id.rad} shows a charged particle with 10 \GeV
+transverse momentum, denoted by ~\pt. that
 emerges from the interaction point and traverses the beam-pipe, four pixel layers, 
 four double layers of SCT sensors, and around 35 TRT straws.
 These elements will be described next.
@@ -112,7 +114,7 @@ These elements will be described next.
 \vspace{-0.25cm}
 \caption{Overview of the subsystems of the inner detector of ATLAS in both (a) and (b).
 The radial locations of each component are shown in (b) as 
- a charged particle with 10 \GeV \pt traverses the barrel of the Inner Detector.} %cite??
+ a charged particle with 10 \GeV~\pt traverses the barrel of the Inner Detector.} %cite??
 %The particle emerges from the interaction point and traverses
 %the beam-pipe, three pixel layers, four double layers of SCT sensors, and around 35 TRT straws.
 \label{fig:exp.atlas.id}
@@ -130,7 +132,7 @@ to a precision of 10 $\times$ 115 $\mu$m.
 This resolution is important since the 
 the area subtended by a given solid angle is at its smallest value near the interaction point.
  It is also designed to tolerate the very high radiation
-doses that it must be exposed to at such proximity to the interaction point. The detector is
+doses that it is exposed to at such proximity to the interaction point. The detector is
 formed of three barrel layers as well as two end-cap structures. Each of the end-caps
 comprises four discs of sensors, arranged such that most tracks are more likely to hit pixels in at
 least three distinct layers.
@@ -151,7 +153,7 @@ strips, whose axes are tilted by 40 mrad with respect to one another. The pair o
 each SCT layer locates charged particles in $r - \phi$ with an accuracy of 17$\mu$m, 
 and along $z$, with an accuracy of 580 $\mu$m.
 The SCT provides between four and nine measurements per particle, with
-coverage up-to $|\eta|=2.5$.
+coverage up to $|\eta|=2.5$.
 Further details can be found in the technical design report of the inner
 detector [9, 10].
 
@@ -169,7 +171,10 @@ the potential difference, and the excess charge is collected and detected.
 The tubes are arranged parallel to the beam axis in the barrel region, and radially in the end-caps. 
 In addition to providing particle tracks, 
 the TRT also provides particle identification through
-the detection of transition radiation. For example, 
+the detection of transition radiation
+\footnote{Transition radiation is emitted whenever a charged particle 
+crosses the boundary between two media.}
+. For example, 
 electrons will emit more transition radiation photons than charged hadrons.
 
 
@@ -237,11 +242,11 @@ The granularity in $\eta$ and $\phi$ of the cells of each of the three layers is
 
 \subsection*{Tile Calorimeters}
 
-The tile calorimeter  is the hadron calorimeter that covers the range of $|\eta| < 1.7$
-where the LAr hadronic calorimeter takes over.
+The tile calorimeter is the hadron calorimeter covering the range of $|\eta| < 1.7$.
+%where the LAr hadronic calorimeter takes over.
 The tile calorimeter uses steel tiles as an absorber and scintillating tiles as the detector.
 The scintillator tile calorimeter is separated into a barrel and two extended barrel cylinders.
-The light produced in the scintillators is read out with wavelength-shifting optical fibres to photomultipliers (PMTs) placed on the outside of the calorimeter. 
+The light produced in the scintillators is read out with wavelength-shifting optical fibers to photomultipliers (PMTs) placed on the outside of the calorimeter. 
 %The fibres absorb the blue light from the scintillators and reemit it at longer wavelengths where it reaches the photomultipliers through total reflection inside the fibres. 
 
 
@@ -261,7 +266,7 @@ Several technologies are used to select the events and make measurements.
 The barrel region has resistive-plate chambers (RPC) for $|\eta| < 1.05$  that provide very fast timing information, $\sim 10$ ns,
 used for triggering. The barrel also has monitored drift tubes (MDT) for $|\eta| < 2.0$ that give precise measurements, $\sim 35 \mu$m per chamber,
 in the $\left(\eta,z\right)$-plane where the bending occurs.
-The forward region of the detector, $2.0 < |\eta| < 2.7$,  has Cathod strip detectors (CSCs)  nearest to the interaction point,
+The forward region of the detector, $2.0 < |\eta| < 2.7$,  has Cathode strip detectors (CSCs)  nearest to the interaction point,
 followed by thin-gap chambers (TGCs) and additional MDTs. The CSCs achieve a resolution of 40$\mu$m in the $\left(\eta,z\right)$-plane
 and 5 mm in the transverse plane.
 The layout of these components is more clearly shown in Figure~\ref{fig:exp.atlas.muon}.
@@ -281,64 +286,3 @@ The layout of these components is more clearly shown in Figure~\ref{fig:exp.atla
 \caption{Cross-sectional view of the muon detectors of ATLAS in the $\left(y-z\right)$-plane.}% cite??.}
 \label{fig:exp.atlas.muon}
 \end{figure} 
-
-\subsection{ATLAS Operation}
-
-
-
-
-%% \begin{figure}[htb!]
-%% \centering
-%% \begin{subfigure}[t]{0.48\textwidth}
-%% \includegraphics[width=0.95\textwidth]{sumLumiByDay}
-%% \subcaption{Total Integrated Luminosity in 2016 }
-%% \label{fig:exp.sumLumiByDay}
-%% \end{subfigure}
-%% \begin{subfigure}[t]{0.48\textwidth}
-%% \includegraphics[width=0.95\textwidth]{recEffByWeek}
-%% \subcaption{Data Taking Efficiency per Week in 2016}
-%% \label{fig:exp.recEffByWeek}
-%% \end{subfigure}
-%% \vspace{-0.25cm}
-%% \caption{(a) Cumulative luminosity versus time delivered to (green) and recorded by ATLAS (yellow) during stable beams for pp collisions at 13 TeV centre-of-mass energy in 2016. 
-%% The recorded luminosity reflects the DAQ inefficiency, as well as the inefficiency of the so-called ``warm start'': when the stable beam flag is raised, the tracking detectors undergo 
-%% a ramp of the high-voltage and, for the pixel system, turning on the preamplifiers.
-%% (b) ATLAS data taking efficiency in 2016. The denominator is the luminosity delivered between the declaration of stable beams and the LHC request to turn the sensitive detectors off to allow a beam dump or beam studies. The numerator is the luminosity recorded by ATLAS. Each bin represents one day. The empty bins are due to days in which no stable beams were delivered by the LHC. The inefficiency accounts for the time needed to turn on the high-voltage of the Pixel, SCT, and some of the muon detectors at the start of an LHC fill and any inefficiencies due to deadtime or due to individual problems with a given sub detector that prevents the ATLAS data taking to proceed. }
-%% \label{fig:exp.atlas.datarec}
-%% \end{figure} 
-
-
-
-
-%% \begin{figure}[htb!]
-%% \centering
-%% \begin{subfigure}[t]{0.48\textwidth}
-%% \includegraphics[width=0.95\textwidth]{peakLumiByFill}
-%% \subcaption{Peak Luminosity per Fill in 2016}
-%% \label{fig:exp.peakLumiByFill}
-%% \end{subfigure}
-%% \begin{subfigure}[t]{0.48\textwidth}
-%% \includegraphics[width=0.95\textwidth]{peakMuByFill}
-%% \subcaption{Peak Interactions per Crossing in 2016 }
-%% \label{fig:exp.peakMuByFill}
-%% \end{subfigure}
-%% \vspace{-0.25cm}
-%% \caption{(a) The peak instantaneous luminosity delivered to ATLAS during stable beams for pp collisions at 13 TeV centre-of-mass energy is shown for each LHC fill as a function of time in 2016. The luminosity is determined using counting rates measured by the luminosity detectors, and is based on a preliminary analysis of van-der-Meer beam-separation scans during 2016.
-%% (b) The maximum number of inelastic collisions per beam crossing ($\mu$) during stable beams for pp collisions at 13 TeV centre-of-mass energy is shown for each fill in 2016. The preliminary luminosity measurement is used to determine the number of interactions per beam crossing as $mu = L_\text{bunch}  \sigma_\text{inel} / f_r$ where $L_\text{bunch}$ is the per-bunch instantaneous luminosity, $ \sigma_\text{inel} $ is the inelastic cross-section at 13 TeV, which is taken to be 80 mb, and $ f_r$ is the LHC revolution frequency of 11.245 kHz. The number of interactions shown is averaged over all colliding bunch pairs, and only the peak value per fill during stable beams is shown.
-%%  }
-%% \label{fig:}
-%% \end{figure} 
-
-
-
-
-
-
-%% Number of Interactions per Crossing
-%% Shown is the luminosity-weighted distribution of the mean number of interactions per crossing for the 2016 pp collision data at 13 TeV centre-of-mass energy. All data delivered to ATLAS during stable beams is shown, and the integrated luminosity and the mean mu value are given in the figure. The mean number of interactions per crossing corresponds to the mean of the poisson distribution of the number of interactions per crossing calculated for each bunch. 
-%% The preliminary luminosity measurement is used to determine the number of interactions per beam crossing as $mu = L_\text{bunch}  \sigma_\text{inel} / f_r$ where $L_\text{bunch}$ is the per-bunch instantaneous luminosity, $ \sigma_\text{inel} $ is the inelastic cross-section at 13 TeV, which is taken to be 80 mb, and $ f_r$ is the LHC revolution frequency of 11.245 kHz.
-%%  The luminosity shown represents the preliminary 13 TeV luminosity calibration released in February 2017, based on van-der-Meer beam-separation scans in 2016.
-
-
-
-\input{texfiles/tables/dqphys.tex}
