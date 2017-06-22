@@ -48,7 +48,7 @@ To ...
 
 \chapter*{Acknowledgments}
 \addcontentsline{toc}{chapter}{Acknowledgments}%
-\input{texfiles/acknow.tex}
+I would like to acknowledge...
 
 %-------------------------------------------------------------------------------
 
