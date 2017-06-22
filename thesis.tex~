@@ -28,11 +28,11 @@
 \department{HOMER L. DODGE DEPARTMENT OF PHYSICS AND ASTRONOMY}
 \title{Searching for Supersymmetric Particles at the Large Hadron Collider using the ATLAS Detector}
 \address{Norman, Oklahoma}
-\yr{2017}
+\yr{2016}
 \dgname{DOCTOR OF PHILOSOPHY}
 
 %% List your committee members here
-\committee{{Dr. Brad Abbott, Chair}, {Dr. Peter Barker, Outside Member}, Dr. Michael Strauss, Dr. Chung Kao, Dr. Eric Abraham}
+\committee{{Dr. Brad Abbott, Chair}, {Dr. Peter Barker, Outside Member}, Dr. Mike Strauss, Dr. Chung Kao, Dr. Eric Abraham}
 
 %% Put your dedication here. 
 \begin{dedication}
@@ -48,13 +48,13 @@ To ...
 
 \chapter*{Acknowledgments}
 \addcontentsline{toc}{chapter}{Acknowledgments}%
-\input{texfiles/acknow.tex}
+I would like to acknowledge...
 
 %-------------------------------------------------------------------------------
 
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}%
-\input{texfiles/abstract.tex}
+My abstract ...
 
 %-------------------------------------------------------------------------------
 
