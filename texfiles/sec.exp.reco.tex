@@ -59,13 +59,13 @@ calorimeter.
 The electron is identified  by matching reconstructed EM clusters to tracks
 reconstructed in the inner detector. 
 This signature suffers from 
-Large backgrounds from other types of charged particles can mimic this 
+large backgrounds from other types of charged particles can mimic that 
 signature. For these reason, ATLAS uses several tools to effectively 
 distinguish between the desired electrons and background.
 Similar to muons, isolation is one of these tools.
 
 Photons also produce an electromagnetic shower upon entering the calorimeter, 
-except that they leave no track in the inner detector since they are neutral.
+except they leave no track in the inner detector since they are neutral.
 In practice, photons might undergo a conversion to an $e^+e^-$ pair 
 in the detector material before entering the calorimeter which will 
 result in a track in the inner detector. Photons of the former case 
@@ -114,7 +114,7 @@ experimental uncertainties in this analysis.
 
 The jet reconstruction algorithms cannot determine the type of parton that initiated a
 given jet, except for $b$-quarks.
-Since $b$-quark hadron decay with suppressed weak interactions, they are 
+Since $b$-quark hadrons decay with suppressed weak interactions, they are 
 relatively long-lived travelling a few millimeters before they decay.
 Given the fine tracking resolution of ATLAS, 
 a millimeter displacement from the interaction point is large enough to be resolved.
@@ -127,9 +127,11 @@ of the reconstructed objects will be given next.
 \subsection{Electrons}
 Electrons are reconstructed and identified for $\pt > 5$ \GeV~ and
  $|\eta| < 4.9$ \cite{ATLAS-CONF-2016-024}.
-The electrons  are identified by a cluster in the electromagnetic calorimeter of more than 2.5 \GeV~matched to a track in the inner detector.
+The electrons  are identified by a cluster in the electromagnetic calorimeter 
+%of more than 2.5 \GeV~
+matched to a track in the inner detector.
 The electron trajectory is determined using information from the inner detector. This involves the measurement of the track associated parameters : the
-position in the transverse ($d_0$) and longitudinal ($z_0$) planes of the perigee, the particle direction ($\phi$,$\theta$)
+position in the transverse ($d_0$) and longitudinal ($z_0$) planes of the perigee, the particle direction ($\phi$, $\theta$)
 and the parameter which provides the inverse track momentum multiplied by the charge ($q/p$). The track
 parameters and the associated uncertainties are obtained from the track fitting procedure performed with
 the ATLAS Global $\chi^2$ Track Fitter.
@@ -148,13 +150,13 @@ The reconstruction efficiency of electrons is around 95\% for low \pt and goes u
 
 \begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.45\textwidth}
-\includegraphics[width=0.95\textwidth]{efficiency_pt_el}
+\begin{subfigure}[t]{0.49\textwidth}
+\includegraphics[width=1.\textwidth]{efficiency_pt_el}
 \subcaption{}
 \label{fig:exp.reco.eff_pt}
 \end{subfigure}
-\begin{subfigure}[t]{0.45\textwidth}
-\includegraphics[width=0.95\textwidth]{efficiency_eta_el}
+\begin{subfigure}[t]{0.49\textwidth}
+\includegraphics[width=1.\textwidth]{efficiency_eta_el}
 \subcaption{}
 \label{fig:exp.reco.eff_eta}
 \end{subfigure}
@@ -209,7 +211,7 @@ The muon  reconstruction starts in the inner
 detector where tracks are identified up to $|\eta|<2.5$ in a solenoidal field of 2 Tesla.
 The muon spectrometer  measures  muons up to $|\eta|<2.7$  
 providing momentum measurements with a design relative resolution of better than 3\% over a wide 
-\pt range and to 10\% at TeV.
+\pt range and to 10\% at 1 \TeV.
 Similar to electrons, four muon identification selections are defined in order to meet 
 the specific needs of different physics analyses:
 \begin{itemize}
@@ -226,13 +228,13 @@ The  momentum resolution is measured to be as low as 1.7\% and the momentum scal
 
 \begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.54\textwidth}
-\includegraphics[width=0.95\textwidth]{EffwMedium_pt_muons.eps}
+\begin{subfigure}[t]{0.56\textwidth}
+\includegraphics[width=1.\textwidth]{EffwMedium_pt_muons.eps}
 \subcaption{}
 \label{fig:}
 \end{subfigure}
-\begin{subfigure}[t]{0.4\textwidth}
-\includegraphics[width=0.95\textwidth]{EffwLoose_Medium_Eta_muons.eps}
+\begin{subfigure}[t]{0.43\textwidth}
+\includegraphics[width=1.\textwidth]{EffwLoose_Medium_Eta_muons.eps}
 \subcaption{}
 \label{fig:}
 \end{subfigure}
@@ -250,9 +252,8 @@ Jets are reconstructed using the anti-$k_{t}$ jet algorithm~\cite{Cacciari:2008g
 with the distance parameter $R$ set to $0.4$ and 
 a three dimensional input of topological energy clusters in the 
 calorimeter~\cite{PERF-2014-07}. 
-The advantage of using the anti-kt algorithm is that it is infrared
- and collinear safe.
-\footnote{These two problems arise when defining a seed used 
+The advantage of using the anti-$k_{t}$ algorithm is that it is infrared
+ and collinear safe\footnote{These two problems arise when defining a seed used 
 as a starting point of an iterative process of re-clustering energy 
 depositions in the calorimeter cells.
 If only particles above some momentum threshold are used as seeds then the 
@@ -273,10 +274,10 @@ The parameter $p$ governs the relative power of of energy with respect to the ge
 
 The energies of the jets are calibrated to  account the necessary losses associated with sampling calorimeter,
 the presence of dead material,  energy loss in non-instrumented regions, etc. This is performed using the local cluster weighting
-(LCW) scheme \cite{Aad:2016upyew}, which uses calibrated topological clusters as input the anti-$k_{t}$ jet algorithm,
-and taking into account jet energy scale (JES) and jet energy resolution (JER) calibrations.
+(LCW) scheme \cite{Aad:2016upyew}, which uses calibrated topological clusters as input to the anti-$k_{t}$ jet algorithm,
+and takes into account jet energy scale (JES) and jet energy resolution (JER) calibrations.
 Both JES and JER can have an important contribution to the systematic uncertainties of this analysis.
-The fractional JES uncertainty in Figure~\ref{fig:exp.JES_pt_sys} shows that jets with \pt below 50\GeV~can have a larger uncertainty.
+The fractional JES uncertainty in Figure~\ref{fig:exp.JES_pt_sys} shows that jets with \pt below 50 \GeV~can have a larger uncertainty.
 The choice was made to only require jets above 50 \GeV~in the analysis for this reason.
 The fractional JER is around 17\% for jets with \pt of 30 \GeV~decreasing down to 5\% for more energetic jets.
 An additional variable is used to suppress jets from pileup, called the jet vertex tagger (JVT).
@@ -286,7 +287,8 @@ and  track-based variables to suppress pileup jets \cite{ATL-PHYS-PUB-2015-034}.
 \begin{figure}[htb!]
 \centering
 \includegraphics[width=0.65\textwidth]{JES_pt_sys}
-\caption{Fractional jet energy scale systematic uncertainty components as a function of \pt for anti-kt jets at $\eta$ = 0.0 with distance parameter of R = 0.4 after calibration.
+\caption{Fractional jet energy scale systematic uncertainty components as a function of \pt for anti-$k_{t}$ jets at $\eta$ = 0.0 
+with distance parameter of $R$ = 0.4 after calibration.
 The total uncertainty (all components summed in quadrature) is shown as a filled blue region topped by a solid black line.}
 \label{fig:exp.JES_pt_sys}
 \end{figure} 
@@ -322,7 +324,10 @@ The total uncertainty (all components summed in quadrature) is shown as a filled
 
 \subsection{Heavy flavor}
 
-Jets containing $b$-hadrons (commonly referred to as $b$-tagging) 
+The jet reconstruction algorithms cannot identify which type of parton initiated the jet except in the case of 
+jets containing $b$-hadrons. 
+Bottom-quark flavored hadrons live relatively longer which gives them specific characteristics that can be used 
+to identify them. The procedure is commonly referred to as $b$-tagging and
 is performed with the MV2 algorithm, a multivariate discriminant making 
 use of track impact parameters 
 and reconstructed secondary vertices~\cite{Aad:2015ydr,ATL-PHYS-PUB-2015-022}
@@ -363,14 +368,19 @@ efficiency. As a result, it is the algorithm used in this analysis.
 
 
 \subsection{Missing transverse momentum}
-The missing transverse momentum is an important quantity in searching for new physics scenarios which expect a stable and non-electromagnetically interacting 
-particle. Such particle does not interact with the detector and can only be identified through an imbalance of the momentum distribution between the particles 
+The missing transverse momentum is an important quantity in searching for new physics scenarios which expect a stable, 
+non-electromagnetically, and non-hadronically interacting 
+particle. Such a particle does not interact with the detector and can only be identified through an imbalance of the momentum 
+distribution between the particles 
 of the event. 
-Since the momentum of the colliding protons is almost along the beam, longitudinal, the transverse component of the momenta of the scattered objects should add 
-up to zero.
-Based on the conservation of momentum, the sum of all visible four momenta projected in the transverse plane should be close to zero if no particles are missed.
+Since the momentum of the colliding protons is almost completely along the beam, longitudinally, 
+the transverse component of the momenta of the 
+scattered objects should add up to zero.
+Based on the conservation of momentum, the sum of all visible four momenta projected in the transverse plane should be close to zero if 
+no particles are missed.
 However, this quantity will be large if a particle, potentially from new physics models, escaped detection. 
-The missing transverse momentum is defined as the negative vector sum of the transverse momenta of the visible reconstructed objects in the event: 
+The missing transverse momentum is defined as the negative vector sum of the transverse momenta of the visible reconstructed objects in the
+ event: 
 \begin{equation}
 \pt^{\rm{miss}} = - \sum_\text{visible} \pt
 \end{equation}

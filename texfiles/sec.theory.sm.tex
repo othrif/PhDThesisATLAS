@@ -30,7 +30,7 @@ where $G$'s are the gauge fields of QCD given by
 \begin{equation}
 G\indices{_{A\mu\nu}} = \partial_{\mu} G\indices{_{A\nu}} - \partial_{\nu} G\indices{_{A\mu}} - g_S f_{ABC} G\indices{_{B\mu}} G\indices{_{C\nu}},
 \end{equation}
-and the covariant derivative, $D\mu$,  defined as
+and the covariant derivative of QCD, $D\mu$,  defined as
 \begin{equation}
 D_\mu = \partial_{\mu} + i g_S \frac{\lambda_A}{2}G\indices{_{A\mu}},
 \end{equation}
@@ -38,7 +38,7 @@ where $g_S$ is the strong coupling constant, and $\lambda_A$ are the eight Gell-
 The indices of the quarks, $i=1,2,3$, run over the colors: red, blue, green, and their anticolors.
 While the indices of the gluons, $A,B,C = 1, \cdots, 8$, correspond to the combinations of colors and anticolors.
 Color must be conserved in all QCD interactions, similar to the  electric charge.
-Gluons have been observed experimentally  and interact with quarks as predicted by the SM \cite{BRANDELIK1979243}.
+Gluons have been inferred experimentally  and interact with quarks as predicted by the SM \cite{BRANDELIK1979243}.
 
 \subsection{The Electroweak Theory}
 
@@ -70,7 +70,7 @@ even though the Lagrangian preserves it.
 The scalar fields will take a non-zero value, called the vacuum expectation value 
 (vev), to allow the fermions and weak gauge bosons to appear as massive particles.
 A consequence of this mechanism is that one additional scalar field obtains mass
-and thus predicts a neutral massive spin zero particle, the Higgs boson. 
+and thus the theory predicts a neutral massive spin zero particle, the Higgs boson. 
 
 The complete Lagrangian of the electroweak theory, including the mechanism 
 of electroweak symmetry breaking, can then be expressed as
@@ -96,15 +96,17 @@ The matter Lagrangian is
 \begin{equation}
 \mathcal{L}_\text{matter} = i\overline{\psi}\slashed{D}\psi
 \end{equation}
-where the covariant derivative is defined as
+where the covariant derivative of the electroweak theory is defined as
 \begin{equation}
+\label{eq:DmuEWK}
 D_{\mu} = \partial_\mu + i g \vect{W}_\mu \cdot \vect{T} + \frac{1}{2}i g' B_{\mu}Y.
 \end{equation}
 where $g'$ is  $ U\left(1\right) $ gauge coupling constant, $\vect{T}$ is the weak isospin, and $Y$ is the weak hypercharge.
 The Higgs potential introduces a doublet of complex scalar fields, $\Phi$, expressed as
 \begin{equation}
- \mathcal{L}_\text{Higgs} = \left(D\Phi\right)^{\dagger} \left(D\Phi\right) + \mu^2 \Phi^{\dagger} \Phi - \lambda  \left(\Phi^{\dagger} \Phi \right)^2
+ \mathcal{L}_\text{Higgs} = \left(D_\mu\Phi\right)^{\dagger} \left(D^\mu\Phi\right) + \mu^2 \Phi^{\dagger} \Phi - \lambda  \left(\Phi^{\dagger} \Phi \right)^2
 \end{equation}
+where $D_\mu$ is given in Eq. \ref{eq:DmuEWK} and 
 \begin{equation}
 \Phi = \left( \begin{matrix} \phi^+ \\ \phi^0\end{matrix} \right)
 \end{equation}
@@ -124,7 +126,8 @@ expressed as
  - \lambda_u \epsilon^{ab} \overline{Q}_a \phi_b^{\dagger} u_R + h.c. \right]
 \end{equation}
 where $\lambda$ is the Yukawa coupling of the particular fermion, $L$ and $e_R$ are the lepton fields, 
-$Q$, $u_R$, and $d_R$ are the quark fields, $\epsilon^{ab} $ is the completely antisymmetric  $ SU\left(2\right) $ tensor with $\epsilon^{ab} = 1$
+$Q$, $u_R$, and $d_R$ are the quark fields, $\epsilon^{ab} $ is the completely antisymmetric  $ SU\left(2\right) $ tensor 
+with $\epsilon^{ab} = 1$.
 
 
 \subsection{Limitations of the Standard Model}
@@ -137,10 +140,10 @@ at 7 \TeV, 8 \TeV, and 13 \TeV.
 \begin{figure}[htb!]
 \centering
 \includegraphics[width=0.95\textwidth]{atlas_sm_summary}
-\caption{Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, compared to the corresponding theoretical expectations. All theoretical expectations were calculated at NLO or higher.}
+\caption{Summary of several Standard Model total production cross section measurements, corrected for leptonic branching fractions, 
+compared to the corresponding theoretical expectations. All theoretical expectations were calculated at next-to-leading order or higher.}
 \label{fig:theory.sm.summary}
 \end{figure} 
-%Yet, 
 The most obvious shortcoming is that the SM makes no attempt to include the fourth fundamental force of gravity. 
 The reason is that the addition of the gravitational terms results in a theory that is not renormalizable, hence 
 it looses its predictive power.
@@ -152,12 +155,13 @@ Putting this problem aside, there are several problems in the energy range acces
 \begin{itemize}
 \item Dark matter: There is now overwhelming evidence for its existence; rotation curves, Cosmic Microwave Background, primordial abundance of the light elements, etc. 
 Yet, the SM does not have a dark matter candidate\cite{Bertone:2004pz}.
-\item Baryon asymmetry: The ratio of matter to antimatter is asymmetric with complete absence of antimatter except in cosmic rays.
-The asymmetry can be explained with the presence of $CP$-
-violating
+\item Baryon asymmetry: The ratio of matter to antimatter is asymmetric with complete absence of antimatter except 
+when temporarily formed, as in cosmic rays.
+The asymmetry can be explained with the presence of $CP$-violating
 \footnote{$CP$ refers to invariance under conjugation of (C) charge and (P) parity symmetries. 
 The charge conjugation transforms a particle to its antiparticle while parity transforms the coordinate system to its mirror image.}
-interactions. While the SM contains such $CP$ violating terms in the form of the CKM matrix, describing  quark mixing, and the PMNS matrix, describing neutrino 
+interactions. While the SM contains such $CP$ violating terms in the form of the Cabibbo–Kobayashi–Maskawa matrix, 
+describing  quark mixing, and the Pontecorvo–Maki–Nakagawa–Sakata matrix, describing neutrino 
 mixing, the size of this effect is too small to account for the observed asymmetry \cite{Canetti:2012zc}.
 \item Anomalous magnetic moment of the muon: The measurement of the magnetic moment anomaly $a_\mu = \frac{g-2}{2}$, where $g$ is the gyromagnetic ratio of the muon, 
 deviates from the SM prediction by 3.3$\sigma$ \cite{PhysRevD.73.072003,Hagiwara:2011af}.
@@ -173,7 +177,7 @@ Since the SM is a renormalizable theory, it can be effectively valid up to the P
 used to evaluate radiative corrections to any precision.
 This causes a problem that can be best illustrated by calculating the mass of the Higgs boson in the SM.
 The physical mass of the Higgs boson ( $m_\text{h,physical} \sim 125$ \GeV) can be written as $ m_\text{h,physical}^2 \simeq m_h^2 + \delta m_h^2$, 
-where  $m_h$ is the Higgs mass parameter in the Lagrangian given in Eq.\ref{eq:theory.sm.mh}, and $\delta m_h$ is the one-loop radiative corrections 
+where  $m_h$ is the Higgs mass parameter in the Lagrangian given in Eq. \ref{eq:theory.sm.mh}, and $\delta m_h$ is the one-loop radiative corrections 
 obtained  by evaluating the diagrams of Figure~\ref{fig:theory.sm.oneloopH}.
 \begin{figure}[htb!]
 \centering
@@ -230,10 +234,10 @@ The Higgs mass can then be expressed as
 where the coefficient $C$ embodies the various coupling constants of the SM\footnote{Expression can be found in equation (3) of \cite{Baer:2015fsa}.}.
 The diagrams contributing to the Higgs mass diverge quadratically with $\Lambda$, the cut-off scale at which the SM is no longer valid.
 If the diagrams do not mutually compensate for one another, the cut-off of quadratic divergences, $\Lambda$, can be as high as the Planck scale ($\mathcal{O}\left(10^{18}\right)$ \GeV).
-In other words, the mass scale of the Higgs boson has to be of the order of the Planck scale, while the observation is sixteen orders of magnitude below.
+In other words, the mass scale of the Higgs boson should be of the order of the Planck scale, while the observation is sixteen orders of magnitude below.
 The mass parameter $m_h$ must be ``tuned'' to cancel out this huge correction.
 This fine-tuning is regarded as \textit{unnatural} and a sign of undiscovered principles that would explain this hierarchy paradox, known as the ``hierarchy problem''.
-By requiring that the quantum corrections, encoded in the cut-off scale $\Lambda$, to be not too far off from the mass parameter $m_h$, we can make an educated 
+By requiring that the quantum corrections, encoded in the cut-off scale $\Lambda$, should not be too far off from the mass parameter $m_h$, we can make an educated 
 guess that the SM can only be valid up to an energy scale of $\Lambda \sim \mathcal{O}\left(1\right)$ \TeV~as illustrated in Figure~\ref{fig:theory.sm.deltamh2}.
 \begin{figure}[htb!]
 \centering

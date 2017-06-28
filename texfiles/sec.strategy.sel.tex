@@ -33,8 +33,8 @@ Up to 6\% of data events are lost at this cleaning cut.
 
 \item \textbf{At least two leptons}: 
 Events are required to contain at least two signal leptons 
-with $\pt>20 \GeV$ for the two leading leptons. 
-If the event contains a third signal lepton with $\pt>10 \GeV$ the event is regarded as a three-lepton event, otherwise as a two-lepton event. 
+with $\pt>20$ \GeV for the two leading leptons. 
+If the event contains a third signal lepton with $\pt>10$ \GeV the event is regarded as a three-lepton event, otherwise as a two-lepton event. 
 The data sample obtained is then divided into three channels depending on the flavor of the two  leptons forming a same-sign pair ($ee$, $\mu\mu$, $e\mu$). 
 If more than one same-sign pairs can be built, the one involving the leading 
 lepton will be considered for the channel selection. 
@@ -53,7 +53,7 @@ The following event variables are also used in the definition of the signal and 
 \subsection{Trigger strategy}
 \label{subsec:sec.strategy.sel.selection_trigger}
   
-Events are selected using a combination of dilepton and $\met$ triggers, the latter being used only for events with $\met>250 \GeV$. 
+Events are selected using a combination of dilepton and $\met$ triggers, the latter being used only for events with $\met>250$ \GeV. 
 Since the trigger thresholds have been raised between 2015 and 2016 due to the 
 continuous increase of the instantaneous luminosity, 
 the dilepton triggers used for: 
@@ -77,8 +77,8 @@ to ensure that trigger efficiencies are constant in the relevant phase space.
 
 \par{\bfseries Trigger matching\\}
 For events exclusively selected via one or several of the dilepton triggers, 
-we require a matching between the online and offline leptons with $\pt>20 \GeV$.
-with the exception of the di-muon trigger for which muons with $\pt>10 \GeV$ 
+we require a matching between the online and offline leptons with $\pt>20$ \GeV.
+with the exception of the di-muon trigger for which muons with $\pt>10$ \GeV 
 are also considered.
 In addition, for the di-muon trigger in the 2016 configuration, 
 the \pt\ requirement of the leading matched muon is raised to 23 \GeV~
@@ -108,7 +108,7 @@ within $|\eta|<2.8$.
 To mitigate the effects of pileup, the pile-up contribution is subtracted 
 from the expected average energy contribution according to the jet area~\cite{Cacciari:2007fd,Aaboud:2017jcu}.
 In order to reduce the effects of pile-up, 
-a significant fraction of the tracks in jets with $\pt<60 \GeV$ and $|\eta|<2.4$ must originate from the primary vertex, 
+a significant fraction of the tracks in jets with $\pt<60$ \GeV and $|\eta|<2.4$ must originate from the primary vertex, 
 as defined by the jet vertex tagger (JVT)~\cite{ATLAS-CONF-2014-018}. 
 The jet calibration follows the prescription in Ref.~\cite{Aaboud:2017jcu}.
 
@@ -133,7 +133,7 @@ For the data-driven background estimations, two categories of electrons and muon
 Electron candidates are reconstructed from energy depositions in the 
 electromagnetic calorimeter and required to be matched to an 
 inner detector track, 
-to have $\pT> 10 \GeV$ and $|\eta|<2.47$, and to pass the 
+to have $\pT> 10$ \GeV and $|\eta|<2.47$, and to pass the 
 ``Loose'' likelihood-based electron identification 
 requirement~\cite{ATLAS-CONF-2016-024}.
 Electrons in the transition region between the barrel and endcap 
@@ -149,7 +149,7 @@ Signal electrons are additionally required to pass the ``Medium''
 likelihood-based identification requirement~\cite{ATLAS-CONF-2016-024}.
 Only signal electrons with $|\eta|<2.0$ are considered, 
 to reduce the level of charge-flip background.
-In addition, signal electrons that are likely to be reconstructed with an incorrect charge assignment are rejected using a few electron cluster and track properties: the track impact parameter, the track curvature significance, the cluster width and the quality of the matching between the cluster and its associated track, both in terms of energy and position. These variables, as well as the electron \pt and $\eta$, are combined into a single classifier using a boosted decision tree (BDT). A selection requirement on the BDT output is chosen such as to achieve a rejection factor between 7 and 8 for electrons with a wrong charge assignment while selecting properly measured electrons with an efficiency of 97\% (in $Z\rightarrow ee$ MC). 
+In addition, signal electrons that are likely to be reconstructed with an incorrect charge assignment are rejected using a few electron cluster and track properties: the track impact parameter, the track curvature significance, the cluster width and the quality of the matching between the cluster and its associated track, both in terms of energy and position. These variables, as well as the electron \pt and $\eta$, are combined into a single classifier using a boosted decision tree (BDT). A selection requirement on the BDT output is chosen to achieve a rejection factor between 7 and 8 for electrons with a wrong charge assignment while selecting properly measured electrons with an efficiency of 97\% (in $Z\rightarrow ee$ MC). 
 
 A multiplicative event weight is applied for each signal electron in MC to the overall event weight 
 in order to correct for differences in efficiency between data and MC.
@@ -163,7 +163,7 @@ Muon candidates must pass the ``Medium'' identification
 requirements~\cite{Aad:2016jkr} and have  $p_\mathrm{T} > 10\GeV$ and 
 $|\eta| < 2.4$. 
 Signal muons are required to pass $\vert d_0\vert/\sigma(d_0) < 3$
-and $|z_0 \cdot\sin(\theta)|<0.5 mm$.
+and $|z_0 \cdot\sin(\theta)|<0.5$ mm.
  
 A multiplicative event weight is applied for each selected muon in MC to the overall event weight 
 in order to correct for differences in efficiency between data and MC.
@@ -198,64 +198,144 @@ while maintaining approximate pile-up independence in the soft term~\cite{ATL-PH
 In order to validate the various choices made regarding the object definitions and event selection, 
 check their sensible behavior and their reasonable modelling in the simulations, 
 we looked at the distributions of several kinematic variables obtained with the full available data set.
-Figures~\ref{fig:dataMC_2lep}-\ref{fig:dataMC_metmeff} show such selected distributions in data compared to MC. 
+For illustration, Figures~\ref{fig:dataMC_2ee.os}-\ref{fig:dataMC_2mm.ss} show the dilepton invariant mass 
+distributions in data compared to MC for both opposite-sign (OS) and same-sign (SS) dilepton events. 
 The background distributions are taken directly from MC with no data-driven estimation of the charge flip or non-prompt lepton backgrounds.
 
-Figure~\ref{fig:dataMC_2lep} shows the dilepton invariant mass distributions for both opposite-sign (OS) and same-sign (SS) dilepton events, 
-computed with the two leading $p_T$ leptons. 
+%Figure~\ref{fig:dataMC_2lep} shows the dilepton invariant mass distributions for both opposite-sign (
+%OS) and same-sign (SS) dilepton events, 
+%computed with the two leading $p_T$ leptons. 
+
 A very good agreement with MC is observed in the OS channels, with a clear $Z$-boson mass peak in the $ee$ and $\mu\mu$ channels. 
 In the SS channels, the $Z$-boson mass peak is also observed in the $ee$ channel due to electron charge mis-identification, with MC overestimating data. 
 % by 20-30\%. 
 An accumulation of events at the $Z$-boson mass is also observed in the SS $e\mu$ and $\mu\mu$ channels due to three-lepton events 
 from either $Z$+jets with a fake lepton or from $WZ$ production.  
 
-The transverse momentum distributions of the signal leptons used in the analysis are shown in Figure~\ref{fig:dataMC_lep1}, with a reasonable data-MC agreement except at low 
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=.75\textwidth]{DATAMC/Mll_ee_Incl_OS_log.pdf}}
+\caption{Dilepton invariant mass distributions for opposite-sign pairs for events selected in the $ee$ channel. 
+No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2ee.os}
+\end{figure}
+
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=.75\textwidth]{DATAMC/Mll_ee_Incl_SS3L_log.pdf}}
+\caption{Dilepton invariant mass distributions for same-sign pairs for events selected in the $ee$ channel. 
+No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2ee.ss}
+\end{figure}
+
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=.75\textwidth]{DATAMC/Mll_em_Incl_OS_log.pdf}}
+\caption{Dilepton invariant mass distributions for opposite-sign pairs for events selected in the $e\mu$ channel. 
+No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2em.os}
+\end{figure}
+
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=.75\textwidth]{DATAMC/Mll_em_Incl_SS3L_log.pdf}}
+\caption{Dilepton invariant mass distributions for same-sign pairs for events selected in the $e\mu$ channel. 
+No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2em.ss}
+\end{figure}
+
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=.75\textwidth]{DATAMC/Mll_mm_Incl_OS_log.pdf}}
+\caption{Dilepton invariant mass distributions for opposite-sign pairs for events selected in the $\mu\mu$ channel. 
+No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2mm.os}
+\end{figure}
+
+
+\begin{figure}[htb!]
+\centering
+{\includegraphics[width=.75\textwidth]{DATAMC/Mll_mm_Incl_SS3L_log.pdf}}
+\caption{Dilepton invariant mass distributions for same-sign pairs for events selected in the $\mu\mu$ channel. 
+No low-mass Drell-Yan sample is included. 
+ The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
+}
+\label{fig:dataMC_2mm.ss}
+\end{figure}
+
+The transverse momentum distributions of the signal leptons used in the analysis are shown in 
+Figures~\ref{fig:dataMC_lep1.ee}-\ref{fig:dataMC_lep1.mm} show that there is mis-modelling particularly at low
 lepton $\pt$ where some discrepancies and accumulation of events involving fake leptons ($Z$+jets, $W$+jets, $\ttbar$) are observed. 
 %Jet and $b$-jet distributions are shown in Figures~\ref{fig:dataMC_jet}-\ref{fig:dataMC_bjet} 
-Figure~\ref{fig:dataMC_metmeff} shows the $\met$ and $m_{\rm eff}$ distributions.
+%Figure~\ref{fig:dataMC_metmeff} shows the $\met$ and $m_{\rm eff}$ distributions.
 
-The background estimation, in Chapter ~\ref{chap:fake} and Chapter~\ref{chap:bkg}, will be dedicated to improving the estimates of the background prediction using data-driven methods.
+The background estimation, in Chapter ~\ref{chap:fake} and Chapter~\ref{chap:bkg}, will be dedicated to improving the estimates of 
+the background prediction using data-driven methods.
 
-\begin{figure}[htb!]
-\centering
-{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_ee_Incl_OS_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_ee_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_em_Incl_OS_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_em_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_mm_Incl_OS_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Mll_mm_Incl_SS3L_log.pdf}}
-\caption{Dilepton invariant mass distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. No low-mass Drell-Yan sample is included. 
- The prediction is taken from MC only.
+
+
+ \begin{figure}[htb!]
+ \centering
+ {\includegraphics[width=0.75\textwidth]{DATAMC/LEPPt_ee_Incl_SS3L_log.pdf}}
+\caption{Signal lepton transverse momentum distributions for same-sign pairs for events selected in the $ee$ channel.  
+The prediction is taken from MC only.
 Only luminosity and MC statistical uncertainties are included.
 }
-\label{fig:dataMC_2lep}
+\label{fig:dataMC_lep1.ee}
 \end{figure}
 
-\begin{figure}[htb!]
-\centering
-{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_ee_Incl_OS_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_ee_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_em_Incl_OS_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_em_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_mm_Incl_OS_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/LEPPt_mm_Incl_SS3L_log.pdf}}
-\caption{Signal lepton transverse momentum distributions for opposite-sign (left) and same-sign (right) pairs for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels.  The prediction is taken from MC only.
+ \begin{figure}[htb!]
+ \centering
+{\includegraphics[width=0.75\textwidth]{DATAMC/LEPPt_em_Incl_SS3L_log.pdf}}
+\caption{Signal lepton transverse momentum distributions for same-sign pairs for events selected in the $e\mu$ channel.
+The prediction is taken from MC only.
 Only luminosity and MC statistical uncertainties are included.
 }
-\label{fig:dataMC_lep1}
+\label{fig:dataMC_lep1.em}
 \end{figure}
 
-\begin{figure}[htb!]
-\centering
-{\includegraphics[width=0.4\textwidth]{DATAMC/MET_ee_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Meff_ee_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/MET_em_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Meff_em_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/MET_mm_Incl_SS3L_log.pdf}}
-{\includegraphics[width=0.4\textwidth]{DATAMC/Meff_mm_Incl_SS3L_log.pdf}}
-\caption{Distributions of the $\met$ (left) and effective mass (right) for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. 
- The prediction is taken from MC only.
- Only luminosity and MC statistical uncertainties are included.
+ \begin{figure}[htb!]
+ \centering
+{\includegraphics[width=0.75\textwidth]{DATAMC/LEPPt_mm_Incl_SS3L_log.pdf}}
+\caption{Signal lepton transverse momentum distributions for same-sign pairs for events selected in the $\mu\mu$ channels.  
+The prediction is taken from MC only.
+Only luminosity and MC statistical uncertainties are included.
 }
-\label{fig:dataMC_metmeff}
+\label{fig:dataMC_lep1.mm}
 \end{figure}
+
+%% \begin{figure}[htb!]
+%% \centering
+%% {\includegraphics[width=0.4\textwidth]{DATAMC/MET_ee_Incl_SS3L_log.pdf}}
+%% {\includegraphics[width=0.4\textwidth]{DATAMC/Meff_ee_Incl_SS3L_log.pdf}}
+%% {\includegraphics[width=0.4\textwidth]{DATAMC/MET_em_Incl_SS3L_log.pdf}}
+%% {\includegraphics[width=0.4\textwidth]{DATAMC/Meff_em_Incl_SS3L_log.pdf}}
+%% {\includegraphics[width=0.4\textwidth]{DATAMC/MET_mm_Incl_SS3L_log.pdf}}
+%% {\includegraphics[width=0.4\textwidth]{DATAMC/Meff_mm_Incl_SS3L_log.pdf}}
+%% \caption{Distributions of the $\met$ (left) and effective mass (right) for events selected in the $ee$ (top), $e\mu$ (center) and $\mu\mu$ (bottom) channels. 
+%%  The prediction is taken from MC only.
+%%  Only luminosity and MC statistical uncertainties are included.
+%% }
+%% \label{fig:dataMC_metmeff}
+%% \end{figure}

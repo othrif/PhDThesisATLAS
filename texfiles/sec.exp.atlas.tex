@@ -3,10 +3,10 @@ multi-purpose particle detector located at one of the
 LHC interaction points 100 meters underground. 
 It is the largest particle detector ever built with a weight of about 7000 tonnes, a length of 44 m, 
 and a diameter of 25 m as shown in Figure~\ref{fig:exp.atlas.atlas}.
-It is designed to probe Higgs physics, QCD, flavour physics, as well as a multitude of beyond the Standard Model (BSM) physics scenarios including 
+It is designed to probe Higgs physics, QCD, and flavour physics, as well as a multitude of beyond the Standard Model (BSM) physics scenarios including 
 supersymmetry.
 
-ATLAS covers a solid angle of almost $4\Omega$ to capture as much information from the collisions 
+ATLAS covers a solid angle of almost $4\pi$ to capture as much information from the collisions 
 as possible. 
 It is composed of multiple layers of detectors to ensure that all particles produced in the 
 collision are identified and measured with high accuracy.
@@ -76,6 +76,10 @@ It is common to describe the separation between two physical objects in the dete
       {$\eta = 0.5$};
     \draw (3.5,-0.1) node[above]      
       {$\eta = 4.0$};
+    \draw (2.75,-0.45) node[above]      
+      {$z$-axis};
+    \draw (-0.1,2.85) node[left]      
+      {$y$-axis};
 \end{tikzpicture}
 \caption{Illustration of some pseudorapidity values relevant for ATLAS.}
 \label{fig:exp.atlas.pseudo}
@@ -83,46 +87,39 @@ It is common to describe the separation between two physical objects in the dete
 
 \subsection{Inner detector}
 
-In the innermost part of ATLAS is placed a tracker referred to as the Inner Detector (ID). 
+In the innermost part of ATLAS is placed a tracking detector referred to as the Inner Detector (ID). 
 It has finely segmented detectors to reconstruct the tracks of charged particles in the magnetic field of the solenoid.
 The main subsystems of the ID are the pixel detector, the SemiConductor Tracker (SCT), and the Transition Radiation Tracker (TRT)
-shown in Figure~\ref{fig:exp.atlas.id}.
+shown in Figure~\ref{fig:exp.atlas.id.all}.
 Overall these give coverage of the solid angle defined
 by $|\eta| < 2.5$, and occupy the volume with $33.25 < r < 1082$ mm. Using these systems,
 its purpose is to detect the path taken by charged particles as they bend through the
 magnetic field, and hence determine their momenta.
 Particles from the main $pp$ interaction pass through several layers of silicon detectors each providing a 2-dimensional coordinate. 
 To reduce correlations between individual points the layers are spread out evenly along the tracks.
-Figure~\ref{fig:exp.atlas.id.rad} shows a charged particle with 10 \GeV
-transverse momentum, denoted by ~\pt. that
+Figure~\ref{fig:exp.atlas.id.rad} shows a charged particle with 10 \GeV~transverse momentum, denoted by \pt, that
 emerges from the interaction point and traverses the beam-pipe, four pixel layers, 
 four double layers of SCT sensors, and around 35 TRT straws.
 These elements will be described next.
 
 \begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.5\textwidth}
 \includegraphics[width=0.95\textwidth]{id.jpg}
-\subcaption{}
+\caption{Overview of the subsystems of the inner detector of ATLAS.}
 \label{fig:exp.atlas.id.all}
-\end{subfigure}
-\begin{subfigure}[t]{0.45\textwidth}
-\includegraphics[width=0.95\textwidth]{id_ibl.png}
-\subcaption{}
-\label{fig:exp.atlas.id.rad}
-\end{subfigure}
-\vspace{-0.25cm}
-\caption{Overview of the subsystems of the inner detector of ATLAS in both (a) and (b).
-The radial locations of each component are shown in (b) as 
- a charged particle with 10 \GeV~\pt traverses the barrel of the Inner Detector.} %cite??
-%The particle emerges from the interaction point and traverses
-%the beam-pipe, three pixel layers, four double layers of SCT sensors, and around 35 TRT straws.
-\label{fig:exp.atlas.id}
 \end{figure}
 
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=0.85\textwidth]{id_ibl.png}
+\caption{Drawing showing the detector elements crossed by a charged particle with 10 \GeV~\pt
+in the barrel of the Inner Detector. The particle emerges from the interaction point and traverses the beam-pipe, 
+one IBL layer, three pixel layers, four double layers of SCT sensors, and around 35 TRT straws.}
+\label{fig:exp.atlas.id.rad}
+\end{figure}
 
 \subsection*{Pixel detector}
-Since the pixel detector is the closest to the beam pipe ($33.25 < r <242$ mm ), it is
+Since the pixel detector is the closest to the beam pipe ($33.25 < r <242$ mm), it is
 the highest resolution detector. It contains 140 million semiconductor pixels each of just
 50 $\times$ 400 $\mu$m, 
 thus giving a 2-dimensional coordinate with just one layer. The best resolution is in the $\varphi$ coordinate. 
@@ -136,7 +133,7 @@ doses that it is exposed to at such proximity to the interaction point. The dete
 formed of three barrel layers as well as two end-cap structures. Each of the end-caps
 comprises four discs of sensors, arranged such that most tracks are more likely to hit pixels in at
 least three distinct layers.
-The most important requirements for the pixel detectors are to provide the position of the main $pp$
+The pixel detectors provide the position of the main $pp$
 interaction, called the primary vertex, and subsequent vertices from 
 $B$-meson decays. These are important parameters for the identification of jets originating from $b$-hadrons,
 essential for most of the physics program of ATLAS, including the search presented in this dissertation. 
@@ -146,18 +143,18 @@ essential for most of the physics program of ATLAS, including the search present
 \subsection*{SCT}
 
 The SCT surrounds the pixel layers.
-The SCT is formed of four such stereo layers in the barrel,
+The SCT is formed of four stereo layers in the barrel,
 along with nine discs in each end-cap. 
 Each SCT layer is composed of a double layer of silicon
 strips, whose axes are tilted by 40 mrad with respect to one another. The pair of measurements at
-each SCT layer locates charged particles in $r - \phi$ with an accuracy of 17$\mu$m, 
+each SCT layer locates charged particles in $r - \phi$ with an accuracy of 17 $\mu$m, 
 and along $z$, with an accuracy of 580 $\mu$m.
 The SCT provides between four and nine measurements per particle, with
 coverage up to $|\eta|=2.5$.
 Further details can be found in the technical design report of the inner
 detector [9, 10].
 
-
+         
 \subsection*{TRT}
 
 The TRT is the largest of the sub-detectors in the ID.
@@ -165,16 +162,14 @@ It is composed of  $\sim$300,000 straw drift tubes
 that provide position measurements with an accuracy of $\sim$130 $\mu$m in $\phi$.
 A large number of hits, around 35 per particle, is provided, with coverage up to
 $|\eta|$=2.0. 
-It operates based on the ionization of the gas inside the tubes ( 70\% Xe, 27\% CO2 and 3\% O2) 
+It operates based on the ionization of the gas inside the tubes (70\% Xe, 27\% CO2 and 3\% O2) 
 when traversed by charged particles; the ions then drift radially due to
 the potential difference, and the excess charge is collected and detected. 
 The tubes are arranged parallel to the beam axis in the barrel region, and radially in the end-caps. 
 In addition to providing particle tracks, 
 the TRT also provides particle identification through
-the detection of transition radiation
-\footnote{Transition radiation is emitted whenever a charged particle 
-crosses the boundary between two media.}
-. For example, 
+the detection of transition radiation\footnote{Transition radiation is emitted whenever a charged particle 
+crosses the boundary between two media.}. For example, 
 electrons will emit more transition radiation photons than charged hadrons.
 
 

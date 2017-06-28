@@ -17,6 +17,8 @@ for i in $(ls texfiles/*.tex); do aspell -c -t ${i} -d en; done
 Correct 'TeV ' with 'TeV~':
 for i in $(ls .); do sed -i -- 's/TeV /TeV~/g' $i; done
 
+Correct but for mac:
+sed -i.bu 's/standard model/Standard Model/g' *.tex
 
 Shortcuts:
 

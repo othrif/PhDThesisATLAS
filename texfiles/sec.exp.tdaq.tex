@@ -7,7 +7,7 @@ hardware based L1 system to guide the retrieval of information from the Readout 
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=0.75\textwidth]{tdaqFullNew2016}
+\includegraphics[width=1.\textwidth]{tdaqFullNew2016}
 \vspace{-0.5cm}
 \caption{ATLAS TDAQ architecture.}
 \label{fig:tdaq_diagram}
@@ -47,7 +47,7 @@ maintain the optimal use of the allocated bandwidth for an L1 item during
 data-taking since the luminosity drops over the course of a run.
 
 The L1 trigger has a 2.5 $\mu$s latency where the data fragments are 
-hold in pipeline buffers located within detector-specific front-end 
+held in pipeline buffers located within detector-specific front-end 
 electronics. 
 Once the CTP issues an accept, the data is pushed to detector-specific 
 Readout Drivers (RODs), then transferred to the Readout System (ROS). 
@@ -92,7 +92,7 @@ an increase of 20\% in the number of readout channels.
 To cope with these changes, the ATLAS TDAQ system was upgraded during Run-2
 simplifying its architecture and increasing its flexibility.
 To be able to deliver more rate to the High Level Trigger (HLT), the upgrade also targeted the Readout System (ROS)\cite{PanduroVazquez2016939}. 
-For the same reason the two level of the HLT system were collapsed into a single level which made the system more flexible 
+For the same reason the two levels of the HLT system were collapsed into a single level which made the system more flexible 
  allowing for incremental data retrieval and analysis. 
 The dataflow network system was re-designed to increase its capacity and simplify its architecture\cite{1742-6596-396-1-012033}.
 
@@ -138,7 +138,7 @@ case of link or switch failures.
 \begin{figure}[t!]
 \centering
 \includegraphics[width=1.2\textwidth]{network} 
-\vspace{-1cm}
+%\vspace{-1cm}
 \caption{ATLAS Dataflow network}
 \label{fig:net_diagram}
 \end{figure} 
@@ -157,7 +157,7 @@ In summary, the elements of the Run-2 ATLAS dataflow are:
 \item The Region of Interest Builder (RoIB) receives the L1 trigger information from the RoIs and combines the information for the HLT supervisor.
 \item The HLT Supervisor (HLTSV) can handle the input from the RoIB and manage the HLT farm of about 2000 machines at over 100 kHz.
 \item The Data Collection Manager (DCM) handles all Input/Output on the HLT nodes, including RoI requests from the HLT and full event building.
-\item The HLT processing units (HLTPU) run the actually HLT algorithms which 
+\item The HLT processing units (HLTPU) run the actual HLT algorithms which 
 are forked from a single mother process to maximize memory sharing.
 \item The Data loggers or SubFarm Output (SFO) are responsible for saving the 
 accepted events to disk, and sending the files to CERN permanent storage infrastructure.
