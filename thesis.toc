@@ -1,5 +1,4 @@
-\contentsline {chapter}{Acknowledgments}{vii}{chapter*.3}
-\contentsline {chapter}{Abstract}{x}{chapter*.4}
+\contentsline {chapter}{Abstract}{x}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{11}{section.2.1}
@@ -103,4 +102,4 @@
 \contentsline {section}{\numberline {A.2}Upper limit on cross section}{236}{section.A.2}
 \contentsline {section}{\numberline {A.3}Signal region cutflow}{237}{section.A.3}
 \contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{237}{section.A.4}
-\contentsline {chapter}{References}{255}{appendix*.146}
+\contentsline {chapter}{References}{255}{appendix*.145}

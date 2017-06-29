@@ -88,23 +88,23 @@
 }
 
 % Draft heading/footer code
-\newcommand{\AtlasDraftHeading}{%
-  \RequirePackage[headsepline]{scrpage2}
-  \ihead{}
-  \chead[]{\fbox{\textsf\bfseries DRAFT}}
-  \ohead{}
-  \ifoot{\dateandtime}
-  \cfoot{}
-  \ofoot{\thepage}
-  \pagestyle{scrheadings}
-}
+%% \newcommand{\AtlasDraftHeading}{%
+%%   \RequirePackage[headsepline]{scrpage2}
+%%   \ihead{}
+%%   \chead[]{\fbox{\textsf\bfseries DRAFT}}
+%%   \ohead{}
+%%   \ifoot{\dateandtime}
+%%   \cfoot{}
+%%   \ofoot{\thepage}
+%%   \pagestyle{scrheadings}
+%% }
 
 %add watermark
 \usepackage[printwatermark]{xwatermark}
-%\newwatermark[allpages,color=red!50,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
-\usepackage[color=black!30,scale=1,placement=top,vshift=-5mm, opacity=1]
-{background}
-\backgroundsetup{contents={DRAFT v.3 - \today}}
+%\usepackage[color=black!30,scale=1,placement=top,vshift=-5mm, opacity=1]
+%{background}
+%\backgroundsetup{contents={DRAFT v.3 - \today}}
+
 \newcommand{\vect}[1]{\boldsymbol{#1}}
 
 % double hat

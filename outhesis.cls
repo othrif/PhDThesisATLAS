@@ -68,6 +68,7 @@
 \def\yr#1{\gdef\@yr{#1}}
 \def\dgname#1{\gdef\@dgname{#1}}
 \def\committee#1{\gdef\@committee{#1}}
+\def\mytitle#1{\gdef\@mytitle{#1}}
 \newcommand\@ptsize{}
 \newif\if@restonecol
 \newif\if@summarypage
@@ -251,7 +252,8 @@
       \@college \par}
     \vspace*{\fill}
 %    {\large \scshape \@title \par}%
-    {\scshape \@title \par}%
+    {\scshape \@mytitle \par}%
+%    {\scshape Searching for Supersymmetric Particles at the Large Hadron Collider using the ATLAS Detector \par}%
     \vspace*{\fill} \par 
     {\scshape A DISSERTATION \\ SUBMITTED TO THE GRADUATE FACULTY} \\
 %    {\scshape A THESIS \\ SUBMITTED TO THE GRADUATE FACULTY} \\
@@ -273,7 +275,8 @@
   \vspace*{4em}
   \begin{center}%
 %    {\large \scshape \@title}
-    {\scshape \@title}
+    {\scshape \@mytitle}
+    %{\sc TEST}
 %    \vfill
     \vspace{24pt} \\
     {\sc A DISSERTATION APPROVED FOR THE \\
