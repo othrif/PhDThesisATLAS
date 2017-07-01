@@ -303,6 +303,15 @@ M.~Cacciari, G.~P. Salam,  and G.~Soyez,
 {ATLAS Collaboration},  {ATL-PHYS-PUB-2015-022}, 2015,
   \url{https://cds.cern.ch/record/2037697}.
 
+\bibitem{pcroib_orifki}
+O.~Rifki {et~al.}, Journal of Instrumentation {\bfseries 11} (2016) C02080,
+  \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02080}.
+
+\bibitem{Rifki:2016ufa}
+{ATLAS} Collaboration, O.~Rifki,
+PoS {\bfseries ICHEP2016} (2016) 240.
+%%CITATION = POSCI,ICHEP2016,240;%%.
+
 \bibitem{vme_roib}
 R.~Blair {et~al.}, 2008 JINST 3 P04001.
 
