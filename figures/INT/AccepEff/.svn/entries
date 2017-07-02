@@ -1,7 +1,7 @@
 10
 
 dir
-274453
+275002
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/AccepEff
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -25,40 +25,6 @@ ptornamb
 
 
 883ba7d9-fdd0-4202-9341-49aa55999ad8
-
-accep_effic_GttRpc2Lsoft1b.pdf
-file
-
-
-
-
-2017-05-26T18:52:35.000000Z
-5272a07115debef978d8b9468b72f2af
-2017-04-05T10:00:39.181813Z
-271072
-ptornamb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18623
 
 accep_effic_RPVLQDRpv2L0b.pdf
 file
@@ -94,14 +60,14 @@ has-props
 
 16882
 
-accep_effic_GttRpc2Lsoft2b.pdf
+accep_effic_GttRpc2Lsoft1b.pdf
 file
 
 
 
 
 2017-05-26T18:52:35.000000Z
-b54a8396cb6fc6cacefd0f310e362759
+5272a07115debef978d8b9468b72f2af
 2017-04-05T10:00:39.181813Z
 271072
 ptornamb
@@ -126,7 +92,7 @@ has-props
 
 
 
-18643
+18623
 
 accep_effic_ComprGttRpc2Lsoft1b.pdf
 file
@@ -161,6 +127,40 @@ has-props
 
 
 15961
+
+accep_effic_GttRpc2Lsoft2b.pdf
+file
+
+
+
+
+2017-05-26T18:52:35.000000Z
+b54a8396cb6fc6cacefd0f310e362759
+2017-04-05T10:00:39.181813Z
+271072
+ptornamb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18643
 
 accep_effic_ComprGttRpc2Lsoft2b.pdf
 file
@@ -400,40 +400,6 @@ has-props
 
 15410
 
-accep_effic_GttRpc2L2bH.pdf
-file
-
-
-
-
-2017-05-26T18:52:35.000000Z
-44d5941063548245151e35f0cf4cb151
-2017-04-05T10:00:39.181813Z
-271072
-ptornamb
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18727
-
 accep_effic_RPVGG331Rpv2L1bH.pdf
 file
 
@@ -468,14 +434,14 @@ has-props
 
 15416
 
-accep_effic_GSLRpc3L0bS.pdf
+accep_effic_GttRpc2L2bH.pdf
 file
 
 
 
 
 2017-05-26T18:52:35.000000Z
-5980386cf05fdee40ba4f1287624c895
+44d5941063548245151e35f0cf4cb151
 2017-04-05T10:00:39.181813Z
 271072
 ptornamb
@@ -500,7 +466,7 @@ has-props
 
 
 
-18228
+18727
 
 accep_effic_ComprGttRpc2L2bH.pdf
 file
@@ -535,6 +501,40 @@ has-props
 
 
 15725
+
+accep_effic_GSLRpc3L0bS.pdf
+file
+
+
+
+
+2017-05-26T18:52:35.000000Z
+5980386cf05fdee40ba4f1287624c895
+2017-04-05T10:00:39.181813Z
+271072
+ptornamb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+18228
 
 accep_effic_RPVDD321Rpv2L1bS.pdf
 file

@@ -10,8 +10,8 @@ background, and the matrix method used to estimate the FNP lepton background.
 \subsection*{Data/MC comparisons}
 
 The overall level of agreement obtained by the matrix method
-can be seen in different channels in Fig~\ref{fig:distributions_summary}. 
-The distributions of several variables are shown on Fig~\ref{fig:Bkg_distribs} for an inclusive same-sign leptons selection
+can be seen in different channels in Figure\ref{fig:distributions_summary}. 
+The distributions of several variables are shown on Figure\ref{fig:Bkg_distribs} for an inclusive same-sign lepton selection
 after various requirements on the number of jets and $b$-jets.
 These distributions illustrate that the data are described by the prediction 
 within uncertainties. 
@@ -25,7 +25,7 @@ To avoid the presence of signal in the tails of these distributions,
 events belonging to any of the signal regions are vetoed 
 both in data and for the predicted backgrounds. 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.8\textwidth]{ALL_MET50}
 \caption{Summarized level of agreement between observed data (2015+2016, 36.5 \ifb) and expected SM+detector backgrounds 
@@ -38,7 +38,7 @@ Events belonging to any of the signal regions are rejected, both in data and MC.
 \label{fig:distributions_summary}
 \end{figure} 
 
-\begin{figure}[th!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_2JMET50_njets25}\caption{}\label{fig:VRnj}\end{subfigure}
 \begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_2JMET50_nbjets}\caption{}\label{fig:VRnb}\end{subfigure}
@@ -46,7 +46,7 @@ Events belonging to any of the signal regions are rejected, both in data and MC.
 \begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_TRILEP_2JMET50_meff}\caption{}\label{fig:VRmeff2}\end{subfigure}
 \caption{
 Distributions of (a) the number of jets, (b) the number of $b$-tagged jets and (c), (d) the effective mass. The distributions are made 
-after requiring at least two jets ($\pT>40 \GeV$) and $\met>50 \GeV$, as well as at least two same-sign leptons ((a), (b), (c)) 
+after requiring at least two jets ($\pT>40$ \GeV) and $\met>50$ \GeV, as well as at least two same-sign leptons ((a), (b), (c)) 
 or three leptons (d). The uncertainty bands include the statistical uncertainties for the background prediction as well as the 
 systematic uncertainties for fake- or non-prompt-lepton backgrounds (using the matrix method) and charge-flip electrons. Not included
 are theoretical uncertainties in the irreducible background contributions.
@@ -136,12 +136,6 @@ The charge flip background is not combined between the MC template method and th
 The OS data has a much larger number of events which makes a precise prediction of this background. The MC template result is used as a cross check.
 
 \begin{table}[!htb]
-\caption{Expected yields for background processes with fake leptons,
-in the signal regions  shown for 36 \ifb. 
-Estimates from the matrix method and the MC template method are shown along with the retained estimates.
-Uncertainties include all statistical and systematic sources for the nominal estimate.
-}
-\label{tab:fakes_sr_yields}
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c||c|c|c||c|}\hline
@@ -163,16 +157,15 @@ Uncertainties include all statistical and systematic sources for the nominal est
 \hline
 \end{tabular}
 }
+\caption{Expected yields for background processes with fake leptons,
+in the signal regions  shown for 36 \ifb. 
+Estimates from the matrix method and the MC template method are shown along with the retained estimates.
+Uncertainties include all statistical and systematic sources for the nominal estimate.
+}
+\label{tab:fakes_sr_yields}
 \end{table}
 
 \begin{table}[!htb]
-\caption{Expected yields for background processes with charge-flipped electrons,
-in the signal regions shown for 36 \ifb. 
-Estimates from the likelihood method and the MC template method are shown.
-Uncertainties include all statistical and systematic sources. 
-Charge-flip processes do not contribute to signal regions which require $\ge 3$ leptons. 
-}
-\label{tab:chflips_sr_yields}
 \centering
 \begin{tabular}{|c||c|c|}\hline
  Region      &   Weighted OS data          &     Template method \\\hline
@@ -188,14 +181,17 @@ Charge-flip processes do not contribute to signal regions which require $\ge 3$ 
 \hline
 \hline
 \end{tabular}
+\caption{Expected yields for background processes with charge-flipped electrons,
+in the signal regions shown for 36 \ifb. 
+Estimates from the likelihood method and the MC template method are shown.
+Uncertainties include all statistical and systematic sources. 
+Charge-flip processes do not contribute to signal regions which require $\ge 3$ leptons. 
+}
+\label{tab:chflips_sr_yields}
 \end{table}
 
 
 \begin{table}[!htb]
-\caption{Comparison of expected yields for background processes with fake leptons,
-in the validation regions, shown for 36 \ifb~between the data driven (DD) estimates and the MC template method (MC) estimates. 
-}
-\label{tab:VR_Comparison}
 \def\arraystretch{1.1}
 \centering
 \resizebox{0.8\textwidth}{!}{
@@ -209,4 +205,8 @@ Charge-flip DD & $3.4 \pm 0.1 \pm 0.5$  & $-$                 & $-$             
 Charge-flip MC & $3.8  \pm 1.0 \pm 1.9$ & $-$                 & $-$                 & $-$                & $1.0 \pm 0.3 \pm 0.2$\\
 \hline
 \end{tabular}}
+\caption{Comparison of expected yields for background processes with fake leptons,
+in the validation regions, shown for 36 \ifb~between the data driven (DD) estimates and the MC template method (MC) estimates. 
+}
+\label{tab:VR_Comparison}
 \end{table}

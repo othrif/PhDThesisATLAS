@@ -1,7 +1,7 @@
 10
 
 dir
-274453
+275002
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/mctemplate/Prefit
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -25,40 +25,6 @@ othrif
 
 
 883ba7d9-fdd0-4202-9341-49aa55999ad8
-
-el1_pt_ee_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:29.000000Z
-0de14d1104b67fde760d643b3cbc4074
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27204
 
 LEPPt_ee_PRE_SS3L.pdf
 file
@@ -94,6 +60,40 @@ has-props
 
 22335
 
+el1_pt_ee_PRE_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:29.000000Z
+0de14d1104b67fde760d643b3cbc4074
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27204
+
 mu1_pt_mm_CR0b_SS3L.pdf
 file
 
@@ -127,40 +127,6 @@ has-props
 
 
 26779
-
-mu_eta_mm_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:29.000000Z
-21b0bf6fad9890ac27ae32ec04395ed9
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24377
 
 mu_eta_mm_PRE_SS3L.pdf
 file
@@ -196,6 +162,40 @@ has-props
 
 24444
 
+mu_eta_mm_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:29.000000Z
+21b0bf6fad9890ac27ae32ec04395ed9
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24377
+
 mu1_pt_comb_Incl_SS3L.pdf
 file
 
@@ -229,40 +229,6 @@ has-props
 
 
 27208
-
-LEP2Pt_comb_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:29.000000Z
-dff37703b78cba351c14b47f1421372f
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21205
 
 pt_bjet1_comb_Incl_SS3L.pdf
 file
@@ -298,14 +264,14 @@ has-props
 
 19944
 
-el1_pt_comb_Incl_SS3L.pdf
+LEP2Pt_comb_CR1b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:29.000000Z
-20b8115cdaf9028958adbc4d4548b9a9
+dff37703b78cba351c14b47f1421372f
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -330,7 +296,41 @@ has-props
 
 
 
-27005
+21205
+
+LEPPt_comb_Incl_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:29.000000Z
+dcf08fd1655bd53d59ab59ed59e1c48b
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22187
 
 NJETS_comb_VRttW_SS3L.pdf
 file
@@ -366,14 +366,14 @@ has-props
 
 19047
 
-LEPPt_comb_Incl_SS3L.pdf
+el1_pt_comb_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:29.000000Z
-dcf08fd1655bd53d59ab59ed59e1c48b
+20b8115cdaf9028958adbc4d4548b9a9
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -398,7 +398,7 @@ has-props
 
 
 
-22187
+27005
 
 HT_ee_PRE_SS3L.pdf
 file
@@ -1080,40 +1080,6 @@ has-props
 
 23279
 
-mu1_pt_ee_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-1c0cabfa0cce28216c917192d11f5292
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24330
-
 pt_jet1_ee_CR0b_SS3L.pdf
 file
 
@@ -1147,6 +1113,40 @@ has-props
 
 
 20264
+
+mu1_pt_ee_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+1c0cabfa0cce28216c917192d11f5292
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24330
 
 Mee_ee_CR1b_SS3L.pdf
 file
@@ -1216,40 +1216,6 @@ has-props
 
 19462
 
-HT_ee_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-1dde6e65d6d0cfef9056c3076c271bb8
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22234
-
 mu_eta_ee_CR1b_SS3L.pdf
 file
 
@@ -1284,14 +1250,14 @@ has-props
 
 22147
 
-mu1_pt_em_CR1b_SS3L.pdf
+HT_ee_CR0b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:30.000000Z
-7f2e79f3de2baad4a9cf6363b5d1ba17
+1dde6e65d6d0cfef9056c3076c271bb8
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -1316,7 +1282,7 @@ has-props
 
 
 
-25700
+22234
 
 pt_jet1_em_CR0b_SS3L.pdf
 file
@@ -1352,6 +1318,40 @@ has-props
 
 20188
 
+mu1_pt_em_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+7f2e79f3de2baad4a9cf6363b5d1ba17
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25700
+
 Mee_em_CR1b_SS3L.pdf
 file
 
@@ -1385,40 +1385,6 @@ has-props
 
 
 21893
-
-HT_em_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-cc02ab800d52b3174444c4ba381a303a
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22352
 
 mu_eta_em_CR1b_SS3L.pdf
 file
@@ -1454,6 +1420,40 @@ has-props
 
 24812
 
+HT_em_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+cc02ab800d52b3174444c4ba381a303a
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22352
+
 LEP2Pt_mm_Incl_SS3L.pdf
 file
 
@@ -1487,74 +1487,6 @@ has-props
 
 
 21528
-
-el3_pt_ee_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-7f5aa5ecf2bcfb21f526abac962df715
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23348
-
-LEP1Pt_mm_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-a5c94d08c9ed016d2863c95a18600792
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21759
 
 pt_jet2_mm_Incl_SS3L.pdf
 file
@@ -1590,14 +1522,14 @@ has-props
 
 19608
 
-mu3_pt_mm_CR1b_SS3L.pdf
+LEP1Pt_mm_CR1b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:30.000000Z
-4b062311fa2b0b70bb33127725699878
+a5c94d08c9ed016d2863c95a18600792
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -1622,7 +1554,41 @@ has-props
 
 
 
-22596
+21759
+
+el3_pt_ee_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+7f5aa5ecf2bcfb21f526abac962df715
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23348
 
 pt_bjet2_mm_Incl_SS3L.pdf
 file
@@ -1658,6 +1624,40 @@ has-props
 
 18999
 
+mu3_pt_mm_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+4b062311fa2b0b70bb33127725699878
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22596
+
 Mee_comb_Incl_SS3L.pdf
 file
 
@@ -1692,14 +1692,14 @@ has-props
 
 26071
 
-LEP3Pt_comb_Incl_SS3L.pdf
+pt_jet1_comb_PRE_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:30.000000Z
-acc7c854478a7f2fef6570ee2ec3e89d
+27797231f5c8a6a5b686d2de72887d8b
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -1724,41 +1724,7 @@ has-props
 
 
 
-21441
-
-MET_em_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-43f8b22ce4bba9cc035b6907f5cbca26
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21592
+20294
 
 Meff_mm_CR0b_SS3L.pdf
 file
@@ -1794,14 +1760,14 @@ has-props
 
 22337
 
-pt_jet1_comb_PRE_SS3L.pdf
+MET_em_PRE_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:30.000000Z
-27797231f5c8a6a5b686d2de72887d8b
+43f8b22ce4bba9cc035b6907f5cbca26
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -1826,7 +1792,41 @@ has-props
 
 
 
-20294
+21592
+
+LEP3Pt_comb_Incl_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+acc7c854478a7f2fef6570ee2ec3e89d
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21441
 
 pt_jet3_comb_Incl_SS3L.pdf
 file
@@ -1930,40 +1930,6 @@ has-props
 
 23072
 
-el1_pt_mm_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:30.000000Z
-f3c7febbab1de81dec8446028095ef5a
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-24645
-
 LEPPt_mm_CR0b_SS3L.pdf
 file
 
@@ -1997,6 +1963,40 @@ has-props
 
 
 22312
+
+el1_pt_mm_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:30.000000Z
+f3c7febbab1de81dec8446028095ef5a
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24645
 
 MET_mm_PRE_SS3L.pdf
 file
@@ -4344,40 +4344,6 @@ has-props
 
 20300
 
-Mee_comb_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:31.000000Z
-379b18f57f54bd2e72c2b1f3cda9bf10
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27590
-
 mu3_pt_comb_CR0b_SS3L.pdf
 file
 
@@ -4411,6 +4377,40 @@ has-props
 
 
 23931
+
+Mee_comb_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:31.000000Z
+379b18f57f54bd2e72c2b1f3cda9bf10
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27590
 
 LEP3Pt_comb_CR1b_SS3L.pdf
 file
@@ -4446,40 +4446,6 @@ has-props
 
 20591
 
-mT_mm_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:31.000000Z
-36710b68293f4c9ae6a5deb912bb77b3
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21890
-
 pt_jet3_comb_CR1b_SS3L.pdf
 file
 
@@ -4513,6 +4479,40 @@ has-props
 
 
 19469
+
+mT_mm_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:31.000000Z
+36710b68293f4c9ae6a5deb912bb77b3
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21890
 
 NJETS_mm_CR0b_SS3L.pdf
 file
@@ -4616,40 +4616,6 @@ has-props
 
 20166
 
-LEP3Pt_ee_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:31.000000Z
-d507aa8f03fdb2c19459032a73edbdf4
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21541
-
 pt_jet2_ee_PRE_SS3L.pdf
 file
 
@@ -4683,6 +4649,40 @@ has-props
 
 
 19602
+
+LEP3Pt_ee_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:31.000000Z
+d507aa8f03fdb2c19459032a73edbdf4
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21541
 
 pt_jet3_ee_PRE_SS3L.pdf
 file
@@ -4752,40 +4752,6 @@ has-props
 
 23352
 
-LEP3Pt_em_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:31.000000Z
-821cf25e3a37519787d826046775b33b
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21072
-
 mu2_pt_em_CR1b_SS3L.pdf
 file
 
@@ -4819,6 +4785,40 @@ has-props
 
 
 23068
+
+LEP3Pt_em_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:31.000000Z
+821cf25e3a37519787d826046775b33b
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21072
 
 el3_pt_ee_PRE_SS3L.pdf
 file
@@ -5024,40 +5024,6 @@ has-props
 
 19422
 
-pt_bjet2_comb_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:31.000000Z
-a95196012b439f5181ad28123f21227e
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19007
-
 pt_bjet3_comb_Incl_SS3L.pdf
 file
 
@@ -5092,14 +5058,14 @@ has-props
 
 18916
 
-HT_comb_Incl_SS3L.pdf
+pt_bjet2_comb_PRE_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:31.000000Z
-00dbb123d6c2599063a0e2ffe116f260
+a95196012b439f5181ad28123f21227e
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -5124,7 +5090,7 @@ has-props
 
 
 
-21720
+19007
 
 pt_bjet2_comb_CR1b_SS3L.pdf
 file
@@ -5160,14 +5126,14 @@ has-props
 
 19084
 
-NBJETS_mm_Incl_SS3L.pdf
+HT_comb_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:31.000000Z
-72d463975d5c03de720a6c97aab1b4af
+00dbb123d6c2599063a0e2ffe116f260
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -5192,7 +5158,7 @@ has-props
 
 
 
-17505
+21720
 
 LEP1Pt_ee_Incl_SS3L.pdf
 file
@@ -5227,6 +5193,40 @@ has-props
 
 
 21910
+
+NBJETS_mm_Incl_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:31.000000Z
+72d463975d5c03de720a6c97aab1b4af
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17505
 
 LEP2Pt_ee_PRE_SS3L.pdf
 file
@@ -5330,14 +5330,14 @@ has-props
 
 25100
 
-NBJETS_comb_PRE_SS3L.pdf
+MET_comb_CR0b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:31.000000Z
-bca1ba357f67639e4a18048807cd81a3
+12aa39f3b49ea007dfe894f91c524222
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -5362,7 +5362,7 @@ has-props
 
 
 
-17736
+21527
 
 LEP1Pt_em_Incl_SS3L.pdf
 file
@@ -5398,14 +5398,14 @@ has-props
 
 22596
 
-MET_comb_CR0b_SS3L.pdf
+NBJETS_comb_PRE_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:31.000000Z
-12aa39f3b49ea007dfe894f91c524222
+bca1ba357f67639e4a18048807cd81a3
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -5430,7 +5430,7 @@ has-props
 
 
 
-21527
+17736
 
 Meff_ee_PRE_SS3L.pdf
 file
@@ -5568,40 +5568,6 @@ has-props
 
 21816
 
-mu1_pt_mm_Incl_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-7912c972d61a541736674d8cc122591d
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26479
-
 NJETS_ee_CR1b_SS3L.pdf
 file
 
@@ -5635,6 +5601,40 @@ has-props
 
 
 19248
+
+mu1_pt_mm_Incl_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+7912c972d61a541736674d8cc122591d
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26479
 
 NBJETS_ee_CR0b_SS3L.pdf
 file
@@ -5704,40 +5704,6 @@ has-props
 
 27849
 
-mT_em_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-f9cec0aa60fbae66457d594dbdfcd1f3
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22283
-
 mu_eta_mm_Incl_SS3L.pdf
 file
 
@@ -5772,14 +5738,14 @@ has-props
 
 24999
 
-mu1_pt_comb_PRE_SS3L.pdf
+mT_em_CR1b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-3153735991934e667b1534e7de2971cf
+f9cec0aa60fbae66457d594dbdfcd1f3
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -5804,7 +5770,7 @@ has-props
 
 
 
-27959
+22283
 
 NJETS_em_CR1b_SS3L.pdf
 file
@@ -5839,6 +5805,40 @@ has-props
 
 
 19471
+
+mu1_pt_comb_PRE_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+3153735991934e667b1534e7de2971cf
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27959
 
 NBJETS_em_CR0b_SS3L.pdf
 file
@@ -5976,40 +5976,6 @@ has-props
 
 24314
 
-MET_mm_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-5d378300005d6331018441fe094670d8
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21369
-
 Mee_ee_CR0b_SS3L.pdf
 file
 
@@ -6043,6 +6009,40 @@ has-props
 
 
 27497
+
+MET_mm_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+5d378300005d6331018441fe094670d8
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21369
 
 mT_comb_PRE_SS3L.pdf
 file
@@ -6078,40 +6078,6 @@ has-props
 
 22340
 
-mu_eta_ee_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-5d21a99253ca01a0756efed238d9bf44
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23017
-
 mu_eta_ee_PRE_SS3L.pdf
 file
 
@@ -6145,6 +6111,40 @@ has-props
 
 
 22698
+
+mu_eta_ee_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+5d21a99253ca01a0756efed238d9bf44
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23017
 
 mu1_pt_em_CR0b_SS3L.pdf
 file
@@ -6180,40 +6180,6 @@ has-props
 
 27055
 
-Mee_em_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-632a0ad91ec4d4f6346f5ab03f28c91c
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22958
-
 mu2_pt_em_PRE_SS3L.pdf
 file
 
@@ -6247,6 +6213,40 @@ has-props
 
 
 23708
+
+Mee_em_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+632a0ad91ec4d4f6346f5ab03f28c91c
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22958
 
 mu_eta_em_CR0b_SS3L.pdf
 file
@@ -6316,40 +6316,6 @@ has-props
 
 21920
 
-el2_pt_ee_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-0d925d845eb260a5dd2b3fc6ef02e98e
-2016-07-22T13:03:17.587796Z
-261307
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23987
-
 mu2_pt_mm_PRE_SS3L.pdf
 file
 
@@ -6383,6 +6349,40 @@ has-props
 
 
 24565
+
+el2_pt_ee_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+0d925d845eb260a5dd2b3fc6ef02e98e
+2016-07-22T13:03:17.587796Z
+261307
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23987
 
 mu3_pt_mm_CR0b_SS3L.pdf
 file
@@ -6486,40 +6486,6 @@ has-props
 
 22153
 
-el1_pt_em_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-3aeb27a7743fef0d00649fcf54381fce
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27163
-
 LEPPt_em_PRE_SS3L.pdf
 file
 
@@ -6553,6 +6519,40 @@ has-props
 
 
 22539
+
+el1_pt_em_PRE_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+3aeb27a7743fef0d00649fcf54381fce
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27163
 
 Mee_comb_PRE_SS3L.pdf
 file
@@ -6588,40 +6588,6 @@ has-props
 
 27695
 
-el2_pt_em_CR1b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-221d8d18c2ff2dda085823f2d5254d73
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23067
-
 pt_jet2_comb_CR0b_SS3L.pdf
 file
 
@@ -6655,6 +6621,40 @@ has-props
 
 
 19787
+
+el2_pt_em_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+221d8d18c2ff2dda085823f2d5254d73
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23067
 
 pt_bjet3_comb_PRE_SS3L.pdf
 file
@@ -6690,40 +6690,6 @@ has-props
 
 18549
 
-el1_pt_mm_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-f9d79e6bd8dffa8f0a43358348c08604
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-25053
-
 LEPPt_mm_PRE_SS3L.pdf
 file
 
@@ -6757,6 +6723,40 @@ has-props
 
 
 22081
+
+el1_pt_mm_PRE_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+f9d79e6bd8dffa8f0a43358348c08604
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25053
 
 pt_jet1_ee_Incl_SS3L.pdf
 file
@@ -6792,40 +6792,6 @@ has-props
 
 19498
 
-LEP3Pt_ee_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-e138b2c8e8cf5fa1469c0260e138b866
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21569
-
 pt_bjet1_ee_Incl_SS3L.pdf
 file
 
@@ -6859,6 +6825,40 @@ has-props
 
 
 20062
+
+LEP3Pt_ee_PRE_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+e138b2c8e8cf5fa1469c0260e138b866
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21569
 
 HT_ee_Incl_SS3L.pdf
 file
@@ -6894,40 +6894,6 @@ has-props
 
 21337
 
-el1_pt_comb_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-e1fd3d2d935c2d792d0979647ca39f5d
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-28147
-
 LEPPt_comb_PRE_SS3L.pdf
 file
 
@@ -6961,6 +6927,40 @@ has-props
 
 
 22469
+
+el1_pt_comb_PRE_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+e1fd3d2d935c2d792d0979647ca39f5d
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28147
 
 NBJETS_comb_CR0b_SS3L.pdf
 file
@@ -7200,40 +7200,6 @@ has-props
 
 21516
 
-mu1_pt_comb_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-db1dfb31c29189080a9279252480c0ec
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-27544
-
 Meff_mm_Incl_SS3L.pdf
 file
 
@@ -7267,6 +7233,40 @@ has-props
 
 
 22522
+
+mu1_pt_comb_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+db1dfb31c29189080a9279252480c0ec
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27544
 
 mu2_pt_comb_CR1b_SS3L.pdf
 file
@@ -7336,14 +7336,14 @@ has-props
 
 18343
 
-el1_pt_mm_Incl_SS3L.pdf
+LEPPt_mm_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-fc0f32ec2597bd4b9782cf0eb23e1eec
+7173b1138179a5ddf6e0807f98d8991d
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7368,7 +7368,7 @@ has-props
 
 
 
-26038
+22179
 
 HT_comb_CR1b_SS3L.pdf
 file
@@ -7404,14 +7404,14 @@ has-props
 
 21611
 
-LEPPt_mm_Incl_SS3L.pdf
+el1_pt_mm_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-7173b1138179a5ddf6e0807f98d8991d
+fc0f32ec2597bd4b9782cf0eb23e1eec
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7436,7 +7436,7 @@ has-props
 
 
 
-22179
+26038
 
 LEP2Pt_ee_Incl_SS3L.pdf
 file
@@ -7472,14 +7472,14 @@ has-props
 
 22042
 
-NBJETS_mm_CR1b_SS3L.pdf
+pt_jet2_ee_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-7389a2abaea82c7fd5794031405a90e1
+7ed7f2391cf419bf999728671c119855
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7504,7 +7504,7 @@ has-props
 
 
 
-17616
+19475
 
 LEP1Pt_ee_CR1b_SS3L.pdf
 file
@@ -7540,14 +7540,14 @@ has-props
 
 22697
 
-pt_jet2_ee_Incl_SS3L.pdf
+NBJETS_mm_CR1b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-7ed7f2391cf419bf999728671c119855
+7389a2abaea82c7fd5794031405a90e1
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7572,41 +7572,7 @@ has-props
 
 
 
-19475
-
-el_eta_mm_Incl_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-8030e475f2e64ab01908586b54813f43
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-23717
+17616
 
 pt_bjet2_ee_Incl_SS3L.pdf
 file
@@ -7642,14 +7608,14 @@ has-props
 
 19343
 
-el1_pt_comb_CR0b_SS3L.pdf
+el_eta_mm_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-1bb11c4d0110ed99b8cab70bf041ca93
+8030e475f2e64ab01908586b54813f43
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7674,7 +7640,7 @@ has-props
 
 
 
-28153
+23717
 
 LEPPt_comb_CR0b_SS3L.pdf
 file
@@ -7710,14 +7676,14 @@ has-props
 
 22204
 
-el2_pt_comb_CR1b_SS3L.pdf
+el1_pt_comb_CR0b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-c97192f0e3ff17548778145ea9ac113e
+1bb11c4d0110ed99b8cab70bf041ca93
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7742,41 +7708,7 @@ has-props
 
 
 
-24085
-
-LEP2Pt_em_Incl_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:32.000000Z
-8a4b869001e7647f7b72987b056d1565
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21625
+28153
 
 Meff_ee_CR0b_SS3L.pdf
 file
@@ -7812,14 +7744,14 @@ has-props
 
 22578
 
-LEP1Pt_em_CR1b_SS3L.pdf
+LEP2Pt_em_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-1cac5e4eca79a499258685a1a12907c8
+8a4b869001e7647f7b72987b056d1565
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7844,7 +7776,41 @@ has-props
 
 
 
-21943
+21625
+
+el2_pt_comb_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:32.000000Z
+c97192f0e3ff17548778145ea9ac113e
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24085
 
 pt_jet2_em_Incl_SS3L.pdf
 file
@@ -7880,14 +7846,14 @@ has-props
 
 19423
 
-mu3_pt_em_CR1b_SS3L.pdf
+LEP1Pt_em_CR1b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-ba53032fd0bc70e41b0e9ab56706fb29
+1cac5e4eca79a499258685a1a12907c8
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7912,7 +7878,7 @@ has-props
 
 
 
-20338
+21943
 
 pt_bjet2_em_Incl_SS3L.pdf
 file
@@ -7948,14 +7914,14 @@ has-props
 
 18840
 
-el1_pt_ee_CR0b_SS3L.pdf
+mu3_pt_em_CR1b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:32.000000Z
-8759b39e4360857c3806176837f57d69
+ba53032fd0bc70e41b0e9ab56706fb29
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -7980,7 +7946,7 @@ has-props
 
 
 
-27003
+20338
 
 LEPPt_ee_CR0b_SS3L.pdf
 file
@@ -8016,14 +7982,14 @@ has-props
 
 22080
 
-MET_ee_PRE_SS3L.pdf
+el1_pt_ee_CR0b_SS3L.pdf
 file
 
 
 
 
-2017-05-26T18:52:33.000000Z
-dff1d5c6e2fb2d51b99164f5180d4c93
+2017-05-26T18:52:32.000000Z
+8759b39e4360857c3806176837f57d69
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -8048,7 +8014,7 @@ has-props
 
 
 
-20936
+27003
 
 Meff_em_CR0b_SS3L.pdf
 file
@@ -8084,14 +8050,14 @@ has-props
 
 23350
 
-mu1_pt_mm_CR1b_SS3L.pdf
+MET_ee_PRE_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:33.000000Z
-fd14d15ceaeb64c382dd18ebc4e1e984
+dff1d5c6e2fb2d51b99164f5180d4c93
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -8116,7 +8082,7 @@ has-props
 
 
 
-25902
+20936
 
 pt_jet1_mm_CR0b_SS3L.pdf
 file
@@ -8152,6 +8118,40 @@ has-props
 
 20228
 
+mu1_pt_mm_CR1b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:33.000000Z
+fd14d15ceaeb64c382dd18ebc4e1e984
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25902
+
 el_eta_ee_CR0b_SS3L.pdf
 file
 
@@ -8185,40 +8185,6 @@ has-props
 
 
 25045
-
-HT_mm_CR0b_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:33.000000Z
-fd4f7fd549ac3996f7b2ccfd8d18db59
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-21283
 
 mu_eta_mm_CR1b_SS3L.pdf
 file
@@ -8254,14 +8220,14 @@ has-props
 
 24817
 
-el1_pt_em_CR0b_SS3L.pdf
+HT_mm_CR0b_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:33.000000Z
-22d90b82fe3964ae2d932ad14c45ad11
+fd4f7fd549ac3996f7b2ccfd8d18db59
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -8286,7 +8252,7 @@ has-props
 
 
 
-26890
+21283
 
 LEPPt_em_CR0b_SS3L.pdf
 file
@@ -8321,6 +8287,40 @@ has-props
 
 
 22252
+
+el1_pt_em_CR0b_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:33.000000Z
+22d90b82fe3964ae2d932ad14c45ad11
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+26890
 
 mu_eta_comb_Incl_SS3L.pdf
 file
@@ -8458,40 +8458,6 @@ has-props
 
 18314
 
-NJETS_comb_PRE_SS3L.pdf
-file
-
-
-
-
-2017-05-26T18:52:33.000000Z
-0788de6537f04e3fcae1f5185afa51bb
-2016-07-14T00:40:00.716249Z
-260053
-othrif
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19289
-
 NJETS_comb_CR0b_SS3L.pdf
 file
 
@@ -8526,14 +8492,14 @@ has-props
 
 19461
 
-el_eta_comb_Incl_SS3L.pdf
+NJETS_comb_PRE_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:33.000000Z
-db403d32e7f3601b5b3f555192c67dcb
+0788de6537f04e3fcae1f5185afa51bb
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -8558,7 +8524,41 @@ has-props
 
 
 
-23215
+19289
+
+pt_jet3_em_Incl_SS3L.pdf
+file
+
+
+
+
+2017-05-26T18:52:33.000000Z
+ece9a921131a302cde172867e96742bb
+2016-07-14T00:40:00.716249Z
+260053
+othrif
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19122
 
 mu3_pt_em_PRE_SS3L.pdf
 file
@@ -8594,14 +8594,14 @@ has-props
 
 20405
 
-pt_jet3_em_Incl_SS3L.pdf
+el_eta_comb_Incl_SS3L.pdf
 file
 
 
 
 
 2017-05-26T18:52:33.000000Z
-ece9a921131a302cde172867e96742bb
+db403d32e7f3601b5b3f555192c67dcb
 2016-07-14T00:40:00.716249Z
 260053
 othrif
@@ -8626,7 +8626,7 @@ has-props
 
 
 
-19122
+23215
 
 pt_bjet3_em_Incl_SS3L.pdf
 file

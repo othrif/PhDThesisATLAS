@@ -1,7 +1,7 @@
 10
 
 dir
-274453
+275002
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/PAPER/figures/EffAcc
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -604,40 +604,6 @@ has-props
 
 20078
 
-acceptance_GSLRpc3L0bS.pdf
-file
-
-
-
-
-2017-06-14T03:34:03.000000Z
-b370edf7cbd9fb9d5abf070a6e3294f0
-2017-06-08T16:31:16.526244Z
-274215
-jmaurer
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-103283
-
 efficiency_RPVLQDRpv2L0b.pdf
 file
 
@@ -672,14 +638,14 @@ has-props
 
 23262
 
-efficiency_GttRpc2Lsoft2b.pdf
+acceptance_GSLRpc3L0bS.pdf
 file
 
 
 
 
 2017-06-14T03:34:03.000000Z
-0298c893f577025b5d477a484a1ef41e
+b370edf7cbd9fb9d5abf070a6e3294f0
 2017-06-08T16:31:16.526244Z
 274215
 jmaurer
@@ -704,7 +670,7 @@ has-props
 
 
 
-25651
+103283
 
 efficiency_ComprGttRpc2Lsoft1b.pdf
 file
@@ -739,6 +705,40 @@ has-props
 
 
 24598
+
+efficiency_GttRpc2Lsoft2b.pdf
+file
+
+
+
+
+2017-06-14T03:34:03.000000Z
+0298c893f577025b5d477a484a1ef41e
+2017-06-08T16:31:16.526244Z
+274215
+jmaurer
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25651
 
 efficiency_GSLRpc3L0bH.pdf
 file

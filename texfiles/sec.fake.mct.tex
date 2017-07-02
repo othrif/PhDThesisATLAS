@@ -2,10 +2,12 @@
 \label{sec:fake.mct}
 The processes leading to FNP leptons depend on the selection applied in the analysis. For instance, a selection with same-sign leptons 
 will have contributions from top quark pair production (\ttbar) or the associated production of a vector boson and jets 
-($W$+jets or $Z$+jets).%, or opposite sign $W$ pair production ($W^+W^-$). 
- These processes cannot give two leptons of the same electric charge unless there is a charge mis-measurement (mainly affecting electrons) 
-or that a FNP lepton was produced. It is possible to generate the processes that can contribute to a FNP lepton, such as \ttbar or 
-$V$+jets, with Monte Carlo event generators processed through Geant4 detector simulation of the ATLAS detector.  
+($W$+jets or $Z$+jets). These processes do not give two real leptons of the 
+same electric charge but can contribute to this final state when 
+there is a charge mis-measurement or a FNP lepton was produced.
+It is possible to generate the processes that can contribute to a FNP lepton, such as \ttbar or 
+$V$+jets, with Monte Carlo event generators processed through the Geant4 
+detector simulation of the ATLAS detector.  
 This approach will yield an estimate, however it might not be reliable. For instance, the detector simulation itself might not 
 reproduce the true behavior of the interaction of the physics objects with the detector, particularly when looking at rare processes 
 such as the production of FNP leptons. The second limitation is in the generation of enough MC events to probe the region of the 
@@ -36,21 +38,21 @@ The MC template method relies on the correct modelling of FNP leptons kinematics
 MC simulation to extrapolate background predictions from control regions to the signal regions.
 The method assumes that the kinematic shapes for each source of FNP lepton is correctly modeled in the simulations, 
 and the normalization for each source is extracted in a combined fit to data control regions.
-The number of normalization factors depend on the number of identified origins of the FNP lepton in the signal regions
+The number of normalization factors depends on the number of identified origins of the FNP lepton in the signal regions
 and the control regions are designed to constrain these factors in regions enriched with FNP leptons from the same origin.
 
 To illustrate the approach, we describe the application of the method in 
 the SS/3L analysis later described in this thesis.
 The processes of interest that may lead to a FNP lepton or a charge flip are $\ttbar$ and $V$+jets. 
 FNP leptons are classified using an algorithm that navigates the generator particle record to determine where the FNP lepton 
-is originating from. 
+originated from. 
 The lepton is classified as either an electron or a muon that is prompt from decays of on-shell $W$ and $Z$ bosons, 
 non-prompt from a heavy flavor $b$ decay (HF), or fake from mis-identification of a light flavor jet or a photon (LF). 
 In the case of an electron, we further classify the prompt electrons to prompt electrons with the correct charge or with a 
 charge mis-measurement, commonly named charge flip.
 In total, five categories referred to as MC templates are constructed 
 following the classification illustrated 
-in Figure~\ref{Fig:fakes_classification}.
+in Figure~\ref{Figurefakes_classification}.
 
 \begin{figure}[t!]
 \centering
@@ -58,7 +60,7 @@ in Figure~\ref{Fig:fakes_classification}.
 \caption
 {Lepton classification.
 }
-\label{Fig:fakes_classification}
+\label{Figurefakes_classification}
 \end{figure}
 
 \subsection{Correction factors}
@@ -71,13 +73,13 @@ coming from a HF decay, while a sample characterized by the absence of a $b$-jet
 The presence of one FNP lepton in the control sample allows the correction of the production rate of these FNP leptons 
 by performing a fit to data. 
 
-For example, if a Z$\to\mu\mu$+LF jet event is reconstructed as a $\mu^+\mu^-e^+$ event, then the electron is fake.
-Therefore, a correction of LF jet $\to$ e (Fr(LF$\to$e)) is applied to the rate of $\mu\mu e$ events. The correction Fr(LF$\to$e)
-is constrained by a fit to data in control regions dominated by LF jet $\to$ e type fakes. 
-Similarly, three other corrections are defined as LF jet $\to\mu$ (Fr(LF$\to\mu$)),  HF jet $\to$ e (Fr(HF$\to$e)),  
+For example, if a $Z\to\mu\mu$+LF jet event is reconstructed as a $\mu^+\mu^-e^+$ event, then the electron is fake.
+Therefore, a correction of LF jet $\to e$ (Fr(LF$\to e$)) is applied to the rate of $\mu\mu e$ events. The correction Fr(LF$\to e$)
+is constrained by a fit to data in control regions dominated by LF jet $\to e$ type fakes. 
+Similarly, three other corrections are defined as LF jet $\to \mu$ (Fr(LF$\to\mu$)),  HF jet $\to e$ (Fr(HF$\to e$)),  
 HF jet $\to\mu$ (Fr(HF$\to\mu$)). An additional correction is applied to correct the charge flip rate predicted by simulation.
-For example, a Z$\to e^+e^-$ event is reconstructed as $e^+e^+$ or $e^-e^-$. The simulation takes into account the charge flip 
-rate but the fraction of time it occurs may be wrong. The charge flip (Cf(e)) correction, derived from a data fit, is expected to recover this mis-modeling.
+For example, a $Z\to e^+e^-$ event is reconstructed as $e^+e^+$ or $e^-e^-$. The simulation takes into account the charge flip 
+rate but the fraction of time it occurs may be wrong. The charge flip (Cf($e$)) correction, derived from a data fit, is expected to recover this mis-modeling.
 The charge flip rate only concern electrons as the muon charge flip rate is negligible.
 
 A likelihood fit is defined as the product of the Poisson probabilities describing the observed events in the binned 
@@ -97,16 +99,16 @@ leptons, $\met>40$~GeV, and two or more jets. This pre-selection ensures that th
 QCD like event topologies. 
 They are further split in regions 
 with or without $b$-jets to constrain the HF and LF leptons respectively. In addition, they are also split with different 
-flavours of the same-sign lepton pair ee, e$\mu$, and $\mu\mu$, giving a total of six control regions. 
+flavours of the same-sign lepton pair $ee$, $e\mu$, and $\mu\mu$, giving a total of six control regions. 
 Any event entering the signal region is vetoed. The ee channel will constrain the charge flip correction factor, fake leptons 
  from LF decays in the selection without $b$-jets, and non-prompt decay from HF in the selection with $b$-jets. 
 The $\mu\mu$ channel will constrain the muon fake rates in the LF and HF decays for the selection without or with $b$-jets, 
-respectively. The e$\mu$ channel will constrain both the electron and muon fakes for events containing both lepton flavors. 
+respectively. The $e\mu$ channel will constrain both the electron and muon fakes for events containing both lepton flavors. 
 
 The six distributions are chosen for variables that provide the best separation between processes with prompt leptons and processes with FNP leptons and charge flip and are shown 
 before and after the fit in Figures \ref{f:prefit_CR0b}-\ref{f:prefit_CR1b} and Figures \ref{f:postfit_CR0b}-\ref{f:postfit_CR1b}, respectively. 
 
- \begin{figure}[!htb]
+ \begin{figure}[htb!]
    \includegraphics[width=.32\textwidth]{mct/Prefit/el2_pt_ee_CR0b_SS3L}
    \includegraphics[width=.32\textwidth]{mct/Prefit/NJETS_em_CR0b_SS3L}
    \includegraphics[width=.32\textwidth]{mct/Prefit/mu2_pt_mm_CR0b_SS3L}
@@ -117,7 +119,7 @@ The generator used in these plots is  \POWHEGBOX+Pythia. The hashed band represe
  }
  \end{figure}
 
-\begin{figure}[!htb]
+\begin{figure}[htb!]
   \includegraphics[width=.32\textwidth]{mct/Postfit/el2_pt_ee_CR0b_SS3L}
   \includegraphics[width=.32\textwidth]{mct/Postfit/NJETS_em_CR0b_SS3L}
   \includegraphics[width=.32\textwidth]{mct/Postfit/mu2_pt_mm_CR0b_SS3L}

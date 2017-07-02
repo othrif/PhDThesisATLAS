@@ -1,7 +1,7 @@
 10
 
 dir
-274453
+275002
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/figures/chargeflip
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -638,40 +638,6 @@ has-props
 
 26102
 
-CFrates___SYStypes___PTbin0.pdf
-file
-
-
-
-
-2017-05-26T18:52:40.000000Z
-46d1b4ed0048ac0dc2d86d098bd741e4
-2017-02-23T00:28:15.738897Z
-268599
-oducu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-16343
-
 CFratesVSpt_MC15_BDT.pdf
 file
 
@@ -706,14 +672,14 @@ has-props
 
 16567
 
-CFrates___SYStypes___PTbin1.pdf
+CFrates___SYStypes___PTbin0.pdf
 file
 
 
 
 
 2017-05-26T18:52:40.000000Z
-51c873ce2510bd40e9a54a83f3866d9d
+46d1b4ed0048ac0dc2d86d098bd741e4
 2017-02-23T00:28:15.738897Z
 268599
 oducu
@@ -738,7 +704,7 @@ has-props
 
 
 
-15936
+16343
 
 Closure_SoftestElectronPt.pdf
 file
@@ -774,14 +740,14 @@ has-props
 
 19620
 
-CFrates___SYStypes___PTbin2.pdf
+CFrates___SYStypes___PTbin1.pdf
 file
 
 
 
 
 2017-05-26T18:52:40.000000Z
-b97d75731408277c80a240be746c474e
+51c873ce2510bd40e9a54a83f3866d9d
 2017-02-23T00:28:15.738897Z
 268599
 oducu
@@ -806,41 +772,7 @@ has-props
 
 
 
-15918
-
-CFratesLOOSEVSpt_MC15_BDT.pdf
-file
-
-
-
-
-2017-05-26T18:52:40.000000Z
-dd1055c83ab1cd4dcc6d7355d49f18c3
-2017-01-18T02:47:12.276579Z
-266515
-oducu
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17078
+15936
 
 CFratesLOOSE___SYStypes___PTbin0.pdf
 file
@@ -876,14 +808,48 @@ has-props
 
 15969
 
-CFrates___SYStypes___PTbin3.pdf
+CFratesLOOSEVSpt_MC15_BDT.pdf
 file
 
 
 
 
 2017-05-26T18:52:40.000000Z
-f40a0e196e642913f9a1b6563d80e871
+dd1055c83ab1cd4dcc6d7355d49f18c3
+2017-01-18T02:47:12.276579Z
+266515
+oducu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17078
+
+CFrates___SYStypes___PTbin2.pdf
+file
+
+
+
+
+2017-05-26T18:52:40.000000Z
+b97d75731408277c80a240be746c474e
 2017-02-23T00:28:15.738897Z
 268599
 oducu
@@ -908,7 +874,7 @@ has-props
 
 
 
-16178
+15918
 
 CFratesLOOSE___SYStypes___PTbin1.pdf
 file
@@ -944,14 +910,14 @@ has-props
 
 15983
 
-CFratesLOOSE___SYStypes___PTbin2.pdf
+CFrates___SYStypes___PTbin3.pdf
 file
 
 
 
 
 2017-05-26T18:52:40.000000Z
-8189ae9cea811ba6a99745715dfc267c
+f40a0e196e642913f9a1b6563d80e871
 2017-02-23T00:28:15.738897Z
 268599
 oducu
@@ -976,7 +942,7 @@ has-props
 
 
 
-16306
+16178
 
 CFrates___SYStypes___PTbin4.pdf
 file
@@ -1012,14 +978,14 @@ has-props
 
 15976
 
-CFratesLOOSE___SYStypes___PTbin3.pdf
+CFratesLOOSE___SYStypes___PTbin2.pdf
 file
 
 
 
 
 2017-05-26T18:52:40.000000Z
-8e7ced608ef20c6b8c943a038495dd29
+8189ae9cea811ba6a99745715dfc267c
 2017-02-23T00:28:15.738897Z
 268599
 oducu
@@ -1044,7 +1010,7 @@ has-props
 
 
 
-16202
+16306
 
 CFrates___SYStypes___PTbin5.pdf
 file
@@ -1079,6 +1045,40 @@ has-props
 
 
 16151
+
+CFratesLOOSE___SYStypes___PTbin3.pdf
+file
+
+
+
+
+2017-05-26T18:52:40.000000Z
+8e7ced608ef20c6b8c943a038495dd29
+2017-02-23T00:28:15.738897Z
+268599
+oducu
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+16202
 
 CFratesLOOSE___SYStypes___PTbin4.pdf
 file

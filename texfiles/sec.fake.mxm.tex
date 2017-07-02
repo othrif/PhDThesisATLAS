@@ -19,7 +19,7 @@ one can relate the number of events with one candidate lepton passing/failing si
 \begin{pmatrix}n_\text{real}\\n_\text{FNP}\end{pmatrix}; 
 \label{eqn:matrix_method}
 \end{align}
-allowing to determine the unknown number of events $n_\text{FNP}$ from the observed $n_\text{pass}$ and $n_\text{fail}$ given measurements of the 
+allowing a determination of the unknown number of events $n_\text{FNP}$ from the observed $n_\text{pass}$ and $n_\text{fail}$ given measurements of the 
 probabilities $\varepsilon/\zeta$. 
 
 The predictive power of the matrix method comes from the fact that 
@@ -51,7 +51,7 @@ n_\text{FNP} = \frac{1}{\varepsilon - \zeta}\left(\left(\varepsilon-1\right)n_\t
 
 However, the quantity of interest is the expected FNP lepton background that 
 passes the tight selection criteria: 
-$n_{\text{pass}~\cap~\text{FNP}} = \zeta n_\text{FNP}$.
+$n_{\text{pass}~\bigcap~\text{FNP}} = \zeta n_\text{FNP}$.
  To obtain this quantity, 
 the identity from Eq. \ref{eqn:matrix_method} is used to get:
 
@@ -62,7 +62,7 @@ n_\text{FNP} = \frac{\zeta}{\varepsilon - \zeta}\left(\left(\varepsilon-1\right)
 
 The linearity of Eq. \ref{eqn:fake.nFNPpass}  with respect to $n_\text{pass}$ 
 and $n_\text{fail}$ allows the method to be applied on an event-by-event, 
-effectively resulting into a weight being assigned to each event. 
+effectively resulting in a weight being assigned to each event. 
 By defining
 \[
   n_\text{pass} = \sum_\text{all events} \mathbb{1}_\text{pass},~
@@ -71,8 +71,6 @@ By defining
 \]
 where $\mathbb{1}_{\text{pass} \left(\text{fail}\right)} = 1$ if the object passes 
 (fails) the tight selection requirement and $\mathbb{1}_{\text{pass}\left(\text{fail}\right)} = 0$ otherwise. Eq. \ref{eqn:fake.nFNPpass} can be written as
-
-
 \[
 n_\text{FNP} = \sum_\text{all events} \{
 \frac{\zeta}{\varepsilon - \zeta}\left(\varepsilon - 
@@ -81,15 +79,12 @@ n_\text{FNP} = \sum_\text{all events} \{
 \\
 =  \sum_\text{all events} \omega
 \]
-
 where 
-
 \begin{align}
   \omega = \frac{\zeta}{\varepsilon - \zeta}\left(\varepsilon - 
 \mathbb{1}_\text{pass}\right)
   \label{eqn:fake.nFNPpass.demo}
 \end{align}
-
 is the weight to be assigned to each event in the case of one FNP lepton 
 in the event. 
 The generalization of this formalism to higher dimensions 
@@ -263,3 +258,8 @@ Secondly, the analytic expression of the matrix method event weight depends on t
 \subsection{Propagation of uncertainties}
 
 The two parameters ($\varepsilon$ and $\zeta$ respectively) can be measured in data, and depend on the flavor and kinematics of the involved leptons.  Systematic uncertainties resulting from the measurement of these two parameters, and their extrapolation to the signal regions, can be propagated to uncertainties on the event weight through standard first-order approximations. The different sources of uncertainties should be tracked separately so that correlations of uncertainties across different events can be accounted for correctly. The resulting set of uncertainties on the cumulated event weights can be then added in quadrature to form the systematic uncertainty on the predicted FNP lepton background yield. The corresponding statistical uncertainty can be taken as the RMS of the event weights.
+
+
+The methods described in this chapter will be employed to estimate the 
+irreducible backgrounds in the search for supersymmetry presented in this 
+dissertation.

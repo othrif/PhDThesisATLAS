@@ -5,7 +5,10 @@ and $V$+jets.
 FNP leptons are classified in four categories, namely electrons and muons coming 
 from $b$ and light-quark jets. Normalisation factors for each of the five sources (including photon conversions) are computed to match the observed data 
 in dedicated control regions. The fifth category is events with prompt electrons that have a charge mis-measurement 
-(charge flip, EL HF, MU HF, EL LF, MU LF).
+(charge flip, electron heavy flavor (EL HF), 
+muon heavy flavor (MU HF), 
+electron light flavor (EL LF), 
+muon light flavor (MU LF)).
 Six non-overlapping control regions are defined by the presence of $b$-jets and by the flavors of the same sign lepton pair in the event:
 \begin{itemize}
 \item CR0b: events without $b$-jets in $ee$, $e\mu$, and $\mu\mu$ channels.
@@ -26,8 +29,7 @@ The goal of varying the parton shower is to access the dependence of the fake an
 parton shower. 
 
 The MC template method is validated by looking at the agreement 
-between observed data and prediction as shown in Figure~\ref{fig:bkg.val.met}
-and Figure~\ref{fig:bkg.val.met}.
+between observed data and prediction as shown in Figures~\ref{fig:bkg.val.met}.
 In the MC template method, the systematic uncertainty is obtained by
 changing the generator from \POWHEGBOX+Pythia to \SHERPA and propagating uncertainties from the control region fit to the global
 normalization scale factors applied to the MC samples. 
@@ -38,14 +40,7 @@ fit uncertainty, theory uncertainties on \ttbar, and comparison of different sho
 This table also shows a global correction factor derived by taking the ratio of the weighted \ttbar to raw MC \ttbar with
 a global uncertainty that includes all systematic uncertainties used to obtain the final estimate. 
 
-\linespread{1.0}
 \begin{table}[!htb]
-\caption{Expected yields for background processes with fake leptons,
-in the signal regions with a global correction factor that represents the ratio of weighted \ttbar to raw MC \ttbar with
-a global uncertainty that includes: fit uncertainty, theory uncertainties on \ttbar, comparison of different showers. 
-The fraction of the systematic uncertainty from the comparison between two showers (Pythia and Sherpa) is also shown.
-}
-\label{tab:fakes_mcglobal}
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c||c|c|c||}\hline
@@ -68,5 +63,10 @@ Rpc3LSS1b & $0.90 \pm 0.14 \pm 0.69$ & $2.34 \pm 1.44$ & 56\% \\
 \hline
 \end{tabular}
 }
+\caption{Expected yields for background processes with fake leptons,
+in the signal regions with a global correction factor that represents the ratio of weighted \ttbar to raw MC \ttbar with
+a global uncertainty that includes: fit uncertainty, theory uncertainties on \ttbar, comparison of different showers. 
+The fraction of the systematic uncertainty from the comparison between two showers (Pythia and Sherpa) is also shown.
+}
+\label{tab:fakes_mcglobal}
 \end{table}
-\linespread{1.6}

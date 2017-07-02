@@ -74,32 +74,32 @@
 \contentsline {section}{\numberline {7.2}Irreducible Backgrounds}{152}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}Expected yields in the signal regions}{152}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}Validation regions}{153}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Validation of irreducible background estimates}{158}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{162}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{162}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{170}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}MC Template Method}{186}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{189}{subsection.7.3.4}
-\contentsline {section}{\numberline {7.4}Systematic uncertainties}{197}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{197}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{200}{subsection.7.4.2}
-\contentsline {chapter}{\numberline {8}Statistical Treatment}{204}{chapter.8}
-\contentsline {section}{\numberline {8.1}Likelihood Function}{205}{section.8.1}
-\contentsline {section}{\numberline {8.2}Limit Setting Procedure}{207}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Profile Likelihood Ratio}{207}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}The $p$-value}{208}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}The $CL_\mathrm {s}$ Prescription}{210}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Approximate Sampling Distributions}{212}{subsection.8.2.4}
-\contentsline {section}{\numberline {8.3}Statistical Implementation}{214}{section.8.3}
-\contentsline {chapter}{\numberline {9}Results and Interpretation}{215}{chapter.9}
-\contentsline {section}{\numberline {9.1}Predictions and Observations}{215}{section.9.1}
-\contentsline {section}{\numberline {9.2}Statistical Interpretation}{222}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{222}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{222}{subsection.9.2.2}
-\contentsline {chapter}{\numberline {10}Conclusions}{230}{chapter.10}
-\contentsline {chapter}{References}{231}{chapter*.124}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{238}{appendix.A}
-\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{238}{section.A.1}
-\contentsline {section}{\numberline {A.2}Upper limit on cross section}{240}{section.A.2}
-\contentsline {section}{\numberline {A.3}Signal region cutflow}{241}{section.A.3}
-\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{251}{section.A.4}
+\contentsline {subsection}{\numberline {7.2.3}Validation of irreducible background estimates}{161}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Reducible Backgrounds}{164}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{164}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Matrix Method}{172}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}MC Template Method}{189}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{192}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Systematic uncertainties}{201}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{201}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{204}{subsection.7.4.2}
+\contentsline {chapter}{\numberline {8}Statistical Treatment}{208}{chapter.8}
+\contentsline {section}{\numberline {8.1}Likelihood Function}{209}{section.8.1}
+\contentsline {section}{\numberline {8.2}Limit Setting Procedure}{211}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Profile Likelihood Ratio}{211}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}The $p$-value}{212}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}The $CL_\mathrm {s}$ Prescription}{214}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Approximate Sampling Distributions}{216}{subsection.8.2.4}
+\contentsline {section}{\numberline {8.3}Statistical Implementation}{218}{section.8.3}
+\contentsline {chapter}{\numberline {9}Results and Interpretation}{219}{chapter.9}
+\contentsline {section}{\numberline {9.1}Predictions and Observations}{219}{section.9.1}
+\contentsline {section}{\numberline {9.2}Statistical Interpretation}{226}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{226}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{226}{subsection.9.2.2}
+\contentsline {chapter}{\numberline {10}Conclusions}{233}{chapter.10}
+\contentsline {chapter}{References}{234}{chapter*.124}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{241}{appendix.A}
+\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{241}{section.A.1}
+\contentsline {section}{\numberline {A.2}Upper limit on cross section}{242}{section.A.2}
+\contentsline {section}{\numberline {A.3}Signal region cutflow}{245}{section.A.3}
+\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{256}{section.A.4}

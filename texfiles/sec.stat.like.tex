@@ -25,8 +25,8 @@ $b_i$ represents the Standard Model background processes expected to
 contribute to the signal region. 
 The parameter $\vect{\theta}$ refers to 
 the nuisance parameters used to parametrize the systematic uncertainties
-(luminosity, JES, JER, etc.)
-\footnote{The parameters represented by $\vect{\theta}$ are called nuisance 
+(luminosity, JES, JER, etc.)\footnote{The parameters represented by 
+$\vect{\theta}$ are called nuisance 
 parameters since the aim is not to set a limit on them.}.
 Thus, the likelihood is built as the product of a Poisson probability density 
 function describing the observed number of events in the signal 
@@ -47,6 +47,8 @@ where $\mathcal{P} \left(X~\rvert \nu\right) = e^{-\nu}\nu^X/X!$
 and $\mathcal{G} \left(\theta\right)  = \frac{1}{\sqrt{2\pi\sigma_{\theta}^2}}
 e^{-\frac{\left(\theta-\theta^0\right)^2}{2\sigma_\theta^2}}$
  are the Poisson and Gaussian probability density functions. 
+In addition to the observed data $X$, there is also auxilary measurements
+$ \vect{\theta^0}$ that constrain the nuisance parameters.
 Both signal and backgrounds depend on the nuisance parameter
 $\vect{\theta}$ which controls all independent sources of uncertainty 
 and will be \textit{profiled} (or constrained) in the $CL_s$ procedure

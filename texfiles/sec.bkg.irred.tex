@@ -4,12 +4,6 @@
 The predicted event yields in the signal regions are presented in Table~\ref{tab:prompt_sr_yields}, while the contributions of particular rare processes to the signal regions, relative to the summed contributions of all these processes, are shown in Table~\ref{tab:prompt_rare_contributions}.
 
 \begin{table}[!htb]
-\caption{Expected yields for background processes with prompt leptons, 
-in the SRs proposed in Section~\ref{sec:strategy.sr}, for 36.1 \ifb. 
-Quoted uncertainties include statistical sources only. %and theory uncertainties. 
-Rare category includes $\ttbar WW$, $\ttbar WZ$, 3$t$, $tZ$, $tWZ$, $WH$, $ZH$ and $VVV$, and detailed contributions of these processes can be found in Table~\ref{tab:prompt_rare_contributions}. 
-}
-\label{tab:prompt_sr_yields}
 \def\arraystretch{1.1}
 \centering
 \resizebox{0.8\textwidth}{!}{
@@ -31,13 +25,16 @@ Rare category includes $\ttbar WW$, $\ttbar WZ$, 3$t$, $tZ$, $tWZ$, $WH$, $ZH$ a
  Rpc3LSS1b  &     0.00 $\pm$ 0.00   &     0.00 $\pm$ 0.00  &     0.21 $\pm$ 0.04  &     0.00 $\pm$ 0.00    &     0.09 $\pm$ 0.01  \\
 \hline\hline
 \end{tabular}}
+\caption{Expected yields for background processes with prompt leptons, 
+in the SRs proposed in Section~\ref{sec:strategy.sr}, for 36.1 \ifb. 
+Quoted uncertainties include statistical sources only. %and theory uncertainties. 
+Rare category includes $\ttbar WW$, $\ttbar WZ$, 3$t$, $tZ$, $tWZ$, $WH$, $ZH$ and $VVV$, and detailed contributions of these processes can be found in Table~\ref{tab:prompt_rare_contributions}. 
+}
+\label{tab:prompt_sr_yields}
 \end{table}
 
 
 \begin{table}[!htb]
-\caption{Contributions of particular rare processes to the signal regions, relative to the summed contributions of all these processes.  
-}
-\label{tab:prompt_rare_contributions}
 \def\arraystretch{1.1}
 \centering
 \resizebox{0.7\textwidth}{!}{
@@ -59,10 +56,13 @@ Rare category includes $\ttbar WW$, $\ttbar WZ$, 3$t$, $tZ$, $tWZ$, $WH$, $ZH$ a
  Rpc3LSS1b  & 25\%  & 0\% & 0\% & 0\% & 0\% & 0\%  & 74\% \\
 \hline\hline
 \end{tabular}}
+\caption{Contributions of particular rare processes to the signal regions, relative to the summed contributions of all these processes.  
+}
+\label{tab:prompt_rare_contributions}
 \end{table}
 
 
-\begin{figure}[htb]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.9\textwidth]{rareFancy}
 \caption{Relative contribution in each signal region from the processes in the category labelled as rare in the paper ($\ttbar WW$, 
@@ -73,7 +73,7 @@ $\ttbar WZ$, $tZ$, $tWZ$, $t\ttbar$, $WH$, $ZH$ and triboson production). }
 \subsection{Validation regions}
 \label{sec:bkg.irred.def}
 
-Dedicated validation regions are defined to verify the estimate
+Dedicated validation regions (VR) are defined to verify the estimate
 of the $W^\pm W^\pm jj$, the $WZjjjj(j)$, the $\ttbar W$ and $\ttbar Z$ 
 processes in the signal regions. 
 For a better validation of $WZ$ processes in association with a large jet 
@@ -82,21 +82,27 @@ respectively 5 reconstructed jets in the event.
 The corresponding selections are summarized in Table~\ref{tab:VRdef}.
 
 \par{\bf $W^\pm W^\pm$+jets validation region\\}
-The $W^{\pm}W^{\pm}$ + jets processes contribute mainly in the signal regions with no $b$-tagged jet requirement and two same-sign leptons. This validation region, $W^\pm W^{\pm}$-VR, has exactly one SS pair (and no additional baseline leptons), zero $b$-jets and at least two jets with \pt above 50 \GeV. Additional requirements on \met\ and \meff\ help to decrease the amount of detector background as shown in Figure~\ref{fig:WW_VR_afterLepJetSel} (left and middle). To further improve the purity, the sub-leading lepton \pt is increased to 30 \GeV, and cuts on minimum angular separation between the leptons and jets, and between the two leptons (Figure~\ref{fig:WW_VR_afterLepJetSel}, right) are placed as detailed in Table~\ref{tab:VRdef}. The purity is around 34\% with this definition 
+The $W^{\pm}W^{\pm}$ + jets processes contribute mainly in the signal regions with no $b$-tagged jet requirement and two same-sign leptons. This validation region, $W^\pm W^{\pm}$-VR, has exactly one SS pair (and no additional baseline leptons), zero $b$-jets and at least two jets with \pt above 50 \GeV. Additional requirements on \met\ and \meff\ help to decrease the amount of detector background as shown in Figure~\ref{fig:WW_VR_afterLepJetSel} (a and b). To further improve the purity, the sub-leading lepton \pt is increased to 30 \GeV, and cuts on minimum angular separation between the leptons and jets, and between the two leptons (Figure~\ref{fig:WW_VR_afterLepJetSel}, c) are placed as detailed in Table~\ref{tab:VRdef}. The purity is around 34\% with this definition 
 of the validation region. Signal contamination (highly reduced by applying a veto of all SRs) it is found to be at most 5\% when looking at $\gluino \rightarrow q\bar q (\tilde \ell \ell / \tilde \nu \nu)$ scenarios.
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.32\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{met_SR42}
+\subcaption{}
+\label{fig:wwa}
 \end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{meff_SR42}
+\subcaption{}
+\label{fig:wwb}
 \end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{deltaR_lep1lep2_SR42}
+\subcaption{}
+\label{fig:wwc}
 \end{subfigure}
-\caption{\met\ (left), \meff\ (middle) and $\operatorname{min}\Delta R (\ell_{1}, \ell_2)$ (right) after lepton and jet selection of the $W^\pm W^\pm$-VR (and no additional requirements). Signal regions are vetoed. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
+\caption{(a) \met, (b) \meff, and (c) $\operatorname{min}\Delta R (\ell_{1}, \ell_2)$ after lepton and jet selection of the $W^\pm W^\pm$-VR (and no additional requirements). Signal regions are vetoed. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
 }
 \label{fig:WW_VR_afterLepJetSel}
 \end{figure} 
@@ -108,18 +114,18 @@ Contributions from $WZ$+jets processes can be significant in regions vetoing the
 Given the large data sample collected, it is possible to design validation 
 regions that require at least four and even at least five jets with \pt~$>$25 \GeV~in the event. Thus, two validation regions, $WZ$4j-VR and $WZ$5j-VR, are proposed to better probe the modelling of the jet multiplicity in $WZ$ processes. Both regions are defined with exactly three signal leptons and no fourth baseline lepton, to reduce the $ZZ$ background contamination. The \meff, and the upper cut on the ratio between the \met\ in the event and the sum of all lepton \pt are great discriminants against the reducible backgrounds. Some kinematic distributions after lepton and four jet selection are shown in Figure~\ref{fig:WZ_VR_afterLepJetSel}.
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.32\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{nJets25_SR32}
-\end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\subcaption{}\label{fig:wza}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{meff_SR32}
-\end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\subcaption{}\label{fig:wzb}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{metOverpTallLep_signal_SR32}
-\end{subfigure}
-\caption{Number of jets with \pt $>$ 25 \GeV~(left), \meff\ (middle) and ratio between the \met\ in the event and the sum of all lepton \pt (right) after lepton and four jet selection of the $WZ$-VR (and no additional requirements). Signal regions are vetoed as detailed in Table~\ref{tab:VRdef}. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
+\subcaption{}\label{fig:wzc}\end{subfigure}
+\caption{(a) Number of jets with \pt $>$ 25 \GeV, (b) \meff, and (c) ratio between the \met\ in the event and the sum of all lepton \pt after lepton and four jet selection of the $WZ$-VR (and no additional requirements). Signal regions are vetoed as detailed in Table~\ref{tab:VRdef}. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
 }
 \label{fig:WZ_VR_afterLepJetSel}
 \end{figure} 
@@ -134,44 +140,49 @@ A \ttbar\ + $W$ validation region ($\ttbar W$-VR) is defined with exactly one SS
 Signal contamination is around 20\% when looking at $\tilde b\tilde b$ SUSY 
 models.
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.32\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{nJets40_SR2}
-\end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\subcaption{}\label{fig:ttwa}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{meff_SR2}
-\end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\subcaption{}\label{fig:ttwb}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{pTallBJets_over_pTallJets_SR2}
-\end{subfigure}
-\caption{Number of jets with \pt $>$ 40 \GeV~(left), \meff\ (middle) and ratio between the sum of all $b$-jets \pt and the sum of all jets \pt (right) after lepton and jet selection of the $\ttbar W$-VR (and no additional requirements). Signal regions are vetoed as detailed in Table~\ref{tab:VRdef}. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
+\subcaption{}\label{fig:ttwc}\end{subfigure}
+\caption{(a) Number of jets with \pt $>$ 40 \GeV~, (b) \meff, and (c) ratio between the sum of all $b$-jets \pt and the sum of all jets \pt after lepton and jet selection of the $\ttbar W$-VR (and no additional requirements). Signal regions are vetoed as detailed in Table~\ref{tab:VRdef}. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
 }
 \label{fig:ttW_VR_afterLepJetSel}
 \end{figure} 
 
 %%%%%
 \par{\bf \ttbar\ + $Z$ background validation\\}
-A \ttbar\ + $Z$ enriched validation region ($ttZ$-VR) is defined with at least one SFOS lepton pair and at least one $b$-jet. At least three jets are required in the event regardless of the lepton channel. Some kinematic distributions after this pre-selection are shown in Figure~\ref{fig:ttZ_VR_afterLepJetSel} (left and middle). To increase the purity, the invariant mass of the SFOS lepton pair is selected to be inside the $[81, 101]$ \GeV~interval and the \meff\ in the event should be greater than 450 \GeV. With this selection, the purity is 58\%. One can increase it even further (by $\sim$10\%) if at least two $b$-jets are required in the event. However, with such a cut the statistics will be highly reduced (up to a factor 2 lower as illustrated in Figure~\ref{fig:ttZ_VR_afterLepJetSel}, right), so it is not pursued. The signal contamination is found to be around 5\% for \sbsb\ pair production.
+A \ttbar\ + $Z$ enriched validation region ($ttZ$-VR) is defined with at least one same flavor oppposite sign (SFOS) lepton pair and at least one $b$-jet. At least three jets are required in the event regardless of the lepton channel. Some kinematic distributions after this pre-selection are shown in Figure~\ref{fig:ttZ_VR_afterLepJetSel} (a and b). To increase the purity, the invariant mass of the SFOS lepton pair is selected to be $81 < m_{\ell\ell} < 101$ \GeV, where 
+$m_{\ell\ell}$ is the invariant mass of the lepton pair,
+and the \meff\ in the event should be greater than 450 \GeV,
+where \meff is the sum of the transverse momenta of leptons and jets in the 
+event in addition to the transverse missing momentum. 
+With this selection, the purity is 58\%. One can increase it even further (by $\sim$10\%) if at least two $b$-jets are required in the event. However, with such a cut the statistics will be highly reduced (up to a factor 2 lower as illustrated in Figure~\ref{fig:ttZ_VR_afterLepJetSel}, c), so it is not pursued. The signal contamination is found to be around 5\% for \sbsb\ pair production.
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
-\begin{subfigure}[t]{0.32\textwidth}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{mSFOS_SR12}
-\end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\subcaption{}\label{fig:ttza}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{meff_SR12}
-\end{subfigure}
-\begin{subfigure}[t]{0.32\textwidth}
+\subcaption{}\label{fig:ttzb}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}
 \includegraphics[width=\textwidth]{nBJets20_SR13}
-\end{subfigure}
-\caption{Invariant mass of the SFOS lepton pair (left) and \meff\ (middle) after lepton and jet selection of the $\ttbar Z$-VR (and no additional requirements). Number of $b$-jets with \pt $>$ 20 \GeV~after the $\ttbar Z$-VR selection. Signal regions are vetoed as detailed in Table~\ref{tab:VRdef}. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
+\subcaption{}\label{fig:ttzc}\end{subfigure}
+\caption{(a) Invariant mass of the SFOS lepton pair, (b) \meff\ after lepton and jet selection of the $\ttbar Z$-VR (and no additional requirements), and (c) number of $b$-jets with \pt $>$ 20 \GeV~after the $\ttbar Z$-VR selection. Signal regions are vetoed as detailed in Table~\ref{tab:VRdef}. All MC samples are normalized to a luminosity of 36.1 \ifb. The last bin includes overflow.
 }
 \label{fig:ttZ_VR_afterLepJetSel}
 \end{figure} 
 
 
-\begin{table}[t!]
+\begin{table}[htb!]
 \hspace{0.5cm}
 \def\arraystretch{1.1}
 \centering
@@ -223,7 +234,7 @@ The observed yields, compared with the background predictions and uncertainties,
 can be seen in Table~\ref{tab:VR_yields}. There is good agreement between data and the estimated background in all
 the validation regions. 
 
-\begin{table}[t!]
+\begin{table}[htb!]
 \hspace{0.5cm}
 \def\arraystretch{1.1}
 \centering

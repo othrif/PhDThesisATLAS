@@ -22,7 +22,7 @@ and trigger the event recording.
 The measurement may then be performed on the other lepton (``probe''), likely to be the fake lepton of the pair. 
 
 %%
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{tabular}{rr}
 \begin{subfigure}[t]{0.5\textwidth}\includegraphics[width=\textwidth]{INCLUSIVETAG_PROBE_PT_MUON_SIGNAL}\caption{}\label{fig:bkg.mxm.INCLUSIVETAG_PROBE_PT_MUON_SIGNAL}\end{subfigure}&
@@ -34,7 +34,7 @@ or further tightening of the tag muon requirements (right).
 The yellow area indicates $t\bar t$ events in which the tag muon is fake and the probe real, 
 leading to a measurement bias. 
 }
-\label{Fig:fakes_preselection_muon}
+\label{Figurefakes_preselection_muon}
 \end{figure}
 %%
 
@@ -69,7 +69,7 @@ as well as requiring $p_\mathrm{T}^\text{tag}>\operatorname{max}(40,p_\mathrm{T}
 As expected, the number of pairs with a fake tag muons is down to a minor level, at least according to the simulation. 
 
 %%
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{tabular}{rr}
 \begin{subfigure}[t]{0.5\textwidth}\includegraphics[width=\textwidth]{{TTBAR.Incl.FakeRate.Muon}.pdf}\caption{}\label{fig:TTBAR.Incl.FakeRate.Muon}\end{subfigure}&
@@ -80,19 +80,19 @@ As expected, the number of pairs with a fake tag muons is down to a minor level,
 Muon fake rates in $t\bar t$ MC with an inclusive selection, 
 as a function of \pt\ (left, green markers) or $|\eta|$ in different momentum ranges (right). 
 }
-\label{Fig:fakes_MC_inclusive_rates_muon}
+\label{Figurefakes_MC_inclusive_rates_muon}
 \end{figure}
 %%
 
 Muon fake rates as predicted by the simulation ($t\bar t$, inclusive selection of leptons via truth-matching) 
-are shown on Fig.~\ref{Fig:fakes_MC_inclusive_rates_muon} as function of \pt\ and $|\eta|$. 
+are shown on Figure~\ref{Figurefakes_MC_inclusive_rates_muon} as function of \pt\ and $|\eta|$. 
 One can expect a moderate dependency of the fake rates to the transverse momentum, with the strongest evolution at low \pt and a slight increase toward higher \pt. 
 The fake rates are also essentially independent of the pseudorapidity, 
 except at the edge ($|\eta|>2.3$) where there is a strongly pronounced increase of the rates. 
 This motivates measurements in data as function of \pt\ in two $|\eta|$ bins. 
 
 Observations in data seem to indicate that the rejection of fake tag muons by the reinforced isolation criteria 
-is quite less important than in the simulation, or that the amount of fake muons at high \pt\ is larger than in the simulation, or both. 
+is less important than in the simulation, or that the amount of fake muons at high \pt\ is larger than in the simulation, or both. 
 This leads to an unknown level of bias in measurements performed with the straightforward tag-and-probe selection at high \pt. 
 For that reason, the final rates measured in data are provided by the tag-and-probe method below 25~\GeV, 
 and by the symmetric selection for $\pt>25~\GeV$. The former are obtained with 
@@ -111,9 +111,9 @@ while the latter are obtained with:
 +(2\varepsilon-1)(n_\text{both signal}^\text{data} - n_\text{both signal}^\text{MC})}\\
 \text{with }&\Delta\zeta_\text{stat} 
 = \frac{\zeta}{n_\text{both signal}^\text{data} - n_\text{both signal}^\text{MC}}
-\sqrt{\zeta^2 n_\text{only 1 signal} + \left(1-\frac{2\varepsilon-1}{\varepsilon}\zeta\right)^2 n_\text{both signal}}\notag
+\sqrt{\zeta^2 n_\text{only 1 signal} + \left(1-\frac{2\varepsilon-1}{\varepsilon}\zeta\right)^2 n_\text{both signal}}.\notag
 \end{align}
-the efficiency for prompt muons $\varepsilon$ is assigned values compatible with section~\ref{subsubsec:fakes_matrix_real_efficiency}. 
+The efficiency for prompt muons $\varepsilon$ is assigned values compatible with section~\ref{subsubsec:fakes_matrix_real_efficiency}. 
 
 The measured rates are presented in Table~\ref{table:fake_rates_muon}. 
 The central values are shown together with the associated statistical uncertainty, 
@@ -123,36 +123,40 @@ The rates are of the order of $10\%$ up to 30 \GeV, beyond which they increase.
 Overall these values are not very different from those predicted by the simulation. 
 
 %%
-\begin{table}[t!]
+\begin{table}[htb!]
 \def\arraystretch{1.15}
-\caption{Muon fake rate measured in data and the associated statistical uncertainty. 
-The systematic uncertainty originating from the subtraction of ``backgrounds'' with only prompt leptons is also displayed. }
-\label{table:fake_rates_muon}
 \def\arraystretch{1.15}
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|c|} \hline\hline
-\multicolumn{2}{|c|}{$10<\pt<12~\GeV$}         & \multicolumn{2}{c|}{$12<\pt<14$}                  \\   
+\multicolumn{2}{|c|}{$10<\pt<12~\GeV$}         & \multicolumn{2}{c|}{$12<\pt<14$}                  \\  
+\hline 
 $|\eta|<2.3$             & $|\eta|>2.3$             & $|\eta|<2.3$             & $|\eta|>2.3$            \\
+\hline
 $0.14 \pm 0.01 \pm 0.00$ & $0.22 \pm 0.05 \pm 0.00$ & $0.11 \pm 0.01 \pm 0.00$ & $0.24 \pm 0.06 \pm 0.00$ \\ 
-\hline \hline
+\hline
 \end{tabular}}
 
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|c|c|c|c|} \hline\hline
+\begin{tabular}{|c|c|c|c|} \hline
 \multicolumn{2}{|c|}{$14<\pt<17$}                    & \multicolumn{2}{c|}{$17<\pt< 20~\GeV$}       \\       
+\hline
 $|\eta|<2.3$             & $|\eta|>2.3$             & $|\eta|<2.3$             & $|\eta|>2.3$            \\    
+\hline
 $0.12 \pm 0.01 \pm 0.00$ & $0.09 \pm 0.05 \pm 0.00$ & $0.09 \pm 0.01 \pm 0.00$ & $0.21 \pm 0.07 \pm 0.00$ \\
-\hline \hline
+\hline 
 \end{tabular}}
 
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|c|c|c|c|c|} \hline\hline
+\begin{tabular}{|c|c|c|c|c|} \hline
              $20<\pt<30$ &              $30<\pt<40$ &              $40<\pt<60$ &                $\pt>60$ \\
+\hline
 $0.07 \pm 0.02 \pm 0.00$ & $0.12 \pm 0.05 \pm 0.01$ & $0.16 \pm 0.09 \pm 0.04$ & $0.49 \pm 0.10 \pm 0.07$ \\
 \hline \hline
 \end{tabular}}
-
+\caption{Muon fake rate measured in data and the associated statistical uncertainty. 
+The systematic uncertainty originating from the subtraction of ``backgrounds'' with only prompt leptons is also displayed. }
+\label{table:fake_rates_muon}
 \end{table}
 
 Some of the validation and signal regions require events with 2 or more $b$-tagged jets, 
@@ -165,11 +169,8 @@ taken directly from simulated $t\bar t$ events.
 This correction factor varies between 1 and 2 with \pt, 
 and the whole size of the correction is assigned as an additional systematic uncertainty (see Table~\ref{tab:fake_rates_muon_systematics}). 
 
-\begin{table}[t!]
+\begin{table}[htb!]
 \def\arraystretch{1.15}
-\caption{Additional systematic uncertainty on the muon fake rates, to address variations of the latter in different environments. 
-The table also shows the correction factors and uncertainties applied to final states with $\ge 2$ $b$-tagged jets.}
-\label{tab:fake_rates_muon_systematics}
 \def\arraystretch{1.15}
 \centering
 \resizebox{\textwidth}{!}{
@@ -179,6 +180,9 @@ $\Delta\zeta^\text{(syst)}$ & 30\% & 30\%  & 30\%     &  50\%   & \multicolumn{2
 		\begin{tabular}{@{}c@{}}50\% for $H_\mathrm{T}<600$ \\ 70\% for $600<H_\mathrm{T}<1200$ \\85\% for $H_\mathrm{T}>1200$\end{tabular}} \\\hline
 $\frac{\zeta_{\ge 2b}}{\zeta}$ & $1.2\pm 0.2$ & $1.5\pm 0.5$ & $1.7\pm 0.7$ & $2.0\pm 1.0$ & $1.5\pm 0.5$ & $-$\\\hline
 \end{tabular}}
+\caption{Additional systematic uncertainty on the muon fake rates, to address variations of the latter in different environments. 
+The table also shows the correction factors and uncertainties applied to final states with $\ge 2$ $b$-tagged jets.}
+\label{tab:fake_rates_muon_systematics}
 \end{table}
 
 
@@ -192,11 +196,11 @@ which likely correlates to a harder jet at the origin of the non-prompt muon, he
 Table~\ref{tab:fake_rates_muon_systematics} summarizes the additional systematic uncertainties applied to the muon fake rates. 
 They vary from $30\%$ at low \pt, to up to 85\% for $\pt>40~\GeV$; in that range, the uncertainties are made $H_\mathrm{T}$-dependent. 
 
-As already shown, Fig.~\ref{fig:fakes_MC_vsBjets_muon} shows the variation of the fake rate in $t\bar t$ MC as a function of the number of $b$-tagged jets in the event. 
+As already shown, Figure~\ref{fig:fakes_MC_vsBjets_muon} shows the variation of the fake rate in $t\bar t$ MC as a function of the number of $b$-tagged jets in the event. 
 Unsurprisingly, the rates are very similar for $0b$ and $\ge 1b$ final states, 
 justifying the use of the fake rates measured in this section (i.e. in a $\ge 1b$ region) to predict fake muon background in all signal regions. 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.49\textwidth]{{TTBAR.BjetImpact.FakeRate.Muon}.pdf}
 \caption
@@ -212,7 +216,7 @@ as function of \pt\ and split according to the number of $b$-tagged jets in the 
 
 
 %%
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.49\textwidth]{IDEALTAG_CFTPROBE_PT_ELECTRON_SIGNAL}
 \includegraphics[width=0.49\textwidth]{TRILEP_IDEALTAG_PROBE_PT_ELECTRON_SIGNAL}
@@ -223,7 +227,7 @@ as described in section~\ref{subsubsec:fakes_matrix_fake_rate_electrons}.
 The yellow area indicates $t\bar t$ events in which the tag lepton is fake and the probe electron real, 
 leading to a measurement bias. 
 }
-\label{Fig:fakes_preselection_electron}
+\label{Figurefakes_preselection_electron}
 \end{figure}
 %%
 
@@ -246,16 +250,16 @@ and the measurement can be performed on the other electron.
 Events are acquired with the combination of single-muon (as in previous section) and $e\mu$ triggers. 
 
 
-Figure~\ref{Fig:fakes_preselection_electron} shows the number of signal probe electrons selected in the $e\mu$ and $\ell ee$ channels. 
+Figure~\ref{Figurefakes_preselection_electron} shows the number of signal probe electrons selected in the $e\mu$ and $\ell ee$ channels. 
 There are significantly fewer events selected in the trilepton channel. 
-Figure~\ref{Fig:fakes_MC_inclusive_rates_electron} shows the electron fake rate as a function of \pt\ or $\eta$ in $t\bar t$ MC. 
+Figure~\ref{Figurefakes_MC_inclusive_rates_electron} shows the electron fake rate as a function of \pt\ or $\eta$ in $t\bar t$ MC. 
 The variations of the rates as function of the pseudorapidity are not very large, 
 therefore measurements are only performed as a function of \pt. 
 The low \pt\ range is dominated by non-prompt electrons from heavy flavour decays, while beyond 30~\GeV, 
 electron fakes mostly come from conversions of photons produced inside jets, such as $\pi^0\to\gamma\gamma$ decays. 
 
 %%
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.49\textwidth]{{TTBAR.Incl.FakeRate.Electron}.pdf}
 \includegraphics[width=0.49\textwidth]{{TTBAR.Incl.FakeRateVsEta.Electron}.pdf}
@@ -264,7 +268,7 @@ electron fakes mostly come from conversions of photons produced inside jets, suc
 Electron fake rates in $t\bar t$ MC with an inclusive selection, 
 as function of \pt\ (left, yellow/green markers = with/without CFT cut applied) or $|\eta|$ in different momentum ranges (right). 
 }
-\label{Fig:fakes_MC_inclusive_rates_electron}
+\label{Figurefakes_MC_inclusive_rates_electron}
 \end{figure}
 %%
 
@@ -277,11 +281,8 @@ The rates are of the order of $10\%$ up to 30 \GeV, beyond which they increase
 up to 25\%. 
 
 %%
-\begin{table}[t!]
+\begin{table}[htb!]
 \def\arraystretch{1.15}
-\caption{Electron fake rate measured in data and the associated statistical uncertainty. 
-The systematic uncertainty originating from the subtraction of ``backgrounds'' with only prompt leptons is also displayed. }
-\label{table:fake_rates_electron}
 \def\arraystretch{1.15}
 \centering
 \resizebox{\textwidth}{!}{
@@ -297,20 +298,21 @@ $0.10 \pm 0.01 \pm 0.00$ & $0.10 \pm 0.01 \pm 0.01$ & $0.12 \pm 0.01 \pm 0.01$ &
 $0.07 \pm 0.02 \pm 0.01$ & $0.11 \pm 0.03 \pm 0.01$ & $0.20 \pm 0.07 \pm 0.03$ & $0.25 \pm 0.10 \pm 0.05$ \\
 \hline \hline
 \end{tabular}}
-
+\caption{Electron fake rate measured in data and the associated statistical uncertainty. 
+The systematic uncertainty originating from the subtraction of ``backgrounds'' with only prompt leptons is also displayed. }
+\label{table:fake_rates_electron}
 \end{table}
 
 Unlike muons, MC-based correction factors are not applied for final states with $\ge 2$ $b$-tagged jets. 
 This is because there is less good agreement between the measured rates and the simulation; 
 in particular the former take larger values in the medium-\pt\ range. 
-
 %%
-\par{\bf Systematic uncertainties\\}
 
+\par{\bf Systematic uncertainties\\}
 Similarly to the muon case, systematic uncertainties are assigned to cover for difference in the rates in the measurement regions and in the signal regions
 that would be due to different sources of fake leptons, or different kinematic properties of these sources. 
 Unlike muons, there is much less of a dependency to $H_\mathrm{T}$. 
-The dominant source of potential differences is therefore the origin of the fake electron (see Fig.~\ref{fig:fakes_MC_perSource_electron}); 
+The dominant source of potential differences is therefore the origin of the fake electron (see Figure~\ref{fig:fakes_MC_perSource_electron}); 
 for $\pt<20~\GeV$, non-prompt electrons from heavy--flavor hadron decays dominate,
 which is confirmed by the good agreement between MC fake rates and those measured in data. 
 In that range, an uncertainty of $30\%$ is assigned to the fake rates (inflated to $50\%$ for final states with $\ge 2b$-tagged jets). 
@@ -324,7 +326,7 @@ justifying the use of the fake rates measured in this section (i.e. in a $\ge 1b
 %We do not assign extra uncertainties for final states with $\ge 2b$-jets for $\pt>20$ GeV: if, indeed, the relative contribution of HF decays is smaller than expected in that range, 
 %then there should be less intrinsic difference between $0/1b$ and $\ge 2b$ final states, and those are already within the existing uncertainties. 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \includegraphics[width=0.49\textwidth]{{TTBAR.Incl.FakeRate.PerSource.Electron}.pdf}
 \includegraphics[width=0.49\textwidth]{{TTBAR.BjetImpact.FakeRate.Electron}.pdf}
@@ -354,7 +356,7 @@ All possible tag-and-probe combinations are considered in an event (including pe
 as long as the invariant mass of the pair is comprised between 80 and 100~\GeV. 
 Figure~\ref{fig:RLE_mll_distribution} illustrates this event selection.
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}[b]{0.45\textwidth}
 	\includegraphics[width=\textwidth]{baseline_and_signal_mll_distribution_Mee.pdf}
@@ -375,7 +377,7 @@ This template is built from the tag-and-probe invariant mass distribution for ba
 The background template is then normalized to the main tag-and-probe distribution in the background-dominated tail $120<m_{ee}<150~\GeV$. 
 The estimated level of background goes up to $4\%$, reached for probe electrons with $\pt<15~\GeV$ and $|\eta|<0.8$. 
 
-\begin{figure}[t!]
+\begin{figure}[htb!]
 \centering
 \begin{subfigure}{0.49\textwidth}
 \includegraphics[width=\textwidth]{real_electron_efficiency_total_systematics.pdf}
@@ -393,7 +395,7 @@ The error bars corresponds to the quadratic sum of the statistical and tag-and-p
 \label{fig:prompt_leptons_eff}
 \end{figure}
 
-The efficiency is measured as a function of \pt\ and $\eta$, and the results are presented in Fig~\ref{fig:prompt_leptons_eff} for electrons and muons. 
+The efficiency is measured as a function of \pt\ and $\eta$, and the results are presented in Figure\ref{fig:prompt_leptons_eff} for electrons and muons. 
 The background subtraction is applied on the electron channel only. 
 The following systematic uncertainties are assigned to the measured efficiencies: 
 
@@ -411,8 +413,6 @@ The uncertainty, taken as the difference in efficiencies, is parametrized as a f
 \end{itemize}
 %The resulting systematic uncertainties are summarized in Table~\ref{tab:RLE_systematics_bkg} and Table~\ref{tab:RLE_systematics_busy}. 
 The resulting systematic uncertainties are summarized in Table~\ref{tab:RLE_systematics_all} and Table~\ref{tab:RLE_systematics_busy}.
-
-
 \begin{center}
 \begin{table}
 \resizebox{\textwidth}{!}{%

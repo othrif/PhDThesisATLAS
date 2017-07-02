@@ -1,7 +1,7 @@
 10
 
 dir
-274453
+275002
 svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2016/sameSign/winter2017/PAPER/figures
 svn+ssh://svn.cern.ch/reps/atlasphys-susp
 
@@ -604,9 +604,6 @@ has-props
 
 35698
 
-EffAcc
-dir
-
 PAPER_DILEP_2JMET50_nbjets.pdf
 file
 
@@ -640,6 +637,9 @@ has-props
 
 
 18557
+
+EffAcc
+dir
 
 SR3Lbest.pdf
 file
