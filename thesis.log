@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  1 JUL 2017 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.18)  3 JUL 2017 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1555,13 +1555,13 @@ File: figures/exp/all_atlas.jpeg Graphic file (type jpg)
 Package pdftex.def Info: figures/exp/all_atlas.jpeg used on input line 29.
 (pdftex.def)             Requested size: 391.34059pt x 252.74147pt.
  [36 <./figures/exp/all_atlas.jpeg>] [37]
-<figures/exp/id.jpg, id=1125, 3613.5pt x 2409.0pt>
+<figures/exp/id.jpg, id=1124, 3613.5pt x 2409.0pt>
 File: figures/exp/id.jpg Graphic file (type jpg)
  <use figures/exp/id.jpg>
 Package pdftex.def Info: figures/exp/id.jpg used on input line 107.
 (pdftex.def)             Requested size: 391.34059pt x 260.87389pt.
 
-<figures/exp/id_ibl.png, id=1126, 250.34328pt x 218.2554pt>
+<figures/exp/id_ibl.png, id=1125, 250.34328pt x 218.2554pt>
 File: figures/exp/id_ibl.png Graphic file (type png)
 
 <use figures/exp/id_ibl.png>
@@ -3597,7 +3597,7 @@ per/sftt1200.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/public/txfo
 nts/txsy.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/urw/helvetic/uh
 vb8a.pfb></afs/cern.ch/sw/XML/TL2014/texmf-dist/fonts/type1/urw/helvetic/uhvr8a
 .pfb>
-Output written on thesis.pdf (274 pages, 25440228 bytes).
+Output written on thesis.pdf (274 pages, 25440593 bytes).
 PDF statistics:
  12379 PDF objects out of 12825 (max. 8388607)
  7063 compressed objects within 71 object streams
