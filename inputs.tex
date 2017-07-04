@@ -1,0 +1,44 @@
+% \documentclass[linenumbers,summarypage,hyperlinks]{outhesis}
+\documentclass{outhesis}
+
+% For a bibliography style, you must have the appropriate .bst file
+%\bibliographystyle{prsty}
+\bibliographystyle{bibtex/bst/atlasBibStyleWoTitle}
+
+% Provide the correct margins
+%\usepackage[top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+% If you want a double-sided copy for yourself, uncomment the next line
+% \usepackage[twoside,top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+
+\usepackage[singlespacing]{setspace}
+
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+\usepackage{\ATLASLATEXPATH atlasmisc}
+\usepackage{\ATLASLATEXPATH atlasbsm}
+\usepackage{\ATLASLATEXPATH atlasphysics}
+\usepackage{\ATLASLATEXPATH myadditions}
+
+\begin{document}
+
+\begin{equation}
+%\begin{aligned}
+ L(\{N^\text{SS,obs}_\varpi\}|\{\xi(\eta,\pt)\}) 
+= 
+ \prod_{\varpi} \mathcal P\left(N^\text{SS,obs}_\varpi|w_\text{flip}(\xi(\eta_1,p_{\mathrm{T},1}),\xi(\eta_2,p_{\mathrm{T},2}))\times N^\text{OS+SS,obs}_\varpi\right)
+\label{eqn:chargeflip_likelihood}
+%\end{aligned}
+\end{equation}
+
+
+\begin{align}
+\begin{pmatrix}n_\text{T}\\n_\text{L}\end{pmatrix} 
+= \begin{pmatrix}\varepsilon_r & \varepsilon_f\\ 1-\varepsilon_r & 1-\varepsilon_f\end{pmatrix}
+\begin{pmatrix}n_\text{R}\\n_\text{F}\end{pmatrix}
+\label{eqn:matrix_method}
+\end{align}
+
+
+\end{document}
+
+
