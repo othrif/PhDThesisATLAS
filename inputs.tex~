@@ -1,0 +1,148 @@
+% \documentclass[linenumbers,summarypage,hyperlinks]{outhesis}
+\documentclass{outhesis}
+
+% For a bibliography style, you must have the appropriate .bst file
+%\bibliographystyle{prsty}
+\bibliographystyle{bibtex/bst/atlasBibStyleWoTitle}
+
+% Provide the correct margins
+%\usepackage[top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+% If you want a double-sided copy for yourself, uncomment the next line
+% \usepackage[twoside,top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+
+\usepackage[singlespacing]{setspace}
+
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+\usepackage{\ATLASLATEXPATH atlasmisc}
+\usepackage{\ATLASLATEXPATH atlasbsm}
+\usepackage{\ATLASLATEXPATH atlasphysics}
+\usepackage{\ATLASLATEXPATH myadditions}
+
+\begin{document}
+
+\begin{equation}
+%\begin{aligned}
+ L(\{N^\text{SS,obs}_\varpi\}|\{\xi(\eta,\pt)\}) 
+= 
+ \prod_{\varpi} \mathcal P\left(N^\text{SS,obs}_\varpi|w_\text{flip}(\xi(\eta_1,p_{\mathrm{T},1}),\xi(\eta_2,p_{\mathrm{T},2}))\times N^\text{OS+SS,obs}_\varpi\right)
+\label{eqn:chargeflip_likelihood}
+%\end{aligned}
+\end{equation}
+
+
+\begin{align}
+\begin{pmatrix}n_\text{T}\\n_\text{L}\end{pmatrix} 
+= \begin{pmatrix}\varepsilon_r & \varepsilon_f\\ 1-\varepsilon_r & 1-\varepsilon_f\end{pmatrix}
+\begin{pmatrix}n_\text{R}\\n_\text{F}\end{pmatrix}
+\label{eqn:matrix_method}
+\end{align}
+
+
+
+
+\[
+\varepsilon_f=\frac{n_\text{signal}^\text{data} - n_\text{signal}^\text{MC}}{n_\text{baseline}^\text{data} - n_\text{baseline}^\text{MC}}
+\]
+
+
+\[
+\varepsilon_r=\frac{n_\text{signal}^\text{data}}{n_\text{baseline}^\text{data} - n_\text{baseline}^\text{BKG}}
+\]
+
+
+
+
+\begin{table}[htb!]
+\def\arraystretch{1.15}
+\def\arraystretch{1.15}
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|} \hline\hline
+             $10<\pt<12$ &              $12<\pt<14$ &              $14<\pt<17$ &             $17<\pt<20$ \\
+$0.10 \pm 0.01 \pm 0.00$ & $0.10 \pm 0.01 \pm 0.01$ & $0.12 \pm 0.01 \pm 0.01$ & $0.08 \pm 0.02 \pm 0.00$ \\
+\hline 
+\end{tabular}}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|} \hline
+             $20<\pt<25$ &              $25<\pt<30$ &              $30<\pt<40$ &             $40>\pt$ \\
+$0.07 \pm 0.02 \pm 0.01$ & $0.11 \pm 0.03 \pm 0.01$ & $0.20 \pm 0.07 \pm 0.03$ & $0.25 \pm 0.10 \pm 0.05$ \\
+\hline \hline
+\end{tabular}}
+\caption{Electron fake rate measured in data and the associated statistical uncertainty. 
+The systematic uncertainty originating from the subtraction of ``backgrounds'' with only prompt leptons is also displayed. }
+\label{table:fake_rates_electron}
+\end{table}
+
+
+\begin{table}[htb!]
+\def\arraystretch{1.15}
+\def\arraystretch{1.15}
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|} \hline\hline
+\multicolumn{2}{|c|}{$10<\pt<12~\GeV$}         & \multicolumn{2}{c|}{$12<\pt<14$}                  \\  
+%\hline 
+$|\eta|<2.3$             & $|\eta|>2.3$             & $|\eta|<2.3$             & $|\eta|>2.3$            \\
+%\hline
+$0.14 \pm 0.01 \pm 0.00$ & $0.22 \pm 0.05 \pm 0.00$ & $0.11 \pm 0.01 \pm 0.00$ & $0.24 \pm 0.06 \pm 0.00$ \\ 
+\hline
+\end{tabular}}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|} \hline
+\multicolumn{2}{|c|}{$14<\pt<17$}                    & \multicolumn{2}{c|}{$17<\pt< 20~\GeV$}       \\       
+%\hline
+$|\eta|<2.3$             & $|\eta|>2.3$             & $|\eta|<2.3$             & $|\eta|>2.3$            \\    
+%\hline
+$0.12 \pm 0.01 \pm 0.00$ & $0.09 \pm 0.05 \pm 0.00$ & $0.09 \pm 0.01 \pm 0.00$ & $0.21 \pm 0.07 \pm 0.00$ \\
+\hline 
+\end{tabular}}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|} \hline
+             $20<\pt<30$ &              $30<\pt<40$ &              $40<\pt<60$ &                $\pt>60$ \\
+%\hline
+$0.07 \pm 0.02 \pm 0.00$ & $0.12 \pm 0.05 \pm 0.01$ & $0.16 \pm 0.09 \pm 0.04$ & $0.49 \pm 0.10 \pm 0.07$ \\
+\hline \hline
+\end{tabular}}
+\caption{Muon fake rate measured in data and the associated statistical uncertainty. 
+The systematic uncertainty originating from the subtraction of ``backgrounds'' with only prompt leptons is also displayed. }
+\label{table:fake_rates_muon}
+\end{table}
+
+\begin{table}[!htb]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c||c|c||c|}\hline
+      Region &              Matrix method   &   Template method   &     Retained estimate  \\\hline
+    Rpc2L0bH & $ 0.83 \pm  0.56 \pm  0.74$  &  $1.00 \pm 0.96 \pm 0.81$   &  $ 0.87 \pm  0.48 \pm  0.76$  \\
+    Rpc2L0bS & $ 1.51 \pm  0.60 \pm  0.66$  &  $1.68 \pm 1.02 \pm 1.26$  &  $ 1.55 \pm  0.52 \pm  0.81$  \\
+    Rpc2L1bH & $ 3.54 \pm  1.62 \pm  3.12$  &  $2.07 \pm 0.63 \pm 1.56$   &  $ 2.26 \pm  0.59 \pm  1.76$  \\
+    Rpc2L1bS & $ 2.65 \pm  1.21 \pm  1.89$  &  $2.33 \pm 1.17 \pm 2.10$   &  $ 2.48 \pm  0.84 \pm  2.00$  \\ 
+    Rpc2L2bH & $-0.11 \pm  0.11 \pm  0.18$  &  $<0.5$  &  $ 0.15 \pm 0.15 \pm  0.00$  \\
+    Rpc2L2bS & $ 1.31 \pm  1.07 \pm  1.65$  &  $0.41 \pm 0.33 \pm 0.45$   &  $ 0.49 \pm  0.32 \pm  0.55$  \\
+    Rpc2Lsoft1b & $ 4.75 \pm  1.42 \pm  2.64$  &  $2.48 \pm 1.32 \pm 1.86$  &  $ 3.53 \pm  0.97 \pm  2.22$  \\
+    Rpc2Lsoft2b & $ 1.91 \pm  1.18 \pm  1.63$  &  $1.66 \pm 0.66 \pm 1.28$  &  $ 1.72 \pm  0.58 \pm  1.36$  \\
+    Rpc3L0bH & $-0.01 \pm  0.11 \pm  0.10$  &  $<0.5$  &  $ 0.15 \pm  0.15 \pm  0.00$  \\
+    Rpc3L0bS & $ 2.31 \pm  1.50 \pm  2.63$  &  $0.21 \pm 0.15 \pm 0.16$  &  $ 0.23 \pm  0.15 \pm  0.18$  \\
+    Rpc3L1bH & $ 0.57 \pm  0.43 \pm  0.50$  &  $0.42 \pm 0.29 \pm 0.32$  &  $ 0.47 \pm  0.24 \pm  0.38$  \\
+    Rpc3L1bS & $ 4.94 \pm  1.83 \pm  2.96$  &  $3.55 \pm 1.80 \pm 2.76$  &  $ 4.23 \pm  1.28 \pm  2.86$  \\
+    Rpc3LSS1b & $-0.18 \pm  1.24 \pm  2.85$  &  $0.90 \pm 0.14 \pm 0.69$  &  $ 0.89 \pm  0.14 \pm  0.72$  \\
+\hline
+\end{tabular}
+}
+\caption{Expected yields for background processes with fake leptons,
+in the signal regions  shown for 36 \ifb. 
+Estimates from the matrix method and the MC template method are shown along with the retained estimates.
+Uncertainties include all statistical and systematic sources for the nominal estimate.
+}
+\label{tab:fakes_sr_yields}
+\end{table}
+
+
+
+\end{document}
+
+
