@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2017 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 JUL 2017 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,21 +1298,22 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 116.
- (./inputs.xwm)
-(./inputs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+ [2]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 146.
+
+(./inputs.xwm) (./inputs.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `inputs.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 27409 strings out of 493014
- 526236 string characters out of 6133351
- 693566 words of memory out of 5000000
- 30419 multiletter control sequences out of 15000+600000
+ 27412 strings out of 493014
+ 526278 string characters out of 6133351
+ 703886 words of memory out of 5000000
+ 30420 multiletter control sequences out of 15000+600000
  14054 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,95p,918b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1323,13 +1324,14 @@ sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/mathabx-type1/matha12.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on inputs.pdf (1 page, 91907 bytes).
+ocal/texlive/2016/texmf-dist/fonts/type1/public/mathabx-type1/matha8.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/mathabx-type1/mathx10.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on inputs.pdf (2 pages, 98430 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  6253 words of extra memory for PDF output out of 10000 (max. 10000000)
 
