@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.1.2}The Electroweak Theory}{12}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Limitations of the Standard Model}{15}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Supersymmetry}{20}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Principles of Supersymmetry}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.1}Principles of Supersymmetry}{20}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Supersymmetric Phenomenology}{23}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}The Hierarchy Problem}{27}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Discovery at the LHC}{28}{section.2.3}
@@ -79,7 +79,7 @@
 \contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{164}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Matrix Method}{172}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}MC Template Method}{189}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{192}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{190}{subsection.7.3.4}
 \contentsline {section}{\numberline {7.4}Systematic uncertainties}{201}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{201}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{204}{subsection.7.4.2}
