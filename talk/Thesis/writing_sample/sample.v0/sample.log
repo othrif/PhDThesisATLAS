@@ -1,0 +1,1117 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 MAR 2017 19:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sample.tex
+(./sample.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(./outhesis.cls (/usr/local/texlive/2015/texmf-dist/tex/latex/braket/braket.sty
+)
+Document Class: outhesis 2010/08/23 v1.0 Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen102
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen103
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count79
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count80
+\leftroot@=\count81
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count82
+\DOTSCASE@=\count83
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count84
+\c@MaxMatrixCols=\count85
+\dotsspace@=\muskip10
+\c@parentequation=\count86
+\dspbrk@lvl=\count87
+\tag@help=\toks16
+\row@=\count88
+\column@=\count89
+\maxfields@=\count90
+\andhelp@=\toks17
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks18
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen111
+\pgfutil@tempdimb=\dimen112
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks24
+))
+\pgf@x=\dimen115
+\pgf@y=\dimen116
+\pgf@xa=\dimen117
+\pgf@ya=\dimen118
+\pgf@xb=\dimen119
+\pgf@yb=\dimen120
+\pgf@xc=\dimen121
+\pgf@yc=\dimen122
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count92
+\c@pgf@countb=\count93
+\c@pgf@countc=\count94
+\c@pgf@countd=\count95
+\t@pgf@toka=\toks25
+\t@pgf@tokb=\toks26
+\t@pgf@tokc=\toks27
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count96
+\pgfsyssoftpath@bigbuffer@items=\count97
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen123
+\pgfmath@count=\count98
+\pgfmath@box=\box29
+\pgfmath@toks=\toks28
+\pgfmath@stack@operand=\toks29
+\pgfmath@stack@operation=\toks30
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count99
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen124
+\pgf@picmaxx=\dimen125
+\pgf@picminy=\dimen126
+\pgf@picmaxy=\dimen127
+\pgf@pathminx=\dimen128
+\pgf@pathmaxx=\dimen129
+\pgf@pathminy=\dimen130
+\pgf@pathmaxy=\dimen131
+\pgf@xx=\dimen132
+\pgf@xy=\dimen133
+\pgf@yx=\dimen134
+\pgf@yy=\dimen135
+\pgf@zx=\dimen136
+\pgf@zy=\dimen137
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen138
+\pgf@path@lasty=\dimen139
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen140
+\pgf@shorten@start@additional=\dimen141
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count100
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen142
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen143
+\pgf@pt@y=\dimen144
+\pgf@pt@temp=\dimen145
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen146
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen147
+\pgf@sys@shading@range@num=\count101
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box33
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box34
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen148
+\pgf@nodesepend=\dimen149
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen150
+\pgffor@skip=\dimen151
+\pgffor@stack=\toks31
+\pgffor@toks=\toks32
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count102
+\pgfplotmarksize=\dimen152
+)
+\tikz@lastx=\dimen153
+\tikz@lasty=\dimen154
+\tikz@lastxsaved=\dimen155
+\tikz@lastysaved=\dimen156
+\tikzleveldistance=\dimen157
+\tikzsiblingdistance=\dimen158
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count103
+\tikznumberofchildren=\count104
+\tikznumberofcurrentchild=\count105
+\tikz@fig@count=\count106
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count107
+\pgfmatrixcurrentcolumn=\count108
+\pgf@matrix@numberofcolumns=\count109
+)
+\tikz@expandcount=\count110
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.0 (rcs-revision 1.5)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.0 (rcs-revision 1.6)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.0 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.0 (rcs-revision 1.2)
+\pgfnodepartlowerbox=\box39
+\pgfnodeparttwobox=\box40
+\pgfnodepartthreebox=\box41
+\pgfnodepartfourbox=\box42
+\pgfnodeparttwentybox=\box43
+\pgfnodepartnineteenbox=\box44
+\pgfnodeparteighteenbox=\box45
+\pgfnodepartseventeenbox=\box46
+\pgfnodepartsixteenbox=\box47
+\pgfnodepartfifteenbox=\box48
+\pgfnodepartfourteenbox=\box49
+\pgfnodepartthirteenbox=\box50
+\pgfnodeparttwelvebox=\box51
+\pgfnodepartelevenbox=\box52
+\pgfnodeparttenbox=\box53
+\pgfnodepartninebox=\box54
+\pgfnodeparteightbox=\box55
+\pgfnodepartsevenbox=\box56
+\pgfnodepartsixbox=\box57
+\pgfnodepartfivebox=\box58
+)))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen159
+\pgfdecoratedremainingdistance=\dimen160
+\pgfdecoratedinputsegmentcompleteddistance=\dimen161
+\pgfdecoratedinputsegmentremainingdistance=\dimen162
+\pgf@decorate@distancetomove=\dimen163
+\pgf@decorate@repeatstate=\count111
+\pgfdecorationsegmentamplitude=\dimen164
+\pgfdecorationsegmentlength=\dimen165
+)
+\tikz@lib@dec@box=\box59
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count112
+\c@chapter=\count113
+\c@section=\count114
+\c@subsection=\count115
+\c@subsubsection=\count116
+\c@paragraph=\count117
+\c@subparagraph=\count118
+\c@figure=\count119
+\c@table=\count120
+\abovecaptionskip=\skip44
+\belowcaptionskip=\skip45
+\bibindent=\dimen166
+\absbox=\box60
+\ackbox=\box61
+\dedbox=\box62
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks33
+\MT@count=\count121
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen167
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count122
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip46
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+\c@totalfigure=\count123
+\c@totaltable=\count124
+\c@totalbibitem=\count125
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count126
+\Gm@cntv=\count127
+\c@Gm@tempcnt=\count128
+\Gm@bindingoffset=\dimen168
+\Gm@wd@mp=\dimen169
+\Gm@odd@mp=\dimen170
+\Gm@even@mp=\dimen171
+\Gm@layoutwidth=\dimen172
+\Gm@layoutheight=\dimen173
+\Gm@layouthoffset=\dimen174
+\Gm@layoutvoffset=\dimen175
+\Gm@dimlist=\toks34
+)
+(./atlasphysics.sty
+\hrs=\count129
+\minu=\count130
+\temptime=\count131
+\boxsqbox=\box63
+\boxsize=\dimen176
+\dkwidth=\dimen177
+) (./susydefs.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hepparticles/hepparticles.sty
+Package: hepparticles 2014/12/01 HEP particle typesetting (v2.0)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subdepth/subdepth.sty
+Package: subdepth 2007/09/02 v0.1 Unify subscript depths
+)
+LaTeX Font Info:    Overwriting math alphabet `\mathup' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 110.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfup' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 113.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfit' in version `bold'
+(Font)                  OT1/cmss/m/sl --> OT1/cmss/bx/sl on input line 116.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip47
+\subfigcapskip=\skip48
+\subfigcaptopadj=\dimen178
+\subfigbottomskip=\skip49
+\subfigcapmargin=\dimen179
+\subfiglabelskip=\skip50
+\c@subfigure=\count132
+\c@lofdepth=\count133
+\c@subtable=\count134
+\c@lotdepth=\count135
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip51
+\subfig@bottom=\skip52
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count136
+\float@exts=\toks35
+\float@box=\box64
+\@float@everytoks=\toks36
+\@floatcapt=\box65
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(./sample.aux)
+\openout1 = `sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+ ABD: EveryShipout initializing macros
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count137
+\scratchdimen=\dimen180
+\scratchbox=\box66
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen181
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks38
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 23.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(115.63243pt, 411.9388pt, 86.72377pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=411.9388pt
+* \textheight=650.43001pt
+* \oddsidemargin=43.36244pt
+* \evensidemargin=43.36244pt
+* \topmargin=0.0pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=0.0pt
+* \footskip=36.135pt
+* \marginparwidth=47.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[1
+
+
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+(./sample.toc)
+\tf@toc=\write4
+\openout4 = `sample.toc'.
+
+ [2
+
+] (./sample.lot)
+\tf@lot=\write5
+\openout5 = `sample.lot'.
+
+ [3
+
+] (./sample.lof)
+\tf@lof=\write6
+\openout6 = `sample.lof'.
+
+ [4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 64--84
+
+ []
+
+[1
+
+] (./intro.tex [2] [3] [4]) (./models.tex
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/sbsb-t
+tWWN1N1.pdf, id=43, 127.47626pt x 102.3825pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/s
+bsb-ttWWN1N1.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/sb
+sb-ttWWN1N1.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/sbsb-ttWWN1N1.pdf used on input line 10.
+(pdftex.def)             Requested size: 98.86757pt x 79.40967pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/gogo-t
+tttN1N1.pdf, id=44, 128.48pt x 102.3825pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/g
+ogo-ttttN1N1.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/go
+go-ttttN1N1.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/gogo-ttttN1N1.pdf used on input line 11.
+(pdftex.def)             Requested size: 98.86757pt x 78.78633pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/ATLAS_
+SUSY_Gtt.png, id=45, 1903.11pt x 1798.72pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/A
+TLAS_SUSY_Gtt.png Graphic file (type png)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/AT
+LAS_SUSY_Gtt.png>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/ATLAS_SUSY_Gtt.png used on input line 19.
+(pdftex.def)             Requested size: 201.85226pt x 190.77869pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/exclus
+ion_sbottom_topC1_both_grids.pdf, id=46, 569.12625pt x 539.01375pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/e
+xclusion_sbottom_topC1_both_grids.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/ex
+clusion_sbottom_topC1_both_grids.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/exclusion_sbottom_topC1_both_grids.pdf used on input line 20.
+
+(pdftex.def)             Requested size: 201.85226pt x 191.17438pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--40
+
+ []
+
+[5 </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/sbs
+b-ttWWN1N1.pdf> </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGUR
+ES/MODELS/gogo-ttttN1N1.pdf>] [6 </Users/othmane/Documents/Thesis/writing_sampl
+e/sample.v0/FIGURES/MODELS/ATLAS_SUSY_Gtt.png (PNG copy)> </Users/othmane/Docum
+ents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/exclusion_sbottom_topC1_bot
+h_grids.pdf, page is rotated 90 degrees>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--54
+
+ []
+
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/gogo-q
+qqqWWZZN1N1-C1N2.pdf, id=135, 127.47626pt x 105.39375pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/g
+ogo-qqqqWWZZN1N1-C1N2.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/go
+go-qqqqWWZZN1N1-C1N2.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/gogo-qqqqWWZZN1N1-C1N2.pdf used on input line 57.
+(pdftex.def)             Requested size: 98.86757pt x 81.74522pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/gogo-q
+qqqllllN1N1-N2.pdf, id=136, 128.48pt x 110.4125pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/g
+ogo-qqqqllllN1N1-N2.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/go
+go-qqqqllllN1N1-N2.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/gogo-qqqqllllN1N1-N2.pdf used on input line 60.
+(pdftex.def)             Requested size: 98.86757pt x 84.96564pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/run1ex
+cluded_gluino2stepWZ.pdf, id=137, 569.12625pt x 385.44pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/r
+un1excluded_gluino2stepWZ.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/ru
+n1excluded_gluino2stepWZ.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/run1excluded_gluino2stepWZ.pdf used on input line 69.
+(pdftex.def)             Requested size: 201.85226pt x 136.7057pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/run1ex
+cluded_gluino2stepSleptons.png, id=138, 542.77782pt x 377.15906pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/r
+un1excluded_gluino2stepSleptons.png Graphic file (type png)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/ru
+n1excluded_gluino2stepSleptons.png>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/MODELS/run1excluded_gluino2stepSleptons.png used on input line 71.
+(pdftex.def)             Requested size: 201.85226pt x 140.26028pt.
+ [7] [8 </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODEL
+S/gogo-qqqqWWZZN1N1-C1N2.pdf> </Users/othmane/Documents/Thesis/writing_sample/s
+ample.v0/FIGURES/MODELS/gogo-qqqqllllN1N1-N2.pdf> </Users/othmane/Documents/The
+sis/writing_sample/sample.v0/FIGURES/MODELS/run1excluded_gluino2stepWZ.pdf> </U
+sers/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/MODELS/run1exclu
+ded_gluino2stepSleptons.png>] [9]) [10]
+(./sr.tex [11]
+Overfull \hbox (52.53pt too wide) in paragraph at lines 22--26
+ [] 
+ []
+
+[12]
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [13]
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Scan1.pdf, id=210, 504.94926pt x 369.9458pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Scan1.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Scan1.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Scan1.pdf used on input line 56.
+(pdftex.def)             Requested size: 201.85226pt x 147.88538pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Scan2.pdf, id=211, 492.39935pt x 363.10234pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Scan2.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Scan2.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Scan2.pdf used on input line 57.
+(pdftex.def)             Requested size: 201.85226pt x 148.85075pt.
+ [14 </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Scan1.pdf> </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGUR
+ES/OPTIMIZATION/Scan2.pdf>]
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR1b_2fb.pdf, id=346, 569.12625pt x 192.72pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR1b_2fb.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR1b_2fb.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR1b_2fb.pdf used on input line 153.
+(pdftex.def)             Requested size: 370.7424pt x 125.5488pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR3b_2fb.pdf, id=347, 569.12625pt x 192.72pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR3b_2fb.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR3b_2fb.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR3b_2fb.pdf used on input line 154.
+(pdftex.def)             Requested size: 370.7424pt x 125.5488pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR0b5j_2fb.pdf, id=348, 569.12625pt x 192.72pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b5j_2fb.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR0b5j_2fb.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b5j_2fb.pdf used on input line 155.
+(pdftex.def)             Requested size: 370.7424pt x 125.5488pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR0b3j_2fb.pdf, id=349, 569.12625pt x 193.72375pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b3j_2fb.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR0b3j_2fb.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b3j_2fb.pdf used on input line 156.
+(pdftex.def)             Requested size: 370.7424pt x 126.20271pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR1b_2fb_125_500.pdf, id=350, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR1b_2fb_125_500.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR1b_2fb_125_500.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR1b_2fb_125_500.pdf used on input line 165.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR3b_2fb_100_600.pdf, id=351, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR3b_2fb_100_600.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR3b_2fb_100_600.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR3b_2fb_100_600.pdf used on input line 166.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR0b5j_2fb_100_600.pdf, id=352, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b5j_2fb_100_600.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR0b5j_2fb_100_600.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b5j_2fb_100_600.pdf used on input line 167.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR0b3j_2fb_150_500.pdf, id=353, 569.12625pt x 547.04375pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b3j_2fb_150_500.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR0b3j_2fb_150_500.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b3j_2fb_150_500.pdf used on input line 168.
+(pdftex.def)             Requested size: 164.773pt x 158.37985pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR1b_4fb_150_600.pdf, id=354, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR1b_4fb_150_600.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR1b_4fb_150_600.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR1b_4fb_150_600.pdf used on input line 176.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR3b_4fb_125_700.pdf, id=355, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR3b_4fb_125_700.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR3b_4fb_125_700.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR3b_4fb_125_700.pdf used on input line 177.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR0b5j_4fb_125_700.pdf, id=356, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b5j_4fb_125_700.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR0b5j_4fb_125_700.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b5j_4fb_125_700.pdf used on input line 178.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+
+</Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/
+Optimiz_SR0b3j_4fb_200_600.pdf, id=357, 569.12625pt x 546.04pt>
+File: /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b3j_4fb_200_600.pdf Graphic file (type pdf)
+
+<use /Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZAT
+ION/Optimiz_SR0b3j_4fb_200_600.pdf>
+Package pdftex.def Info: /Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b3j_4fb_200_600.pdf used on input line 179.
+(pdftex.def)             Requested size: 164.773pt x 158.08925pt.
+) [15] [16 </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OP
+TIMIZATION/Optimiz_SR1b_2fb.pdf, page is rotated 90 degrees> </Users/othmane/Do
+cuments/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/Optimiz_SR3b_2fb.p
+df, page is rotated 90 degrees> </Users/othmane/Documents/Thesis/writing_sample
+/sample.v0/FIGURES/OPTIMIZATION/Optimiz_SR0b5j_2fb.pdf, page is rotated 90 degr
+ees> </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b3j_2fb.pdf, page is rotated 90 degrees>] [17 </Users/othmane/D
+ocuments/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/Optimiz_SR1b_2fb_
+125_500.pdf, page is rotated 90 degrees> </Users/othmane/Documents/Thesis/writi
+ng_sample/sample.v0/FIGURES/OPTIMIZATION/Optimiz_SR3b_2fb_100_600.pdf, page is 
+rotated 90 degrees> </Users/othmane/Documents/Thesis/writing_sample/sample.v0/F
+IGURES/OPTIMIZATION/Optimiz_SR0b5j_2fb_100_600.pdf, page is rotated 90 degrees>
+ </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION
+/Optimiz_SR0b3j_2fb_150_500.pdf, page is rotated 90 degrees>] [18 </Users/othma
+ne/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZATION/Optimiz_SR1b_
+4fb_150_600.pdf, page is rotated 90 degrees> </Users/othmane/Documents/Thesis/w
+riting_sample/sample.v0/FIGURES/OPTIMIZATION/Optimiz_SR3b_4fb_125_700.pdf, page
+ is rotated 90 degrees> </Users/othmane/Documents/Thesis/writing_sample/sample.
+v0/FIGURES/OPTIMIZATION/Optimiz_SR0b5j_4fb_125_700.pdf, page is rotated 90 degr
+ees> </Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/OPTIMIZA
+TION/Optimiz_SR0b3j_4fb_200_600.pdf, page is rotated 90 degrees>] (./sample.aux
+) ) 
+Here is how much of TeX's memory you used:
+ 17551 strings out of 493089
+ 362527 string characters out of 6134842
+ 474707 words of memory out of 5000000
+ 20516 multiletter control sequences out of 15000+600000
+ 18355 words of font info for 114 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,11n,69p,2938b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbs
+y8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on sample.pdf (22 pages, 1553264 bytes).
+PDF statistics:
+ 949 PDF objects out of 1000 (max. 8388607)
+ 494 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 17531 words of extra memory for PDF output out of 20736 (max. 10000000)
+

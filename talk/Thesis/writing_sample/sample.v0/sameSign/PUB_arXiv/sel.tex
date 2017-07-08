@@ -1,0 +1,119 @@
+Candidate events are required to have a reconstructed vertex~\cite{ATL-PHYS-PUB-2015-026}, 
+with at least two associated tracks with $\pt >400$~MeV, 
+and the vertex with the highest sum of squared transverse 
+momentum of the tracks is considered as primary vertex.
+In order to perform background estimations using data, 
+two categories of electrons and muons are defined: 
+``candidate'' and ``signal'' (the latter being a subset of the ``candidate'' leptons satisfying tighter selection criteria). 
+
+Electron candidates are reconstructed from an isolated electromagnetic 
+calorimeter energy deposit matched to an ID track and are required to have $|\eta|<2.47$, 
+a transverse momentum $\pT>\SI{10}{\GeV}$, 
+and to pass a loose likelihood-based identification requirement~\cite{elecperf,ATL-PHYS-PUB-2015-041}. 
+The likelihood input variables include measurements of calorimeter shower shapes and measurements of track properties from the ID. 
+Candidates within the transition region between the barrel and endcap electromagnetic calorimeters,
+$1.37<|\eta|<1.52$, are removed. 
+The track matched with the electron must have a significance of the transverse impact parameter 
+with respect to the reconstructed primary vertex, $d_0$, of $\vert d_0\vert/\sigma(d_0) < 5$.
+
+Muon candidates are reconstructed in the region $|\eta|<2.5$ 
+from muon spectrometer tracks matching ID tracks.
+All muons must have $\pT>\SI{10}{\GeV}$ and must pass the medium identification requirements defined in Ref.~\cite{Run2Muon}, 
+based on selections on the number of hits in the different ID and muon spectrometer subsystems, 
+and the significance of the charge to momentum ratio $q/p$~\cite{Run2Muon}.
+
+Jets are reconstructed with the anti-$k_t$
+algorithm~\cite{Cacciari:2008} with radius parameter $R=0.4$, using three-dimensional energy
+clusters in the calorimeter~\cite{caloclusters} as input. 
+All jets must have $\pT>\SI{20}{\GeV}$ and $|\eta|<2.8$.
+Jets are calibrated as described in Ref.~\cite{ATLAS-PHYS-PUB-2015-015}.
+In order to reduce the effects of pile-up, 
+for jets with $\pt<\SI{50}{GeV}$ and $|\eta|<2.4$ a significant fraction of the tracks associated with each jet
+must have an origin compatible with the primary vertex, 
+as defined by the jet vertex tagger~\cite{ATLAS-CONF-2014-018}. 
+Furthermore, for all jets the expected average energy contribution from
+pile-up clusters is subtracted according to the jet area~\cite{ATLAS-PHYS-PUB-2015-015}.
+
+Identification of jets containing $b$-hadrons ($b$-tagging) is performed with the MV2c20 algorithm, 
+a multivariate discriminant making use of track impact parameters 
+and reconstructed secondary vertices~\cite{Aad:2015ydr,ATL-PHYS-PUB-2015-022}.
+A requirement is chosen corresponding to a 70\% average efficiency 
+obtained for $b$-jets in simulated $\ttbar$ events. 
+The rejection factors for light-quark jets, $c$-quark jets and hadronically decaying $\tau$ leptons in simulated $\ttbar$ events 
+are approximately 440, 8 and 26, respectively~\cite{ATL-PHYS-PUB-2015-022}. 
+Jets with $|\eta|<2.5$ which satisfy this $b$-tagging requirement are identified as $b$-jets. 
+To compensate for differences between data and MC simulation in the $b$-tagging efficiencies and mis-tag rates, 
+correction factors are applied to the simulated samples~\cite{ATL-PHYS-PUB-2015-022}. 
+
+After object identification, overlaps between objects are resolved. 
+Any jet within a distance $\Delta R_y =\sqrt{(\Delta y)^2+(\Delta\phi)^2}$ = 0.2 of an electron candidate is discarded, 
+unless the jet has a value of the MV2c20 discriminant larger than the value corresponding to approximately an 80\% $b$-tagging efficiency, 
+in which case the electron is discarded since it is likely originating from a semileptonic $b$-hadron decay. 
+Any remaining electron within $\Delta R_y=$ 0.4 of a jet is discarded. 
+Muons within $\Delta R_y=$ 0.4 of a jet are also removed. 
+However, if the jet has fewer than three associated tracks, the muon is kept and the jet is discarded instead 
+to avoid inefficiencies for high-energy muons undergoing significant energy loss in the calorimeter.
+
+Signal electrons must satisfy a tight likelihood-based identification requirement~\cite{elecperf,ATL-PHYS-PUB-2015-041} 
+and have $|\eta|<2$ to reduce the impact of electron charge mis-identification. 
+Signal muons must fulfil the requirement of $\vert d_0\vert/\sigma(d_0) < 3$. 
+The track associated to the signal leptons must have a longitudinal impact parameter with respect to the reconstructed primary vertex, $z_0$, 
+satisfying $\vert z_0 \sin\theta\vert  < 0.5$~mm. 
+Isolation requirements are applied to both the signal electrons and muons. 
+The  scalar sum of the \pt of tracks within a variable-size cone around the lepton, 
+excluding its own track, must be less than 6\% of the lepton \pt. 
+The track isolation cone radius for electrons (muons) 
+$\Delta R_\eta=\sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$ 
+is given by 
+the smaller of $\Delta R_\eta = \SI{10}{~GeV}/\pt$ and $\Delta R_\eta = 0.2\,(0.3)$, 
+that is, a cone of size $0.2\,(0.3)$ at low $\pt$ but narrower for high-\pt leptons. 
+In addition, in the case of electrons the energy of calorimeter energy clusters in a cone of $\Delta R_\eta = 0.2$ around the electron 
+(excluding the deposition from the electron itself) must be less than 6\% of the electron \pt. 
+Simulated events are corrected to account for minor differences in the lepton trigger, reconstruction and 
+identification efficiencies between data and MC simulation.
+
+The missing transverse momentum ${\vec p}^{\rm miss}_{\rm T}$ is defined as the negative vector sum of the transverse momenta of all identified physics objects (electrons, photons, muons, jets) and an additional soft term. The soft term is constructed from all tracks that are not associated with any physics object, and that are associated with the primary vertex. In this way, the $\met$ is adjusted for the best calibration of the jets and the other identified physics objects above, while maintaining pile-up independence in the soft term~\cite{ATL-PHYS-PUB-2015-027, ATL-PHYS-PUB-2015-023}.
+
+Events are selected using a combination (logical OR) of dilepton and $\met$ triggers, 
+the latter being used only for events with $\met>\SI{250}{GeV}$. 
+The trigger-level requirements on $\met$ and the leading and subleading lepton \pt are looser than those applied offline 
+to ensure that trigger efficiencies are constant in the relevant phase space. 
+Events of interest are selected if they contain at least two signal leptons with $\pt>20$~\GeV . 
+If the event contains exactly two signal leptons, they are required to have the same electric charge. 
+
+To maximise the sensitivity in different signal models, 
+four overlapping signal regions are defined as shown in Table~\ref{tab:SRdef3}, with requirements on the number of signal leptons ($N_{\rm{lept}}^{\rm{signal}}$), 
+the number of $b$-jets with $\pt>\SI{20}{\GeV}$ ($N_{b\rm{-jets}}^{20}$), 
+the number of jets with $\pt>\SI{50}{\GeV}$ regardless of their flavour ($N_{\rm{jets}}^{50}$), 
+\met\ 
+and the effective mass (\meff), defined as the scalar sum of the $\pt$ of the signal leptons and jets (regardless of their flavour) in the event plus the \met. 
+
+\begin{table}[tbh!]
+\caption{Summary of the event selection criteria for the signal regions (see text for details).}
+\hspace{0.5cm}
+\def\arraystretch{1.3}
+\label{tab:SRdef3}
+\centering
+\begin{tabular}{c|c|c|c|c|c}
+\hline 
+\hline
+Signal region  &  $N_{\rm{lept}}^{\rm{signal}}$   & $N_{b\rm{-jets}}^{20}$    & $N_{\rm{jets}}^{50}$  & \met\ [GeV] & \meff\ [GeV]   \\
+\hline\hline
+SR0b3j &  $\ge$3  &    $=$0 &  $\ge$3 &  $>$200 & $>$550 \\
+SR0b5j &  $\ge$2  &    $=$0 &  $\ge$5 &  $>$125 & $>$650 \\
+SR1b     &  $\ge$2  &    $\ge$1  &  $\ge$4 &  $>$150 & $>$550 \\
+SR3b     &   $\ge$2  &   $\ge$3  &  - & $>$125 & $>$650   \\
+\hline\hline
+\end{tabular}
+\end{table}
+
+Each signal region is motivated by a different SUSY scenario. 
+The SR0b3j and SR0b5j signal regions are sensitive to gluino-mediated and directly produced squarks of the first and second generations 
+leading to final states particularly rich in leptons (Fig.~\ref{fig:feynman_gg2sl}) or in jets (Fig.~\ref{fig:feynman_gg2WZ}), 
+but with no enhancement of the production of $b$-quarks. 
+Third-generation squark models resulting in final states with two $b$-quarks, 
+such as direct bottom squark production (Fig.~\ref{fig:feynman_b1b1}), are targeted by the SR1b signal region. 
+Finally, the signal region SR3b targets gluino-mediated top squark production resulting in final states with four $b$-quarks (Fig.~\ref{fig:feynman_gtt}).
+
+The values of acceptance times efficiency of the SR selections for the SUSY signal models 
+in Fig.~\ref{fig:feynman} typically range between 1\% and 6\% for $m_{\gluino}=\SI{1.2}{TeV}$ or $m_{\sbottomone}=\SI{600}{GeV}$, and a light \ninoone.

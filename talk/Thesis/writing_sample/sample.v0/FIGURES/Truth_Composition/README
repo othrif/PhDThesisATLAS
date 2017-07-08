@@ -1,0 +1,9 @@
+bool passDEF[NDEF];
+passDEF[0] = true;
+passDEF[1] = (nbjetsE70==0);
+passDEF[2] = (nbjetsE70>=1);
+passDEF[3] = (njets25>=2);
+passDEF[4] = (nbjetsE70==0 && njets25>=3 && IN::missET > 70000);
+passDEF[5] = (nbjetsE70>=1 && njets25>=3 && IN::missET > 70000);
+passDEF[6] = (nbjetsE70>=2);
+passDEF[7] = (nbjetsE70>=3);

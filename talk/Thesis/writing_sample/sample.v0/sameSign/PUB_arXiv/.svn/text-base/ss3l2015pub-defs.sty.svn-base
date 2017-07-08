@@ -1,0 +1,10 @@
+\def\stoponebar{\ensuremath{\tilde{t}^{*}_1}}
+\def\sbottomonebar{\ensuremath{\tilde{b}^{*}_1}}
+\def\stopone{\ensuremath{\tilde{t}^{}_1}}
+\def\sbottomone{\ensuremath{\tilde{b}^{}_1}}
+
+%\renewcommand\thesubfigure{\alph{subfigure}} % default: "(\alph{subfigure})"
+\captionsetup[subfigure]{labelformat=parens,justification=raggedright}
+
+\newcommand*{\AMCATNLO}{\textsc{aMC@NLO}\xspace}
+\newcommand{\meff}{\ensuremath{m_{\mathrm{eff}}}} 

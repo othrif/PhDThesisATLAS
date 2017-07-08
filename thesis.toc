@@ -22,13 +22,12 @@
 \contentsline {subsection}{\numberline {3.3.2}Dataflow Challenges in Run-2}{49}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}ATLAS Dataflow Design}{51}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}ATLAS Operations}{54}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}ATLAS Operation}{54}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}Event Simulation}{56}{section.3.5}
 \contentsline {section}{\numberline {3.6}Reconstruction and Identification Techniques}{59}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Basic Principle}{59}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Electrons}{63}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Muons}{65}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Jets}{66}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.3}Muons}{64}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Jets}{67}{subsection.3.6.4}
 \contentsline {subsection}{\numberline {3.6.5}Heavy flavor}{69}{subsection.3.6.5}
 \contentsline {subsection}{\numberline {3.6.6}Missing transverse momentum}{69}{subsection.3.6.6}
 \contentsline {chapter}{\numberline {4}The Region of Interest Builder}{73}{chapter.4}

@@ -1,0 +1,68 @@
+\usepackage{rotating}
+\input{latex/atlasbsm.sty}
+
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\figsref}[1]{Figures.~\ref{#1}}
+%\newcommand{\partref}[1]{part~\ref{#1}}
+\newcommand{\Secref}[1]{Section~\ref{#1}}
+\newcommand{\tabref}[1]{Table~\ref{#1}}
+
+% susy-specific variables
+\newcommand{\meff}{\ensuremath{m_{\mathrm{eff}}}} % This was an M, but all our other m's are in lower case and M_eff sticks out like a sore thumb.  So I've changed it to something more relaxing.
+\newcommand{\mt}{\ensuremath{m_\mathrm{T}}}
+\newcommand{\mttwo}{\ensuremath{m_\mathrm{T2}}}
+\newcommand{\mc}{\ensuremath{m_\mathrm{C}}}
+\newcommand{\mct}{\ensuremath{m_\mathrm{CT}}}
+%\newcommand{\alphat}{\ensuremath{\ensuremath{\alpha_{T}}}}
+%\newcommand{\etmiss}{\ensuremath{\slashed{E}_T}}
+%\newcommand{\pmiss}{\ensuremath{\slashed{p}}}
+%\newcommand{\ptmiss}{\ensuremath{\slashed{p}_T}}
+%\newcommand{\Ptmiss}{\ensuremath{{\slashed{\bf p}}_T}}
+\def\Ptmiss{\ensuremath{\vec{E}_\mathrm{T}^{\mathrm{miss}}}}
+
+\def\lsim{\mathrel{\rlap{\lower4pt\hbox{\hskip1pt$\sim$}}
+    \raise1pt\hbox{$<$}}}                % less than or approx. symbol
+\def\gsim{\mathrel{\rlap{\lower4pt\hbox{\hskip1pt$\sim$}}
+    \raise1pt\hbox{$>$}}}                % greater than or approx. symbol
+
+% some sparticle shortcuts
+\newcommand{\sbot}{\ensuremath{\tilde{b}_{1}}}
+\newcommand{\neut}{\ensuremath{\tilde{\chi}_{1}^{0}}}
+\newcommand{\sq}{\ensuremath{\tilde{q}}}
+\newcommand{\gl}{\ensuremath{\tilde{g}}}
+\newcommand{\chargino}{\ensuremath{\tilde{\chi}_{1}^{\pm}}}
+
+%\renewcommand{\thesubfigure}{\alpha{subfigure}}
+%\makeatletter
+%\renewcommand{\p@subfigure}{\arabic{figure}}
+%\renewcommand{\thesubfigure}{\alph{subfigure}}
+%\renewcommand{\@thesubfigure}{(\thesubfigure)}
+%\makeatother
+
+% signal grid definition stolen from 1L
+\def\GGone{{\tt Gqq1step}}
+\def\SSone{{\tt Sq1step}}
+\def\GGtwo{{\tt Gqq2step}}
+\def\SStwo{{\tt Sq2step}}
+\def\GGtwoL{{\tt Gqq2step}}
+\def\SStwoL{{\tt Sqq2step}}
+\def\Gtt{{\tt Gtt}}
+\def\Gtc{{\tt Gtc}}
+
+
+%needed by othmane: probably should be moved somewhere else                                                                       
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                                                                              
+\def\gluino{\ensuremath{\tilde{g}} \xspace }
+\def\stop{\ensuremath{\tilde{t}} \xspace }
+\def\neutralino{\ensuremath{\tilde{\chi}_1^{0}} \xspace }
+\def\mass#1{\ensuremath{m_{#1}} \xspace }%                                                                                       
+\def\TeV{\ifmmode {\mathrm{\ Te\kern -0.1em V}}\else
+                   \textrm{Te\kern -0.1em V}\fi \xspace }%                                                                       
+\def\GeV{\ifmmode {\mathrm{\ Ge\kern -0.1em V}}\else
+                   \textrm{Ge\kern -0.1em V}\fi\xspace}%                                                                         
+\def\spl#1#2{\begin{tabular}[x]{@{}c@{}}#1\\#2\end{tabular}\xspace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Added by Othmane - not sure if already defined
+\newcommand{\njets}{\ensuremath{n_{\mathrm{jets}}}}
+

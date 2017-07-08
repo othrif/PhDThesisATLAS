@@ -1,0 +1,55 @@
+
+\subsection{Experimental systematics}
+\label{sec:syst_exp}
+
+All the  experimental systematics provided by the SUSYTools {\tt getSystInfoList()} method have been considered. 
+The list of sources of uncertainty and the corresponding names of the variations are:
+
+\paragraph{Jet energy scale ({\tt{JET\_GroupedNP\_\{1-3\}\_\_1\{up,down\}}})}  
+One of the strongly reduced uncertainty sets provided by the JetEtMiss group for early Run-2 searches is used in this note. These sets are intended for use by analyses which are not sensitive to jet-by-jet correlations arising from changes to the jet energy scale (as expected for many early SUSY searches). Although the recommendation is to evaluate 4 different reduced sets, only one of them is used for the moment: {\tt InsituJES2012\_3NP\_Scenario1.config} (as included in the JetUncertainties-00-09-19 package tag).
+The jet energy is scaled up and down (in a fully correlated way) by the $\pm 1\sigma$ uncertainty of each nuisance parameter.
+
+\paragraph{Jet energy resolution ({\tt{JER\_\_1up}})}  An extra $\pt$ smearing is added to the jets based on their $\pt$ and $\eta$ to account for a possible underestimate of the jet energy resolution in the MC simulation. This is done by the {\tt JERSmearingTool} in the JetResolution-03-00-28 package tag.
+
+\paragraph{Egamma resolution ({\tt{EG\_RESOLUTION\_ALL\_\_1\{up,down\}}})} A nuisance filtering scheme to reduce the $\sim$8 NPs used to electron and photon resolution to only one as implemented in SUSYTools is used.
+
+\paragraph{Egamma scale ({\tt{EG\_SCALE\_ALL\_\_1\{up,down\}}})}
+A nuisance filtering scheme to reduce the $\sim$16 NPs used to electron and photon resolution to only one as implemented in SUSYTools is used.
+
+\paragraph{Electron efficiency ({\tt{EL\_EFF\_UncorrUncertainty\_\_1\{up,down\}}})} 
+This is uncertainty is associated with the electron efficiency scale factors provided by the Egamma CP group.
+
+\paragraph{Muon efficiency ({\tt{MUONSFSTAT\_\_1\{up,down\}}}, {\tt{MUONSFSYS\_\_1\{up,down\}}})}
+This is uncertainty corresponds to the statiscal and systematic uncertainties in the muon efficiency scale factors provided by the Muon CP group.
+
+\paragraph{Muon resolution uncertainty  ({\tt{MUONS\_ID\_\_1\{up,down\}}}, {\tt{MUONS\_MS\_\_1\{up,down\}}})} 
+This is evaluated as variations in the smearing of the inner detector and muon spectrometer tracks associated to the muon objects by $\pm 1\sigma$ their uncertainty
+
+\paragraph{Muon momentum scale ({\tt{MUONS\_SCALE\_\_1\{up,down\}}})} 
+This is evaluated as variations in the scale of the momentum of the muon objects
+
+\paragraph{\met\ calorimeter soft term uncertainties  ({\tt{MET\_SoftCalo\_Reso}}, {\tt{MET\_SoftCalo\_Scale\{Up,Down\}}})}
+Note that the effect of the hard object uncertainties (most notably JES and JER) are also propagated to the $\met$.
+
+\paragraph{Flavor tagging ({\tt{FT\_Eigen\_B\_\{0-9\}\_\_1\{up,down\}}}, {\tt{FT\_Eigen\_C\_\{0-3\}\_\_1\{up,down\}}},\\ {\tt{FT\_Eigen\_Light\_\{0-11\}\_\_1\{up,down\}}})} 
+The full eigenvector variation approach~\cite{flavTagg} is used for all jet flavours ($B$, $C$ and light), while keeping track of uncertainties that are common to multiple jet flavours. Similarly to the case of the JES, a significant reduction in the number of nuisance parameters (currently 52 variations) is expected to be provided by the Flavour Tagging CP group before the start of data taking.\\
+
+All these experimental systematics have been included in the production of flat ROOT ntuples, as mentioned in Section~\ref{sec:ntuples}, although due to time limitations at the moment of writing this note, its effect was not included 
+in the results shown in Section~\ref{sec:fit}, where flat uncertainty values were used instead.
+
+\subsection{Theoretical systematics}
+\label{sec:syst_theo}
+
+In Run-1~\cite{paperSS3L,noteSS3L}, the systematic uncertainties associated with the $t \bar{t} + V$ and
+diboson MC were assessed by using samples where the factorization and
+renormalization scales have been varied. We plan to follow a similar approach once 
+scale variation samples are available in mc15 productions.
+Other theoretical uncertainties were evaluated by comparing different generators and samples produced with different
+number of partons. A similar approach will be used in 2015, following the recommendations by the Physics Modeling Group.
+
+In addition, the theoretical uncertainties on the cross-sections were $22\%$ for $t\bar{t}W$ \cite{Campbell:2012dh} 
+and $t\bar{t}Z$ \cite{Garzelli:2012bn} and $7\%$ for 	diboson production (computed with MCFM \cite{Campbell:2011bn}, 
+considering scales, parton distribution functions and $\alpha_s$ uncertainties). 
+Normalisation uncertainties between 35\% and 100\% were applied to processes with smaller contributions (triboson 
+production, $t+Z$, etc.).
+

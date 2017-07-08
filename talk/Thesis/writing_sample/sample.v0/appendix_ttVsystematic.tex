@@ -1,0 +1,190 @@
+% Created 2015-12-03 Thu 09:27
+
+\clearpage 
+\section{Details on the study of the theoretical uncertainties for simulated samples}
+\label{appendix_ttVsystematic}
+
+This appendix describes the study performed to evaluate the
+theoretical uncertainties associated with the $t\bar{t}V$ and
+$W^\pm{}W^\pm{}jj$ background samples. As described in
+section~\ref{sec:samples}, the $t\bar{t}V$ processes are simulated
+using using {\sc MadGraph} and the $W^\pm{}W^\pm{}jj$ processes using
+\texttt{Sherpa}. For $W^\pm{}W^\pm{}jj$ we have compared the nominal
+sample with several scale variations, listed in
+table~\ref{tab:app_wwjjsamples}. For $t\bar{t}V$ we have compared the
+nominal {\sc MadGraph} sample with the ones generated varying {\sc
+  alpsfact} as well as $\mu_R$ and $\mu_F$ by a factor of two. In
+addition, for $t\bar{t}V$ we also compared the {\sc MadGraph}
+prediction with the {\sc Sherpa} one. The $t\bar{t}V$ samples are
+listed in table~\ref{tab:app_ttllsamples} and
+\ref{tab:app_ttwsamples}.
+%
+%
+\begin{table}[htb]
+\caption{Sherpa $W^\pm{}W^\pm{}jj$ samples. The cross section values are the ones from AMI.}
+\begin{center}\scriptsize
+\begin{tabular}{lr}
+Sample & cross section [pb]\\
+\hline
+mc15\_13TeV.361069.Sherpa\_CT10\_llvvjj\_ss\_EW4.evgen.EVNT.e3836 & 0.025797\\
+mc15\_13TeV.361070.Sherpa\_CT10\_llvvjj\_ss\_EW6.evgen.EVNT.e3836 & 0.043004\\
+mc15\_13TeV.361643.Sherpa\_CT10\_llvvjj\_ss\_EW4\_FSFup.evgen.EVNT.e4561 & 0.025199\\
+mc15\_13TeV.361644.Sherpa\_CT10\_llvvjj\_ss\_EW4\_QSFdown.evgen.EVNT.e4561 & 0.026935\\
+mc15\_13TeV.361645.Sherpa\_CT10\_llvvjj\_ss\_EW4\_QSFup.evgen.EVNT.e4561 & 0.025422\\
+mc15\_13TeV.361646.Sherpa\_CT10\_llvvjj\_ss\_EW4\_RSFdown.evgen.EVNT.e4561 & 0.03369\\
+mc15\_13TeV.361647.Sherpa\_CT10\_llvvjj\_ss\_EW4\_RSFup.evgen.EVNT.e4561 & 0.021188\\
+mc15\_13TeV.361648.Sherpa\_CT10\_llvvjj\_ss\_EW6\_CKKWdown.evgen.EVNT.e4561 & 0.043657\\
+mc15\_13TeV.361649.Sherpa\_CT10\_llvvjj\_ss\_EW6\_CKKWup.evgen.EVNT.e4561 & 0.042895\\
+mc15\_13TeV.361650.Sherpa\_CT10\_llvvjj\_ss\_EW6\_FSFdown.evgen.EVNT.e4561 & 0.044477\\
+mc15\_13TeV.361651.Sherpa\_CT10\_llvvjj\_ss\_EW6\_FSFup.evgen.EVNT.e4561 & 0.042077\\
+mc15\_13TeV.361652.Sherpa\_CT10\_llvvjj\_ss\_EW6\_QSFdown.evgen.EVNT.e4561 & 0.043747\\
+mc15\_13TeV.361653.Sherpa\_CT10\_llvvjj\_ss\_EW6\_QSFup.evgen.EVNT.e4561 & 0.04359\\
+mc15\_13TeV.361654.Sherpa\_CT10\_llvvjj\_ss\_EW6\_RSFdown.evgen.EVNT.e4561 & 0.04301\\
+mc15\_13TeV.361655.Sherpa\_CT10\_llvvjj\_ss\_EW6\_RSFup.evgen.EVNT.e4561 & 0.043495\\
+mc15\_13TeV.361656.Sherpa\_CT10\_llvvjj\_ss\_EW4\_CKKWdown.evgen.EVNT.e4561 & 0.026241\\
+mc15\_13TeV.361657.Sherpa\_CT10\_llvvjj\_ss\_EW4\_CKKWup.evgen.EVNT.e4561 & 0.024757\\
+mc15\_13TeV.361658.Sherpa\_CT10\_llvvjj\_ss\_EW4\_FSFdown.evgen.EVNT.e4561 & 0.02724\\
+\end{tabular}
+\end{center}
+\label{tab:app_wwjjsamples}
+\end{table}
+%
+%
+\begin{table}[htb]
+\caption{$t\bar{t}\ell\ell{}$ samples. The cross section values for
+  the official samples 41011X are from AMI. The cross section for the
+  private {\sc Sherpa} sample is from the PMG documentation at
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/TtbarBoson}.}
+\begin{center}\scriptsize
+\begin{tabular}{lr}
+Sample & cross section [pb]\\
+\hline
+  mc15\_13TeV.410111.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttee\_Np0.evgen.EVNT.e4265     &  0.0088155 \\
+  mc15\_13TeV.410112.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttee\_Np1.evgen.EVNT.e4265     &  0.0143800 \\
+  mc15\_13TeV.410113.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttmumu\_Np0.evgen.EVNT.e4265   &  0.0088422 \\
+  mc15\_13TeV.410114.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttmumu\_Np1.evgen.EVNT.e4265   &  0.0143750 \\
+  mc15\_13TeV.410115.MadGraphPythia8EvtGen\_A14NNPDF23LO\_tttautau\_Np0.evgen.EVNT.e4265 &  0.0090148 \\
+  mc15\_13TeV.410116.MadGraphPythia8EvtGen\_A14NNPDF23LO\_tttautau\_Np1.evgen.EVNT.e4265 &  0.0146360 \\
+  user.narayan.16-11-2015-sherpa2.2\_ttll                                                &  0.0975300 \\
+\end{tabular}
+\end{center}
+\label{tab:app_ttllsamples}
+\end{table}
+%
+%
+\begin{table}[htb]
+  \caption{$t\bar{t}W$ samples. Cross section values for the official
+    samples are taken from AMI; for the private samples they are the
+    ones reported by {\sc MadGraph}. DSID scheme: xxx066=Np0,
+    xxx067=Np1, xxx068=Np2}
+\begin{center}\scriptsize
+\begin{tabular}{lr}
+  Sample & cross section [pb]\\
+\hline
+  mc15\_13TeV.410067.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttW\_Np1.evgen.EVNT.e4111 &  0.140620 \\
+  mc15\_13TeV.410068.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttW\_Np2.evgen.EVNT.e4111 &  0.136800 \\
+  mc15\_13TeV.410066.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttW\_Np0.evgen.EVNT.e4111 &  0.176560 \\  
+  user.mcfayden.evnt.2015-11-04\_233054.610066.13TeV\_ttW\_scalUp\_EXT1             &  0.1437   \\
+  user.mcfayden.evnt.2015-11-04\_233147.610067.13TeV\_ttW\_scalUp\_EXT1             &  0.11086  \\
+  user.mcfayden.evnt.2015-11-04\_233240.610068.13TeV\_ttW\_scalUp\_EXT1             &  0.099048 \\
+  user.mcfayden.evnt.2015-11-04\_233330.710066.13TeV\_ttW\_scalDn\_EXT1             &  0.24284  \\
+  user.mcfayden.evnt.2015-11-04\_233425.710067.13TeV\_ttW\_scalDn\_EXT1             &  0.20288  \\
+  user.mcfayden.evnt.2015-11-04\_233522.710068.13TeV\_ttW\_scalDn\_EXT1             &  0.21626  \\
+  user.mcfayden.evnt.2015-11-04\_233612.810066.13TeV\_ttW\_alpsUp\_EXT1             &  0.1838   \\
+  user.mcfayden.evnt.2015-11-04\_233706.810067.13TeV\_ttW\_alpsUp\_EXT1             &  0.1446   \\
+  user.mcfayden.evnt.2015-11-04\_233752.810068.13TeV\_ttW\_alpsUp\_EXT1             &  0.13922  \\
+  user.mcfayden.evnt.2015-11-04\_233840.910066.13TeV\_ttW\_alpsDn\_EXT1             &  0.18134  \\
+  user.mcfayden.evnt.2015-11-04\_233924.910067.13TeV\_ttW\_alpsDn\_EXT1             &  0.14484  \\
+  user.mcfayden.evnt.2015-11-04\_234014.910068.13TeV\_ttW\_alpsDn\_EXT1             &  0.1379   \\
+\end{tabular}
+\end{center}
+\label{tab:app_ttwsamples}
+\end{table}
+
+This study is performed at the truth level using samples in the {\sc
+  TRUTH1} format\footnote{The {\sc TRUTH1} samples were generated from
+  the {\sc EVNT} samples using the release 20.1.8}.  The basic
+acceptance criteria (momentum and pseudorapidity) are applied to
+leptons and jets, followed by the overlap removal procedure. The
+kinematic requirements defining the signal regions and the validation
+regions are the same ones defined in section~\ref{sec:sr}. The number
+of $b$-jets used in the selection criteria is determined by
+emulating\footnote{The code used to perform this study is available at
+  \url{https://github.com/gerbaudo/PMGValidation}} the b-tagging
+algorithm using the typical efficiencies and mistag rates.  The
+differences in yield between the nominal sample and the variation
+samples are summarized in table~\ref{tab:app_ttvvariations} for
+$t\bar{t}V$ and in table~\ref{tab:app_wwjjvariations} for
+$W^\pm{}W^\pm{}jj$. These variations, reported in percent values, are
+calculated as the fractional difference in yield for a given
+selection, after normalizing the inclusive samples to the same value.
+
+It should be pointed out that the uncertainties on these variations
+reflect the limited statistics in both the nominal and variation
+samples. At the time of this writing, the number of simulated events
+in the variation samples that reach the selection regions is quite
+limited. We expect that more events will be available in the future,
+improving the accuracy of this study. In the meantime, we can observe
+that most of the variations reported in this study are within the
+$30\%$ being used as theoretical systematic uncertainty for
+$t\bar{t}V$ and $W^\pm{}W^\pm{}jj$. The few outliers were shown to be
+random fluctuations: they are significantly reduced when the selection
+criteria are relaxed (for example by making sr0b5j $\to{}$ sr0b4j).
+%
+%
+\begin{table}[htb]
+  \caption{Summary of the fractional variations (in percent) for the
+    $t\bar{t}V$ samples in the relevant selection regions.}
+\begin{center}
+\begin{tabular}{lll}
+\hline
+ & Sherpa variation & \\
+\hline
+$tt\ell\ell$ &  & \\
+sr3b & $-30.7 \pm 12.7$ & \\
+sr1b & $5.8 \pm 2.9$ & \\
+cr2bttV & $1.3 \pm 2.3$ & \\
+\hline
+$ttW$ &  & \\
+sr3b & $20.1 \pm 43.2$ & \\
+sr1b & $42.1 \pm 10.6$ & \\
+cr2bttV & $27.6 \pm 12.2$ & \\
+\hline
+ & up & down\\
+\hline
+$ttW$ & \multicolumn{2}{c}{alpsfact} \\
+sr3b & $12.9 \pm 23.3$ & $-2.9 \pm 25.5$\\
+sr1b & $3.9 \pm 7.0$ & $3.4 \pm 6.6$\\
+\hline
+$ttW$ & \multicolumn{2}{c}{scale} \\
+sr3b & $28.8 \pm 18.3$ & $24.4 \pm 19.4$\\
+sr1b & $9.4 \pm 6.1$ & $-2.0 \pm 6.9$\\
+\hline
+\end{tabular}
+\end{center}
+\label{tab:app_ttvvariations}
+\end{table}
+%
+%
+\begin{table}[htb]
+  \caption{Summary of the fractional variations (in percent) for the
+    $W^\pm{}W^\pm{}jj$ samples in the relevant selection regions.}
+\begin{center}
+\begin{tabular}{lll}
+ & up & down\\
+\hline
+$WWjj$ CKKW &  & \\
+sr0b5j & $1.9 \pm 18.6$ & $13.6 \pm 17.2$\\
+\hline
+$WWjj$ FSF &  & \\
+sr0b5j & $16.6 \pm 17.2$ & $-9.7 \pm 19.7$\\
+\hline
+$WWjj$ QSF &  & \\
+sr0b5j & $-57.1 \pm 24.3$ & $60.1 \pm 11.4$\\
+\hline
+$WWjj$ RSF &  & \\
+sr0b5j & $0.2 \pm 19.0$ & $23.8 \pm 15.5$\\
+\end{tabular}
+\end{center}
+\label{tab:app_wwjjvariations}
+\end{table}

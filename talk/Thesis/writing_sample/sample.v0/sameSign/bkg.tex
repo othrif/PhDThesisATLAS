@@ -1,0 +1,163 @@
+The main challenge, in this analysis, is to achieve reliable predictions of the low Standard Model background 
+leading to the same-sign leptons + jets final state. 
+This background is composed partly of rare processes such as the associate production of a top quark pair with a massive boson, 
+or the production of multiple bosons. 
+The other contribution consists in experimental backgrounds originating from the imperfect discrimination between prompt leptons and other objects, 
+or the occasional misreconstruction of the electron charge. 
+The following sections provide more details about the nature of these different categories of background, 
+and the foreseen methods that will be used to estimate their contributions to the signal regions. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Backgrounds with prompt SS dilepton or three leptons}
+\label{sec:bkg_prompt}
+
+There are two main sources of Standard Model background leading to pairs of same-sign prompt leptons: 
+\begin{itemize}
+\item[$\bullet$] The associate production of top quark(s) and massive bosons, where the same-sign leptons pair 
+originates from leptonic decays of one of the top quarks and of the boson. 
+These processes are characterized by a large jet multiplicity, the presence of $b$-jet(s), 
+and always have intrinsic missing momentum. 
+Therefore they generally represent the largest contribution to the signal regions. 
+The dominant processes are $pp\to t\bar{t}W(j)$, $pp\to t\bar{t}Z(j)$ and $pp\to t\bar{t}H$, 
+while there are also minor contributions from $pp\to tZbj,\,t\bar{t}WW$, and $pp\to t\bar{t}t\bar{t}$. 
+\item[$\bullet$] The production of multiple massive bosons. 
+These processes have generally low jet multiplicities. 
+However, due to their larger cross-sections, they contribute in a significant way to the background entering signal regions without $b$-jets requirements. 
+The dominant processes include $pp\to W^\pm W^\pm jj,\,WZ,\,ZZ$, 
+with minor contributions from $pp\to\,WH,\,ZH,\,VVV$ and $H\to\,ZZ\to\,\ell\ell\ell\ell$ or $H\to\,WW\to\,\ell\nu +X$. 
+\end{itemize}
+
+We estimate the contributions of these various processes to the signal regions by relying on the Monte-Carlo predictions, 
+normalized with the best known theoretical cross-sections: these processes are too rare to allow use of control regions until a significant integrated luminosity will be collected. 
+For example, in~\cite{Ducu:2021084} which establishes projections of the sensitivity 
+to the $ttH$ signal strength in a final state very similar to this analysis, 
+the impact of adding control regions for $t\bar t+V$ processes was found to be favorable only after collecting $\sim 100$~\ifb~of data. 
+
+Processes containing top quarks ($\ttbar + X$) have cross-sections below 1~pb, which have consequently not yet been much constrained experimentally. On the theoretical side, uncertainties on the cross sections are typically large: 30\% for $t\bar{t}W$ and 50\% for $t\bar{t}Z$ for the same-sign $\sqrt{s}=7$~TeV analysis~\cite{NoteSS3L_7TeV}, 22\% for both $t\bar{t}W$ and $t\bar{t}Z$ for the $\sqrt{s}=8$~TeV analysis~\cite{noteSS3L}. 
+
+Cross-sections for diboson processes are known with a rather good accuracy, but only for the inclusive processes, 
+while we are mostly interested in processes where several additional partons are produced, 
+which carry subsequent additional uncertainties. 
+
+The validation regions described in section~\ref{sec:bkg_VR} help us to ensure that our understanding of these processes is sufficiently reliable, and that the systematic uncertainties assigned to the estimated rates are reasonable. 
+
+%%%%%%%%%%%%%%%%%%
+\input{chFlip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Backgrounds with fake leptons: general information}
+\label{sec:bkg_fakes} 
+\input{bkg_fakes_general}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Backgrounds with fake leptons: the matrix method}
+\label{sec:bkg_matrix_method}
+\input{bkg_matrix_method}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Neglected backgrounds}
+\label{sec:bkg_neglected}
+Other sources of background such as cosmic rays or cavern background, as well as pile-up events where two distinct proton-proton pairs may interact and produce leptons, 
+have been evaluated in the past and found to be negligible. 
+Multiple scattering effects are partially included in the simulations but are also not expected to contribute enough to require in-depth studies; 
+the largest identified contribution is given more attention in the following section. 
+
+\subsubsection{Double-parton scattering}
+
+The contribution for $W^\pm+W^\pm$ arising from two different parton interactions in the same
+proton-proton collision, in a double parton scattering process (DPS) could be relevant in the SR0b5j.
+
+DPS effects are implemented in Sherpa diboson samples used in the analysis in the case of $V+jj$, but not for $W^\pm+W^\pm$. 
+To estimate a conservative upper bound on the number of 
+events which might arise from DPS, a standard ansatz is adopted: in this, 
+for a collision in which a hard process (X) occurs, the probability that 
+an additional (distinguishable) process (Y) occurs is parametrized as:
+\begin{equation}
+\sigma^{DPS}_{XY} = \sigma^{}_{X}\sigma^{}_{Y}/\sigma^{}_{eff}
+\end{equation} 
+where $\sigma^{}_{X}$ is the production cross section of the hard 
+process X and $\sigma^{}_{eff}$ (effective area parameter) 
+parameterizes the double-parton interaction part of the production 
+cross section for the composite system (X+Y). 
+A value of $\sigma^{}_{eff}$ is 10-20~mb is assumed in this study (as obtained from 7~TeV measurements, and with no observed dependence on $\sqrt{s}$), and it is 
+independent on the processes involved. For the case of $W^\pm+W^\pm$ production:
+\begin{equation}
+\sigma^{DPS}_{W^\pm W^\pm} = \frac{ \sigma^{}_{W^+}\sigma^{}_{W^+} + \sigma^{}_{W^-}\sigma^{}_{W^-}}{\sigma^{}_{eff}} \simeq 0.09-0.18\text{ pb.}
+%\frac{\sigma^{}_{W^+}\sigma^{}_{W^+} + 
+%\sigma^{}_{W^-}\sigma^{}_{W^}}{dsfds}
+%\sigma^{}_{eff}
+\end{equation} 
+%\sim 0.09-0.18 pb.
+
+To evaluate a potential contribution to the signal region, the value of $\sigma^{DPS}_{W^\pm W^\pm}$ needs to be put in common with the jet multiplicity and $\met$ of that process. In absence of a suitable MC sample, and despite the many caveats involved, we overlaid pairs of events from the standard $W$+jet samples at the ntuple level (adding all the objects in the event and the $\met$ $x$ and $y$ components, without further corrections to lepton isolation or other variables). The jet multiplicity distributions obtained from that procedure are shown in Figure~\ref{fig:DPSWW}. Normalizing those distributions to the expected $\sigma^{DPS}_{W^\pm W^\pm}$ cross section, one can roughly estimate a contribution after the 5-jet cuts in SR0b5j of approximately 0.001-0.01 events for 4~fb$^{-1}$, and therefore can be safely be neglected within this analysis.
+
+\begin{figure}[htb!]
+\centering
+\includegraphics[width=0.55\textwidth]{FIGURES/bckg_MC/Njet_DPS.png}
+\caption{\label{fig:DPSWW} Jet multiplicity distribution for overlaid $W^\pm+W^\pm$ event samples obtained from Sherpa and Powheg to emulate the DPS production.}
+\end{figure}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Alternative methods for background estimates}
+\label{sec:bkg_alternatives}
+
+To further cross-check some of our background estimates, 
+we compare their predictions to those obtained through alternative methods, that rely on different assumptions. 
+This section describes these alternative methods: 
+the first one (section~\ref{sec:bkg_mctemplate_method}) evaluates the fake lepton background with the help of the MC simulations, 
+while the second one (section~\ref{sec:bkg_bjetfakes}) provides a data-driven estimate of the rate of mis-tagged $b$-jets. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Backgrounds with fake leptons: the MC template method}
+\label{sec:bkg_mctemplate_method}
+\input{bkg_mctemplate_method}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Backgrounds with fake leptons and $\ge 3$ $b$-jets: the ABCD method}
+\label{sec:bkg_abcd_method}
+\input{bkg_abcd}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Statistical tools improving robustness in low statistics regime}
+%\label{sec:bkg_fakes_stattools}
+
+% Some alternatives to the matrix method have been considered, 
+% based on the same principles but with more formal constructions as probabilistic tools 
+% (hence a better behaviour in conditions far from the asymptotic regime), and are currently being developed. 
+% One of these methods~\cite{PseudoLikelihoodMatrixMethod} relies on the construction of a likelihood function 
+% which translates the equation system~(\ref{eqn:matrixmethod}) in terms of probabilities for single leptons, 
+% instead of relationships between mean values; this also allows to treat $\epsilon$ and $\zeta$ as nuisance parameters 
+% (according to their measurements uncertainties) instead of being frozen. 
+% One could then simply estimate the rates of prompt and fake leptons as the maximum likelihood estimators of the observations, 
+% but the large number of parameters (several leptons per event hence many possible loose/tight combinations, 
+% binned probabilities $\epsilon$ and $\zeta$\ldots) renders this approach impractical. 
+% A simplification is discussed in~\cite{PseudoLikelihoodMatrixMethod,TomThesis}, which preserves some advantages over the standard matrix method. 
+
+% Another approach has been proposed recently~\cite{TomThesis}, 
+% consisting in building confidence intervals on the rate of fake leptons from the associated Bayesian posterior, 
+% which may be numerically computed with Gibbs sampling. 
+% The claimed advantages are a better assessment of the uncertainties on the final estimate, 
+% since the whole posterior distribution is known, as well as the absence of issues 
+% with local minima which might affect likelihood-based methods. More details can be found in~\cite{TomThesis}. 
+
+% We are planning to check if these methods can be applied with all the complexity of a real world analysis, 
+% in which case they would bring quite a nice improvement to the current way of predicting fake lepton background in the signal regions. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Backgrounds with fake $b$-jets}
+\label{sec:bkg_bjetfakes}
+
+In the signal regions requiring at least three $b$-jets, an important part of the background originates from processes 
+with two real $b$-jets, and a third jet not originating from a $b$-quark but satisfying the $b$-tagging requirements. 
+Unlike the case of fake leptons, the $b$-tagging performance group usually provides corrections (and associated uncertainties) 
+to correct the simulation for mismodelling both of real and fake $b$-jets. The fake leptons and charge flip background, being predicted from data, obviously do not need any correction. 
+
+%An alternative data-driven method was used in Run-1 as cross-check, 
+
+%consisting in the equivalent of the lepton matrix method but applying on jets and replacing lepton tight requirements by the output weight of the $b$-tagging algorithm. This approach was primarily developed for the ATLAS SUSY search with 0/1 lepton and 3 $b$-jets~\cite{SUSY3bjetsRun1}. It could be considered again for Run-2. 
+

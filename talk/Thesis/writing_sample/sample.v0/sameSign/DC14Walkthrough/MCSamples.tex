@@ -1,0 +1,407 @@
+This section summarizes the signal and background samples used for the
+studies presented in this note, as well some details about the Monte Carlo production and analysis framework.
+All samples used in this note are part of the DC14 Monte-Carlo campaign which exhibits a number 
+of deficiencies~\cite{dc14twiki}, most notably the inaccessibility of detailed trigger information. 
+
+\subsection{Derivation versions and analysis model}
+\label{sec:ntuples}
+
+In all cases, the SUSY1 DxAOD derivations are used. 
+Derivation tag p1872 (19.1.4.9 cache) is used for most of the samples used in this note, although some signal 
+samples were not initially available in that tag and p1863 (19.1.4.8 cache) was used instead. 
+Both derivation tags included the fix of lepton isolation 
+variables (see Section~\ref{sec:isolation} for more details).
+
+Most of the studies shown in this note were performed using flat ROOT ntuples produced on the grid using code based on the 
+{\tt{SUSYAnalysiExample}} EventLoop package and SUSYTools-00-05-00-26 tag. 
+They contained basic object information, although no overlap removal 
+or isolation cuts were applied to allow flexibility for optimization studies. 
+No event skimming or systematic uncertainties were included. 
+The total size of these ntuples is 70~GB (both background and signal samples).
+These files were shared among the groups participating in the analysis, although some 
+of the groups developed their own framework for xAOD analysis.
+
+In addition, dedicated flat ROOT ntuples with all the systematic variations included in the SUSYTools {\tt getSystInfoList()} method 
+were also produced for the samples containing prompt SS/3L ($\ttbar+V$, $\ttbar+h$, diboson, signals). To reduce the size of the output files, only events that contained in any of the systematic variations
+at least 2 leptons with $\pt>10$~GeV, and either $\et>100$~GeV or at least 3 b-tagged jets ($\pT>20$ GeV) or $H_{\rm T}>300$~GeV were kept.  
+In order to benefit from the recently implemented grouping of 
+the Egamma systematics, the SUSYTools-00-05-00-29 tag was used for this production, which contains only other minor 
+updates with respect to SUSYTools-00-05-00-26. The total size of these ntuples is below 50~GB.
+
+
+\subsection{Signal Samples}
+
+This section describes the signal samples used for in this note. 
+The baseline signal models used are the ones described
+in Section~\ref{sec:signal}, and all the signal samples used are listed in Table~\ref{tab:SignalSamples}.
+
+The gluino-stop offshell ($\gluino\to t\bar t\neut$) and direct sbottom ($\sbot\to t\chargino$ with $\tilde{b}_1\to t\tilde{\chi}^{\pm}_1$) samples are produced with {\sc Herwig++}~\cite{Corcella:2000bw}. The UE-EE-4 {\sc Herwig++} tune~\cite{Gieseke:2012ft} is used to describe the underlying event.
+%and the generator settings are equivalent to those of the 8 TeV 
+%analysis~\cite{noteSS3L} except that the stop mass has been raised to 5
+%TeV and the center of mass energy has been adjusted to 13 TeV.
+The other signal samples used in this note (gluinos and squarks 2-step decays via gauginos or sleptons) are produced using the {\sc Madgraph v5} generator~\cite{madgraph} using leading-order (LO) matrix elements with up to two additional partons.
+{\sc Pythia} 6.425~\cite{Sjostrand:2006za} with the {\sc AUET2B} tune~\cite{pub-2011-009,ATLAS:2011krm} is used for hadronisation and to describe the underlying event. 
+In all the signal samples, the {\sc CTEQ6L1}~\cite{Pumplin:2002vw} set of parton distribution functions is used in all the signal samples. The signal samples are normalised to the next-to-next-to-leading order cross-section including the resummation of
+soft gluon emission at next-to-next-to-leading-logarithmic accuracy
+(NLO+NLL), as detailed in Ref.~\cite{Borschensky:2014cia}. 
+
+
+\begin{sidewaystable}[htb]
+\begin{center}
+\resizebox{0.95\textwidth}{!}{
+\tiny
+\begin{tabular}{lllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$\\
+\hline
+\multicolumn{7}{c}{\textbf{Gluino-stop offshell} ($\gluino\to t\bar t\neut$)} \\ \hline
+204533  &  mc14\_13TeV.204533.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1000\_T5000\_L100.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  20000  &  61.5 \\
+204534  &  mc14\_13TeV.204534.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1300\_T5000\_L100.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0461  &  1.00  &  1.000  &  19500  &  423.0 \\
+204535  &  mc14\_13TeV.204535.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1600\_T5000\_L100.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0081  &  1.00  &  1.000  &  20000  &  2469.1 \\
+204536  &  mc14\_13TeV.204536.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1900\_T5000\_L100.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0016  &  1.00  &  1.000  &  20000  &  12500.0 \\
+204537  &  mc14\_13TeV.204537.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G2200\_T5000\_L100.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0004  &  1.00  &  1.000  &  20000  &  50000.0 \\
+204539  &  mc14\_13TeV.204539.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1300\_T5000\_L400.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0461  &  1.00  &  1.000  &  15000  &  325.4 \\
+204540  &  mc14\_13TeV.204540.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1300\_T5000\_L700.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0461  &  1.00  &  1.000  &  20000  &  433.8 \\
+204541  &  mc14\_13TeV.204541.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1300\_T5000\_L900.merge.DAOD\_SUSY1.e3094\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0461  &  1.00  &  1.000  &  20000  &  433.8 \\
+204912  &  mc14\_13TeV.204912.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1500\_T5000\_L200.merge.DAOD\_SUSY1.e3328\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0142  &  1.00  &  1.000  &  20000  &  1408.5 \\
+204913  &  mc14\_13TeV.204913.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1500\_T5000\_L400.merge.DAOD\_SUSY1.e3328\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0142  &  1.00  &  1.000  &  20000  &  1408.5 \\
+204914  &  mc14\_13TeV.204914.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1500\_T5000\_L600.merge.DAOD\_SUSY1.e3328\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0142  &  1.00  &  1.000  &  20000  &  1408.5 \\
+204915  &  mc14\_13TeV.204915.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1500\_T5000\_L800.merge.DAOD\_SUSY1.e3328\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0142  &  1.00  &  1.000  &  20000  &  1408.5 \\
+204916  &  mc14\_13TeV.204916.Herwigpp\_UEEE4\_CTEQ6L1\_Gtt\_G1500\_T5000\_L1000.merge.DAOD\_SUSY1.e3328\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0142  &  1.00  &  1.000  &  20000  &  1408.5 \\ \hline
+\multicolumn{7}{c}{\textbf{Direct sbottom} ($\sbot\to t\chargino$ with $\tilde{b}_1\to t\tilde{\chi}^{\pm}_1$)} \\ \hline
+204973  &  mc14\_13TeV.204973.Herwigpp\_UEEE4\_CTEQ6L1\_sbottom\_tchr\_2lep\_B450\_C150\_N60.merge.DAOD\_SUSY1.e3356\_s1982\_s2008\_r5787\_r5853\_p1863/  &  0.9483  &  0.41  &  0.409  &  20000  &  125.8 \\
+204974  &  mc14\_13TeV.204974.Herwigpp\_UEEE4\_CTEQ6L1\_sbottom\_tchr\_2lep\_B550\_C150\_N60.merge.DAOD\_SUSY1.e3356\_s1982\_s2008\_r5787\_r5853\_p1863/  &  0.2961  &  0.43  &  0.432  &  11000  &  200.0 \\
+204975  &  mc14\_13TeV.204975.Herwigpp\_UEEE4\_CTEQ6L1\_sbottom\_tchr\_2lep\_B650\_C150\_N60.merge.DAOD\_SUSY1.e3356\_s1982\_s2008\_r5787\_r5853\_p1863/  &  0.1070  &  0.45  &  0.451  &  20000  &  921.0 \\
+204976  &  mc14\_13TeV.204976.Herwigpp\_UEEE4\_CTEQ6L1\_sbottom\_tchr\_2lep\_B750\_C150\_N60.merge.DAOD\_SUSY1.e3356\_s1982\_s2008\_r5787\_r5853\_p1863/  &  0.0431  &  0.47  &  0.472  &  20000  &  2091.8 \\
+204977  &  mc14\_13TeV.204977.Herwigpp\_UEEE4\_CTEQ6L1\_sbottom\_tchr\_2lep\_B850\_C150\_N60.merge.DAOD\_SUSY1.e3356\_s1982\_s2008\_r5787\_r5853\_p1863/  &  0.0190  &  0.48  &  0.483  &  20000  &  4540.3 \\
+\hline
+\multicolumn{7}{c}{\textbf{gluino 2-step decays via gauginos}} \\ \hline
+204952  &  mc14\_13TeV.204952.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1100\_600\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1635  &  1.00  &  1.000  &  19500  &  119.3 \\
+204953  &  mc14\_13TeV.204953.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1300\_700\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0461  &  1.00  &  1.000  &  5000  &  108.5 \\
+204954  &  mc14\_13TeV.204954.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1500\_800\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0142  &  1.00  &  1.000  &  20000  &  1408.5 \\
+204955  &  mc14\_13TeV.204955.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1700\_900\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0047  &  1.00  &  1.000  &  15000  &  3191.5 \\
+204956  &  mc14\_13TeV.204956.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1900\_1000\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0016  &  1.00  &  1.000  &  15500  &  9687.5 \\
+204957  &  mc14\_13TeV.204957.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_2100\_1100\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0006  &  1.00  &  1.000  &  5000  &  8333.3 \\
+204958  &  mc14\_13TeV.204958.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_2300\_1200\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0002  &  1.00  &  1.000  &  13500  &  67500.0 \\
+204959  &  mc14\_13TeV.204959.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1000\_700\_400.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  5000  &  15.4 \\
+204960  &  mc14\_13TeV.204960.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1000\_750\_500.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  7500  &  23.0 \\
+204961  &  mc14\_13TeV.204961.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1000\_800\_600.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  20000  &  61.5 \\
+204962  &  mc14\_13TeV.204962.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1000\_850\_700.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  20000  &  61.5 \\
+204963  &  mc14\_13TeV.204963.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1000\_900\_800.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  20000  &  61.5 \\
+204964  &  mc14\_13TeV.204964.MadGraphPythia\_AUET2BCTEQ6L1\_SMGG2WWZZ\_1000\_950\_900.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3254  &  1.00  &  1.000  &  10000  &  30.7 \\
+\hline
+\multicolumn{7}{c}{\textbf{squark 2-step decays via gauginos}} \\ \hline
+204965  &  mc14\_13TeV.204965.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_650\_375\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0695  &  1.00  &  1.000  &  5000  &  71.9 \\
+204966  &  mc14\_13TeV.204966.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_750\_425\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0219  &  1.00  &  1.000  &  20000  &  913.2 \\
+204967  &  mc14\_13TeV.204967.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_850\_475\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0075  &  1.00  &  1.000  &  17500  &  2333.3 \\
+204968  &  mc14\_13TeV.204968.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_950\_525\_100.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0027  &  1.00  &  1.000  &  19000  &  7037.0 \\
+204969  &  mc14\_13TeV.204969.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_650\_475\_300.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0695  &  1.00  &  1.000  &  20000  &  287.8 \\
+204970  &  mc14\_13TeV.204970.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_650\_525\_400.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0695  &  1.00  &  1.000  &  20000  &  287.8 \\
+204971  &  mc14\_13TeV.204971.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_650\_575\_500.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0695  &  1.00  &  1.000  &  20000  &  287.8 \\
+204972  &  mc14\_13TeV.204972.MadGraphPythia\_AUET2BCTEQ6L1\_SMSS2WWZZ\_650\_625\_600.merge.DAOD\_SUSY1.e3345\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0695  &  1.00  &  1.000  &  20000  &  287.8 \\
+\hline
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for the signal models used in this note. The dataset ID, the 
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$ and the equivalent luminosity ($L_{equiv}$) are shown.}
+\label{tab:SignalSamples}
+\end{sidewaystable}
+
+
+
+\subsection{Background Samples}
+\label{sec:BGSamples}
+
+All the background samples used are listed in Tables~\ref{tab:BGSamples1}-\ref{tab:BGSamples3}.
+
+Simulated $t\bar{t}$ events are generated using the {\sc Powheg} generator
+version r2330.2 ~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}, which implements
+the next-to-leading order matrix element for inclusive $t\bar{t}$
+production and uses the
+CT10 PDF set~\cite{Lai:2010vv}. {\sc Powheg} is interfaced to {\sc Pythia} 6.427~\cite{Sjostrand:2006za}
+with the CTEQ6L1 PDF set using the
+Perugia2012 tune~\cite{Skands:2010ak}. The $t\bar{t}$ samples are normalised to their
+next-to-next-to-leading order cross-section including the resummation of
+soft gluon emission at next-to-next-to-leading-logarithmic accuracy
+using Top++2.0 ~\cite{Czakon:2011xx}.
+
+Simulated $W$/$Z$+jets samples are produced using {\sc Sherpa} 1.4.5
+~\cite{gleisberg:2008ta} with massive $b$-, $c$-quarks with up to four
+additional partons in the matrix element and parton shower and are
+normalised to their next-to-next-to-leading order QCD theoretical
+cross sections~\cite{Catani:2009sm}.
+
+Samples of single top quark backgrounds corresponding to the $t$-, $s$-
+and $Wt$ production mechanisms are generated with {\sc Powheg} version r2330.2
+using the CT10 PDF set. All single-top samples are interfaced to {\sc Pythia} 6.427
+with the CTEQ6L1 set of parton distribution functions using the
+Perugia2012 tune. The leading-order cross-sections obtained from the
+generator is used for these samples.
+
+The processes of $t\bar{t}+V$ production are generated with {\sc MadGraph} 5
+2.1.1~\cite{madgraph} + {\sc Pythia} 6.427 using the CTEQ6L1 set of parton
+distribution functions and the AUET2B underlying event
+tune~\cite{ATLAS:2011krm}. The samples are normalised to their
+next-to-leading order cross-sections using the $k$-factors computed for $\sqrt{s}=14$~TeV~\cite{Campbell:2012dh,Kardos:2011na}. 
+
+% 
+Simulated samples for diboson processes are simulated with {\sc Sherpa} 1.4.5 ($WZ/ZZ\to\ell\ell\nu\nu$ and $W^{\pm}W^{\pm}jj\to\ell^{\pm}\ell^{\pm}\nu\nu jj$ electroweak production), {\sc Powheg} r2330.3 + {\sc Pythia 8} ($WW$, $WZ$ and $ZZ$) and {\tt gg2VV}~\cite{Kauer:2013qba,Kauer:2012hd} in {\sc Powheg} r2330.3 + {\sc Pythia 8} ($gg\to h\to WW$).
+
+QCD multijets are not included in this study since these
+backgrounds are expected to be very small.
+Note that some background processes that had a non-negligible (despite small) contribution to the analysis in Run-1,
+such as tri-boson or $t+Z$ production, were not included in the DC14 productions.
+
+% Processes involving Higgs production are generated with PYTHIA8.
+\begin{sidewaystable}[h]
+\begin{center}
+\resizebox{0.9\textwidth}{!}{
+\tiny
+\begin{tabular}{lllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$\\
+\hline
+110401  &  mc14\_13TeV.110401.PowhegPythia\_P2012\_ttbar\_nonallhad.merge.DAOD\_SUSY1.e2928\_s1982\_s2008\_r5787\_r5853\_p1872/  &  831.7600  &  1.00  &  0.543  &  9970500  &  22.1 \\
+119353  &  mc14\_13TeV.119353.MadGraphPythia\_AUET2BCTEQ6L1\_ttbarW.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2014  &  1.22  &  1.000  &  399500  &  1625.9 \\
+119355  &  mc14\_13TeV.119355.MadGraphPythia\_AUET2BCTEQ6L1\_ttbarZ.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1857  &  1.56  &  1.000  &  400000  &  1380.8 \\
+119583  &  mc14\_13TeV.119583.MadgraphPythia\_AUET2B\_CTEQ6L1\_ttbarWW.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0030  &  1.00  &  1.000  &  10000  &  3333.3 \\
+174830  &  mc14\_13TeV.174830.MadGraphPythia\_AUET2BCTEQ6L1\_ttbarWjExcl.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1313  &  1.22  &  1.000  &  399500  &  2494.0 \\
+174831  &  mc14\_13TeV.174831.MadGraphPythia\_AUET2BCTEQ6L1\_ttbarWjjIncl.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1627  &  1.22  &  1.000  &  395000  &  1990.0 \\
+174832  &  mc14\_13TeV.174832.MadGraphPythia\_AUET2BCTEQ6L1\_ttbarZjExcl.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1663  &  1.56  &  1.000  &  399500  &  1539.9 \\
+174833  &  mc14\_13TeV.174833.MadGraphPythia\_AUET2BCTEQ6L1\_ttbarZjjIncl.merge.DAOD\_SUSY1.e3214\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2076  &  1.56  &  1.000  &  399500  &  1233.6 \\
+110070  &  mc14\_13TeV.110070.PowhegPythia\_P2012\_singletop\_tchan\_lept\_top.merge.DAOD\_SUSY1.e3049\_s1982\_s2008\_r5787\_r5853\_p1872/  &  43.7550  &  1.00  &  1.000  &  999000  &  22.8 \\
+
+110071  &  mc14\_13TeV.110071.PowhegPythia\_P2012\_singletop\_tchan\_lept\_antitop.merge.DAOD\_SUSY1.e3049\_s1982\_s2008\_r5787\_r5853\_p1872/  &  25.7780  &  1.00  &  1.000  &  1000000  &  38.8 \\
+
+110302  &  mc14\_13TeV.110302.PowhegPythia\_P2012\_st\_schan\_lep.merge.DAOD\_SUSY1.e3049\_s1982\_s2008\_r5787\_r5853\_p1872/  &  3.3514  &  1.00  &  1.000  &  999500  &  298.2 \\
+
+110305  &  mc14\_13TeV.110305.PowhegPythia\_P2012\_st\_Wtchan\_incl\_DR.merge.DAOD\_SUSY1.e3049\_s1982\_s2008\_r5787\_r5853\_p1872/  &  68.4590  &  1.00  &  1.000  &  958500  &  14.0 \\
+%\hline
+%161105 & mc14\_13TeV.161105.Pythia8\_AU2CTEQ6L1\_WH125\_WW2lep.merge.DAOD\_SUSY1.e2743\_s1982\_s2008\_r5787\_r5853\_p1872/ & 0.24 & 1.00 & 0.104 & 0.025 & 100000  \\ 
+%161155 & mc14\_13TeV.161155.Pythia8\_AU2CTEQ6L1\_ZH125\_WW2lep.merge.DAOD\_SUSY1.e2743\_s1982\_s2008\_r5787\_r5853\_p1872/ & 0.01 & 1.00 & 1.000 & 0.014 & 100000  \\ 
+%161305 & mc14\_13TeV.161305.Pythia8\_AU2CTEQ6L1\_ttH125\_WWinclusive.merge.DAOD\_SUSY1.e2743\_s1982\_s2008\_r5787\_r5853\_p1872/ & 0.07 & 1.00 & 1.000 & 0.071 & 199500  \\ 
+\hline
+167740  &  mc14\_13TeV.167740.Sherpa\_CT10\_WenuMassiveCBPt0\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18795.0000  &  1.07  &  0.018  &  497000  &  1.4 \\
+167741  &  mc14\_13TeV.167741.Sherpa\_CT10\_WenuMassiveCBPt0\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18804.0000  &  1.07  &  0.063  &  494500  &  0.4 \\
+167742  &  mc14\_13TeV.167742.Sherpa\_CT10\_WenuMassiveCBPt0\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18843.0000  &  1.07  &  0.919  &  1000000  &  0.1 \\
+167743  &  mc14\_13TeV.167743.Sherpa\_CT10\_WmunuMassiveCBPt0\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18793.0000  &  1.07  &  0.018  &  499500  &  1.4 \\
+167744  &  mc14\_13TeV.167744.Sherpa\_CT10\_WmunuMassiveCBPt0\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18788.0000  &  1.07  &  0.056  &  498000  &  0.4 \\
+167745  &  mc14\_13TeV.167745.Sherpa\_CT10\_WmunuMassiveCBPt0\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18797.0000  &  1.07  &  0.926  &  989500  &  0.1 \\
+167746  &  mc14\_13TeV.167746.Sherpa\_CT10\_WtaunuMassiveCBPt0\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18795.0000  &  1.07  &  0.018  &  500000  &  1.4 \\
+167747  &  mc14\_13TeV.167747.Sherpa\_CT10\_WtaunuMassiveCBPt0\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18808.0000  &  1.07  &  0.060  &  500000  &  0.4 \\
+167748  &  mc14\_13TeV.167748.Sherpa\_CT10\_WtaunuMassiveCBPt0\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  18800.0000  &  1.07  &  0.923  &  499500  &  0.0 \\
+167761  &  mc14\_13TeV.167761.Sherpa\_CT10\_WenuMassiveCBPt70\_140\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  557.8700  &  1.07  &  0.055  &  349500  &  10.6 \\
+167762  &  mc14\_13TeV.167762.Sherpa\_CT10\_WenuMassiveCBPt70\_140\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  557.9200  &  1.07  &  0.227  &  350000  &  2.6 \\
+167763  &  mc14\_13TeV.167763.Sherpa\_CT10\_WenuMassiveCBPt70\_140\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  558.3700  &  1.07  &  0.718  &  985500  &  2.3 \\
+167764  &  mc14\_13TeV.167764.Sherpa\_CT10\_WmunuMassiveCBPt70\_140\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  557.8700  &  1.07  &  0.055  &  345500  &  10.5 \\
+167765  &  mc14\_13TeV.167765.Sherpa\_CT10\_WmunuMassiveCBPt70\_140\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  558.2500  &  1.07  &  0.220  &  350000  &  2.7 \\
+167766  &  mc14\_13TeV.167766.Sherpa\_CT10\_WmunuMassiveCBPt70\_140\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  557.4800  &  1.07  &  0.724  &  500000  &  1.2 \\
+167767  &  mc14\_13TeV.167767.Sherpa\_CT10\_WtaunuMassiveCBPt70\_140\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  557.9200  &  1.07  &  0.055  &  349500  &  10.6 \\
+167768  &  mc14\_13TeV.167768.Sherpa\_CT10\_WtaunuMassiveCBPt70\_140\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  557.6800  &  1.07  &  0.224  &  349500  &  2.6 \\
+167769  &  mc14\_13TeV.167769.Sherpa\_CT10\_WtaunuMassiveCBPt70\_140\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  558.5900  &  1.07  &  0.720  &  999500  &  2.3 \\
+167770  &  mc14\_13TeV.167770.Sherpa\_CT10\_WenuMassiveCBPt140\_280\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.8640  &  1.07  &  0.075  &  198000  &  30.1 \\
+167771  &  mc14\_13TeV.167771.Sherpa\_CT10\_WenuMassiveCBPt140\_280\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.9180  &  1.07  &  0.255  &  200000  &  8.9 \\
+167772  &  mc14\_13TeV.167772.Sherpa\_CT10\_WenuMassiveCBPt140\_280\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.7640  &  1.07  &  0.671  &  398000  &  6.8 \\
+167773  &  mc14\_13TeV.167773.Sherpa\_CT10\_WmunuMassiveCBPt140\_280\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.7750  &  1.07  &  0.074  &  349500  &  54.0 \\
+167774  &  mc14\_13TeV.167774.Sherpa\_CT10\_WmunuMassiveCBPt140\_280\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.8130  &  1.07  &  0.250  &  349000  &  15.9 \\
+167775  &  mc14\_13TeV.167775.Sherpa\_CT10\_WmunuMassiveCBPt140\_280\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.9250  &  1.07  &  0.676  &  999500  &  16.9 \\
+167776  &  mc14\_13TeV.167776.Sherpa\_CT10\_WtaunuMassiveCBPt140\_280\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.8670  &  1.07  &  0.075  &  200000  &  30.4 \\
+167777  &  mc14\_13TeV.167777.Sherpa\_CT10\_WtaunuMassiveCBPt140\_280\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.7000  &  1.07  &  0.253  &  199927  &  9.0 \\
+167778  &  mc14\_13TeV.167778.Sherpa\_CT10\_WtaunuMassiveCBPt140\_280\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  81.7680  &  1.07  &  0.673  &  400000  &  6.8 \\
+167779  &  mc14\_13TeV.167779.Sherpa\_CT10\_WenuMassiveCBPt280\_500\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2271  &  1.00  &  0.098  &  399500  &  654.6 \\
+167780  &  mc14\_13TeV.167780.Sherpa\_CT10\_WenuMassiveCBPt280\_500\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2128  &  1.07  &  0.273  &  99500  &  54.8 \\
+167781  &  mc14\_13TeV.167781.Sherpa\_CT10\_WenuMassiveCBPt280\_500\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2357  &  1.07  &  0.630  &  200000  &  47.6 \\
+167782  &  mc14\_13TeV.167782.Sherpa\_CT10\_WmunuMassiveCBPt280\_500\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2188  &  1.07  &  0.097  &  199500  &  309.1 \\
+167783  &  mc14\_13TeV.167783.Sherpa\_CT10\_WmunuMassiveCBPt280\_500\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2277  &  1.07  &  0.266  &  199000  &  112.3 \\
+167784  &  mc14\_13TeV.167784.Sherpa\_CT10\_WmunuMassiveCBPt280\_500\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2271  &  1.07  &  0.635  &  399500  &  94.4 \\
+167785  &  mc14\_13TeV.167785.Sherpa\_CT10\_WtaunuMassiveCBPt280\_500\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2235  &  1.07  &  0.097  &  399500  &  618.5 \\
+167786  &  mc14\_13TeV.167786.Sherpa\_CT10\_WtaunuMassiveCBPt280\_500\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2311  &  1.07  &  0.271  &  100000  &  55.3 \\
+167787  &  mc14\_13TeV.167787.Sherpa\_CT10\_WtaunuMassiveCBPt280\_500\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  6.2060  &  1.07  &  0.631  &  200000  &  47.7 \\
+167788  &  mc14\_13TeV.167788.Sherpa\_CT10\_WenuMassiveCBPt500\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5143  &  1.07  &  0.118  &  10000  &  154.0 \\
+167789  &  mc14\_13TeV.167789.Sherpa\_CT10\_WenuMassiveCBPt500\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5208  &  1.07  &  0.289  &  10000  &  62.1 \\
+167790  &  mc14\_13TeV.167790.Sherpa\_CT10\_WenuMassiveCBPt500\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5131  &  1.07  &  0.597  &  40000  &  122.0 \\
+167791  &  mc14\_13TeV.167791.Sherpa\_CT10\_WmunuMassiveCBPt500\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5149  &  1.07  &  0.118  &  398000  &  6122.0 \\
+167792  &  mc14\_13TeV.167792.Sherpa\_CT10\_WmunuMassiveCBPt500\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5132  &  1.07  &  0.280  &  100000  &  650.4 \\
+167793  &  mc14\_13TeV.167793.Sherpa\_CT10\_WmunuMassiveCBPt500\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5130  &  1.07  &  0.603  &  199000  &  601.2 \\
+167794  &  mc14\_13TeV.167794.Sherpa\_CT10\_WtaunuMassiveCBPt500\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5169  &  1.07  &  0.119  &  10000  &  151.9 \\
+167795  &  mc14\_13TeV.167795.Sherpa\_CT10\_WtaunuMassiveCBPt500\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5136  &  1.07  &  0.291  &  10000  &  62.5 \\
+167796  &  mc14\_13TeV.167796.Sherpa\_CT10\_WtaunuMassiveCBPt500\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.5145  &  1.07  &  0.600  &  40000  &  121.1 \\
+180534  &  mc14\_13TeV.180534.Sherpa\_CT10\_WenuMassiveCBPt40\_70\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1315.7000  &  1.07  &  0.041  &  350000  &  6.1 \\
+180535  &  mc14\_13TeV.180535.Sherpa\_CT10\_WenuMassiveCBPt40\_70\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1316.8000  &  1.07  &  0.191  &  347500  &  1.3 \\
+180536  &  mc14\_13TeV.180536.Sherpa\_CT10\_WenuMassiveCBPt40\_70\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1312.7000  &  1.07  &  0.767  &  499000  &  0.5 \\
+180537  &  mc14\_13TeV.180537.Sherpa\_CT10\_WmunuMassiveCBPt40\_70\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1311.0000  &  1.07  &  0.041  &  10000  &  0.2 \\
+180538  &  mc14\_13TeV.180538.Sherpa\_CT10\_WmunuMassiveCBPt40\_70\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1302.1000  &  1.07  &  0.184  &  10000  &  0.0 \\
+180539  &  mc14\_13TeV.180539.Sherpa\_CT10\_WmunuMassiveCBPt40\_70\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1323.8000  &  1.07  &  0.772  &  40000  &  0.0 \\
+180540  &  mc14\_13TeV.180540.Sherpa\_CT10\_WtaunuMassiveCBPt40\_70\_BFilter.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1316.1000  &  1.07  &  0.041  &  995000  &  17.2 \\
+180541  &  mc14\_13TeV.180541.Sherpa\_CT10\_WtaunuMassiveCBPt40\_70\_CJetFilterBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1314.2000  &  1.07  &  0.189  &  349500  &  1.3 \\
+180542  &  mc14\_13TeV.180542.Sherpa\_CT10\_WtaunuMassiveCBPt40\_70\_CJetVetoBVeto.merge.DAOD\_SUSY1.e2822\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1314.4000  &  1.07  &  0.769  &  349000  &  0.3 \\
+\hline
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for
+  top-related background processes as well as $W$+jets. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$ and the equivalent luminosity ($L_{equiv}$) are shown.}
+\label{tab:BGSamples1}
+\end{sidewaystable}
+
+
+\begin{sidewaystable}[h]
+\begin{center}
+\resizebox{\textwidth}{!}{
+\tiny
+\begin{tabular}{lllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$\\
+\hline
+167749  &  mc14\_13TeV.167749.Sherpa\_CT10\_ZeeMassiveCBPt0\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1928.9000  &  1.09  &  0.038  &  500000  &  6.3 \\
+167750  &  mc14\_13TeV.167750.Sherpa\_CT10\_ZeeMassiveCBPt0\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1926.8000  &  1.09  &  0.328  &  149500  &  0.2 \\
+167751  &  mc14\_13TeV.167751.Sherpa\_CT10\_ZeeMassiveCBPt0\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1938.8000  &  1.09  &  0.636  &  150000  &  0.1 \\
+167752  &  mc14\_13TeV.167752.Sherpa\_CT10\_ZmumuMassiveCBPt0\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1929.9000  &  1.09  &  0.038  &  499500  &  6.2 \\
+167753  &  mc14\_13TeV.167753.Sherpa\_CT10\_ZmumuMassiveCBPt0\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1927.0000  &  1.09  &  0.326  &  150000  &  0.2 \\
+167754  &  mc14\_13TeV.167754.Sherpa\_CT10\_ZmumuMassiveCBPt0\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1936.4000  &  1.09  &  0.636  &  150000  &  0.1 \\
+167755  &  mc14\_13TeV.167755.Sherpa\_CT10\_ZtautauMassiveCBPt0\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1929.7000  &  1.09  &  0.038  &  499500  &  6.2 \\
+167756  &  mc14\_13TeV.167756.Sherpa\_CT10\_ZtautauMassiveCBPt0\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1928.4000  &  1.09  &  0.327  &  150000  &  0.2 \\
+167757  &  mc14\_13TeV.167757.Sherpa\_CT10\_ZtautauMassiveCBPt0\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1925.5000  &  1.09  &  0.634  &  149500  &  0.1 \\
+167797  &  mc14\_13TeV.167797.Sherpa\_CT10\_ZeeMassiveCBPt70\_140\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.7490  &  1.09  &  0.102  &  300000  &  40.4 \\
+167798  &  mc14\_13TeV.167798.Sherpa\_CT10\_ZeeMassiveCBPt70\_140\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.8320  &  1.09  &  0.394  &  99500  &  3.5 \\
+167799  &  mc14\_13TeV.167799.Sherpa\_CT10\_ZeeMassiveCBPt70\_140\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.7900  &  1.09  &  0.505  &  100000  &  2.7 \\
+167800  &  mc14\_13TeV.167800.Sherpa\_CT10\_ZmumuMassiveCBPt70\_140\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.7440  &  1.09  &  0.102  &  299500  &  40.4 \\
+167801  &  mc14\_13TeV.167801.Sherpa\_CT10\_ZmumuMassiveCBPt70\_140\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.6270  &  1.09  &  0.395  &  100000  &  3.5 \\
+167802  &  mc14\_13TeV.167802.Sherpa\_CT10\_ZmumuMassiveCBPt70\_140\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.9090  &  1.09  &  0.506  &  99500  &  2.7 \\
+167803  &  mc14\_13TeV.167803.Sherpa\_CT10\_ZtautauMassiveCBPt70\_140\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.8420  &  1.09  &  0.102  &  299500  &  40.3 \\
+167804  &  mc14\_13TeV.167804.Sherpa\_CT10\_ZtautauMassiveCBPt70\_140\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.8820  &  1.09  &  0.393  &  99500  &  3.5 \\
+167805  &  mc14\_13TeV.167805.Sherpa\_CT10\_ZtautauMassiveCBPt70\_140\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  66.9950  &  1.09  &  0.506  &  100000  &  2.7 \\
+167809  &  mc14\_13TeV.167809.Sherpa\_CT10\_ZeeMassiveCBPt140\_280\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6360  &  1.09  &  0.118  &  200000  &  146.2 \\
+167810  &  mc14\_13TeV.167810.Sherpa\_CT10\_ZeeMassiveCBPt140\_280\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6210  &  1.09  &  0.407  &  50000  &  10.6 \\
+167811  &  mc14\_13TeV.167811.Sherpa\_CT10\_ZeeMassiveCBPt140\_280\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6170  &  1.09  &  0.473  &  50000  &  9.1 \\
+167812  &  mc14\_13TeV.167812.Sherpa\_CT10\_ZmumuMassiveCBPt140\_280\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6290  &  1.09  &  0.118  &  199500  &  145.9 \\
+167813  &  mc14\_13TeV.167813.Sherpa\_CT10\_ZmumuMassiveCBPt140\_280\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6500  &  1.09  &  0.411  &  50000  &  10.5 \\
+167814  &  mc14\_13TeV.167814.Sherpa\_CT10\_ZmumuMassiveCBPt140\_280\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6750  &  1.09  &  0.476  &  50000  &  9.0 \\
+167815  &  mc14\_13TeV.167815.Sherpa\_CT10\_ZtautauMassiveCBPt140\_280\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6260  &  1.09  &  0.118  &  200000  &  146.3 \\
+167816  &  mc14\_13TeV.167816.Sherpa\_CT10\_ZtautauMassiveCBPt140\_280\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6270  &  1.09  &  0.409  &  50000  &  10.6 \\
+167817  &  mc14\_13TeV.167817.Sherpa\_CT10\_ZtautauMassiveCBPt140\_280\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  10.6690  &  1.09  &  0.475  &  50000  &  9.1 \\
+167821  &  mc14\_13TeV.167821.Sherpa\_CT10\_ZeeMassiveCBPt280\_500\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8306  &  1.09  &  0.134  &  99000  &  816.0 \\
+167822  &  mc14\_13TeV.167822.Sherpa\_CT10\_ZeeMassiveCBPt280\_500\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8350  &  1.09  &  0.423  &  40000  &  103.9 \\
+167823  &  mc14\_13TeV.167823.Sherpa\_CT10\_ZeeMassiveCBPt280\_500\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8326  &  1.09  &  0.445  &  40000  &  99.0 \\
+167824  &  mc14\_13TeV.167824.Sherpa\_CT10\_ZmumuMassiveCBPt280\_500\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8309  &  1.09  &  0.133  &  100000  &  830.2 \\
+167825  &  mc14\_13TeV.167825.Sherpa\_CT10\_ZmumuMassiveCBPt280\_500\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8321  &  1.09  &  0.425  &  40000  &  103.8 \\
+167826  &  mc14\_13TeV.167826.Sherpa\_CT10\_ZmumuMassiveCBPt280\_500\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8351  &  1.09  &  0.445  &  40000  &  98.7 \\
+167827  &  mc14\_13TeV.167827.Sherpa\_CT10\_ZtautauMassiveCBPt280\_500\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8314  &  1.09  &  0.133  &  99500  &  825.5 \\
+167828  &  mc14\_13TeV.167828.Sherpa\_CT10\_ZtautauMassiveCBPt280\_500\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8334  &  1.09  &  0.424  &  40000  &  103.9 \\
+167829  &  mc14\_13TeV.167829.Sherpa\_CT10\_ZtautauMassiveCBPt280\_500\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.8301  &  1.09  &  0.443  &  40000  &  99.8 \\
+167833  &  mc14\_13TeV.167833.Sherpa\_CT10\_ZeeMassiveCBPt500\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0684  &  1.09  &  0.146  &  9500  &  872.7 \\
+167834  &  mc14\_13TeV.167834.Sherpa\_CT10\_ZeeMassiveCBPt500\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0684  &  1.09  &  0.434  &  10000  &  309.0 \\
+167835  &  mc14\_13TeV.167835.Sherpa\_CT10\_ZeeMassiveCBPt500\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0685  &  1.09  &  0.419  &  40000  &  1278.6 \\
+167836  &  mc14\_13TeV.167836.Sherpa\_CT10\_ZmumuMassiveCBPt500\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0683  &  1.09  &  0.144  &  10000  &  932.8 \\
+167837  &  mc14\_13TeV.167837.Sherpa\_CT10\_ZmumuMassiveCBPt500\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0690  &  1.09  &  0.441  &  10000  &  301.5 \\
+167838  &  mc14\_13TeV.167838.Sherpa\_CT10\_ZmumuMassiveCBPt500\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0687  &  1.09  &  0.417  &  40000  &  1281.0 \\
+167839  &  mc14\_13TeV.167839.Sherpa\_CT10\_ZtautauMassiveCBPt500\_BFilter.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0685  &  1.09  &  0.144  &  10000  &  930.1 \\
+167840  &  mc14\_13TeV.167840.Sherpa\_CT10\_ZtautauMassiveCBPt500\_CFilterBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0688  &  1.09  &  0.441  &  10000  &  302.4 \\
+167841  &  mc14\_13TeV.167841.Sherpa\_CT10\_ZtautauMassiveCBPt500\_CVetoBVeto.merge.DAOD\_SUSY1.e2798\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.0679  &  1.09  &  0.415  &  40000  &  1302.3 \\
+\hline
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for
+   $Z\to\ell\ell$+jets. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$ and the equivalent luminosity ($L_{equiv}$) are shown.}
+\label{tab:BGSamples2}
+\end{sidewaystable}
+
+
+\begin{sidewaystable}[h]
+\begin{center}
+\resizebox{\textwidth}{!}{
+\tiny
+\begin{tabular}{lllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$\\
+\hline
+187150  &  mc14\_13TeV.187150.PowhegPythia8\_AU2CT10\_WpWm\_ee.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1792  &  1.00  &  1.000  &  100000  &  84.8 \\
+187151  &  mc14\_13TeV.187151.PowhegPythia8\_AU2CT10\_WpWm\_mue.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1790  &  1.00  &  1.000  &  200000  &  169.6 \\
+187152  &  mc14\_13TeV.187152.PowhegPythia8\_AU2CT10\_WpWm\_taue.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1790  &  1.00  &  1.000  &  199500  &  169.2 \\
+187153  &  mc14\_13TeV.187153.PowhegPythia8\_AU2CT10\_WpWm\_emu.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1790  &  1.00  &  1.000  &  199500  &  169.2 \\
+187154  &  mc14\_13TeV.187154.PowhegPythia8\_AU2CT10\_WpWm\_mumu.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1792  &  1.00  &  1.000  &  100000  &  84.8 \\
+187155  &  mc14\_13TeV.187155.PowhegPythia8\_AU2CT10\_WpWm\_taumu.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1790  &  1.00  &  1.000  &  199500  &  169.2 \\
+187156  &  mc14\_13TeV.187156.PowhegPythia8\_AU2CT10\_WpWm\_etau.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1790  &  1.00  &  1.000  &  198500  &  168.4 \\
+187157  &  mc14\_13TeV.187157.PowhegPythia8\_AU2CT10\_WpWm\_mutau.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1790  &  1.00  &  1.000  &  194500  &  165.0 \\
+187158  &  mc14\_13TeV.187158.PowhegPythia8\_AU2CT10\_WpWm\_tautau.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1792  &  1.00  &  1.000  &  100000  &  84.8 \\
+187401  &  mc14\_13TeV.187401.gg2vvPythia8\_AU2CT10\_WpWmenuenu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\
+187402  &  mc14\_13TeV.187402.gg2vvPythia8\_AU2CT10\_WpWmenumunu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  29500  &  74.1 \\
+187403  &  mc14\_13TeV.187403.gg2vvPythia8\_AU2CT10\_WpWmenutaunu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  29500  &  74.1 \\
+187404  &  mc14\_13TeV.187404.gg2vvPythia8\_AU2CT10\_WpWmmunuenu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\
+187405  &  mc14\_13TeV.187405.gg2vvPythia8\_AU2CT10\_WpWmmunumunu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\
+187406  &  mc14\_13TeV.187406.gg2vvPythia8\_AU2CT10\_WpWmmunutaunu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\
+187407  &  mc14\_13TeV.187407.gg2vvPythia8\_AU2CT10\_WpWmtaunuenu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\
+187408  &  mc14\_13TeV.187408.gg2vvPythia8\_AU2CT10\_WpWmtaunumunu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\
+187409  &  mc14\_13TeV.187409.gg2vvPythia8\_AU2CT10\_WpWmtaunutaunu.merge.DAOD\_SUSY1.e3131\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3981  &  1.00  &  1.000  &  30000  &  75.4 \\ \hline
+187160  &  mc14\_13TeV.187160.PowhegPythia8\_AU2CT10\_WmZ\_3e\_mll0p25\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.6880  &  1.00  &  0.285  &  198500  &  412.6 \\
+187161  &  mc14\_13TeV.187161.PowhegPythia8\_AU2CT10\_WmZ\_e2mu\_mll0p4614\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1680  &  1.00  &  0.341  &  158500  &  398.0 \\
+187162  &  mc14\_13TeV.187162.PowhegPythia8\_AU2CT10\_WmZ\_e2tau\_mll3p804\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2141  &  1.00  &  0.163  &  100000  &  2865.5 \\
+187163  &  mc14\_13TeV.187163.PowhegPythia8\_AU2CT10\_WmZ\_mu2e\_mll0p25\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.7690  &  1.00  &  0.286  &  197500  &  390.4 \\
+187164  &  mc14\_13TeV.187164.PowhegPythia8\_AU2CT10\_WmZ\_3mu\_mll0p4614\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1510  &  1.00  &  0.342  &  199500  &  506.8 \\
+187165  &  mc14\_13TeV.187165.PowhegPythia8\_AU2CT10\_WmZ\_mu2tau\_mll3p804\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2141  &  1.00  &  0.164  &  100000  &  2848.0 \\
+187166  &  mc14\_13TeV.187166.PowhegPythia8\_AU2CT10\_WmZ\_tau2e\_mll0p25\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.7690  &  1.00  &  0.147  &  99500  &  382.6 \\
+187167  &  mc14\_13TeV.187167.PowhegPythia8\_AU2CT10\_WmZ\_tau2mu\_mll0p4614\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.1680  &  1.00  &  0.185  &  98500  &  455.8 \\
+187168  &  mc14\_13TeV.187168.PowhegPythia8\_AU2CT10\_WmZ\_3tau\_mll3p804\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2104  &  1.00  &  0.060  &  100000  &  7921.4 \\
+187170  &  mc14\_13TeV.187170.PowhegPythia8\_AU2CT10\_WpZ\_3e\_mll0p25\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  2.3540  &  1.00  &  0.272  &  198500  &  310.0 \\
+187171  &  mc14\_13TeV.187171.PowhegPythia8\_AU2CT10\_WpZ\_e2mu\_mll0p4614\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.5590  &  1.00  &  0.326  &  199500  &  392.5 \\
+187172  &  mc14\_13TeV.187172.PowhegPythia8\_AU2CT10\_WpZ\_e2tau\_mll3p804\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3129  &  1.00  &  0.164  &  100000  &  1948.7 \\
+187173  &  mc14\_13TeV.187173.PowhegPythia8\_AU2CT10\_WpZ\_mu2e\_mll0p25\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  2.3710  &  1.00  &  0.272  &  198000  &  307.0 \\
+187174  &  mc14\_13TeV.187174.PowhegPythia8\_AU2CT10\_WpZ\_3mu\_mll0p4614\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.5910  &  1.00  &  0.327  &  199500  &  383.5 \\
+187175  &  mc14\_13TeV.187175.PowhegPythia8\_AU2CT10\_WpZ\_mu2tau\_mll3p804\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3129  &  1.00  &  0.163  &  99500  &  1950.9 \\
+187176  &  mc14\_13TeV.187176.PowhegPythia8\_AU2CT10\_WpZ\_tau2e\_mll0p25\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  2.3710  &  1.00  &  0.138  &  100000  &  305.6 \\
+187177  &  mc14\_13TeV.187177.PowhegPythia8\_AU2CT10\_WpZ\_tau2mu\_mll0p4614\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.5590  &  1.00  &  0.174  &  100000  &  368.6 \\
+187178  &  mc14\_13TeV.187178.PowhegPythia8\_AU2CT10\_WpZ\_3tau\_mll3p804\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.3081  &  1.00  &  0.060  &  99500  &  5382.5 \\ \hline
+187180  &  mc14\_13TeV.187180.PowhegPythia8\_AU2CT10\_ZZ\_4e\_mll4\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1324  &  1.00  &  0.919  &  293500  &  2412.2 \\
+187181  &  mc14\_13TeV.187181.PowhegPythia8\_AU2CT10\_ZZ\_2e2mu\_mll4\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2961  &  1.00  &  0.849  &  294500  &  1171.5 \\
+187182  &  mc14\_13TeV.187182.PowhegPythia8\_AU2CT10\_ZZ\_2e2tau\_mll4\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2961  &  1.00  &  0.609  &  300000  &  1663.7 \\
+187183  &  mc14\_13TeV.187183.PowhegPythia8\_AU2CT10\_ZZ\_4mu\_mll4\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1324  &  1.00  &  0.923  &  300000  &  2454.9 \\
+187184  &  mc14\_13TeV.187184.PowhegPythia8\_AU2CT10\_ZZ\_2mu2tau\_mll4\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.2961  &  1.00  &  0.616  &  299500  &  1642.0 \\
+187185  &  mc14\_13TeV.187185.PowhegPythia8\_AU2CT10\_ZZ\_4tau\_mll4\_DiLeptonFilter.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1324  &  1.00  &  0.113  &  300000  &  20051.9 \\
+187186  &  mc14\_13TeV.187186.PowhegPythia8\_AU2CT10\_ZZ\_2e2nu\_mll4.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1032  &  1.00  &  1.000  &  100000  &  969.0 \\
+187187  &  mc14\_13TeV.187187.PowhegPythia8\_AU2CT10\_ZZ\_2mu2nu\_mll4.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1032  &  1.00  &  1.000  &  100000  &  969.0 \\
+187188  &  mc14\_13TeV.187188.PowhegPythia8\_AU2CT10\_ZZ\_2tau2nu\_mll4.merge.DAOD\_SUSY1.e3059\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.1032  &  1.00  &  1.000  &  99500  &  964.1 \\ \hline
+200920  &  mc14\_13TeV.200920.Sherpa\_CT10\_llll.merge.DAOD\_SUSY1.e3213\_s1982\_s2008\_r5787\_r5853\_p1872/  &  1.0467  &  1.00  &  1.000  &  1000000  &  955.4 \\
+200982  &  mc14\_13TeV.200982.Sherpa\_CT10\_lllvjj\_EW6.merge.DAOD\_SUSY1.e3618\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.04184  &  1.00  &  1.000  &  99500  &  2378.1 \\
+200983  &  mc14\_13TeV.200983.Sherpa\_CT10\_lllljj\_EW6.merge.DAOD\_SUSY1.e3618\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.01307  &  1.00  &  1.000  &  96000  &  7345.1 \\
+200922  &  mc14\_13TeV.200922.Sherpa\_CT10\_llvv.merge.DAOD\_SUSY1.e3213\_s1982\_s2008\_r5787\_r5853\_p1872/  &  13.8200  &  1.00  &  1.000  &  4972000  &  359.8 \\
+200980  &  mc14\_13TeV.200980.Sherpa\_CT10\_llvvjj\_ss\_EW4.merge.DAOD\_SUSY1.e3618\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.02595  &  1.00  &  1.000  &  100000  &  3853.6 \\
+200981  &  mc14\_13TeV.200981.Sherpa\_CT10\_llvvjj\_ss\_EW6.merge.DAOD\_SUSY1.e3618\_s1982\_s2008\_r5787\_r5853\_p1872/  &  0.04295  &  1.00  &  1.000 &  100000  &  2328.3\\
+\hline
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for
+  di-boson background processes. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$ and the equivalent luminosity ($L_{equiv}$) are shown.}
+\label{tab:BGSamples3}
+\end{sidewaystable}
+
+\subsection{Detector simulation}
+
+The detector simulation is performed with a full ATLAS detector
+simulation~\cite{Aad:2010ah} based on {\sc Geant4}~\cite{Agostinelli:2002hh}. All
+simulated samples are generated with a range of minimum-bias
+interactions using {\sc Pythia 8}~\cite{Sjostrand:2007gs} with the MSTW2008LO PDF set~\cite{Sherstnev:2007nd} and the AUET2B tune 
+overlaid on the hard-scattering event to
+account for the multiple $pp$ interactions in the same bunch
+crossing (in-time pileup) and neighbouring bunch crossing (out-of-time pileup). 
+A bunch spacing of 25~ns is assumed, and for the bulk of the events a flat probability 
+distribution for the average number of
+interactions per bunch crossing is assumed with values ranging from
+20 to 40 at most~\cite{dc14twiki}.

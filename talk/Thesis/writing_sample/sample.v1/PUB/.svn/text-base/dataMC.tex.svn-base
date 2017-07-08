@@ -1,0 +1,104 @@
+The data were collected by the ATLAS detector during 2015 and 2016 with a peak 
+instantaneous luminosity of $L~=~1.4\times~10^{34}$~cm$^{-2}$s$^{-1}$. 
+The mean number of $pp$ interactions per bunch crossing 
+(pile-up) in the dataset is $\langle \mu \rangle = 23.7$ and
+the bunch spacing is 25ns. After the application of beam, detector and data quality requirements, 
+the integrated luminosity considered in this analysis corresponds to 36.0~fb$^{-1}$.
+The preliminary uncertainty on the combined 2015+2016 integrated luminosity is 3.2\%. 
+It is derived, following a methodology similar to that detailed in Ref.~\cite{Aaboud:2016hhf}, 
+from a preliminary calibration of the luminosity scale using $x$-$y$ beam-separation scans performed in August 2015 and May 2016.
+
+Monte Carlo (MC) simulated event samples are used to estimate the irreducible SM background with two 
+same-sign and or three prompt leptons to model the SUSY signals. The reducible background, mainly 
+coming from $\ttbar$ production, is estimated from the data as described in detail in Section~\ref{sec:bkg}. 
+The MC samples are processed through an ATLAS detector simulation~\cite{Aad:2010ah} based on 
+{\sc Geant4}~\cite{Agostinelli:2002hh} or a fast simulation using a parameterisation of the calorimeter response 
+and {\sc Geant4} for the ID and MS~\cite{ATL-PHYS-PUB-2010-013}. To simulate the effects of additional $pp$ collisions 
+in the same and nearby bunch crossings, additional interactions are generated using the soft QCD processes 
+of \PYTHIA 8.186~\cite{Sjostrand:2007gs} with the A2 tune~\cite{ATLAS-PHYS-PUB-2012-003} and the MSTW2008LO PDF~\cite{Martin:2009iq}, 
+and overlaid onto the simulated hard scatter event. 
+The MC events are reweighted to match the pile-up conditions observed in the data and are reconstructed in the 
+same manner as the data. The generator, parton shower, cross-section normalisation, parton distribution function (PDF) 
+set and underlying-event tune of all samples are given in Table~\ref{tab:MC}.In all MC samples, except 
+those produced by \SHERPA, the {\sc EvtGen}~v1.2.0 program~\cite{EvtGen} is used to model the properties 
+of the bottom and charm hadron decays. 
+
+
+
+\begin{table*}[ht]
+\begin{center}
+\scriptsize
+\resizebox{\textwidth}{!}
+{
+\begin{tabular}{|l|l|c|c|c|c|}
+\hline
+Physics process    & Generator & Parton shower & Cross-section & PDF set & Tune \\
+                   &	      & 	      & normalisation & 	&      \\
+\hline
+RPC signal 	   & \AMCATNLO 2.2.3~\cite{Alwall:2014hca} & \PYTHIA 8.186~\cite{Sjostrand:2007gs}&NLO+NLL~\cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu,Kramer:2012bx} & NNPDF2.3LO~\cite{Lai:2010vv} & A14~\cite{pub-2014-021} \\
+        	   &  		           & 		       & or NLO-Prospino2 			& 			     &   \\
+RPV signal 	   & \AMCATNLO 2.2.3        & \PYTHIA 8.210       & NLO+NLL or			 & NNPDF2.3LO		       & A14 \\
+        	   &  		           & 		       & NLO-Prospino2 			& 			     &   \\
+\hline
+$\ttbar+W/Z/\gamma^{*}$ & \AMCATNLO 2.2.2 & \PYTHIA 8.186	  & NLO~\cite{YR4}     & NNPDF2.3LO & A14    \\
+$\ttbar H$	   & \AMCATNLO 2.2.2        & \HERWIG 2.7.1~\cite{Corcella:2000bw}                & NLO~\cite{YR4}   &
+CTEQ6L1~\cite{Pumplin:2002vw} & UEEE5~\cite{Gieseke:2012ft}  \\
+$\ttbar\ttbar$     & \AMCATNLO 2.2.2       & \PYTHIA 8.186        & NLO~\cite{Alwall:2014hca}	  & NNPDF2.3LO	  & A14  \\
+Diboson    & \SHERPA 2.1.1~\cite{gleisberg:2008ta}               & \SHERPA 2.1.1	& NLO~\cite{pubnote_mc_multiboson}	 &CT10~\cite{Lai:2010vv} & \SHERPA default \\
+\hline
+$\ttbar+WW/WZ$     & \AMCATNLO 2.2.2       & \PYTHIA 8.186         & NLO~\cite{Alwall:2014hca}	  & NNPDF2.3LO	  & A14  \\
+$t+Z/WZ/\ttbar$    & \AMCATNLO 2.2.2        & \PYTHIA 8.186       & LO~\cite{YR4}                   	 & NNPDF2.3LO     & A14  \\
+Triboson	   & \SHERPA 2.1.1         & \SHERPA 2.1.1        & LO, NLO~\cite{pubnote_mc_multiboson}            & CT10	     & \SHERPA default \\
+$H+W/Z$	           & \AMCATNLO 2.2.2        & \PYTHIA 8.186       & NLO~\cite{Dittmaier:2012vm}   & NNPDF2.3LO     & A14  \\
+\hline
+\end{tabular}
+}
+\caption{Simulated signal and background event samples: the corresponding generator, parton shower, cross-section normalisation, PDF set and 
+underlying-event tune are shown. Because of their very small contribution to the signal region background estimate 
+$\ttbar+WW/WZ$, $t+Z/WZ/\ttbar$, $H+W/Z$ and triboson are summed and called ``Rare'' in the following. 
+NLO-Prospino2 refers to RPV down squark models of Fig.\ref{fig:feynm_rpv_sd313} and \ref{fig:feynm_rpv_sd321}, as well as NUHM2.}
+\label{tab:MC}
+\end{center}
+\end{table*}
+
+The SUSY signals are defined by an effective Lagrangian describing the interactions of a small number of new 
+particles~\cite{Alwall:2008ve,Alwall:2008ag,Alves:2011wf}. All SUSY particles not included 
+in the decay of the pair-produced squarks and gluinos have their masses effectively decoupled. These models assume one 
+production process and one decay channel with a 100\% branching fraction. They are generated 
+from Leading Order (LO) matrix elements with up to two extra partons in the matrix element 
+(only up to one for the $\gluino\to q\bar q(\ell\ell/\nu\nu)\neut$ model) 
+using \AMCATNLO 2.2.3~\cite{Alwall:2014hca} interfaced to Pythia 8.186 with the A14 tune~\cite{pub-2014-021} for the 
+modelling of the parton shower, hadronisation and underlying event.
+Jet--parton matching is realised following the CKKW-L prescription~\cite{Lonnblad:2011xx}, with a matching scale set to one quarter of 
+the pair-produced superpartner mass. The PDF set used for the generation is NNPDF23LO~\cite{Lai:2010vv}. All signal models are generated 
+with prompt decays of the SUSY particles. Signal cross-sections are calculated to NLO in the strong coupling constant, 
+adding the resummation of soft gluon emission at next-to-leading-logarithmic 
+accuracy (NLO+NLL)~\cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu}, except 
+for the RPV models of Fig.\ref{fig:feynm_rpv_sd313} and Fig.\ref{fig:feynm_rpv_sd321} as well as the NUHM2 model where NLO 
+cross-sections are used~\cite{Beenakker:1996ed,Beenakker:1996ch}. The nominal cross-sections and the uncertainties are taken from 
+envelopes of cross-section predictions using different PDF sets 
+and factorisation and renormalisation scales, as described in Ref.~\cite{Kramer:2012bx}. 
+Typical production cross-sections are: $(4.7 \pm 1.2)$~fb for gluino pairs with a mass of \SI{1.7}{\TeV}, $(28.3 \pm 4.0)$~fb
+for bottom squark pairs with a mass of \SI{800}{\GeV}, and $(15.0\pm 2.0)$~fb for right-handed down 
+squark pairs with a mass of \SI{800}{\GeV} and a gluino mass of \SI{2.0}{\TeV}.
+
+The two dominant background processes are $\ttbar V$ (with $V=W$ and $Z$, including non-resonant $Z/\gamma^*$ contributions) 
+and diboson with four charged leptons ($\ell$ including here all lepton flavors, where $\tau$
+leptons subsequently can decay leptonically or hadronically), three charged leptons and one neutrino, or 
+two same-sign charged leptons and two neutrinos. They are described in details in Refs.~\cite{pubnote_mc_ttv} and~\cite{pubnote_mc_multiboson}, 
+respectively. Samples of the former are generated with one ($\ttbar Z$) and two ($\ttbar W$) extra partons. Similarly for the latter, 
+one ($W^\pm W^\pm jj$) and two ($WZ$, $ZZ$) extra partons are simulated. NLO cross-sections for 
+$\ttbar W$, $\ttbar Z/\gamma^*(\rightarrow \ell \ell)$ and dibosons are respectively 600.8~fb~\cite{YR4}, 
+123.7~fb\footnote{This cross-section is computed using the configuration of Refs.~\cite{Alwall:2014hca,Frixione:2015zaa}.} and 
+40.0~pb~\cite{pubnote_mc_multiboson}. The processes $\ttbar H$ and $\ttbar \ttbar$, with NLO cross-sections of 507.1~fb~\cite{YR4} and 
+9.2~fb~\cite{Alwall:2014hca} respectively, are also considered.
+
+Other low cross-section background processes are grouped into ``Rare'' in the following. This category contains 
+samples of $\ttbar+WW/WZ$ with no extra parton in the matrix element, $t+Z/WZ/\ttbar$, $H+W/Z$ as well as 
+triboson ($WWW$, $WWZ$, $WZZ$ and $ZZZ$) production with up to six charged leptons. The $4\ell$ and $2\ell+2\nu$ processes are 
+calculated at NLO with up to one additional parton; final states with two and three additional partons are calculated at leading order (LO). 
+The $WWZ\to 4\ell+2\nu$ or $2\ell+4\nu$ processes are calculated at LO with up to two additional partons. 
+The $3\ell +1\nu$ process is calculated at NLO with up to three extra partons at LO using the Comix~\cite{Gleisberg:2008fv} 
+and OpenLoops~\cite{Cascioli:2011va} matrix element generators and merged with the \SHERPA~\cite{Schumann:2007mg} 
+using the ME+PS@NLO prescription for the parton shower~\cite{Hoeche:2012yf}. The $WWZ/WZZ\to 3\ell+3\nu$, $ZZZ\to 6\ell+0\nu$, $4\ell+2\nu$ or $2\ell+4\nu$ processes 
+are calculated with the same configuration but with up to only two extra partons at LO.

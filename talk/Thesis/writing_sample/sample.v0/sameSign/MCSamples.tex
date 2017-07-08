@@ -1,0 +1,430 @@
+
+This section summarizes the signal and background samples used for the
+studies presented in this note, as well some details about the Monte Carlo production and analysis framework.
+Unless otherwise stated, all samples were produced as part of the MC15 Monte-Carlo campaign. 
+
+\subsection{Derivation versions and analysis model}
+\label{sec:ntuples}
+
+We relied without exception on the SUSY2 DxAOD derivations. 
+For the final results, the data samples were produced with the derivation tag p2425. 
+For the MC samples we used a mix of MC15a and MC15b samples (details in sections~\ref{sec:SigSamples} and~\ref{sec:BGSamples}), 
+derivations were produced with tags p2419/p2421 (20.1.7.1 cache) or later (up to p2470).  
+These derivation tag were not affected by the CutBookkepper bug the could potentially lead to problems in MC normalization.
+
+Most of the studies shown in this note were performed using flat ROOT ntuples produced on the grid 
+using code based on the {\tt{SUSYAnalysisExample}} EventLoop package 
+%and SUSYTools-00-06-27-03 tag. 
+and various tags of SUSYTools up to 00-07-17 (for the final results). 
+They contained basic object information, although no overlap removal 
+or isolation cuts were applied to allow flexibility for optimization studies. 
+No systematic uncertainties were included. 
+The total size of these ntuples is 40~GB (data as well as MC background and signal samples).
+These files were shared among the groups participating in the analysis. 
+
+In addition, dedicated flat ROOT ntuples with all the systematic variations included in the SUSYTools {\tt getSystInfoList()} method 
+were also produced for the samples containing prompt SS/3L ($\ttbar+V$, $\ttbar+h$, diboson, signals). 
+To reduce the size of the output files, only events that contained in any of the systematic variations
+at least 2 leptons with $\pt>10$~GeV, and either $\et>100$~GeV or at least 3 b-tagged jets ($\pT>20$ GeV) or $H_{\rm T}>300$~GeV were kept. 
+These ntuples were not used in the results presented here, however. 
+%The total size of these ntuples is below 50~GB.
+
+Some of the groups in the analysis team used other frameworks to analyze the data, 
+also relying on the same input SUSY2 DxAOD samples and SUSYTools tag, which served as cross-check of the results, 
+and provided the experimental sources of systematic uncertainties. 
+
+
+\subsection{Signal Samples}
+\label{sec:SigSamples}
+
+\begin{table}[!t]
+\begin{center}
+\resizebox{0.5\textwidth}{!}{
+\begin{tabular}{|cccc|}
+\hline\hline
+Signal scenario & dataset IDs & $N_{gen}$ & $\epsilon_{filter}$\\\hline\hline
+$\sbot\to t\chargino$ & 372300-372369 & $10000$ & $\sim 10\%$\\
+$\gluino\to t\bar t\ninoone$ & 370100-370187 & $20000$ & $100\%$\\
+$\gluino\to q\bar q' WZ\ninoone$ & 371200-371349 & $20000$ & $100\%$\\
+$\gluino\to q\bar q \tilde\ell\ell\ninoone$ & 372450-372511 & $20000$ & $\sim 30\%$\\\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for SUSY signal model grids. 
+The range of dataset IDs, the typical number of generated events $N_{gen}$ per sample 
+and the typical generator filter efficiency are shown.}
+\label{tab:SigSamples}
+\end{table}
+
+The baseline signal models correspond to the different scenarios described in Section~\ref{sec:signal}. 
+The signal processes are generated from leading order (LO) matrix elements with up to two extra partons, using the {\sc Madgraph v5.2.2.3} generator~\cite{madgraph} 
+interfaced to {\sc Pythia} 8.186~\cite{Sjostrand:2007gs} with the \textit{ATLAS 14} tune~\cite{pub-2014-021} 
+for the modelling of the SUSY decay chain, parton showering, hadronisation and the description of the underlying event. 
+Parton luminosities are provided by the {\sc NNPDF23LO}~\cite{Carrazza:2013axa} set of parton distribution functions. 
+Jet-parton matching is realized following the CKKW-L prescription~\cite{Lonnblad:2011xx}, with a matching scale set to one quarter of the pair-produced superpartner mass. 
+The signal samples are normalised to the next-to-next-to-leading order cross-section 
+including the resummation of soft gluon emission at next-to-next-to-leading-logarithmic accuracy (NLO+NLL), as detailed in Ref.~\cite{Borschensky:2014cia}. 
+All the signal MC samples were generated using a 25-ns bunch spacing configuration, with the MC15b configuration. 
+
+The dataset IDs are listed in Table~\ref{tab:SigSamples}, together with the number of generated events and the filter efficiency. 
+
+\subsection{Background Samples}
+\label{sec:BGSamples}
+
+The background samples used are listed in Tables~\ref{tab:BGSamples1}-\ref{tab:BGSamples2}. 
+They were generated using a 25-ns bunch spacing configuration and either MC15a or MC15b (cf tables). 
+
+Simulated $t\bar{t}$ events are generated using the {\sc Powheg} generator~\cite{Nason:2004rx,Frixione:2007vw,Alioli:2010xd}, interfaced to {\sc Pythia} 6~\cite{Sjostrand:2006za}
+and using the Perugia2012 tune~\cite{Skands:2010ak}. The $t\bar{t}$ samples are normalised to their
+next-to-next-to-leading order (NNLO) cross-section including the resummation of
+soft gluon emission at next-to-next-to-leading-logarithmic (NNLL) accuracy
+using Top++2.0 ~\cite{Czakon:2011xx}.
+
+Samples of single top quark backgrounds corresponding to the $t$-, $s$-
+and $Wt$ production mechanisms are generated with {\sc Powheg} interfaced to {\sc Pythia} 6. 
+The leading-order cross-sections obtained from the generator is used for these samples. 
+
+The processes of $t\bar{t}+V$ production are generated at LO with {\sc MadGraph}~\cite{madgraph} interfaced to {\sc Pythia} 8, 
+with up to two ($ttW$), one ($ttZ^{(*)}$-including on-shell and off-shell contributions-) or no ($ttWW$) extra parton included in the matrix elements. 
+The samples are normalised to their NLO cross-sections using appropriate $k$-factors~\cite{madgraph}. 
+The developement of more accurate samples (NLO matrix elements, spin correlations) is still ongoing and they are not part of these results. 
+
+Simulated $W$/$Z$+jets samples are produced using either {\sc Powheg} interfaced to {\sc Pythia} 8~\cite{Sjostrand:2006za} 
+or {\sc Sherpa} 2.1.1~\cite{gleisberg:2008ta} with massive $b$-, $c$-quarks 
+with up to four additional partons in the matrix element and parton shower 
+and are normalised to their NNLO QCD theoretical cross sections~\cite{Catani:2009sm}.
+
+% 
+Simulated samples for diboson processes with the two vector bosons decaying leptonically (to $\ell$ or $\nu_\ell$) are produced with {\sc Sherpa}, 
+including dedicated samples for the electroweak (VBS, such as $W^\pm W^\pm jj$) and loop-induced gluon-gluon production (including the $gg\to h\to WW,ZZ$ contributions). 
+Note that these samples include the contributions from tri-boson production with one of the vector bosons decaying hadronically 
+and separate Sherpa samples are simulated for the tri-lepton production with fully leptonic decays.
+
+Simulated samples of Higgs boson production are produced using {\sc Powheg} interfaced to {\sc Pythia} 8 for gluon fusion with $H\to 4\ell$. 
+Production of a Higgs boson in association with a $\ttbar$ pair is simulated using {\sc MadGraph5\_aMC@NLO}~\cite{madgraph} interfaced to {\sc Herwig}. 
+%Note that the tri-boson samples mentioned above also contain the contributions from $VH$ with $H\to WW,ZZ$ decays 
+%leading to final states with 6 leptons or neutrinos (such as $WH\to WWW\to 3\ell 3\nu$ in the $WWW$ Sherpa samples). 
+Higgs boson production in association with a $W$ or $Z$ boson is simulated with Pythia 8. 
+In fact, the contribution from $WH\to WWW\to \ell^\pm\nu qq \ell^\pm\nu$ is also included in the same-sign diboson samples 
+and that of VBF production of $H\to ZZ$ is included in the EW6 diboson samples, 
+so there is some partial double-counting of these processes. 
+However, their contribution is negligible to both validation and signal regions, therefore no correction is applied. 
+Only the contributions from $gg\to ZH$ and $WH\to \ell\nu \tau\tau$ are not covered with the current set of samples, 
+%but its contribution is expected to be small.
+but they are respectively only 10\% of the total $pp\to ZH$ cross section, and smaller than $WH\to WWW$. 
+
+QCD multijets are not included in this study since these backgrounds are expected to be very small.
+
+
+% Processes involving Higgs production are generated with PYTHIA8.
+\begin{sidewaystable}[!hp]
+\begin{center}
+\resizebox{0.95\textwidth}{!}{
+\small
+\begin{tabular}{llllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma\times{\tt BR}$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$ & PU settings\\
+\hline
+410050  &  mc15\_13TeV.410050.MadGraphPythiaEvtGen\_P2012\_tZ\_4fl\_tchan\_noAllHad.merge.AOD.e4279\_s2608\_s2183\_r6869\_r6282/  &  0.24013  &  1.00  &   &  997200  &   &  mc15a \\
+410066  &  mc15\_13TeV.410066.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttW\_Np0.merge.AOD.e4111\_s2608\_s2183\_r6869\_r6282/  &  0.1766  &  1.25  &  1.  &  1992400  &  9025.6  &  mc15a \\
+410067  &  mc15\_13TeV.410067.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttW\_Np1.merge.AOD.e4111\_s2608\_s2183\_r6869\_r6282/  &  0.1406  &  1.25  &  1.  &  1943800  &  11060.0  &  mc15a \\
+410068  &  mc15\_13TeV.410068.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttW\_Np2.merge.AOD.e4111\_s2608\_s2183\_r6869\_r6282/  &  0.1368  &  1.25  &  1.  &  999200  &  5843.3  &  mc15a \\
+410080  &  mc15\_13TeV.410080.MadGraphPythia8EvtGen\_A14NNPDF23\_4topSM.merge.AOD.e4111\_s2608\_s2183\_r6869\_r6282/  &  0.0092  &  1.00  &  1.  &  198800  &  21608.7  &  mc15a \\
+410081  &  mc15\_13TeV.410081.MadGraphPythia8EvtGen\_A14NNPDF23\_ttbarWW.merge.AOD.e4111\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  1.22  &  1.  &  50000  &  5059.7  &  mc15a \\
+410111  &  mc15\_13TeV.410111.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttee\_Np0.merge.AOD.e4632\_s2726\_r7326\_r6282/  &  0.0096  &  1.35  &  1.  &  289000  &  22244.9  &  mc15b \\
+410112  &  mc15\_13TeV.410112.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttee\_Np1.merge.AOD.e4632\_s2726\_r7326\_r6282/  &  0.0173  &  1.35  &  1.  &  293000  &  12513.7  &  mc15b \\
+410113  &  mc15\_13TeV.410113.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttmumu\_Np0.merge.AOD.e4632\_s2726\_r7326\_r6282/ &  0.0096  &  1.35  &  1.  &  294000  &  12544.1  &  mc15b \\
+410114  &  mc15\_13TeV.410114.MadGraphPythia8EvtGen\_A14NNPDF23LO\_ttmumu\_Np1.merge.AOD.e4632\_s2726\_r7326\_r6282/  &  0.0174  &  1.35  &  1.  &  295000  &  22653.3  &  mc15b \\
+410115  &  mc15\_13TeV.410115.MadGraphPythia8EvtGen\_A14NNPDF23LO\_tttautau\_Np0.merge.AOD.e4632\_s2726\_r7326\_r6282/  &  0.0099  &  1.35  &  1.  &  295000  &  22100.7  &  mc15b \\
+410116  &  mc15\_13TeV.410116.MadGraphPythia8EvtGen\_A14NNPDF23LO\_tttautau\_Np1.merge.AOD.e4632\_s2726\_r7326\_r6282/  &  0.0178  &  1.35 &  1.  &  294000  &  12241.6  &  mc15b \\
+304014  &  mc15\_13TeV.304014.MadGraphPythia8EvtGen\_A14NNPDF23\_3top\_SM.merge.AOD.e4324\_a766\_a777\_r6282/  &  0.0016  &  1.00  &  1.  &  200000  &  125000.0  &  mc15a \\
+\hline
+410000  &  mc15\_13TeV.410000.PowhegPythiaEvtGen\_P2012\_ttbar\_hdamp172p5\_nonallhad.merge.AOD.e3698\_s2608\_s2183\_r6765\_r6282/  &  831.7600  &  1.00  &  0.543  &  49422328  &  109.4  &  mc15a \\
+410001  &  mc15\_13TeV.410001.PowhegPythiaEvtGen\_P2012radHi\_ttbar\_hdamp345\_down\_nonallhad.merge.AOD.e3783\_a766\_a777\_r6282/  &  831.7600  &  1.00  &  0.543  &  19627000  &  43.5  &  mc15a \\
+410002  &  mc15\_13TeV.410002.PowhegPythiaEvtGen\_P2012radLo\_ttbar\_hdamp172\_up\_nonallhad.merge.AOD.e3783\_a766\_a777\_r6282/  &  831.7600  &  1.00  &  0.543  &  19938000  &  44.1  &  mc15a \\
+410003  &  mc15\_13TeV.410003.aMcAtNloHerwigppEvtGen\_ttbar\_nonallhad.merge.AOD.e3964\_a766\_a777\_r6282/  &  831.7600  &  1.00  &  0.543  &  4880000  &  10.8  &  mc15a \\
+410004  &  mc15\_13TeV.410004.PowhegHerwigppEvtGen\_UEEE5\_ttbar\_hdamp172p5\_nonallhad.merge.AOD.e3836\_a766\_a777\_r6282/  &  831.7600  &  1.00  &  0.543  &  9735000  &  21.6  &  mc15a \\
+410006  &  mc15\_13TeV.410006.PowhegPythia8EvtGen\_A14\_ttbar\_hdamp172p5\_nonallhad.merge.AOD.e3836\_a766\_a777\_r6282/  &  831.7600  &  1.00  &  0.543  &  9900000  &  21.9  &  mc15a \\
+410022  &  mc15\_13TeV.410022.Sherpa\_CT10\_ttbar\_SingleLeptonP\_MEPS\_NLO.merge.AOD.e3959\_a766\_a777\_r6282/  &  157.3500  &  1.17  &  1.  &  4929000  &  26.8  &  mc15a \\
+410023  &  mc15\_13TeV.410023.Sherpa\_CT10\_ttbar\_SingleLeptonM\_MEPS\_NLO.merge.AOD.e3959\_a766\_a777\_r6282/  &  157.3500  &  1.17  &  1.  &  4797000  &  26.1  &  mc15a \\
+410011  &  mc15\_13TeV.410011.PowhegPythiaEvtGen\_P2012\_singletop\_tchan\_lept\_top.merge.AOD.e3824\_s2608\_s2183\_r6869\_r6282/  &  43.7390  &  1.00  &  1.  &  4988200  &  114.0  &  mc15a \\
+410012  &  mc15\_13TeV.410012.PowhegPythiaEvtGen\_P2012\_singletop\_tchan\_lept\_antitop.merge.AOD.e3824\_s2608\_s2183\_r6869\_r6282/  &  25.7780  &  1.00  &  1.  &  4989800  &  193.6  &  mc15a \\
+410013  &  mc15\_13TeV.410013.PowhegPythiaEvtGen\_P2012\_Wt\_inclusive\_top.merge.AOD.e3753\_s2608\_s2183\_r6869\_r6282/  &  34.0090  &  1.00  &  1.  &  4985800  &  146.6  &  mc15a \\
+410014  &  mc15\_13TeV.410014.PowhegPythiaEvtGen\_P2012\_Wt\_inclusive\_antitop.merge.AOD.e3753\_s2608\_s2183\_r6869\_r6282/  &  33.9890  &  1.00  &  1.  &  4985600  &  146.7  &  mc15a \\
+\hline
+361063  &  mc15\_13TeV.361063.Sherpa\_CT10\_llll.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  12.5830  &  0.91  &  1.  &  990000  &  86.5  &  mc15b \\
+361064  &  mc15\_13TeV.361064.Sherpa\_CT10\_lllvSFMinus.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  1.8446  &  0.91  &  1.  &  448800  &  267.4  &  mc15b \\
+361065  &  mc15\_13TeV.361065.Sherpa\_CT10\_lllvOFMinus.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  3.6235  &  0.91  &  1.  &  898000  &  272.3  &  mc15b \\
+361066  &  mc15\_13TeV.361066.Sherpa\_CT10\_lllvSFPlus.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  2.5656  &  0.91  &  1.  &  598600  &  256.4  &  mc15b \\
+361067  &  mc15\_13TeV.361067.Sherpa\_CT10\_lllvOFPlus.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  5.0169  &  0.91  &  1.  &  1197000  &  262.2  &  mc15b \\
+361068  &  mc15\_13TeV.361068.Sherpa\_CT10\_llvv.merge.AOD.e3836\_s2608\_s2183\_r6869\_r6282/  &  14.0220  &  0.91  &  1.  &  5929600  &  464.7  &  mc15a \\
+361069  &  mc15\_13TeV.361069.Sherpa\_CT10\_llvvjj\_ss\_EW4.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  0.0258  &  0.91  &  1.  &  10000  &  425.9  &  mc15b \\
+361070  &  mc15\_13TeV.361070.Sherpa\_CT10\_llvvjj\_ss\_EW6.merge.AOD.e3836\_s2608\_s2183\_r7267\_r6282/  &  0.0434  &  0.91  &  1.  &  10000  &  253.2  &  mc15b \\
+361071  &  mc15\_13TeV.361071.Sherpa\_CT10\_lllvjj\_EW6.merge.AOD.e3836\_s2608\_s2183\_r7326\_r6282/  &  0.0420  &  0.91  &  1.  &  9000  &  235.5  &  mc15b \\
+361072  &  mc15\_13TeV.361072.Sherpa\_CT10\_lllljj\_EW6.merge.AOD.e3836\_s2608\_s2183\_r7326\_r6282/  &  0.1279  &  0.91  &  1.  &  60000  &  515.5  &  mc15b \\
+361073  &  mc15\_13TeV.361073.Sherpa\_CT10\_ggllll.merge.AOD.e3836\_s2608\_s2183\_r6869\_r6282/  &  0.0209  &  0.91  &  1.  &  502000  &  26394.7  &  mc15a \\
+361077  &  mc15\_13TeV.361077.Sherpa\_CT10\_ggllvv.merge.AOD.e3836\_s2608\_s2183\_r6869\_r6282/  &  0.8549  &  0.91  &  1.  &  199800  &  256.8  &  mc15a \\
+361084  &  mc15\_13TeV.361084.Sherpa\_CT10\_WqqZll.merge.AOD.e3836\_s2608\_s2183\_r6869\_r6282/  &  3.7583  &  0.91  &  1.  &  249400  &  72.9  &  mc15a \\
+361086  &  mc15\_13TeV.361086.Sherpa\_CT10\_ZqqZll.merge.AOD.e3926\_s2608\_s2183\_r6869\_r6282/  &  16.5900  &  0.91  &  0.14253  &  99400  &  46.2  &  mc15a \\
+361620  &  mc15\_13TeV.361620.Sherpa\_CT10\_WWW\_3l3v.merge.AOD.e4093\_s2608\_s2183\_r7155\_r6282/  &  0.0083  &  1.00  &  1.  &  59800  &  7204.8 &  mc15a \\
+361621  &  mc15\_13TeV.361621.Sherpa\_CT10\_WWZ\_4l2v.merge.AOD.e4053\_s2608\_s2183\_r7155\_r6282/  &  0.0017  &  1.00  &  1.  &  59600  &  35058.8 &  mc15a \\
+361622  &  mc15\_13TeV.361622.Sherpa\_CT10\_WWZ\_2l4v.merge.AOD.e4053\_s2608\_s2183\_r7155\_r6282/  &  0.0034  &  1.00  &  1.  &  59800  &  17588.2 &  mc15a \\
+361623  &  mc15\_13TeV.361623.Sherpa\_CT10\_WZZ\_5l1v.merge.AOD.e4093\_s2608\_s2183\_r7155\_r6282/  &  0.0002  &  1.00  &  1.  &  49800  &  249000.0 &  mc15a \\
+361624  &  mc15\_13TeV.361624.Sherpa\_CT10\_WZZ\_3l3v.merge.AOD.e4093\_s2608\_s2183\_r7155\_r6282/  &  0.0019  &  1.00  &  0.44444  &  49800  &  58974.3 &  mc15a \\
+361625  &  mc15\_13TeV.361625.Sherpa\_CT10\_ZZZ\_6l0v.merge.AOD.e4093\_s2608\_s2183\_r6869\_r6282/  &  1.7E-05  &  1.00  &  1.  &  35000  & 2E06 &  mc15a \\
+361626  &  mc15\_13TeV.361626.Sherpa\_CT10\_ZZZ\_4l2v.merge.AOD.e4093\_s2608\_s2183\_r6869\_r6282/  &  0.0004  &  1.00  &  0.22542  &  34600  &  383728.2 &  mc15a \\
+361627  &  mc15\_13TeV.361627.Sherpa\_CT10\_ZZZ\_2l4v.merge.AOD.e4093\_s2608\_s2183\_r6869\_r6282/  &  0.0004  &  1.00  &  0.44815  &  35000  &  195247.1 &  mc15a \\
+\hline
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for
+  top-related background processes, and Sherpa di- and tri-boson production. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$, the equivalent luminosity ($L_{equiv}$) and pile-up configuration (mc15a or mc15b) are shown.}
+\label{tab:BGSamples1}
+\end{sidewaystable}
+
+
+\begin{sidewaystable}[!htp]
+\begin{center}
+\resizebox{\textwidth}{!}{
+\tiny
+\begin{tabular}{llllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma\times{\tt BR}$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$ & PU settings\\
+\hline
+
+361100  &  mc15\_13TeV.361100.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Wplusenu.merge.AOD.e3601\_s2576\_s2132\_r6765\_r6282/  &  11306.0000  &  1.02  &  1.  &  29914098  &  2.6  &  mc15a \\
+361101  &  mc15\_13TeV.361101.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Wplusmunu.merge.AOD.e3601\_s2576\_s2132\_r6725\_r6282/  &  11306.0000  &  1.02  &  1.  &  27951402  &  2.4  &  mc15a \\
+361102  &  mc15\_13TeV.361102.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Wplustaunu.merge.AOD.e3601\_s2576\_s2132\_r6725\_r6282/  &  11306.0000  &  1.02  &  1.  &  29908753  &  2.6  &  mc15a \\
+361103  &  mc15\_13TeV.361103.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Wminusenu.merge.AOD.e3601\_s2576\_s2132\_r6765\_r6282/  &  8282.6000  &  1.04  &  1.  &  19916972  &  2.3  &  mc15a \\
+361104  &  mc15\_13TeV.361104.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Wminusmunu.merge.AOD.e3601\_s2576\_s2132\_r6725\_r6282/  &  8282.6000  &  1.04  &  1.  &  19965914  &  2.3  &  mc15a \\
+361105  &  mc15\_13TeV.361105.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Wminustaunu.merge.AOD.e3601\_s2576\_s2132\_r6725\_r6282/  &  8282.6000  &  1.04  &  1.  &  19952348  &  2.3  &  mc15a \\
+
+361106  &  mc15\_13TeV.361106.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Zee.merge.AOD.e3601\_s2576\_s2132\_r6765\_r6282/  &  1901.2000  &  1.03  &  1.  &  19916520  &  10.2  &  mc15a \\
+361107  &  mc15\_13TeV.361107.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Zmumu.merge.AOD.e3601\_s2576\_s2132\_r6765\_r6282/  &  1901.2000  &  1.03  &  1.  &  19942848  &  10.2  &  mc15a \\
+361108  &  mc15\_13TeV.361108.PowhegPythia8EvtGen\_AZNLOCTEQ6L1\_Ztautau.merge.AOD.e3601\_s2576\_s2132\_r6765\_r6282/  &  1901.2000  &  1.03  &  1.  &  19197457  &  9.8  &  mc15a \\
+\hline
+
+
+361468  &  mc15\_13TeV.361468.Sherpa\_CT10\_Zee\_Mll10to40\_Pt0\_70\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  2256.1000  &  1.00  &  0.95157  &  2493800  &  1.2  &  mc15a \\
+361469  &  mc15\_13TeV.361469.Sherpa\_CT10\_Zee\_Mll10to40\_Pt0\_70\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  2252.9000  &  1.00  &  0.047153  &  499000  &  4.7  &  mc15a \\
+361470  &  mc15\_13TeV.361470.Sherpa\_CT10\_Zee\_Mll10to40\_Pt70\_140\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  7.7821  &  1.00  &  0.89435  &  598800  &  86.0  &  mc15a \\
+361471  &  mc15\_13TeV.361471.Sherpa\_CT10\_Zee\_Mll10to40\_Pt70\_140\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  7.8015  &  1.00  &  0.099233  &  99600  &  128.7  &  mc15a \\
+361472  &  mc15\_13TeV.361472.Sherpa\_CT10\_Zee\_Mll10to40\_Pt140\_400\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.7101  &  1.00  &  0.86947  &  299000  &  484.3  &  mc15a \\
+361473  &  mc15\_13TeV.361473.Sherpa\_CT10\_Zee\_Mll10to40\_Pt140\_400\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.7067  &  1.00  &  0.10501  &  99200  &  1336.7  &  mc15a \\
+361474  &  mc15\_13TeV.361474.Sherpa\_CT10\_Zee\_Mll10to40\_Pt400\_E\_CMS\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.0073  &  1.00  &  0.82797  &  99600  &  16478.7  &  mc15a \\
+361475  &  mc15\_13TeV.361475.Sherpa\_CT10\_Zee\_Mll10to40\_Pt400\_E\_CMS\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.0075  &  1.00  &   0.17203  &  49940  &  450E06  &  mc15a \\
+361476  &  mc15\_13TeV.361476.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt0\_70\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  2251.1000  &  1.00  &  0.95124  &  2491200  &  1.2  &  mc15a \\
+361477  &  mc15\_13TeV.361477.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt0\_70\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  2250.0000  &  1.00  &  0.047277  &  496500  &  4.7  &  mc15a \\
+361479  &  mc15\_13TeV.361479.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt70\_140\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  7.7840  &  1.00  &  0.10194  &  99800  &  125.8  &  mc15a \\
+361480  &  mc15\_13TeV.361480.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt140\_400\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.7142  &  1.00  &  0.87022  &  298800  &  480.8  &  mc15a \\
+361481  &  mc15\_13TeV.361481.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt140\_400\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.7070  &  1.00  &  0.11674  &  99800  &  1209.2  &  mc15a \\
+361482  &  mc15\_13TeV.361482.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt400\_E\_CMS\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.0075  &  1.00  &  0.84321  &  99800  &  15781.0  &  mc15a \\
+361483  &  mc15\_13TeV.361483.Sherpa\_CT10\_Zmumu\_Mll10to40\_Pt400\_E\_CMS\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.0075  &  1.00  &  0.15679   &  49320  & 450E06 &  mc15a \\
+361485  &  mc15\_13TeV.361485.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt0\_70\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  2254.2000  &  1.00  &  0.046987  &  497000  &  4.7  &  mc15a \\
+361486  &  mc15\_13TeV.361486.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt70\_140\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  7.7699  &  1.00  &  0.89210  &  598200  &  86.3  &  mc15a \\
+361487  &  mc15\_13TeV.361487.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt70\_140\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  7.8242  &  1.00  &  0.10367  &  100000  &  123.3  &  mc15a \\
+361488  &  mc15\_13TeV.361488.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt140\_400\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.7097  &  1.00  &  0.87013  &  299400  &  484.8  &  mc15a \\
+361489  &  mc15\_13TeV.361489.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt140\_400\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.7068  &  1.00  &  0.11787  &  99800  &  1197.9  &  mc15a \\
+361490  &  mc15\_13TeV.361490.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt400\_E\_CMS\_BVeto.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.0074  &  1.00  &  0.94162  &  99600  &  14293.9  &  mc15a \\
+361491  &  mc15\_13TeV.361491.Sherpa\_CT10\_Ztautau\_Mll10to40\_Pt400\_E\_CMS\_BFilter.merge.AOD.e4198\_s2608\_s2183\_r6869\_r6282/  &  0.0074  &  1.00  &  0.05838  &  49980  &  115E06 &  mc15a \\
+
+
+\hline
+
+361372  &  mc15\_13TeV.361372.Sherpa\_CT10\_Zee\_Pt0\_70\_CVetoBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.7785  &  1993200  &  1.3  &  mc15a \\
+361373  &  mc15\_13TeV.361373.Sherpa\_CT10\_Zee\_Pt0\_70\_CFilterBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.1422  &  1198000  &  4.2  &  mc15a \\
+361374  &  mc15\_13TeV.361374.Sherpa\_CT10\_Zee\_Pt0\_70\_BFilter.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.0795  &  2452200  &  15.5  &  mc15a \\
+361375  &  mc15\_13TeV.361375.Sherpa\_CT10\_Zee\_Pt70\_140\_CVetoBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  76.0300  &  0.90  &  0.6480  &  1223400  &  27.6  &  mc15a \\
+361376  &  mc15\_13TeV.361376.Sherpa\_CT10\_Zee\_Pt70\_140\_CFilterBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  76.0300  &  0.90  &  0.2198  &  493900  &  32.8  &  mc15a \\
+361377  &  mc15\_13TeV.361377.Sherpa\_CT10\_Zee\_Pt70\_140\_BFilter.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  76.0300  &  0.90  &  0.1309  &  873700  &  97.5  &  mc15a \\
+361378  &  mc15\_13TeV.361378.Sherpa\_CT10\_Zee\_Pt140\_280\_CVetoBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  11.6400  &  0.90  &  0.6139  &  376400  &  58.5  &  mc15a \\
+361379  &  mc15\_13TeV.361379.Sherpa\_CT10\_Zee\_Pt140\_280\_CFilterBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  11.6400  &  0.90  &  0.2426  &  473000  &  186.1  &  mc15a \\
+361380  &  mc15\_13TeV.361380.Sherpa\_CT10\_Zee\_Pt140\_280\_BFilter.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  11.6400  &  0.90  &  0.1468  &  974050  &  633.4  &  mc15a \\
+361381  &  mc15\_13TeV.361381.Sherpa\_CT10\_Zee\_Pt280\_500\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.5836  &  498600  &  1241.5  &  mc15a \\
+361382  &  mc15\_13TeV.361382.Sherpa\_CT10\_Zee\_Pt280\_500\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.2632  &  299800  &  1655.3  &  mc15a \\
+361383  &  mc15\_13TeV.361383.Sherpa\_CT10\_Zee\_Pt280\_500\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.1594  &  299700  &  2732.3  &  mc15a \\
+361384  &  mc15\_13TeV.361384.Sherpa\_CT10\_Zee\_Pt500\_700\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.5692  &  299600  &  12631.5  &  mc15a \\
+361385  &  mc15\_13TeV.361385.Sherpa\_CT10\_Zee\_Pt500\_700\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.2692  &  200000  &  17829.2  &  mc15a \\
+361386  &  mc15\_13TeV.361386.Sherpa\_CT10\_Zee\_Pt500\_700\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.1718  &  199800  &  27909.3  &  mc15a \\
+361387  &  mc15\_13TeV.361387.Sherpa\_CT10\_Zee\_Pt700\_1000\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.5625  &  50000  &  12193.3  &  mc15a \\
+361388  &  mc15\_13TeV.361388.Sherpa\_CT10\_Zee\_Pt700\_1000\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.2958  &  30000  &  13912.2  &  mc15a \\
+361389  &  mc15\_13TeV.361389.Sherpa\_CT10\_Zee\_Pt700\_1000\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.1806  &  29800  &  22634.5  &  mc15a \\
+361390  &  mc15\_13TeV.361390.Sherpa\_CT10\_Zee\_Pt1000\_2000\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.5499  &  30000  &  55106.4  &  mc15a \\
+361391  &  mc15\_13TeV.361391.Sherpa\_CT10\_Zee\_Pt1000\_2000\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.3135  &  20000  &  64440.3  &  mc15a \\
+361392  &  mc15\_13TeV.361392.Sherpa\_CT10\_Zee\_Pt1000\_2000\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.1861  &  20000  &  108554.6  &  mc15a \\
+361393  &  mc15\_13TeV.361393.Sherpa\_CT10\_Zee\_Pt2000\_E\_CMS\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.4874  &  19800  &   &  mc15a \\
+361394  &  mc15\_13TeV.361394.Sherpa\_CT10\_Zee\_Pt2000\_E\_CMS\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.3078  &  10000  &   &  mc15a \\
+361395  &  mc15\_13TeV.361395.Sherpa\_CT10\_Zee\_Pt2000\_E\_CMS\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.2048  &  9980  &   &  mc15a \\
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for Powheg $W$/Z+jets,
+   Sherpa low-mass Drell-Yan and $Z\to ee$+jets production. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$, the equivalent luminosity ($L_{equiv}$) and pile-up configuration (mc15a or mc15b) are shown.}
+\label{tab:BGSamples2}
+\end{sidewaystable}
+ 
+
+
+
+
+
+\begin{sidewaystable}[!htp]
+\begin{center}
+\resizebox{\textwidth}{!}{
+\tiny
+\begin{tabular}{llllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma\times{\tt BR}$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$ & PU settings\\
+\hline
+361396  &  mc15\_13TeV.361396.Sherpa\_CT10\_Zmumu\_Pt0\_70\_CVetoBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.7785  &  1997600  &  1.3  &  mc15a \\
+361397  &  mc15\_13TeV.361397.Sherpa\_CT10\_Zmumu\_Pt0\_70\_CFilterBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.1422  &  1173000  &  4.2  &  mc15a \\
+361398  &  mc15\_13TeV.361398.Sherpa\_CT10\_Zmumu\_Pt0\_70\_BFilter.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.0795  &  1965400  &  12.5  &  mc15a \\
+361399  &  mc15\_13TeV.361399.Sherpa\_CT10\_Zmumu\_Pt70\_140\_CVetoBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  76.0300  &  0.90  &  0.6480  &  1237400  &  27.9  &  mc15a \\
+361400  &  mc15\_13TeV.361400.Sherpa\_CT10\_Zmumu\_Pt70\_140\_CFilterBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  76.0300  &  0.90  &  0.2198  &  487000  &  32.4  &  mc15a \\
+361401  &  mc15\_13TeV.361401.Sherpa\_CT10\_Zmumu\_Pt70\_140\_BFilter.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  76.0300  &  0.90  &  0.1309  &  1096000  &  122.4  &  mc15a \\
+361402  &  mc15\_13TeV.361402.Sherpa\_CT10\_Zmumu\_Pt140\_280\_CVetoBVeto.merge.AOD.e3651\_s2608\_s2183\_r6869\_r6282/  &  11.6400  &  0.90  &  0.6139  &  197400  &  30.7  &  mc15a \\
+361403  &  mc15\_13TeV.361403.Sherpa\_CT10\_Zmumu\_Pt140\_280\_CFilterBVeto.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  11.6400  &  0.90  &  0.2426  &  450200  &  177.1  &  mc15a \\
+361404  &  mc15\_13TeV.361404.Sherpa\_CT10\_Zmumu\_Pt140\_280\_BFilter.merge.AOD.e3651\_s2586\_s2174\_r6869\_r6282/  &  11.6400  &  0.90  &  0.1468  &  815900  &  530.5  &  mc15a \\
+361405  &  mc15\_13TeV.361405.Sherpa\_CT10\_Zmumu\_Pt280\_500\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.5836  &  499000  &  1242.5  &  mc15a \\
+361406  &  mc15\_13TeV.361406.Sherpa\_CT10\_Zmumu\_Pt280\_500\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.2632  &  299000  &  1650.9  &  mc15a \\
+361407  &  mc15\_13TeV.361407.Sherpa\_CT10\_Zmumu\_Pt280\_500\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.1594  &  299800  &  2733.2  &  mc15a \\
+361408  &  mc15\_13TeV.361408.Sherpa\_CT10\_Zmumu\_Pt500\_700\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.5692  &  299200  &  12614.6  &  mc15a \\
+361409  &  mc15\_13TeV.361409.Sherpa\_CT10\_Zmumu\_Pt500\_700\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.2692  &  199600  &  17793.5  &  mc15a \\
+361410  &  mc15\_13TeV.361410.Sherpa\_CT10\_Zmumu\_Pt500\_700\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.1718  &  199400  &  27853.4  &  mc15a \\
+361411  &  mc15\_13TeV.361411.Sherpa\_CT10\_Zmumu\_Pt700\_1000\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.5625  &  50000  &  12193.3  &  mc15a \\
+361412  &  mc15\_13TeV.361412.Sherpa\_CT10\_Zmumu\_Pt700\_1000\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.2958  &  30000  &  13912.2  &  mc15a \\
+361413  &  mc15\_13TeV.361413.Sherpa\_CT10\_Zmumu\_Pt700\_1000\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.1806  &  30000  &  22786.4  &  mc15a \\
+361414  &  mc15\_13TeV.361414.Sherpa\_CT10\_Zmumu\_Pt1000\_2000\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.5499  &  30000  &  55106.4  &  mc15a \\
+361415  &  mc15\_13TeV.361415.Sherpa\_CT10\_Zmumu\_Pt1000\_2000\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.3135  &  19800  &  63795.9  &  mc15a \\
+361416  &  mc15\_13TeV.361416.Sherpa\_CT10\_Zmumu\_Pt1000\_2000\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.1861  &  19240  &  104429.6  &  mc15a \\
+361417  &  mc15\_13TeV.361417.Sherpa\_CT10\_Zmumu\_Pt2000\_E\_CMS\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.4874  &  20000  &   &  mc15a \\
+361418  &  mc15\_13TeV.361418.Sherpa\_CT10\_Zmumu\_Pt2000\_E\_CMS\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.3078  &  9980  &   &  mc15a \\
+361419  &  mc15\_13TeV.361419.Sherpa\_CT10\_Zmumu\_Pt2000\_E\_CMS\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.2048  &  9790  &   &  mc15a \\
+361420  &  mc15\_13TeV.361420.Sherpa\_CT10\_Ztautau\_Pt0\_70\_CVetoBVeto.merge.AOD.e3733\_s2586\_s2174\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.7785  &  0  &  0.0  &  mc15a \\
+361420  &  mc15\_13TeV.361420.Sherpa\_CT10\_Ztautau\_Pt0\_70\_CVetoBVeto.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.7785  &  1995200  &  1.3  &  mc15a \\
+361421  &  mc15\_13TeV.361421.Sherpa\_CT10\_Ztautau\_Pt0\_70\_CFilterBVeto.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.1422  &  1189000  &  4.2  &  mc15a \\
+361422  &  mc15\_13TeV.361422.Sherpa\_CT10\_Ztautau\_Pt0\_70\_BFilter.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  2205.0000  &  0.90  &  0.0795  &  2215600  &  14.0  &  mc15a \\
+361423  &  mc15\_13TeV.361423.Sherpa\_CT10\_Ztautau\_Pt70\_140\_CVetoBVeto.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  76.0300  &  0.90  &  0.6480  &  1242000  &  28.0  &  mc15a \\
+361424  &  mc15\_13TeV.361424.Sherpa\_CT10\_Ztautau\_Pt70\_140\_CFilterBVeto.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  76.0300  &  0.90  &  0.2198  &  497400  &  33.1  &  mc15a \\
+361425  &  mc15\_13TeV.361425.Sherpa\_CT10\_Ztautau\_Pt70\_140\_BFilter.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  76.0300  &  0.90  &  0.1309  &  1105600  &  123.4  &  mc15a \\
+361426  &  mc15\_13TeV.361426.Sherpa\_CT10\_Ztautau\_Pt140\_280\_CVetoBVeto.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  11.6400  &  0.90  &  0.6139  &  263000  &  40.9  &  mc15a \\
+361427  &  mc15\_13TeV.361427.Sherpa\_CT10\_Ztautau\_Pt140\_280\_CFilterBVeto.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  11.6400  &  0.90  &  0.2426  &  468200  &  184.2  &  mc15a \\
+361428  &  mc15\_13TeV.361428.Sherpa\_CT10\_Ztautau\_Pt140\_280\_BFilter.merge.AOD.e3733\_s2608\_s2183\_r6869\_r6282/  &  11.6400  &  0.90  &  0.1468  &  964600  &  627.2  &  mc15a \\
+361429  &  mc15\_13TeV.361429.Sherpa\_CT10\_Ztautau\_Pt280\_500\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.5836  &  499000  &  1242.5  &  mc15a \\
+361430  &  mc15\_13TeV.361430.Sherpa\_CT10\_Ztautau\_Pt280\_500\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.2632  &  299100  &  1651.4  &  mc15a \\
+361431  &  mc15\_13TeV.361431.Sherpa\_CT10\_Ztautau\_Pt280\_500\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.7646  &  0.90  &  0.1594  &  300000  &  2735.0  &  mc15a \\
+361432  &  mc15\_13TeV.361432.Sherpa\_CT10\_Ztautau\_Pt500\_700\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.5692  &  299600  &  12631.5  &  mc15a \\
+361433  &  mc15\_13TeV.361433.Sherpa\_CT10\_Ztautau\_Pt500\_700\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.2692  &  199000  &  17740.0  &  mc15a \\
+361434  &  mc15\_13TeV.361434.Sherpa\_CT10\_Ztautau\_Pt500\_700\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0463  &  0.90  &  0.1718  &  199180  &  27822.7  &  mc15a \\
+361435  &  mc15\_13TeV.361435.Sherpa\_CT10\_Ztautau\_Pt700\_1000\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.5625  &  49800  &  12144.5  &  mc15a \\
+361436  &  mc15\_13TeV.361436.Sherpa\_CT10\_Ztautau\_Pt700\_1000\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.2958  &  30000  &  13912.2  &  mc15a \\
+361437  &  mc15\_13TeV.361437.Sherpa\_CT10\_Ztautau\_Pt700\_1000\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  0.90  &  0.1806  &  30000  &  22786.4  &  mc15a \\
+361438  &  mc15\_13TeV.361438.Sherpa\_CT10\_Ztautau\_Pt1000\_2000\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.5499  &  30000  &  55106.4  &  mc15a \\
+361439  &  mc15\_13TeV.361439.Sherpa\_CT10\_Ztautau\_Pt1000\_2000\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.3135  &  20000  &  64440.3  &  mc15a \\
+361440  &  mc15\_13TeV.361440.Sherpa\_CT10\_Ztautau\_Pt1000\_2000\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0011  &  0.90  &  0.1861  &  20000  &  108554.6  &  mc15a \\
+361441  &  mc15\_13TeV.361441.Sherpa\_CT10\_Ztautau\_Pt2000\_E\_CMS\_CVetoBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.4874  &  20000  &   &  mc15a \\
+361442  &  mc15\_13TeV.361442.Sherpa\_CT10\_Ztautau\_Pt2000\_E\_CMS\_CFilterBVeto.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.3078  &  9980  &   &  mc15a \\
+361443  &  mc15\_13TeV.361443.Sherpa\_CT10\_Ztautau\_Pt2000\_E\_CMS\_BFilter.merge.AOD.e4133\_s2608\_s2183\_r6869\_r6282/  &  0.0000  &  0.90  &  0.2048  &  9360  &   &  mc15a \\
+\hline
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for
+   $Z\to\mu\mu/\tau\tau$+jets using Sherpa. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$, the equivalent luminosity ($L_{equiv}$) and pile-up configuration (mc15a or mc15b) are shown.}
+\label{tab:BGSamples22}
+\end{sidewaystable}
+ 
+
+\begin{sidewaystable}[!hp]
+\begin{center}
+\resizebox{\textwidth}{!}{
+\tiny
+\begin{tabular}{llllllll}
+\hline
+\hline
+datasetID & Sample name & $\sigma\times{\tt BR}$ [pb] & $k$-Factor & $\epsilon_{filter}$ & $N_{gen}$ & $L_{equiv}$ & PU settings\\
+\hline
+341177  &  mc15\_13TeV.341177.aMcAtNloHerwigppEvtGen\_UEEE5\_CTEQ6L1\_CT10ME\_ttH125\_inc.merge.AOD.e3921\_s2608\_s2183\_r6869\_r6282/  &  0.5085  &  1.00  &  0.10554  &  1951000  &  36353.8  &  mc15a \\
+341270  &  mc15\_13TeV.341270.aMcAtNloHerwigppEvtGen\_UEEE5\_CTEQ6L1\_CT10ME\_ttH125\_inc\_semil.merge.AOD.e3921\_s2608\_s2183\_r6869\_r6282/  &  0.5085  &  1.00  &  0.43929  &  976000  &  4369.3  &  mc15a \\
+341271  &  mc15\_13TeV.341271.aMcAtNloHerwigppEvtGen\_UEEE5\_CTEQ6L1\_CT10ME\_ttH125\_inc\_allh.merge.AOD.e3921\_s2608\_s2183\_r6869\_r6282/  &  0.5085  &  1.00  &  0.45517  &  976000  &  4216.8  &  mc15a \\
+342284  &  mc15\_13TeV.342284.Pythia8EvtGen\_A14NNPDF23LO\_WH125\_inc.merge.AOD.e4246\_s2608\_s2183\_r6869\_r6282/  &  1.1021  &  1.25  &  1.0  &  99400  &  72.2 &  mc15a\\
+342285  &  mc15\_13TeV.342285.Pythia8EvtGen\_A14NNPDF23LO\_ZH125\_inc.merge.AOD.e4246\_s2608\_s2183\_r6869\_r6282/  &  0.6007  &  1.45  &  1.0  &  99200  &  113.9 &  mc15a \\
+341471  &  mc15\_13TeV.341471.PowhegPythia8EvtGen\_CT10\_AZNLOCTEQ6L1\_ggH125\_ZZ4lep.merge.AOD.e3951\_s2608\_s2183\_r6869\_r6282/  &  0.0081  &  1.45  &  1.0  &  289600  &  24657.3 &  mc15a \\
+%341488  &  mc15\_13TeV.341488.PowhegPythia8EvtGen\_CT10\_AZNLOCTEQ6L1\_VBFH125\_ZZ4lep.merge.AOD.e3951\_s2608\_s2183\_r6869\_r6282/  &  0.0010  &  0.98  &  1.0  &  200000  &  204081.6 \\\hline
+\hline
+301891  &  mc15\_13TeV.301891.Sherpa\_CT10\_enugammaPt70\_140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  1.5282  &  1.00  &  1.  &  250000  &  163.6 &  mc15a \\
+301892  &  mc15\_13TeV.301892.Sherpa\_CT10\_enugammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  0.2415  &  1.00  &  1.  &  249800  &  1034.4 &  mc15a \\
+301893  &  mc15\_13TeV.301893.Sherpa\_CT10\_munugammaPt35\_70.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  15.2720  &  1.00  &  1.  &  498476  &  32.6 &  mc15a \\
+301894  &  mc15\_13TeV.301894.Sherpa\_CT10\_munugammaPt70\_140.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  1.5235  &  1.00  &  1.  &  249400  &  163.7 &  mc15a \\
+301895  &  mc15\_13TeV.301895.Sherpa\_CT10\_munugammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  0.2418  &  1.00  &  1.  &  248900  &  1029.4 &  mc15a \\
+301896  &  mc15\_13TeV.301896.Sherpa\_CT10\_taunugammaPt35\_70.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  15.2970  &  1.00  &  1.  &  498200  &  32.6 &  mc15a \\
+301897  &  mc15\_13TeV.301897.Sherpa\_CT10\_taunugammaPt70\_140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  1.5290  &  1.00  &  1.  &  249600  &  163.2 &  mc15a \\
+301898  &  mc15\_13TeV.301898.Sherpa\_CT10\_taunugammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  0.2426  &  1.00  &  1.  &  249580  &  1028.8 &  mc15a \\
+301899  &  mc15\_13TeV.301899.Sherpa\_CT10\_eegammaPt35\_70.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  5.2420  &  1.00  &  1.  &  500000  &  95.4 &  mc15a \\
+301900  &  mc15\_13TeV.301900.Sherpa\_CT10\_eegammaPt70\_140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  0.3846  &  1.00  &  1.  &  246400  &  640.7 &  mc15a \\
+301901  &  mc15\_13TeV.301901.Sherpa\_CT10\_eegammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  0.0472  &  1.00  &  1.  &  250000  &  5296.6 &  mc15a \\
+301902  &  mc15\_13TeV.301902.Sherpa\_CT10\_mumugammaPt35\_70.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  5.2455  &  1.00  &  1.  &  498042  &  94.9 &  mc15a \\
+301903  &  mc15\_13TeV.301903.Sherpa\_CT10\_mumugammaPt70\_140.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  0.3855  &  1.00  &  1.  &  248800  &  645.4 &  mc15a \\
+301904  &  mc15\_13TeV.301904.Sherpa\_CT10\_mumugammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  0.0472  &  1.00  &  1.  &  248700  &  5269.1 &  mc15a \\
+301907  &  mc15\_13TeV.301907.Sherpa\_CT10\_tautaugammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6793\_r6264/  &  0.0470  &  1.00  &  1.  &  249000  &  5297.9 &  mc15a \\
+301908  &  mc15\_13TeV.301908.Sherpa\_CT10\_nunugammaPt35\_70.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  4.0365  &  1.00  &  1.  &  498400  &  123.5 &  mc15a \\
+301909  &  mc15\_13TeV.301909.Sherpa\_CT10\_nunugammaPt70\_140.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  0.9715  &  1.00  &  1.  &  248995  &  256.3 &  mc15a \\
+301910  &  mc15\_13TeV.301910.Sherpa\_CT10\_nunugammaPt140.merge.AOD.e3952\_s2608\_s2183\_r6630\_r6264/  &  0.1711  &  1.00  &  1.  &  248600  &  1453.0 &  mc15a \\
+\hline
+
+\end{tabular}}
+\end{center}
+\caption{List of simulated samples for
+  $W+\gamma$ and Higgs processes. The dataset ID, the generator
+  cross-section $\sigma$, the $k$-Factor, the generator filter
+  efficiency $\epsilon_{filter}$, the total number of
+  generated events $N_{gen}$, the equivalent luminosity ($L_{equiv}$) and pile-up configuration (mc15a or mc15b) are shown.}
+\label{tab:BGSamples3}
+\end{sidewaystable}
+
+
+\subsection{Detector simulation}
+
+The detector simulation is performed with a either full ATLAS detector
+simulation~\cite{Aad:2010ah} based on {\sc Geant4}~\cite{Agostinelli:2002hh} 
+or a fast simulation using a parameterisation of the performance of the electromagnetic 
+and hadronic calorimeters and {\sc Geant4} for the other parts of the detector~\cite{ATL-PHYS-PUB-2010-013},   
+and are reconstructed in the same manner as the data. 
+All simulated samples are generated with a range of minimum-bias
+interactions using {\sc Pythia 8}~\cite{Sjostrand:2007gs} with the MSTW2008LO PDF set~\cite{Sherstnev:2007nd} and the A2 tune 
+overlaid on the hard-scattering event to
+account for the multiple $pp$ interactions in the same bunch
+crossing (in-time pileup) and neighbouring bunch crossing (out-of-time pileup). 
+A bunch spacing of 25~ns is used, and the distribution for the average number of
+interactions per bunch crossing is assumed with values ranging from
+0 to 50, with more events generated with values between 15 to 30 for MC15a~\cite{mc15atwiki}, 
+while the distribution in MC15b~\cite{mc15btwiki} is closer to that observed in data. 
+
+\subsection{Pileup reweighting}
+
+For comparisons with data, the MC is reweighted to reproduce the observed distribution of the average number of collisions per bunch crossing ($\mu$) using the official {\tt PileupReweightingTool}.
+Following the current recommendations, the $\mu$ value in data is scaled by 1/1.16 (assessing the cases of 1./1.23 and 1 as uncertainty on that value) based on studies of the number of vertices as a function of $\mu$ as well as the results from inelastic cross section measurement.
+
+\subsection{Data samples}
+
+The data used in this note was collected in $pp$ collisions at $\sqrt{s}=13$~TeV during 2015 
+in data-taking periods D-J6 (runs 276262-284484, 
+corresponding to a total integrated luminosity of 3.21~\ifb\ after GoodRunList selection) unless otherwise stated. 
+Note that these periods are not affected by L1Calo saturation problems found at the beginning of the 2015 run, 
+and the runs with the IBL detector switched off are not used for this analysis.
+The officially recommended GoodRunLists were used to select only events within luminosity blocks with good beam, detector and data quality. 
+Note that period A was not considered due to its low integrated luminosity and known problems in some of the detectors. 
+The uncertainty on the integrated luminosity is $\pm5\%$. 
+It was derived, following the same methodology as that detailed in Ref.~\cite{DAPR-2011-01}, 
+from a preliminary calibration of the luminosity scale using a pair of $x$-$y$ beam separation scans performed in June 2015. 

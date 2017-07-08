@@ -1,0 +1,197 @@
+\clearpage 
+\section{Details on comparisons of MV1 and MV2c20 $b$-tagging}
+\label{app_btagging}
+
+This appendix contains some further details, namely plots, event yields and significances, of the studies comparing the various $b$-tagging efficiency working points of the heavy flavour tagger MV2c20, 
+as well as a comparison with respect to the tagger previously used (i.e. MV1).
+In this latter case only the default 80\% working point is used, and is simply labeled as MV1. See Figure~\ref{fig:btagging_mv2_mv1} for a comparison of $b$-jet multiplicity of these two tagging algorithm.
+
+Table~\ref{tab:btagging_yields} contains expected signal and background yields for an assumed integrated luminosity of 3~fb$^{-1}$.
+Similar information is shown in Table~\ref{tab:btagging_yields_flavour} for each of the lepton flavour combination.
+Signal significances are shown in Table~\ref{tab:btagging_significance_flavours}. In most cases a 70\% tagging efficiency working points is favored.
+An improvement of up to 50\% on significance can be achieved with this new generation of $b$-tagging algorithm.  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sidewaystable}[h]
+\caption{Expected signal and background yields as function of selection requirements, and for signal-region like cuts, with one, three or no $b$-jets.}
+\label{tab:btagging_yields}
+\begin{center}{\scriptsize
+          \begin{tabular}{l||cccc||cc|ccc|ccc||c }
+            Selection     &       SigGtt &    SigGtt    & Sbottom      & Sig2stepG    &  $Z$+jets    &  $W$+jets    &  $t\bar t$   & $t\bar t$+V  & SingleTop    & $WZ$         & $WW$         & $ZZ$         & Total-Bkg      \\ 
+                          &   700GeV     &    100GeV    &  750GeV      &  1.7TeV      &              &              &              &              &              &              &              &              &                 \\ \hline 
+            \multicolumn{14}{c}{$\ell\ell$} \\ \hline 
+            ALL Events    &      138.3   &      138.3   &       61.03  &     976.2    & 27434544     & 166151425    &   736164     &     4441     &   424030     &     4288     &    42583     &     1985     & 194799448       \\ 
+            2 Base Leps   &       25.35  &       26.40  &       23.26  &     124.7    &  2255038     &    78835     &    54419     &      379.5   &    10234     &     1446     &    11054     &      841.2   &  2412248        \\
+            Signal Leps   &       11.96  &       12.66  &       11.73  &      55.06   &  1401592     &      422.4   &    23345     &      174.2   &     3799     &      351.4   &     5470     &      348.3   &  1435503        \\
+            $m_{ll}$      &       11.96  &       12.62  &       11.72  &       55.06    & 1401590     &      353.6   &    23278     &      174.0   &     3791     &      347.7   &     5440     &      347.1   &  1435323        \\
+            Same-Sign     &        4.122 &        4.159 &        3.912 &       15.82  &     3142     &       52.76  &      123.3   &       32.77  &       22.50  &      100.7   &       21.00  &       43.49  &     3539        \\ \hline\hline       
+            \\
+            \multicolumn{14}{c}{ $b-$jet tagging}  \\ \hline                                                                                                           
+            1 b-jet MV1   &        4.071 &        4.119 &        3.683 &              &        112.2 &       3.196  &      104.5   &       29.93  &       15.17  &        6.352 &        0.884 &        2.432 &      274.7      \\        
+            3 b-jets MV1  &        2.743 &        2.737 &        0.648 &              &        0.100 &        0.000 &        3.214 &        3.169 &        0.306 &        0.020 &        0.000 &        0.012 &        6.821    \\\hline  
+                                                                                                                                                                                                                     
+            1 b-jet  70\% &        4.052 &        4.092 &        3.577 &              &       28.87  &        0.998 &       93.68  &       27.52  &       12.89  &        3.487 &        0.359 &        1.401 &      169.2      \\        
+            3 b-jets 70\% &        2.384 &        2.395 &        0.333 &              &        0.016 &        0.001 &        1.667 &        1.212 &        0.226 &        0.010 &        0.000 &        0.000 &        3.132    \\\hline  
+                                                                                                                                                                                                                     
+            1 b-jet 80\%  &        4.101 &        4.135 &        3.759 &              &      123.1   &        3.605 &      104.9   &       29.81  &       15.32  &        9.929 &        1.411 &        3.546 &      291.7      \\        
+            3 b-jets 80\% &        3.219 &        2.999 &        0.856 &              &        0.435 &        0.001 &        5.637 &        3.370 &        0.000 &        0.052 &        0.000 &        0.020 &        9.515    \\\hline  
+                                                                                                                                                                                                                     
+            1 b-jet 90\%  &        4.116 &        4.159 &        3.889 &              &     1039     &       11.97  &      116.1   &       31.94  &       19.16  &       43.14  &        8.183 &       17.34  &     1287        \\        
+            3 b-jets 90\% &        3.904 &        3.831 &        2.501 &              &       34.359 &        1.187 &       30.681 &       14.14  &        2.942 &        3.048 &        0.466 &        1.112 &       87.939    \\\hline\hline       
+            \\
+            \multicolumn{14}{c}{ $b-$jet veto} \\ \hline                                        
+            b-jet veto MV1 &             &              &              &        5.214 &     3030     &       49.56  &       18.77  &        2.845 &        7.326 &       94.38  &       20.11  &       41.05  &     3264        \\       
+            b-j Veto 70\% &              &              &              &        9.564 &     3078     &       51.69  &       27.77  &        5.143 &        8.639 &       97.27  &       20.50  &       42.11  &     3332        \\       
+            b-j Veto 80\% &              &              &              &        4.947 &     2983     &       49.93  &       19.44  &        2.793 &        7.496 &       90.74  &       19.19  &       39.84  &     3213        \\       
+            b-j Veto 90\% &              &              &              &        0.875 &     2024     &       34.70  &        6.462 &        0.786 &        3.244 &       57.27  &       12.42  &       26.56  &     2166        \\\hline                   
+       \end{tabular}
+}
+\end{center}
+\end{sidewaystable}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sidewaystable}[h]
+\caption{Expected signal and background yields for various signal-region like cuts, with one, three or no $b$-jets, for each of the different lepton flavour combination.}
+\label{tab:btagging_yields_flavour}
+\begin{center}{\scriptsize
+        \begin{tabular}{l||cccc||cc|ccc|ccc||c }
+            Selection     &          Gtt &       Gtt    & Sbottom      & 2stepG    &  $Z$+jets    &  $W$+jets    &  $t\bar t$   & $t\bar t$+V  & SingleTop    & $WZ$         & $WW$         & $ZZ$         & Total-Bkg      \\ 
+                          &   700GeV     &    100GeV    &  750GeV      &  1.7TeV      &              &              &              &              &              &              &              &              &                 \\ \hline 
+            \multicolumn{14}{c}{$ee$} \\ \hline                                                                                                                                                                                                                                   
+            Lep Flavour   &        2.646 &        2.751 &        2.565 &     16.619 &   598443     &      123.9   &     4708     &       45.33  &      780.2   &       95.87  &     1102     &      117.4   &   605417        \\
+            $m_{ll}$      &        2.646 &        2.736 &        2.560 &     16.619 &   598442     &      110.7   &     4689     &       45.28  &      778.2   &       94.69  &     1096     &      116.9   &   605374        \\        
+            Same-Sign     &        0.900 &        0.877 &        0.880 &      4.560 &     3115     &       21.07  &       45.53  &        6.977 &        8.464 &       21.56  &        9.617 &       10.86  &     3239        \\\hline  
+
+            b-jet MV1     &        0.894 &        0.874 &        0.808 &      1.170 &      111.5   &        0.564 &       39.65  &        6.381 &        5.735 &        1.476 &        0.354 &        0.699 &      166.4      \\        
+            3 b-jets MV1  &        0.600 &        0.550 &        0.117 &            &        0.099 &        0.000 &        1.615 &        0.690 &        0.306 &        0.003 &        0.000 &        0.004 &        2.717    \\\hline  
+                                                                                                                                                                                                                      
+            b-jet  70\%   &        0.881 &        0.861 &        0.808 &      2.471 &       28.57  &        0.184 &       36.18  &        5.887 &        5.457 &        0.757 &        0.158 &        0.353 &       77.55     \\        
+            3 b-jets 70\% &        0.448 &        0.511 &        0.048 &            &        0.016 &        0.000 &        0.774 &        0.285 &        0.226 &        0.000 &        0.000 &        0.000 &        1.301    \\\hline  
+                                                                                                                                                                                                                      
+            b-jet 80\%    &        0.889 &        0.872 &        0.833 &      1.383 &      121.4   &        2.630 &       40.26  &        6.331 &        5.940 &        2.171 &        0.455 &        0.877 &      180.1      \\        
+            3 b-jets 80\% &        0.687 &        0.594 &        0.178 &            &        0.435 &        0.000 &        2.767 &        0.666 &        0.000 &        0.010 &        0.000 &        0.001 &        3.880    \\\hline  
+                                                                                                                                                                                                                      
+            b-jet 90\%    &        0.900 &        0.877 &        0.867 &      0.393 &     1029     &        2.836 &       43.71  &        6.808 &        7.435 &        9.211 &        3.633 &        4.289 &     1107        \\        
+            3 b-jets 90\% &        0.842 &        0.782 &        0.545 &            &       33.857 &        0.180 &       11.951 &        3.014 &        1.299 &        0.607 &        0.171 &        0.277 &       51.35     \\\hline\hline      
+            \multicolumn{14}{c}{$e\mu$} \\ \hline                                                                                                                                                                                                                       
+            Lep Flavour   &        5.954 &        6.190 &        5.891 &     12.925 &     1897     &      280.1   &    11545     &       64.00  &     1864     &      101.1   &     2693     &       41.11  &    18487        \\
+            $m_{ll}$      &        5.954 &        6.161 &        5.891 &     12.925 &     1897     &      224.6   &    11512     &       63.89  &     1860     &       99.69  &     2679     &       40.90  &    18378        \\        
+            Same-Sign     &        2.058 &        2.056 &        2.019 &      7.448 &       27.03  &       29.38  &       65.87  &       16.25  &       10.61  &       50.74  &       11.38  &       20.44  &      231.7      \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet MV1     &        2.023 &        2.033 &        1.923 &      3.154 &        0.684 &        2.597 &       55.94  &       14.86  &        7.639 &        3.239 &        0.530 &        1.200 &       86.69     \\        
+            3 b-jets MV1  &        1.414 &        1.392 &        0.345 &            &        0.000 &        0.000 &        1.478 &        1.575 &        0.000 &        0.009 &        0.000 &        0.007 &        3.069    \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet  70\%   &        2.028 &        2.028 &        1.844 &      4.650 &        0.285 &        0.785 &       49.78  &       13.559 &        6.375 &        1.723 &        0.201 &        0.651 &       73.36     \\        
+            3 b-jets 70\% &        1.271 &        1.210 &        0.185 &            &        0.000 &        0.000 &        0.727 &        0.598 &        0.000 &        0.009 &        0.000 &        0.000 &        1.335    \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet 80\%    &        2.054 &        2.047 &        1.956 &      2.790 &        1.619 &        0.877 &       55.46  &       14.807 &        7.603 &        4.858 &        0.955 &        1.686 &       87.87     \\        
+            3 b-jets 80\% &        1.620 &        1.538 &        0.443 &            &        0.000 &        0.000 &        2.525 &        1.696 &        0.000 &        0.024 &        0.000 &        0.016 &        4.260    \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet 90\%    &        2.058 &        2.056 &        2.011 &      0.482 &       10.12  &        8.953 &       61.62  &       15.843 &        9.193 &       21.64  &        4.550 &        8.184 &      140.1      \\        
+            3 b-jets 90\% &        1.970 &        1.909 &        1.310 &            &        0.500 &        0.960 &       16.28  &        6.936 &        1.473 &        1.521 &        0.295 &        0.520 &       28.48     \\\hline\hline  
+            \multicolumn{14}{c}{$\mu\mu$} \\ \hline 
+            Lep Flavour   &        3.365 &        3.722 &        3.274 &     25.518 &   801251     &       18.29  &     7091     &       64.93  &     1154     &      154.4   &     1673     &      189.7   &   811598        \\        
+            $m_{ll}$      &        3.365 &        3.722 &        3.274 &     25.518 &   801250     &       18.29  &     7075     &       64.85  &     1152     &      153.4   &     1665     &      189.2   &   811570        \\        
+            Same-Sign     &        1.164 &        1.226 &        1.014 &      3.820 &        0.088 &        2.303 &       11.90  &        9.543 &        3.423 &       28.43  &        0.000 &       12.17  &       67.87     \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet MV1     &        1.154 &        1.212 &        0.952 &      0.890 &        0.004 &        0.035 &        8.937 &        8.685 &        1.805 &        1.638 &        0.000 &        0.533 &       21.63     \\        
+            3 b-jets MV1  &        0.729 &        0.795 &        0.186 &            &        0.001 &        0.000 &        0.122 &        0.905 &        0.000 &        0.008 &        0.000 &        0.000 &        1.035    \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet  70\%   &        1.143 &        1.203 &        0.925 &      2.443 &        0.014 &        0.029 &        7.716 &        8.081 &        1.058 &        1.007 &        0.000 &        0.397 &       18.30     \\        
+            3 b-jets 70\% &        0.665 &        0.674 &        0.100 &            &        0.000 &        0.001 &        0.166 &        0.329 &        0.000 &        0.000 &        0.000 &        0.000 &        0.496    \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet 80\%    &        1.158 &        1.217 &        0.969 &      0.774 &        0.004 &        0.098 &        9.249 &        8.677 &        1.785 &        2.900 &        0.000 &        0.983 &       23.69     \\        
+            3 b-jets 80\% &        0.912 &        0.866 &        0.236 &            &        0.000 &        0.001 &        0.345 &        1.008 &        0.000 &        0.018 &        0.000 &        0.003 &        1.375    \\\hline  
+                                                                                                                                                                                                                                     
+            b-jet 90\%    &        1.158 &        1.226 &        1.010 &      0.000 &        0.047 &        0.184 &       10.82  &        9.292 &        2.536 &       12.29  &        0.000 &        4.868 &       40.04     \\        
+            3 b-jets 90\% &        1.092 &        1.140 &        0.645 &            &        0.003 &        0.046 &        2.446 &        4.193 &        0.170 &        0.920 &        0.000 &        0.315 &        8.093    \\\hline             
+        \end{tabular}
+}
+\end{center}
+\end{sidewaystable}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[htb!!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{FIGURES/BTAGGING/02_CutLEP_ll_NBJET_signals.pdf}
+\includegraphics[width=0.45\textwidth]{FIGURES/BTAGGING/05_CutSS_ll_NBJET.pdf}\\
+\includegraphics[width=0.45\textwidth]{FIGURES/BTAGGING/02_CutLEP_ll_NB1JET_signals.pdf} 
+\includegraphics[width=0.45\textwidth]{FIGURES/BTAGGING/05_CutSS_ll_NB1JET.pdf}
+\end{center}
+\vspace{-0.2cm}
+\caption{Signal and background $b$-jet multiplicity distributions for the MV1 and MV2c20 taggers.}
+\label{fig:btagging_mv2_mv1}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}[h]
+\caption{Signal significance for various signal-region like cuts, with one, three or no $b$-jets, for each of the different lepton flavour combination.}
+\label{tab:btagging_significance_flavours}
+\begin{center}{\scriptsize
+          \begin{tabular}{l|cccc }     
+            Selection     &    Gtt &    Gtt &    Sbottom & 2stepG \\               
+                          & 700~GeV & 100~GeV &            &  ($b$-veto) \\ \hline \hline 
+            \multicolumn{5}{c}{$\ell\ell$} \\ \hline        
+
+            b-jet MV1     & 0.245 & 0.248 & 0.222 & 0.091 \\        
+            3 b-jets MV1  & 0.990 & 0.988 & 0.244 &       \\\hline  
+                                                                    
+            b-jet  70\%   & 0.310 & 0.313 & 0.274 & 0.166 \\        
+            3 b-jets 70\% & 1.215 & 1.220 & 0.185 &       \\\hline  
+                                                                    
+            b-jet 80\%    & 0.240 & 0.242 & 0.220 & 0.087 \\        
+            3 b-jets 80\% & 0.992 & 0.927 & 0.274 &       \\\hline  
+                                                                         
+            b-jet 90\%    & 0.115 & 0.116 & 0.108 & 0.019 \\        
+            3 b-jets 90\% & 0.413 & 0.406 & 0.265 &       \\\hline  
+                                                                    
+            \multicolumn{5}{c}{$ee$} \\ \hline        
+
+            b-jet MV1     & 0.069 & 0.068 & 0.063 & 0.021 \\        
+            3 b-jets MV1  & 0.352 & 0.323 & 0.071 &       \\\hline  
+                                                                    
+            b-jet  70\%   & 0.100 & 0.098 & 0.092 & 0.044 \\        
+            3 b-jets 70\% & 0.373 & 0.423 & 0.042 &       \\\hline  
+                                                                    
+            b-jet 80\%    & 0.066 & 0.065 & 0.062 & 0.025 \\        
+            3 b-jets 80\% & 0.339 & 0.295 & 0.090 &       \\\hline  
+                                                                    
+            b-jet 90\%    & 0.027 & 0.026 & 0.026 & 0.009 \\        
+            3 b-jets 90\% & 0.117 & 0.109 & 0.076 &       \\\hline  
+                                                                    
+            \multicolumn{5}{c}{$e\mu$} \\ \hline 
+
+            b-jet MV1     & 0.216 & 0.218 & 0.206 & 0.261 \\        
+            3 b-jets MV1  & 0.755 & 0.744 & 0.193 &       \\\hline  
+                                                                    
+            b-jet  70\%   & 0.236 & 0.236 & 0.214 &  0.370 \\        
+            3 b-jets 70\% & 0.972 & 0.929 & 0.157 &       \\\hline  
+                                                                    
+            b-jet 80\%    & 0.218 & 0.218 & 0.208 & 0.233 \\        
+            3 b-jets 80\% & 0.742 & 0.706 & 0.211 &       \\\hline  
+                                                                    
+            b-jet 90\%    & 0.173 & 0.173 & 0.170 & 0.051 \\        
+            3 b-jets 90\% & 0.365 & 0.354 & 0.244 &       \\\hline  
+                                                                    
+            \multicolumn{5}{c}{$\mu\mu$} \\ \hline                                                       
+                                                                    
+            b-jet MV1     & 0.246 & 0.258 & 0.203 & 0.130 \\        
+            3 b-jets MV1  & 0.651 & 0.704 & 0.178 &       \\\hline  
+                                                                    
+            b-jet  70\%   & 0.264 & 0.278 & 0.214 &  0.348 \\        
+            3 b-jets 70\% & 0.803 & 0.813 & 0.138 &       \\\hline  
+                                                                    
+            b-jet 80\%    & 0.236 & 0.248 & 0.198 & 0.116 \\        
+            3 b-jets 80\% & 0.710 & 0.676 & 0.196 &       \\\hline  
+                                                                    
+            b-jet 90\%    & 0.182 & 0.193 & 0.159 & 0.001 \\        
+            3 b-jets 90\% & 0.376 & 0.392 & 0.224 &       \\\hline  
+\end{tabular}
+}
+\end{center}
+\end{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

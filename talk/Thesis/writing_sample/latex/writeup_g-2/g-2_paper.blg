@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: g-2_paper.aux
+The style file: prsty.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: g-2_references.bib
+Warning--Warning: volume missing in entry phen.
+Warning--Warning: pages missing in entry phen.
+Warning--Warning: volume missing in entry e989.
+Warning--Warning: pages missing in entry e989.
+Warning--We don't use thesis titles in Phys. Rev, see \cite{thesis}
+Warning--Warning: volume missing in entry hlbl.
+Warning--Warning: pages missing in entry hlbl.
+Warning--Warning: volume missing in entry new_th.
+Warning--Warning: pages missing in entry new_th.
+You've used 19 entries,
+            1909 wiz_defined-function locations,
+            609 strings with 5847 characters,
+and the built_in function-call counts, 3796 in all, are:
+= -- 120
+> -- 183
+< -- 0
++ -- 58
+- -- 39
+* -- 352
+:= -- 461
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 187
+empty$ -- 406
+format.name$ -- 58
+if$ -- 910
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 0
+newline$ -- 60
+num.names$ -- 19
+pop$ -- 129
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 288
+stack$ -- 0
+substring$ -- 146
+swap$ -- 105
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 9
+while$ -- 33
+width$ -- 21
+write$ -- 96
+(There were 9 warnings)

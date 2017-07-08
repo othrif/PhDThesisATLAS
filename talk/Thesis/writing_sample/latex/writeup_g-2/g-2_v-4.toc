@@ -1,0 +1,28 @@
+\contentsline {chapter}{List of Tables}{iv}
+\contentsline {chapter}{List of Figures}{v}
+\contentsline {chapter}{Abstract}{vi}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Properties of the Muon}{4}
+\contentsline {subsection}{\numberline {2.1}Obtaining Polarized Muons}{4}
+\contentsline {subsection}{\numberline {2.2}Parity Violation}{5}
+\contentsline {subsection}{\numberline {2.3}Relativistic Muons in a Magnetic Field}{7}
+\contentsline {section}{\numberline {3}Brookhaven $g-2$ Experiment: E821}{9}
+\contentsline {subsection}{\numberline {3.1}Historical Background}{9}
+\contentsline {subsection}{\numberline {3.2}Description of the Experimental Method}{9}
+\contentsline {subsection}{\numberline {3.3}Measurement of the Anomalous Angular Frequency $\omega _a$}{11}
+\contentsline {subsection}{\numberline {3.4}Measurement of the Magnetic Field $B$}{14}
+\contentsline {subsection}{\numberline {3.5}Corrections and Systematic Errors}{15}
+\contentsline {subsection}{\numberline {3.6}Summary of Results from E821}{18}
+\contentsline {section}{\numberline {4}Future Fermilab $g-2$ Experiment: E989}{19}
+\contentsline {section}{\numberline {5}The Standard Model Evaluation of the Anomaly $\left (a_{\mu }\right )$}{21}
+\contentsline {subsection}{\numberline {5.1}Introduction}{21}
+\contentsline {subsection}{\numberline {5.2}The QED Contribution to $a_{\mu }$}{21}
+\contentsline {subsection}{\numberline {5.3}The Weak Contribution to $a_{\mu }$}{22}
+\contentsline {subsection}{\numberline {5.4}The Hadronic Contribution to $a_{\mu }$}{23}
+\contentsline {subsection}{\numberline {5.5}The SM Value of $a_{\mu }$ }{25}
+\contentsline {section}{\numberline {6}Conclusions and Prospects}{26}
+\contentsline {chapter}{\numberline {A}The Dirac Result $\displaystyle g=2$}{27}
+\contentsline {chapter}{\numberline {B}Spin Dynamics}{30}
+\contentsline {chapter}{\numberline {C}Muon Decay Rate}{35}
+\contentsline {chapter}{\numberline {D}The Schwinger Term $\displaystyle \frac {\alpha }{2\pi }$ }{39}
+\contentsline {chapter}{References}{43}

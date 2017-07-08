@@ -1,0 +1,188 @@
+%\documentclass[usetikz]{atlasnote} % the 'usetikz' option loads tikz.sty in the proper place, 
+                                   % avoiding conflicts with graphicx.sty.
+                                   % Don't know what tikz.st is? Just ignore this line! :-)
+
+%\documentclass[coverpage]{atlasnote} % the 'coverpage' option loads the ATLAS Cover Page package 
+                                      % ans makes sure that the cover page is generated before the
+                                      % note title page. Make sure that the latest version of
+                                      % of 'atlascover.sty. is installed on your system!
+
+
+\documentclass[11pt,a4paper]{atlasnote}
+\graphicspath{{FIGURES/}}
+\usepackage{atlasphysics}
+\usepackage{subfigure}
+\usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{slashed}
+\usepackage{xspace}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{subfigure}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage{placeins}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{pbox}
+\usepackage{changepage}
+\hypersetup{
+colorlinks=true,
+linkcolor=red,
+citecolor=red,
+urlcolor=blue
+}
+% Running line numbers: 
+%Skip this for final version 
+\linenumbers 
+\usepackage{url}
+
+\renewcommand{\topfraction}{0.99}
+\renewcommand{\bottomfraction}{0.99}
+\newcommand\quitesmall{\fontsize{8.2}{8.2}\selectfont}
+%\usepackage{slashed}
+%\setcounter{tocdepth}{4}
+
+% SUSY specific object & variable definitions
+\input{susydefs}
+\def\btagging{$b$-tagging\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Title page             % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\skipbeforetitle{100pt}
+
+% Title
+\title{Search for strongly produced superpartners in final states with same-sign leptons or three leptons and jets: preparing for 2015 analyses}
+
+% Author
+%if not given, typesets ``The ATLAS collaboration''
+%\author{The ATLAS Collaboration}
+
+% if multiple authors/affiliations are needed, use the authblk package
+\usepackage{authblk}
+\renewcommand\Authands{, } % avoid ``. and'' for last author
+\renewcommand\Affilfont{\itshape\small} % affiliation formatting
+
+%\author[1]{The SS/3L analysis team}
+%\affil[1]{the team members institutes}
+\input{authors.tex}
+
+% Date: if not given, uses current date
+\date{\today}
+
+% Draft version: if given, adds draft version on front page, a
+% 'DRAFT' box on top of each other page, and line numbers to easy
+% commenting. Comment or remove in final version.
+\draftversion{1.0.2}
+
+% Journal: adds a 
+%\journal{Phys. Lett. B} 
+
+% Abstract
+\abstracttext{
+This note contains the documentation of the studies performed with DC14 Monte Carlo samples in preparation for Run-2 for the 
+search for strongly produced supersymmetric particles using signatures involving multiple energetic jets and either two
+isolated leptons ($e$ or $\mu$) with the same electric charge, or at least three isolated leptons.
+The analysis also utilises jets originating from $b$-quarks, missing transverse momentum and other observables to extend its sensitivity.
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%            Content               % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\tableofcontents
+\clearpage
+
+%\section{Notes to the reader}
+%\subsection {Changes with respect to version X}
+%For the moment, the document is empty. This will be fixed in version 1.0. 
+
+\section{Introduction}
+\label{sec:intro}
+\input{intro.tex}
+
+\section{Signal models}
+\label{sec:signal}
+\input{models.tex}
+
+\section{MC samples}
+\label{sec:samples}
+\input{MCSamples}
+
+\FloatBarrier
+
+\section{Object definition}
+\label{sec:objects}
+\input{Objects.tex}
+
+\section{Event selection}
+\label{sec:evtsel}
+
+\subsection{Trigger studies}
+\label{sec:trigger}
+\input{trigger.tex}
+
+
+\subsection{Event pre-selection}
+\label{sec:presel}
+\input{presel.tex}
+
+
+\section{Signal region definition}
+\label{sec:sr}
+\input{sr.tex}
+
+
+\section{Background estimation}
+\label{sec:bkg}
+\input{bkg}
+
+\section{Systematic Uncertainties}
+\label{sec:systematics}
+\input{systematics.tex}
+
+\section{Simultaneous fit method and results}
+\label{sec:fit}
+\input{histfitter}
+
+\section{Conclusion}  
+\label{sec:conclusion}
+
+This note summarized the Run-2 preparation activities for the SUSY search using same-sing dileptons or three leptons, 
+and the current status as of the end of April 2015 for the ``SUSY walkthroughs'' to be held on April 28th. 
+These studies were conducted with DC14 Monte Carlo samples, and despite the known caveats in these samples (missing samples 
+for some backgrounds, sub-optimal $b$-tagging, etc.), progress has been reported about object selection, trigger studies, 
+signal region optimization, background estimation strategy and validation regions, as well as first sensitivity results 
+including experimental systematics. 
+
+
+\FloatBarrier
+\clearpage
+
+%\appendix
+
+
+\bibliographystyle{atlasBibStyleWithTitle}
+\bibliography{ss3l2015}
+
+\clearpage
+\appendix
+
+%\input{appendix_pMSSM}
+%\input{appendix_SS_SqSq}
+
+\input{appendix_isolation}
+
+\input{appendix_trigger}
+
+\input{appendix_3l3b}
+
+\end{document}

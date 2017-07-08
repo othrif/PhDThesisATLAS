@@ -1,0 +1,175 @@
+%-------------------------------------------------------------------------------
+% This file contains the title, author and abstract.
+% It also contains all relevant document numbers used by the different cover pages.
+%-------------------------------------------------------------------------------
+
+% Title
+\AtlasTitle{Search for strongly produced superpartners in final states with same-sign leptons or three leptons and jets in $pp$ collisions at $\sqrt{s}=13$~TeV (Supporting note)}
+
+% Author - this does not work with revtex (add it after \begin{document})
+%\author{The ATLAS Collaboration}
+
+% Authors and list of contributors to the analysis
+% \AtlasAuthorContributor also adds the name to the author list
+% Include package latex/atlascontribute to use this
+% Use authblk package if there are multiple authors, which is included by latex/atlascontribute
+\usepackage{authblk}
+\renewcommand\Authands{, } % avoid ``. and'' for last author
+\renewcommand\Affilfont{\itshape\small} % affiliation formatting
+%\AtlasAuthorContributor{The SS/3L analysis team}{a}{Everything}
+%\affil[a]{all}
+
+\AtlasAuthorContributor{B.~Abbott}{1}{Supervision of students}
+\AtlasAuthorContributor{J.-F.~Arguin}{2}{Charge flip studies, supervision of students}
+\AtlasAuthorContributor{S.~Berlendis}{3}{Generation of background MC}
+\AtlasAuthorContributor{F.~Cardillo}{4}{Event selection (lepton pairing), trigger strategy, MC15 signal region optimization, tree production with experimental systematic uncertainties, HistFitter statistical interpretation, production of exclusion plots}
+\AtlasAuthorContributor{G.~Carrillo-Montoya}{5}{Event selection ($b$-tagging, overlap removal), DPS cross-checks}
+\AtlasAuthorContributor{A.~Di~Simone}{4}{HistFitter statistical interpretation, production of exclusion plots, supervision of students}
+
+\AtlasAuthorContributor{O.~Ducu}{6,7}{Event selection (electron acceptance), DC14 signal regions optimization, fake-lepton background estimation and composition studies, validation regions definitions, data/MC comparisons}
+
+\AtlasAuthorContributor{D. Gerbaudo}{8}{Generation of background MC, theory uncertainties}
+
+\AtlasAuthorContributor{F.~Hubaut}{7}{Supervision of students}
+
+\AtlasAuthorContributor{G.~Herten}{4}{Supervision of students}
+
+\AtlasAuthorContributor{S.~Kahn}{7}{Real lepton efficiency studies, study of pMSSSM models}
+
+\AtlasAuthorContributor{A.~Lleres}{3}{Supervision of students}
+\AtlasAuthorContributor{J.~Maurer}{6}{Analysis coordination, editor of supporting note, CONF note and paper; signal sample generation, background estimation cross-checks}
+\AtlasAuthorContributor{E.~Monnier}{7}{Supervision of students}
+\AtlasAuthorContributor{T.~Nguyen}{2}{Charge flip background estimation}
+
+\AtlasAuthorContributor{A.~Paramonov}{9}{Rare processes evaluation, supervision of students}
+\AtlasAuthorContributor{J.~Poveda}{5}{Analysis coordination, editor of supporting note, CONF note and paper; ntuple production, event selection (lepton isolation), data/MC comparisons, MC15 signal region optimization}
+\AtlasAuthorContributor{P.~Pralavorio}{7}{Supervision of students}
+
+\AtlasAuthorContributor{H.~Ren}{10, 7}{Fake lepton background estimation}
+\AtlasAuthorContributor{O.~Rifki}{1}{MC template method, data/MC comparisons, background estimation cross-checks}
+\AtlasAuthorContributor{Y.-T.~Shen}{1}{25/50ns MC comparisons, isolation SF studies}
+\AtlasAuthorContributor{P.~Skubic}{1}{Supervision of students}
+
+\AtlasAuthorContributor{A.~Taffard}{8}{Supervision of students}
+
+\AtlasAuthorContributor{P.~Tornamb\'{e}}{4}{Event selection (lepton pairing), MC15 signal region optimization, tree production with experimental systematic uncertainties, HistFitter statistical interpretation, production of exclusion plots}
+
+\AtlasAuthorContributor{H.~Tr\'{e}panier}{2}{Charge flip background}
+\AtlasAuthorContributor{X.~Zhuang}{10}{Supervision of students}
+
+
+%\AtlasAuthorContributor{Second AtlasAuthorContributor}{b}{Author's contribution.}
+% \AtlasAuthorContributor{Third AtlasAuthorContributor}{a}{Author's contribution.}
+% \AtlasContributor{Fourth AtlasContributor}{Contribution to the analysis.}
+%\author[a]{The SS/3L analysis team}
+% \author[a]{Second Author}
+% \author[b]{Third Author}
+%\affil[a]{all}
+\affil[1]{University of Oklahoma}
+\affil[2]{Universit\'e de Montr\'eal}
+\affil[3]{Laboratoire de Physique Subatomique et de Cosmologie de Grenoble (LPSC)}
+\affil[4]{Albert-Ludwigs-Universit\"at Freiburg}
+\affil[5]{European Laboratory for Particle Physics, CERN}
+\affil[6]{Horia Hulubei National Institute for R\&D in Physics and Nuclear Engineering (IFIN-HH) Bucharest}
+\affil[7]{Centre de Physique des Particules de Marseille (CPPM)}
+\affil[8]{University of California, Irvine}
+\affil[9]{Argonne National Laboratory}
+
+\affil[10]{Institute of High Energy Physics, Chinese Academy of
+Sciences, Beijing}
+
+
+% If a special author list should be indicated via a link use the following code:
+% Include the two lines below if you do not use atlasstyle:
+% \usepackage[marginal,hang]{footmisc}
+% \setlength{\footnotemargin}{0.5em}
+% Use the following lines in all cases:
+% \usepackage{authblk}
+% \author{The ATLAS Collaboration%
+% \thanks{The full author list can be found at:\newline
+%   \url{https://atlas.web.cern.ch/Atlas/PUBNOTES/ATL-PHYS-PUB-2014-007/authorlist.pdf}}
+% }
+
+% Date: if not given, uses current date
+\date{\today}
+
+% Draft version:
+% Should be 1.0 for the first circulation, and 2.0 for the second circulation.
+% If given, adds draft version on front page, a 'DRAFT' box on top of each other page, 
+% and line numbers.
+% Comment or remove in final version.
+\AtlasVersion{2.1}
+
+% ATLAS reference code, to help ATLAS members to locate the paper
+\AtlasRefCode{SUSY-2015-09}
+
+% ATLAS note number. Can be an COM, INT, PUB or CONF note
+% \AtlasNote{ATLAS-CONF-2014-XXX}
+% \AtlasNote{ATL-PHYS-PUB-2014-XXX}
+% \AtlasNote{ATL-COM-PHYS-2014-XXX}
+
+% CERN preprint number
+% \PreprintIdNumber{CERN-PH-2014-XX}
+
+% ATLAS date - arXiv submission; to be filled in by the Physics Office
+% \AtlasDate{\today}
+
+% arXiv identifier
+% \arXivId{14XX.YYYY}
+
+% HepData record
+% \HepDataRecord{ZZZZZZZZ}
+
+% Submission journal and final reference
+% \AtlasJournal{Phys.\ Lett.\ B.}
+% \AtlasJournalRef{\PLB 789 (2014) 123}
+% \AtlasDOI{}
+
+% Abstract - % directly after { is important for correct indentation
+\AtlasAbstract{%
+% This note contains the documentation of the studies performed with MC15 Monte Carlo samples and early data in preparation for the Run-2 search for strongly produced supersymmetric particles using signatures involving multiple energetic jets and either two isolated leptons ($e$ or $\mu$) with the same electric charge, or at least three isolated leptons.
+%The analysis also utilises jets originating from $b$-quarks, missing transverse momentum and other observables to extend its sensitivity.
+A search for strongly produced supersymmetric particles is conducted using signatures involving multiple energetic jets and either two isolated leptons ($e$ or $\mu$) with the same electric charge, or at least three isolated leptons. The search also utilises jets originating from $b$-quarks, missing transverse momentum and other observables to extend its sensitivity. The analysis uses a data sample corresponding to a total integrated luminosity of XX fb$^{-1}$ of $\sqrt{s}= 13$~TeV proton-proton collisions recorded with the ATLAS detector at the Large Hadron Collider in 2015. (Add results).
+
+}
+
+%-------------------------------------------------------------------------------
+% The following information is needed for the cover page. The commands are only defined
+% if you use the coverpage option in atlasdoc or use the atlascover package
+%-------------------------------------------------------------------------------
+
+% List of supporting notes  (leave as null \AtlasCoverSupportingNote{} if you want to skip this option)
+% \AtlasCoverSupportingNote{Short title note 1}{https://cds.cern.ch/record/XXXXXXX}
+% \AtlasCoverSupportingNote{Short title note 2}{https://cds.cern.ch/record/YYYYYYY}
+%
+% OR (the 2nd option is deprecated, especially for CONF and PUB notes)
+%
+% Supporting material TWiki page  (leave as null \AtlasCoverTwikiURL{} if you want to skip this option)
+% \AtlasCoverTwikiURL{https://twiki.cern.ch/twiki/bin/view/Atlas/WebHome}
+
+% Comment deadline
+% \AtlasCoverCommentsDeadline{DD Month 2014}
+
+% Analysis team members - contact editors should no longer be specified
+% as there is a generic email list name for the editors
+% \AtlasCoverAnalysisTeam{Peter Analyser, Susan Editor1, Jenny Editor2, Alphonse Physicien}
+
+% Editorial Board Members - indicate the Chair by a (chair) after his/her name
+% Give either all members at once (then they appear on one line), or separately
+% \AtlasCoverEdBoardMember{EdBoard~Chair~(chair), EB~Member~1, EB~Member~2, EB~Member~3}
+% \AtlasCoverEdBoardMember{EdBoard~Chair~(chair)}
+% \AtlasCoverEdBoardMember{EB~Member~1}
+% \AtlasCoverEdBoardMember{EB~Member~2}
+% \AtlasCoverEdBoardMember{EB~Member~3}
+
+% A PUB note has readers and not an EdBoard -- give their names here (one line or several entries)
+% \AtlasCoverReaderMember{Reader~1, Reader~2}
+% \AtlasCoverReaderMember{Reader~1}
+% \AtlasCoverEdBoardMember{Reader~2}
+
+% Editors egroup
+% \AtlasCoverEgroupEditors{atlas-GROUP-2014-XX-editors@cern.ch}
+
+% EdBoard egroup
+% \AtlasCoverEgroupEdBoard{atlas-GROUP-2014-XX-editorial-board@cern.ch}
+

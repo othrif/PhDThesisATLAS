@@ -1,0 +1,76 @@
+
+%A few general selection criteria based on data quality, detector quality flags are the following:
+\par A sample of two same-sign or three leptons is selected applying the following criteria:
+\begin{itemize}
+%\item{ \textbf{GRL}: The used GoodRunsList, providing a total
+%    luminosity of $\lumi$~\ifb, was \newline
+%\small{\texttt{data12\_8TeV.periodAllYear\_DetStatus-v58-pro14-01\_DQDefects-00-00-33\_PHYS\_StandardGRL\_All\_Good.xml}}.}
+%\item{ \textbf{Trigger}: The data have been collected using lepton and \met\ triggers, as described in Section \ref{section:trigger}.}
+%\item{ \textbf{LAr and Tile Error}: Impact from the noise bursts and data corruption in the LAr and
+% Tile calorimeter is reduced by selecting events without an error from
+% the quality checks (larError!=2 and tileError!=2). } 
+%\item{ \textbf{Incomplete events}: Incomplete events due to the TTC restart procedure are rejected.}
+
+%\item{ \textbf{Fake \met\ Veto}: Events with fake \met\ due to jets
+%    pointing to dead TileCal and HEC regions are rejected. This is
+%    achieved by vetoing events with at least one
+%    jet~\footnote{Anti-k$_{\rm T}$ jets with $R=0.4$ before
+%      electron-jet overlap removal are considered for the veto. } satisfying:
+%    \newline 
+%$\pt > 40\,\GeV\ \&\&\ C_{jet}  > 0.05\ \&\&\ \Delta\phi (\met,jet) <
+%    0.3$ \newline where  $C_{jet}$ is the estimated correction factor  
+%    for the energy losses estimated using the jet profile. The veto is applied
+%    to all events in data and simulation.}
+    
+\item{ \textbf{Jet Cleaning}: Events are required to pass the
+  {\tt{VeryLooseBad}} set of cleaning requirements recommended by Jet-\met\ group \cite{jetcctwiki} 
+  and implemented in the {\tt{JetCleaningTool}}. 
+An event is rejected if at least one of the pre-selected jets (thus
+after jet-electron overlap removal) fails the jet quality criteria. 
+The cleaning requirements are intended to remove events where significant energy was deposited in
+  the calorimeters due to instrumental effects such as cosmic rays,
+  beam-induced (non-collision) particles, and noise. } 
+  
+\item{ \textbf{Primary Vertex}: events are required to have a primary vertex, that is, one of the reconstructed vertices
+   must be labeled as {\tt{xAOD::VxType::PriVtx}}. No additional requirements on the number of tracks in the 
+   vertex should be applied as recommended by the Tracking CP group~\cite{vertex_twiki}.
+}
+
+\item{ \textbf{Bad Muon Veto}:  Events containing at least one pre-selected muon satisfying $\sigma(q/p)/|q/p| >$ 0.2 before the overlap removal are rejected.}
+
+\item{ \textbf{Cosmic Muon Veto}: Events containing a cosmic muon candidate are rejected. Cosmic muon candidates are selected among pre-selected muons, if they fail the requirements $|z_0| <$ 1.0\,mm and $|d_0| <$ 0.2\,mm, where the longitudinal and transverse impact paramaters $z_0$ and $d_0$ are calculated with respect to the primary vertex.}
+
+\item{ \textbf{At least two leptons}: Events are required to contain
+    at least two signal leptons (see Section~\ref{sec:objects} and
+    Table \ref{tab:lepdef}) with $p_{\mathrm{T}}
+    > 20\,\GeV$ and $p_{\mathrm{T}} > 15\,\GeV$ for the leading and subleading lepton, respectively. 
+    If the lepton contains a third lepton with $p_{\mathrm{T}} > 15\,\GeV$ the event is regarded as three-lepton
+    event otherwise as a two-lepton event. Once the trigger is fully operative in the MC samples, 
+    one or two of the three leptons will be 
+    matched to the trigger object
+    if the event is classified as passing a single or dilepton trigger.
+    The data sample obtained is then divided into three channels depending on the flavor of the two 
+    leading leptons ($ee$, $\mu\mu$, $e\mu$).}
+
+\item \textbf{Electron-muon overlap}: For any events containing at least one of
+  each of a signal electron and muon, the event is vetoed if $\Delta R(e, \mu) < 0.1$.
+
+\item{ \textbf{Same sign}: If the event is a two-lepton event the two leading leptons have to be of 
+    same charge (same-sign).}
+\item{ \textbf{Z-veto}: If the event is a three-lepton event all possible opposite-charge same-flavor lepton
+    combinations are combined to calculate a mass $M_{\ell\ell}$. The event is rejected if one of the calculated mass
+    is close to the $Z$-mass, i.e.~$84 < M_{\ell\ell} <  98\,\mathrm{GeV}$.}
+\item{ \textbf{Invariant mass}: Events with $M_{\ell\ell} < 12\,\GeV$ are
+    rejected to avoid heavy flavor meson resonances. In three-lepton events, the invariant mass $M_{\ell\ell}$ is calculated from the 
+    two leading leptons. }
+\end{itemize}
+
+
+The following event variables are also used in the definition of the signal and validation regions in the analysis:
+
+\begin{itemize}
+\item The inclusive effective mass \meff~ defined as the scalar sum of
+  the signal leptons \pt (see Table~\ref{tab:lepdef}), all signal jets \pt\ (see Table~\ref{tab:jetsdef}) and \met;
+\item The transverse mass \mt\ computed from the leading lepton and
+\met\ as \newline $\mt = \sqrt{2 \cdot \pt^l \cdot \met \cdot (1 - cos(\Delta \phi(l, \met )))}$;
+\end{itemize}

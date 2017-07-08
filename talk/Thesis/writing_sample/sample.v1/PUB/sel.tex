@@ -1,0 +1,202 @@
+Candidate events are required to have a reconstructed vertex~\cite{ATL-PHYS-PUB-2015-026}, 
+with at least two associated tracks with $\pt >400$~MeV, 
+and the vertex with the largest $\Sigma \pt^2$ of the associated tracks is chosen as the primary vertex of the event.
+
+For the data-driven background estimations, two categories of electrons and muons are used: 
+``candidate'' and ``signal'' (the latter being a subset of the ``candidate'' leptons satisfying tighter selection criteria). 
+Electron candidates are reconstructed from energy depositions in the electromagnetic calorimeter that have been matched to an ID track 
+and are required to have $|\eta|<2.47$, a transverse momentum $\pT>\SI{10}{\GeV}$,
+and to pass a Loose likelihood-based identification requirement~\cite{ATLAS-CONF-2016-024}. 
+The likelihood input variables include measurements of calorimeter shower shapes and track properties from the ID. 
+Candidates within the transition region between the barrel and endcap electromagnetic calorimeters,
+$1.37<|\eta|<1.52$, are removed. The track matched with the electron must have a significance of the transverse impact parameter 
+with respect to the reconstructed primary vertex, $d_0$, of $\vert d_0\vert/\sigma(d_0) < 5$.
+Muon candidates are reconstructed in the region $|\eta|<2.5$ 
+from muon spectrometer tracks matching ID tracks.
+All muon candidates must have $\pT>\SI{10}{\GeV}$ and must pass the Medium identification requirements~\cite{Aad:2016jkr}, 
+based on selections on the number of hits in the different ID and muon spectrometer subsystems, 
+and the significance of the charge-to-momentum ratio $q/p$~\cite{Aad:2016jkr}.
+
+Jets are reconstructed with the anti-$k_t$
+algorithm~\cite{Cacciari:2008} with radius parameter $R=0.4$, using three-dimensional topological energy
+clusters in the calorimeter~\cite{PERF-2014-07} as input. 
+All jets must have $\pT>\SI{20}{\GeV}$ and $|\eta|<2.8$.
+Jets are calibrated as described in Ref.~\cite{ATLAS-PHYS-PUB-2015-015}.
+Furthermore, for all jets the expected average energy contribution from
+pile-up is subtracted according to the jet area~\cite{ATLAS-PHYS-PUB-2015-015}.
+In order to reduce the effects of pile-up, jets with $\pt<\SI{60}{GeV}$ and $|\eta|<2.4$ are required to have a significant fraction of their 
+associated tracks originating from the primary vertex, 
+as defined by the jet vertex tagger~\cite{ATLAS-CONF-2014-018}. 
+
+Identification of jets containing $b$-hadrons ($b$-tagging) is performed with the MV2c10 algorithm, 
+a multivariate discriminant making use of track impact parameters 
+and reconstructed secondary vertices~\cite{Aad:2015ydr,ATL-PHYS-PUB-2015-022}.
+A requirement is chosen corresponding to a 70\% average efficiency 
+for tagging $b$-jets in simulated $\ttbar$ events. 
+The rejection factors for light-quark/gluon jets, $c$-quark jets and hadronically decaying $\tau$ leptons in simulated $\ttbar$ events 
+are approximately 380, 12 and 54, respectively~\cite{ATL-PHYS-PUB-2015-022,ATL-PHYS-PUB-2016-012}. 
+Jets with $|\eta|<2.5$ which satisfy the $b$-tagging requirement are identified as $b$-jets. 
+To compensate for differences between data and MC simulation in the $b$-tagging efficiencies and mis-tagging rates, 
+correction factors derived in data control regions are applied to the simulated samples~\cite{ATL-PHYS-PUB-2015-022}. 
+
+After object identification, overlaps between the different objects are resolved. 
+Any jet within a distance $\Delta R_y =\sqrt{(\Delta y)^2+(\Delta\phi)^2}$ = 0.2 of a lepton candidate is discarded, 
+unless the jet is $b$-tagged\footnote{In this case the $b$-tagging operating point corresponding to an efficiency of 85\% is used.},
+in which case the lepton is discarded since it is likely originating from a semileptonic $b$-hadron decay. 
+Any remaining lepton within $\Delta R_y= \operatorname{min}\{0.4, 0.1 + \SI{9.6}{GeV}/\pt(\ell)\}$ of a jet is discarded. 
+However, if the jet has fewer than three associated tracks or the muon \pt exceeds 70\% of the sum of the transverse momenta 
+of the associated tracks and 50\% of the \pt of the jet, the muon is retained and the jet is discarded. This avoids 
+inefficiencies for high-energy muons undergoing significant energy loss in the calorimeter. 
+%Any calo-tagged muon\footnote{A calo-tagged muon is a muon identified solely by calorimeter based identification 
+%(so no signal in MS) and are relevant only at $|\eta|<0.1$.} sharing an ID track with an electron is removed. 
+Finally, any electron sharing an ID track with the remaining muons is also removed.
+
+
+Electrons that are likely to be reconstructed with an incorrect charge assignment are rejected using electron
+cluster and track properties: the track impact parameter, the track curvature significance, the cluster width and the
+quality of the matching between the cluster and its associated track, both in terms of energy and position. These
+variables, as well as the electron pt and eta,
+are combined into a single classifier using a boosted decision tree (BDT). A selection requirement
+on the BDT output is chosen to achieve a rejection factor between 7 and 8 for electrons with a wrong charge
+assignment while selecting properly measured electrons with an efficiency of 97\%. Correction
+factors to account for differences of the selection efficiency between data
+and MC have been applied to the selected electrons in the MC simulation.
+
+Signal electrons must satisfy a Medium likelihood-based identification requirement~\cite{ATLAS-CONF-2016-024}.
+In region with high amount of material in the tracker, an electron may emit a hard brems\-strah\-lung photon which subsequently 
+converted to an electron--positron pair, causing its charge to be mis-measured (later refered to as ``charge-flip''). 
+To reduce the impact of charge mis-identification, electrons must satisfy $|\eta|<2.0$. Furthermore, electrons that 
+are likely to be reconstructed with an incorrect charge assignment are rejected using electron
+cluster and track properties: the track impact parameter, the track curvature significance, the cluster width and the
+quality of the matching between the cluster and its associated track, both in terms of energy and position. These
+variables, as well as the electron pt and eta, are combined into a single classifier using a boosted decision tree (BDT). 
+A selection requirement on the BDT output is chosen to achieve a rejection factor between 7 and 8 for electrons 
+with a wrong charge assignment while selecting properly measured electrons with an efficiency of 97\%. Correction
+factors to account for differences of the selection efficiency between data and MC have been applied to the selected 
+electrons in the MC simulation.
+%Correction factors to account for differences of the selection efficiency between data 
+%and MC have been applied to the selected electrons in the MC simulation.
+Signal muons must fulfil the requirement of $\vert d_0\vert/\sigma(d_0) < 3$. 
+The track associated with the signal leptons must have a longitudinal impact parameter with respect to the 
+reconstructed primary vertex, $z_0$, satisfying $\vert z_0 \sin\theta\vert  < 0.5$~mm. 
+Isolation requirements are applied to both the signal electrons and muons. 
+The  scalar sum of the \pt of tracks within a variable-size cone around the lepton, 
+excluding its own track, must be less than 6\% of the lepton \pt. 
+The track isolation cone radius for electrons (muons) 
+$\Delta R_\eta=\sqrt{(\Delta\eta)^2+(\Delta\phi)^2}$ 
+is given by the smaller of $\Delta R_\eta = \SI{10}{~GeV}/\pt$ and $\Delta R_\eta = 0.2\,(0.3)$. 
+That is, a cone of size $0.2\,(0.3)$ at low $\pt$ but narrower for high-\pt leptons. 
+In addition, in the case of electrons the energy of calorimeter clusters in a cone of $\Delta R_\eta = 0.2$ around the electron 
+(excluding the deposition from the electron itself) must be less than 6\% of the electron \pt. 
+Simulated events are corrected to account for minor differences in the lepton trigger, reconstruction, 
+identification and isolation efficiencies between data and MC simulation.
+
+The missing transverse momentum is defined as the negative vector sum of the transverse momenta 
+of all identified physics objects (electrons, photons~\cite{ATLAS-CONF-2012-123}, muons, jets) and an additional soft term. 
+The soft term is constructed from all tracks that are not associated with any physics object, 
+but that are associated with the primary vertex. 
+In this way, the $\met$ is adjusted for the best calibration of the jets and the other identified physics objects above, 
+while maintaining pile-up independence in the soft term~\cite{ATL-PHYS-PUB-2015-027, ATL-PHYS-PUB-2015-023}.
+
+Events are selected using a combination (logical OR) of dilepton and $\met$ triggers, 
+the latter being used only for events with $\met>\SI{250}{GeV}$. 
+The trigger-level requirements on $\met$ and the leading and subleading lepton \pt are looser than those applied offline 
+to ensure that trigger efficiencies are constant in the relevant phase space. 
+The event selection requires at least two signal leptons with $\pt>20$~\GeV~(apart from two SRs where 
+the second lepton \pt should be greater than 10~\GeV, see Table~\ref{tab:SRdef3}). 
+If the event contains exactly two signal leptons, they must have the same electric charge. 
+Events are discarded if they contain any jet failing basic quality selection criteria in order to 
+reject detector noise and non-collision background events~\cite{ATLAS-CONF-2010-038}.
+
+To maximise the sensitivity to the signal models of Figure~\ref{fig:feynman}, 
+nineteen overlapping signal regions are defined as shown in Table~\ref{tab:SRdef3}, with requirements on the number of signal leptons 
+($N_{\ell}^{\rm{signal}}$), the number of $b$-jets with $\pt>\SI{20}{\GeV}$ ($N_{b\rm{-jets}}$), 
+the number of jets above a given \pt thresholds (25, 40 or \SI{50}{GeV}) regardless of their flavour ($N_{\rm{jets}}$), 
+\met, the effective mass (\meff), defined as the scalar sum of the $\pt$ of the signal leptons and jets (regardless of their flavour) 
+in the event plus the \met, and the charge of the leptons in the event. 
+The values of acceptance times efficiency of the SR selections for the SUSY signal models 
+typically range between \textcolor{red}{[UPDATE]}\% for models with a light \ninoone and \textcolor{red}{[UPDATE]}\% for models with a heavy \ninoone. 
+\textcolor{red}{UPDATE: Check that this sentence makes sense when we have all numbers}.
+
+
+\begin{table}[tbh!]
+%\rotatebox{90}
+\resizebox{\textwidth}{!}
+{
+\hspace{0.5cm}
+\def\arraystretch{1.2}
+\centering
+\small
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c}
+\hline
+Signal region  &  $N_{\rm{leptons}}^{\rm{signal}}$   & $N_{b\rm{-jets}}$ & $N_{\rm{jets}}$  & $p^{}_{\rm{T,jet}}$ & \met\ & \meff\ & \met/\meff  & Other & Targeted  \\
+ Name          &                                  &                   &                  &    [GeV]             & [GeV] & [GeV] &   &  & Signal  \\
+\hline\hline
+
+%(\textit{ex-SR3b1}) 
+Rpc2L3bS         & $\ge 2$SS  & $\ge 3$ & $\ge 6$ & $>25$ & $>150$ & --  & $>0.2$    & - 			        & Fig.~\ref{fig:feynman_gtt}\\ 
+%(\textit{ex-SR3b2})
+Rpc2L3bH         & $\ge 2$SS  & $\ge 3$ & $\ge 6$ & $>25$ & $>250$ & $>1200$  & -	  & - 			        & Fig.~\ref{fig:feynman_gtt}, NUHM2\\ 
+\hline
+%(\textit{ex-SRhigh})
+Rpc2Lsoft1b    & $\ge 2$SS  & $\ge 1$ & $\ge 6$ & $>25$ & $>100$ &          & $>0.3$    & 20,10 $<$\ptlone,\ptltwo $<$ 100 GeV & Fig.~\ref{fig:feynman_gttOffshell}\\ 
+%(\textit{ex-SRlow})
+Rpc2Lsoft2b      & $\ge 2$SS  & $\ge 2$ & $\ge 6$ & $>25$ & $>200$ & $>600$   & $>0.25$   & 20,10 $<$\ptlone,\ptltwo $<$ 100 GeV & Fig.~\ref{fig:feynman_gttOffshell} \\ 
+\hline
+%(\textit{ex-SR0b1})
+Rpc2L0bS         & $\ge 2$SS  & $=0$    & $\ge 6$ & $>25$ & $>150$ & $>600$   & $>0.25$   & - 				& Fig.~\ref{fig:feynman_gg2WZ}\\
+%(\textit{ex-SR0b2}) 
+Rpc2L0bH         & $\ge 2$SS  & $=0$    & $\ge 6$ & $>40$ & $>250$ & $>900$   & -	  & - 				& Fig.~\ref{fig:feynman_gg2WZ}\\
+\hline
+%(\textit{ex-SR3L0b1})
+Rpc3L0bS       & $\ge 3$    & $=0$    & $\ge 4$ & $>40$ & $>200$ &  --   & -	  & - 				& Fig.~\ref{fig:feynman_gg2sl}\\ 
+%(\textit{ex-SR3L0b2})
+Rpc3L0bH       & $\ge 3$    & $=0$    & $\ge 4$ & $>40$ & $>200$ & $>1600$  & -	  & - 				& Fig.~\ref{fig:feynman_gg2sl}\\
+%(\textit{ex-SR3L1b1})
+Rpc3L1bS       & $\ge 3$    & $\ge 1$ & $\ge 4$ & $>40$ & $>200$ & $>600$   & -         & - 				& Fig.~\ref{fig:feynman_gg2sl} ?? \\ 
+%(\textit{ex-SR3L1b2})
+Rpc3L1bH       & $\ge 3$    & $\ge 1$ & $\ge 4$ & $>40$ & $>200$ & $>1600$  & -	  & - 				& Fig.~\ref{fig:feynman_gg2sl} ?? \\
+\hline
+%(\textit{ex-SR1b1})
+Rpc2L1bS         & $\ge 2$SS  & $\ge 1$ & $\ge 6$ & $>25$ & $>150$ & $>600$   & $>0.25$   & - 				& Fig.~\ref{fig:feynman_b1b1}\\
+%(\textit{ex-SR1b2})
+Rpc2L1bH         & $\ge 2$SS  & $\ge 1$ & $\ge 6$ & $>25$ & $>250$ & $>1250$  & $>0.2$    & - 				& Fig.~\ref{fig:feynman_b1b1}\\ 
+\hline
+%(\textit{ex-SR1b-3LSS})
+Rpc3LSS1b    & $\ge \ell^\pm\ell^\pm\ell^\pm$ & $\ge 1$ & - & -    & -  & -        & -& veto 81$<$\mee$<$101 GeV 	& Fig.~\ref{fig:feynman_t1t1}\\ 
+\hline
+%(\textit{ex-SR1b-GG})
+Rpv2L1bH       & $\ge 2$SS  & $\ge 1$ & $\ge 6$ & $>50$ & -      & $>2000$  & -         &  - 				& Figs.~\ref{fig:feynm_rpv_gl313},\ref{fig:feynm_rpv_gl321}\\
+%(\textit{ex-SRRPV0b})
+Rpv2L0b        & $=2$SS     & $=0$    & $\ge 6$ & $>40$ & -      & $>1800$  & -         &  veto 81$<$\mee$<$101 GeV 		& Fig.~\ref{fig:feynm_rpv_glprime} \\
+%(\textit{ex-SRRPV3b})
+Rpv2L3bH       & $\ge 2$SS  & $\ge 3$ & $\ge 6$ & $>40$ & -      & $>1800$  & -        & veto 81$<$\mee$<$101 GeV		& Fig.~\ref{fig:feynm_rpv_gl112} \\
+%(\textit{ex-SR3b-DD})
+Rpv2L3bS       & $\ge \ell^-\ell^-$   & $\ge 3$ & $\ge 3$ & $>50$ & -      & $>1200$   & -                           & & Fig.~\ref{fig:feynm_rpv_sd313}\\
+%(\textit{ex-SR1b-DD-low})
+Rpv2L1bS   & $\ge \ell^-\ell^-$  & $\ge 1$ & $\ge 4$ & $>50$ & -      & $>1200$  & -         & -  			        & Fig.~\ref{fig:feynm_rpv_sd321}\\
+%(\textit{ex-SR1b-DD-high})
+Rpv2L1bM  & $\ge \ell^-\ell^-$  & $\ge 1$ & $\ge 4$ & $>50$ & -      & $>1800$  & -         & - 			        & Fig.~\ref{fig:feynm_rpv_sd321}\\
+\hline
+\end{tabular}
+}
+\caption{Summary of the signal region definition. Unless explicitely stated in the table, at least two signal leptons with 
+$\pt>$20 GeV and same charge (SS) are required in each signal region. Requirements 
+are placed on the number of signal leptons ($N_{\rm{lept}}^{\rm{signal}}$), the number of jets ($N_{\rm{jets}}$) or the number 
+of $b$-jets with $\pt>\SI{20}{GeV}$ ($N_{b\rm{-jets}}$), \pt of the lepton or jet, \met, \meff\ or \met/\meff. The last column indicates the 
+targeted signal model.}
+\label{tab:SRdef3}
+\end{table}
+
+%The SR3L1-SR3L2 and SR0b1-SR0b2 signal regions are sensitive to squarks of the first and second generations directly produced or appearing in gluino decays in RPC models, 
+%leading to final states particularly rich in leptons (Fig.~\ref{fig:feynman_gg2sl}) or in jets (Fig.~\ref{fig:feynman_gg2WZ}), 
+%but with no enhancement of the production of $b$-quarks. 
+%Third-generation squark RPC models resulting in final states with two $b$-quarks, 
+%such as direct bottom squark production (Fig.~\ref{fig:feynman_b1b1}), are targeted by the SR1b signal region. 
+%Finally, the signal region SR3b targets production of gluinos decaying via a top squark resulting in final states with four $b$-quarks (Fig.~\ref{fig:feynman_gtt}). 
+
+%Signal regions targeting RPV models contain no $\met$ requirement. 
+%The SR1b-DD and SR3b-DD signal regions are sensitive to direct down squark production 
+%with a $\lambda''_{321}$ (Fig.~\ref{fig:feynm_rpv_sd321}) and $\lambda''_{313}$ (Fig.~\ref{fig:feynm_rpv_sd313}) coupling, respectively. 
+%Models featuring gluino production decaying via top squark including a $\lambda''_{313}$ (Fig.~\ref{fig:feynm_rpv_gl313}) or $\lambda''_{321}$ (Fig.~\ref{fig:feynm_rpv_gl321}) coupling are explored with the SR1b-GG signal region.
+

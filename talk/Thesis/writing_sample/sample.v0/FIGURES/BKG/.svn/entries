@@ -1,0 +1,77 @@
+10
+
+dir
+252617
+svn+ssh://svn.cern.ch/reps/atlasphys-susp/Physics/SUSY/Papers/inclusive2015/sameSign/FIGURES/BKG
+svn+ssh://svn.cern.ch/reps/atlasphys-susp
+
+
+
+2016-01-28T14:15:37.672340Z
+250265
+oducu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+883ba7d9-fdd0-4202-9341-49aa55999ad8
+
+chargeFlip
+dir
+
+realEff
+dir
+
+fakeEff
+dir
+
+chargeFlipRate.pdf
+file
+
+
+
+
+2015-12-05T17:59:55.000000Z
+6ff927e6ce7ef27c1a8fc2055b46cc6a
+2015-04-21T19:51:56.238550Z
+239663
+jmaurer
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19933
+
+closure_test
+dir
+
+validationPLots
+dir
+

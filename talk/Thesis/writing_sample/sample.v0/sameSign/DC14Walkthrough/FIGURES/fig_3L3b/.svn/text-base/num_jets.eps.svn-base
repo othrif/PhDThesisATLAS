@@ -1,0 +1,181 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%BoundingBox:  0 0 567 544
+%%Title: results/plots/num_jets.eps: c2
+%%Creator: ROOT Version 5.34/05
+%%CreationDate: Wed Apr 22 09:45:19 2015
+%%EndComments
+%%BeginProlog
+80 dict begin
+/s {stroke} def /l {lineto} def /m {moveto} def /t {translate} def
+/r {rotate} def /rl {roll}  def /R {repeat} def
+/d {rlineto} def /rm {rmoveto} def /gr {grestore} def /f {eofill} def
+/c {setrgbcolor} def /black {0 setgray} def /sd {setdash} def
+/cl {closepath} def /sf {scalefont setfont} def /lw {setlinewidth} def
+/box {m dup 0 exch d exch 0 d 0 exch neg d cl} def
+/NC{systemdict begin initclip end}def/C{NC box clip newpath}def
+/bl {box s} def /bf {box f} def /Y { 0 exch d} def /X { 0 d} def 
+/K {{pop pop 0 moveto} exch kshow} bind def
+/ita {/ang 15 def gsave [1 0 ang dup sin exch cos div 1 0 0] concat} def 
+/mp {newpath /y exch def /x exch def} def
+/side {[w .77 mul w .23 mul] .385 w mul sd w 0 l currentpoint t -144 r} def
+/mr {mp x y w2 0 360 arc} def /m24 {mr s} def /m20 {mr f} def
+/mb {mp x y w2 add m w2 neg 0 d 0 w neg d w 0 d 0 w d cl} def
+/mt {mp x y w2 add m w2 neg w neg d w 0 d cl} def
+/m21 {mb f} def /m25 {mb s} def /m22 {mt f} def /m26{mt s} def
+/m23 {mp x y w2 sub m w2 w d w neg 0 d cl f} def
+/m27 {mp x y w2 add m w3 neg w2 neg d w3 w2 neg d w3 w2 d cl s} def
+/m28 {mp x w2 sub y w2 sub w3 add m w3 0 d  0 w3 neg d w3 0 d 0 w3 d w3 0 d  0 w3 d w3 neg 0 d 0 w3 d w3 neg 0 d 0 w3 neg d w3 neg 0 d cl s } def
+/m29 {mp gsave x w2 sub y w2 add w3 sub m currentpoint t 4 {side} repeat cl fill gr} def
+/m30 {mp gsave x w2 sub y w2 add w3 sub m currentpoint t 4 {side} repeat cl s gr} def
+/m31 {mp x y w2 sub m 0 w d x w2 sub y m w 0 d x w2 sub y w2 add m w w neg d x w2 sub y w2 sub m w w d s} def
+/m32 {mp x y w2 sub m w2 w d w neg 0 d cl s} def
+/m33 {mp x y w2 add m w3 neg w2 neg d w3 w2 neg d w3 w2 d cl f} def
+/m34 {mp x w2 sub y w2 sub w3 add m w3 0 d  0 w3 neg d w3 0 d 0 w3 d w3 0 d  0 w3 d w3 neg 0 d 0 w3 d w3 neg 0 d 0 w3 neg d w3 neg 0 d cl f } def
+/m2 {mp x y w2 sub m 0 w d x w2 sub y m w 0 d s} def
+/m5 {mp x w2 sub y w2 sub m w w d x w2 sub y w2 add m w w neg d s} def
+/reEncode {exch findfont dup length dict begin {1 index /FID eq  {pop pop} {def} ifelse } forall /Encoding exch def currentdict end dup /FontName get exch definefont pop } def [/Times-Bold /Times-Italic /Times-BoldItalic /Helvetica /Helvetica-Oblique
+ /Helvetica-Bold /Helvetica-BoldOblique /Courier /Courier-Oblique /Courier-Bold /Courier-BoldOblique /Times-Roman /AvantGarde-Book /AvantGarde-BookOblique /AvantGarde-Demi /AvantGarde-DemiOblique /Bookman-Demi /Bookman-DemiItalic /Bookman-Light
+ /Bookman-LightItalic /Helvetica-Narrow /Helvetica-Narrow-Bold /Helvetica-Narrow-BoldOblique /Helvetica-Narrow-Oblique /NewCenturySchlbk-Roman /NewCenturySchlbk-Bold /NewCenturySchlbk-BoldItalic /NewCenturySchlbk-Italic /Palatino-Bold
+ /Palatino-BoldItalic /Palatino-Italic /Palatino-Roman ] {ISOLatin1Encoding reEncode } forall
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+newpath  gsave  .25 .25 scale  gsave  0 0 t black[  ] 0 sd 3 lw 1 1 1 c 2268 2176 0 0 bf black 1 1 1 c 1791 1720 363 348 bf black 1791 1720 363 348 bl 1 1 1 c 1791 1720 363 348 bf black 1791 1720 363 348 bl 1 1 1 c black 363 1121 m 163 X 660 Y 163 X
+ -51 Y 162 X -707 Y 163 X -463 Y 163 X -132 Y 163 X -59 Y 163 X -15 Y 163 X -6 Y 488 X s 363 348 m 1791 X s
+ gsave  2268 2176 0 0 C 1803.52 60.8783 t 0 r /Helvetica findfont 102.732 sf 0 0 m ( NJETS) show NC gr  444 400 m -52 Y s 526 374 m -26 Y s 607 374 m -26 Y s 689 374 m -26 Y s 770 400 m -52 Y s 851 374 m -26 Y s 933 374 m -26 Y s 1014 374 m -26 Y s
+ 1096 400 m -52 Y s 1177 374 m -26 Y s 1259 374 m -26 Y s 1340 374 m -26 Y s 1421 400 m -52 Y s 1503 374 m -26 Y s 1584 374 m -26 Y s 1666 374 m -26 Y s 1747 400 m -52 Y s 1829 374 m -26 Y s 1910 374 m -26 Y s 1991 374 m -26 Y s 2073 400 m -52 Y s
+ 444 400 m -52 Y s 2073 400 m -52 Y s 2154 374 m -26 Y s
+ gsave  2268 2176 0 0 C 418.538 262.538 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0) show NC gr 
+ gsave  2268 2176 0 0 C 745.759 262.538 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (2) show NC gr 
+ gsave  2268 2176 0 0 C 1069.18 262.538 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (4) show NC gr 
+ gsave  2268 2176 0 0 C 1396.4 262.538 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (6) show NC gr 
+ gsave  2268 2176 0 0 C 1723.62 262.538 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (8) show NC gr 
+ gsave  2268 2176 0 0 C 2020.4 262.538 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (10) show NC gr  363 2068 m 1791 X s 444 2016 m 52 Y s 526 2042 m 26 Y s 607 2042 m 26 Y s 689 2042 m 26 Y s 770 2016 m 52 Y s 851 2042 m 26 Y s 933 2042 m 26 Y s 1014
+ 2042 m 26 Y s 1096 2016 m 52 Y s 1177 2042 m 26 Y s 1259 2042 m 26 Y s 1340 2042 m 26 Y s 1421 2016 m 52 Y s 1503 2042 m 26 Y s 1584 2042 m 26 Y s 1666 2042 m 26 Y s 1747 2016 m 52 Y s 1829 2042 m 26 Y s 1910 2042 m 26 Y s 1991 2042 m 26 Y s 2073
+ 2016 m 52 Y s 444 2016 m 52 Y s 2073 2016 m 52 Y s 2154 2042 m 26 Y s 363 348 m 1720 Y s 417 348 m -54 X s 390 394 m -27 X s 390 440 m -27 X s 390 486 m -27 X s 390 531 m -27 X s 417 577 m -54 X s 390 623 m -27 X s 390 669 m -27 X s 390 715 m -27 X
+ s 390 760 m -27 X s 417 806 m -54 X s 390 852 m -27 X s 390 898 m -27 X s 390 944 m -27 X s 390 990 m -27 X s 417 1035 m -54 X s 390 1081 m -27 X s 390 1127 m -27 X s 390 1173 m -27 X s 390 1219 m -27 X s 417 1264 m -54 X s 390 1310 m -27 X s 390
+ 1356 m -27 X s 390 1402 m -27 X s 390 1448 m -27 X s 417 1493 m -54 X s 390 1539 m -27 X s 390 1585 m -27 X s 390 1631 m -27 X s 390 1677 m -27 X s 417 1722 m -54 X s 390 1768 m -27 X s 390 1814 m -27 X s 390 1860 m -27 X s 390 1906 m -27 X s 417
+ 1951 m -54 X s 417 1951 m -54 X s 390 1997 m -27 X s 390 2043 m -27 X s
+ gsave  2268 2176 0 0 C 304.391 315.806 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0) show NC gr 
+ gsave  2268 2176 0 0 C 182.635 544.1 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.05) show NC gr 
+ gsave  2268 2176 0 0 C 243.513 772.393 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.1) show NC gr 
+ gsave  2268 2176 0 0 C 182.635 1004.49 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.15) show NC gr 
+ gsave  2268 2176 0 0 C 232.099 1232.79 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.2) show NC gr 
+ gsave  2268 2176 0 0 C 182.635 1461.08 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.25) show NC gr 
+ gsave  2268 2176 0 0 C 232.099 1689.37 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.3) show NC gr 
+ gsave  2268 2176 0 0 C 182.635 1917.67 t 0 r /Helvetica findfont 87.5126 sf 0 0 m (0.35) show NC gr  2154 348 m 1720 Y s 2101 348 m 53 X s 2127 394 m 27 X s 2127 440 m 27 X s 2127 486 m 27 X s 2127 531 m 27 X s 2101 577 m 53 X s 2127 623 m 27 X s
+ 2127 669 m 27 X s 2127 715 m 27 X s 2127 760 m 27 X s 2101 806 m 53 X s 2127 852 m 27 X s 2127 898 m 27 X s 2127 944 m 27 X s 2127 990 m 27 X s 2101 1035 m 53 X s 2127 1081 m 27 X s 2127 1127 m 27 X s 2127 1173 m 27 X s 2127 1219 m 27 X s 2101 1264
+ m 53 X s 2127 1310 m 27 X s 2127 1356 m 27 X s 2127 1402 m 27 X s 2127 1448 m 27 X s 2101 1493 m 53 X s 2127 1539 m 27 X s 2127 1585 m 27 X s 2127 1631 m 27 X s 2127 1677 m 27 X s 2101 1722 m 53 X s 2127 1768 m 27 X s 2127 1814 m 27 X s 2127 1860 m
+ 27 X s 2127 1906 m 27 X s 2101 1951 m 53 X s 2101 1951 m 53 X s 2127 1997 m 27 X s 2127 2043 m 27 X s 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 1 0 0 c 1 1 1 c black 1 0 0 c 363 972 m 163 X 945 Y 163 X -322 Y 162 X -505 Y 163 X
+ -448 Y 163 X -215 Y 163 X -53 Y 163 X -23 Y 163 X -3 Y 488 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 0 1 0 c 1 1 1 c black 0 1 0 c 363 930 m 163 X 908 Y 163 X -153 Y 162 X -586 Y 163 X
+ -422 Y 163 X -262 Y 163 X -44 Y 163 X -21 Y 163 X -2 Y 488 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 0 0 1 c 1 1 1 c black 0 0 1 c 363 534 m 163 X 749 Y 163 X 473 Y 162 X -221 Y 163 X
+ -620 Y 163 X -352 Y 163 X -145 Y 163 X -58 Y 163 X -10 Y 163 X -2 Y 325 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 0.3 0.3 0.3 c 1 1 1 c black 0.3 0.3 0.3 c 363 1008 m 163 X 738 Y 163 X -53 Y 162 X
+ -581 Y 163 X -462 Y 163 X -229 Y 163 X -39 Y 163 X -28 Y 163 X -4 Y 163 X -2 Y 325 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 1 0 1 c 1 1 1 c black 1 0 1 c 363 607 m 163 X 678 Y 163 X 395 Y 162 X -154 Y 163 X
+ -568 Y 163 X -435 Y 163 X -93 Y 163 X -76 Y 163 X -2 Y 163 X -4 Y 325 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 0 1 1 c 1 1 1 c black 0 1 1 c 363 958 m 163 X 789 Y 163 X -72 Y 162 X -563 Y 163 X
+ -436 Y 163 X -218 Y 163 X -76 Y 163 X -27 Y 163 X -5 Y 325 X -2 Y 163 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 0.35 0.83 0.33 c 1 1 1 c black 0.35 0.83 0.33 c 363 581 m 163 X 628 Y 163 X 459 Y 162
+ X -239 Y 163 X -368 Y 163 X -460 Y 163 X -165 Y 163 X -61 Y 163 X -21 Y 163 X -6 Y 325 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 0.35 0.33 0.85 c 1 1 1 c black 0.35 0.33 0.85 c 363 981 m 163 X 741 Y 163 X -60 Y 162
+ X -530 Y 163 X -455 Y 163 X -208 Y 163 X -97 Y 163 X -22 Y 326 X -2 Y 325 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s 1 1 1 c black 0.754 0.715 0.676 c 363 531 m 163 X 587 Y 163 X 599 Y 162 X -161 Y 163 X
+ -550 Y 163 X -404 Y 163 X -148 Y 163 X -76 Y 163 X -26 Y 163 X -2 Y 162 X -2 Y 163 X s black 1 1 1 c 453 479 1361 1523 bf black
+ gsave  2268 2176 0 0 C 1472.49 1963.33 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1250_T2500_L985) show NC gr  1378 1978 m 79 X s
+ gsave  2268 2176 0 0 C 1472.49 1917.67 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1150_T2500_L885) show NC gr  1 0 0 c 1378 1930 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1868.2 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L785) show NC gr  0 1 0 c 1378 1883 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1822.54 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G1050_T2500_L735) show NC gr  0 0 1 c 1378 1835 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1773.08 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L685) show NC gr  0.3 0.3 0.3 c 1378 1787 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1727.42 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G950_T2500_L635) show NC gr  1 0 1 c 1378 1739 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1677.96 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L585) show NC gr  0 1 1 c 1378 1691 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1628.49 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G850_T2500_L535) show NC gr  0.35 0.83 0.33 c 1378 1643 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1582.84 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L485) show NC gr  0.35 0.33 0.85 c 1378 1595 m 79 X s black
+ gsave  2268 2176 0 0 C 1472.49 1533.37 t 0 r /Helvetica-Bold findfont 41.8538 sf 0 0 m (Signal G750_T2500_L435) show NC gr  0.754 0.715 0.676 c 1378 1547 m 79 X s
+ gr  gr showpage
+end
+%%EOF

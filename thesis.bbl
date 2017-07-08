@@ -591,8 +591,9 @@ A.~L. Read, Journal of Physics G: Nuclear and Particle Physics {\bfseries 28}
   (2002) 2693, \url{http://stacks.iop.org/0954-3899/28/i=10/a=313}.
 
 \bibitem{minuit}
-
-F.~James.
+F.~James,
+{MINUIT Function Minimization and Error Analysis: Reference Manual Version
+  94.1} (1994).
 %%CITATION = CERN-D-506;%%.
 
 \bibitem{Moneta:2010pm}
@@ -612,11 +613,6 @@ I.~Antcheva {et~al.},
 
 \bibitem{Neyman289}
 J.~Neyman and E.~S. Pearson,
-  \href{http://dx.doi.org/10.1098/rsta.1933.0009}{Philosophical Transactions of
-  the Royal Society of London A: Mathematical, Physical and Engineering
-  Sciences {\bfseries 231} (1933) 289--337},
-  \href{http://arxiv.org/abs/http://rsta.royalsocietypublishing.org/content/231/694-706/289.full.pdf}{{\ttfamily
-  http://rsta.royalsocietypublishing.org/content/231/694-706/289.full.pdf}},
   \url{http://rsta.royalsocietypublishing.org/content/231/694-706/289}.
 
 \bibitem{Wilks:1938dza}

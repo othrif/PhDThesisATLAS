@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: bibtex/bst/atlasBibStyleWoTitle.bst
@@ -142,6 +142,11 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 2681 of file thesis.bib
  : @techreport{ATLAS-CONF-2014-018
  :                                ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2786 of file thesis.bib
+ : 
+ : % eprint = {http://rsta.royalsocietypublishing.org/content/231/694-706/289.full.pdf},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 2882 of file thesis.bib
  : 
@@ -311,6 +316,7 @@ Warning--empty title in Cousins:2009
 Warning--empty title in Cowan:2010js
 Warning--empty title in Read:2002
 Warning--empty title in minuit
+Warning--empty pages in minuit
 Warning--empty title in Moneta:2010pm
 Warning--empty title in Antcheva:2009zz
 Warning--empty title in Neyman289
@@ -325,43 +331,43 @@ Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
 You've used 119 entries,
             2330 wiz_defined-function locations,
-            1475 strings with 28014 characters,
-and the built_in function-call counts, 30903 in all, are:
-= -- 2743
+            1474 strings with 27856 characters,
+and the built_in function-call counts, 30714 in all, are:
+= -- 2719
 > -- 923
 < -- 1
 + -- 364
 - -- 245
-* -- 2913
-:= -- 3428
+* -- 2892
+:= -- 3412
 add.period$ -- 189
 call.type$ -- 119
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 228
-duplicate$ -- 1753
-empty$ -- 3348
+cite$ -- 229
+duplicate$ -- 1745
+empty$ -- 3332
 format.name$ -- 245
-if$ -- 7983
+if$ -- 7934
 int.to.chr$ -- 0
 int.to.str$ -- 119
 missing$ -- 444
 newline$ -- 496
 num.names$ -- 118
-pop$ -- 693
+pop$ -- 694
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1154
+skip$ -- 1141
 stack$ -- 0
-substring$ -- 1266
-swap$ -- 684
+substring$ -- 1234
+swap$ -- 675
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 109
-while$ -- 231
+warning$ -- 110
+while$ -- 228
 width$ -- 122
-write$ -- 939
-(There were 48 error messages)
+write$ -- 938
+(There were 49 error messages)

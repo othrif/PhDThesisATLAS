@@ -1,0 +1,341 @@
+%-------------------------------------------------------------------------------
+% This file provides a skeleton ATLAS document.
+%-------------------------------------------------------------------------------
+% \pdfoutput=1
+% The \pdfoutput command is needed by arXiv/JHEP/JINST to ensure use of pdflatex.
+% It should be included in the first 5 lines of the file.
+%-------------------------------------------------------------------------------
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+% Use this variant if the files are in a central location, e.g. $HOME/texmf.
+% \newcommand*{\ATLASLATEXPATH}{}
+%-------------------------------------------------------------------------------
+\documentclass[UKenglish,texlive=2013,PAPER,coverpage]{\ATLASLATEXPATH atlasdoc}
+% The language of the document must be set: usually UKenglish or USenglish.
+% british and american also work!
+% Commonly used options:
+%  texlive=YYYY          Specify TeX Live version (2013 is default).
+%  atlasstyle=true|false Use ATLAS style for document (default).
+%  coverpage             Create ATLAS draft cover page for collaboration circulation.
+%                        See atlas-draft-cover.tex for a list of variables that should be defined.
+%  cernpreprint          Create front page for a CERN preprint.
+%                        See atlas-preprint-cover.tex for a list of variables that should be defined.
+%  PAPER                 The document is an ATLAS paper (draft).
+%  CONF                  The document is a CONF note (draft).
+%  PUB                   The document is a PUB note (draft).
+%  txfonts=true|false    Use txfonts rather than the default newtx - needed for arXiv submission.
+%  paper=a4|letter       Set paper size to A4 (default) or letter.
+
+%-------------------------------------------------------------------------------
+% Extra packages:
+\usepackage[subcaption, biblatex=true]{\ATLASLATEXPATH atlaspackage}
+% Commonly used options:
+%  biblatex=true|false   Use biblatex (default) or bibtex for the bibliography.
+%  backend=biber         Use the biber backend rather than bibtex.
+%  subfigure|subfig|subcaption  to use one of these packages for figures in figures.
+%  minimal               Minimal set of packages.
+%  default               Standard set of packages.
+%  full                  Full set of packages.
+%-------------------------------------------------------------------------------
+% Style file with biblatex options for ATLAS documents.
+\usepackage{\ATLASLATEXPATH atlasbiblatex}
+
+% Package for creating list of authors and contributors to the analysis.
+\usepackage{\ATLASLATEXPATH atlascontribute}
+
+%% Useful macros
+%\usepackage[subcaption]{\ATLASLATEXPATH atlaspackage}
+%\usepackage{\ATLASLATEXPATH atlasprocess}
+\usepackage{\ATLASLATEXPATH atlasmisc}
+\usepackage{\ATLASLATEXPATH atlasphysics}
+%%\usepackage{\ATLASLATEXPATH atlasbsm}
+
+% Files with references for use with biblatex.
+% Note that biber gives an error if it finds empty bib files.
+\addbibresource{newSUSYRefs.bib}
+\addbibresource{ss3l2016pub.bib}
+\addbibresource{bibtex/bib/ATLAS.bib}
+\addbibresource{bibtex/bib/PubNotes.bib}
+\addbibresource{bibtex/bib/ConfNotes.bib}
+
+% Paths for figures - do not forget the / at the end of the directory name.
+\graphicspath{{logos/}{figures/}}
+
+% Add you own definitions here (file ss3l2016conf-defs.sty).
+\usepackage{ss3l2016pub-defs}
+%\usepackage{ss3l2016-defs}
+
+%-------------------------------------------------------------------------------
+% Generic document information
+%-------------------------------------------------------------------------------
+
+% Title, abstract and document 
+\input{ss3l2016pub-metadata}
+% Author and title for the PDF file
+\hypersetup{pdftitle={ATLAS document},pdfauthor={The ATLAS Collaboration}}
+
+%-------------------------------------------------------------------------------
+% Content
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+% List of contributors - print here or after the Bibliography.
+%\PrintAtlasContribute{0.30}
+%\clearpage
+
+%-------------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+%-------------------------------------------------------------------------------
+
+Supersymmetry (SUSY)~\cite{Golfand:1971iw,Volkov:1973ix,Wess:1974tw,Wess:1974jb,Ferrara:1974pu,Salam:1974ig} is one of the most popular extension
+of the Standard Model (SM). A general review can be found in Ref.~\cite{Martin:1997ns}. In its minimal realisation 
+(the MSSM)~\cite{Fayet:1976et,Fayet:1977yc} it predicts a new bosonic (fermionic) partner for each fundamental SM fermion (boson), 
+as well as an additional Higgs doublet. If $R$-parity~\cite{Farrar:1978xj} is conserved (RPC) the lightest supersymmetric particle (LSP) is 
+stable and is typically the lightest neutralino\footnote{The SUSY partners of the Higgs and electroweak gauge bosons mix to form
+the mass eigenstates known as charginos ($\tilde{\chi}^{\pm}_{l}$, $l = 1, 2$ ordered by increasing mass) and neutralinos 
+($\tilde{\chi}^{0}_{m}$, $m = 1, \ldots, 4$ ordered by increasing mass).} \ninoone. In many models, the LSP can be a viable dark 
+matter candidate~\cite{Goldberg:1983nd,Ellis:1983ew} and produce collider signatures with large missing transverse momentum at the Large Hadron 
+Collider (LHC). On the contrary, if $R$-parity is violated (RPV), high jet and lepton multiplicity events are expected. 
+Both RPC and RPV scenarios can match the final state signature considered in this article.
+
+In order to address the SM hierarchy problem with SUSY models~\cite{Sakai:1981gr,Dimopoulos:1981yj,Ibanez:1981yh,Dimopoulos:1981zb}, 
+TeV-scale masses are required~\cite{Barbieri:1987fn,deCarlos:1993yy} for the partners of the gluons (gluinos~$\tilde{g}$) 
+and of the top quark chiral degrees of freedom (top squarks \stopL and \stopR), due to the large top Yukawa coupling.\footnote{The 
+partners of the left-handed (right-handed) quarks are labelled $\tilde{q}_{L(R)}$. In the case where there is significant $L$/$R$ 
+mixing (as is the case for third generation squarks) the mass eigenstates of these squarks are labelled $\tilde{q}_{1,2}$ ordered 
+in increasing mass.} The latter also favours significant $\stopL$--$\stopR$ mixing, 
+so that the lighter mass eigenstate $\stopone$ is in many scenarios lighter than the other squarks~\cite{Inoue:1982pi,Ellis:1983ed}. 
+Bottom squarks ($\tilde{b}$) may also be light, being bound to top squarks by $SU(2)_{\rm L}$ invariance. 
+This leads to potentially large production cross-sections 
+for gluino pairs ($\gluino\gluino$), top--antitop squark pairs ($\stopone\stoponebar$) and bottom--antibottom squark pairs 
+($\sbottomone\sbottomonebar$) at the LHC~\cite{Borschensky:2014cia}. 
+Production of isolated leptons may arise in the cascade decays of those superpartners to SM quarks and neutralinos~\ninoone, 
+via intermediate neutralinos~$\tilde\chi^0_{2,3,4}$ or charginos~$\tilde\chi^\pm_{1,2}$ 
+that in turn lead to $W$, $Z$ or Higgs bosons, or to lepton superpartners (sleptons). 
+Lighter third-generation squarks would also enhance gluino decays to top or bottom quarks 
+over the generic decays involving light-flavour squarks,
+favouring the production of heavy flavour quarks and, in the case of top quarks, additional leptons. 
+
+This article presents a search for SUSY in final states with two leptons (electrons or muons) of the same electric charge 
+(referred to as same-sign (SS) leptons) or three leptons (3L), jets and in some cases also missing transverse momentum 
+(whose magnitude is referred to as \met). 
+It is an extension of an earlier search performed by ATLAS with $\sqrt s=13$ TeV data~\cite{paperSS3L}, 
+and uses the data collected by the ATLAS experiment~\cite{PERF-2007-01} in proton--proton ($pp$) collisions during 2015 and 2016.  
+A similar search for SUSY in this topology was also performed by the CMS Collaboration at $\sqrt s=13$~TeV~\cite{Khachatryan:2016kod, Khachatryan:2017qgo}.
+While the same-sign leptons signature is present in many scenarios of physics beyond the SM (BSM), 
+SM processes leading to such final states have very small cross-sections. 
+Compared to other BSM searches, analyses based on same-sign leptons or three lepton therefore allow 
+the use of looser kinematic requirements (for example, on \met or the momentum of jets and leptons), 
+adopting sensitivity to scenarios with small mass differences between gluinos/squarks and the LSP, or in which 
+$R$-parity is not conserved.%~\cite{paperSS3L}. 
+
+The sensitivity to a wide range of BSM physics processes is illustrated by the interpretation of the results  
+in the context of twelve different SUSY simplified models~\cite{Alwall:2008ve,Alwall:2008ag,Alves:2011wf} 
+that may lead to same-sign or three-lepton signatures. 
+For RPC models, the first four scenarios focus on gluino pair production with generic decays into on-shell (Fig.~\ref{fig:feynman_gtt}) 
+or off-shell (Fig.~\ref{fig:feynman_gttOffshell}) top quarks or light quarks. The latter are accompanied by a cascade decay involving 
+a $\chinoonepm$ and a $\ninotwo$ (Fig.~\ref{fig:feynman_gg2WZ}) or a $\ninotwo$ and light sleptons (Fig.~\ref{fig:feynman_gg2sl}). 
+The other two RPC scenarios target the direct production of third generation squark pairs 
+with subsequent electroweakino-mediated (Fig.~\ref{fig:feynman_b1b1} and ~\ref{fig:feynman_t1t1}). 
+The former is a generic same-sign lepton search for bottom squark production. The latter, addressed here by looking for a three same-sign lepton final state, 
+is a tentative model that could explain the excesses seen in same-sign signatures during Run1~\cite{Huang:2015fba}.
+Finally, a low fine-tuned generic SUSY model, the non-universal Higgs model with two extra parameters (NUHM2)~\cite{Ellis:2002iu,Ellis:2002wv}, 
+is also considered. 
+
+\begin{figure}[t!]
+\centering
+\begin{tabular}{rrrr}
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-ttttN1N1}\caption{}\label{fig:feynman_gtt}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-WWWWbbbbN1N1}\caption{}\label{fig:feynman_gttOffshell}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-qqqqWWZZN1N1-C1N2}\caption{}\label{fig:feynman_gg2WZ}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-qqqqllllN1N1-N2}\caption{}\label{fig:feynman_gg2sl}\end{subfigure}  \\
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{sbsb-ttWWN1N1}\caption{}\label{fig:feynman_b1b1}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{stst-ttWWWWN1N1}\caption{}\label{fig:feynman_t1t1}\end{subfigure} & 
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-ttbbdd-stst-RPV}\caption{}\label{fig:feynm_rpv_gl313}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-ttddss-stst-RPV}\caption{}\label{fig:feynm_rpv_gl321}\end{subfigure} \\
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-qqlqd-RPV}\caption{}\label{fig:feynm_rpv_glprime}\end{subfigure} & 
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{gogo-ttudd-RPV}\caption{}\label{fig:feynm_rpv_gl112}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{sdsd-ttbb-RPV}\caption{}\label{fig:feynm_rpv_sd313}\end{subfigure} &
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{sdsd-ttss-RPV}\caption{}\label{fig:feynm_rpv_sd321}\end{subfigure} \\
+\end{tabular}
+\caption{RPC SUSY processes featuring gluino (a, b, c, d) or third generation squark (e, f) pair production studied in this analysis. 
+RPV SUSY models considered are gluino pair production (g, h, i, j) and t-channel production of right-handed down squarks(k, l) which decay via baryon 
+or lepton number violating couplings $\lambda''$ and $\lambda'$ respectively. In the diagrams, $q= u, d, c, s$ and $\ell=e,\mu,\tau$.}
+\label{fig:feynman}
+\end{figure}
+
+In the case of non-zero RPV couplings in the baryonic sector ($\lambda''_{ijk}\neq 0$),
+as proposed in minimal flavor violation scenarios~\cite{Nikolidakis:2007fc,Smith:2008ju,Csaki:2011ge},
+gluino and squarks may decay directly to top quarks, leading to final states with same-sign leptons~\cite{Durieux:2013uqa,Berger:2013sir} 
+and $b$-tagged jets (Figs.~\ref{fig:feynm_rpv_gl313},~\ref{fig:feynm_rpv_gl321}).
+Alternatively a gluino decaying to a neutralino LSP, that further decays to SM particles via a non-zero $\lambda'$ or $\lambda''$ RPV coupling, 
+is also possible (Figs.~\ref{fig:feynm_rpv_glprime},~\ref{fig:feynm_rpv_gl112}).  
+Lower $\met$ is expected in these scenarios, as there is no stable LSP, and the only \met originates from neutrinos produced in the top quark decays.
+Pair-production of right-handed\footnote{These RPV baryon-number-violating couplings only couple to $SU(2)$ singlets.} 
+like-sign down squarks (Figs.~\ref{fig:feynm_rpv_sd313},~\ref{fig:feynm_rpv_sd321}) are also considered.
+In all of these scenarios, antisquarks decay into the charge-conjugate final states of those indicated for the corresponding squarks, 
+and gluinos decay with equal probabilities into the given final state or its charge conjugate.
+
+After describing the experimental apparatus~(Section~\ref{sec:detector}) and
+the simulated event samples~(Section~\ref{sec:dataMC}), the 19 signal regions (SRs) designed to achieve 
+good sensitivity for the 12 SUSY scenarios of Fig.~\ref{fig:feynman} are presented (Section~\ref{sec:selection}).
+Section~\ref{sec:bkg} describes the estimation of the contribution from SM processes to the signal regions, 
+validated by comparisons with data in dedicated regions. Systematics are described in Section~\ref{sec:syst}. 
+The results are presented in Section~\ref{sec:result} together with the statistical procedure used to interpret 
+the results in the context of the SUSY benchmark scenarios. Finally, Section~\ref{sec:conclusion} summarises the main conclusions.
+
+%-------------------------------------------------------------------------------
+\section{The ATLAS detector}
+\label{sec:detector}
+%-------------------------------------------------------------------------------
+
+The ATLAS experiment~\cite{PERF-2007-01} is a multi-purpose particle detector with a forward-backward symmetric cylindrical
+geometry and nearly $4\pi$ coverage in solid angle.\footnote{ATLAS uses
+  a right-handed coordinate system with its origin at the nominal
+  interaction point (IP) in the centre of the detector and the
+  $z$-axis along the beam pipe. The $x$-axis points from the IP to the
+  centre of the LHC ring, and the $y$-axis points upward. Cylindrical
+  coordinates ($r$, $\phi$) are used in the transverse plane, $\phi$
+  being the azimuthal angle around the beam pipe. The pseudorapidity
+  is defined in terms of the polar angle $\theta$ as $\eta = -\ln
+  \tan(\theta/2)$. Rapidity is defined as $y=0.5 \ln\left[(E + p_z )/(E - p_z )\right]$ 
+  where $E$ denotes the energy and $p_z$ is the component of the momentum along the beam direction. 
+  The transverse momentum \pt, the transverse energy \et and the missing transverse momentum \met 
+  are defined in the $x-y$ plane.}
+The interaction point is surrounded by an inner detector (ID), a
+calorimeter system, and a muon spectrometer (MS).
+
+The ID provides precision tracking of charged particles with
+pseudorapidities $|\eta| < 2.5$ and is surrounded by a superconducting solenoid providing a \SI{2}{T} axial magnetic field.
+It consists of pixel and silicon-microstrip detectors inside a
+transition radiation tracker. One significant upgrade for the $\sqrt{s}=13$~TeV running period is the presence of the
+Insertable B-Layer~\cite{CERN-LHCC-2010-013}, an additional pixel layer close to the interaction point, which 
+provides high-resolution hits at small radius to improve the tracking performance.
+
+In the pseudorapidity region $|\eta| < 2.5$, high-granularity lead/liquid-argon 
+electromagnetic sampling calorimeters are used.
+A steel/scintillator tile calorimeter measures hadron energies for $|\eta| < 1.7$.
+The endcap and forward regions, spanning $1.5<|\eta| <4.9$, are 
+instrumented with liquid-argon calorimeters 
+for both the electromagnetic and hadronic measurements. 
+
+The MS consists of three large superconducting toroids
+with eight coils each, 
+a system of trigger and precision-tracking chambers, 
+which provide triggering and tracking capabilities in the
+ranges $|\eta| < 2.4$ and $|\eta| < 2.7$, respectively.
+
+A two-level trigger system is used to select events~\cite{Aad:2012xs,ATL-DAQ-PUB-2016-001,Aaboud:2016leb}. The first-level
+trigger is implemented in hardware. This is followed by the software-based High-Level Trigger stage,
+which can run offline-like reconstruction, reducing the event rate to about \SI{1}{kHz}.
+
+
+
+%-------------------------------------------------------------------------------
+\section{Dataset and simulated event samples}
+\label{sec:dataMC}
+%-------------------------------------------------------------------------------
+
+\input{dataMC}
+
+%-------------------------------------------------------------------------------
+\section{Event selection}
+\label{sec:selection}
+%-------------------------------------------------------------------------------
+
+\input{sel.tex}
+
+%-------------------------------------------------------------------------------
+\section{Background estimation}
+\label{sec:bkg}
+%-------------------------------------------------------------------------------
+
+\input{bkg}
+
+%-------------------------------------------------------------------------------
+\section{Results, interpretation and limits}
+\label{sec:result}
+%-------------------------------------------------------------------------------
+
+\input{results}
+
+\FloatBarrier
+
+%-------------------------------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+%-------------------------------------------------------------------------------
+
+A search for supersymmetry in events with exactly two same-sign leptons or at least three leptons, multiple jets, 
+$b$-jets and large $\met$ and/or $\meff$ is presented. 
+The analysis is performed with proton--proton collision data at $\sqrt{s}=13\TeV$ 
+collected between August 2015 and October 2016 with the ATLAS detector at the Large Hadron Collider 
+corresponding to an integrated luminosity of 36.0 fb$^{-1}$. 
+With no significant excess over the Standard Model expectation observed,
+results are interpreted in the framework of simplified models featuring gluino 
+and squark production in $R$-parity conserving and $R$-parity violating scenarios. Upper limits on particle 
+masses are derived at 95\% confidence level. 
+In the $\gluino\gluino$ simplified models considered, $m_{\gluino}\lesssim$ \textcolor{red}{[UPDATE]}~TeV and $m_{\ninoone}\lesssim$\textcolor{red}{[UPDATE]}~TeV 
+are excluded depending on the model parameters. 
+Bottom squark masses of $m_{\sbottomone}\lesssim$ \textcolor{red}{[UPDATE]}~GeV
+are also excluded for a light $\ninoone$ in a $\sbottomone\sbottomonebar$ simplified model with $\sbottomone\to tW^-\ninoone$. 
+Masses of right-handed down squark are probed up to $m_{\tilde d_R}\approx$\textcolor{red}{[UPDATE]}~GeV in RPV scenarios. 
+Within the models considered, exclusion limits are extended by \textcolor{red}{[UPDATE]}~GeV in $\gluino$ mass, 
+\textcolor{red}{[UPDATE]}~GeV in $\ninoone$ mass and \textcolor{red}{[UPDATE]}~GeV in $\sbottomone$ mass with respect to previous results.
+\textcolor{red}{UPDATE: Add model independent limits on the x-sec of a possible signal contribution to the SRs are set of upto XXX fb.}
+
+%-------------------------------------------------------------------------------
+%\section*{Acknowledgements}
+%-------------------------------------------------------------------------------
+%\input{acknowledgements/Acknowledgements}
+
+
+
+%-------------------------------------------------------------------------------
+% If you use biblatex and either biber or bibtex to process the bibliography
+% just say \printbibliography here
+\printbibliography
+% If you want to use the traditional BibTeX you need to use the syntax below.
+%\bibliographystyle{bibtex/bst/atlasBibStyleWoTitle}
+%\bibliography{ss3l2016conf,bibtex/bib/ATLAS}
+%-------------------------------------------------------------------------------
+
+
+%%-------------------------------------------------------------------------------
+\clearpage
+\appendix
+\part*{Appendix}
+\addcontentsline{toc}{part}{Appendix}
+%%-------------------------------------------------------------------------------
+\input{auxiliary}
+
+%-------------------------------------------------------------------------------
+% Print the list of contributors to the analysis
+% The argument gives the fraction of the text width used for the names
+%-------------------------------------------------------------------------------
+%\clearpage
+%\PrintAtlasContribute{0.30}
+
+%%-------------------------------------------------------------------------------
+%\clearpage
+%\appendix
+%\part*{Auxiliary material}
+%\addcontentsline{toc}{part}{Auxiliary material}
+%%-------------------------------------------------------------------------------
+%
+%In an ATLAS paper, auxiliary plots and tables that are supposed to be made public 
+%should be collected in an appendix that has the title \enquote{Auxiliary material}.
+%This appendix should be printed after the Bibliography.
+%At the end of the paper approval procedure, this information can be split into a separate document
+%-- see \texttt{atlas-auxmat.tex}.
+%
+%In an ATLAS note, use the appendices to include all the technical details of your work
+%that are relevant for the ATLAS Collaboration only (e.g.\ dataset details, software release used).
+%This information should be printed after the Bibliography.
+
+\end{document}

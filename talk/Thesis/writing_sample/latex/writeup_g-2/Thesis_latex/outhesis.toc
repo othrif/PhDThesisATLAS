@@ -1,0 +1,7 @@
+\contentsline {chapter}{Abstract}{vi}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Implications}{1}
+\contentsline {section}{\numberline {1.2}Compatibility}{1}
+\contentsline {chapter}{\numberline {2}The wicked--googly weave}{3}
+\contentsline {section}{\numberline {2.1}Introduction}{3}
+\contentsline {section}{\numberline {2.2}This stuff is for real}{3}

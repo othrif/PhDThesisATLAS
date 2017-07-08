@@ -1,0 +1,81 @@
+The lepton fake rate used in the matrix method (section~\ref{sec:bkg_matrix_method}) depends to some extent on the origin of the fake lepton. 
+All signal regions are dominated by fake leptons originating from $t\bar t$ processes; 
+however the region SR3b requires 3 tagged $b$-jets, 
+which might reduce significantly the fraction of non-prompt leptons produced in $B$ meson decay. 
+
+We provide here as a cross-check an independent data-driven estimate of the fake lepton background in SR3b. 
+For that we select events with $\ge 1$ lepton and 2 $b$-jets, 
+and measure the probability of the production and reconstruction of a fake lepton, 
+taken as the ratio between same-sign and one-lepton events. 
+This ratio is then assumed to be invariant by the adjunction of additional cuts, 
+and we use it to rescale the number of events with $\ge 1$ lepton satisfying the SR3b cuts (except lepton requirements) 
+in order to estimate the fake lepton background yield in SR3b -- so a typical ``ABCD'' estimate : 
+
+\begin{align}
+N_\text{fakes}^\text{SR3b}=\frac{N_\text{1 lepton}^{SR3b}\times\left(N_\text{SS leptons}^\text{SR2b} - \text{prompt}\right)}{N_\text{1 lepton}^{SR2b}}
+\end{align}
+
+where \textrm{prompt} represents the subtracted yields for processes with prompt same-sign leptons or charge flip electrons in the sample with same-sign leptons and $\ge 2b$-jets. 
+To avoid signal contamination or spoiling the SR3b blinding policy, the \met requirement used to select events in the $\ge 2b$-jets sample 
+was loosened to $40\met<125$ GeV. 
+
+Events were selected in the one-lepton sample from SUSY7 derivations, using the same framework as for the rest of the analysis, 
+and relying on the lowest unprescaled isolated single lepton triggers 
+(\textrm{e24\_lh\-me\-dium\_iloose\_L1EM20VH} and \textrm{mu24\_iloose\_L1MU15}). 
+Strictly speaking, this is not fully consistent with our analysis phase space, 
+as the trigger thresholds are higher than the offline $p_T>20$ GeV required on the leading lepton 
+-- and to a lesser extent, the isolation criteria differ. 
+But this affects only a small fraction of events, 
+and is furthermore not a problem at first order thanks to the nature of the ABCD method (same SS/1L ratio used for $2b$ or $3b$ selections). 
+
+\par{\bf Assessment of possible biases\\}
+As defined above, the different regions do not select the same number of objects , 
+which might impact e.g. on the effective mass, used in the selection. 
+More important is the correlation between non-prompt leptons and tagged $b$-jets : 
+the presence of a non-prompt lepton arising from a $B$ meson decay, and satisfying signal requirements, 
+generally coincides with a failed tagging of the underlying jet (notably because of the lepton-jet overlap removal, isolation and impact parameter requirements). 
+Therefore events with same-sign leptons (out of which one non-prompt lepton) and $N$ $b$-jets might be considered as events with $N+1$ $b$-jets. 
+
+In order to assess the impact of these possible sources of bias on the results, 
+we varied the definitions of the background-enriched regions (one lepton or $==2$ $b$-jets) 
+by adding additional ($b$-) jets requirements in some of them, as can be seen in Table~\ref{tab:abcd_rates}. 
+
+A closure test was also performed on a $t\bar t$ MC sample, checking the predicted rate of events 
+with same-sign leptons and $\ge 3 b$-jets (without further cuts). 
+A good agreement was found ($\sim 15\%$), well within statistical fluctuations (only $\sim 20$ raw MC events with SS+3$b$). 
+
+\par{\bf Results\\}
+\begin{table}[t!]
+\centering
+\begin{tabular}{c|c|c|c|c|}\hline
+& SS+2b    & 1L+2b   &    1L+3b & Fake lepton estimate in SR3b\\\hline\hline
+1 & \multicolumn{2}{c|}{$40<\met<125$, $==2b$} & $-$ & \textbf{$0.60 \pm 0.35$} $[=0.30\;\text{(stat SS)}\pm 0.02\;\text{(stat 1L)}\pm 0.17\;\text{(bkg)}]$\\\hline
+2 & \multicolumn{2}{c|}{$\met>40$, $==2b$} & $-$ & \textbf{$0.37 \pm 0.29$} $[=0.22\;\text{(stat SS)}\pm 0.01\;\text{(stat 1L)}\pm 0.19\;\text{(bkg)}]$\\\hline
+3 & \multicolumn{2}{c|}{(1) + $\ge 3j$} & $-$ & \textbf{$0.54 \pm 0.34$} $[=0.29\;\text{(stat SS)}\pm 0.02\;\text{(stat 1L)}\pm 0.17\;\text{(bkg)}]$\\\hline
+4 & (1) & (1) + $\ge 3j$ & $\ge 4j$ & \textbf{$0.59 \pm 0.34$} $[=0.30\;\text{(stat SS)}\pm 0.02\;\text{(stat 1L)}\pm 0.17\;\text{(bkg)}]$\\\hline
+5 & (1) & (1) + $==3b$ & $\ge 4 b$ & \textbf{$0.48 \pm 0.28$} $[=0.24\;\text{(stat SS)}\pm 0.05\;\text{(stat 1L)}\pm 0.14\;\text{(bkg)}]$\\\hline
+\end{tabular}
+\caption{Estimates of the fake lepton background in the SR3b signal region obtained with the ABCD method for $\mathcal L=3.2$ fb$^{-1}$, 
+with different definitions of the background-enriched regions. 
+The cuts mentioned are added to (or replace) the cuts defining SR3b (\met, \meff, jets). 
+The uncertainties include statistical and systematic (prompt bkg subtraction) sources. }
+\label{tab:abcd_rates}
+\end{table}
+
+The predicted yields of the fake lepton background in SR3b are detailed in Table~\ref{tab:abcd_rates} for $3.2$ fb$^{-1}$, 
+and for the different variations mentioned above. 
+For reference, the number of events observed in data in the different categories for the nominal case are respectively 15 (SS+2$b$), 10578 (1L+2$b$) and 827 (1L+3$b$), 
+with a prompt+charge flip background of 7.3 events to be subtracted from the first number. 
+An overall $30\%$ uncertainty is assigned on the subtraction of the prompt same-sign and charge flip backgrounds. 
+One can see that the main limitation to the precision of the method is the very low number of events in the same-sign leptons + 2 $b$-jets selection. 
+The variations of the selection have some impact on the results, but the large uncertainties prevent from identifying a systeamtic effect. 
+Taking the largest difference (0.23) as an additional systematic uncertainty does not substantially increase the total uncertainty (from 0.35 to 0.42). 
+
+In conclusion, the expected rate of fake leptons in the SR3b signal region for $\mathcal L=3.2$ fb$^{-1}$ is $0.6\pm 0.4$ 
+(all sources of uncertainties included). 
+It is larger than the one obtained with the matrix method prediction (cf Table~\ref{tab:sr_yields}), that is $0.13\pm 0.17$, 
+but the two estimates are consistent within uncertainties. 
+The statistical uncertainties of the two methods are comparable in size, as by coincidence the lepton fake rate ($10-20\%$) 
+is similar to the probability of $b$-tagging a third jet in $t\bar t$-like events (ratio 1L+3$b$/1L+2$b$ $\sim 10\%$). 
+As a final remark, one could also use the same method to cross-check the background prediction for a selection with three leptons and three $b$-jets -- 
+which raised some interest during run-1~\cite{3l3b} -- using this time opposite-sign dilepton events instead of one-lepton events. 

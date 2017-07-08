@@ -1,0 +1,113 @@
+%-------------------------------------------------------------------------------
+% This file contains the title, author and abstract.
+% It also contains all relevant document numbers used by the different cover pages.
+%-------------------------------------------------------------------------------
+
+% Title
+\AtlasTitle{Search for supersymmetry at $\sqrt{s}=13$~TeV in final states with jets and two same-sign leptons or three leptons with the ATLAS detector}
+
+% Author - this does not work with revtex (add it after \begin{document})
+\author{The ATLAS Collaboration}
+
+% Authors and list of contributors to the analysis
+% \AtlasAuthorContributor also adds the name to the author list
+% Include package latex/atlascontribute to use this
+% Use authblk package if there are multiple authors, which is included by latex/atlascontribute
+% \usepackage{authblk}
+% \renewcommand\Authands{, } % avoid ``. and'' for last author
+% \renewcommand\Affilfont{\itshape\small} % affiliation formatting
+% \AtlasAuthorContributor{First AtlasAuthorContributor}{a}{Author's contribution.}
+% \AtlasAuthorContributor{Second AtlasAuthorContributor}{b}{Author's contribution.}
+% \AtlasAuthorContributor{Third AtlasAuthorContributor}{a}{Author's contribution.}
+% \AtlasContributor{Fourth AtlasContributor}{Contribution to the analysis.}
+% \author[a]{First Author}
+% \author[a]{Second Author}
+% \author[b]{Third Author}
+% \affil[a]{One Institution}
+% \affil[b]{Another Institution}
+
+% If a special author list should be indicated via a link use the following code:
+% Include the two lines below if you do not use atlasstyle:
+% \usepackage[marginal,hang]{footmisc}
+% \setlength{\footnotemargin}{0.5em}
+% Use the following lines in all cases:
+% \usepackage{authblk}
+% \author{The ATLAS Collaboration%
+% \thanks{The full author list can be found at:\newline
+%   \url{https://atlas.web.cern.ch/Atlas/PUBNOTES/ATL-PHYS-PUB-2014-007/authorlist.pdf}}
+% }
+
+\AtlasVersion{3.2}
+
+% ATLAS reference code, to help ATLAS members to locate the paper
+\AtlasRefCode{SUSY-2015-09}
+%\AtlasRefCode{ATLAS-CONF-2015-078}
+
+
+% CERN preprint number
+% \PreprintIdNumber{CERN-PH-2014-XX}
+
+% ATLAS date - arXiv submission; to be filled in by the Physics Office
+% \AtlasDate{\today}
+
+% arXiv identifier
+% \arXivId{14XX.YYYY}
+
+% HepData record
+% \HepDataRecord{ZZZZZZZZ}
+
+% Submission journal and final reference
+\AtlasJournal{Eur.\ Phys.\ J.\ C}
+% \AtlasJournalRef{\PLB 789 (2014) 123}
+% \AtlasDOI{}
+
+% Abstract - % directly after { is important for correct indentation
+\AtlasAbstract{A search for strongly produced supersymmetric particles is conducted using signatures involving multiple energetic jets and either two isolated leptons ($e$ or $\mu$) with the same electric charge or at least three isolated leptons. The search also utilises $b$-tagged jets, missing transverse momentum and other observables to extend its sensitivity. The analysis uses a data sample of proton--proton collisions at $\sqrt{s}= 13$~TeV recorded with the ATLAS detector at the Large Hadron Collider in 2015 corresponding to a total integrated luminosity of 3.2~fb$^{-1}$. No significant excess over the Standard Model expectation is observed.  
+%and the results are interpreted in several simplified supersymmetric models extending the exclusion limits from previous searches. 
+The results are interpreted in several simplified supersymmetric models and extend the exclusion limits from previous searches.
+In the context of exclusive production and simplified decay modes, gluino masses are excluded at $95\%$ confidence level 
+up to 1.1--1.3~TeV for light neutralinos (depending on the decay channel), 
+and bottom squark masses are also excluded up to 540 GeV. 
+In the former scenarios, neutralino masses are also excluded up to 550-850 GeV for gluino masses around 1 TeV. 
+}
+
+%-------------------------------------------------------------------------------
+% The following information is needed for the cover page. The commands are only defined
+% if you use the coverpage option in atlasdoc or use the atlascover package
+%-------------------------------------------------------------------------------
+
+% List of supporting notes  (leave as null \AtlasCoverSupportingNote{} if you want to skip this option)
+\AtlasCoverSupportingNote{Supporting note}{https://cds.cern.ch/record/2052581}
+% \AtlasCoverSupportingNote{Short title note 2}{https://cds.cern.ch/record/YYYYYYY}
+%
+% OR (the 2nd option is deprecated, especially for CONF and PUB notes)
+%
+% Supporting material TWiki page  (leave as null \AtlasCoverTwikiURL{} if you want to skip this option)
+% \AtlasCoverTwikiURL{https://twiki.cern.ch/twiki/bin/view/Atlas/WebHome}
+
+% Comment deadline
+\AtlasCoverCommentsDeadline{February 25th, 2016}
+
+% Analysis team members - contact editors should no longer be specified
+% as there is a generic email list name for the editors
+\AtlasCoverAnalysisTeam{B.~Abbott, J.-F.~Arguin, S.~Berlendis, F.~Cardillo, G.~Carrillo-Montoya, A.~Di~Simone, O.~Ducu, D. Gerbaudo, F.~Hubaut, G.~Herten, S.~Kahn, A.~Lleres, J.~Maurer, E.~Monnier, T.~Nguyen, A.~Paramonov, J.~Poveda, P.~Pralavorio, H.~Ren, O.~Rifki, Y.-T.~Shen, P.~Skubic, A.~Taffard, P.~Tornamb\'{e}, H.~Tr\'{e}panier, X.~Zhuang}
+
+% Editorial Board Members - indicate the Chair by a (chair) after his/her name
+% Give either all members at once (then they appear on one line), or separately
+\AtlasCoverEdBoardMember{Jamie Boyd~(chair), Sara~Strandberg, Kerim~Suruliz}
+% \AtlasCoverEdBoardMember{EdBoard~Chair~(chair)}
+% \AtlasCoverEdBoardMember{EB~Member~1}
+% \AtlasCoverEdBoardMember{EB~Member~2}
+% \AtlasCoverEdBoardMember{EB~Member~3}
+
+% A PUB note has readers and not an EdBoard -- give their names here (one line or several entries)
+% \AtlasCoverReaderMember{Reader~1, Reader~2}
+% \AtlasCoverReaderMember{Reader~1}
+% \AtlasCoverEdBoardMember{Reader~2}
+
+% Editors egroup
+\AtlasCoverEgroupEditors{atlas-SUSY-2015-09-editors@cern.ch} % was atlas-conf-susy-2015-06-editors@cern.ch
+
+% EdBoard egroup
+\AtlasCoverEgroupEdBoard{atlas-SUSY-2015-09-editorial-board@cern.ch} % was atlas-conf-susy-2015-06-editorial-board@cern.ch
+

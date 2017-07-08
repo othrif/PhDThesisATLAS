@@ -1,0 +1,3747 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.29)  29 JAN 2016 19:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ss3l2015pub.tex
+(./ss3l2015pub.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(./latex/atlasdoc.cls
+Document Class: latex/atlasdoc 2015/11/21 v.01-07-07 ATLAS document class
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+atlasdoc: use KOMA-script scrartcl class
+atlasdoc: paper size set to default A4
+\ADOC@skipbeforetitle=\dimen102
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2015/10/03 v3.19a KOMA-Script document class (article)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
+
+Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 123.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 124.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 125.
+Package scrartcl Info: You've used standard option `11pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=11pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=11pt' there
+(scrartcl)             instead of `11pt', too.
+Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
+ine 2033.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (11p
+t)
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
+
+Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1509.
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+LaTeX Info: Redefining \textsubscript on input line 3906.
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count86
+\c@table=\count87
+\bibindent=\dimen103
+)
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 20%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 14
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 469.47052pt
+(typearea)              DIV departure   = -20%
+(typearea)              \evensidemargin = -8.25128pt
+(typearea)              \oddsidemargin  = -8.25128pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 636.60028pt
+(typearea)              \topmargin      = -11.9095pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 263.
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 17%
+(typearea)                larger than the heuristically detected line width.
+(typearea)                You should e.g. decrease DIV, increase fontsize
+(typearea)                or change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 14
+(typearea)             BCOR = 14.22636pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 458.29268pt
+(typearea)              DIV departure   = -17%
+(typearea)              \evensidemargin = 4.45082pt
+(typearea)              \oddsidemargin  = 4.45082pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 636.60028pt
+(typearea)              \topmargin      = -11.9095pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 263.
+Package scrkbase Info: You've told me to redefine the font selection of the
+(scrkbase)             element `pagehead' that is an alias of element
+(scrkbase)             `pageheadfoot' on input line 268.
+(./latex/atlascover.sty
+Package: latex/atlascover 2015/11/21 v.01-07-07 ATLAS cover pages
+
+ATLAS cover called from atlasdoc
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen104
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count91
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen105
+\Fld@menulength=\count92
+\Field@Width=\dimen106
+\Fld@charsize=\dimen107
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip48
+)
+\ACOV@size=\skip49
+\ACOV@space=\skip50
+\ACOV@sizes=\skip51
+\ACOV@spaces=\skip52
+\ACOV@sizel=\skip53
+\ACOV@spacel=\skip54
+\ACOV@sizeL=\skip55
+\ACOV@spaceL=\skip56
+\ACOV@sizeh=\skip57
+\ACOV@spaceh=\skip58
+
+Value of font sizes and spacing are:
+Default: 11.0pt\ and 13.19997pt
+small: 10.0pt\ and 11.99997pt
+large: 13.0pt\ and 15.59996pt
+Large: 14.0pt\ and 16.79996pt
+huge: 16.0pt\ and 19.19995pt
+) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count98
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count99
+\U@D=\dimen110
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+atlasdoc: using newtx fonts package
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/newtxtext.sty
+Package: newtxtext 2015/09/24 v1.462
+
+`newtxtext' v1.462, 2015/09/24 Text macros taking advantage of TeX-Gyre Termes 
+fonts (msharpe)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \scshape on input line 37.
+)
+\ntx@fs=\dimen111
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+)
+\XKV@depth=\count100
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count101
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) 
+Babel
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 25
+0.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
+File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 250.
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2015/09/24 v1.462
+
+`newtxmath' v1.462, 2015/09/24 Math macros based on txfonts (msharpe)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen112
+))
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip11
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks18
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks19
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks20
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count114
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ntxtlf/m/n on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/m/n on input line 137.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ntxtlf/m/n --> OT1/ntxtlf/b/n on input line 138.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/qhv/m/n on input line 144.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/qhv/m/n on input line 144.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ntxtlf/m/it on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ntxtlf/m/it on input line 145.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 146.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 146.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/b/n on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ntxtlf/b/n on input line 148.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ntxtlf/m/it --> OT1/ntxtlf/b/it on input line 149.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/qhv/m/n --> T1/qhv/b/n on input line 150.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 151.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxmi/m/it on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxmi/m/it on input line 197.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxmi/m/it --> OML/ntxmi/b/it on input line 198.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 213.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ntxsy/m/n on input line 221.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ntxsy/m/n --> OMS/ntxsy/b/n on input line 222.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 242.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 263.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 2
+76.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 276
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 276.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 277.
+\symlargesymbolsTXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 291.
+LaTeX Info: Redefining \not on input line 1747.
+)
+(./lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count115
+\output=\toks22
+\linenoprevgraf=\count116
+\linenumbersep=\dimen121
+\linenumberwidth=\dimen122
+\c@linenumber=\count117
+\c@pagewiselinenumber=\count118
+\c@LN@truepage=\count119
+\c@internallinenumber=\count120
+\c@internallinenumbers=\count121
+\quotelinenumbersep=\dimen123
+\bframerule=\dimen124
+\bframesep=\dimen125
+\bframebox=\box29
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\timehh=\count122
+\timemm=\count123
+) (./latex/atlaspackage.sty
+Package: latex/atlaspackage 2015/11/21 v.01-07-07 ATLAS LaTeX packages
+
+atlaspackage: APKG@texlive is [2013]
+atlaspackage: Using default settings
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/09/07 v1.1p UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2015/09/07 v1.1p UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2015/07/18 v5.1f context-sensitive quotations (JAW)
+\csq@reset=\count124
+\csq@gtype=\count125
+\csq@glevel=\count126
+\csq@qlevel=\count127
+\csq@maxlvl=\count128
+\csq@tshold=\count129
+\csq@ltx@everypar=\toks25
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2015/07/18 v5.1f csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen126
+\lightrulewidth=\dimen127
+\cmidrulewidth=\dimen128
+\belowrulesep=\dimen129
+\belowbottomsep=\dimen130
+\aboverulesep=\dimen131
+\abovetopsep=\dimen132
+\cmidrulesep=\dimen133
+\cmidrulekern=\dimen134
+\defaultaddspace=\dimen135
+\@cmidla=\count130
+\@cmidlb=\count131
+\@aboverulesep=\dimen136
+\@belowrulesep=\dimen137
+\@thisruleclass=\count132
+\@lastruleclass=\count133
+\@thisrulewidth=\dimen138
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count134
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count135
+\c@subtable=\count136
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 44.
+\cftparskip=\skip62
+\cftbeforetoctitleskip=\skip63
+\cftaftertoctitleskip=\skip64
+\cftbeforepartskip=\skip65
+\cftpartnumwidth=\skip66
+\cftpartindent=\skip67
+\cftbeforesecskip=\skip68
+\cftsecindent=\skip69
+\cftsecnumwidth=\skip70
+\cftbeforesubsecskip=\skip71
+\cftsubsecindent=\skip72
+\cftsubsecnumwidth=\skip73
+\cftbeforesubsubsecskip=\skip74
+\cftsubsubsecindent=\skip75
+\cftsubsubsecnumwidth=\skip76
+\cftbeforeparaskip=\skip77
+\cftparaindent=\skip78
+\cftparanumwidth=\skip79
+\cftbeforesubparaskip=\skip80
+\cftsubparaindent=\skip81
+\cftsubparanumwidth=\skip82
+\cftbeforeloftitleskip=\skip83
+\cftafterloftitleskip=\skip84
+\cftbeforefigskip=\skip85
+\cftfigindent=\skip86
+\cftfignumwidth=\skip87
+\cftbeforelottitleskip=\skip88
+\cftafterlottitleskip=\skip89
+\cftbeforetabskip=\skip90
+\cfttabindent=\skip91
+\cfttabnumwidth=\skip92
+\cftbeforesubfigskip=\skip93
+\cftsubfigindent=\skip94
+\cftsubfignumwidth=\skip95
+\cftbeforesubtabskip=\skip96
+\cftsubtabindent=\skip97
+\cftsubtabnumwidth=\skip98
+)
+atlaspackage: Loading siunitx definitions for TeX Live > 2011
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2015/11/04 v6224 L3 programming layer (loader) 
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2015/11/04 v6224 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/10/18 v6213 L3 Bootstrap code
+L3 Module: l3names 2015/11/03 v6220 L3 Namespace for primitives
+L3 Module: l3basics 2015/09/22 v6033 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2015/09/20 v6021 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2015/09/25 v6089 L3 Integers
+\c_max_int=\count137
+\l_tmpa_int=\count138
+\l_tmpb_int=\count139
+\g_tmpa_int=\count140
+\g_tmpb_int=\count141
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count142
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/09/28 v6114 L3 Experimental token manipulation
+L3 Module: l3prop 2015/08/05 v5777 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/09/23 v6037 L3 File and I/O operations
+\l_iow_line_count_int=\count143
+\l__iow_target_count_int=\count144
+\l__iow_current_line_int=\count145
+\l__iow_current_word_int=\count146
+\l__iow_current_indentation_int=\count147
+L3 Module: l3skip 2015/09/25 v6089 L3 Dimensions and skips
+\c_zero_dim=\dimen146
+\c_max_dim=\dimen147
+\l_tmpa_dim=\dimen148
+\l_tmpb_dim=\dimen149
+\g_tmpa_dim=\dimen150
+\g_tmpb_dim=\dimen151
+\c_zero_skip=\skip99
+\c_max_skip=\skip100
+\l_tmpa_skip=\skip101
+\l_tmpb_skip=\skip102
+\g_tmpa_skip=\skip103
+\g_tmpb_skip=\skip104
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2015/09/23 v6037 L3 Key-value interfaces
+\g__keyval_level_int=\count148
+\l_keys_choice_int=\count149
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count150
+\c__fp_middle_shift_int=\count151
+\c__fp_trailing_shift_int=\count152
+\c__fp_big_leading_shift_int=\count153
+\c__fp_big_middle_shift_int=\count154
+\c__fp_big_trailing_shift_int=\count155
+\c__fp_Bigg_leading_shift_int=\count156
+\c__fp_Bigg_middle_shift_int=\count157
+\c__fp_Bigg_trailing_shift_int=\count158
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box30
+\l_tmpa_box=\box31
+\l_tmpb_box=\box32
+\g_tmpa_box=\box33
+\g_tmpb_box=\box34
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box35
+\l__coffin_internal_dim=\dimen152
+\l__coffin_offset_x_dim=\dimen153
+\l__coffin_offset_y_dim=\dimen154
+\l__coffin_x_dim=\dimen155
+\l__coffin_y_dim=\dimen156
+\l__coffin_x_prime_dim=\dimen157
+\l__coffin_y_prime_dim=\dimen158
+\c_empty_coffin=\box36
+\l__coffin_aligned_coffin=\box37
+\l__coffin_aligned_internal_coffin=\box38
+\l_tmpa_coffin=\box39
+\l_tmpb_coffin=\box40
+\l__coffin_display_coffin=\box41
+\l__coffin_display_coord_coffin=\box42
+\l__coffin_display_pole_coffin=\box43
+\l__coffin_display_offset_dim=\dimen159
+\l__coffin_display_x_dim=\dimen160
+\l__coffin_display_y_dim=\dimen161
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3candidates 2015/11/01 v6216 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen162
+\l__box_bottom_dim=\dimen163
+\l__box_left_dim=\dimen164
+\l__box_right_dim=\dimen165
+\l__box_top_new_dim=\dimen166
+\l__box_bottom_new_dim=\dimen167
+\l__box_left_new_dim=\dimen168
+\l__box_right_new_dim=\dimen169
+\l__box_internal_box=\box44
+\l__coffin_bounding_shift_dim=\dimen170
+\l__coffin_left_corner_dim=\dimen171
+\l__coffin_right_corner_dim=\dimen172
+\l__coffin_bottom_corner_dim=\dimen173
+\l__coffin_top_corner_dim=\dimen174
+\l__coffin_scaled_total_height_dim=\dimen175
+\l__coffin_scaled_width_dim=\dimen176
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3luatex 2015/09/10 v5983 L3 Experimental LuaTeX-specific functions
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/l3kernel/l3unicode-data.def
+File: l3unicode-data.def 2015/07/20 v5676 L3 Unicode data
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2015/09/10 v5983 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count159
+))
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2015/11/04 v6224 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count160
+\l__xparse_m_args_int=\count161
+\l__xparse_mandatory_args_int=\count162
+\l__xparse_processor_int=\count163
+\l__xparse_v_nesting_int=\count164
+)
+Package: siunitx 2015/10/15 v2.6m A comprehensive (SI) units package
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen177
+\extrarowheight=\dimen178
+\NC@list=\toks26
+\extratabsurround=\skip105
+\backup@length=\skip106
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.s
+ty
+Package: l3keys2e 2015/11/04 v6224 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box45
+\l__siunitx_tmp_dim=\dimen179
+\l__siunitx_tmp_int=\count165
+\l__siunitx_number_mantissa_length_int=\count166
+\l__siunitx_number_uncert_length_int=\count167
+\l__siunitx_round_int=\count168
+\l__siunitx_process_decimal_int=\count169
+\l__siunitx_process_uncertainty_int=\count170
+\l__siunitx_process_fixed_int=\count171
+\l__siunitx_process_integer_min_int=\count172
+\l__siunitx_process_precision_int=\count173
+\l__siunitx_group_min_int=\count174
+\l__siunitx_angle_marker_box=\box46
+\l__siunitx_angle_unit_box=\box47
+\l__siunitx_angle_marker_dim=\dimen180
+\l__siunitx_angle_unit_dim=\dimen181
+\l__siunitx_unit_int=\count175
+\l__siunitx_unit_denominator_int=\count176
+\l__siunitx_unit_numerator_int=\count177
+\l__siunitx_unit_prefix_int=\count178
+\l__siunitx_unit_prefix_base_int=\count179
+\l__siunitx_unit_prefix_gram_int=\count180
+\l__siunitx_number_product_int=\count181
+\c__siunitx_one_fill_skip=\skip107
+\l__siunitx_table_unit_align_skip=\skip108
+\l__siunitx_table_exponent_dim=\dimen182
+\l__siunitx_table_integer_dim=\dimen183
+\l__siunitx_table_mantissa_dim=\dimen184
+\l__siunitx_table_marker_dim=\dimen185
+\l__siunitx_table_result_dim=\dimen186
+\l__siunitx_table_uncert_dim=\dimen187
+\l__siunitx_table_fill_pre_dim=\dimen188
+\l__siunitx_table_fill_post_dim=\dimen189
+\l__siunitx_table_fill_mid_dim=\dimen190
+\l__siunitx_table_pre_box=\box48
+\l__siunitx_table_post_box=\box49
+\l__siunitx_table_mantissa_box=\box50
+\l__siunitx_table_result_box=\box51
+\l__siunitx_table_number_align_skip=\skip109
+\l__siunitx_table_text_align_skip=\skip110
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7209.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7212.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7215.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7224.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7227.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7242.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7250.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7258.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7277.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7288.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7314.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7325.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7372.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7374.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7376.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7380.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7381.
+.................................................
+\g__file_internal_ior=\read1
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/beamer/translator/translator.s
+ty
+Package: translator 2010/06/12 ver 1.10
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/beamer/translator/translator-l
+anguage-mappings.tex)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 274.
+Package hyperref Info: Option `breaklinks' set `true' on input line 274.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2015/10/21 v3.1 programmable bibliographies (PK/JW/AB)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/biblatex1.sty
+Package: biblatex1 2015/10/21 v3.1 programmable bibliographies (bibtex) (PK/JW/
+AB)
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count182
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count183
+\c@listtotal=\count184
+\c@listcount=\count185
+\c@liststart=\count186
+\c@liststop=\count187
+\c@citecount=\count188
+\c@citetotal=\count189
+\c@multicitecount=\count190
+\c@multicitetotal=\count191
+\c@instcount=\count192
+\c@maxnames=\count193
+\c@minnames=\count194
+\c@maxitems=\count195
+\c@minitems=\count196
+\c@citecounter=\count197
+\c@savedcitecounter=\count198
+\c@uniquelist=\count199
+\c@uniquename=\count266
+\c@refsection=\count267
+\c@refsegment=\count268
+\c@maxextrayear=\count269
+\c@maxextraalpha=\count270
+\c@abbrvpenalty=\count271
+\c@highnamepenalty=\count272
+\c@lownamepenalty=\count273
+\c@maxparens=\count274
+\c@parenlevel=\count275
+\blx@tempcnta=\count276
+\blx@tempcntb=\count277
+\blx@tempcntc=\count278
+\blx@maxsection=\count279
+\blx@maxsegment=\count280
+\blx@notetype=\count281
+\blx@parenlevel@text=\count282
+\blx@parenlevel@foot=\count283
+\labelnumberwidth=\skip111
+\labelalphawidth=\skip112
+\shorthandwidth=\skip113
+\biblabelsep=\skip114
+\bibitemsep=\skip115
+\bibnamesep=\skip116
+\bibinitsep=\skip117
+\bibparsep=\skip118
+\bibhang=\skip119
+\blx@auxin=\read2
+\blx@auxout=\write3
+\c@mincomprange=\count284
+\c@maxcomprange=\count285
+\c@mincompwidth=\count286
+\c@labelname=\count287
+\c@savedlabelname=\count288
+\c@author=\count289
+\c@savedauthor=\count290
+\c@shortauthor=\count291
+\c@savedshortauthor=\count292
+\c@editor=\count293
+\c@savededitor=\count294
+\c@editora=\count295
+\c@savededitora=\count296
+\c@editorb=\count297
+\c@savededitorb=\count298
+\c@editorc=\count299
+\c@savededitorc=\count300
+\c@shorteditor=\count301
+\c@savedshorteditor=\count302
+\c@bookauthor=\count303
+\c@savedbookauthor=\count304
+\c@translator=\count305
+\c@savedtranslator=\count306
+\c@annotator=\count307
+\c@savedannotator=\count308
+\c@commentator=\count309
+\c@savedcommentator=\count310
+\c@introduction=\count311
+\c@savedintroduction=\count312
+\c@foreword=\count313
+\c@savedforeword=\count314
+\c@afterword=\count315
+\c@savedafterword=\count316
+\c@holder=\count317
+\c@savedholder=\count318
+\c@namea=\count319
+\c@savednamea=\count320
+\c@nameb=\count321
+\c@savednameb=\count322
+\c@namec=\count323
+\c@savednamec=\count324
+\c@institution=\count325
+\c@savedinstitution=\count326
+\c@language=\count327
+\c@savedlanguage=\count328
+\c@location=\count329
+\c@savedlocation=\count330
+\c@organization=\count331
+\c@savedorganization=\count332
+\c@origlocation=\count333
+\c@savedoriglocation=\count334
+\c@origpublisher=\count335
+\c@savedorigpublisher=\count336
+\c@pageref=\count337
+\c@savedpageref=\count338
+\c@publisher=\count339
+\c@savedpublisher=\count340
+\c@lista=\count341
+\c@savedlista=\count342
+\c@listb=\count343
+\c@savedlistb=\count344
+\c@listc=\count345
+\c@savedlistc=\count346
+\c@listd=\count347
+\c@savedlistd=\count348
+\c@liste=\count349
+\c@savedliste=\count350
+\c@listf=\count351
+\c@savedlistf=\count352
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2015/10/21 v3.1 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 
+\c@textcitecount=\count353
+\c@textcitetotal=\count354
+\c@textcitemaxnames=\count355
+\c@biburlnumpenalty=\count356
+\c@biburlucpenalty=\count357
+\c@biburllcpenalty=\count358
+\c@smartand=\count359
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2015/10/21 v3.1 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2015/10/21 v3.1 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2015/10/21 v3.1 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count360
+\c@bbx:relatedtotal=\count361
+)))
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2015/10/21 v3.1 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count362
+\c@cbx@tempcntb=\count363
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+(/afs/cern.ch/sw/XML/TL2015/texmf-local/tex/latex/cern/biblatex.cfg
+File: biblatex.cfg 
+))))
+(./latex/atlasprocess.sty) (./latex/atlasmisc.sty
+\figwidth=\skip120
+\dkwidth=\dimen191
+) (./latex/atlasbiblatex.sty
+Package: latex/atlasbiblatex 2015/11/21 v.01-07-07 ATLAS biblatex style
+
+atlasbiblatex: ABIB@texlive is [2013]
+) (./latex/atlascontribute.sty
+Package: latex/atlascontribute 2015/11/21 v.01-07-07 ATLAS analysis contributio
+ns
+ (./authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip121
+\@affilsep=\skip122
+\c@Maxaffil=\count364
+\c@authors=\count365
+\c@affil=\count366
+)) (./latex/atlasphysics.sty
+Package: latex/atlasphysics 2015/11/21 v.01-07-07 ATLAS physics macros
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+atlasphysics: APHY@texlive is [2013]
+(./latex/atlasjournal.sty) (./latex/atlasparticle.sty) (./latex/atlasunit.sty)
+(./latex/atlasxref.sty)) (./latex/atlasbsm.sty) (./ss3l2015pub-defs.sty)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box52
+\UL@hyphenbox=\box53
+\UL@skip=\skip123
+\UL@hook=\toks27
+\UL@height=\dimen192
+\UL@pe=\count367
+\UL@pixel=\dimen193
+\ULC@box=\box54
+Package: ulem 2012/05/18
+\ULdepth=\dimen194
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \JO with sig. 'mg' on line 76.
+.................................................
+
+(./ss3l2015pub-metadata.tex)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package biblatex Info: Trying to load language 'UKenglish'...
+Package biblatex Info: ... file 'UKenglish.lbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/lbx/UKenglish.lbx
+File: UKenglish.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'british'...
+Package biblatex Info: ... file 'british.lbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/lbx/british.lbx
+File: british.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
+)))
+(./ss3l2015pub.aux)
+\openout1 = `ss3l2015pub.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 92.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 92
+.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 92
+.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/omsntxsy.fd
+File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 92.
+
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring ON on input line 92.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count368
+)
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
+ (./ss3l2015pub.out) (./ss3l2015pub.out)
+\@outlinefile=\write4
+\openout4 = `ss3l2015pub.out'.
+
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count369
+\scratchdimen=\dimen195
+\scratchbox=\box56
+\nofMPsegments=\count370
+\nofMParguments=\count371
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count372
+\MPscratchDim=\dimen196
+\MPnumerator=\count373
+\makeMPintoPDFobject=\count374
+\everyMPtoPDFconversion=\toks29
+) (/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@mv@tabular=\count375
+\c@mv@boldtabular=\count376
+atlasdoc: deprecated maketitle option not set :-)
+atlasdoc: this is an ATLAS draft
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2015/10/03 v3.19a KOMA-Script package (page head and foot)
+LaTeX Info: Redefining \pagemark on input line 174.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/beamer/translator/dicts/transl
+ator-basic-dictionary/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.
+cfg
+File: siunitx-abbreviations.cfg 2015/10/15 v2.6m siunitx: Abbreviated units
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+\openout3 = `ss3l2015pub-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'ss3l2015pub.bbl' not found.
+No file ss3l2015pub.bbl.
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
+\c__siunitx_mathsf_int=\count377
+LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 9
+2.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/ot1ntxtlf.fd
+File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
+)
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 92.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 92.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 92.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 92.
+
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 92.
+
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 92.
+
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 92.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 92.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 92.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 5.48996pt on input line 92.
+\c__siunitx_mathtt_int=\count378
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 92.
+
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.95pt on input line 92.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 8.0pt on input line 92.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 6.1pt on input line 92.
+
+atlasdoc: producing the cover and title pages
+<logos/AT_atlaslogo.pdf, id=48, 85.31876pt x 108.405pt>
+File: logos/AT_atlaslogo.pdf Graphic file (type pdf)
+
+<use logos/AT_atlaslogo.pdf>
+Package pdftex.def Info: logos/AT_atlaslogo.pdf used on input line 94.
+(pdftex.def)             Requested size: 67.18364pt x 85.35826pt.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 94.
+
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Calculating math sizes for size <16> on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 16.0pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 11.67993pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.80005pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 14.3999pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 10.51186pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 7.91998pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 16.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 11.67993pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 8.80005pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 11.0pt on input line 94.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 6.56995pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 4.94997pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 7.3pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 5.5pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 94.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+[1
+
+{/afs/cern.ch/sw/XML/TL2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./lo
+gos/AT_atlaslogo.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <13> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 94.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+[2
+
+]
+atlasdoc: making standard ATLAS document title page
+File: logos/AT_atlaslogo.pdf Graphic file (type pdf)
+<use logos/AT_atlaslogo.pdf>
+Package pdftex.def Info: logos/AT_atlaslogo.pdf used on input line 94.
+(pdftex.def)             Requested size: 67.18364pt x 85.35826pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <20> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 17.99988pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 94.
+
+<logos/AT_cernlogo.pdf, id=76, 85.31876pt x 83.31125pt>
+File: logos/AT_cernlogo.pdf Graphic file (type pdf)
+
+<use logos/AT_cernlogo.pdf>
+Package pdftex.def Info: logos/AT_cernlogo.pdf used on input line 94.
+(pdftex.def)             Requested size: 72.85063pt x 71.13188pt.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 94--94
+$[]$ 
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 5.39996pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <16> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 16.0pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 16.0pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 11.67993pt on input line 94.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.80005pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 16.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <12> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 12.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 11.0pt on input line 94.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 10.95pt on input line 94.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 9
+4.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 94.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94 \maketitle
+                [1
+
+ <./logos/AT_cernlogo.pdf>]
+LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 103.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 103.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 103.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 14.4pt on input line 103.
+
+
+LaTeX Warning: Citation 'Golfand:1971iw' on page 2 undefined on input line 121.
+
+
+
+LaTeX Warning: Citation 'Volkov:1973ix' on page 2 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Wess:1974tw' on page 2 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Wess:1974jb' on page 2 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Ferrara:1974pu' on page 2 undefined on input line 121.
+
+
+
+LaTeX Warning: Citation 'Salam:1974ig' on page 2 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Martin:1997ns' on page 2 undefined on input line 121.
+
+
+LaTeX Warning: Citation 'Fayet:1976et' on page 2 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'Fayet:1977yc' on page 2 undefined on input line 122.
+
+
+LaTeX Warning: Citation 'Farrar:1978xj' on page 2 undefined on input line 130.
+
+LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 1
+30.
+(/afs/cern.ch/sw/XML/TL2015/texmf-dist/tex/latex/newtx/t1ntxsups.fd
+File: t1ntxsups.fd 2015/01/17 v1.0
+)
+LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
+(Font)              scaled to size 10.95pt on input line 130.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 9.0pt on input line 133.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 133.
+
+
+LaTeX Warning: Citation 'Goldberg:1983nd' on page 2 undefined on input line 135
+.
+
+
+LaTeX Warning: Citation 'Ellis:1983ew' on page 2 undefined on input line 135.
+
+
+Overfull \hbox (8.12138pt too wide) in paragraph at lines 121--137
+\T1/ntxtlf/m/n/10.95 Supersymmetry (SUSY) [[], [], [], [], [],
+ []
+
+
+LaTeX Warning: Citation 'Sakai:1981gr' on page 2 undefined on input line 141.
+
+
+LaTeX Warning: Citation 'Dimopoulos:1981yj' on page 2 undefined on input line 1
+41.
+
+
+LaTeX Warning: Citation 'Ibanez:1981yh' on page 2 undefined on input line 141.
+
+
+LaTeX Warning: Citation 'Dimopoulos:1981zb' on page 2 undefined on input line 1
+41.
+
+
+LaTeX Warning: Citation 'Barbieri:1987fn' on page 2 undefined on input line 142
+.
+
+
+LaTeX Warning: Citation 'deCarlos:1993yy' on page 2 undefined on input line 142
+.
+
+
+LaTeX Warning: Citation 'Inoue:1982pi' on page 2 undefined on input line 147.
+
+
+LaTeX Warning: Citation 'Ellis:1983ed' on page 2 undefined on input line 147.
+
+
+LaTeX Warning: Citation 'Borschensky:2014cia' on page 2 undefined on input line
+ 150.
+
+
+Overfull \hbox (10.48653pt too wide) in paragraph at lines 139--158
+[]\T1/ntxtlf/m/n/10.95 , []], TeV-scale masses are re-quired [[], []]
+ []
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 162.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 162.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.0pt on input line 162.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.1pt on input line 162.
+
+LaTeX Warning: Citation 'paperSS3L' on page 2 undefined on input line 163.
+
+
+LaTeX Warning: Citation 'PERF-2007-01' on page 2 undefined on input line 164.
+
+
+LaTeX Warning: Citation 'Chatrchyan:2013fea' on page 2 undefined on input line 
+169.
+
+
+LaTeX Warning: Citation 'paperSS3L' on page 2 undefined on input line 174.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.187 
+       [2
+
+
+] <FIGURES/gogo-qqqqllllN1N1-N2.pdf, id=111, 128.48pt x 110.4125pt>
+File: FIGURES/gogo-qqqqllllN1N1-N2.pdf Graphic file (type pdf)
+
+<use FIGURES/gogo-qqqqllllN1N1-N2.pdf>
+Package pdftex.def Info: FIGURES/gogo-qqqqllllN1N1-N2.pdf used on input line 19
+0.
+(pdftex.def)             Requested size: 109.99275pt x 94.52664pt.
+
+<FIGURES/gogo-qqqqWWZZN1N1-C1N2.pdf, id=112, 127.47626pt x 105.39375pt>
+File: FIGURES/gogo-qqqqWWZZN1N1-C1N2.pdf Graphic file (type pdf)
+
+<use FIGURES/gogo-qqqqWWZZN1N1-C1N2.pdf>
+Package pdftex.def Info: FIGURES/gogo-qqqqWWZZN1N1-C1N2.pdf used on input line 
+191.
+(pdftex.def)             Requested size: 109.99275pt x 90.9424pt.
+
+<FIGURES/sbsb-ttWWN1N1.pdf, id=113, 127.47626pt x 102.3825pt>
+File: FIGURES/sbsb-ttWWN1N1.pdf Graphic file (type pdf)
+
+<use FIGURES/sbsb-ttWWN1N1.pdf>
+Package pdftex.def Info: FIGURES/sbsb-ttWWN1N1.pdf used on input line 192.
+(pdftex.def)             Requested size: 109.99275pt x 88.34406pt.
+
+<FIGURES/gogo-ttttN1N1.pdf, id=114, 128.48pt x 102.3825pt>
+File: FIGURES/gogo-ttttN1N1.pdf Graphic file (type pdf)
+
+<use FIGURES/gogo-ttttN1N1.pdf>
+Package pdftex.def Info: FIGURES/gogo-ttttN1N1.pdf used on input line 193.
+(pdftex.def)             Requested size: 109.99275pt x 87.65198pt.
+
+
+LaTeX Warning: Citation 'PERF-2007-01' on page 3 undefined on input line 219.
+
+
+LaTeX Warning: Citation 'CERN-LHCC-2010-013' on page 3 undefined on input line 
+238.
+
+[3 <./FIGURES/gogo-qqqqllllN1N1-N2.pdf> <./FIGURES/gogo-qqqqWWZZN1N1-C1N2.pdf> 
+<./FIGURES/sbsb-ttWWN1N1.pdf> <./FIGURES/gogo-ttttN1N1.pdf>] (./dataMC.tex
+
+LaTeX Warning: Citation 'DAPR-2011-01' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'SOFT-2010-01' on page 4 undefined on input line 14.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 15.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 10.95pt on input line 15.
+
+LaTeX Warning: Citation 'Agostinelli:2002hh' on page 4 undefined on input line 
+15.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 17.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2010-013' on page 4 undefined on input li
+ne 17.
+
+
+LaTeX Warning: Citation 'Gleisberg:2008ta' on page 4 undefined on input line 24
+.
+
+
+LaTeX Warning: Citation 'pubnote_mc_multiboson' on page 4 undefined on input li
+ne 25.
+
+
+LaTeX Warning: Citation 'pubnote_mc_multiboson' on page 4 undefined on input li
+ne 29.
+
+
+LaTeX Warning: Citation 'Gleisberg:2008fv' on page 4 undefined on input line 34
+.
+
+
+LaTeX Warning: Citation 'Cascioli:2011va' on page 4 undefined on input line 35.
+
+
+
+LaTeX Warning: Citation 'Schumann:2007mg' on page 4 undefined on input line 36.
+
+
+
+LaTeX Warning: Citation 'Hoeche:2012yf' on page 4 undefined on input line 37.
+
+
+LaTeX Warning: Citation 'Lai:2010vv' on page 4 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'Alwall:2011uj' on page 4 undefined on input line 45.
+
+
+LaTeX Warning: Citation 'Sjostrand:2007gs' on page 4 undefined on input line 45
+.
+
+
+LaTeX Warning: Citation 'pubnote_mc_ttv' on page 4 undefined on input line 47.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 49.
+
+
+LaTeX Warning: Citation 'pub-2014-021' on page 4 undefined on input line 49.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 49.
+
+
+LaTeX Warning: Citation 'Ball:2012cx' on page 4 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Alwall:2014hca' on page 4 undefined on input line 50.
+
+
+Overfull \hbox (15.30298pt too wide) in paragraph at lines 44--53
+\T1/ntxtlf/m/n/10.95 gen-er-ated at LO with \T1/ntxtlf/m/sc/10.95 Mad-Graph5 \T
+1/ntxtlf/m/n/10.95 v2.2.2 [[]] in-ter-faced to the \T1/ntxtlf/m/sc/10.95 Py-thi
+a \T1/ntxtlf/m/n/10.95 8.186 [[]]
+ []
+
+[4]
+
+LaTeX Warning: Citation 'Alwall:2014hca' on page 5 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'Corcella:2000bw' on page 5 undefined on input line 55.
+
+
+
+LaTeX Warning: Citation 'Pumplin:2002vw' on page 5 undefined on input line 56.
+
+
+LaTeX Warning: Citation 'Lai:2010vv' on page 5 undefined on input line 56.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 57.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 57.
+
+
+LaTeX Warning: Citation 'Dittmaier:2012vm' on page 5 undefined on input line 63
+.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 112.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 114.
+
+
+LaTeX Warning: Citation 'Lonnblad:2011xx' on page 5 undefined on input line 115
+.
+
+
+LaTeX Warning: Citation 'Beenakker:1996ch' on page 5 undefined on input line 12
+1.
+
+
+LaTeX Warning: Citation 'Kulesza:2008jb' on page 5 undefined on input line 121.
+
+
+
+LaTeX Warning: Citation 'Kulesza:2009kq' on page 5 undefined on input line 121.
+
+
+
+LaTeX Warning: Citation 'Beenakker:2009ha' on page 5 undefined on input line 12
+1.
+
+
+LaTeX Warning: Citation 'Beenakker:2011fu' on page 5 undefined on input line 12
+1.
+
+
+LaTeX Warning: Citation 'Kramer:2012bx' on page 5 undefined on input line 123.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\sc'!
+(scrartcl)              You should note, that in 1994 font command `\sc' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\sc' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\sc' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\sc'
+(scrartcl)              by `\normalfont \scshape ' on input line 127.
+
+
+LaTeX Warning: Citation 'EvtGen' on page 5 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'ATLAS-PHYS-PUB-2012-003' on page 5 undefined on input 
+line 130.
+
+
+LaTeX Warning: Citation 'Martin:2009iq' on page 5 undefined on input line 130.
+
+) (./sel.tex
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-026' on page 5 undefined on input li
+ne 2.
+
+
+LaTeX Warning: Citation 'elecperf' on page 5 undefined on input line 15.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-041' on page 5 undefined on input li
+ne 15.
+
+[5]
+
+LaTeX Warning: Citation 'Run2Muon' on page 6 undefined on input line 26.
+
+
+LaTeX Warning: Citation 'Run2Muon' on page 6 undefined on input line 28.
+
+
+LaTeX Warning: Citation 'Cacciari:2008' on page 6 undefined on input line 31.
+
+
+LaTeX Warning: Citation 'caloclusters' on page 6 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'ATLAS-PHYS-PUB-2015-015' on page 6 undefined on input 
+line 34.
+
+
+LaTeX Warning: Citation 'ATLAS-CONF-2014-018' on page 6 undefined on input line
+ 38.
+
+
+LaTeX Warning: Citation 'ATLAS-PHYS-PUB-2015-015' on page 6 undefined on input 
+line 40.
+
+
+LaTeX Warning: Citation 'Aad:2015ydr' on page 6 undefined on input line 46.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-022' on page 6 undefined on input li
+ne 46.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-022' on page 6 undefined on input li
+ne 50.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-022' on page 6 undefined on input li
+ne 54.
+
+
+LaTeX Warning: Citation 'elecperf' on page 6 undefined on input line 71.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-041' on page 6 undefined on input li
+ne 71.
+
+
+Overfull \hbox (57.00168pt too wide) in paragraph at lines 71--88
+[]\T1/ntxtlf/m/n/10.95 Signal elec-trons must sat-isfy a tight likelihood-based
+ iden-ti-fic-a-tion re-quire-ment [[], []]
+ []
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 102.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 102.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-027' on page 6 undefined on input li
+ne 102.
+
+
+LaTeX Warning: Citation 'ATL-PHYS-PUB-2015-023' on page 6 undefined on input li
+ne 102.
+
+[6]
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 114.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 114.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 115.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 116.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 129.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 129.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 129.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 129.
+
+) (./bkg.tex
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.95pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 8.0pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
+(Font)              scaled to size 6.1pt on input line 11.
+ [7]
+
+LaTeX Warning: Citation 'paperSS3L' on page 8 undefined on input line 32.
+
+
+LaTeX Warning: Citation 'Sjostrand:2006za' on page 8 undefined on input line 58
+.
+
+
+LaTeX Warning: Citation 'Alwall:2014hca' on page 8 undefined on input line 79.
+
+[8] [9]
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 166.
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 166.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 194.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 194.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 194.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 194.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 194.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 194.
+
+<FIGURES/CONF_LEP_LEP_NJETS50.pdf, id=246, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_LEP_LEP_NJETS50.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_LEP_LEP_NJETS50.pdf>
+Package pdftex.def Info: FIGURES/CONF_LEP_LEP_NJETS50.pdf used on input line 28
+8.
+(pdftex.def)             Requested size: 210.8177pt x 166.94292pt.
+
+<FIGURES/CONF_LEP_NBJETS20.pdf, id=247, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_LEP_NBJETS20.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_LEP_NBJETS20.pdf>
+Package pdftex.def Info: FIGURES/CONF_LEP_NBJETS20.pdf used on input line 291.
+(pdftex.def)             Requested size: 210.8177pt x 166.94292pt.
+
+<FIGURES/CONF_EE_ZcutBveto_PTLEAD.pdf, id=248, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_EE_ZcutBveto_PTLEAD.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_EE_ZcutBveto_PTLEAD.pdf>
+Package pdftex.def Info: FIGURES/CONF_EE_ZcutBveto_PTLEAD.pdf used on input lin
+e 295.
+(pdftex.def)             Requested size: 210.8177pt x 166.94292pt.
+
+<FIGURES/CONF_WZVR.pdf, id=249, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_WZVR.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_WZVR.pdf>
+Package pdftex.def Info: FIGURES/CONF_WZVR.pdf used on input line 298.
+(pdftex.def)             Requested size: 210.8177pt x 166.94292pt.
+
+<FIGURES/CONF_ttV2bInclVR.pdf, id=250, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_ttV2bInclVR.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_ttV2bInclVR.pdf>
+Package pdftex.def Info: FIGURES/CONF_ttV2bInclVR.pdf used on input line 302.
+(pdftex.def)             Requested size: 210.8177pt x 166.94292pt.
+
+<FIGURES/CONF_ttZ1bInclVR.pdf, id=251, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_ttZ1bInclVR.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_ttZ1bInclVR.pdf>
+Package pdftex.def Info: FIGURES/CONF_ttZ1bInclVR.pdf used on input line 305.
+(pdftex.def)             Requested size: 210.8177pt x 166.94292pt.
+
+
+LaTeX Warning: Float too large for page by 14.46994pt on input line 322.
+
+) (./results.tex <FIGURES/CONF_SR0b3j.pdf, id=252, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/CONF_SR0b3j.pdf used on input line 4.
+(pdftex.def)             Requested size: 224.56592pt x 177.82901pt.
+
+<FIGURES/CONF_SR0b5j.pdf, id=253, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/CONF_SR0b5j.pdf used on input line 6.
+(pdftex.def)             Requested size: 224.56592pt x 177.82901pt.
+
+<FIGURES/CONF_SR1b.pdf, id=254, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_SR1b.pdf>
+Package pdftex.def Info: FIGURES/CONF_SR1b.pdf used on input line 8.
+(pdftex.def)             Requested size: 224.56592pt x 177.82901pt.
+
+<FIGURES/CONF_SR3b.pdf, id=255, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_SR3b.pdf>
+Package pdftex.def Info: FIGURES/CONF_SR3b.pdf used on input line 10.
+(pdftex.def)             Requested size: 224.56592pt x 177.82901pt.
+ [10] [11 <./FIGURES/CONF_LEP_LEP_NJETS50.pdf, page is rotated 90 degrees> <./F
+IGURES/CONF_LEP_NBJETS20.pdf, page is rotated 90 degrees> <./FIGURES/CONF_EE_Zc
+utBveto_PTLEAD.pdf, page is rotated 90 degrees> <./FIGURES/CONF_WZVR.pdf, page 
+is rotated 90 degrees> <./FIGURES/CONF_ttV2bInclVR.pdf, page is rotated 90 degr
+ees> <./FIGURES/CONF_ttZ1bInclVR.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation 'Baak:2014wma' on page 12 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Cowan:2010js' on page 12 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Read_CLs' on page 12 undefined on input line 95.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 104.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 105.
+
+[12]
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 146.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 146.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 146.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 146.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 146.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 146.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 155.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 155.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 156.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 156.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 156.
+
+
+Class scrartcl Warning: Usage of deprecated font command `\rm'!
+(scrartcl)              You should note, that in 1994 font command `\rm' has
+(scrartcl)              been defined for compatiblitiy to Script 2.0 only.
+(scrartcl)              Now, after two decades of LaTeX2e and NFSS2, you
+(scrartcl)              shouldn't use such commands any longer and within
+(scrartcl)              KOMA-Script usage of `\rm' is definitely deprecated.
+(scrartcl)              See `fntguide.pdf' for more information about
+(scrartcl)              recommended font commands.
+(scrartcl)              Note also, that KOMA-Script will remove the definition
+(scrartcl)              of `\rm' anytime until release of about version 3.20.
+(scrartcl)              But for now, KOMA-Script will replace deprecated `\rm'
+(scrartcl)              by `\mathrm ' on input line 156.
+
+<FIGURES/exclusion2015SameSign_SR0b3j.pdf, id=537, 569.12625pt x 540.0175pt>
+File: FIGURES/exclusion2015SameSign_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR0b3j.pdf used on input
+ line 172.
+(pdftex.def)             Requested size: 224.56592pt x 213.07797pt.
+
+<FIGURES/exclusion2015SameSign_SR0b5j.pdf, id=538, 569.12625pt x 540.0175pt>
+File: FIGURES/exclusion2015SameSign_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR0b5j.pdf used on input
+ line 175.
+(pdftex.def)             Requested size: 224.56592pt x 213.07797pt.
+
+<FIGURES/exclusion2015SameSign_SR1b.pdf, id=539, 569.12625pt x 540.0175pt>
+File: FIGURES/exclusion2015SameSign_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR1b.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR1b.pdf used on input l
+ine 179.
+(pdftex.def)             Requested size: 224.56592pt x 213.07797pt.
+
+<FIGURES/exclusion2015SameSign_SR3b.pdf, id=540, 569.12625pt x 540.0175pt>
+File: FIGURES/exclusion2015SameSign_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR3b.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR3b.pdf used on input l
+ine 182.
+(pdftex.def)             Requested size: 224.56592pt x 213.07797pt.
+
+
+LaTeX Warning: Citation 'Aad:2015iea' on page 13 undefined on input line 199.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 199.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 199.
+
+LaTeX Warning: Citation 'Aad:2015pfx' on page 13 undefined on input line 199.
+
+
+LaTeX Warning: Citation 'Aad:2015iea' on page 13 undefined on input line 199.
+
+
+LaTeX Warning: Citation 'Aad:2015pfx' on page 13 undefined on input line 199.
+
+
+LaTeX Warning: Citation 'Cowan:2010js' on page 13 undefined on input line 212.
+
+
+LaTeX Warning: Citation 'Aad:2015iea' on page 13 undefined on input line 214.
+
+
+LaTeX Warning: Citation 'Aad:2015pfx' on page 13 undefined on input line 214.
+
+[13 <./FIGURES/CONF_SR0b3j.pdf, page is rotated 90 degrees> <./FIGURES/CONF_SR0
+b5j.pdf, page is rotated 90 degrees> <./FIGURES/CONF_SR1b.pdf, page is rotated 
+90 degrees> <./FIGURES/CONF_SR3b.pdf, page is rotated 90 degrees>] [14]
+
+LaTeX Warning: Text page 15 contains only floats.
+
+[15 <./FIGURES/exclusion2015SameSign_SR0b3j.pdf, page is rotated 90 degrees> <.
+/FIGURES/exclusion2015SameSign_SR0b5j.pdf, page is rotated 90 degrees> <./FIGUR
+ES/exclusion2015SameSign_SR1b.pdf, page is rotated 90 degrees> <./FIGURES/exclu
+sion2015SameSign_SR3b.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation 'Aad:2015pfx' on page 16 undefined on input line 242.
+
+)
+
+LaTeX Warning: Empty bibliography on input line 337.
+
+[16]
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 353.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 24.88pt on input line 353.
+LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 353.
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 17.28pt on input line 353.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 17.28pt on input line 353.
+ (./auxPlots.tex
+<FIGURES/CONF_EE_LEP_NJETS25.pdf, id=910, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_EE_LEP_NJETS25.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_EE_LEP_NJETS25.pdf>
+Package pdftex.def Info: FIGURES/CONF_EE_LEP_NJETS25.pdf used on input line 4.
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_EE_LEP_NBJETS20.pdf, id=911, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_EE_LEP_NBJETS20.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_EE_LEP_NBJETS20.pdf>
+Package pdftex.def Info: FIGURES/CONF_EE_LEP_NBJETS20.pdf used on input line 5.
+
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_EM_LEP_NJETS25.pdf, id=912, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_EM_LEP_NJETS25.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_EM_LEP_NJETS25.pdf>
+Package pdftex.def Info: FIGURES/CONF_EM_LEP_NJETS25.pdf used on input line 6.
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_EM_LEP_NBJETS20.pdf, id=913, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_EM_LEP_NBJETS20.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_EM_LEP_NBJETS20.pdf>
+Package pdftex.def Info: FIGURES/CONF_EM_LEP_NBJETS20.pdf used on input line 7.
+
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_MM_LEP_NJETS25.pdf, id=914, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_MM_LEP_NJETS25.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_MM_LEP_NJETS25.pdf>
+Package pdftex.def Info: FIGURES/CONF_MM_LEP_NJETS25.pdf used on input line 8.
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_MM_LEP_NBJETS20.pdf, id=915, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_MM_LEP_NBJETS20.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_MM_LEP_NBJETS20.pdf>
+Package pdftex.def Info: FIGURES/CONF_MM_LEP_NBJETS20.pdf used on input line 9.
+
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_ttV2bInclVR_met.pdf, id=916, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_ttV2bInclVR_met.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_ttV2bInclVR_met.pdf>
+Package pdftex.def Info: FIGURES/CONF_ttV2bInclVR_met.pdf used on input line 24
+.
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_ttZ1bInclVR_met.pdf, id=917, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_ttZ1bInclVR_met.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_ttZ1bInclVR_met.pdf>
+Package pdftex.def Info: FIGURES/CONF_ttZ1bInclVR_met.pdf used on input line 25
+.
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/CONF_WZVR_met.pdf, id=918, 569.12625pt x 450.68375pt>
+File: FIGURES/CONF_WZVR_met.pdf Graphic file (type pdf)
+
+<use FIGURES/CONF_WZVR_met.pdf>
+Package pdftex.def Info: FIGURES/CONF_WZVR_met.pdf used on input line 26.
+(pdftex.def)             Requested size: 206.2303pt x 163.31194pt.
+
+<FIGURES/ChargeFlips_3fb.pdf, id=919, 569.12625pt x 405.515pt>
+File: FIGURES/ChargeFlips_3fb.pdf Graphic file (type pdf)
+
+<use FIGURES/ChargeFlips_3fb.pdf>
+Package pdftex.def Info: FIGURES/ChargeFlips_3fb.pdf used on input line 41.
+(pdftex.def)             Requested size: 252.06236pt x 179.6028pt.
+
+<FIGURES/exclusion2015SameSign_SR0b3jGN.pdf, id=920, 569.12625pt x 539.01375pt>
+File: FIGURES/exclusion2015SameSign_SR0b3jGN.pdf Graphic file (type pdf)
+<use FIGURES/exclusion2015SameSign_SR0b3jGN.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR0b3jGN.pdf used on inp
+ut line 51.
+(pdftex.def)             Requested size: 219.97852pt x 208.33928pt.
+
+<FIGURES/exclusion2015SameSign_SR0b5jGN.pdf, id=921, 569.12625pt x 540.0175pt>
+File: FIGURES/exclusion2015SameSign_SR0b5jGN.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR0b5jGN.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR0b5jGN.pdf used on inp
+ut line 52.
+(pdftex.def)             Requested size: 219.97852pt x 208.72725pt.
+
+<FIGURES/exclusion2015SameSign_SR1bGN.pdf, id=922, 569.12625pt x 539.01375pt>
+File: FIGURES/exclusion2015SameSign_SR1bGN.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR1bGN.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR1bGN.pdf used on input
+ line 53.
+(pdftex.def)             Requested size: 219.97852pt x 208.33928pt.
+
+<FIGURES/exclusion2015SameSign_SR3bGN.pdf, id=923, 569.12625pt x 539.01375pt>
+File: FIGURES/exclusion2015SameSign_SR3bGN.pdf Graphic file (type pdf)
+
+<use FIGURES/exclusion2015SameSign_SR3bGN.pdf>
+Package pdftex.def Info: FIGURES/exclusion2015SameSign_SR3bGN.pdf used on input
+ line 54.
+(pdftex.def)             Requested size: 219.97852pt x 208.33928pt.
+
+
+LaTeX Warning: Citation 'Aad:2015iea' on page 17 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Aad:2015pfx' on page 17 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Aad:2015iea' on page 17 undefined on input line 64.
+
+
+LaTeX Warning: Citation 'Aad:2015pfx' on page 17 undefined on input line 64.
+
+[17
+
+ <./FIGURES/CONF_EE_LEP_NJETS25.pdf, page is rotated 90 degrees> <./FIGURES/CON
+F_EE_LEP_NBJETS20.pdf, page is rotated 90 degrees> <./FIGURES/CONF_EM_LEP_NJETS
+25.pdf, page is rotated 90 degrees> <./FIGURES/CONF_EM_LEP_NBJETS20.pdf, page i
+s rotated 90 degrees> <./FIGURES/CONF_MM_LEP_NJETS25.pdf, page is rotated 90 de
+grees> <./FIGURES/CONF_MM_LEP_NBJETS20.pdf, page is rotated 90 degrees>]
+[18 <./FIGURES/CONF_ttV2bInclVR_met.pdf, page is rotated 90 degrees> <./FIGURES
+/CONF_ttZ1bInclVR_met.pdf, page is rotated 90 degrees> <./FIGURES/CONF_WZVR_met
+.pdf, page is rotated 90 degrees>] [19 <./FIGURES/ChargeFlips_3fb.pdf, page is 
+rotated 90 degrees>] [20 <./FIGURES/exclusion2015SameSign_SR0b3jGN.pdf, page is
+ rotated 90 degrees> <./FIGURES/exclusion2015SameSign_SR0b5jGN.pdf, page is rot
+ated 90 degrees> <./FIGURES/exclusion2015SameSign_SR1bGN.pdf, page is rotated 9
+0 degrees> <./FIGURES/exclusion2015SameSign_SR3bGN.pdf, page is rotated 90 degr
+ees>]
+<FIGURES/HEPDATA/xsection_SR0b3j.pdf, id=1551, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/xsection_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/xsection_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/xsection_SR0b3j.pdf used on input line
+ 120.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcstats_SR0b3j.pdf, id=1552, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcstats_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcstats_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcstats_SR0b3j.pdf used on input line 
+122.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/acceptance_SR0b3j.pdf, id=1553, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/acceptance_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/acceptance_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/acceptance_SR0b3j.pdf used on input li
+ne 124.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/efficiency_SR0b3j.pdf, id=1554, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/efficiency_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/efficiency_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/efficiency_SR0b3j.pdf used on input li
+ne 126.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/yield_SR0b3j.pdf, id=1555, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/yield_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/yield_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/yield_SR0b3j.pdf used on input line 12
+8.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcsyst_SR0b3j.pdf, id=1556, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcsyst_SR0b3j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcsyst_SR0b3j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcsyst_SR0b3j.pdf used on input line 1
+30.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 137.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 137.
+
+
+LaTeX Warning: Float too large for page by 34.18698pt on input line 139.
+
+<FIGURES/HEPDATA/xsection_SR0b5j.pdf, id=1557, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/xsection_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/xsection_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/xsection_SR0b5j.pdf used on input line
+ 144.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcstats_SR0b5j.pdf, id=1558, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcstats_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcstats_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcstats_SR0b5j.pdf used on input line 
+146.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/acceptance_SR0b5j.pdf, id=1559, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/acceptance_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/acceptance_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/acceptance_SR0b5j.pdf used on input li
+ne 148.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/efficiency_SR0b5j.pdf, id=1560, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/efficiency_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/efficiency_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/efficiency_SR0b5j.pdf used on input li
+ne 150.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/yield_SR0b5j.pdf, id=1561, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/yield_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/yield_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/yield_SR0b5j.pdf used on input line 15
+2.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcsyst_SR0b5j.pdf, id=1562, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcsyst_SR0b5j.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcsyst_SR0b5j.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcsyst_SR0b5j.pdf used on input line 1
+54.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 161.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 161.
+
+
+LaTeX Warning: Float too large for page by 34.18698pt on input line 163.
+
+<FIGURES/HEPDATA/xsection_SR1b.pdf, id=1563, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/xsection_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/xsection_SR1b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/xsection_SR1b.pdf used on input line 1
+68.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcstats_SR1b.pdf, id=1564, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcstats_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcstats_SR1b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcstats_SR1b.pdf used on input line 17
+0.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/acceptance_SR1b.pdf, id=1565, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/acceptance_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/acceptance_SR1b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/acceptance_SR1b.pdf used on input line
+ 172.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/efficiency_SR1b.pdf, id=1566, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/efficiency_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/efficiency_SR1b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/efficiency_SR1b.pdf used on input line
+ 174.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/yield_SR1b.pdf, id=1567, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/yield_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/yield_SR1b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/yield_SR1b.pdf used on input line 176.
+
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcsyst_SR1b.pdf, id=1568, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcsyst_SR1b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcsyst_SR1b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcsyst_SR1b.pdf used on input line 178
+.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 185.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 185.
+
+
+LaTeX Warning: Float too large for page by 34.18698pt on input line 187.
+
+<FIGURES/HEPDATA/xsection_SR3b.pdf, id=1569, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/xsection_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/xsection_SR3b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/xsection_SR3b.pdf used on input line 1
+92.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcstats_SR3b.pdf, id=1570, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcstats_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcstats_SR3b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcstats_SR3b.pdf used on input line 19
+4.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/acceptance_SR3b.pdf, id=1571, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/acceptance_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/acceptance_SR3b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/acceptance_SR3b.pdf used on input line
+ 196.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/efficiency_SR3b.pdf, id=1572, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/efficiency_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/efficiency_SR3b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/efficiency_SR3b.pdf used on input line
+ 198.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/yield_SR3b.pdf, id=1573, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/yield_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/yield_SR3b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/yield_SR3b.pdf used on input line 200.
+
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+<FIGURES/HEPDATA/mcsyst_SR3b.pdf, id=1574, 569.12625pt x 534.99875pt>
+File: FIGURES/HEPDATA/mcsyst_SR3b.pdf Graphic file (type pdf)
+
+<use FIGURES/HEPDATA/mcsyst_SR3b.pdf>
+Package pdftex.def Info: FIGURES/HEPDATA/mcsyst_SR3b.pdf used on input line 202
+.
+(pdftex.def)             Requested size: 192.48207pt x 180.94205pt.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 209.
+
+
+LaTeX Warning: Citation 'Stop2L' on page 21 undefined on input line 209.
+
+
+LaTeX Warning: Float too large for page by 34.18698pt on input line 211.
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
+ [21
+
+] [22 <./FIGURES/HEPDATA/xsection_SR0b3j.pdf, page is rotated 90 degrees> <./FI
+GURES/HEPDATA/mcstats_SR0b3j.pdf, page is rotated 90 degrees> <./FIGURES/HEPDAT
+A/acceptance_SR0b3j.pdf, page is rotated 90 degrees> <./FIGURES/HEPDATA/efficie
+ncy_SR0b3j.pdf, page is rotated 90 degrees> <./FIGURES/HEPDATA/yield_SR0b3j.pdf
+, page is rotated 90 degrees> <./FIGURES/HEPDATA/mcsyst_SR0b3j.pdf, page is rot
+ated 90 degrees>] [23 <./FIGURES/HEPDATA/xsection_SR0b5j.pdf, page is rotated 9
+0 degrees> <./FIGURES/HEPDATA/mcstats_SR0b5j.pdf, page is rotated 90 degrees> <
+./FIGURES/HEPDATA/acceptance_SR0b5j.pdf, page is rotated 90 degrees> <./FIGURES
+/HEPDATA/efficiency_SR0b5j.pdf, page is rotated 90 degrees> <./FIGURES/HEPDATA/
+yield_SR0b5j.pdf, page is rotated 90 degrees> <./FIGURES/HEPDATA/mcsyst_SR0b5j.
+pdf, page is rotated 90 degrees>] [24 <./FIGURES/HEPDATA/xsection_SR1b.pdf, pag
+e is rotated 90 degrees> <./FIGURES/HEPDATA/mcstats_SR1b.pdf, page is rotated 9
+0 degrees> <./FIGURES/HEPDATA/acceptance_SR1b.pdf, page is rotated 90 degrees> 
+<./FIGURES/HEPDATA/efficiency_SR1b.pdf, page is rotated 90 degrees> <./FIGURES/
+HEPDATA/yield_SR1b.pdf, page is rotated 90 degrees> <./FIGURES/HEPDATA/mcsyst_S
+R1b.pdf, page is rotated 90 degrees>] [25 <./FIGURES/HEPDATA/xsection_SR3b.pdf,
+ page is rotated 90 degrees> <./FIGURES/HEPDATA/mcstats_SR3b.pdf, page is rotat
+ed 90 degrees> <./FIGURES/HEPDATA/acceptance_SR3b.pdf, page is rotated 90 degre
+es> <./FIGURES/HEPDATA/efficiency_SR3b.pdf, page is rotated 90 degrees> <./FIGU
+RES/HEPDATA/yield_SR3b.pdf, page is rotated 90 degrees> <./FIGURES/HEPDATA/mcsy
+st_SR3b.pdf, page is rotated 90 degrees>] [26]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
+ (./ss3l2015pub.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
+Package rerunfilecheck Info: File `ss3l2015pub.out' has not changed.
+(rerunfilecheck)             Checksum: 9FA6F4636735F2B3A56D77AB4AB4A456;680.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                ss3l2015pub
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'ss3l2015pub.run.xml'.
+\openout1 = `ss3l2015pub.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
+ ) 
+Here is how much of TeX's memory you used:
+ 29437 strings out of 493054
+ 531635 string characters out of 6133427
+ 883491 words of memory out of 5000000
+ 32296 multiletter control sequences out of 15000+600000
+ 290173 words of font info for 405 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 74i,16n,112p,10409b,1418s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.en
+c}{/afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/enc/dvips/base/8r.enc}{/afs/cern
+.ch/sw/XML/TL2015/texmf-dist/fonts/enc/dvips/base/ec.enc}{/afs/cern.ch/sw/XML/T
+L2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/afs/cern.ch/sw/XML/TL2015
+/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{/afs/cern.ch/sw/XML/TL2015/te
+xmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/afs/cern.ch/sw/XML/TL2015/texm
+f-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}</afs/cern.ch/sw/XML/TL2015/texmf-dist
+/fonts/type1/public/newtx/ntxsups-Regular.pfb></afs/cern.ch/sw/XML/TL2015/texmf
+-dist/fonts/type1/public/tex-gyre/qhvb.pfb></afs/cern.ch/sw/XML/TL2015/texmf-di
+st/fonts/type1/public/tex-gyre/qhvr.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/
+fonts/type1/public/tex-gyre/qtmb.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fon
+ts/type1/public/tex-gyre/qtmr.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/
+type1/public/tex-gyre/qtmri.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/ty
+pe1/public/newtx/rntxbmi.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1
+/public/newtx/rntxmi.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/pub
+lic/newtx/rntxmi5.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public
+/newtx/rntxmi7.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/tx
+fonts/rtxb.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfont
+s/rtxmi.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/newtx/rtx
+mi7.pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/rtxr.
+pfb></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb
+></afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/txbsy.pfb></
+afs/cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/txex.pfb></afs/
+cern.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></afs/cer
+n.ch/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></afs/cern.ch
+/sw/XML/TL2015/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></afs/cern.ch/sw
+/XML/TL2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></afs/cern.ch/sw/XML
+/TL2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></afs/cern.ch/sw/XML/TL2
+015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></afs/cern.ch/sw/XML/TL2015
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></afs/cern.ch/sw/XML/TL2015/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ss3l2015pub.pdf (28 pages, 2011747 bytes).
+PDF statistics:
+ 2753 PDF objects out of 2984 (max. 8388607)
+ 1303 compressed objects within 14 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+

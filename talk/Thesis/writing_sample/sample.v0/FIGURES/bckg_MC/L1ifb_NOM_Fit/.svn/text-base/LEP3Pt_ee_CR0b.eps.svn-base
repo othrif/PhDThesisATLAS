@@ -1,0 +1,180 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%BoundingBox:  0 0 567 711
+%%Title: ./results/LEP3Pt_ee_CR0b.eps: c2
+%%Creator: ROOT Version 6.02/05
+%%CreationDate: Mon Oct 12 20:09:36 2015
+%%EndComments
+%%BeginProlog
+80 dict begin
+/s {stroke} def /l {lineto} def /m {moveto} def /t {translate} def
+/r {rotate} def /rl {roll}  def /R {repeat} def
+/d {rlineto} def /rm {rmoveto} def /gr {grestore} def /f {eofill} def
+/c {setrgbcolor} def /black {0 setgray} def /sd {setdash} def
+/cl {closepath} def /sf {scalefont setfont} def /lw {setlinewidth} def
+/box {m dup 0 exch d exch 0 d 0 exch neg d cl} def
+/NC{systemdict begin initclip end}def/C{NC box clip newpath}def
+/bl {box s} def /bf {box f} def /Y { 0 exch d} def /X { 0 d} def 
+/K {{pop pop 0 moveto} exch kshow} bind def
+/ita {/ang 15 def gsave [1 0 ang dup sin exch cos div 1 0 0] concat} def 
+/mp {newpath /y exch def /x exch def} def
+/side {[w .77 mul w .23 mul] .385 w mul sd w 0 l currentpoint t -144 r} def
+/mr {mp x y w2 0 360 arc} def /m24 {mr s} def /m20 {mr f} def
+/mb {mp x y w2 add m w2 neg 0 d 0 w neg d w 0 d 0 w d cl} def
+/mt {mp x y w2 add m w2 neg w neg d w 0 d cl} def
+/m21 {mb f} def /m25 {mb s} def /m22 {mt f} def /m26{mt s} def
+/m23 {mp x y w2 sub m w2 w d w neg 0 d cl f} def
+/m27 {mp x y w2 add m w3 neg w2 neg d w3 w2 neg d w3 w2 d cl s} def
+/m28 {mp x w2 sub y w2 sub w3 add m w3 0 d  0 w3 neg d w3 0 d 0 w3 d w3 0 d  0 w3 d w3 neg 0 d 0 w3 d w3 neg 0 d 0 w3 neg d w3 neg 0 d cl s } def
+/m29 {mp gsave x w2 sub y w2 add w3 sub m currentpoint t 4 {side} repeat cl fill gr} def
+/m30 {mp gsave x w2 sub y w2 add w3 sub m currentpoint t 4 {side} repeat cl s gr} def
+/m31 {mp x y w2 sub m 0 w d x w2 sub y m w 0 d x w2 sub y w2 add m w w neg d x w2 sub y w2 sub m w w d s} def
+/m32 {mp x y w2 sub m w2 w d w neg 0 d cl s} def
+/m33 {mp x y w2 add m w3 neg w2 neg d w3 w2 neg d w3 w2 d cl f} def
+/m34 {mp x w2 sub y w2 sub w3 add m w3 0 d  0 w3 neg d w3 0 d 0 w3 d w3 0 d  0 w3 d w3 neg 0 d 0 w3 d w3 neg 0 d 0 w3 neg d w3 neg 0 d cl f } def
+/m2 {mp x y w2 sub m 0 w d x w2 sub y m w 0 d s} def
+/m5 {mp x w2 sub y w2 sub m w w d x w2 sub y w2 add m w w neg d s} def
+/reEncode {exch findfont dup length dict begin {1 index /FID eq  {pop pop} {def} ifelse } forall /Encoding exch def currentdict end dup /FontName get exch definefont pop } def [/Times-Bold /Times-Italic /Times-BoldItalic /Helvetica /Helvetica-Oblique
+ /Helvetica-Bold /Helvetica-BoldOblique /Courier /Courier-Oblique /Courier-Bold /Courier-BoldOblique /Times-Roman /AvantGarde-Book /AvantGarde-BookOblique /AvantGarde-Demi /AvantGarde-DemiOblique /Bookman-Demi /Bookman-DemiItalic /Bookman-Light
+ /Bookman-LightItalic /Helvetica-Narrow /Helvetica-Narrow-Bold /Helvetica-Narrow-BoldOblique /Helvetica-Narrow-Oblique /NewCenturySchlbk-Roman /NewCenturySchlbk-Bold /NewCenturySchlbk-BoldItalic /NewCenturySchlbk-Italic /Palatino-Bold
+ /Palatino-BoldItalic /Palatino-Italic /Palatino-Roman ] {ISOLatin1Encoding reEncode } forall
+%%EndProlog
+%%BeginSetup
+%%EndSetup
+newpath  gsave  .25 .25 scale  gsave  0 0 t black[  ] 0 sd 3 lw 1 1 1 c 2268 2842 0 0 bf black 1 1 1 c 2268 1847 0 995 bf black 1 1 1 c 1791 1737 363 995 bf black 1791 1737 363 995 bl 1 1 1 c 1791 1737 363 995 bf black 1791 1737 363 995 bl 811 1423 m
+ 75 Y s 811 1543 m 75 Y s 661 1521 m 127 X s 834 1521 m 126 X s /w 49 def /w2 {w 2 div} def /w3 {w 3 div} def 811 1521 m20 1109 1875 m 112 Y s 1109 2033 m 113 Y s 960 2010 m 126 X s 1132 2010 m 127 X s 1109 2010 m20 1408 1390 m 72 Y s 1408 1507 m 72
+ Y s 1259 1484 m 126 X s 1431 1484 m 126 X s 1408 1484 m20 1706 1292 m 61 Y s 1706 1398 m 61 Y s 1557 1376 m 127 X s 1729 1376 m 127 X s 1706 1376 m20 2005 1605 m 92 Y s 2005 1743 m 92 Y s 1856 1720 m 126 X s 2028 1720 m 126 X s 2005 1720 m20 363 995
+ m 1791 X s
+ gsave  2268 1847 0 995 C 1343.13 821.857 t 0 r /Helvetica findfont 102.849 sf 0 0 m (\(3rd lepton\) [GeV]) show NC gr 
+ gsave  2268 1847 0 995 C 1301.27 768.589 t 0 r /Helvetica findfont 68.5658 sf 0 0 m (T) show NC gr 
+ gsave  2268 1847 0 995 C 1244.2 821.857 t 0 r /Helvetica findfont 102.849 sf 0 0 m (p) show NC gr  363 1039 m -44 Y s 437 1017 m -22 Y s 512 1017 m -22 Y s 587 1017 m -22 Y s 661 1039 m -44 Y s 736 1017 m -22 Y s 811 1017 m -22 Y s 885 1017 m -22 Y
+ s 960 1039 m -44 Y s 1035 1017 m -22 Y s 1109 1017 m -22 Y s 1184 1017 m -22 Y s 1259 1039 m -44 Y s 1333 1017 m -22 Y s 1408 1017 m -22 Y s 1483 1017 m -22 Y s 1557 1039 m -44 Y s 1632 1017 m -22 Y s 1706 1017 m -22 Y s 1781 1017 m -22 Y s 1856
+ 1039 m -44 Y s 1930 1017 m -22 Y s 2005 1017 m -22 Y s 2080 1017 m -22 Y s 2154 1039 m -44 Y s
+ gsave  2268 1847 0 995 C 331.026 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (0) show NC gr 
+ gsave  2268 1847 0 995 C 601.173 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (20) show NC gr 
+ gsave  2268 1847 0 995 C 901.76 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (40) show NC gr 
+ gsave  2268 1847 0 995 C 1198.54 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (60) show NC gr 
+ gsave  2268 1847 0 995 C 1499.13 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (80) show NC gr 
+ gsave  2268 1847 0 995 C 1765.47 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (100) show NC gr 
+ gsave  2268 1847 0 995 C 2066.06 897.955 t 0 r /Helvetica findfont 106.658 sf 0 0 m (120) show NC gr  363 2732 m 1791 X s 363 2688 m 44 Y s 437 2710 m 22 Y s 512 2710 m 22 Y s 587 2710 m 22 Y s 661 2688 m 44 Y s 736 2710 m 22 Y s 811 2710 m 22 Y s
+ 885 2710 m 22 Y s 960 2688 m 44 Y s 1035 2710 m 22 Y s 1109 2710 m 22 Y s 1184 2710 m 22 Y s 1259 2688 m 44 Y s 1333 2710 m 22 Y s 1408 2710 m 22 Y s 1483 2710 m 22 Y s 1557 2688 m 44 Y s 1632 2710 m 22 Y s 1706 2710 m 22 Y s 1781 2710 m 22 Y s 1856
+ 2688 m 44 Y s 1930 2710 m 22 Y s 2005 2710 m 22 Y s 2080 2710 m 22 Y s 2154 2688 m 44 Y s 363 995 m 1737 Y s
+ gsave  2268 1847 0 995 C 117.952 1989.96 t 90 r /Helvetica findfont 102.849 sf 0 0 m (Events / 20 GeV) show NC gr  427 1176 m -64 X s 395 1212 m -32 X s 395 1249 m -32 X s 395 1285 m -32 X s 395 1321 m -32 X s 427 1357 m -64 X s 395 1394 m -32 X s
+ 395 1430 m -32 X s 395 1466 m -32 X s 395 1503 m -32 X s 427 1539 m -64 X s 395 1575 m -32 X s 395 1611 m -32 X s 395 1648 m -32 X s 395 1684 m -32 X s 427 1720 m -64 X s 395 1756 m -32 X s 395 1793 m -32 X s 395 1829 m -32 X s 395 1865 m -32 X s
+ 427 1901 m -64 X s 395 1938 m -32 X s 395 1974 m -32 X s 395 2010 m -32 X s 395 2047 m -32 X s 427 2083 m -64 X s 395 2119 m -32 X s 395 2155 m -32 X s 395 2192 m -32 X s 395 2228 m -32 X s 427 2264 m -64 X s 395 2300 m -32 X s 395 2337 m -32 X s
+ 395 2373 m -32 X s 395 2409 m -32 X s 427 2445 m -64 X s 395 2482 m -32 X s 395 2518 m -32 X s 395 2554 m -32 X s 395 2591 m -32 X s 427 2627 m -64 X s 427 1176 m -64 X s 395 1140 m -32 X s 395 1104 m -32 X s 395 1067 m -32 X s 395 1031 m -32 X s
+ 427 2627 m -64 X s 395 2663 m -32 X s 395 2699 m -32 X s
+ gsave  2268 1847 0 995 C 235.903 1141.47 t 0 r /Helvetica findfont 106.658 sf 0 0 m (10) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 1320.3 t 0 r /Helvetica findfont 106.658 sf 0 0 m (20) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 1502.93 t 0 r /Helvetica findfont 106.658 sf 0 0 m (30) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 1685.57 t 0 r /Helvetica findfont 106.658 sf 0 0 m (40) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 1864.4 t 0 r /Helvetica findfont 106.658 sf 0 0 m (50) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 2047.03 t 0 r /Helvetica findfont 106.658 sf 0 0 m (60) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 2229.67 t 0 r /Helvetica findfont 106.658 sf 0 0 m (70) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 2408.5 t 0 r /Helvetica findfont 106.658 sf 0 0 m (80) show NC gr 
+ gsave  2268 1847 0 995 C 235.903 2591.13 t 0 r /Helvetica findfont 106.658 sf 0 0 m (90) show NC gr  2154 995 m 1737 Y s 2090 1176 m 64 X s 2122 1212 m 32 X s 2122 1249 m 32 X s 2122 1285 m 32 X s 2122 1321 m 32 X s 2090 1357 m 64 X s 2122 1394 m 32
+ X s 2122 1430 m 32 X s 2122 1466 m 32 X s 2122 1503 m 32 X s 2090 1539 m 64 X s 2122 1575 m 32 X s 2122 1611 m 32 X s 2122 1648 m 32 X s 2122 1684 m 32 X s 2090 1720 m 64 X s 2122 1756 m 32 X s 2122 1793 m 32 X s 2122 1829 m 32 X s 2122 1865 m 32 X
+ s 2090 1901 m 64 X s 2122 1938 m 32 X s 2122 1974 m 32 X s 2122 2010 m 32 X s 2122 2047 m 32 X s 2090 2083 m 64 X s 2122 2119 m 32 X s 2122 2155 m 32 X s 2122 2192 m 32 X s 2122 2228 m 32 X s 2090 2264 m 64 X s 2122 2300 m 32 X s 2122 2337 m 32 X s
+ 2122 2373 m 32 X s 2122 2409 m 32 X s 2090 2445 m 64 X s 2122 2482 m 32 X s 2122 2518 m 32 X s 2122 2554 m 32 X s 2122 2591 m 32 X s 2090 2627 m 64 X s 2090 1176 m 64 X s 2122 1140 m 32 X s 2122 1104 m 32 X s 2122 1067 m 32 X s 2122 1031 m 32 X s
+ 2090 2627 m 64 X s 2122 2663 m 32 X s 2122 2699 m 32 X s 0.6 0.8 1 c black 0.6 0.8 1 c 363 995 m 298 X 550 Y 299 X 619 Y 299 X -577 Y 298 X -270 Y 299 X 251 Y 298 X -573 Y f black 0.6 0.8 1 c black 363 995 m 298 X 550 Y 299 X 619 Y 299 X -577 Y 298
+ X -270 Y 299 X 251 Y 298 X s 0.999 0.999 0.999 c black 0.999 0.999 0.999 c 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X -223 Y f black 0.999 0.999 0.999 c black 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y
+ 299 X 119 Y 298 X s 1 1 1 c black 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X s 1 1 0.6 c black 1 1 0.6 c 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X -223 Y f black 1 1 0.6 c black 363
+ 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X s 0.999 0.999 0.999 c black 0.999 0.999 0.999 c 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X -223 Y f black 0.999 0.999 0.999 c black 363 995 m
+ 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X s 1 1 1 c black 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X s 1 0 0 c black 1 0 0 c 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119
+ Y 298 X -223 Y f black 1 0 0 c black 363 995 m 298 X 106 Y 299 X 144 Y 299 X -95 Y 298 X -51 Y 299 X 119 Y 298 X s 0.999 0.999 0.999 c black 0.999 0.999 0.999 c 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X -222 Y f
+ black 0.999 0.999 0.999 c black 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X s 1 1 1 c black 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X s 1 0.8 0.8 c black 1 0.8 0.8 c 363 995 m 298 X 67
+ Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X -222 Y f black 1 0.8 0.8 c black 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X s 0.999 0.999 0.999 c black 0.999 0.999 0.999 c 363 995 m 298 X 67 Y 299 X 157 Y 299
+ X -72 Y 298 X -50 Y 299 X 120 Y 298 X -222 Y f black 0.999 0.999 0.999 c black 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X s 1 1 1 c black 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X s 0
+ 0.8 0 c black 0 0.8 0 c 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X -222 Y f black 0 0.8 0 c black 363 995 m 298 X 67 Y 299 X 157 Y 299 X -72 Y 298 X -50 Y 299 X 120 Y 298 X s 0.999 0.999 0.999 c black 0.999 0.999
+ 0.999 c 363 995 m 298 X 50 Y 299 X 114 Y 299 X -37 Y 298 X -29 Y 299 X 40 Y 298 X -138 Y f black 0.999 0.999 0.999 c black 363 995 m 298 X 50 Y 299 X 114 Y 299 X -37 Y 298 X -29 Y 299 X 40 Y 298 X s 1 1 1 c black 363 995 m 298 X 50 Y 299 X 114 Y 299
+ X -37 Y 298 X -29 Y 299 X 40 Y 298 X s 0.4 0.4 0.4 c black 0.4 0.4 0.4 c 363 995 m 298 X 50 Y 299 X 114 Y 299 X -37 Y 298 X -29 Y 299 X 40 Y 298 X -138 Y f black 0.4 0.4 0.4 c black 363 995 m 298 X 50 Y 299 X 114 Y 299 X -37 Y 298 X -29 Y 299 X 40 Y
+ 298 X s 960 1425 m -1 X s 960 1473 m -49 -48 d s 960 1521 m -97 -96 d s 960 1569 m -145 -144 d s 960 1617 m -193 -192 d s 960 1666 m -241 -241 d s 919 1673 m -248 -248 d s 871 1673 m -210 -210 d s 823 1673 m -162 -162 d s 775 1673 m -114 -114 d s
+ 727 1673 m -66 -65 d s 679 1673 m -18 -17 d s 1259 2012 m -34 -34 d s 1259 2060 m -83 -82 d s 1259 2108 m -131 -130 d s 1259 2156 m -179 -178 d s 1259 2204 m -227 -226 d s 1259 2252 m -275 -274 d s 1259 2300 m -299 -298 d s 1259 2348 m -299 -298 d s
+ 1214 2352 m -254 -254 d s 1166 2352 m -206 -206 d s 1118 2352 m -158 -158 d s 1070 2352 m -110 -110 d s 1022 2352 m -62 -62 d s 974 2352 m -14 -14 d s 1557 1493 m -12 -12 d s 1557 1541 m -61 -60 d s 1557 1589 m -109 -108 d s 1557 1637 m -157 -156 d
+ s 1557 1685 m -205 -204 d s 1517 1693 m -213 -212 d s 1469 1693 m -210 -210 d s 1421 1693 m -162 -162 d s 1373 1693 m -114 -114 d s 1325 1693 m -66 -66 d s 1277 1693 m -18 -18 d s 1856 1263 m -14 -14 d s 1856 1311 m -62 -62 d s 1856 1359 m -110 -110
+ d s 1834 1386 m -136 -137 d s 1786 1386 m -137 -137 d s 1738 1386 m -137 -137 d s 1690 1386 m -133 -133 d s 1642 1386 m -85 -85 d s 1594 1386 m -37 -37 d s 2154 1465 m -17 -18 d s 2154 1513 m -65 -66 d s 2154 1561 m -114 -114 d s 2154 1609 m -162
+ -162 d s 2154 1657 m -210 -210 d s 2137 1688 m -241 -241 d s 2089 1688 m -233 -233 d s 2041 1688 m -185 -185 d s 1992 1688 m -136 -137 d s 1944 1688 m -88 -89 d s 1896 1688 m -40 -41 d s 811 1423 m 75 Y s 811 1543 m 75 Y s 661 1521 m 127 X s 834
+ 1521 m 126 X s 811 1521 m20 1109 1875 m 112 Y s 1109 2033 m 113 Y s 960 2010 m 126 X s 1132 2010 m 127 X s 1109 2010 m20 1408 1390 m 72 Y s 1408 1507 m 72 Y s 1259 1484 m 126 X s 1431 1484 m 126 X s 1408 1484 m20 1706 1292 m 61 Y s 1706 1398 m 61 Y
+ s 1557 1376 m 127 X s 1729 1376 m 127 X s 1706 1376 m20 2005 1605 m 92 Y s 2005 1743 m 92 Y s 1856 1720 m 126 X s 2028 1720 m 126 X s 2005 1720 m20 1 1 1 c 499 628 1315 2066 bf black
+ gsave  2268 1847 0 995 C 1731.23 2560.69 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (=13 TeV) show NC gr 
+ gsave  2268 1847 0 995 C 1693.18 2560.69 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (s) show NC gr  6 lw 1667 2606 m 7 -49 d s 0 lw 1674 2557 m 12 72 d s 1686 2629 m 45 X s
+ gsave  2268 1847 0 995 C 1438.25 2560.69 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (Data, ) show NC gr  3 lw 1334 2577 m 87 X s 1378 2553 m 47 Y s 1378 2577 m20
+ gsave  2268 1847 0 995 C 1438.25 2480.79 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (Prompt Isolated) show NC gr  0.4 0.4 0.4 c 1334 2471 m 87 X 55 Y -87 X f black 1334 2526 m 87 X s 1334 2471 m 87 X s 1421 2471 m 55 Y s 1334 2471 m 55 Y s
+ gsave  2268 1847 0 995 C 1438.25 2404.69 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (EL_LF) show NC gr  0 0.8 0 c 1334 2392 m 87 X 55 Y -87 X f black 1334 2447 m 87 X s 1334 2392 m 87 X s 1421 2392 m 55 Y s 1334 2392 m 55 Y s
+ gsave  2268 1847 0 995 C 1438.25 2324.79 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (MU_LF) show NC gr  1 0.8 0.8 c 1334 2314 m 87 X 55 Y -87 X f black 1334 2369 m 87 X s 1334 2314 m 87 X s 1421 2314 m 55 Y s 1334 2314 m 55 Y s
+ gsave  2268 1847 0 995 C 1438.25 2248.69 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (EL_HF) show NC gr  1 0 0 c 1334 2235 m 87 X 55 Y -87 X f black 1334 2290 m 87 X s 1334 2235 m 87 X s 1421 2235 m 55 Y s 1334 2235 m 55 Y s
+ gsave  2268 1847 0 995 C 1438.25 2168.79 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (MU_HF) show NC gr  1 1 0.6 c 1334 2157 m 87 X 55 Y -87 X f black 1334 2212 m 87 X s 1334 2157 m 87 X s 1421 2157 m 55 Y s 1334 2157 m 55 Y s
+ gsave  2268 1847 0 995 C 1438.25 2088.89 t 0 r /Helvetica findfont 79.9934 sf 0 0 m (Charge Flip) show NC gr  0.6 0.8 1 c 1334 2078 m 87 X 55 Y -87 X f black 1334 2133 m 87 X s 1334 2078 m 87 X s 1421 2078 m 55 Y s 1334 2078 m 55 Y s
+ gsave  2268 1847 0 995 C 429.953 2594.94 t 0 r /Helvetica-BoldOblique findfont 72.375 sf 0 0 m (ATLAS) show NC gr 
+ gsave  2268 1847 0 995 C 700.1 2594.94 t 0 r /Helvetica findfont 72.375 sf 0 0 m (Preliminary) show NC gr 
+ gsave  2268 1847 0 995 C 958.833 2499.81 t 0 r /Helvetica findfont 45.7105 sf 0 0 m (\2551) show NC gr 
+ gsave  2268 1847 0 995 C 593.563 2457.96 t 0 r /Helvetica findfont 72.375 sf 0 0 m (Ldt=1.04 fb) show NC gr 
+ gsave  2268 1847 0 995 C 544.1 2423.72 t 0 r /Symbol findfont 163.796 sf 0 0 m (ò) show NC gr 
+ gsave  2268 1847 0 995 C 475.612 2252.5 t 0 r /Helvetica findfont 53.3289 sf 0 0 m (Channel ee ) show NC gr  363 995 m 1791 X s 363 1039 m -44 Y s 437 1017 m -22 Y s 512 1017 m -22 Y s 587 1017 m -22 Y s 661 1039 m -44 Y s 736 1017 m -22 Y s 811
+ 1017 m -22 Y s 885 1017 m -22 Y s 960 1039 m -44 Y s 1035 1017 m -22 Y s 1109 1017 m -22 Y s 1184 1017 m -22 Y s 1259 1039 m -44 Y s 1333 1017 m -22 Y s 1408 1017 m -22 Y s 1483 1017 m -22 Y s 1557 1039 m -44 Y s 1632 1017 m -22 Y s 1706 1017 m -22
+ Y s 1781 1017 m -22 Y s 1856 1039 m -44 Y s 1930 1017 m -22 Y s 2005 1017 m -22 Y s 2080 1017 m -22 Y s 2154 1039 m -44 Y s 363 2732 m 1791 X s 363 2688 m 44 Y s 437 2710 m 22 Y s 512 2710 m 22 Y s 587 2710 m 22 Y s 661 2688 m 44 Y s 736 2710 m 22 Y
+ s 811 2710 m 22 Y s 885 2710 m 22 Y s 960 2688 m 44 Y s 1035 2710 m 22 Y s 1109 2710 m 22 Y s 1184 2710 m 22 Y s 1259 2688 m 44 Y s 1333 2710 m 22 Y s 1408 2710 m 22 Y s 1483 2710 m 22 Y s 1557 2688 m 44 Y s 1632 2710 m 22 Y s 1706 2710 m 22 Y s
+ 1781 2710 m 22 Y s 1856 2688 m 44 Y s 1930 2710 m 22 Y s 2005 2710 m 22 Y s 2080 2710 m 22 Y s 2154 2688 m 44 Y s 363 995 m 1737 Y s 427 1176 m -64 X s 395 1212 m -32 X s 395 1249 m -32 X s 395 1285 m -32 X s 395 1321 m -32 X s 427 1357 m -64 X s
+ 395 1394 m -32 X s 395 1430 m -32 X s 395 1466 m -32 X s 395 1503 m -32 X s 427 1539 m -64 X s 395 1575 m -32 X s 395 1611 m -32 X s 395 1648 m -32 X s 395 1684 m -32 X s 427 1720 m -64 X s 395 1756 m -32 X s 395 1793 m -32 X s 395 1829 m -32 X s
+ 395 1865 m -32 X s 427 1901 m -64 X s 395 1938 m -32 X s 395 1974 m -32 X s 395 2010 m -32 X s 395 2047 m -32 X s 427 2083 m -64 X s 395 2119 m -32 X s 395 2155 m -32 X s 395 2192 m -32 X s 395 2228 m -32 X s 427 2264 m -64 X s 395 2300 m -32 X s
+ 395 2337 m -32 X s 395 2373 m -32 X s 395 2409 m -32 X s 427 2445 m -64 X s 395 2482 m -32 X s 395 2518 m -32 X s 395 2554 m -32 X s 395 2591 m -32 X s 427 2627 m -64 X s 427 1176 m -64 X s 395 1140 m -32 X s 395 1104 m -32 X s 395 1067 m -32 X s
+ 395 1031 m -32 X s 427 2627 m -64 X s 395 2663 m -32 X s 395 2699 m -32 X s 2154 995 m 1737 Y s 2090 1176 m 64 X s 2122 1212 m 32 X s 2122 1249 m 32 X s 2122 1285 m 32 X s 2122 1321 m 32 X s 2090 1357 m 64 X s 2122 1394 m 32 X s 2122 1430 m 32 X s
+ 2122 1466 m 32 X s 2122 1503 m 32 X s 2090 1539 m 64 X s 2122 1575 m 32 X s 2122 1611 m 32 X s 2122 1648 m 32 X s 2122 1684 m 32 X s 2090 1720 m 64 X s 2122 1756 m 32 X s 2122 1793 m 32 X s 2122 1829 m 32 X s 2122 1865 m 32 X s 2090 1901 m 64 X s
+ 2122 1938 m 32 X s 2122 1974 m 32 X s 2122 2010 m 32 X s 2122 2047 m 32 X s 2090 2083 m 64 X s 2122 2119 m 32 X s 2122 2155 m 32 X s 2122 2192 m 32 X s 2122 2228 m 32 X s 2090 2264 m 64 X s 2122 2300 m 32 X s 2122 2337 m 32 X s 2122 2373 m 32 X s
+ 2122 2409 m 32 X s 2090 2445 m 64 X s 2122 2482 m 32 X s 2122 2518 m 32 X s 2122 2554 m 32 X s 2122 2591 m 32 X s 2090 2627 m 64 X s 2090 1176 m 64 X s 2122 1140 m 32 X s 2122 1104 m 32 X s 2122 1067 m 32 X s 2122 1031 m 32 X s 2090 2627 m 64 X s
+ 2122 2663 m 32 X s 2122 2699 m 32 X s 363 995 m 1791 X s 363 1039 m -44 Y s 437 1017 m -22 Y s 512 1017 m -22 Y s 587 1017 m -22 Y s 661 1039 m -44 Y s 736 1017 m -22 Y s 811 1017 m -22 Y s 885 1017 m -22 Y s 960 1039 m -44 Y s 1035 1017 m -22 Y s
+ 1109 1017 m -22 Y s 1184 1017 m -22 Y s 1259 1039 m -44 Y s 1333 1017 m -22 Y s 1408 1017 m -22 Y s 1483 1017 m -22 Y s 1557 1039 m -44 Y s 1632 1017 m -22 Y s 1706 1017 m -22 Y s 1781 1017 m -22 Y s 1856 1039 m -44 Y s 1930 1017 m -22 Y s 2005 1017
+ m -22 Y s 2080 1017 m -22 Y s 2154 1039 m -44 Y s 363 2732 m 1791 X s 363 2688 m 44 Y s 437 2710 m 22 Y s 512 2710 m 22 Y s 587 2710 m 22 Y s 661 2688 m 44 Y s 736 2710 m 22 Y s 811 2710 m 22 Y s 885 2710 m 22 Y s 960 2688 m 44 Y s 1035 2710 m 22 Y
+ s 1109 2710 m 22 Y s 1184 2710 m 22 Y s 1259 2688 m 44 Y s 1333 2710 m 22 Y s 1408 2710 m 22 Y s 1483 2710 m 22 Y s 1557 2688 m 44 Y s 1632 2710 m 22 Y s 1706 2710 m 22 Y s 1781 2710 m 22 Y s 1856 2688 m 44 Y s 1930 2710 m 22 Y s 2005 2710 m 22 Y s
+ 2080 2710 m 22 Y s 2154 2688 m 44 Y s 363 995 m 1737 Y s 427 1176 m -64 X s 395 1212 m -32 X s 395 1249 m -32 X s 395 1285 m -32 X s 395 1321 m -32 X s 427 1357 m -64 X s 395 1394 m -32 X s 395 1430 m -32 X s 395 1466 m -32 X s 395 1503 m -32 X s
+ 427 1539 m -64 X s 395 1575 m -32 X s 395 1611 m -32 X s 395 1648 m -32 X s 395 1684 m -32 X s 427 1720 m -64 X s 395 1756 m -32 X s 395 1793 m -32 X s 395 1829 m -32 X s 395 1865 m -32 X s 427 1901 m -64 X s 395 1938 m -32 X s 395 1974 m -32 X s
+ 395 2010 m -32 X s 395 2047 m -32 X s 427 2083 m -64 X s 395 2119 m -32 X s 395 2155 m -32 X s 395 2192 m -32 X s 395 2228 m -32 X s 427 2264 m -64 X s 395 2300 m -32 X s 395 2337 m -32 X s 395 2373 m -32 X s 395 2409 m -32 X s 427 2445 m -64 X s
+ 395 2482 m -32 X s 395 2518 m -32 X s 395 2554 m -32 X s 395 2591 m -32 X s 427 2627 m -64 X s 427 1176 m -64 X s 395 1140 m -32 X s 395 1104 m -32 X s 395 1067 m -32 X s 395 1031 m -32 X s 427 2627 m -64 X s 395 2663 m -32 X s 395 2699 m -32 X s
+ 2154 995 m 1737 Y s 2090 1176 m 64 X s 2122 1212 m 32 X s 2122 1249 m 32 X s 2122 1285 m 32 X s 2122 1321 m 32 X s 2090 1357 m 64 X s 2122 1394 m 32 X s 2122 1430 m 32 X s 2122 1466 m 32 X s 2122 1503 m 32 X s 2090 1539 m 64 X s 2122 1575 m 32 X s
+ 2122 1611 m 32 X s 2122 1648 m 32 X s 2122 1684 m 32 X s 2090 1720 m 64 X s 2122 1756 m 32 X s 2122 1793 m 32 X s 2122 1829 m 32 X s 2122 1865 m 32 X s 2090 1901 m 64 X s 2122 1938 m 32 X s 2122 1974 m 32 X s 2122 2010 m 32 X s 2122 2047 m 32 X s
+ 2090 2083 m 64 X s 2122 2119 m 32 X s 2122 2155 m 32 X s 2122 2192 m 32 X s 2122 2228 m 32 X s 2090 2264 m 64 X s 2122 2300 m 32 X s 2122 2337 m 32 X s 2122 2373 m 32 X s 2122 2409 m 32 X s 2090 2445 m 64 X s 2122 2482 m 32 X s 2122 2518 m 32 X s
+ 2122 2554 m 32 X s 2122 2591 m 32 X s 2090 2627 m 64 X s 2090 1176 m 64 X s 2122 1140 m 32 X s 2122 1104 m 32 X s 2122 1067 m 32 X s 2122 1031 m 32 X s 2090 2627 m 64 X s 2122 2663 m 32 X s 2122 2699 m 32 X s 1 1 1 c 2268 995 0 0 bf black 1 1 1 c
+ 1791 643 363 352 bf black 1791 643 363 352 bl 1 1 1 c 1791 643 363 352 bf black 1791 643 363 352 bl 626 675 m cl s 578 675 m cl s 530 675 m cl s 481 675 m cl s 433 675 m cl s 385 675 m cl s 960 624 m -20 -20 d s 960 673 m -68 -69 d s 960 721 m -116
+ -117 d s 941 750 m -145 -146 d s 893 750 m -145 -146 d s 845 750 m -145 -146 d s 797 750 m -136 -136 d s 749 750 m -88 -87 d s 701 750 m -40 -39 d s 1259 634 m -11 -10 d s 1259 682 m -59 -58 d s 1255 727 m -103 -103 d s 1207 727 m -103 -103 d s 1159
+ 727 m -103 -103 d s 1111 727 m -104 -103 d s 1063 727 m -103 -103 d s 1014 727 m -54 -54 d s 966 727 m -6 -6 d s 1557 644 m -27 -27 d s 1557 692 m -75 -75 d s 1550 733 m -116 -116 d s 1502 733 m -116 -116 d s 1453 733 m -115 -116 d s 1405 733 m -116
+ -116 d s 1357 733 m -98 -99 d s 1309 733 m -50 -51 d s 1261 733 m -2 -2 d s 1856 654 m -48 -47 d s 1856 702 m -96 -95 d s 1849 744 m -137 -137 d s 1801 744 m -137 -137 d s 1753 744 m -137 -137 d s 1704 744 m -136 -137 d s 1656 744 m -99 -100 d s
+ 1608 744 m -51 -52 d s 1560 744 m -3 -3 d s 2154 616 m -8 -9 d s 2154 664 m -57 -57 d s 2154 712 m -105 -105 d s 2137 743 m -136 -136 d s 2088 743 m -135 -136 d s 2040 743 m -135 -136 d s 1992 743 m -135 -136 d s 1944 743 m -88 -89 d s 1896 743 m
+ -40 -41 d s 363 352 m 1791 X s
+ gsave  2268 995 0 0 C 1343.13 91.3174 t 0 r /Helvetica findfont 102.909 sf 0 0 m (\(3rd lepton\) [GeV]) show NC gr 
+ gsave  2268 995 0 0 C 1301.27 38.0489 t 0 r /Helvetica findfont 68.6062 sf 0 0 m (T) show NC gr 
+ gsave  2268 995 0 0 C 1244.2 91.3174 t 0 r /Helvetica findfont 102.909 sf 0 0 m (p) show NC gr  363 376 m -24 Y s 437 364 m -12 Y s 512 364 m -12 Y s 587 364 m -12 Y s 661 376 m -24 Y s 736 364 m -12 Y s 811 364 m -12 Y s 885 364 m -12 Y s 960 376 m
+ -24 Y s 1035 364 m -12 Y s 1109 364 m -12 Y s 1184 364 m -12 Y s 1259 376 m -24 Y s 1333 364 m -12 Y s 1408 364 m -12 Y s 1483 364 m -12 Y s 1557 376 m -24 Y s 1632 364 m -12 Y s 1706 364 m -12 Y s 1781 364 m -12 Y s 1856 376 m -24 Y s 1930 364 m
+ -12 Y s 2005 364 m -12 Y s 2080 364 m -12 Y s 2154 376 m -24 Y s
+ gsave  2268 995 0 0 C 338.636 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (0) show NC gr 
+ gsave  2268 995 0 0 C 608.783 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (20) show NC gr 
+ gsave  2268 995 0 0 C 909.37 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (40) show NC gr 
+ gsave  2268 995 0 0 C 1206.15 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (60) show NC gr 
+ gsave  2268 995 0 0 C 1506.74 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (80) show NC gr 
+ gsave  2268 995 0 0 C 1780.69 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (100) show NC gr 
+ gsave  2268 995 0 0 C 2081.28 273.952 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (120) show NC gr  363 995 m 1791 X s 363 971 m 24 Y s 437 983 m 12 Y s 512 983 m 12 Y s 587 983 m 12 Y s 661 971 m 24 Y s 736 983 m 12 Y s 811 983 m 12 Y s 885 983 m 12
+ Y s 960 971 m 24 Y s 1035 983 m 12 Y s 1109 983 m 12 Y s 1184 983 m 12 Y s 1259 971 m 24 Y s 1333 983 m 12 Y s 1408 983 m 12 Y s 1483 983 m 12 Y s 1557 971 m 24 Y s 1632 983 m 12 Y s 1706 983 m 12 Y s 1781 983 m 12 Y s 1856 971 m 24 Y s 1930 983 m
+ 12 Y s 2005 983 m 12 Y s 2080 983 m 12 Y s 2154 971 m 24 Y s 363 352 m 643 Y s
+ gsave  2268 995 0 0 C 117.952 243.513 t 90 r /Helvetica findfont 102.909 sf 0 0 m (Data/Predictions) show NC gr  407 352 m -44 X s 385 417 m -22 X s 385 481 m -22 X s 385 546 m -22 X s 385 610 m -22 X s 407 675 m -44 X s 407 675 m -44 X s 385 740 m
+ -22 X s 385 804 m -22 X s 385 869 m -22 X s 385 933 m -22 X s
+ gsave  2268 995 0 0 C 304.391 319.611 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (0) show NC gr 
+ gsave  2268 995 0 0 C 319.611 643.027 t 0 r /Helvetica findfont 87.6634 sf 0 0 m (1) show NC gr  2154 352 m 643 Y s 2110 352 m 44 X s 2132 417 m 22 X s 2132 481 m 22 X s 2132 546 m 22 X s 2132 610 m 22 X s 2110 675 m 44 X s 2110 675 m 44 X s 2132
+ 740 m 22 X s 2132 804 m 22 X s 2132 869 m 22 X s 2132 933 m 22 X s 1 1 1 c black 363 675 m 1791 X s 626 675 m cl s 578 675 m cl s 530 675 m cl s 481 675 m cl s 433 675 m cl s 385 675 m cl s 960 624 m -20 -20 d s 960 673 m -68 -69 d s 960 721 m -116
+ -117 d s 941 750 m -145 -146 d s 893 750 m -145 -146 d s 845 750 m -145 -146 d s 797 750 m -136 -136 d s 749 750 m -88 -87 d s 701 750 m -40 -39 d s 1259 634 m -11 -10 d s 1259 682 m -59 -58 d s 1255 727 m -103 -103 d s 1207 727 m -103 -103 d s 1159
+ 727 m -103 -103 d s 1111 727 m -104 -103 d s 1063 727 m -103 -103 d s 1014 727 m -54 -54 d s 966 727 m -6 -6 d s 1557 644 m -27 -27 d s 1557 692 m -75 -75 d s 1550 733 m -116 -116 d s 1502 733 m -116 -116 d s 1453 733 m -115 -116 d s 1405 733 m -116
+ -116 d s 1357 733 m -98 -99 d s 1309 733 m -50 -51 d s 1261 733 m -2 -2 d s 1856 654 m -48 -47 d s 1856 702 m -96 -95 d s 1849 744 m -137 -137 d s 1801 744 m -137 -137 d s 1753 744 m -137 -137 d s 1704 744 m -136 -137 d s 1656 744 m -99 -100 d s
+ 1608 744 m -51 -52 d s 1560 744 m -3 -3 d s 2154 616 m -8 -9 d s 2154 664 m -57 -57 d s 2154 712 m -105 -105 d s 2137 743 m -136 -136 d s 2088 743 m -135 -136 d s 2040 743 m -135 -136 d s 1992 743 m -135 -136 d s 1944 743 m -88 -89 d s 1896 743 m
+ -40 -41 d s 363 352 m 1791 X s 363 376 m -24 Y s 437 364 m -12 Y s 512 364 m -12 Y s 587 364 m -12 Y s 661 376 m -24 Y s 736 364 m -12 Y s 811 364 m -12 Y s 885 364 m -12 Y s 960 376 m -24 Y s 1035 364 m -12 Y s 1109 364 m -12 Y s 1184 364 m -12 Y s
+ 1259 376 m -24 Y s 1333 364 m -12 Y s 1408 364 m -12 Y s 1483 364 m -12 Y s 1557 376 m -24 Y s 1632 364 m -12 Y s 1706 364 m -12 Y s 1781 364 m -12 Y s 1856 376 m -24 Y s 1930 364 m -12 Y s 2005 364 m -12 Y s 2080 364 m -12 Y s 2154 376 m -24 Y s
+ 363 995 m 1791 X s 363 971 m 24 Y s 437 983 m 12 Y s 512 983 m 12 Y s 587 983 m 12 Y s 661 971 m 24 Y s 736 983 m 12 Y s 811 983 m 12 Y s 885 983 m 12 Y s 960 971 m 24 Y s 1035 983 m 12 Y s 1109 983 m 12 Y s 1184 983 m 12 Y s 1259 971 m 24 Y s 1333
+ 983 m 12 Y s 1408 983 m 12 Y s 1483 983 m 12 Y s 1557 971 m 24 Y s 1632 983 m 12 Y s 1706 983 m 12 Y s 1781 983 m 12 Y s 1856 971 m 24 Y s 1930 983 m 12 Y s 2005 983 m 12 Y s 2080 983 m 12 Y s 2154 971 m 24 Y s 363 352 m 643 Y s 407 352 m -44 X s
+ 385 417 m -22 X s 385 481 m -22 X s 385 546 m -22 X s 385 610 m -22 X s 407 675 m -44 X s 407 675 m -44 X s 385 740 m -22 X s 385 804 m -22 X s 385 869 m -22 X s 385 933 m -22 X s 2154 352 m 643 Y s 2110 352 m 44 X s 2132 417 m 22 X s 2132 481 m 22
+ X s 2132 546 m 22 X s 2132 610 m 22 X s 2110 675 m 44 X s 2110 675 m 44 X s 2132 740 m 22 X s 2132 804 m 22 X s 2132 869 m 22 X s 2132 933 m 22 X s 811 603 m 35 Y s 811 684 m 34 Y s 661 661 m 127 X s 834 661 m 126 X s 811 661 m20 1109 595 m 15 Y s
+ 1109 655 m 15 Y s 960 633 m 126 X s 1132 633 m 127 X s 1109 633 m20 1408 568 m 28 Y s 1408 642 m 28 Y s 1259 619 m 126 X s 1431 619 m 126 X s 1408 619 m20 1706 650 m 61 Y s 1706 756 m 61 Y s 1557 733 m 127 X s 1729 733 m 127 X s 1706 733 m20 2005
+ 696 m 42 Y s 2005 784 m 42 Y s 1856 761 m 126 X s 2028 761 m 126 X s 2005 761 m20 363 352 m 1791 X s 363 376 m -24 Y s 437 364 m -12 Y s 512 364 m -12 Y s 587 364 m -12 Y s 661 376 m -24 Y s 736 364 m -12 Y s 811 364 m -12 Y s 885 364 m -12 Y s 960
+ 376 m -24 Y s 1035 364 m -12 Y s 1109 364 m -12 Y s 1184 364 m -12 Y s 1259 376 m -24 Y s 1333 364 m -12 Y s 1408 364 m -12 Y s 1483 364 m -12 Y s 1557 376 m -24 Y s 1632 364 m -12 Y s 1706 364 m -12 Y s 1781 364 m -12 Y s 1856 376 m -24 Y s 1930
+ 364 m -12 Y s 2005 364 m -12 Y s 2080 364 m -12 Y s 2154 376 m -24 Y s 363 995 m 1791 X s 363 971 m 24 Y s 437 983 m 12 Y s 512 983 m 12 Y s 587 983 m 12 Y s 661 971 m 24 Y s 736 983 m 12 Y s 811 983 m 12 Y s 885 983 m 12 Y s 960 971 m 24 Y s 1035
+ 983 m 12 Y s 1109 983 m 12 Y s 1184 983 m 12 Y s 1259 971 m 24 Y s 1333 983 m 12 Y s 1408 983 m 12 Y s 1483 983 m 12 Y s 1557 971 m 24 Y s 1632 983 m 12 Y s 1706 983 m 12 Y s 1781 983 m 12 Y s 1856 971 m 24 Y s 1930 983 m 12 Y s 2005 983 m 12 Y s
+ 2080 983 m 12 Y s 2154 971 m 24 Y s 363 352 m 643 Y s 407 352 m -44 X s 385 417 m -22 X s 385 481 m -22 X s 385 546 m -22 X s 385 610 m -22 X s 407 675 m -44 X s 407 675 m -44 X s 385 740 m -22 X s 385 804 m -22 X s 385 869 m -22 X s 385 933 m -22 X
+ s 2154 352 m 643 Y s 2110 352 m 44 X s 2132 417 m 22 X s 2132 481 m 22 X s 2132 546 m 22 X s 2132 610 m 22 X s 2110 675 m 44 X s 2110 675 m 44 X s 2132 740 m 22 X s 2132 804 m 22 X s 2132 869 m 22 X s 2132 933 m 22 X s
+ gr  gr showpage
+end
+%%EOF

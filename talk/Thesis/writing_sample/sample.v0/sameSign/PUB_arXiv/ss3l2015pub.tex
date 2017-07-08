@@ -1,0 +1,232 @@
+\newcommand*{\ATLASLATEXPATH}{latex/}
+\documentclass[UKenglish,texlive=2011,PAPER]{\ATLASLATEXPATH atlasdoc}
+% The following command is needed by arXiv to ensure use of pdflatex.
+% It should be included in the first 5 lines of the preamble.
+% \pdfoutput=1
+%  cernpreprint          Create front page for a CERN preprint.
+%                        See atlas-preprint-cover.tex for a list of variables that should be defined.
+%  txfonts=true|false    Use txfonts rather than the default newtx - needed for arXiv submission.
+\usepackage[subcaption]{\ATLASLATEXPATH atlaspackage}
+\usepackage{\ATLASLATEXPATH atlasprocess}
+\usepackage{\ATLASLATEXPATH atlasmisc}
+\usepackage{\ATLASLATEXPATH atlasbiblatex}
+\usepackage{\ATLASLATEXPATH atlascontribute}
+\usepackage{\ATLASLATEXPATH atlasphysics}
+\usepackage{\ATLASLATEXPATH atlasbsm}
+
+\addbibresource{newSUSYRefs.bib}
+\addbibresource{ss3l2015pub.bib}
+\addbibresource{bibtex/bib/ATLAS.bib}
+\addbibresource{bibtex/bib/PubNotes.bib}
+\addbibresource{bibtex/bib/ConfNotes.bib}
+
+\graphicspath{{logos/}{FIGURES/}}
+
+\usepackage{ss3l2015pub-defs}
+\usepackage[normalem]{ulem}
+\usepackage{xparse}
+\captionsetup[subfigure]{labelformat=simple}
+\renewcommand*{\thesubfigure}{(\alph{subfigure})}
+
+\input{ss3l2015pub-metadata}
+
+
+%-------------------------------------------------------------------------------
+% Content
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+%-------------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+%-------------------------------------------------------------------------------
+
+Supersymmetry (SUSY)~\cite{Golfand:1971iw,Volkov:1973ix,Wess:1974tw,Wess:1974jb,Ferrara:1974pu,Salam:1974ig} is one of the most studied frameworks to extend the Standard Model (SM) beyond the electroweak scale; a general review can be found in Ref.~\cite{Martin:1997ns}. 
+In its minimal realisation (MSSM)~\cite{Fayet:1976et,Fayet:1977yc} 
+it predicts a new bosonic (fermionic) partner for each fundamental SM fermion (boson), 
+as well as an additional Higgs doublet. 
+If $R$-parity is conserved~\cite{Farrar:1978xj} the lightest supersymmetric particle (LSP) is stable and is typically the lightest neutralino\footnote{The SUSY partners of the Higgs and electroweak gauge bosons mix to form
+the mass eigenstates known as charginos ($\tilde{\chi}^{\pm}_{l}$, $l = 1, 2$ ordered by
+increasing mass) and neutralinos ($\tilde{\chi}^{0}_{m}$, $m = 1, \ldots, 4$ ordered by increasing
+mass).} \ninoone. 
+Only such scenarios are considered in this paper. 
+In many models, the LSP can be a viable dark matter candidate~\cite{Goldberg:1983nd,Ellis:1983ew} 
+and produce collider signatures with large missing transverse momentum. 
+
+
+In order to address the SM hierarchy problem with SUSY models
+~\cite{Sakai:1981gr,Dimopoulos:1981yj,Ibanez:1981yh,Dimopoulos:1981zb}, 
+TeV-scale masses are required~\cite{Barbieri:1987fn,deCarlos:1993yy} 
+for the partners of the gluons (gluinos~\gluino) 
+and of the top quark chiral degrees of freedom (top squarks \stopL and \stopR), 
+due to the large top Yukawa coupling. 
+The latter also favours significant $\stopL$--$\stopR$ mixing, 
+so that the lighter mass eigenstate $\stopone$ is in many scenarios lighter than the other squarks~\cite{Inoue:1982pi,Ellis:1983ed}. 
+Bottom squarks may also be light, being bound to top squarks by $SU(2)_{\rm L}$ invariance. 
+This leads to potentially large production cross-sections 
+for gluino pairs ($\gluino\gluino$), top--antitop squark pairs ($\stopone\stoponebar$) and bottom--antibottom squark pairs ($\sbottomone\sbottomonebar$) at the Large Hadron Collider (LHC)~\cite{Borschensky:2014cia}. 
+Production of isolated leptons may arise in the cascade decays of those superpartners to SM quarks and neutralinos~\ninoone, 
+via intermediate neutralinos~$\tilde\chi^0_{2,3,4}$ or charginos~$\tilde\chi^\pm_{1,2}$ 
+that in turn lead to $W$, $Z$ or Higgs bosons, or to lepton superpartners (sleptons). 
+Lighter third-generation squarks would also enhance $\gluino\to t\stoponebar$ or $\gluino\to b\sbottomonebar$ branching ratios over the generic decays involving light-flavour squarks,
+favouring the production of heavy flavour quarks and, in the case of top quarks, additional leptons. 
+
+This paper 
+presents a search for SUSY in final states 
+with two leptons (electrons or muons) of the same electric charge (referred to as same-sign (SS) leptons) or three leptons (3L) in any charge combination, 
+jets and missing transverse momentum (${\vec p}^{\rm miss}_{\rm T}$, whose magnitude is referred to as \met). 
+It is an extension to $\sqrt s=13$ TeV of an earlier search performed by ATLAS with $\sqrt s=8$ TeV data~\cite{paperSS3L}, 
+and uses the data collected by the ATLAS experiment~\cite{PERF-2007-01} in proton--proton ($pp$) collisions during 2015. 
+Despite the much lower integrated luminosity collected at $\sqrt s=13$~TeV compared to that collected at $\sqrt s=8$~TeV, 
+a similar or improved sensitivity at $\sqrt{s}=13$~TeV is expected 
+due to the much larger cross-sections predicted for the production of SUSY particles with masses at the TeV scale. 
+A similar search for SUSY in this topology was also performed by the CMS Collaboration~\cite{Chatrchyan:2013fea} at $\sqrt s=8$~TeV.
+While the same-sign leptons signature is present in many scenarios of physics beyond the SM (BSM), 
+SM processes leading to such final states have very small cross-sections. 
+Compared to many other BSM searches, analyses based on same-sign leptons therefore allow 
+the use of looser kinematic requirements (for example, on \met or the momentum of jets and leptons), 
+preserving sensitivity to scenarios with small mass differences between gluinos/squarks and the LSP, or in which $R$-parity is not conserved~\cite{paperSS3L}. 
+
+The sensitivity to a wide range of models is illustrated by the interpretation of the results  
+in the context of four different SUSY benchmark processes that may lead to same-sign or three-lepton signatures. 
+The first two scenarios focus on gluino pair production with generic decays into light quarks and multiple leptons, 
+either involving light sleptons, $\gluino\to q\bar q\ninotwo\to q\bar q \ell\slepton^*\to q\bar q\ell^+\ell^-\ninoone$ (Fig.~\ref{fig:feynman_gg2sl}), 
+or mediated by a cascade involving $\chinoonepm$ and $\ninotwo$, 
+$\gluino \to q\bar q'\chinoonepm\to q\bar q'W^\pm\ninotwo\to q\bar q'W^\pm Z\ninoone$  (Fig.~\ref{fig:feynman_gg2WZ}). 
+The other two scenarios are motivated by the expectation that the third-generation squarks are lighter than the other squarks 
+and target the direct production of $\sbottomone\sbottomonebar$ pairs 
+with subsequent chargino-mediated $\sbottomone\to tW^-\ninoone$ decays (Fig.~\ref{fig:feynman_b1b1})  
+or the production of $\gluino\gluino$ pairs decaying as $\gluino\to t\bar t\ninoone$ via an off-shell top squark (Fig.~\ref{fig:feynman_gtt}). 
+
+\begin{figure}[t!]
+\centering
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{FIGURES/gogo-qqqqllllN1N1-N2}\caption{}\label{fig:feynman_gg2sl}
+\end{subfigure}
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{FIGURES/gogo-qqqqWWZZN1N1-C1N2}\caption{}\label{fig:feynman_gg2WZ}\end{subfigure}
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{FIGURES/sbsb-ttWWN1N1}\caption{}\label{fig:feynman_b1b1}\end{subfigure}
+\begin{subfigure}[t]{0.24\textwidth}\includegraphics[width=\textwidth]{FIGURES/gogo-ttttN1N1}\caption{}\label{fig:feynman_gtt}\end{subfigure}
+\caption{SUSY processes featuring gluino (a, b, d) or bottom squark (c) pair production considered in this analysis.}
+\label{fig:feynman}
+\end{figure}
+
+Four signal regions (SRs) are designed to achieve good sensitivity for these SUSY scenarios, mainly characterised by the number of $b$-tagged jets or reconstructed leptons. 
+They are detailed in Section~\ref{sec:selection}, preceded by descriptions of the experimental apparatus~(Section~\ref{sec:detector}) and
+the simulated samples~(Section~\ref{sec:dataMC}).
+Section~\ref{sec:bkg} is devoted to the estimation of the
+contribution from SM processes to the signal regions, 
+validated by comparisons with data in dedicated regions. 
+The results are presented in Section~\ref{sec:result}, 
+together with the statistical tests used to interpret the results in the context of the SUSY benchmark scenarios. 
+Finally, Section~\ref{sec:conclusion} summarises the main conclusions of this paper.
+
+%-------------------------------------------------------------------------------
+\section{The ATLAS detector}
+\label{sec:detector}
+%-------------------------------------------------------------------------------
+
+The ATLAS experiment~\cite{PERF-2007-01} is a multi-purpose particle detector with a forward-backward symmetric cylindrical
+geometry and nearly $4\pi$ coverage in solid angle.\footnote{ATLAS uses
+  a right-handed coordinate system with its origin at the nominal
+  interaction point (IP) in the centre of the detector and the
+  $z$-axis along the beam pipe. The $x$-axis points from the IP to the
+  centre of the LHC ring, and the $y$-axis points upward. Cylindrical
+  coordinates ($r$, $\phi$) are used in the transverse plane, $\phi$
+  being the azimuthal angle around the beam pipe. The pseudorapidity
+  is defined in terms of the polar angle $\theta$ as $\eta = -\ln
+  \tan(\theta/2)$. Rapidity is defined as $y=0.5 \ln\left[(E + p_z )/(E - p_z )\right]$ where $E$ denotes the energy and $p_z$ is the component of the momentum along the beam direction.}
+The interaction point is surrounded by an inner detector (ID), a
+calorimeter system, and a muon spectrometer.
+
+The ID provides precision tracking of charged particles for
+pseudorapidities $|\eta| < 2.5$ and is surrounded by a superconducting solenoid providing a \SI{2}{T} axial magnetic field.
+It consists of pixel and silicon-microstrip detectors inside a
+transition radiation tracker.  
+One significant upgrade for the $\sqrt{s}=13$~TeV running period is the presence of the
+Insertable B-Layer~\cite{CERN-LHCC-2010-013}, an additional pixel layer close to the interaction point, which 
+provides high-resolution hits at small radius to improve the tracking performance.
+
+In the pseudorapidity region $|\eta| < 3.2$, high-granularity lead/liquid-argon (LAr)
+electromagnetic (EM) sampling calorimeters are used.
+A steel/scintillator tile calorimeter measures hadron energies for
+$|\eta| < 1.7$.
+The endcap and forward regions, spanning $1.5<|\eta| <4.9$, are 
+instrumented with LAr calorimeters for both the EM and hadronic
+measurements.
+
+The muon spectrometer consists of three large superconducting toroids
+with eight coils each, 
+a system of trigger and precision-tracking chambers, 
+which provide triggering and tracking capabilities in the
+ranges $|\eta| < 2.4$ and $|\eta| < 2.7$, respectively.
+
+A two-level trigger system is used to select events. The first-level
+trigger is implemented in hardware and uses a subset of the detector
+information. This is followed by the software-based High-Level Trigger stage,
+which can run offline reconstruction and
+calibration software, reducing the event rate to about \SI{1}{kHz}.
+
+
+
+%-------------------------------------------------------------------------------
+\section{Dataset and simulated event samples}
+\label{sec:dataMC}
+%-------------------------------------------------------------------------------
+
+\input{dataMC}
+
+%-------------------------------------------------------------------------------
+\section{Event selection}
+\label{sec:selection}
+%-------------------------------------------------------------------------------
+
+\input{sel.tex}
+
+%-------------------------------------------------------------------------------
+\section{Background estimation}
+\label{sec:bkg}
+%-------------------------------------------------------------------------------
+
+\input{bkg}
+
+
+%-------------------------------------------------------------------------------
+\section{Results}
+\label{sec:result}
+%-------------------------------------------------------------------------------
+
+\input{results}
+
+\FloatBarrier
+
+%-------------------------------------------------------------------------------
+\section{Conclusion}
+\label{sec:conclusion}
+%-------------------------------------------------------------------------------
+
+A search for supersymmetry in events with exactly two same-sign leptons or at least three leptons, multiple jets, 
+$b$-jets and $\met$ is presented. 
+The analysis is performed with proton--proton collision data at $\sqrt{s}=13\TeV$ collected with the ATLAS detector at the Large Hadron Collider corresponding to an integrated luminosity of 3.2~fb$^{-1}$. 
+With no significant excess over the Standard Model expectation observed,
+results are interpreted in the framework of simplified models featuring gluino and bottom squark production.
+In the $\gluino\gluino$ simplified models considered, $m_{\gluino}\lesssim 1.1$--$1.3~\TeV$ and $m_{\ninoone}\lesssim 550$--$850~\GeV$ 
+are excluded at 95\% confidence level depending on the model parameters. Bottom squark masses of $m_{\sbottomone}\lesssim 540~\GeV$ 
+are also excluded for a light $\ninoone$ in a $\sbottomone\sbottomonebar$ simplified model with $\sbottomone\to tW^-\ninoone$.
+These results are complementary to those of previous searches and extend the exclusion limits they set.
+
+
+%-------------------------------------------------------------------------------
+\section*{Acknowledgements}
+%-------------------------------------------------------------------------------
+
+\input{Acknowledgements}
+
+\printbibliography
+
+\clearpage
+
+\newpage \input{atlas_authlist}
+
+
+\end{document}

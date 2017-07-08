@@ -1,0 +1,136 @@
+%-------------------------------------------------------------------------------
+% This file contains the title, author and abstract.
+% It also contains all relevant document numbers used by the different cover pages.
+%-------------------------------------------------------------------------------
+
+% Title
+\AtlasTitle{Search for supersymmetry in final states with two same-sign or three leptons and jets using 36 fb$^{-1}$ of 
+$\sqrt{s}=13$~TeV $pp$ collision data with the ATLAS detector}
+
+% Author - this does not work with revtex (add it after \begin{document})
+\author{The ATLAS Collaboration}
+
+% Authors and list of contributors to the analysis
+% \AtlasAuthorContributor also adds the name to the author list
+% Include package latex/atlascontribute to use this
+% Use authblk package if there are multiple authors, which is included by latex/atlascontribute
+% \usepackage{authblk}
+% Use the following 3 lines to have all institutes on one line
+% \makeatletter
+% \renewcommand\AB@affilsepx{, \protect\Affilfont}
+% \makeatother
+% \renewcommand\Authands{, } % avoid ``. and'' for last author
+% \renewcommand\Affilfont{\itshape\small} % affiliation formatting
+% \AtlasAuthorContributor{First AtlasAuthorContributor}{a}{Author's contribution.}
+% \AtlasAuthorContributor{Second AtlasAuthorContributor}{b}{Author's contribution.}
+% \AtlasAuthorContributor{Third AtlasAuthorContributor}{a}{Author's contribution.}
+% \AtlasContributor{Fourth AtlasContributor}{Contribution to the analysis.}
+% \author[a]{First Author}
+% \author[a]{Second Author}
+% \author[b]{Third Author}
+% \affil[a]{One Institution}
+% \affil[b]{Another Institution}
+
+% If a special author list should be indicated via a link use the following code:
+% Include the two lines below if you do not use atlasstyle:
+% \usepackage[marginal,hang]{footmisc}
+% \setlength{\footnotemargin}{0.5em}
+% Use the following lines in all cases:
+% \usepackage{authblk}
+% \author{The ATLAS Collaboration%
+% \thanks{The full author list can be found at:\newline
+%   \url{https://atlas.web.cern.ch/Atlas/PUBNOTES/ATL-PHYS-PUB-2016-007/authorlist.pdf}}
+% }
+
+% Date: if not given, uses current date
+%\date{\today}
+
+% Draft version:
+% Should be 1.0 for the first circulation, and 2.0 for the second circulation.
+% If given, adds draft version on front page, a 'DRAFT' box on top of each other page, 
+% and line numbers.
+% Comment or remove in final version.
+\AtlasVersion{0.0}
+
+% ATLAS reference code, to help ATLAS members to locate the paper
+\AtlasRefCode{SUSY-2016-14}
+
+% ATLAS note number. Can be an COM, INT, PUB or CONF note
+% \AtlasNote{ATLAS-CONF-2016-XXX}
+% \AtlasNote{ATL-PHYS-PUB-2016-XXX}
+% \AtlasNote{ATL-COM-PHYS-2016-XXX}
+
+% CERN preprint number
+% \PreprintIdNumber{CERN-PH-2016-XX}
+
+% ATLAS date - arXiv submission; to be filled in by the Physics Office
+% \AtlasDate{\today}
+
+% arXiv identifier
+% \arXivId{14XX.YYYY}
+
+% HepData record
+% \HepDataRecord{ZZZZZZZZ}
+
+% Submission journal and final reference
+% \AtlasJournal{Phys.\ Lett.\ B.}
+% \AtlasJournalRef{\PLB 789 (2014) 123}
+% \AtlasDOI{}
+
+% Abstract - % directly after { is important for correct indentation
+\AtlasAbstract{%
+A search for strongly produced supersymmetric particles using signatures involving multiple energetic jets and either two isolated 
+same-sign leptons ($e$ or $\mu$) or at least three isolated leptons is presented. 
+The analysis relies also on $b$-tagged jets or missing transverse momentum, to extend its sensitivity. 
+A data sample of proton--proton collisions at $\sqrt{s}= 13$~TeV recorded with the ATLAS detector at the Large Hadron Collider in 
+2015 and 2016, corresponding to a total integrated luminosity of 36.0 fb$^{-1}$, is used for the search. 
+No significant excess over the Standard Model expectation is observed. The results are interpreted in several 
+simplified supersymmetric models featuring $R$-parity conservation and $R$-parity violation, extending the exclusion 
+limits from previous searches. In these models, gluino masses are excluded at 95\% confidence level up to \textcolor{red}{[UPDATE]} TeV 
+and bottom squark masses are also excluded up to \textcolor{red}{[UPDATE]} GeV for light neutralinos. 
+In addition model independent limits are set on a possible contribution of new phenomena to the signal region yields.
+}
+
+%-------------------------------------------------------------------------------
+% The following information is needed for the cover page. The commands are only defined
+% if you use the coverpage option in atlasdoc or use the atlascover package
+%-------------------------------------------------------------------------------
+
+% List of supporting notes  (leave as null \AtlasCoverSupportingNote{} if you want to skip this option)
+%\AtlasCoverSupportingNote{Supporting note}{https://cds.cern.ch/record/2151944}
+% \AtlasCoverSupportingNote{Short title note 2}{https://cds.cern.ch/record/YYYYYYY}
+%
+% OR (the 2nd option is deprecated, especially for CONF and PUB notes)
+%
+% Supporting material TWiki page  (leave as null \AtlasCoverTwikiURL{} if you want to skip this option)
+% \AtlasCoverTwikiURL{https://twiki.cern.ch/twiki/bin/view/Atlas/WebHome}
+
+% Comment deadline
+%\AtlasCoverCommentsDeadline{22 July 2016}
+
+% Analysis team members - contact editors should no longer be specified
+% as there is a generic email list name for the editors
+\AtlasCoverAnalysisTeam{
+B.~Abbott,J.-F.~Arguin, S.~Berlendis, G.~Carrillo-Montoya, F.~Cardillo, A.~Di~Simone, O.~Ducu, Z.D.~Greenwood, G.~Herten, D.~Jana, Y.~Liu, A.~Lleres,
+J.~Maurer, S.~Mete, A.~Paramonov, J.~Poveda, P.~Pralavorio, H.~Ren, O.~Rifki, C.~Sandoval, Y.-T.~Shen, P.~Skubic, A.~Soffa, A.~Taffard, P.~Tornamb\'{e},
+C.Walker, X.~Zhuang}
+
+% Editorial Board Members - indicate the Chair by a (chair) after his/her name
+% Give either all members at once (then they appear on one line), or separately
+\AtlasCoverEdBoardMember{Jamie Boyd~(chair), Sara~Strandberg, Kerim~Suruliz}
+% \AtlasCoverEdBoardMember{EdBoard~Chair~(chair)}
+% \AtlasCoverEdBoardMember{EB~Member~1}
+% \AtlasCoverEdBoardMember{EB~Member~2}
+% \AtlasCoverEdBoardMember{EB~Member~3}
+
+% A PUB note has readers and not an EdBoard -- give their names here (one line or several entries)
+% \AtlasCoverReaderMember{Reader~1, Reader~2}
+% \AtlasCoverReaderMember{Reader~1}
+% \AtlasCoverEdBoardMember{Reader~2}
+
+% Editors egroup
+\AtlasCoverEgroupEditors{atlas-susy-2016-14-editors@cern.ch}
+
+% EdBoard egroup
+\AtlasCoverEgroupEdBoard{atlas-susy-2016-14-editorial-board@cern.ch}
+

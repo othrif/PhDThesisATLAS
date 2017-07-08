@@ -1,0 +1,10 @@
+\contentsline {chapter}{Abstract}{iv}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}The Muon Properties}{7}
+\contentsline {subsection}{\numberline {2.1}Obtaining Polarized Muons}{7}
+\contentsline {subsection}{\numberline {2.2}Parity Violation}{9}
+\contentsline {subsection}{\numberline {2.3}Relativistic Muons in a Magnetic Field}{12}
+\contentsline {section}{\numberline {3}The Muon $g$-2 Experiments}{14}
+\contentsline {subsection}{\numberline {3.1}BNL E821 $g-2$ Experiment}{15}
+\contentsline {chapter}{\numberline {A}Spin Dynamics}{21}
+\contentsline {chapter}{\numberline {B}Muon Decay Distribution, Radiative Corrections, Schwinger Term}{22}

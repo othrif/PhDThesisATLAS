@@ -22,7 +22,7 @@ The full simulation of the detector is a slow process. For many applications, su
   of SUSY signals, it is faster to use a parametrized response of the calorimeters~\cite{ATL-PHYS-PUB-2010-013}.
 \item Digitisation: The detector simulation records the interaction of particles with the different components of the detector in the form of hits and energy deposits in the detector.
   The latter are used as inputs to emulate the response of the readout electronics of the detector. The output from this step is identical to the data recorded by the detector.
-\item Reconstruction: At this stage, both the recorded events by the detector and simulated events are used to identify objects associated with fundamental particles, namely 
+\item Reconstruction: At this stage, both the events recorded by the detector and simulated events are used to identify objects associated with fundamental particles, namely 
   electrons, muons, photons, and jets. The energy deposits not matched to physics objects are collected into a ``soft terms'' category used in the computation of the missing transverse momentum.  
 \end{itemize} 
 
@@ -34,4 +34,4 @@ the MC is generated with an expected pileup profile which is later corrected bas
 The final physics objects from the reconstruction step do not reflect all the knowledge we have about the detector. For instance, the energies of the objects must be calibrated
 or certain parts of the detector may not always be working with the desired specification. 
  Once the reconstructed objects are defined and calibrated, the data is ready for analysis. Typically, the size of the dataset is reduced from petabytes to a size of few terabytes
-  by only selecting the objects of interest in the analysis. For instance, this analysis requires at least two leptons applied to the samples used which significantly reduce the sample size.
+  by only selecting the objects of interest in the analysis. For instance, this analysis requires at least two leptons applied to the samples used which significantly reduces the sample size.

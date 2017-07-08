@@ -1,0 +1,71 @@
+\clearpage 
+\section{Generated Samples for the Above the Diagonal Study}
+\label{app_above_diag}
+
+
+
+The samples for the above the diagonal study of Seciton~\ref{sec:3l3b} were generated at 8 TeV with detector simulation and reconstruction. The generated samples with the process id and the cross section for the different grid points considered in this study are shown below:
+
+\begin{table*}[htb]
+\begin{center}
+\setlength{\tabcolsep}{0.0pc}
+\caption{ Processes used in the current study with a derivation tag p1328.}
+%\label{tbl:above_diag}
+{\footnotesize
+%%
+{
+%\centering
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cccc}
+  \noalign{\smallskip}\hline\noalign{\smallskip}\hline
+Sample name & Process Id  &  Generated Events & Cross Section [fb]\\
+\noalign{\smallskip}\hline\noalign{\smallskip} \hline
+ G550\_T2500\_L285 & 204150  & 80000  & 1209.9 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G650\_T2500\_L385 & 204151  & 80000  & 356.57 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G700\_T2500\_L410 & 204153  & 80000  & 201.10 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G750\_T2500\_L435 & 204154  & 80000  & 116.57 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G750\_T2500\_L485 & 204155  & 80000  & 117.67 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G800\_T2500\_L460 & 204156  & 80000  & 68.990 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G800\_T2500\_L510 & 204157  & 80000  & 69.458 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G850\_T2500\_L535 & 204158  & 80000  & 41.822 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G850\_T2500\_L585 & 204159  & 80000  & 42.086 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G900\_T2500\_L560 & 204160  & 80000  & 25.549 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G900\_T2500\_L610 & 204161  & 80000  & 25.727 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G950\_T2500\_L635 & 204162  & 80000  & 15.929 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G950\_T2500\_L685 & 204163  & 80000  & 15.996 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1000\_T2500\_L660 & 204164  & 80000  & 9.9704 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip} 
+ G1000\_T2500\_L710 & 204165  & 80000  & 1.0014 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1050\_T2500\_L735 & 204166  & 80000  & 6.3245 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1050\_T2500\_L785 & 204167  & 80000  & 6.3498 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1100\_T2500\_L760 & 204168  & 80000  & 4.0353 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1100\_T2500\_L810 & 204169  & 80000  & 4.0433 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1150\_T2500\_L885 & 204170  & 80000  & 2.6057 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ G1250\_T2500\_L985 & 204171  & 80000  & 1.0911 \\
+%\noalign{\smallskip}\hline\noalign{\smallskip}
+ \noalign{\smallskip}\hline\noalign{\smallskip}\hline
+%%
+\end{tabular*}
+}
+%%%
+}
+\end{center}
+\end{table*}

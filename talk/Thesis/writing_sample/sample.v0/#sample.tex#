@@ -1,0 +1,120 @@
+% \documentclass[linenumbers,summarypage,hyperlinks]{outhesis}
+\documentclass{outhesis}
+
+% For a bibliography style, you must have the appropriate .bst file
+% \bibliographystyle{apj}
+\bibliographystyle{prsty}
+
+% Provide the correct margins
+\usepackage[top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+% If you want a double-sided copy for yourself, uncomment the next line
+ % \usepackage[twoside,top=1in, bottom=1in, left=1.6in, right=1.2in]{geometry}
+
+\graphicspath{{/Users/othmane/Documents/Thesis/writing_sample/sample.v0/FIGURES/}}
+\usepackage{atlasphysics}
+\usepackage{susydefs}
+\usepackage{hepparticles}
+\usepackage{indentfirst}
+\usepackage{subfigure}
+\usepackage[makeroom]{cancel}
+\usepackage{float}
+\usepackage{setspace}
+
+\begin{document}
+
+%% Place Dissertation information here
+%% Follow the convention for the use of capital letters 
+%% or else the font will not be formatted properly
+\author{Othmane Rifki}
+\university{UNIVERSITY OF OKLAHOMA}
+\college{GRADUATE COLLEGE}
+\department{HOMER L. DODGE DEPARTMENT OF PHYSICS AND ASTRONOMY}
+\title{Searching for Supersymmetric Particles at the Large Hadron Collider using the ATLAS Detector}
+\address{Norman, Oklahoma}
+\yr{2016}
+\dgname{DOCTOR OF PHILOSOPHY}
+%% List your committee members here
+\committee{{Dr. Brad Abbott, Chair}, {Dr. S. Lakshmivarahan, Outside Member}, Dr. Mike Strauss, Dr. Chung Kao, Dr. Eric Abraham}
+
+%% Put your dedication here. This is completely optional. Delete it if you don't need it.
+%\begin{dedication}
+ % 
+%\end{dedication}
+
+%% Put your acknowledgements here. This is completely optional. Delete it if you don't need it.
+%\begin{acknowledgements}
+%  
+% \end{acknowledgements}
+
+%% Put your abstract here.
+
+\frontmatter
+
+\maketitle
+
+\mainmatter
+
+%\singlespacing
+
+
+\section{Overview}
+%\label{sec:intro}
+
+
+As part of our quest to understand and describe the physical world we live in, human beings embarqued on a journey to search for the  most 
+fundamental constituents of matter, describe their interactions, and predict their behavior. In short, we want to answer the question 
+``what is matter made of?''
+The last few decades represented a revolutionary period in the study of fundamental physics.  Several particle accelerators became operational 
+and allowed us to disentangle the structure of matter down to a handful of constituents we call elementary particles. The 
+most powerful of these accelerators is is the Large Hadron Collider (LHC) at CERN . 
+The basic idea of the LHC and other accelerators is to collide particles, 
+in our case protons,  at very high energies and take snapshots of these collisions. The goal is to guess the form of the interactions happening 
+in each collision and compare the resulting theoretical predictions with the results of our snapshots of the collision, called the experimental data. 
+This is one of the strategies that led us to formulate a mathematical framework that describes the elementary particles and their interactions
+which is known as the Standard Model of elementary particles (SM). 
+When subjected to experimental tests, the SM successfully describes three of the four fundamental forces: electromagnetic, weak, and strong interactions. On the other hand, the SM is not believed to be complete since it fails to explain a number of problems that are still facing today's physics community. First, the SM does not incorporate the fourth fundamental force of gravity. Moreover, It does not provide insight on the nature of the ``invisible'' matter that is holding galaxies together, which constitutes $\sim$ 26\% of the energy density of the universe and is known as \emph{Dark Matter}. In addition, the SM does not account for the different masses and mixing of the 12 leptons
+ known as the \emph{flavor problem}, and the predominance of matter over antimatter. In order to solve these problems, searches for physics not accounted for by the SM have been pursued at the LHC. The aim is to conduct 
+searches for new states of matter from the experimental data and compare it to theoretical models that predict the existence of these new states of matter.
+ The experimental data used in 
+our analysis has been collected by the ATLAS detector which is one of the most complex particle detectors ever designed. ATLAS takes snapshots of the 
+collisions that are happening 40 million times per second and reconstruct what happened in the collision. We analyze this information to test 
+if the theoretical models that we are considering are compatible with our experimental data. One of the theories that predict the existence of 
+new states of matter is supersymmetry. Supersymmetry is based on a fundamental symmetry between the elementary particles and the particles that 
+mediate their interactions. \\
+
+In the remainder of this document, I present an anlysis of data collected by the ATLAS experiment with the aim of comparing it with theoretical predictions 
+based on supersymmetric theories. The level of detail is intended for the professional scientific audience. 
+
+
+\section{Introduction}
+\input{intro.tex}
+
+\section{Signal models}
+\label{sec:signal}
+\input{models.tex}
+
+\section{Signal region definition}
+\label{sec:sr}
+\input{sr.tex}
+
+
+%\section{Background estimation}
+%\label{sec:bkg}
+%\input{bkg.tex}
+
+
+%\section{Results}
+%\label{sec:bkg}
+%\input{results.tex}
+
+
+%\bibliography{sample_references}
+
+% \backmatter
+
+
+
+
+\end{document}
+
+

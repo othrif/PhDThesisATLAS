@@ -1,0 +1,74 @@
+The data were collected by the ATLAS detector during 2015 with a peak 
+instantaneous luminosity of $L=5.2\times 10^{33}$~cm$^{-2}$s$^{-1}$, 
+a bunch spacing of 25~ns, and a mean number of additional $pp$ interactions per bunch crossing 
+(pile-up) in the dataset of $\langle \mu \rangle = 14$.
+After the application of beam, detector and data quality requirements, 
+the integrated luminosity considered in this analysis corresponds to 3.2~fb$^{-1}$ with an uncertainty of $\pm5\%$. 
+The luminosity and its uncertainty are derived following a methodology similar to that detailed in
+Ref.~\cite{DAPR-2011-01} from a preliminary calibration of the
+luminosity scale using a pair of $x$--$y$ beam separation scans performed in
+August 2015.
+
+Monte Carlo (MC) simulated event samples are used to aid in the
+estimation of the background from SM processes and to model the SUSY signal. 
+The MC samples are processed through an ATLAS detector simulation~\cite{Aad:2010ah} based on 
+{\sc Geant4}~\cite{Agostinelli:2002hh} 
+or a fast simulation using a parameterisation of the calorimeter response 
+and {\sc Geant4} for the other parts of the detector~\cite{ATL-PHYS-PUB-2010-013}   
+and are reconstructed in the same manner as the data. 
+
+Diboson processes with four charged leptons ($\ell$), three charged leptons and one neutrino, or 
+two charged leptons and two neutrinos are simulated using the \SHERPA~v2.1.1 generator~\cite{Gleisberg:2008ta}, 
+and are described in detail in Ref.~\cite{pubnote_mc_multiboson}. 
+The matrix elements contain the doubly resonant $WW$, $WZ$ and $ZZ$ processes and all other diagrams with
+four or six electroweak vertices (such as same-electric-charge $W$ boson production in association with two jets, $W^\pm W^\pm jj$). 
+Fully leptonic triboson processes ($WWW$, $WWZ$, $WZZ$ and $ZZZ$) with up to six charged leptons are also simulated using \SHERPA~v2.1.1 
+and described in Ref.~\cite{pubnote_mc_multiboson}. 
+The $4\ell$ and $2\ell+2\nu$ processes are calculated at next-to-leading order (NLO) for up to one additional parton; 
+final states with two and three additional partons are calculated at leading order (LO). 
+The $WWZ\to 4\ell+2\nu$ or $2\ell+4\nu$ processes are calculated at LO with up to two additional partons. 
+The $3\ell +1\nu$ process is calculated at 
+NLO and up to three extra partons at LO using the Comix~\cite{Gleisberg:2008fv} 
+and OpenLoops~\cite{Cascioli:2011va} 
+matrix element generators and merged with the \SHERPA parton shower~\cite{Schumann:2007mg} 
+using the ME+PS@NLO prescription~\cite{Hoeche:2012yf}. 
+The $WWZ/WZZ\to 3\ell+3\nu$, $ZZZ\to 6\ell+0\nu$, $4\ell+2\nu$ or $2\ell+4\nu$ processes 
+are calculated with the same configuration but with up to only two extra partons at LO. 
+The CT10~\cite{Lai:2010vv} parton distribution function (PDF) set is used for all \SHERPA samples in conjunction with 
+a dedicated tuning of the parton shower parameters developed by the \SHERPA authors. 
+The generator cross-sections (at NLO for most of the processes) are used when normalising these backgrounds.
+
+Samples of $t\bar{t} V$ (with $V=W$ and $Z$, including non-resonant $Z/\gamma^*$ contributions) 
+and $t\bar{t}WW$ production are generated at LO with \MADGRAPH v2.2.2~\cite{Alwall:2011uj} interfaced to the \PYTHIA 8.186~\cite{Sjostrand:2007gs} parton shower model,
+with up to two ($\ttbar W$), one ($\ttbar Z$) or no ($\ttbar WW$) extra partons included in the matrix element; 
+they are described in detail in~\cite{pubnote_mc_ttv}. 
+\MADGRAPH is also used to simulate the $tZ$, $\ttbar\ttbar$ and $\ttbar t$ processes. 
+The {\sc A14} set of tuned parameters (tune)~\cite{pub-2014-021} is used together with the {\sc NNPDF23LO} PDF set~\cite{Ball:2012cx}. 
+The $\ttbar W$, $\ttbar Z$, $\ttbar WW$ and $\ttbar\ttbar$ events are normalised to their NLO cross-section~\cite{Alwall:2014hca} 
+while the generator cross-section is used for $tZ$ and $\ttbar t$.
+
+Production of a Higgs boson in association with a $\ttbar$ pair is simulated using \AMCATNLO~\cite{Alwall:2014hca} 
+(in \MADGRAPH v2.2.2) interfaced to \HERWIG 2.7.1~\cite{Corcella:2000bw}.  
+The UEEE5 underlying-event tune is used together with the CTEQ6L1~\cite{Pumplin:2002vw} (matrix element) and CT10~\cite{Lai:2010vv} (parton shower) PDF sets.
+Simulated samples of SM Higgs boson production in association with a $W$ or $Z$ boson are produced with \PYTHIA 8.186, using the {\sc A14} tune and the {\sc NNPDF23LO} PDF set. 
+Events are normalised with cross-sections calculated at NLO~\cite{Dittmaier:2012vm}.
+
+The signal SUSY processes are generated from LO matrix elements with up to two extra partons, 
+using the \MADGRAPH v2.2.3 generator interfaced to \PYTHIA 8.186 with the {\sc A14} tune for the modelling of the SUSY decay chain, 
+parton showering, hadronisation and the description of the underlying event. 
+Parton luminosities are provided by the {\sc NNPDF23LO} PDF set. 
+Jet--parton matching is realised following the CKKW-L prescription~\cite{Lonnblad:2011xx}, with a matching scale set to one quarter of the pair-produced superpartner mass. 
+Signal cross-sections are calculated to NLO in the strong coupling constant, 
+adding the resummation of soft gluon emission at next-to-leading-logarithmic accuracy (NLO+NLL)~\cite{Beenakker:1996ch,Kulesza:2008jb,Kulesza:2009kq,Beenakker:2009ha,Beenakker:2011fu}. 
+The nominal cross-section and the uncertainty are taken from an envelope of cross-section predictions using different PDF sets and factorisation and renormalisation scales, 
+as described in Ref.~\cite{Kramer:2012bx}. 
+The production cross-section of gluino pairs with a mass of \SI{1.2}{\TeV} is \SI{86}{\fb} at $\sqrt{s}=13$~TeV (compared with \SI{4.4}{\fb} at $\sqrt{s}=8$~TeV), 
+while the production cross-section of pairs of bottom squarks with a mass of \SI{500}{\GeV} is \SI{520}{\fb} at $\sqrt{s}=13$~TeV (compared with \SI{86}{\fb} at $\sqrt{s}=8$~TeV). 
+
+In all MC samples, except those produced by \SHERPA, the {\sc EvtGen}~v1.2.0 program~\cite{EvtGen} is used to model the properties of the bottom and charm hadron decays. 
+To simulate the effects of additional $pp$ collisions in the same and nearby bunch crossings, 
+additional interactions are generated using the soft QCD processes of \PYTHIA 8.186 
+with the A2 tune~\cite{ATLAS-PHYS-PUB-2012-003} and the MSTW2008LO PDF~\cite{Martin:2009iq}, 
+and overlaid onto the simulated hard scatter event. 
+The Monte Carlo samples are reweighted so that the distribution of the number of reconstructed vertices matches the distribution observed in the data.
+ 

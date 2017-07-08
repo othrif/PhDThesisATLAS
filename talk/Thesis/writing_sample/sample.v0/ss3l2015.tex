@@ -1,0 +1,313 @@
+%-------------------------------------------------------------------------------
+% This file provides a skeleton ATLAS document.
+%-------------------------------------------------------------------------------
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+% Use this variant if the files are in a central location, e.g. $HOME/texmf.
+% \newcommand*{\ATLASLATEXPATH}{}
+%-------------------------------------------------------------------------------
+\documentclass[UKenglish,texlive=2013]{\ATLASLATEXPATH atlasdoc}
+% The following command is needed by arXiv to ensure use of pdflatex.
+% It should be included in the first 5 lines of the preamble.
+% \pdfoutput=1
+% The language of the document must be set: usually UKenglish or USenglish.
+% british and american also work!
+% Commonly used options:
+%  texlive=YYYY          Specify TeX Live version (2013 is default).
+%  atlasstyle=true|false Use ATLAS style for document (default).
+%  coverpage             Create ATLAS draft cover page for collaboration circulation.
+%                        See atlas-draft-cover.tex for a list of variables that should be defined.
+%  cernpreprint          Create front page for a CERN preprint.
+%                        See atlas-preprint-cover.tex for a list of variables that should be defined.
+%  PAPER                 The document is an ATLAS paper (draft).
+%  CONF                  The document is a CONF note (draft).
+%  PUB                   The document is a PUB note (draft).
+%txfonts=true|false    Use txfonts rather than the default newtx - needed for arXiv submission.
+%  paper=a4|letter       Set paper size to A4 (default) or letter.
+
+%-------------------------------------------------------------------------------
+% Extra packages:
+\usepackage[subcaption,subfigure]{\ATLASLATEXPATH atlaspackage}
+\usepackage{multirow}
+% Commonly used options:
+%  biblatex=true|false   Use biblatex (default) or bibtex for the bibliography.
+%  backend=biber         Use the biber backend rather than bibtex.
+%  subfigure|subfig|subcaption  to use one of these packages for figures in figures.
+%  minimal               Minimal set of packages.
+%  default               Standard set of packages.
+%  full                  Full set of packages.
+%-------------------------------------------------------------------------------
+% Style file with biblatex options for ATLAS documents.
+\usepackage{\ATLASLATEXPATH atlasbiblatex}
+
+% Package for creating list of authors and contributors to the analysis.
+\usepackage{\ATLASLATEXPATH atlascontribute}
+
+\usepackage{rotating}
+
+
+% Useful macros
+\usepackage{\ATLASLATEXPATH atlasphysics}
+% See doc/atlas-physics.pdf for a list of the defined symbols.
+% Default options are:
+%   true:  journal, misc, particle, unit, xref
+%   false: BSM, hion, math, process, other, texmf
+% See the package for details on the options.
+
+% Files with references for use with biblatex.
+% Note that biber gives an error if it finds empty bib files.
+\addbibresource{ss3l2015.bib}
+\addbibresource{bibtex/bib/ATLAS.bib}
+\addbibresource{bibtex/bib/PubNotes.bib}
+\addbibresource{bibtex/bib/ConfNotes.bib}
+
+% Paths for figures - do not forget the / at the end of the directory name.
+\graphicspath{{logos/}{FIGURES/}}
+
+% Add you own definitions here (file ss3l2015-defs.sty).
+\usepackage{ss3l2015-defs}
+
+
+%-------------------------------------------------------------------------------
+% Generic document information
+%-------------------------------------------------------------------------------
+
+% Title, abstract and document 
+\input{ss3l2015-metadata}
+% Author and title for the PDF file
+\hypersetup{pdftitle={Supporting note draft},pdfauthor={SUSY SS/3L team}}
+
+
+%-------------------------------------------------------------------------------
+% Content
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+% List of contributors - print here or after the Bibliography.
+\clearpage
+\PrintAtlasContribute{0.30}
+\clearpage
+
+%-------------------------------------------------------------------------------
+%\setcounter{section}{-1}
+%\section{Notes to the reader}
+%\label{sec:notesReader}
+%\input{notesReader}
+
+%-------------------------------------------------------------------------------
+\section{Introduction}
+\label{sec:intro}
+%-------------------------------------------------------------------------------
+\input{intro.tex}
+
+%-------------------------------------------------------------------------------
+%\section{ATLAS detector}
+%\label{sec:detector}
+%-------------------------------------------------------------------------------
+
+%The ATLAS detector~\cite{PERF-2007-01} ...
+% \input{atlas-detector}
+
+
+\section{Signal models}
+\label{sec:signal}
+\input{models.tex}
+
+\section{MC samples}
+\label{sec:samples}
+\input{MCSamples}
+
+\FloatBarrier
+
+\section{Object definition}
+\label{sec:objects}
+\input{Objects.tex}
+
+\section{Event selection}
+\label{sec:evtsel}
+
+\subsection{Trigger studies}
+\label{sec:trigger}
+\input{trigger.tex}
+
+
+\subsection{Event pre-selection}
+\label{sec:presel}
+\input{presel.tex}
+
+\section{Signal region definition}
+\label{sec:sr}
+\input{sr.tex}
+
+
+\section{Background estimation}
+\label{sec:bkg}
+\input{bkg.tex}
+
+\section{Validation of the background estimates}
+\label{sec:bkg_validation}
+\input{bkg_validation.tex}
+
+\section{Systematic Uncertainties}
+\label{sec:systematics}
+\input{systematics.tex}
+ 
+\section{Simultaneous fit method and results}
+\label{sec:fit}
+
+Tables~\ref{tab:sr_yields}~-~\ref{tab:sr_yields_perCh} provides the observed and expected number of events in the signal regions, for the data sample corresponding to an integrated luminosity of $\mathcal L=3.21$ fb$^{-1}$. The debug stream was checked with 1.7~fb$^{-1}$ an no SS/3L events were found. 
+No excess over Standard Model prediction is observed. More details about the data events can be found in appendix, section~\ref{app:candidates}.
+
+For illustration, the missing transverse energy distribution close by and in the signal regions is shown in Figure~\ref{fig:Results_SR_metD}; 
+the results in the signal regions correspond to the last bin (inclusive) of each plot. 
+ 
+\begin{table}[t!]
+\begin{center}
+\setlength{\tabcolsep}{0.0pc}
+{\small
+%%
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr}
+\noalign{\smallskip}\hline\noalign{\smallskip}
+         & SR0b3j         & SR0b5j     & SR1b & SR3b     \\[-0.05cm]
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+Observed events         & $3$       &  $3$   & $7$  & $1$             \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%%
+Total bkg events & $1.5 \pm 0.4$ & $0.88 \pm 0.29$ & $4.5 \pm 1.0$ & $0.80 \pm 0.25$\\
+$p(s = 0)$                &  0.13  &  0.04  &  0.15  &   0.36   \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+%Fake/non-prompt leptons & $<0.2$ & $0.05\pm 0.06$ & $0.8 \pm 0.6$ & $0.13 \pm 0.09$\\ % syst only
+Fake/non-prompt leptons & $<0.2$ & $0.05\pm 0.18$ & $0.8 \pm 0.8$ & $0.13 \pm 0.17$\\ % syst+stat
+%Charge-flip & $-$ & $0.02 \pm 0.01$ & $0.60 \pm 0.09$ & $0.19 \pm 0.04$\\ % syst only
+Charge-flip & $-$ & $0.02 \pm 0.01$ & $0.60 \pm 0.12$ & $0.19 \pm 0.06$\\ % syst+stat
+$t\bar{t}W$ & $0.02 \pm 0.01$ & $0.08 \pm 0.04$ & $1.1 \pm 0.4$ & $0.10 \pm 0.05$\\
+$t\bar{t}Z$ & $0.10 \pm 0.04$ & $0.05 \pm 0.03$ & $0.92 \pm 0.31$ & $0.14 \pm 0.06$\\ % 
+$WZ$ & $1.2 \pm 0.4$ & $0.48 \pm 0.20$ & $0.18 \pm 0.11$ & $<0.02$\\
+$W^\pm W^\pm jj$ & $-$ & $0.12 \pm 0.07$ & $0.03 \pm 0.02$ & $<0.01$\\
+$ZZ$ & $<0.03$ & $<0.04$ & $<0.03$ & $<0.03$\\
+Rare & $0.14 \pm 0.08$ & $0.07 \pm 0.05$ & $0.8 \pm 0.4$ & $0.24 \pm 0.14$\\
+%%
+\noalign{\smallskip}\hline\noalign{\smallskip}
+\end{tabular*}
+}
+
+\end{center}
+\caption{Observed and predicted number of events in the four signal regions for $\mathcal L=3.2 $fb$^{-1}$. }
+\label{tab:sr_yields}
+\end{table}
+
+\begin{table}[t!]
+\centering
+\begin{tabular}{c|cccc}
+ & SR0b3j & SR0b5j & SR1b & SR3b\\\hline
+\hline\multicolumn{5}{c}{\bf $ee$ channel}\\\hline
+Fakes       & $-0.07 \pm 0.26$ & $-0.02 \pm 0.03$ & $-0.07 \pm 0.28$ & $0.001 \pm 0.004$\\
+Charge-flip & $-$ & $0.007 \pm 0.007$ & $0.29 \pm 0.08$ & $0.11 \pm 0.06$\\
+           Data & $2$ & $1$ & $3$ & $0$ \\
+\hline\multicolumn{5}{c}{\bf $e\mu$ channel}\\\hline
+Fakes       & $-0.03 \pm 0.05$ & $0.07 \pm 0.17$ & $0.5 \pm 0.5$ & $0.13 \pm 0.17$\\
+Charge-flip & $-$ & $0.02 \pm 0.01$ & $0.31 \pm 0.08$ & $0.09 \pm 0.02$\\
+           Data & $1$ & $2$ & $1$ & $1$ \\
+\hline\multicolumn{5}{c}{\bf $\mu\mu$ channel}\\\hline
+Fakes       & $-0.02 \pm 0.03$ & $0 \pm 0$ & $0.35 \pm 0.33$ & $0 \pm 0$\\
+Charge-flip & $-$ & $-$ & $-$ & $-$\\
+           Data & $0$ & $0$ & $3$ & $0$ \\
+\end{tabular}
+\caption{Observed and predicted number of events in the four signal regions for $\mathcal L=3.2 $fb$^{-1}$. 
+Results are shown in $ee$ (top), $e\mu$ (middle) and $\mu\mu$ channels.}
+\label{tab:sr_yields_perCh}
+\end{table} 
+
+\begin{figure}[h!]
+\centering
+\subfigure{
+\includegraphics[width=0.5\textwidth]{FIGURES/SR/CONF_SR0b3j}
+\includegraphics[width=0.5\textwidth]{FIGURES/SR/CONF_SR0b5j}
+}
+\subfigure{
+\includegraphics[width=0.5\textwidth]{FIGURES/SR/CONF_SR1b}
+\includegraphics[width=0.5\textwidth]{FIGURES/SR/CONF_SR3b}
+}
+\caption{Missing transverse energy distribution close by and in the SR0b3j, SR0b5j, SR1b and SR3b signal regions (from top-left to bottom-right). The results in the signal regions correspond to the last bin (inclusive) of each plot.}
+\label{fig:Results_SR_metD}
+\end{figure}  
+
+\input{histfitter}
+
+\FloatBarrier
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+
+A search for supersymmetry in events with exactly two same-sign leptons or at least three leptons, multiple jets and $\met$ is presented. 
+The analysis is performed with proton-proton collision data at $\sqrt{s}=13\TeV$ collected with the ATLAS detector at the Large Hadron Collider corresponding to an integrated luminosity of 3.2~fb$^{-1}$. 
+With no significant excess over the Standard Model background expectation,
+results are interpreted in the framework of simplified models featuring gluino and bottom squark production.
+In the $\gluino\gluino$ simplified models considered, $m_{\gluino}<1.1-1.3~\TeV$ and $m_{\ninoone}<550-850~\GeV$ 
+are excluded at 95\% confidence level depending on the model parameters. Bottom squark masses of $m_{\sbottomone}<550~\GeV$ 
+are also excluded for a light $\ninoone$ in a $\sbottomone$ simplified model with $\sbottomone\to tW^-\ninoone$.
+These results are complementary to and extend the exclusion limits by previous searches.
+
+
+%This note summarized the Run-2 preparation activities for the SUSY search using same-sign dileptons or three leptons, 
+%and the current status as of the end of April 2015 for the ``SUSY walkthroughs'' to be held on April 28th. 
+%These studies were conducted with DC14 Monte Carlo samples, and despite the known caveats in these samples (missing samples 
+%for some backgrounds, sub-optimal $b$-tagging, etc), progress has been reported about object selection, trigger studies, 
+%signal region optimization, background estimation strategy and validation regions, as well as first sensitivity results 
+%including experimental systematics. 
+
+
+\FloatBarrier
+\clearpage
+
+%-------------------------------------------------------------------------------
+% If you use biblatex and either biber or bibtex to process the bibliography
+% just say \printbibliography here
+\printbibliography[title=References]
+% If you want to use the traditional BibTeX you need to use the syntax below.
+%\bibliographystyle{bibtex/bst/atlasBibStyleWithTitle}
+%\bibliography{ss3l2015,bibtex/bib/ATLAS}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+\clearpage
+%\appendix
+\part*{Appendix}
+\addcontentsline{toc}{part}{Appendix}
+\input{app_overlapremoval}
+%\input{app_btagging}
+\input{app_iso}
+\input{appendix_chargeFlip}
+\input{appendix_RealEff}
+\input{appendix_FakeLep}
+\input{appendix_Closure_Test}
+\input{appendix_ttV}
+\input{appendix_HLTxe80}
+\input{appendix_mcmethod}
+\input{appendix_ttVsystematic}
+\input{iso}
+\input{appendix_checks}
+\input{appendix_candidates} 
+\input{appendix_hepdata} 
+
+%-------------------------------------------------------------------------------
+% Print the list of contributors to the analysis
+% The argument gives the fraction of the text width used for the names
+%-------------------------------------------------------------------------------
+%\clearpage
+%\PrintAtlasContribute{0.30}
+
+%-------------------------------------------------------------------------------
+%\clearpage
+%\appendix
+%\part*{Auxiliary material}
+%\addcontentsline{toc}{part}{Auxiliary material}
+%-------------------------------------------------------------------------------
+
+\end{document}

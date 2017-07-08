@@ -1,0 +1,22 @@
+% Title, LaTex format
+Search for supersymmetry at $\sqrt{s}=13$ TeV in final states with jets and two same-sign leptons or three leptons with the ATLAS detector
+
+
+% Abstract, LaTex format
+A search for strongly produced supersymmetric particles is conducted using signatures involving multiple energetic jets and either two isolated leptons ($e$ or $\mu$) with the same electric charge or at least three isolated leptons. The search also utilises $b$-tagged jets, missing transverse momentum and other observables to extend its sensitivity. The analysis uses a data sample of proton-proton collisions at $\sqrt{s}=13$ TeV recorded with the ATLAS detector at the Large Hadron Collider in 2015 corresponding to a total integrated luminosity of 3.2 fb$^{-1}$. No significant excess over the Standard Model expectation is observed. The results are interpreted in several simplified supersymmetric models and extend the exclusion limits from previous searches. In the context of exclusive production and simplified decay modes, gluino masses are excluded at 95% confidence level up to 1.1-1.3 TeV for light neutralinos (depending on the decay channel), and bottom squark masses are also excluded up to 540 GeV. In the former scenarios, neutralino masses are also excluded up to 550-850 GeV for gluino masses around 1 TeV.
+
+
+% Title, EPJC format
+Search for supersymmetry at √s = 13 TeV in final states with jets and two same-sign leptons or three leptons with the ATLAS detector
+
+
+% Abstract, EPJC format
+A search for strongly produced supersymmetric particles is conducted using signatures involving multiple energetic jets and either two isolated leptons (e or µ) with the same electric charge or at least three isolated leptons. The search also utilises b-tagged jets, missing transverse momentum and other observables to extend its sensitivity. The analysis uses a data sample of proton-proton collisions at √s = 13 TeV recorded with the ATLAS detector at the Large Hadron Collider in 2015 corresponding to a total integrated luminosity of 3.2 fb<sup>-1</sup>. No significant excess over the Standard Model expectation is observed. The results are interpreted in several simplified supersymmetric models and extend the exclusion limits from previous searches. In the context of exclusive production and simplified decay modes, gluino masses are excluded at 95% confidence level up to 1.1-1.3 TeV for light neutralinos (depending on the decay channel), and bottom squark masses are also excluded up to 540 GeV. In the former scenarios, neutralino masses are also excluded up to 550-850 GeV for gluino masses around 1 TeV.
+
+
+% Comments
+Comments: 20 pages plus author list + cover pages (38 pages total), 4 figures, 6 tables, submitted to EPJC, All figures including auxiliary figures are available at http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/SUSY-2015-09/
+
+
+% CERN pre-print ID
+CERN-EP-2016-027

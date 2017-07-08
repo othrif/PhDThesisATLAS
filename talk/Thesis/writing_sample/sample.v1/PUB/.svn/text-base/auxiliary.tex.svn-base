@@ -1,0 +1,52 @@
+%replaced \ninoone with \tilde\chi^0_1
+
+\begin{figure}[htb!!]
+  \begin{center}
+ \includegraphics[width=0.49\textwidth]{figures/Null}
+ \includegraphics[width=0.49\textwidth]{figures/Null}
+ \end{center}
+  \vspace{-0.8cm}
+  \caption{Illustration of the best expected signal region per signal grid point for the $\gluino\to q\bar q (\ell\ell/\nu\nu)\tilde\chi^0_1$ (left) and $\gluino\to q\bar q' WZ\tilde\chi^0_1$ (right) models. This mapping is used for the final combined exclusion limits.}
+  \label{fig:stop2_SR}
+\end{figure}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|rc|}
+\hline\hline
+& Raw events & \begin{tabular}{@{}c@{}}Number of events expected\\ for 36.0fb$^{-1}$\end{tabular}\\
+\hline\hline
+\multicolumn{3}{|l|}{XXX, $\gluino\to q\bar q(\ell\ell/\nu\nu)\tilde\chi^0_1$, $m_{\gluino}=\SI{1.4}{TeV}$, $m_{\tilde\chi^0_1}=\SI{1.1}{TeV}$} \\ \hline
+produced					& 	   & $--$ \\
+$\ge 3$ leptons ($\pt>20,20,\SI{10}{GeV}$)	&  	   & $-- \pm --$\hspace*{1.95mm} \\
+trigger						&  	   & $-- \pm --$\hspace*{1.95mm} \\
+no $b$-jet ($\pt>\SI{20}{GeV}$)			&  	   & $-- \pm --$\hspace*{1.95mm} \\
+$\ge 4$ jets ($\pt>\SI{40}{GeV}$)		&  	   & $--\pm --$\hspace*{1.95mm} \\
+$\met>\SI{150}{GeV}$				&  	   & $-- \pm --$ \\
+\hline\hline
+\end{tabular}
+\caption{Number of signal events selected at different stages of the Signal region definitions, 
+for some of the RPC benchmark scenarios shown on Fig.~\ref{fig:feynman}. 
+Only the statistical uncertainties are displayed. }
+\label{tab:signal_cutflow_rpc}
+\end{table}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|rc|}
+\hline\hline
+\multicolumn{3}{|l|}{XXXX, $\gluino\to tds$, $m_{\gluino}=\SI{1.4}{TeV}$, $m_{\tilde{t}_1}=\SI{600}{GeV}$} \\ \hline
+produced					& 	   & $--$ \\
+$\ge 3$ leptons ($\pt>20,20,\SI{10}{GeV}$)	&  	   & $-- \pm --$\hspace*{1.95mm} \\
+trigger						&  	   & $-- \pm --$\hspace*{1.95mm} \\
+$\ge 1$ $b$-jet ($\pt>\SI{20}{GeV}$)			&  	   & $-- \pm --$\hspace*{1.95mm} \\
+$\ge 6$ jets ($\pt>\SI{50}{GeV}$)		&  	   & $--\pm --$\hspace*{1.95mm} \\
+$\meff>\SI{1.8}{TeV}$				 &	    & $-- \pm --$ \\
+\hline\hline
+\end{tabular}
+\caption{Number of signal events selected at different stages of the RPV SUSY scenario definitions, 
+for some of the RPV benchmark scenarios shown on Fig.~\ref{fig:feynman}. 
+Only the statistical uncertainties are displayed. }
+\label{tab:signal_cutflow_rpv}
+\end{table}

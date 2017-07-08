@@ -1,0 +1,291 @@
+Figure~\ref{fig:Results_SR} shows the \met or \meff\ distributions in data
+after the signal region selections (\textcolor{red}{except that on the variable shown. CHECK when I will have the plot}). 
+The expected contributions from the SM backgrounds are also shown. 
+
+\begin{figure}[p]
+\centering
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:Results_SR3L1}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:Results_SR3L2}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:Results_SR0b1}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:Results_SR0b2}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:Results_SR1b}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:Results_SR3b}\end{subfigure}
+\caption{Missing transverse momentum distributions after (a)\textcolor{red}{UPDATE}, (b)\textcolor{red}{UPDATE}, 
+(c) \textcolor{red}{UPDATE}, (d) \textcolor{red}{UPDATE}, (e) \textcolor{red}{UPDATE} and (f) \textcolor{red}{UPDATE} 
+selection, except the \met\ requirement. The results in the signal regions are shown in the last (inclusive) bin of each plot. 
+The statistical uncertainties on the background prediction are included in the uncertainty band, 
+as well as the full systematic uncertainties for backgrounds with fake or non-prompt leptons, or charge-flip. 
+\textcolor{red}{[UPDATE: Choose the illustrative SR plots (3 RPC, 3 RPV) and put the other in back-up]}
+}
+\label{fig:Results_SR} 
+\end{figure} 
+
+%For illustration, a typical SUSY signal distribution corresponding to the most relevant benchmark scenario 
+%in each SR is displayed.
+The detailed yields for data and the different sources of SM background in the signal regions 
+are presented in Table~\ref{tab:SR_yields}. 
+%None of the observed events in data contain three leptons of equal charge. 
+The uncertainties amount to \textcolor{red}{[UPDATE:25--50\%]} of the total background depending on the signal region. 
+The contributions listed in the ``Rare'' category in the tables is dominated by $tWZ$ and triboson production in SRs with 3 leptons,
+by $\ttbar H$ and $tWZ$ production in SRs with a $b$-jet veto, 
+by $\ttbar H$ and $\ttbar \ttbar$ production in SRs requiring one $b$-jet 
+and by $\ttbar \ttbar$  production in SRs with three $b$-jets required.
+%In all four SRs the number of data events exceeds the expectation but is consistent within the uncertainties, 
+%the smallest $p$-value for the SM-only hypothesis being 0.04 for SR0b5j. 
+%Out of the 14 events in the SRs, 2 of the events in SR1b and the 3 events in SR0b3j contain three leptons. 
+%None of those events contain three leptons of equal charge. 
+
+\begin{table}
+\scriptsize
+%\small
+\begin{center}
+\vspace*{-0.035\textwidth}
+\begin{tabular}{|l|r|r|r|r|r|r|}
+\hline
+Signal Region & {\bf Rpc2L3bS } & {\bf Rpc2L3bH } & {\bf Rpc2Lsoft1b  } & {\bf Rpc2Lsoft2b } & {\bf Rpc2L0bS } & {\bf Rpc2L0bH }\\
+\hline
+\hline
+$t\bar{t}Z\gamma^*$      &        &        &        &        &    &    \\
+$t\bar{t}W$              &        &        &        &        &    &    \\
+$t\bar{t}H$              &        &        &        &        &    &    \\
+$t\bar{t}t\bar{t}$       &        &        &        &        &    &    \\
+Diboson                  &        &        &        &        &    &    \\
+Rare                     &        &        &        &        &    &    \\
+Fake/non-prompt leptons  &        &        &        &        &    &    \\
+Charge-flip              &        &        &        &        &    &    \\	
+\hline
+Total Fitted bkg         &        &        &        &        &    &    \\
+\hline
+Observed                 &        &        &        &        &    &    \\
+\hline
+$S_{\rm obs}^{95}$       &	  &	   &	    &	     &    &    \\
+$S_{\rm exp}^{95}$       &	  &	   &	    &	     &    &    \\
+$\sigma_{\rm{vis}}$ [fb] &        &        &        &        &    &    \\
+$p_{0}$ ($\rm Z$)        &        &        &        &        &    &    \\
+\hline 
+\end{tabular}
+
+\vspace*{1cm}
+
+\begin{tabular}{|l|r|r|r|r|r|r|r|}
+\hline
+Signal Region & {\bf Rpc3L0bS } & {\bf Rpc3L0bH } & {\bf Rpc3L1bS } & {\bf Rpc3L1bH } & {\bf Rpc2L1bS } & {\bf Rpc2L1bH } & {\bf Rpc3LSS1b }\\
+\hline
+\hline
+$t\bar{t}Z\gamma^*$      &        &        &        &        &    &    &     \\
+$t\bar{t}W$              &        &        &        &        &    &    &     \\
+$t\bar{t}H$              &        &        &        &        &    &    &     \\
+$t\bar{t}t\bar{t}$       &        &        &        &        &    &    &     \\
+Diboson                  &        &        &        &        &    &    &     \\
+Rare                     &        &        &        &        &    &    &     \\
+Fake/non-prompt leptons  &        &        &        &        &   &     &     \\
+Charge-flip              &        &        &        &        &   &     &     \\	
+\hline
+Total Fitted bkg         &        &        &        &        &   &      &    \\
+\hline
+Observed                 &        &        &        &        &   &      &    \\
+\hline
+$S_{\rm obs}^{95}$       &	  &	   &	    &	     &   &    &      \\
+$S_{\rm exp}^{95}$       &	  &	   &	    &	     &   &    &      \\
+$\sigma_{\rm{vis}}$ [fb] &        &        &        &        &   &    &      \\
+$p_{0}$ ($\rm Z$)        &        &        &        &        &   &    &      \\
+\hline 
+\end{tabular}
+
+\vspace*{1cm}
+
+\begin{tabular}{|l|r|r|r|r|r|r|}
+\hline
+Signal Region & {\bf Rpv2L1bH } & {\bf Rpv2L0b } & {\bf Rpv2L3bH } & {\bf Rpv2L3bS } & {\bf Rpv2L1bS }  & {\bf Rpv2L1bM  } \\
+\hline
+\hline
+$t\bar{t}Z\gamma^*$      &        &        &        &        &   &        \\
+$t\bar{t}W$              &        &        &        &        &   &        \\
+$t\bar{t}H$              &        &        &        &        &   &        \\
+$t\bar{t}t\bar{t}$       &        &        &        &        &   &        \\
+Diboson                  &        &        &        &        &   &        \\
+Rare                     &        &        &        &        &   &        \\
+Fake/non-prompt leptons  &        &        &        &        &   &        \\
+Charge-flip              &        &        &        &        &   &        \\	
+\hline
+Total Fitted bkg         &        &        &        &        &   &        \\
+\hline
+Observed                 &        &        &        &        &   &        \\
+\hline
+$S_{\rm obs}^{95}$       &	  &	   &	    &	     &   &	 \\
+$S_{\rm exp}^{95}$       &	  &	   &	    &	     &   &	 \\
+$\sigma_{\rm{vis}}$ [fb] &        &        &        &        &   &       \\
+$p_{0}$ ($\rm Z$)        &        &        &        &        &   &       \\
+\hline 
+\end{tabular}
+
+\vspace*{1cm}
+
+\vspace*{-0.01\textheight}\caption[p0 and UL]{Numbers of events observed in the signal regions compared with background expectations 
+obtained from the fits described in the text. The ``Rare'' category contains the contributions from associated 
+production $\ttbar+WW/WZ$, as well as $t+Z/WZ/\ttbar$, $H+W/Z$, and triboson production.Empty cells (indicated by a `-') 
+correspond to estimates lower than $0.01$. The p-values ($p_{0}$) give the probabilities of the observations being consistent 
+with the estimated backgrounds. For an observed number of events lower than expected, the p-value is truncated at 0.5. Between 
+parentheses, $p$-values are also given as the number of equivalent Gaussian standard deviations (Z).
+Also shown are 95\% CL upper limits on the observed number of BSM events ($S_{\rm obs}^{95}$ ), the expected number of BSM events ($S_{\rm exp}^{95}$) and
+the visible cross-section ($\sigma_{\rm{vis}}$) -- see text, given the expected number of background events (and $\pm 1\sigma$ excursions of the expectation). 
+\textcolor{red}{[UPDATE:Put final numbers]}}
+\label{tab:SR_yields}
+\end{center}
+\end{table}
+
+
+In the absence of any significant deviations from the SM predictions, upper limits on possible BSM contributions to the signal regions are computed, using the SUSY benchmark scenarios described in Section~\ref{sec:intro}. 
+The HistFitter framework~\cite{Baak:2014wma}, which utilises a profile-likelihood-ratio test~\cite{Cowan:2010js}, 
+is used to establish 95\% confidence intervals using the CL$_\mathrm{s}$ prescription~\cite{Read_CLs}. 
+The likelihood is built as the product of a Poisson probability density function describing the observed number of events in the signal region 
+and Gaussian distributions constraining the nuisance parameters 
+associated with the systematic uncertainties whose widths correspond to the sizes of these uncertainties; 
+Poisson distributions are used instead for MC and data control region statistical uncertainties.
+Correlations of a given nuisance parameter between the different sources of backgrounds and the signal are taken into account when relevant. 
+The hypothesis tests are performed independently for each of the signal regions. 
+
+Table~\ref{tab:SR_yields} presents 95\% confidence level (CL) model-independent upper limits 
+on the number of observed (expected) BSM events, $S_{\rm obs}^{95}$ ($S_{\rm exp}^{95}$), that may contribute to the signal regions. 
+Normalising these by the integrated luminosity $L$ of the data sample, they can be interpreted as upper limits on the visible 
+BSM cross-section ($\sigma_{\rm{vis}}$), 
+defined as $\sigma_{\rm{vis}}=\sigma_{\rm{prod}}\times A \times\epsilon=S_{\rm obs}^{95}/L$ where $\sigma_{\rm{prod}}$ is the production cross-section, 
+$A$ the acceptance and $\epsilon$ the reconstruction efficiency. 
+
+
+\begin{figure}[p]
+\centering
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_gtt}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_gttOffshell}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_gg2WZ}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_gg2sl}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_b1b1}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_t1t1}\end{subfigure}
+\caption{
+Observed and expected exclusion limits on the \gluino, \sbottomone, \stopone and \ninoone masses 
+in the context of RPC SUSY scenarios with simplified mass spectra. The signal region used to obtain the limits is specified for each scenario. 
+The contours of the band around the expected limit are the $\pm$1$\sigma$ results, 
+including all uncertainties except the theoretical ones on the signal cross-section. The dotted lines around the observed
+limit illustrate the change in the observed limit as the nominal signal cross-section is scaled up and down
+by the theoretical uncertainty. All limits are computed at 95\% CL. 
+The diagonal lines indicate the kinematic limit for the decays in each specified scenario.  
+Results are compared with the observed limits obtained by previous ATLAS searches~\cite{paperSS3L,Aad:2016jxj,Aad:2016eki,Aad:2015iea}. 
+\textcolor{red}{[UPDATE: plots and captions]}.
+}
+\label{fig:Results_Limits_RPC} 
+\end{figure} 
+
+\begin{figure}[p]
+\centering
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynm_rpv_gl313}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynm_rpv_gl321}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynm_rpv_glprime}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynm_rpv_gl112l}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynm_rpv_sd313}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynm_rpv_sd321}\end{subfigure}
+\caption{
+Observed and expected exclusion limits on the \gluino, \stopone and $\tilde d_R$ masses 
+in the context of RPV SUSY scenarios with simplified mass spectra 
+featuring $\gluino\gluino$ or $\tilde d_R\tilde d_R$ pair production with exclusive decay modes. 
+The signal region used to obtain the limits is specified for each scenario. 
+The contours of the band around the expected limit are the $\pm$1$\sigma$ results, 
+including all uncertainties except theoretical uncertainties on the signal cross-section. The dotted lines around the observed
+limit illustrate the change in the observed limit as the nominal signal cross-section is scaled up and down
+by the theoretical uncertainty. All limits are computed at 95\% CL. 
+The diagonal lines indicate the kinematic limit for the decays in each specified scenario, 
+or in the case of $\tilde d_R\tilde d_R$ production, the region where the alternative decay channel $\tilde d_R\to \gluino d$ is open. 
+Results are compared with the observed limits obtained by previous ATLAS searches~\cite{Aad:2015iea}. 
+\textcolor{red}{[UPDATE: plots and captions]}.
+}
+\label{fig:Results_Limits_RPV} 
+\end{figure}
+
+\begin{figure}[p]
+\centering
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{Null}\caption{}\label{fig:limits_feynman_gtt}\end{subfigure}
+\caption{
+Observed and expected exclusion limits in the $m_{1/2}$ versus $m_H^2$ plane for the NUHM2 model described in the text.
+The contours of the band around the expected limit are the $\pm$1$\sigma$ results, 
+including all uncertainties except theoretical uncertainties on the signal cross-section. The dotted lines around the observed
+limit illustrate the change in the observed limit as the nominal signal cross-section is scaled up and down
+by the theoretical uncertainty. All limits are computed at 95\% CL. 
+\textcolor{red}{[UPDATE: plots and Caption]}.
+}
+\label{fig:Results_Limits_NUHM2} 
+\end{figure} 
+
+Exclusion limits are also set on the masses of the superpartners involved in the SUSY benchmark scenarios considered in this analysis. 
+Simplified models corresponding to a single production mode and with 100\% branching ratio to a specific decay chain are used, 
+with the masses of the SUSY particles not involved in the process set to very high values. 
+Figures~\ref{fig:Results_Limits_RPC}, \ref{fig:Results_Limits_RPV} and \ref{fig:Results_Limits_NUHM2} show the limits on all 
+the models considered in Figure~\ref{fig:feynman}. \textcolor{red}{UPDATE: comment theplots when available. Comment on the observed and 
+expect limits for all models, as well as stating which SR is used for which model } 
+
+
+
+
+%on the mass of the $\ninoone$ as a function of the $\gluino$ or $\sbottomone$ mass for the RPC models in Fig.~\ref{fig:feynman}. 
+%For these results, asymptotic formulas~\cite{Cowan:2010js} are used to model the probability distribution of the test statistic. 
+%The new limits set by this analysis can be compared 
+%with the existing limits set by other ATLAS SUSY searches~\cite{paperSS3L,Aad:2016jxj,Aad:2016eki,Aad:2015iea}. 
+
+%Signal models featuring gluino pair production with a subsequent gluino decay via $\ninotwo$ and light sleptons\\ 
+%($\gluino\to q\bar q\ninotwo\to q\bar q (\ell\slepton^*/\nu\tilde{\nu}^*)\to q\bar q(\ell^+\ell^-/\nu\nu)\ninoone$) 
+%are probed using SR3L1 and SR3L2 (Fig.~\ref{fig:limits_SR3L}).
+%In this simplified model, the gluinos decay into $u\bar u$, $d\bar d$, $s\bar s$ or $c\bar c$ with equal probabilities, 
+%and the six types of leptons are also produced in the $\tilde\chi_2^0$ decays with equal probabilities. 
+%The $\ninotwo$ mass is set to $m_{\ninotwo}=(m_{\gluino} + m_{\ninoone})/2$, 
+%with the $\slepton$ and $\tilde{\nu}$ masses set to $m_{\slepton,\tilde{\nu}}=(m_{\ninotwo} + m_{\ninoone})/2$. 
+%For each point of the parameter space, the signal region providing the best expected limit is used. 
+%Gluino masses up to $m_{\gluino}\approx\SI{1.7}{TeV}$ for a light \ninoone 
+%and \ninoone masses up to $m_{\ninoone}\approx\SI{1.1}{TeV}$ for gluinos with $m_{\gluino}\approx\SI{1.4}{TeV}$ are excluded in this scenario, improving upon the limits set in Ref.~\cite{paperSS3L} by up to \SI{400}{GeV} in $\gluino$ mass and up to \SI{300}{GeV} in $\ninoone$ mass. 
+
+%Similarly, models with gluino pair production followed by two-step gluino decays involving $\chinoonepm$ and $\ninotwo$  
+%($\gluino\to q\bar q \chinoonepm \to q\bar q W\ninotwo \to  q\bar q W Z \ninoone$) 
+%are probed with SR0b1 and SR0b2 (Fig.~\ref{fig:limits_SR0b}).
+%In this simplified model, the gluinos decay into $u\bar u$, $d\bar d$, $s\bar s$ or $c\bar c$ with equal probabilities. 
+%The $\chinoonepm$ mass is set to $m_{\chinoonepm}=(m_{\gluino} + m_{\ninoone})/2$ and
+%the $\ninotwo$ mass is set to $m_{\ninotwo}=(m_{\chinoonepm} + m_{\ninoone})/2$; 
+%$W$ and $Z$ bosons produced in the decay chain are not necessarily on-shell. 
+%For each point of the parameter space, the signal region providing the best expected limit is used. 
+%The exclusion limits in this scenario reach $m_{\gluino}\approx\SI{1.6}{TeV}$ (for light $\ninoone$) 
+%and $m_{\ninoone}\approx\SI{900}{GeV}$ (for $m_{\gluino}\approx\SI{1.3}{TeV}$), 
+%extending the limits set in Ref.~\cite{Aad:2016jxj,paperSS3L} by up to \SI{200}{GeV} in $\gluino$ mass and up to \SI{350}{GeV} in $\ninoone$ mass.
+
+%Exclusion limits in a simplified model of bottom squark production with chargino-mediated $\sbottomone\to tW^-\ninoone$ decays are 
+%obtained with SR1b (Fig.~\ref{fig:limits_SR1b}).
+%In this model the $\chinoonepm$ mass is set to $m_{\chinoonepm}=m_{\ninoone} + \SI{100}{GeV}$.
+%The limits reach mass values of $m_{\sbottomone}\approx\SI{690}{GeV}$ for a light $\ninoone$, 
+%while $m_{\ninoone}\lesssim\SI{260}{GeV}$ are also excluded for $m_{\sbottomone}\approx\SI{540}{GeV}$. 
+%This extends the limits set in Ref.~\cite{paperSS3L} by up to \SI{150}{GeV} in $\sbottomone$ mass and~up to \SI{120}{GeV} in $\ninoone$ mass. 
+
+%Finally, SR3b is used to set limits on masses in a simplified model with 
+%gluino pair production and $\gluino\to t\bar t\ninoone$ decays 
+%via an off-shell top squark (Fig.~\ref{fig:limits_SR3b}). 
+%In the compressed region where one or more of the produced top quarks is off-shell, for $m_t+m_W<m_{\gluino} - m_{\ninoone}<2m_t$, an isotropically-distributed $\gluino\to tWb\ninoone$ decay is assumed, 
+%while for $2 m_W<m_{\gluino} - m_{\ninoone}<m_t+m_W$ an isotropically-distributed $\gluino\to WbWb\ninoone$ decay is used. 
+%Gluino masses of $m_{\gluino}\lesssim\SI{1.45}{TeV}$ are excluded for $m_{\ninoone}\lesssim\SI{700}{GeV}$, 
+%and $\ninoone$ masses up to $m_{\ninoone}\approx\SI{850}{GeV}$ are also excluded for $m_{\gluino}\approx\SI{1.25}{TeV}$. 
+%Limits set in Ref.~\cite{Aad:2016eki} (dark gray line, $m_{\gluino}\approx\SI{1.75}{TeV}$ for $m_{\ninoone}\lesssim\SI{800}{GeV}$) are already beyond those reported here, but the present analysis reaches better sensitivity in the compressed region with $m_{\gluino}\lesssim 2m_t+m_{\ninoone}$. 
+
+%Figure~\ref{fig:Results_Limits_RPV} shows the limits 
+%on the masses of the $\gluino$, $\stopone$ and $\tilde d_R$ in the context of the RPV models shown in Fig.~\ref{fig:feynman}. 
+%For scenarios featuring gluino pair production, prompt decays of the $\stopone$ into light SM quarks are assumed 
+%via non-zero RPV couplings $\lambda''_{321}$ (for $\stopone\to \bar s\bar d$) or $\lambda''_{331}$ (for $\stopone\to \bar b\bar d$). 
+%Sensitivity to these scenarios is brought by SR1b-GG, and is similar for the two \stopone\ decay modes, 
+%allowing to set exclusion limits up to $m_{\gluino}\approx\SI{1.3}{TeV}$ for $m_{\stopone}\approx\SI{600}{TeV}$, 
+%or probe $m_{\stopone}$ up to~$\approx\SI{1}{TeV}$. 
+%These results extend the limits set in Ref.~\cite{Aad:2015iea} by up to \SI{400}{GeV} in $\gluino$ mass. 
+
+%Pair production of right-handed like-sign down squarks is probed by SR1b-DD and SR3b-DD, 
+%for squark decays $\tilde d_R\to \bar t\bar s$ or $\tilde d_R\to \bar t\bar b$ 
+%through respectively non-zero RPV couplings $\lambda''_{321}$ or $\lambda''_{331}$. 
+%In these scenarios, simulated events are all generated with $m_{\gluino}=\SI{2}{TeV}$ 
+%to avoid contributions beyond tree level with resonant gluinos~\cite{Beenakker:1996ch,GoncalvesNetto:2012yt}; 
+%the exclusion limits are however provided as function of the $\tilde d_R$ and \gluino masses, 
+%by changing the NLO cross-section used for the normalization, which depends on the gluino mass. 
+%For $m_{\gluino}\sim m_{\tilde d_R}$, sensitivity to $\tilde d_R\tilde d_R$ production 
+%(which does not take into account contributions from $\gluino\gluino$ or $\gluino\tilde q$ production) 
+%reaches $m_{\tilde d_R}\approx\SI{700}{GeV}$ for both $\tilde d_R\to \bar t\bar s$ 
+%and $\tilde d_R\to \bar t\bar b$. 
+
