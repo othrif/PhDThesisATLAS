@@ -1,0 +1,152 @@
+In this analysis, two types of backgrounds can be distinguished.
+ The first category is the reducible  
+background, which includes events containing electrons with mismeasured charge, mainly from the production of top quark pairs, 
+and events containing at least one fake or non-prompt (FNP) lepton that 
+was discussed in detail in Chapter ??.
+Data-driven methods used for the estimation of this reducible background  in the signal 
+and validation regions are described in Section~\ref{sec:DD_bkg}. The second category is the irreducible background from events with two same-sign prompt 
+leptons or at least three prompt leptons and is estimated using the MC simulation samples. Since diboson and $\ttbar V$ events are the main 
+backgrounds in the signal regions, dedicated validation regions (VR) with an enhanced contribution from these processes, and small 
+signal contamination, are defined to verify the background predictions from the simulation (Section~\ref{sec:valid}). 
+
+
+\subsection{Irreducible background estimation methods} 
+\label{sec:DD_bkg}
+\input{texfiles/subsection_prompt}
+
+
+\subsection{Reducible background estimation methods} 
+\label{sec:DD_bkg}
+
+
+Two data-driven methods are used to estimate the FNP lepton background, referred to as the ``matrix method'' and the ``MC template method''. 
+The estimates from these methods are combined to give the final estimate. These two methods are described below. 
+A detailed description of both methods was given in Chapter ??. 
+In this section, more details will be given on their application for this 
+analysis.
+
+
+
+\subsection{Matrix Method}
+\input{texfiles/subsection_mxm}
+
+\subsection{MC Template Method}
+\input{texfiles/subsection_mct}
+
+
+\subsection{Background processes with charge-flipped electrons}
+\input{texfiles/subsection_chargeflip}
+
+\subsection{Expected yields in signal regions}
+\label{subsec:fakes_yields}
+
+The expected yield for processes with fake leptons, 
+estimated with the method described in sections~\ref{subsec:fakes_matrix} and~\ref{subsec:fakes_mctemplate}, 
+are presented in Table~\ref{tab:fakes_sr_yields} for the signal regions. 
+They are compared for cross-check with the alternative ABCD prediction (section~\ref{subsec:fakes_abcd}), 
+and are all found to be consistent with each other. 
+
+The final numbers retained for the fake lepton background estimate (also shown in the tables) 
+are taken as the weighted-average of the predictions from the matrix method and the MC template; 
+the weights are based on the statistical component, and the systematic uncertainties are propagated 
+assuming conservatively a full correlation between the two methods (although they are in fact largely independent!). 
+The central value and statistical/systematic uncertainties are therefore: 
+
+\begin{align}
+&\left(w\zeta_1 + (1-w)\zeta_2\right) 
+\pm \sqrt{w^2\left(\Delta\zeta_1^\text{(stat)}\right)^2 + (1-w)^2\left(\Delta\zeta_2^\text{(stat)}\right)^2} 
+\pm \left(w\Delta\zeta_1^\text{(syst)} + (1-w)\Delta\zeta_2^\text{(syst)}\right)\\
+&\qquad\text{ with }w=\frac{\left(\Delta\zeta_2^\text{(stat)}\right)^2}{\left(\Delta\zeta_1^\text{(stat)}\right)^2+\left(\Delta\zeta_2^\text{(stat)}\right)^2}\notag
+\end{align}
+
+When the estimated value is too small(below 0.15), the expected yield is set to $0.15\pm 0.15$, 
+to cover for possibilities of an under-fluctuation of the number of baseline-not-signal leptons 
+when applying the matrix method, as well as lack of statistics in the MC samples for the other method. 
+ 
+This upper bound is inflated if the original combined prediction $x\pm\Delta x$ 
+is such that its plus-one-sigma variation exceeds the upper bound, that is $\delta=(x+\Delta x)>0.30$; 
+in that case the final retained number is $(\delta/2)\pm (\delta/2)$. 
+There is no such instance in the current SR estimates, though, as can be seen in the table.  
+
+\begin{table}[!htb]
+\caption{Expected yields for background processes with fake leptons,
+in the signal regions proposed in Section~\ref{sec:signalregions}, shown for 36 \ifb. 
+Uncertainties include all statistical and systematic sources for the nominal estimate (except ABCD, cf section~\ref{subsec:fakes_abcd}). 
+}
+\label{tab:fakes_sr_yields}
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c||c|c|c||c|}\hline
+      Region &              Matrix method   &   Template method   &       ABCD method   &     Retained estimate  \\\hline
+% v52, updated uncertainties and real efficiencies
+    Rpc2L0bH & $ 0.83 \pm  0.56 \pm  0.74$  &  $1.00 \pm 0.96 \pm 0.81$  &  $0.36\pm 0.25 \pm 0.06$   &  $ 0.87 \pm  0.48 \pm  0.76$  \\
+    Rpc2L0bS & $ 1.51 \pm  0.60 \pm  0.66$  &  $1.68 \pm 1.02 \pm 1.26$  &  $0.66\pm 0.39\pm 0.22$    &  $ 1.55 \pm  0.52 \pm  0.81$  \\
+    Rpc2L1bH & $ 3.54 \pm  1.62 \pm  3.12$  &  $2.07 \pm 0.63 \pm 1.56$  &  $2.06\pm 0.32\pm 0.16$    &  $ 2.26 \pm  0.59 \pm  1.76$  \\
+    Rpc2L1bS & $ 2.65 \pm  1.21 \pm  1.89$  &  $02.33 \pm 01.17 \pm 02.10$  &   $2.7\pm 0.6\pm 1.5$     &  $ 2.48 \pm  0.84 \pm  2.00$  \\ 
+    Rpc2L2bH & $-0.11 \pm  0.11 \pm  0.18$  &  $<0.5$  &  $0.10\pm 0.05\pm 0.03$    &  $ 0.15 \pm  0.15 \pm  0.00$  \\
+    Rpc2L2bS & $ 1.31 \pm  1.07 \pm  1.65$  &  $0.41 \pm 0.33 \pm 0.45$  &  $1.1\pm 0.2\pm 0.4$       &  $ 0.49 \pm  0.32 \pm  0.55$  \\
+    Rpc2Lsoft1b & $ 4.75 \pm  1.42 \pm  2.64$  &  $2.48 \pm 1.32 \pm 1.86$  &  $1.2\pm 0.3\pm 1.2$       &  $ 3.53 \pm  0.97 \pm  2.22$  \\
+    Rpc2Lsoft2b & $ 1.91 \pm  1.18 \pm  1.63$  &  $1.66 \pm 0.66 \pm 1.28$  &  $0.72\pm 0.19\pm 0.26$    &  $ 1.72 \pm  0.58 \pm  1.36$  \\
+    Rpc3L0bH & $-0.01 \pm  0.11 \pm  0.10$  &  $<0.5$  &  $<0$                      &  $ 0.15 \pm  0.15 \pm  0.00$  \\
+    Rpc3L0bS & $ 2.31 \pm  1.50 \pm  2.63$  &  $0.21 \pm 0.15 \pm 0.16$  &  $<0$                      &  $ 0.23 \pm  0.15 \pm  0.18$  \\
+    Rpc3L1bH & $ 0.57 \pm  0.43 \pm  0.50$  &  $0.42 \pm 0.29 \pm 0.32$  &  $<0$                      &  $ 0.47 \pm  0.24 \pm  0.38$  \\
+    Rpc3L1bS & $ 4.94 \pm  1.83 \pm  2.96$  &  $3.55 \pm 1.80 \pm 2.76$  &  $1.0\pm 0.9\pm 0.1$       &  $ 4.23 \pm  1.28 \pm  2.86$  \\
+    Rpc3LSS1b & $-0.18 \pm  1.24 \pm  2.85$  &  $0.90 \pm 0.14 \pm 0.69$  &  $-$                       &  $ 0.89 \pm  0.14 \pm  0.72$  \\
+    Rpv2L0b & $ 0.14 \pm  0.22 \pm  0.27$  &  $1.02 \pm 0.96 \pm 0.76$  &  $0.13\pm 0.12\pm 0.04$    &  $ 0.18 \pm  0.21 \pm  0.29$  \\
+    Rpv2L1bH & $-0.06 \pm  0.03 \pm  0.09$  &  $0.60 \pm 0.35 \pm 0.48$  &  $0.31\pm 0.11\pm 0.08$    &  $ 0.15 \pm  0.15 \pm  0.00$  \\
+    Rpv2L1bM & $ 1.70 \pm  2.07 \pm  1.68$  &  $1.20 \pm 0.69 \pm 0.95$  &  $0.53\pm 0.10\pm 0.18$    &  $ 1.25 \pm  0.65 \pm  1.02$  \\
+    Rpv2L1bS & $16.49 \pm  4.04 \pm 18.70$  &  $4.46 \pm 1.67 \pm 3.45$  &  $4.5\pm 0.9\pm 1.4$       &  $ 6.22 \pm  1.54 \pm  5.68$  \\
+    Rpv2L2bH & $-0.04 \pm  0.02 \pm  0.04$  &  $<0.5$  &  $0.26\pm 0.08 \pm 0.07$   &  $ 0.15 \pm  0.15 \pm  0.00$  \\
+    Rpv2L2bS & $ 9.67 \pm  3.29 \pm  9.04$  &  $7.24 \pm 2.36 \pm 5.43$  &  $2.7\pm 0.5\pm 1.0$       &  $ 8.07 \pm  1.92 \pm  6.66$  \\	  
+\hline
+\hline
+\end{tabular}
+}
+\end{table}
+
+To check the validity and robustness of the FNP lepton estimate, 
+the distributions of several discriminating variables in data are compared 
+with the predicted background after various requirements on the number of jets and $b$-jets. 
+Examples of such distributions are shown in Figure~\ref{fig:Bkg_distribs}, 
+and illustrate that the data are described by the prediction within uncertainties. The apparent disagreement 
+for \meff\ above 1 TeV in Figure~\ref{fig:VRmeff2} is covered by the large theory uncertainty for the diboson background, which is not shown 
+but amounts to about 30\% for \meff\ above 1 TeV.
+
+\begin{figure}[th!]
+\centering
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_2JMET50_njets25}\caption{}\label{fig:VRnj}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_2JMET50_nbjets}\caption{}\label{fig:VRnb}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_2JMET50_meff}\caption{}\label{fig:VRmeff1}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_TRILEP_2JMET50_meff}\caption{}\label{fig:VRmeff2}\end{subfigure}
+\caption{
+Distributions of (a) the number of jets, (b) the number of $b$-tagged jets and (c), (d) the effective mass. The distributions are made 
+after requiring at least two jets ($\pT>40 \GeV$) and $\met>50 \GeV$, as well as at least two same-sign leptons ((a), (b), (c)) 
+or three leptons (d). The uncertainty bands include the statistical uncertainties for the background prediction as well as the 
+systematic uncertainties for fake- or non-prompt-lepton backgrounds (using the matrix method) and charge-flip electrons. Not included
+are theoretical uncertainties in the irreducible background contributions.
+The rare category is defined in the text.}
+\label{fig:Bkg_distribs} 
+\end{figure} 
+
+
+\begin{figure}[htb!]
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_1B2JMET50_njets25_matrix}\caption{}\label{fig:VR1b2j_MxM}\end{subfigure}
+\begin{subfigure}[t]{0.49\textwidth}\includegraphics[width=\textwidth]{PAPER_DILEP_1B2JMET50_njets25_template}\caption{}\label{fig:VR1b2j_MCT}\end{subfigure}
+\caption{
+Distributions of the number of jets after requiring at least two jets ($\pT> 40 \GeV$) and $\met> 50 \GeV$, 
+as well as at least two same-sign leptons. 
+The fake or non-prompt leptons backgrounds are estimated alternatively with the matrix method (a) or the MC template method (b). 
+The uncertainty band includes the statistical uncertainties for the background prediction as well as the
+full systematic uncertainties for fake or non-prompt leptons backgrounds or charge-flip electrons. 
+The rare category is defined in the text. In both figures, the last bin contains the overflow.
+}
+\label{fig:VR1b2j}
+\end{figure}
+
+\begin{figure}[htb!]
+\centering
+\begin{subfigure}[t]{0.66\textwidth}\includegraphics[width=\textwidth]{ETA_SS_BDTEL}\end{subfigure}
+\caption{Invariant mass of the signal $e^{\pm} e^{\pm}$ pair distribution with (full markers) and without (open markers) charge-flip electron BDT selection applied.
+}
+\label{fig:ETA_SS_BDTEL}
+\end{figure}

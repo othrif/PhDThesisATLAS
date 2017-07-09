@@ -1,0 +1,35 @@
+The goal of the analysis is to maximize the information that can be 
+extracted from comparing the observed data to the background 
+prediction in the signal regions designed to search for new physics 
+topologies. Statistical tools are essential to tell in the most 
+powerful way and to the best of our knowledge if there is a new physics 
+signal beyond what is already known in the observed data. 
+At the same time, it is important to properly treat the systematic 
+uncertainties associated with the complexity of the experimental 
+apparatus (ATLAS detector) and the background predictions when 
+presenting an interpretation of the results. 
+%%  we would like to answer the following questions:
+%% \begin{itemize}
+%% \item Does the data contain evidence for new particles or interactions not 
+%% accounted for by the background prediction?
+%% \item What is the most powerful test statistic that can differentiate 
+%%   the Standard Model expectation from a hypothesized new signal?
+%% \item If there is a signal, what is its statistical significance?
+%% \item In the absence of a signal, can it be excluded at a given confidence 
+%%   level? 
+%% \end{itemize} 
+This chapter describes the statistical methodology employed to 
+test the compatibility between data and prediction while taking into 
+account the systematic uncertainties. 
+The analysis' possible outcomes are represented by a likelihood function 
+that combines observations, predictions, and associated uncertainties. 
+At which point the 
+hypothesis testing is performed with the corresponding one-sided profile 
+likelihood ratio~\cite{Cowan:2010js}, 
+and upper limits are provided as one-sided $95\%$ confidence level intervals in the CL$_\text{s}$ formalism~\cite{Read:2002}. 
+The statistical tool used to perform the quantification of the significance 
+of hypothetical excesses seen in data
+or upper limits setting on new physics contributions as implemented in 
+this analysis will be described in this chapter.
+
+

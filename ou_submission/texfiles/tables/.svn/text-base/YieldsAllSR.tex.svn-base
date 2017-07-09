@@ -1,0 +1,165 @@
+ 
+\begin{table}[htb!]
+\begin{center}
+    
+\setlength{\tabcolsep}{0.0pc}{
+\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccc}
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+
+            &    Rpc2L2bS    &    Rpc2L2bH    &    Rpc2Lsoft1b    &    Rpc2Lsoft2b    &    Rpc2L0bS    \\[-0.05cm]
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Observed    &    3    &    0    &    4    &    5    &    7    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+        Total SM background    &    3.35 $\pm$ 1.02    &    1.08 $\pm$ 0.32    &    5.78 $\pm$ 2.49    &   3.80 $\pm$ 1.59    &    6.02 $\pm$ 1.84    \hspace*{1.95mm}  \\
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Rare    &    0.33 $\pm$ 0.18    &    0.15 $\pm$ 0.09    &    0.18 $\pm$ 0.10    &   0.17 $\pm$ 0.10    &    0.19 $\pm$ 0.11    \\
+        
+        4t    &    0.26 $\pm$ 0.13    &    0.18 $\pm$ 0.09    &    0.09 $\pm$ 0.05    &   0.21 $\pm$ 0.11    &    0.01 $\pm$ 0.01    \\
+        
+        $t\bar{t}+H$    &    0.43 $\pm$ 0.25    &    0.10 $\pm$ 0.06    &    0.45 $\pm$ 0.24    &   0.36 $\pm$ 0.21    &    0.27 $\pm$ 0.15    \\
+        
+        $t\bar{t}+V$    &    1.64 $\pm$ 0.43    &    0.44 $\pm$ 0.14    &    1.28 $\pm$ 0.37    &   1.21 $\pm$ 0.33    &    0.82 $\pm$ 0.31    \\
+        
+        Diboson    &    0.11 $\pm$ 0.10    &    0.04 $\pm$ 0.02    &    0.17 $\pm$ 0.09    &   0.05 $\pm$ 0.03    &    3.13 $\pm$ 1.39    \\
+        
+        Fake/non-prompt    &    $0.49_{-0.49}^{+0.60}$    &    0.15 $\pm$ 0.15    &    3.53 $\pm$ 2.42    &   1.72 $\pm$ 1.47    &    1.55 $\pm$ 0.96    \\
+        
+        Charge-flip    &    0.10 $\pm$ 0.01    &    0.02 $\pm$ 0.01    &    0.08 $\pm$ 0.02    &   0.08 $\pm$ 0.02    &    0.05 $\pm$ 0.01    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+\end{tabular*}
+}
+    
+\setlength{\tabcolsep}{0.0pc}{
+\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccc}
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+            &    Rpc2L0bH    &    Rpc3L0bS    &    Rpc3L0bH    &    Rpc3L1bS    &    Rpc3L1bH    \\[-0.05cm]
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Observed    &    3    &    9    &    3    &    20    &    4    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+        Total SM background    &    2.35 $\pm$ 1.03    &    11.02 $\pm$ 3.02    &    3.31 $\pm$ 0.84    &   17.33 $\pm$ 4.20    &    3.90 $\pm$ 0.94    \hspace*{1.95mm}  \\
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Rare    &    0.17 $\pm$ 0.10    &    0.74 $\pm$ 0.39    &    0.29 $\pm$ 0.16    &   2.53 $\pm$ 1.30    &    0.88 $\pm$ 0.46    \\
+        
+        4t    &    0.02 $\pm$ 0.02    &    0.02 $\pm$ 0.01    &    0.01 $\pm$ 0.01    &   0.69 $\pm$ 0.35    &    0.28 $\pm$ 0.15    \\
+        
+        $t\bar{t}+H$    &    0.08 $\pm$ 0.07    &    0.12 $\pm$ 0.08    &    0.03 $\pm$ 0.02    &   1.35 $\pm$ 0.70    &    0.25 $\pm$ 0.14    \\
+        
+        $t\bar{t}+V$    &    0.20 $\pm$ 0.10    &    0.98 $\pm$ 0.25    &    0.18 $\pm$ 0.08    &   7.09 $\pm$ 1.14    &    1.54 $\pm$ 0.28    \\
+        
+        Diboson    &    1.00 $\pm$ 0.45    &    8.92 $\pm$ 2.87    &    2.64 $\pm$ 0.78    &   1.44 $\pm$ 0.52    &    0.48 $\pm$ 0.17    \\
+        
+        Fake/non-prompt    &    $0.87_{-0.87}^{+0.90}$    &    0.23 $\pm$ 0.23    &    0.15 $\pm$ 0.15    &   4.23 $\pm$ 3.13    &    0.47 $\pm$ 0.45    \\
+        
+        Charge-flip    &    0.01 $\pm$ 0.00    &    0.00 $\pm$ 0.00    &    0.00 $\pm$ 0.00    &   0.00 $\pm$ 0.00    &    0.00 $\pm$ 0.00    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+\end{tabular*}
+}
+    
+\end{center}
+\caption{The number of observed data events and expected background contributions in the RPC and RPV signal regions for an integrated 
+luminosity of \SI{36.1}{fb^{-1}}. The ``Rare'' category contains the contributions from $t\bar{t}+WW$, $t\bar{t}+WZ$ as well as $tZ$, $tWZ$, $Wh$, $Zh$, 
+triboson and 3-top production. Background categories shown as ``$-$'' denote that they cannot contribute to a given region (charge-flip in 3-lepton regions).
+The displayed yields include all sources of statistical and systematic uncertainties. The individual uncertainties can be correlated
+and therefore do not necessarily add up in quadrature to the uncertainty on the total expected background.}
+\label{tab:observed_sr_yields_table1}
+\end{table}
+     
+\begin{table}[htb!]
+\begin{center}
+    
+\setlength{\tabcolsep}{0.0pc}{
+\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccc}
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+            &    Rpc2L1bS    &    Rpc2L1bH    &    Rpc3LSS1b    &    Rpv2L1bH    &    Rpv2L0b    \\[-0.05cm]
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Observed    &    14    &    13    &    1    &    2    &    2    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+        Total SM background    &    9.88 $\pm$ 2.88    &    9.75 $\pm$ 2.58    &    1.62 $\pm$ 0.76    &   1.57 $\pm$ 0.44    &    1.01 $\pm$ 0.40    \hspace*{1.95mm}  \\
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Rare    &    0.89 $\pm$ 0.48    &    0.99 $\pm$ 0.55    &    0.12 $\pm$ 0.07    &   0.29 $\pm$ 0.17    &    0.10 $\pm$ 0.06    \\
+        
+        4t    &    0.34 $\pm$ 0.17    &    0.54 $\pm$ 0.28    &    0.00 $\pm$ 0.00    &   0.34 $\pm$ 0.17    &    0.01 $\pm$ 0.01    \\
+        
+        $t\bar{t}+H$    &    1.28 $\pm$ 0.69    &    1.03 $\pm$ 0.56    &    0.22 $\pm$ 0.12    &   0.07 $\pm$ 0.05    &    0.02 $\pm$ 0.02    \\
+        
+        $t\bar{t}+V$    &    4.01 $\pm$ 0.98    &    3.98 $\pm$ 0.86    &    0.00 $\pm$ 0.00    &   0.56 $\pm$ 0.14    &    0.14 $\pm$ 0.08    \\
+        
+        Diboson    &    0.53 $\pm$ 0.27    &    0.70 $\pm$ 0.31    &    0.00 $\pm$ 0.00    &   0.14 $\pm$ 0.06    &    0.52 $\pm$ 0.21    \\
+        
+        Fake/non-prompt    &    2.59 $\pm$ 2.16    &    2.26 $\pm$ 1.85    &    0.89 $\pm$ 0.73    &   0.15 $\pm$ 0.15    &    $0.18_{-0.18}^{+0.31}$    \\
+        
+        Charge-flip    &    0.25 $\pm$ 0.04    &    0.25 $\pm$ 0.05    &    0.39 $\pm$ 0.08    &   0.02 $\pm$ 0.01    &    0.03 $\pm$ 0.02    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+\end{tabular*}
+}
+    
+\setlength{\tabcolsep}{0.0pc}{
+\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccc}
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+            &    Rpv2L2bH    &    Rpv2L2bS    &    Rpv2L1bS    &    Rpv2L1bM    \\[-0.05cm]
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Observed    &    1    &    20    &    26    &    9    \\
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+    
+        Total SM background    &    1.58 $\pm$ 0.49    &    19.49 $\pm$ 7.38    &    24.86 $\pm$ 6.98    &    4.80 $\pm$ 1.56    \hspace*{1.95mm}  \\ 
+        
+\noalign{\smallskip}\hline\noalign{\smallskip}
+    
+        Rare    &    0.19 $\pm$ 0.13    &    1.52 $\pm$ 0.79    &    2.42 $\pm$ 1.24    &    0.80 $\pm$ 0.43    \\ 
+        
+        4t    &    0.48 $\pm$ 0.24    &    1.55 $\pm$ 0.79    &    1.79 $\pm$ 0.90    &    0.53 $\pm$ 0.27    \\ 
+        
+        $t\bar{t}+H$    &    0.12 $\pm$ 0.07    &    1.01 $\pm$ 0.53    &    1.93 $\pm$ 0.99    &    0.28 $\pm$ 0.15    \\ 
+        
+        $t\bar{t}+V$    &    0.56 $\pm$ 0.15    &    6.46 $\pm$ 1.25    &    10.05 $\pm$ 1.69    &    1.42 $\pm$ 0.48    \\ 
+        
+        Diboson    &    0.04 $\pm$ 0.02    &    0.42 $\pm$ 0.16    &    1.71 $\pm$ 0.60    &    0.42 $\pm$ 0.15    \\ 
+        
+        Fake/non-prompt    &    0.15 $\pm$ 0.15    &    8.07 $\pm$ 6.92    &    6.22 $\pm$ 5.88    &    1.25 $\pm$ 1.21    \\ 
+        
+        Charge-flip    &    0.03 $\pm$ 0.01    &    0.46 $\pm$ 0.08    &    0.74 $\pm$ 0.12    &    0.10 $\pm$ 0.02    \\ 
+        
+\noalign{\smallskip}\hline\hline\noalign{\smallskip}
+\end{tabular*}
+}
+    
+\end{center}
+\caption{The number of observed data events and expected background contributions in the RPC and RPV signal regions for an integrated 
+luminosity of \SI{36.1}{fb^{-1}}. The ``Rare'' category contains the contributions from $t\bar{t}+WW$, $t\bar{t}+WZ$ as well as $tZ$, $tWZ$, $Wh$, $Zh$, 
+triboson and 3-top production. Background categories shown as ``$-$'' denote that they cannot contribute to a given region (charge-flip in 3-lepton regions).
+The displayed yields include all sources of statistical and systematic uncertainties. The individual uncertainties can be correlated
+and therefore do not necessarily add up in quadrature to the uncertainty on the total expected background.}
+\label{tab:observed_sr_yields_table2}
+\end{table}
+    

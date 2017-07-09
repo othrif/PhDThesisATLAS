@@ -1,0 +1,265 @@
+The FNP leptons do not often pass one of the 
+lepton selection criteria but have non-zero impact parameter, and are often not 
+well-isolated. These selection requirements are key ingredients to control the FNP leptons. 
+The number of events with at least one FNP lepton is estimated using two classes of leptons: 
+a real-enriched class of ``tight'' leptons corresponding to signal leptons and a fake-enriched class of ``loose'' leptons 
+corresponding to candidate leptons with relaxed identification criteria\footnote{Signal leptons are leptons satisfying the signal lepton definition, while the candidate leptons are leptons satisfying some pre-selection cuts and usually passing the overlap removal requirements as discussed in the analysis 
+Section~\ref{subsec:strategy.sel.obj}.}. 
+In the next sections, a description of the simplest form of the matrix method will be given with events containing one object. 
+Then a generalized treatment that can handle events with an arbitrary number of leptons in the final states will be discussed.
+
+\subsection{Events with one object}
+
+Given the probabilities $\varepsilon/\zeta$ for a real/FNP candidate lepton to satisfy the signal lepton criteria, 
+one can relate the number of events with one candidate lepton passing/failing signal requirements ($n_\text{pass}/n_\text{fail}$) to the number of events with one real/FNP signal leptons ($n_\text{real}/n_\text{FNP}$):
+
+\begin{align}
+\begin{pmatrix}n_\text{pass}\\n_\text{fail}\end{pmatrix} 
+= \begin{pmatrix}\varepsilon & \zeta\\ 1-\varepsilon & 1-\zeta\end{pmatrix}
+\begin{pmatrix}n_\text{real}\\n_\text{FNP}\end{pmatrix}; 
+\label{eqn:matrix_method}
+\end{align}
+allowing a determination of the unknown number of events $n_\text{FNP}$ from the observed $n_\text{pass}$ and $n_\text{fail}$ given measurements of the 
+probabilities $\varepsilon/\zeta$. 
+
+The predictive power of the matrix method comes from the fact that 
+the real and FNP leptons have different composition in the two collections 
+of tight and loose objects leading to $\varepsilon \neq \zeta$. In fact, 
+the tight lepton collection will be dominated by real objects while the 
+loose region will be dominated by fake objects. As a result, 
+the inequality $\varepsilon >> \zeta$ will always hold true which 
+guarantees that the matrix in Eq. \ref{eqn:matrix_method} is invertible 
+and gives positive estimates. 
+
+The next step is to invert the relation in Eq. \ref{eqn:matrix_method} to 
+obtain
+
+\begin{align}
+\begin{pmatrix}n_\text{real}\\n_\text{FNP}\end{pmatrix} 
+= \frac{1}{\varepsilon - \zeta} \begin{pmatrix}\bar\zeta & -\zeta\\ -\bar\varepsilon & \varepsilon\end{pmatrix}
+\begin{pmatrix}n_\text{pass}\\n_\text{fail}\end{pmatrix}; 
+\label{eqn:fake.inv_matrix_method}
+\end{align}
+
+where $\bar\varepsilon = 1 - \varepsilon$ and  $\bar\zeta = 1 - \zeta$. 
+The FNP lepton component is: 
+
+\begin{align}
+n_\text{FNP} = \frac{1}{\varepsilon - \zeta}\left(\left(\varepsilon-1\right)n_\text{pass}+n_\text{fail}\right).
+\label{eqn:fake.nfake}
+\end{align}
+
+However, the quantity of interest is the expected FNP lepton background that 
+passes the tight selection criteria: 
+$n_{\text{pass}~\bigcap~\text{FNP}} = \zeta n_\text{FNP}$.
+ To obtain this quantity, 
+the identity from Eq. \ref{eqn:matrix_method} is used to get:
+
+\begin{align}
+n_\text{FNP} = \frac{\zeta}{\varepsilon - \zeta}\left(\left(\varepsilon-1\right)n_\text{pass}+n_\text{fail}\right).
+\label{eqn:fake.nFNPpass}
+\end{align}
+
+The linearity of Eq. \ref{eqn:fake.nFNPpass}  with respect to $n_\text{pass}$ 
+and $n_\text{fail}$ allows the method to be applied on an event-by-event, 
+effectively resulting in a weight being assigned to each event. 
+By defining
+\[
+  n_\text{pass} = \sum_\text{all events} \mathbb{1}_\text{pass},~
+  n_\text{fail} = \sum_\text{all events} \mathbb{1}_\text{fail},~ 
+  \mathbb{1}_\text{fail} = 1 -  \mathbb{1}_\text{pass},
+\]
+where $\mathbb{1}_{\text{pass} \left(\text{fail}\right)} = 1$ if the object passes 
+(fails) the tight selection requirement and $\mathbb{1}_{\text{pass}\left(\text{fail}\right)} = 0$ otherwise. Eq. \ref{eqn:fake.nFNPpass} can be written as
+\[
+n_\text{FNP} = \sum_\text{all events} \{
+\frac{\zeta}{\varepsilon - \zeta}\left(\varepsilon - 
+\mathbb{1}_\text{pass}\right)
+\}
+\\
+=  \sum_\text{all events} \omega
+\]
+where 
+\begin{align}
+  \omega = \frac{\zeta}{\varepsilon - \zeta}\left(\varepsilon - 
+\mathbb{1}_\text{pass}\right)
+  \label{eqn:fake.nFNPpass.demo}
+\end{align}
+is the weight to be assigned to each event in the case of one FNP lepton 
+in the event. 
+The generalization of this formalism to higher dimensions 
+with multiple objects will be covered next.
+
+
+
+\subsection{Dynamic matrix method}
+
+
+The one lepton case readily generalizes to events with more than one lepton
+in a formalism that can handle an arbitrary number of leptons 
+in the event. The method should be applied event-by-event, effectively 
+resulting into a weight being assigned to each event. The predicted yield of 
+events with FNP leptons is simply the sum of weights.
+A general formula will be derived starting from the two objects case, 
+then specific examples will be given to illustrate the application of the 
+method.
+
+If two objects are present in the event, the probabilities $\varepsilon/\zeta$
+will depend on the kinematic properties of these objects. Typically 
+the probability will vary as a function of \pt and $|\eta|$. For this reason,
+the probabilities will be different and will have an index to 
+identify the object under study: 
+ $\varepsilon_i/\zeta_i$ where $i=1,2...$. 
+%% For example, events with 
+%% two leptons where the probabilities are measured in 3 bins of \pt and 
+%% 2 bins of $\eta$ can be placed in one of twelve categories. 
+An identity similar to Eq.  \ref{eqn:matrix_method} can be formed for 
+two objects with a change in notation for simplicity:
+
+\begin{align}
+\left(\begin{array}{c}
+N_{TT} \\  N_{TL} \\ N_{LT} \\ N_{LL}
+\end{array}\right) = 
+\Lambda \times 
+\left(\begin{array}{c}
+N_{RR} \\  N_{RF} \\ N_{FR} \\ N_{FF}
+\end{array}\right), 
+\label{eq:mxm_start}
+\end{align}
+where $(N_{RR},N_{RF},N_{FR},N_{FF})$ are the number of events with respectively two real, one real plus one FNP (two terms), and two FNP leptons before applying tight cuts, respectively, and $(N_{TT},N_{TL},N_{LT},N_{LL})$ are the observed number of events for which respectively both lepton pass the tight cut, only one of them (two terms), or both fail the tight cut, respectively. 
+
+$\Lambda$ is given by:
+\[
+\Lambda=
+\left(\begin{array}{cccc}
+\varepsilon_1\varepsilon_2 & \varepsilon_1\zeta_2 & \zeta_1\varepsilon_2 & \zeta_1\zeta_2\\
+\varepsilon_1(1-\varepsilon_2) & \varepsilon_1(1-\zeta_2) & \zeta_1(1-\varepsilon_2) & \zeta_1(1-\zeta_2)\\
+(1-\varepsilon_1)\varepsilon_2 & (1-\varepsilon_1)\zeta_2 & (1-\zeta_1)\varepsilon_2 & (1-\zeta_1)\zeta_2\\
+(1-\varepsilon_1)(1-\varepsilon_2) & (1-\varepsilon_1)(1-\zeta_2) & (1-\zeta_1)(1-\varepsilon_2) & (1-\zeta_1)(1-\zeta_2)
+\end{array}\right) 
+\]
+which can also be written in terms of a Kronecker product in 
+Eq. \ref{eq:mxm_start} to obtain:
+\begin{align}
+\left(\begin{array}{c}
+N_{TT} \\  N_{TL} \\ N_{LT} \\ N_{LL}
+\end{array}\right)
+= \begin{pmatrix}\varepsilon_1 & \zeta_1\\ \bar\varepsilon_1 & \bar\zeta_1\end{pmatrix} \bigotimes \begin{pmatrix}\varepsilon_2 & \zeta_2\\ \bar\varepsilon_2 & \bar\zeta_2\end{pmatrix}
+\left(\begin{array}{c}
+N_{RR} \\  N_{RF} \\ N_{FR} \\ N_{FF}
+\end{array}\right)
+\label{eq:mxm_start_kroe}
+\end{align}
+To make the notation more compact, the set of 4 numbers $(N_{TT},N_{TL},N_{LT},N_{LL})$ can be represented by a rank 2 tensor $\mathcal{T}_{\alpha_1 \alpha_2}$ 
+where $\alpha_i$ corresponds to one object that is either tight (T) or 
+loose (L). 
+Similarly the numbers $(N_{RR},N_{RF},N_{FR},N_{FF})$ can be represented 
+by $\mathcal{R}_{\alpha_1 \alpha_2}$ where $\alpha_i$ corresponds to one object 
+that is either real (R) or FNP (F). With this convention, the 
+Kronecker product of Eq. \ref{eq:mxm_start_kroe} can be obtained by 
+contracting each index $\alpha_i$ of the tensors $\mathcal{T}$ or $\mathcal{R}$
+by the 2 $\times$ 2 matrix $\phi_i\tensor{\vphantom{\phi}}{_{\beta_i}^{\alpha_i}}$:
+
+
+\begin{align}
+\mathcal{T}_{\beta_1 \beta_2} = 
+\phi_1\tensor{\vphantom{\phi}}{_{\beta_1}^{\alpha_1}} 
+\phi_2\tensor{\vphantom{\phi}}{_{\beta_2}^{\alpha_2}}
+\mathcal{R}_{\alpha_1 \alpha_2},~
+\phi_i = 
+ \begin{pmatrix}\varepsilon_i & \zeta_i\\ \bar\varepsilon_i & \bar\zeta_i\end{pmatrix}
+\label{eq:fake.tensor_compact}
+\end{align}
+
+Following the same procedure as in the one object case, the matrix inversion 
+of the 4$\times$4 $\Lambda$ matrix is simplified to a matrix inversion of 
+the 2$\times$2 $\phi$ matrices. The quantity of interest is the FNP lepton 
+background that passes the tight selection criteria as in 
+Eq. \ref{eqn:fake.nFNPpass} which can be compactly written in the 
+two objects case as: 
+
+\begin{align}
+\mathcal{T}_{\nu_1 \nu_2}^\text{FNP} = 
+\phi\indices{_{\nu_1}^{\mu_1}} 
+\phi\indices{_{\nu_2}^{\mu_2}}
+\tensor*{\xi}{*^{\beta_1}_{\mu_1}^{\beta_2}_{\mu_2}}
+\phi\indices{^{-1}_{\beta_1}^{\alpha_1}} 
+\phi\indices{^{-1}_{\beta_2}^{\alpha_2}}
+\mathcal{T}_{\alpha_1 \alpha_2}.
+\label{eq:fake.FNP_compact}
+\end{align}
+
+The tensor $\xi$ encodes the component of tight and FNP lepton background. 
+In the two objects case, $\xi$ needs to select the total background 
+with at least one fake lepton $N_F = N_{RF}+N_{FR}+N_{FF}$ that are also 
+passing the tight selection criteria corresponding to the region with 
+signal leptons. As a result, $\xi$ takes the form: 
+
+\[
+\xi
+=
+\left(\begin{array}{cccc}
+0 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+0 & 0 & 0 & 1\\
+\end{array}\right) 
+\]
+
+To further illustrate, Eq. \ref{eq:fake.FNP_compact} can be written 
+explicitly in the notation of Eq. \ref{eq:mxm_start} as:
+
+\[
+N_\text{FNP}^\text{signal} = 
+\left(\begin{array}{cccc}
+0 & \varepsilon_1\zeta_2 & \zeta_1\varepsilon_2 & \zeta_1\zeta_2\\
+\end{array}\right) 
+\Lambda^{-1}
+\left(\begin{array}{c}
+N_{TT} \\  N_{TL} \\ N_{LT} \\ N_{LL}
+\end{array}\right)
+\]
+
+The generalization of Eq. \ref{eq:fake.FNP_compact} from the two objects case 
+to $m$ number of objects in the final state is straightforward:
+
+\begin{align}
+\mathcal{T}_{\nu_1 \cdots \nu_m}^\text{FNP} = 
+\phi\indices{_{\nu_1}^{\mu_1}}
+\cdots 
+\phi\indices{_{\nu_m}^{\mu_m}}
+\tensor*{\xi}{*^{\beta_1}_{\mu_1}^{\cdots}_{\cdots}^{\beta_m}_{\mu_m}}
+\phi\indices{^{-1}_{\beta_1}^{\alpha_1}} 
+\cdots
+\phi\indices{^{-1}_{\beta_m}^{\alpha_m}}
+\mathcal{T}_{\alpha_1 \cdots \alpha_m}.
+\label{eq:fake.FNP_compact_any}
+\end{align}
+
+The tensor $\xi$ is of the general form
+\[
+\tensor*{\xi}{*^{\beta_1}_{\mu_1}^{\cdots}_{\cdots}^{\beta_m}_{\mu_m}} = 
+\tensor*{\delta}{*^{\beta_1}_{\mu_1}}
+\cdots
+\tensor*{\delta}{*^{\beta_m}_{\mu_m}}
+h\left(\beta_1,\cdots,\beta_m,\nu_1,\cdots,\nu_m\right)
+\]
+where the function $h$ can take values 0 or 1 based on the tight or loose 
+configuration being computed which is encoded in the dependence on the  
+indices $\nu_i$. 
+
+%As the machinery has been demonstrated for the two objects case, it is imperative to illustrate it in a case where events may contain two or three leptons. For simplicity, the case containing more 
+%than three leptons is not considered but can easily be implemented. 
+
+The application of the matrix method to multilepton final states comes with two important remarks. Firstly, contributions of events with charge-flip electrons would bias a straightforward matrix method estimate (in particular for a final state formed by two leptons with the same electric charge). This happens because the candidate-to-signal efficiency for such electrons is typically lower than for real electrons having a correctly-assigned charge. One therefore needs to subtract from $n_\text{pass}$ and $n_\text{fail}$ the estimated contributions from charge-flip. This can be performed by including events with pairs of opposite-sign candidate leptons in the matrix method estimate, but assigning them an extra weight corresponding to the charge-flip weight. Thanks (again) to the linearity of the matrix method with respect to $n_\text{pass}$ and $n_\text{fail}$, this weight-based procedure is completely equivalent (but more practical) to the aforementioned subtraction. 
+
+Secondly, the analytic expression of the matrix method event weight depends on the lepton multiplicity of the final state. This concerns events with three or more candidate leptons: one such event takes part both in the evaluation of the FNP lepton background for a selection with two signal leptons or a selection with three signal leptons, but with different weights\footnote{This can appear for inclusive selections: for example an event with two signal leptons may or may not contain additional candidate leptons, in a transparent way}. Therefore, for a given event used as input to the matrix method, one should consider all possible leptons combinations, each with its own weight and its own set of kinematic variables. For example, a $e^+e^-\mu^+$ event is used in the background estimate both as an $e^+\mu^+$ event (with a weight $w_1$) and as an $e^+e^-\mu^+$ event (with a weight $w_2\neq w_1$).  
+
+\subsection{Propagation of uncertainties}
+
+The two parameters ($\varepsilon$ and $\zeta$ respectively) can be measured in data, and depend on the flavor and kinematics of the involved leptons.  Systematic uncertainties resulting from the measurement of these two parameters, and their extrapolation to the signal regions, can be propagated to uncertainties on the event weight through standard first-order approximations. The different sources of uncertainties should be tracked separately so that correlations of uncertainties across different events can be accounted for correctly. The resulting set of uncertainties on the cumulated event weights can be then added in quadrature to form the systematic uncertainty on the predicted FNP lepton background yield. The corresponding statistical uncertainty can be taken as the RMS of the event weights.
+
+
+The methods described in this chapter will be employed to estimate the 
+irreducible backgrounds in the search for supersymmetry presented in this 
+dissertation.

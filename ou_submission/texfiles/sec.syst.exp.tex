@@ -1,0 +1,71 @@
+Uncertainties associated with the measurement and reconstruction of the 
+physics objects used in the analysis (leptons, jets, etc.) must be accounted
+ for when interpreting the results.
+The systematic uncertainties from the data-driven method have already been 
+discussed in Section~\ref{sec:bkg.red}. In fact, these data-driven backgrounds 
+are affected by the same systematic uncertainty as in data to which they 
+are being compared to. As a result, only systematic uncertainties on 
+backgrounds estimated with MC simulation and detector simulation needs to 
+be considered. The uncertainties considered for the analysis and 
+recommended by the ATLAS SUSY group are:\\
+% TO DO: check references.
+\textbf{Jet energy scale (JES)}  \\  
+In order to account for inefficiencies in the calorimeter cells
+and the varying response to charged and neutral particles passing through 
+them, the energies of the jets used in this analysis were corrected. 
+The calibration procedure uses a combination of simulation and test beam 
+and in situ data ~\cite{Aaboud:2017jcu} with an uncertainty correlated 
+between all events.
+As a result, all distributions used in the final result are produced 
+with the nominal calibration as well as an up and down variation of the 
+the jet energy scale (in a fully correlated way) by the 
+$\pm 1\sigma$ uncertainty of each nuisance parameter.
+A combined version of several independent sources contributing to the 
+calibration was used in the analysis 
+to reduce the number of nuisance variables in the fitting procedure.\\
+\textbf{Jet energy resolution (JER)} \\ % OK
+An extra $\pt$ smearing is added to the jets based on their $\pt$ and $\eta$ 
+to account for a possible underestimate of the jet energy resolution 
+in the MC simulation. A systematic
+uncertainty is considered to account for this defect on the final result. 
+The JER in data has previously been estimated by ATLAS in dijet events. \\ %[?]
+\textbf{Jet vertex tagger}
+The uncertainties account for the residual contamination from pile-up jets 
+after pile-up suppression and the MC generator choice
+~\cite{ATLAS-CONF-2014-018}.\\
+\textbf{Flavor tagging}
+The MC simulation does not reproduce correctly the $b$-tagging, 
+charm identification, and light jet reject efficiencies of the detector. 
+A \ttbar MC simulation and di--jet measurements are used to derive 
+correction factors to be applied to MC simulation
+~\cite{ATL-PHYS-PUB-2015-022,ATL-PHYS-PUB-2016-012}.
+These correction factors are then varied within
+their uncertainties to produce up and down variations.\\
+\textbf{Lepton energy scale, resolution, and Identification efficiencies}
+Similar to the case of jets, electrons and muons also have corresponding 
+energy scale and resolution systematic uncertainties. Corrections are 
+also applied to take into account any variations in the identification 
+efficiency in the detector and its simulation~\cite{ATLAS-CONF-2016-024,Aad:2016jkr,ATLAS-CONF-2016-024}.\\
+\textbf{\met\ soft term uncertainties}
+The main effect come from the hard object uncertainties (most notably JES and 
+JER) that are propagated to the $\met$.\\
+\textbf{Pileup re-weighting}
+This uncertainty is obtained by re-scaling the $\mu$ value in data by 1.00 and 1/1.18, 
+covering the full difference between applying and not-applying the nominal $\mu$ correction of 1/1.09, 
+as well as effects resulting from uncertainties on the luminosity measurements, which are expected to dominate.\\
+\textbf{Luminosity}
+The integrated luminosities in data corresponds to 3.2 \ifb and 32.9 \ifb 
+for 2015 and 2016 respectively. The combined luminosity error for 2015 and 2016 is 3.2\%, assuming partially correlated uncertainties in 2015 and 2016.\\
+\textbf{Trigger}
+To account for any differences between the trigger efficiency in simulation 
+and data, corrections factors are derived to correct for them. 
+Uncertainties on the correction factors as well as inefficiencies 
+related to the plateau of the trigger are propagated to the final result.
+
+The uncertainty on the beam energy is neglected. 
+All the experimental uncertainties are applied also on the signal samples when computing exclusion limits on SUSY scenarios. 
+
+
+All of these uncertainties are fed into the fitting and limit setting 
+machinery by treating them as uncorrelated uncertainties, and thus 
+treated independently. 

@@ -1,0 +1,74 @@
+The likelihood for a set of parameters $\left(\mu,  \vect{\theta}\right)$
+given all the data that might have been observed  $\vect{X}$ is the probability 
+of observing the data given the parameters
+
+\begin{equation}
+\mathcal{L} \left( \mu, \vect{\theta} \rvert \vect{X} \right) = 
+\Pr\left(\vect{X} \rvert \mu, \vect{\theta} \right).
+\end{equation}
+
+The data $\vect{X}$ includes observation in the signal regions as well as 
+other auxiliary experiments such as control regions used to constrain 
+backgrounds. 
+In this analysis, hypothesis tests are performed on one signal region 
+at the time, single-binned, and without control regions. 
+As a result, the observed data $\vect{X}$ has a one-dimensional component 
+with value $X$ representing the count of events in the signal region.
+The first parameter of interest represents the `strength' of 
+the signal process $\mu > 0$ that will increase the number of 
+expected events in the signal region given that the signal of the new physics 
+model tested is present. In practice, the signal strength $\mu$ is used to 
+scale the nominal expected cross section for the signal process, or the
+number of expected signal events $s$. 
+Thus, the predicted background will be of the form $\mu s + \sum_i b_i$ where 
+$b_i$ represents the Standard Model background processes expected to 
+contribute to the signal region. 
+The parameter $\vect{\theta}$ refers to 
+the nuisance parameters used to parametrize the systematic uncertainties
+(luminosity, JES, JER, etc.)\footnote{The parameters represented by 
+$\vect{\theta}$ are called nuisance 
+parameters since the aim is not to set a limit on them.}.
+Thus, the likelihood is built as the product of a Poisson probability density 
+function describing the observed number of events in the signal 
+region and Gaussian distributions for each of the sources of systematic 
+uncertainties.
+The likelihood takes the simple form
+\begin{equation}
+\Pr\left(X,  \vect{\theta^0} \rvert \mu, \vect{\theta} \right) = 
+\mathcal{P} \left(X~\rvert~\mu s\left(\vect{\theta}\right)
++ \sum_i b_i\left(\vect{\theta}\right)
+%+ \sum_j \theta_{j}^{\left(0\right)}
+\right)
+\times  
+\prod_{j}  \mathcal{G} \left(\theta^0 \rvert \theta_{j}\right)
+\label{eq:stat.like.Pr}
+\end{equation}
+where $\mathcal{P} \left(X~\rvert \nu\right) = e^{-\nu}\nu^X/X!$ 
+and $\mathcal{G} \left(\theta\right)  = \frac{1}{\sqrt{2\pi\sigma_{\theta}^2}}
+e^{-\frac{\left(\theta-\theta^0\right)^2}{2\sigma_\theta^2}}$
+ are the Poisson and Gaussian probability density functions. 
+In addition to the observed data $X$, there is also auxiliary measurements
+$ \vect{\theta^0}$ that constrain the nuisance parameters.
+Both signal and backgrounds depend on the nuisance parameter
+$\vect{\theta}$ which controls all independent sources of uncertainty 
+and will be \textit{profiled} (or constrained) in the $CL_s$ procedure
+described next.
+Correlations of a given nuisance parameter between the different sources of backgrounds 
+and the signal are taken into account when relevant. 
+To give an example, the luminosity uncertainty will have a mean 
+as the luminosity central value $ \theta_{\text{lumi}}^{\left(0\right)}$ and the 
+width as an experimentally determined 
+uncertainty $\sigma_{\theta_{\text{lumi}}}$. When evaluating the effect of the 
+luminosity uncertainty on the likelihood function, all terms involving the 
+nuisance parameter $\theta_{\text{lumi}}$ will be scaled in the same way 
+since luminosity is correlated across all backgrounds and signal.
+
+The likelihood function described in this section is used in a fit to data by 
+the maximum likelihood method that aims at finding the value of the 
+signal strength $\mu$ 
+that makes the likelihood a maximum. The procedure relies on an iterative 
+minimization algorithm implemented in \textsc{Minuit} \cite{minuit} and accessed by \textit{RooFit} \cite{Moneta:2010pm} within \textsc{ROOT}, a high energy physics data analysis  framework
+\cite{Antcheva:2009zz}.
+The final uncertainties on the nuisance parameters in $\vect{\theta}$, constrained 
+by the fit, are obtained from the covariance matrix of these parameters.
+%As noted, the hypothesis tests are performed for each of the signal regions, independently. 

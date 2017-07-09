@@ -1,0 +1,384 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
+The style file: bibtex/bst/atlasBibStyleWoTitle.bst
+Database file #1: thesis.bib
+You're missing a field name---line 324 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 402 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 499 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 563 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 595 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 669 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 789 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1282 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1297 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1326 of file thesis.bib
+ : @article{Lai:2010vv
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1342 of file thesis.bib
+ : @article{Pumplin:2002vw
+ :                        ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1487 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1632 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1664 of file thesis.bib
+ : @article{Borschensky:2014cia
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1903 of file thesis.bib
+ : @article{Alwall:2014hca
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1931 of file thesis.bib
+ : @inproceedings{Carrazza:2013axa
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1945 of file thesis.bib
+ : @article{Lonnblad:2011xx
+ :                         ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1999 of file thesis.bib
+ : %@article{Aad:2013ucp, 
+ :                        % replaced by \cite{luminosityMeasurement8TeV}
+I'm skipping whatever remains of this entry
+Repeated entry---line 2049 of file thesis.bib
+ : @article{Agostinelli:2002hh
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2069 of file thesis.bib
+ : @article{Sjostrand:2007gs
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2086 of file thesis.bib
+ : @article{Sherstnev:2007nd
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2188 of file thesis.bib
+ : @article{Gleisberg:2008ta
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2272 of file thesis.bib
+ : @booklet{ATLAS-CONF-2014-032
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2280 of file thesis.bib
+ : @article{Baak:2014wma
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2432 of file thesis.bib
+ : @article{Alwall:2014hca
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2453 of file thesis.bib
+ : @article{Dittmaier:2012vm
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2464 of file thesis.bib
+ : @article{Corcella:2000bw
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2481 of file thesis.bib
+ : @article{Pumplin:2002vw
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2497 of file thesis.bib
+ : @article{Lai:2010vv
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2512 of file thesis.bib
+ : @article{Alwall:2011uj
+ :                       ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2549 of file thesis.bib
+ :       
+ :       %primaryClass   = "hep-ph",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2681 of file thesis.bib
+ : @techreport{ATLAS-CONF-2014-018
+ :                                ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2786 of file thesis.bib
+ : 
+ : % eprint = {http://rsta.royalsocietypublishing.org/content/231/694-706/289.full.pdf},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 2882 of file thesis.bib
+ : 
+ : %"proceedings of
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3126 of file thesis.bib
+ :      
+ :      % note          = "Copies shelved as reports in LEP, PS and SPS libraries",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 3455 of file thesis.bib
+ :   
+ :   booktitle     = {Weak Scale Supersymmetry From Superfields to Scattering
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 3462 of file thesis.bib
+ : @article{Martin:1997ns
+ :                       ,
+I'm skipping whatever remains of this entry
+You're missing a field name---line 3823 of file thesis.bib
+ : 
+ : %      note          = "Final version presented to December 2013 LHCC.",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Database file #2: bibtex/bib/ATLAS.bib
+Repeated entry---line 8148 of file bibtex/bib/ATLAS.bib
+ : @article{Aad:2016jxj
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8202 of file bibtex/bib/ATLAS.bib
+ : @article{PERF-2014-07
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8318 of file bibtex/bib/ATLAS.bib
+ : @article{Aad:2010ah
+ :                    ,
+I'm skipping whatever remains of this entry
+Database file #3: bibtex/bib/PubNotes.bib
+Repeated entry---line 243 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2010-013
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 779 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2014-021
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1315 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-002
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1339 of file bibtex/bib/PubNotes.bib
+ : @booklet{ATL-PHYS-PUB-2016-005
+ :                               ,
+I'm skipping whatever remains of this entry
+Database file #4: bibtex/bib/CMS.bib
+Database file #5: bibtex/bib/ConfNotes.bib
+Repeated entry---line 4500 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2014-018
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4612 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2014-032
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5388 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2015-066
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5812 of file bibtex/bib/ConfNotes.bib
+ : @booklet{ATLAS-CONF-2016-037
+ :                             ,
+I'm skipping whatever remains of this entry
+Warning--empty title in Bae:2015jea
+Warning--empty title in DeMelis:2197559
+Warning--empty title in crorc
+Warning--empty pages in crorc
+Warning--empty title in SUSY-2014-06
+Warning--empty title in SUSY-2014-07
+Warning--empty title in Ellis:2002iu
+Warning--empty title in Ellis:2002wv
+Warning--empty title in paper-2015-Photon
+Warning--empty title in paper-2015-ttV
+Warning--empty title in Aaboud:2017dmy
+Warning--empty title in conf-2016-SS3L
+Warning--empty title in paper-2015-SS3L
+Warning--empty title in conf-2015-SS3L
+Warning--empty title in pcroib_orifki
+Warning--empty title in PhysRevLett.74.2626
+Warning--empty title in Abachi:1995iq
+Warning--empty title in Aad:2012tfa
+Warning--empty title in Chatrchyan:2012xdj
+Warning--empty title in 1933AcHPh
+Warning--empty title in Hu:2001bc
+Warning--empty title in 2009AIPC
+Warning--empty title in Bertone:2004pz
+Warning--empty title in Perlmutter:1998np
+Warning--empty title in Adam:2015rua
+Warning--empty title in Ade:2015xua
+Warning--empty title in Scranton:2003in
+Warning--empty title in BRANDELIK1979243
+Warning--empty title in atlas_higgs
+Warning--empty title in cms_higgs
+Warning--empty title in Ade:2013zuv
+Warning--empty title in Canetti:2012zc
+Warning--empty title in PhysRevD.73.072003
+Warning--empty title in Hagiwara:2011af
+Warning--empty title in pdg
+Warning--empty title in Baer:2015fsa
+Warning--empty title in Coleman:1967ad
+Warning--empty title in Haag:1974qh
+Warning--empty title in Chung:2003fi
+Warning--empty title in Barbier:2004ez
+Warning--empty title in howiebook
+Warning--empty publisher in howiebook
+Warning--empty year in howiebook
+Warning--empty title in Martin:1997ns
+Warning--empty title in Ellis:2015cva
+Warning--empty title in Arnison:1984qu
+Warning--empty title in Bagnaia:1983zx
+Warning--empty title in evolution1
+Warning--empty pages in evolution1
+Warning--empty title in evolution2
+Warning--empty title in l1
+Warning--empty pages in l1
+Warning--empty title in hlt
+Warning--empty pages in hlt
+Warning--empty title in ros
+Warning--empty pages in ros
+Warning--empty institution in Aad:1602235
+Warning--empty title in PanduroVazquez2016939
+Warning--empty title in 1742-6596-396-1-012033
+Warning--empty title in Alwall:2014hca
+Warning--empty title in Sjostrand:2007gs
+Warning--empty title in Agostinelli:2002hh
+Warning--empty title in Cacciari:2008gp
+Warning--empty title in PERF-2014-07
+Warning--empty title in Aad:2016upyew
+Warning--empty title in Aad:2015ydr
+Warning--empty title in Rifki:2016ufa
+Warning--empty title in vme_roib
+Warning--empty pages in vme_roib
+Warning--empty title in swroib_past
+Warning--empty pages in swroib_past
+Warning--empty title in tilar
+Warning--empty pages in tilar
+Warning--empty title in alice
+Warning--empty pages in alice
+Warning--empty title in Huang:2015fba
+Warning--empty title in Aad:2013di
+Warning--empty pages in Aad:2013di
+Warning--empty title in Baer:2013xua
+Warning--empty title in Baer:2013yha
+Warning--empty title in Baer:2016usl
+Warning--empty title in Aaboud:2016hhf
+Warning--empty title in EvtGen
+Warning--empty title in Ball:2012cx
+Warning--empty title in YR4
+Warning--empty title in gleisberg:2008ta
+Warning--empty title in Lai:2010vv
+Warning--empty title in Dittmaier:2012vm
+Warning--empty title in AZNLO:2014
+Warning--empty title in Czakon:2011xx
+Warning--empty title in tt:perugia
+Warning--empty title in Aad:2010ah
+Warning--empty title in Sherstnev:2007nd
+Warning--empty title in Corcella:2000bw
+Warning--empty title in Pumplin:2002vw
+Warning--empty title in Alwall:2011uj
+ptr=1, stack=
+in {\em {Proceedings, 43rd International Symposium on Multiparticle Dynamics (ISMD 13)}}
+---the literal stack isn't empty for entry Carrazza:2013axa
+while executing---line 1162 of file bibtex/bst/atlasBibStyleWoTitle.bst
+Warning--empty title in Lonnblad:2011xx
+Warning--empty title in Borschensky:2014cia
+Warning--empty title in Cacciari:2007fd
+Warning--empty title in Aad:2016jkr
+Warning--empty title in Aaboud:2016yuq
+Warning--empty title in Cousins:2009
+Warning--empty title in Cowan:2010js
+Warning--empty title in Read:2002
+Warning--empty title in minuit
+Warning--empty pages in minuit
+Warning--empty title in Moneta:2010pm
+Warning--empty title in Antcheva:2009zz
+Warning--empty title in Neyman289
+Warning--empty title in Wilks:1938dza
+Warning--empty title in Wald:ams1943
+Warning--empty title in Baak:2014wma
+Warning--empty title in Verkerke:2003ir
+Warning--empty title in Read:2002hq
+Warning--empty title in paperSS3L
+Warning--empty title in Aad:2016jxj
+You've used 125 entries,
+            2330 wiz_defined-function locations,
+            1509 strings with 29093 characters,
+and the built_in function-call counts, 31917 in all, are:
+= -- 2824
+> -- 951
+< -- 1
++ -- 377
+- -- 252
+* -- 3034
+:= -- 3549
+add.period$ -- 198
+call.type$ -- 125
+change.case$ -- 44
+chr.to.int$ -- 0
+cite$ -- 241
+duplicate$ -- 1812
+empty$ -- 3467
+format.name$ -- 252
+if$ -- 8233
+int.to.chr$ -- 0
+int.to.str$ -- 125
+missing$ -- 465
+newline$ -- 520
+num.names$ -- 124
+pop$ -- 720
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1173
+stack$ -- 0
+substring$ -- 1265
+swap$ -- 694
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 116
+while$ -- 239
+width$ -- 128
+write$ -- 986
+(There were 50 error messages)
