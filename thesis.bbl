@@ -1,5 +1,89 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
+\bibitem{Bae:2015jea}
+K.~J. Bae, H.~Baer, V.~Barger, M.~R. Savoy,  and H.~Serce,
+  \href{http://dx.doi.org/10.3390/sym7020788}{Symmetry {\bfseries 7} (2015)
+  788--814},
+\href{http://arxiv.org/abs/1503.04137}{{\ttfamily arXiv:1503.04137 [hep-ph]}}.
+%%CITATION = ARXIV:1503.04137;%%.
+
+\bibitem{DeMelis:2197559}
+C.~De~Melis, \url{https://cds.cern.ch/record/2197559}, General Photo.
+
+\bibitem{atlasTwiki}
+{\em Luminosity Public Results in Run 2},
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+\newblock Accessed: 2016-08-01.
+
+\bibitem{crorc}
+A.~Borga {et~al.}, 2015 JINST 10 C02022.
+
+\bibitem{SUSY-2014-06}
+{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP10(2015)054}{JHEP
+  {\bfseries 10} (2015) 054}, \href{http://arxiv.org/abs/1507.05525}{{\ttfamily
+  arXiv:1507.05525 [hep-ex]}}.
+
+\bibitem{SUSY-2014-07}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3726-9}{Eur. Phys. J. C
+  {\bfseries 75} (2015) 510}, \href{http://arxiv.org/abs/1506.08616}{{\ttfamily
+  arXiv:1506.08616 [hep-ex]}}.
+
+\bibitem{Ellis:2002iu}
+J.~Ellis, T.~Falk, K.~A. Olive,  and Y.~Santoso,
+  \href{http://dx.doi.org/10.1016/S0550-3213(02)01144-6}{Nucl. Phys. B
+  {\bfseries 652} (2003) 259--347},
+  \href{http://arxiv.org/abs/hep-ph/0210205}{{\ttfamily arXiv:hep-ph/0210205}}.
+
+\bibitem{Ellis:2002wv}
+J.~Ellis, K.~A. Olive,  and Y.~Santoso,
+  \href{http://dx.doi.org/10.1016/S0370-2693(02)02071-3}{Phys. Lett. B
+  {\bfseries 539} (2002) 107--118},
+  \href{http://arxiv.org/abs/hep-ph/0204192}{{\ttfamily arXiv:hep-ph/0204192}}.
+
+\bibitem{twiki-SusyCrossSections}
+{LHC SUSY Cross Section Working Group},  2015,
+  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections}.
+
+\bibitem{paper-2015-Photon}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1007/JHEP08(2016)005}{JHEP {\bfseries 08} (2016)
+  005}, \href{http://arxiv.org/abs/1605.03495}{{\ttfamily arXiv:1605.03495
+  [hep-ex]}},
+\url{http://dx.doi.org/10.1007/JHEP08(2016)005}.
+%%CITATION = ARXIV:1605.03495;%%.
+
+\bibitem{paper-2015-ttV}
+{ATLAS} Collaboration, {ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1007/JHEP11(2015)172}{JHEP {\bfseries 11} (2015)
+  172},
+\href{http://arxiv.org/abs/1509.05276}{{\ttfamily arXiv:1509.05276 [hep-ex]}}.
+%%CITATION = ARXIV:1509.05276;%%.
+
+\bibitem{Aaboud:2017dmy}
+{ATLAS} Collaboration, M.~Aaboud {et~al.},
+\href{http://arxiv.org/abs/1706.03731}{{\ttfamily arXiv:1706.03731 [hep-ex]}}.
+%%CITATION = ARXIV:1706.03731;%%.
+
+\bibitem{conf-2016-SS3L}
+{ATLAS Collaboration} Collaboration, {ATLAS Collaboration},
+  \url{https://cds.cern.ch/record/2205745}.
+
+\bibitem{paper-2015-SS3L}
+{ATLAS Collaboration},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-016-4095-8}{Eur. Phys. J. C
+  {\bfseries 76} (2016) 1--26},
+  \href{http://arxiv.org/abs/1602.09058}{{\ttfamily arXiv:1602.09058
+  [hep-ex]}}.
+
+\bibitem{conf-2015-SS3L}
+{ATLAS Collaboration} Collaboration, {ATLAS Collaboration},
+  \url{https://cds.cern.ch/record/2114850}.
+
+\bibitem{pcroib_orifki}
+O.~Rifki {et~al.}, Journal of Instrumentation {\bfseries 11} (2016) C02080,
+  \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02080}.
+
 \bibitem{PhysRevLett.74.2626}
 {CDF Collaboration} Collaboration, F.~Abe {et~al.},
   \href{http://dx.doi.org/10.1103/PhysRevLett.74.2626}{Phys. Rev. Lett.
@@ -143,13 +227,6 @@ H.~Baer, V.~Barger,  and M.~Savoy,
 \href{http://arxiv.org/abs/1502.04127}{{\ttfamily arXiv:1502.04127 [hep-ph]}}.
 %%CITATION = ARXIV:1502.04127;%%.
 
-\bibitem{Bae:2015jea}
-K.~J. Bae, H.~Baer, V.~Barger, M.~R. Savoy,  and H.~Serce,
-  \href{http://dx.doi.org/10.3390/sym7020788}{Symmetry {\bfseries 7} (2015)
-  788--814},
-\href{http://arxiv.org/abs/1503.04137}{{\ttfamily arXiv:1503.04137 [hep-ph]}}.
-%%CITATION = ARXIV:1503.04137;%%.
-
 \bibitem{Coleman:1967ad}
 S.~R. Coleman and J.~Mandula,
 \href{http://dx.doi.org/10.1103/PhysRev.159.1251}{Phys. Rev. {\bfseries 159}
@@ -202,9 +279,6 @@ J.~Ellis, PoS {\bfseries PLANCK2015} (2015) 041,
   B129} (1983) 130--140}.
 %%CITATION = PHLTA,B129,130;%%.
 
-\bibitem{DeMelis:2197559}
-C.~De~Melis, \url{https://cds.cern.ch/record/2197559}, General Photo.
-
 \bibitem{evolution1}
 N.~Garelli, J. Phys.: Conf. Ser. 513 (2014) 012007.
 
@@ -237,11 +311,6 @@ W.~P. Vazquez {et~al.},
 \bibitem{1742-6596-396-1-012033}
 A.~Negri {et~al.}, Journal of Physics: Conference Series {\bfseries 396} (2012)
   012033, \url{http://stacks.iop.org/1742-6596/396/i=1/a=012033}.
-
-\bibitem{atlasTwiki}
-{\em Luminosity Public Results in Run 2},
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
-\newblock Accessed: 2016-08-01.
 
 \bibitem{Alwall:2014hca}
 J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,
@@ -303,10 +372,6 @@ M.~Cacciari, G.~P. Salam,  and G.~Soyez,
 {ATLAS Collaboration},  {ATL-PHYS-PUB-2015-022}, 2015,
   \url{https://cds.cern.ch/record/2037697}.
 
-\bibitem{pcroib_orifki}
-O.~Rifki {et~al.}, Journal of Instrumentation {\bfseries 11} (2016) C02080,
-  \url{http://stacks.iop.org/1748-0221/11/i=02/a=C02080}.
-
 \bibitem{Rifki:2016ufa}
 {ATLAS} Collaboration, O.~Rifki,
 PoS {\bfseries ICHEP2016} (2016) 240.
@@ -324,20 +389,6 @@ R.~Blair {et~al.}, ATL-DQ-TR-0020, 2012.
 
 \bibitem{alice}
 H.~Engel and U.~Kebschull, 2013 JINST 8 C12016.
-
-\bibitem{crorc}
-A.~Borga {et~al.}, 2015 JINST 10 C02022.
-
-\bibitem{SUSY-2014-06}
-{ATLAS Collaboration}, \href{http://dx.doi.org/10.1007/JHEP10(2015)054}{JHEP
-  {\bfseries 10} (2015) 054}, \href{http://arxiv.org/abs/1507.05525}{{\ttfamily
-  arXiv:1507.05525 [hep-ex]}}.
-
-\bibitem{SUSY-2014-07}
-{ATLAS Collaboration},
-  \href{http://dx.doi.org/10.1140/epjc/s10052-015-3726-9}{Eur. Phys. J. C
-  {\bfseries 75} (2015) 510}, \href{http://arxiv.org/abs/1506.08616}{{\ttfamily
-  arXiv:1506.08616 [hep-ex]}}.
 
 \bibitem{ATLAS-CONF-2015-066}
 {ATLAS Collaboration},  Atlas-conf-2015-066,
@@ -485,10 +536,6 @@ J.~Alwall, M.~Herquet, F.~Maltoni, O.~Mattelaer,  and T.~Stelzer,
   128},
 \href{http://arxiv.org/abs/1106.0522}{{\ttfamily arXiv:1106.0522 [hep-ph]}}.
 %%CITATION = ARXIV:1106.0522;%%.
-
-\bibitem{twiki-SusyCrossSections}
-{LHC SUSY Cross Section Working Group},  2015,
-  \url{https://twiki.cern.ch/twiki/bin/view/LHCPhysics/SUSYCrossSections}.
 
 \bibitem{Carrazza:2013axa}
 S.~Carrazza, S.~Forte,  and J.~Rojo, {\em {Parton distributions and event
@@ -651,18 +698,6 @@ A.~L. Read,
 \href{http://dx.doi.org/10.1088/0954-3899/28/10/313}{J. Phys. G {\bfseries 28}
   (2002) 2693--2704}.
 %%CITATION = JPAGA,G28,2693;%%.
-
-\bibitem{Ellis:2002iu}
-J.~Ellis, T.~Falk, K.~A. Olive,  and Y.~Santoso,
-  \href{http://dx.doi.org/10.1016/S0550-3213(02)01144-6}{Nucl. Phys. B
-  {\bfseries 652} (2003) 259--347},
-  \href{http://arxiv.org/abs/hep-ph/0210205}{{\ttfamily arXiv:hep-ph/0210205}}.
-
-\bibitem{Ellis:2002wv}
-J.~Ellis, K.~A. Olive,  and Y.~Santoso,
-  \href{http://dx.doi.org/10.1016/S0370-2693(02)02071-3}{Phys. Lett. B
-  {\bfseries 539} (2002) 107--118},
-  \href{http://arxiv.org/abs/hep-ph/0204192}{{\ttfamily arXiv:hep-ph/0204192}}.
 
 \bibitem{paperSS3L}
 {ATLAS} Collaboration, {ATLAS Collaboration},

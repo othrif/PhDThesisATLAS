@@ -1,4 +1,7 @@
-\contentsline {chapter}{Abstract}{x}{chapter*.3}
+\contentsline {chapter}{List of Figures}{xxix}{chapter*.3}
+\contentsline {chapter}{List of Tables}{xxxvii}{chapter*.4}
+\contentsline {chapter}{Abstract}{xxxviii}{chapter*.5}
+\contentsline {chapter}{Preface}{xl}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Theoretical Background}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{11}{section.2.1}
@@ -78,7 +81,7 @@
 \contentsline {subsection}{\numberline {7.3.1}Charge-flip Background}{164}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Matrix Method}{172}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}MC Template Method}{189}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{192}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.4}Reducible Background Validation}{190}{subsection.7.3.4}
 \contentsline {section}{\numberline {7.4}Systematic uncertainties}{201}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Theoretical Uncertainties}{201}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Experimental Uncertainties}{204}{subsection.7.4.2}
@@ -96,9 +99,9 @@
 \contentsline {subsection}{\numberline {9.2.1}Model independent discovery and upper limits}{226}{subsection.9.2.1}
 \contentsline {subsection}{\numberline {9.2.2}Model dependent exclusion limits}{226}{subsection.9.2.2}
 \contentsline {chapter}{\numberline {10}Conclusions}{233}{chapter.10}
-\contentsline {chapter}{References}{234}{chapter*.124}
-\contentsline {chapter}{\numberline {A}Auxiliary material}{241}{appendix.A}
-\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{241}{section.A.1}
-\contentsline {section}{\numberline {A.2}Upper limit on cross section}{242}{section.A.2}
-\contentsline {section}{\numberline {A.3}Signal region cutflow}{245}{section.A.3}
-\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{256}{section.A.4}
+\contentsline {chapter}{References}{234}{chapter*.127}
+\contentsline {chapter}{\numberline {A}Auxiliary material}{242}{appendix.A}
+\contentsline {section}{\numberline {A.1}Signal region with best exclusion}{242}{section.A.1}
+\contentsline {section}{\numberline {A.2}Upper limit on cross section}{243}{section.A.2}
+\contentsline {section}{\numberline {A.3}Signal region cutflow}{246}{section.A.3}
+\contentsline {section}{\numberline {A.4}Acceptance and Efficiency}{257}{section.A.4}

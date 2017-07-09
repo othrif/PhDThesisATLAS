@@ -167,6 +167,11 @@ Repeated entry---line 3462 of file thesis.bib
  : @article{Martin:1997ns
  :                       ,
 I'm skipping whatever remains of this entry
+You're missing a field name---line 3823 of file thesis.bib
+ : 
+ : %      note          = "Final version presented to December 2013 LHCC.",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Database file #2: bibtex/bib/ATLAS.bib
 Repeated entry---line 8148 of file bibtex/bib/ATLAS.bib
  : @article{Aad:2016jxj
@@ -215,6 +220,21 @@ Repeated entry---line 5812 of file bibtex/bib/ConfNotes.bib
  : @booklet{ATLAS-CONF-2016-037
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--empty title in Bae:2015jea
+Warning--empty title in DeMelis:2197559
+Warning--empty title in crorc
+Warning--empty pages in crorc
+Warning--empty title in SUSY-2014-06
+Warning--empty title in SUSY-2014-07
+Warning--empty title in Ellis:2002iu
+Warning--empty title in Ellis:2002wv
+Warning--empty title in paper-2015-Photon
+Warning--empty title in paper-2015-ttV
+Warning--empty title in Aaboud:2017dmy
+Warning--empty title in conf-2016-SS3L
+Warning--empty title in paper-2015-SS3L
+Warning--empty title in conf-2015-SS3L
+Warning--empty title in pcroib_orifki
 Warning--empty title in PhysRevLett.74.2626
 Warning--empty title in Abachi:1995iq
 Warning--empty title in Aad:2012tfa
@@ -236,7 +256,6 @@ Warning--empty title in PhysRevD.73.072003
 Warning--empty title in Hagiwara:2011af
 Warning--empty title in pdg
 Warning--empty title in Baer:2015fsa
-Warning--empty title in Bae:2015jea
 Warning--empty title in Coleman:1967ad
 Warning--empty title in Haag:1974qh
 Warning--empty title in Chung:2003fi
@@ -248,7 +267,6 @@ Warning--empty title in Martin:1997ns
 Warning--empty title in Ellis:2015cva
 Warning--empty title in Arnison:1984qu
 Warning--empty title in Bagnaia:1983zx
-Warning--empty title in DeMelis:2197559
 Warning--empty title in evolution1
 Warning--empty pages in evolution1
 Warning--empty title in evolution2
@@ -268,7 +286,6 @@ Warning--empty title in Cacciari:2008gp
 Warning--empty title in PERF-2014-07
 Warning--empty title in Aad:2016upyew
 Warning--empty title in Aad:2015ydr
-Warning--empty title in pcroib_orifki
 Warning--empty title in Rifki:2016ufa
 Warning--empty title in vme_roib
 Warning--empty pages in vme_roib
@@ -278,10 +295,6 @@ Warning--empty title in tilar
 Warning--empty pages in tilar
 Warning--empty title in alice
 Warning--empty pages in alice
-Warning--empty title in crorc
-Warning--empty pages in crorc
-Warning--empty title in SUSY-2014-06
-Warning--empty title in SUSY-2014-07
 Warning--empty title in Huang:2015fba
 Warning--empty title in Aad:2013di
 Warning--empty pages in Aad:2013di
@@ -325,49 +338,47 @@ Warning--empty title in Wald:ams1943
 Warning--empty title in Baak:2014wma
 Warning--empty title in Verkerke:2003ir
 Warning--empty title in Read:2002hq
-Warning--empty title in Ellis:2002iu
-Warning--empty title in Ellis:2002wv
 Warning--empty title in paperSS3L
 Warning--empty title in Aad:2016jxj
-You've used 119 entries,
+You've used 125 entries,
             2330 wiz_defined-function locations,
-            1474 strings with 27856 characters,
-and the built_in function-call counts, 30714 in all, are:
-= -- 2719
-> -- 923
+            1509 strings with 29093 characters,
+and the built_in function-call counts, 31917 in all, are:
+= -- 2824
+> -- 951
 < -- 1
-+ -- 364
-- -- 245
-* -- 2892
-:= -- 3412
-add.period$ -- 189
-call.type$ -- 119
++ -- 377
+- -- 252
+* -- 3034
+:= -- 3549
+add.period$ -- 198
+call.type$ -- 125
 change.case$ -- 44
 chr.to.int$ -- 0
-cite$ -- 229
-duplicate$ -- 1745
-empty$ -- 3332
-format.name$ -- 245
-if$ -- 7934
+cite$ -- 241
+duplicate$ -- 1812
+empty$ -- 3467
+format.name$ -- 252
+if$ -- 8233
 int.to.chr$ -- 0
-int.to.str$ -- 119
-missing$ -- 444
-newline$ -- 496
-num.names$ -- 118
-pop$ -- 694
+int.to.str$ -- 125
+missing$ -- 465
+newline$ -- 520
+num.names$ -- 124
+pop$ -- 720
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1141
+skip$ -- 1173
 stack$ -- 0
-substring$ -- 1234
-swap$ -- 675
+substring$ -- 1265
+swap$ -- 694
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 110
-while$ -- 228
-width$ -- 122
-write$ -- 938
-(There were 49 error messages)
+warning$ -- 116
+while$ -- 239
+width$ -- 128
+write$ -- 986
+(There were 50 error messages)

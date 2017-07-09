@@ -1,0 +1,56 @@
+Over the past five years, 
+I have always been asked by family, friends, 
+and people I meet, what do you do.
+I have written the introduction of Chapter 1 with a general audience in mind to answer this
+question.
+
+I conducted  my research in order to  better understand the fundamental interactions of elementary particles 
+and to search for unknown physics phenomena by studying proton-proton collisions recorded by the ATLAS detector at the world's
+most powerful particle accelerator, the Large Hadron Collider (LHC) at CERN.
+I have performed this work over five years while being part of the  experimental particle physics group at the University of Oklahoma.
+I spent one year at Argonne National Laboratory as an ATLAS Support Center fellow and I spent the last two years of my PhD at CERN. 
+
+During my PhD, I contributed to two standard model measurements with LHC Run-1 data of proton-proton collisions at 8 \TeV.
+I performed the higher order calculations of the photon production rate which was found to agree with data over ten orders of 
+magnitude. The result helped reduce the uncertainties associated with the dynamic structure of the proton impacting
+every physics result at the LHC \cite{paper-2015-Photon}.
+I also participated in the analysis that made the first experimental observation of the  associated production of a top quark pair
+and a vector boson \cite{paper-2015-ttV}, an important background for the search I present in this dissertation.
+
+The search for supersymmetry is one of the highest priorities of the 
+Large hadron Collider (LHC) program. Both ATLAS and CMS has carried out a 
+vigorous search program to analyze the fast incoming data at the higher 
+center of mass energy of 13 \TeV. 
+The main part of my research is in analyzing the LHC proton-proton collision data at 13 \TeV~
+in final states with two same sign leptons or three leptons and jets to search for supersymmetry
+which has been the subject of several publications \cite{Aaboud:2017dmy,conf-2016-SS3L,paper-2015-SS3L,conf-2015-SS3L}. 
+In this dissertation, I describe in detail the work I performed in searching for supersymmetry in this final state.
+I present my own work, except where explicit reference is made to the work of others.
+It is worth noting that the regulations of the ATLAS collaboration require me to inculde 
+the ``ATLAS'' label in the plots that have used ATLAS data or ATLAS simulation. 
+
+
+The conclusions of this search provide relevant results to help guide the particle physics 
+community in setting constraints on a large variety of supersymmetric models. 
+This search, along with other complementary searches performed by ATLAS, has
+put stringent constraints on strongly produced supersymmetric particles.
+
+
+In addition to analyzing the physics data, I have carried out other projects as part of the ATLAS collaboration.
+I participated in the evolution of the Region of Interest Builder (RoIB), a system that processes 
+every event recoreded by ATLAS \cite{pcroib_orifki}. 
+I increased the ATLAS data acquisition system flexibility and reduced the operational overload associated 
+with custom electronics 
+by migrating the functionality of the RoIB from a custom multi-card crate of VME-based electronics to a single custom PCI-Express 
+(PCIe) card in a commodity-computer. I have helped install the new system in ATLAS at the start of 2016.
+This new system has been used to collect all the data analyzed in this dissertation.
+
+I have also insured the good operation of the ATLAS detector by actively participating in data-taking and fulfilling various 
+supporting roles for the ATLAS data acquisition system. I have taken shift leader shifts at the ATLAS control room 
+where I was responsible for coordinating the activities of the different detectors of ATLAS to have ATLAS ready for collisions,
+and for communicating with the LHC operators about the readiness of ATLAS to have collisions. I have also provided 
+operational support as an on-call expert for two critical elements of the ATLAS data acquisition system; the RoIB and 
+the readout system that buffers all the ATLAS data.
+
+
+
